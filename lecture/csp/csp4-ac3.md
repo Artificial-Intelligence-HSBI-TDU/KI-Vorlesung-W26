@@ -53,7 +53,7 @@ prüfen
 
 ## INFERENCE: Vorab-Prüfung (Forward Checking)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_inference.png" width="65%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_inference_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_inference.png" width="65%" /></picture></p>
 
 **Inference**: Frühzeitiges Erkennen von Fehlschlägen! (vgl. ([Russell
 und Norvig 2021, 178](#ref-Russell2021)))
@@ -74,7 +74,7 @@ Problem: Für B und C bleibt nur noch blau; sind aber benachbart!
 
 ## Forward Checking findet nicht alle Inkonsistenzen!
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/forward_checking.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/forward_checking_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/forward_checking.png" width="40%" /></picture></p>
 
 -   Nach $\lbrace A=red, D=green \rbrace$ bleibt für B und C nur noch
     blue
@@ -223,11 +223,11 @@ Schritt bei der Herstellung von Kantenkonsistenz interpretieren.
 >
 > 1.  Ist die Kante zwischen a und b konsistent?
 >
->     <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_a.png" width="20%" /></p>
+>     <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_a_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_a.png" width="20%" /></picture></p>
 >
 > 2.  Wann ist der Graph lokal konsistent?
 >
->     <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_b.png" width="15%" /></p>
+>     <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_b_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_b.png" width="15%" /></picture></p>
 >
 >     -   a {1,2}; b {2,3}; c {1,2,3}; d {1,2,3}
 >     -   a {1,2}; b {2,3}; c {3}; d {1,2}
@@ -236,7 +236,7 @@ Schritt bei der Herstellung von Kantenkonsistenz interpretieren.
 >
 > 3.  Wie sieht die Queue im nächsten Schritt mit AC3 aus?
 >
->     <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_c.png" width="25%" /></p>
+>     <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_c_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_c.png" width="25%" /></picture></p>
 >
 >     Aktuelle Queue: \[ab, ac, ba, bc, ca, cb\]
 >
@@ -273,4 +273,4 @@ Schritt bei der Herstellung von Kantenkonsistenz interpretieren.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e98a365 2025-10-15 lecture: use local images for challenges (CSP3)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>

@@ -126,7 +126,7 @@ nachinstallieren.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 12d767c 2025-09-15 homework: spread the discussion tasks across the first four exercise sheets<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
 
 [^1]: Im Python-Code tauchen immer wieder "TODO"-Marker auf - bitte mit
     Vorsicht genießen!

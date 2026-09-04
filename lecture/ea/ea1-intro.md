@@ -55,11 +55,11 @@ Quelle: [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
 
 ## EA -- Allgemeiner Ablauf
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz.png" width="60%" /></picture></p>
 
 ## EA -- Beispiel
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example.png" width="25%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example.png" width="25%" /></picture></p>
 
 Jedes Individuum kodiert ein Spielfeld mit einer konkreten Anordnung
 **aller** Königinnen =\> **Vollständige Zustandsbeschreibung**.

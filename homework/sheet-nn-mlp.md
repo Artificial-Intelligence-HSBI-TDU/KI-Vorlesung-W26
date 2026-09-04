@@ -7,7 +7,7 @@ Eingabevariablen $x_1$ und $x_2$ die in der folgenden Abbildung
 blau-grau dargestellten Bereiche mit +1 klassifiziert. Benutzen Sie die
 $\mathop{\text{sign}}$-Funktion als Aktivierungsfunktion.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/perzeptron_netz.png" width="50%" /></p><p align="center">Abbildung 1</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/perzeptron_netz_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/perzeptron_netz.png" width="50%" /></picture></p><p align="center">Abbildung 1</p>
 
 ## NN.MLP.02: Vorwärtslauf im MLP (2P)
 

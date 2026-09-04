@@ -1,4 +1,4 @@
-# TDU: INF701: Künstliche Intelligenz (Winter 2025/26)
+# TDU: INF701: Künstliche Intelligenz (Winter 2026/27)
 
 ## Syllabus TDU
 
@@ -62,7 +62,7 @@ autonomen Fahrzeugen, ...
 
 ### Kursformat (TDU)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan.png" width="80%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan.png" width="80%" /></picture></p>
 
 | Vorlesung (2 SWS)          | Übung (2 SWS)              |
 |:---------------------------|:---------------------------|
@@ -77,7 +77,7 @@ Classroom](https://classroom.google.com/c/NzE4Mzk0NDE5ODEz?cjc=fhzfku3))
 ### Fahrplan (TDU)
 
 | Woche | Thema | Vorlesung: Selbststudium (Vorbereitung) | Vorlesung: Gemeinsame Sitzung | Übung | [AI Connect](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/discussions/16) |
-|:-|:--|:--------------------------|:--------------|:-------|:------------------|
+|:------|:------|:------------------|:-------------|:---------|:---------------|
 | 15.09. | Orga | [Einführung KI](lecture/intro/intro1-overview.md) | [Orga](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/blob/master/readme_tdu.md) (*Zoom*) |  |  |
 | 22.09. | CSP | [Einführung Constraints](lecture/csp/csp1-intro.md) \| [Lösen von diskreten CSP](lecture/csp/csp2-backtrackingsearch.md) \| [CSP und Heuristiken](lecture/csp/csp3-heuristics.md) | [Kantenkonsistenz und AC-3](lecture/csp/csp4-ac3.md) \| [Min-Conflicts Heuristik](lecture/csp/csp5-minconflicts.md) |  |  |
 | 29.09. | NB | [Wahrscheinlichkeitstheorie](lecture/naivebayes/nb1-probability.md) \| [Naive Bayes](lecture/naivebayes/nb2-naivebayes.md) | [Textklassifikation mit NB](lecture/naivebayes/nb3-nb-text.md) | [Blatt: CSP](homework/sheet-csp.md) |  |
@@ -141,4 +141,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com
     ([Pixabay License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 1765d71 2026-03-27 readme: add an extra start heading for the new tooling<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9b46c3e 2026-09-04 hsbi: use current dates<br></sub></sup></p></blockquote>

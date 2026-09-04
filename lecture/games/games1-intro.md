@@ -44,7 +44,7 @@ beste Zug?!**
 
 ## Motivation: Unterschied zu Suche?!
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/tttEnd.png" width="10%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/tttEnd_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/tttEnd.png" width="10%" /></picture></p>
 
 =\> Mehrere **konkurrierende** Agenten an Suche beteiligt!
 
@@ -171,4 +171,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c9e46ab 2025-10-23 lecture: update readings on Minimax and Alpha-Beta-Pruning (Games)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>

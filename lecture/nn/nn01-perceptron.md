@@ -78,7 +78,7 @@ h(\mathbf{x})
 -   $w_0, w_1, w_2, \ldots, w_n$ sind die Parameter des Modells, die es
     zu optimieren gilt.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-network.png" width="70%" /></p><p align="center">Perzeptron Aufbau und Berechnung</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-network_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-network.png" width="70%" /></picture></p><p align="center">Perzeptron Aufbau und Berechnung</p>
 
 #### Lineare Entscheidungsgrenze
 
@@ -98,7 +98,7 @@ $$\mathbf{w}^T\mathbf{x} = w_0 + w_1x_1 + w_2x_2 + \ldots + w_nx_n = 0$$
     $w_0 = 0, w_1 = 2$ und $w_3 = -1$, entsprechend dem Modell
     $h(\mathbf{x}) = \text{sgn}(2x_1 - x_2)$.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-boundary.png" width="50%" /></p><p align="center">Perzeptron Entscheidungsgrenze</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-boundary_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-boundary.png" width="50%" /></picture></p><p align="center">Perzeptron Entscheidungsgrenze</p>
 
 ### Der Perzeptron Lernalgorithmus
 

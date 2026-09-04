@@ -37,7 +37,7 @@
 
 -   Ein Multi-Layer Perzeptron
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/mlp.png" width="65%" /></p>
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/mlp_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/mlp.png" width="65%" /></picture></p>
 
     Ein Vorwärtslauf (forward pass):
     $$a^{[1]} = ReLU \left( W^{[1]} \cdot \mathbb{x} + b^{[1]} \right) \tag{1}$$

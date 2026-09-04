@@ -33,7 +33,7 @@
 
 ## Motivation: Einfärben von Landkarten
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map.png" width="50%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map.png" width="50%" /></picture></p>
 
 Die Skizze soll eine Landkarte mit verschiedenen Ländern darstellen. Die
 Aufgabe lautet: Färbe jedes Land mit einer Farbe ein, um die
@@ -80,7 +80,7 @@ unterschiedliche Farben bekommen (=\> *Constraint*).
 
 ## Constraint-Graph
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_graph.png" width="80%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_graph.png" width="80%" /></picture></p>
 
 Ein CSP kann man auch als Constraint-Graph darstellen. Die Variablen
 werden zu Knoten im Graph, die Constraints zu Kanten zwischen den
@@ -236,4 +236,4 @@ hat ein Constraint?)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 2025-09-27 lecture: fix publishing year of AIMA<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>

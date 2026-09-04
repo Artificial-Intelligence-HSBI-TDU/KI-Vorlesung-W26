@@ -41,7 +41,7 @@
 
 ## EA -- Allgemeiner Ablauf
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz.png" width="60%" /></picture></p>
 
 ## Kodierung Individuen
 
@@ -198,9 +198,9 @@ Die SR liegt im Intervall $[0, 1]$.
 
 ## Typische Läufe
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_fail.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_fail_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_fail.png" width="60%" /></picture></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_success.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_success_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_success.png" width="60%" /></picture></p>
 
 -   Populationsgröße $\mu=15$
 -   Anzahl Nachfahren $\lambda=100$
@@ -324,4 +324,4 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 2a2d1ce 2025-10-23 lecture: update readings for EA/GA<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>

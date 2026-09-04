@@ -144,7 +144,7 @@ vorigen Aufgaben.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> ae651b8 2025-10-04 homework: fix typo (CSP)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
 
 [^1]: Im Python-Code tauchen immer wieder "TODO"-Marker auf - bitte mit
     Vorsicht genießen!

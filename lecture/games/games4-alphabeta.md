@@ -46,7 +46,7 @@
 
 ## Verbesserung Minimax-Algorithmus
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimax.png" width="35%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimax_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimax.png" width="35%" /></picture></p>
 
 =\> **Minimax-Baum**: Verbesserungen möglich?
 
@@ -328,4 +328,4 @@ Quelle: ([<span class="nocase">Silver u. a.</span>
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 36b7f22 2025-10-23 lecture: add links to online simulations for Alpha-Beta-Pruning (Games4)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>

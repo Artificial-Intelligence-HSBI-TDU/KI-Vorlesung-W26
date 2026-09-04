@@ -76,7 +76,7 @@ Minimax-Algorithmus nicht unbedingt eine optimale Strategie.
 
 ### Spielbaum TTT
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/tttSpielbaum.png" width="50%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/tttSpielbaum_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/tttSpielbaum.png" width="50%" /></picture></p>
 
 ### Minimax (Idee)
 
@@ -151,7 +151,7 @@ def Minimax(state):
 
 ## Minimax Beispiel
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimaxBeispiel.png" width="35%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimaxBeispiel_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimaxBeispiel.png" width="35%" /></picture></p>
 
 ### Aufwand Minimax
 
@@ -280,4 +280,4 @@ Gedankenexperiment:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c9e46ab 2025-10-23 lecture: update readings on Minimax and Alpha-Beta-Pruning (Games)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>

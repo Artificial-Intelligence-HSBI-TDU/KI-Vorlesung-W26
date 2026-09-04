@@ -32,7 +32,7 @@
 
 <div data-align="center">
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></picture></p>
 
 </div>
 
@@ -83,7 +83,7 @@ den kürzesten Pfad vom Start zum Ziel beschränken.)
 
 ## BnB: Finde einen Weg von A nach H
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel.png" width="60%" /></picture></p>
 
 ## Bemerkungen zu BnB mit Graph-Search
 
@@ -206,4 +206,4 @@ Siehe [A\*](./search5-astar.md)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 1c7b9c9 2025-10-22 lecture: add relation to Dijkstra (Search3)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>

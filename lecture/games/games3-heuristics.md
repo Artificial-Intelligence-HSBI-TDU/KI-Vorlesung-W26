@@ -39,16 +39,14 @@
 ## Wenn die Zeit nicht reicht: Suchtiefe begrenzen
 
 -   Einführung neuer Funktionen:
+
     1.  `Cutoff-Test` statt `Terminal-Test`
 
         Beispielsweise bei erreichter Tiefe oder Zeitüberschreitung
 
-    <!-- -->
+    2\. `Eval` statt `Utility`
 
-    2.  `Eval` statt `Utility`
-
-        Bewertung der erreichten Position (statt nur Bewertung des
-        Endzustandes)
+        Bewertung der erreichten Position (statt nur Bewertung des Endzustandes)
 
 <!-- -->
 
@@ -124,7 +122,7 @@ Für diese Funktion kann man unterschiedliche Strategien anwenden:
 
 ## Minimax mit mehreren Spielern
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimax3.png" width="35%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimax3_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimax3.png" width="35%" /></picture></p>
 
 Hier maximiert jeder Spieler sein eigenes Ergebnis. Im Grunde müsste
 diese Variante dann besser "Maximax" heissen ...
@@ -147,7 +145,7 @@ Backgammon: Was ist in dieser Situation der optimale Zug?
 
 ## Minimax mit Zufallsspielen: ZUFALLS-Knoten
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/expectimax.png" width="35%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/expectimax_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/expectimax.png" width="35%" /></picture></p>
 
 Zusätzlich zu den MIN- und MAX-Knoten führt man noch Zufalls-Knoten ein,
 um das Würfelergebnis repräsentieren zu können. Je möglichem
@@ -267,4 +265,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c9e46ab 2025-10-23 lecture: update readings on Minimax and Alpha-Beta-Pruning (Games)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>

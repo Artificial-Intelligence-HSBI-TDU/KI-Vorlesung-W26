@@ -1,4 +1,4 @@
-# HSBI: IFM 3.2: Grundlagen der KI (Winter 2025/26)
+# HSBI: IFM 3.2: Grundlagen der KI (Winter 2026/27)
 
 ## Syllabus HSBI
 
@@ -42,7 +42,7 @@ autonomen Fahrzeugen, ...
         -   Steuerung des Trainings: Kreuzvalidierung, Regularisierung
         -   Ausblick: Support-Vektor-Maschinen
     -   Naive Bayes Klassifikator
-3.  ~~Inferenz, Logik~~ (**entfällt im W25**)
+3.  ~~Inferenz, Logik~~ (**entfällt im W26**)
     -   ~~Prädikatenlogik: Modellierung, semantische und formale
         Beweise, Unifikation, Resolution~~
     -   ~~Ausblick: Anwendung in Prolog~~
@@ -57,48 +57,42 @@ autonomen Fahrzeugen, ...
 
 ### Kursformat (HSBI)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan.png" width="80%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan.png" width="80%" /></picture></p>
 
-| Vorlesung (2 SWS): bis 26.10. | Vorlesung (2 SWS): ab 26.10. | Praktikum (2 SWS) |
-|:-----------------------|:----------------------|:------------------------|
-| Mo, 09:00 - 10:30 Uhr (DE) | Mo, 08:00 - 09:30 Uhr (DE) | G1: Mo, 10:00 - 11:30 Uhr (DE) |
-| (online, Zoom) | (online, Zoom) | G2: Mo, 13:30 - 15:00 Uhr (DE) |
-|  |  | G3: Mo, 15:00 - 16:30 Uhr (DE) |
-|  |  | G4: Mo, 16:30 - 18:00 Uhr (DE) |
-|  |  | (online, Zoom) |
+| Vorlesung (2 SWS)          | Praktikum (2 SWS)              |
+|:---------------------------|:-------------------------------|
+| Mo, 09:00 - 10:30 Uhr (DE) | G1: Mo, 10:45 - 12:15 Uhr (DE) |
+| (*Flipped Classroom*)      | G2: Mi, 15:45 - 17:15 Uhr (DE) |
+|                            | G3: Mo, 14:00 - 15:30 Uhr (DE) |
+|                            | G4: Do, 14:00 - 15:30 Uhr (DE) |
 
-Durchführung der Vorlesung als *Flipped Classroom*. Alle
-Online-Sitzungen per Zoom. Zugangsdaten siehe
-[ILIAS](https://www.hsbi.de/elearning/goto.php/crs/1555856).
+Alle Sitzungen online per Zoom (**Zugangsdaten siehe
+[ILIAS](https://www.hsbi.de/elearning/goto.php/crs/1634793)**).
 
 ### Fahrplan (HSBI)
 
-Hier finden Sie einen abonnierbaren [Google
-Kalender](https://calendar.google.com/calendar/ical/552fdc6c19e64eda7b36b2d16a88bf4b7e593af2c520afbe1aeeb0bb4f43107d%40group.calendar.google.com/public/basic.ics)
-mit allen Terminen der Veranstaltung zum Einbinden in Ihre Kalender-App.
-
-Abgabe der Übungsblätter jeweils **Montag bis 10:00 Uhr** im
+Abgabe der Übungsblätter jeweils **Montag bis 09:00 Uhr** im
 [ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1582797). Vorstellung
 der Lösung im jeweiligen Praktikum in der Abgabewoche.
 
-| Woche | Thema | Vorlesung: Selbststudium (Vorbereitung) | Vorlesung: Gemeinsame Sitzung | Praktikum | [AI Connect](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/discussions/16) |
-|:--|:--|:-----------------------|:--------------------|:------|:----------------|
-| 06.10. | Orga, Intro | [Einführung KI](lecture/intro/intro1-overview.md) \| [Problemlösen](lecture/intro/intro2-problemsolving.md) | [Orga](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/blob/master/readme_hsbi.md) (*Zoom*) \|\| [Einführung Jupyter-Notebooks](lecture/intro/intro3-jupyternotebooks.md) |  |  |
-| 13.10. | Search | [Tiefensuche](lecture/searching/search1-dfs.md) \| [Breitensuche](lecture/searching/search2-bfs.md) \| [Branch-and-Bound](lecture/searching/search3-branchandbound.md) \| [Best First](lecture/searching/search4-bestfirst.md) | [A-Stern](lecture/searching/search5-astar.md) |  |  |
-| 20.10. | EA | [Gradientensuche](lecture/searching/search6-gradient.md) \| [Simulated Annealing](lecture/searching/search7-annealing.md) \|\| [Intro EA/GA](lecture/ea/ea1-intro.md) | [Genetische Algorithmen](lecture/ea/ea2-ga.md) | [Blatt: Search](homework/sheet-search.md) |  |
-| 27.10. | Games | [Optimale Spiele](lecture/games/games1-intro.md) \| [Games mit Minimax](lecture/games/games2-minimax.md) \| [Minimax und Heuristiken](lecture/games/games3-heuristics.md) | [Alpha-Beta-Pruning](lecture/games/games4-alphabeta.md) | [Blatt: EA/GA](homework/sheet-ea.md) |  |
-| 03.11. | DTL | [Machine Learning 101](lecture/dtl/dtl1-mlbasics.md) \| [CAL2](lecture/dtl/dtl2-cal2.md) \| [Pruning](lecture/dtl/dtl3-pruning.md) \| [CAL3](lecture/dtl/dtl4-cal3.md) | [Entropie](lecture/dtl/dtl5-entropy.md) \| [ID3 und C4.5](lecture/dtl/dtl6-id3.md) | [Blatt: Games](homework/sheet-games.md) |  |
-| 10.11. | CSP | [Einführung Constraints](lecture/csp/csp1-intro.md) \| [Lösen von diskreten CSP](lecture/csp/csp2-backtrackingsearch.md) \| [CSP und Heuristiken](lecture/csp/csp3-heuristics.md) | [Kantenkonsistenz und AC-3](lecture/csp/csp4-ac3.md) \| [Min-Conflicts Heuristik](lecture/csp/csp5-minconflicts.md) | [Blatt: DTL](homework/sheet-dtl.md) |  |
-| 17.11. | Perzeptron | [Perzeptron](lecture/nn/nn01-perceptron.md) | Perzeptron Lernalgorithmus Beispiel | [Blatt: CSP](homework/sheet-csp.md) |  |
-| 24.11. | Lin. Regr. | [Lineare Regression und Gradientenabstieg](lecture/nn/nn02-linear-regression.md) | Gradientenabstieg Beispiel | [Blatt: Perzeptron](homework/sheet-nn-perceptron.md) |  |
-| 01.12. | Log. Regr. | [Logistische Regression](lecture/nn/nn03-logistic-regression.md) | **ab 09:00**: Logistische Regression Beispiel |  | **Mo, 01.12., 08:00 Uhr: Kick-Off und Team-Building** [Warm-up Task](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/discussions/20) |
-| 08.12. | MLP | [Overfitting und Regularisierung](lecture/nn/nn04-overfitting.md) \|\| [Multilayer Perceptron (MLP)](lecture/nn/nn05-mlp.md) | **ab 09:00**: MLP Beispiel |  | **Mo, 08.12., 08:00 Uhr: Project Launch** |
-| 15.12. | Backprop | [Backpropagation](lecture/nn/nn06-backprop.md) | Backpropagation Beispiel |  | **Fr, 19.12., 10:30 Uhr: Team-Präsentationen** |
-| *22.12.* |  |  | *Weihnachtspause* |  |  |
-| *29.12.* |  |  | *Weihnachtspause* |  |  |
-| 05.01. | Train&Test | [Training & Testing](lecture/nn/nn07-training-testing.md) | [Performanzanalyse](lecture/nn/nn08-testing.md) | [Blatt: MLP](homework/sheet-nn-mlp.md) |  |
-| 12.01. | NB | [Wahrscheinlichkeitstheorie](lecture/naivebayes/nb1-probability.md) \| [Naive Bayes](lecture/naivebayes/nb2-naivebayes.md) | [Textklassifikation mit NB](lecture/naivebayes/nb3-nb-text.md) | [Blatt: Backprop](homework/sheet-nn-backprop.md) |  |
-| 19.01. | PV | [Prüfungsvorbereitung HSBI](admin/exams-hsbi.md) | Rückblick (*Zoom*) | [Blatt: Naive Bayes](homework/sheet-nb.md) |  |
+| Monat | Woche vom | Vorlesung (Mo) | Praktikum (Mo/Mi/Do) |
+|-----|:---------|:------------------------------|:--------------------------|
+| Oktober | 12\. ... | [Orga](./readme_hsbi.md) \|\| [Einführung KI & Problemlösen](lecture/intro/readme.md) |  |
+|  | 19\. ... | [Suche (Search)](lecture/searching/readme.md) |  |
+|  | 26\. ... | [Gradientensuche](lecture/searching/search6-gradient.md) & [Simulated Annealing](lecture/searching/search7-annealing.md) \|\| [Evolutionäre Algorithmen (EA)](lecture/ea/readme.md) |  |
+| November | 02\. ... | [Optimale Spiele (Games)](lecture/games/readme.md) |  |
+|  | 09\. ... | [Entscheidungsbäume (DTL)](lecture/dtl/readme.md) |  |
+|  | 16\. ... | [Constraints (CSP)](lecture/csp/readme.md) |  |
+|  | 23\. ... | [Perzeptron](lecture/nn/nn01-perceptron.md) |  |
+| Dezember | 30\. ... | [Lineare Regression und Gradientenabstieg](lecture/nn/nn02-linear-regression.md) |  |
+|  | 07\. ... | [Logistische Regression](lecture/nn/nn03-logistic-regression.md) |  |
+|  | 14\. ... | [Overfitting und Regularisierung](lecture/nn/nn04-overfitting.md) \|\| [Multilayer Perceptron (MLP)](lecture/nn/nn05-mlp.md) |  |
+|  | *21. ...* | ***Weihnachtspause*** |  |
+|  | *28. ...* | ***Weihnachtspause*** |  |
+| Januar | 04\. ... | [Backpropagation](lecture/nn/nn06-backprop.md) |  |
+|  | 11\. ... | [Training & Testing](lecture/nn/nn07-training-testing.md) \| [Performanzanalyse](lecture/nn/nn08-testing.md) |  |
+|  | 18\. ... | [Naive Bayes (NB)](lecture/naivebayes/readme.md) |  |
+|  | 25\. ... | [Prüfungsvorbereitung HSBI](admin/exams-hsbi.md) \| Rückblick |  |
 
 ### Prüfungsform, Note und Credits (HSBI)
 
@@ -197,4 +191,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com
     ([Pixabay License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 1765d71 2026-03-27 readme: add an extra start heading for the new tooling<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9b46c3e 2026-09-04 hsbi: use current dates<br></sub></sup></p></blockquote>

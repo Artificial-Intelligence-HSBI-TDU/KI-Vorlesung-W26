@@ -1,4 +1,4 @@
-# IFM 3.2 / INF701: Künstliche Intelligenz (Winter 2025/26)
+# IFM 3.2 / INF701: Künstliche Intelligenz (Winter 2026/27)
 
 <a id="id-da39a3ee5e6b4b0d3255bfef95601890afd80709"></a>
 
@@ -83,7 +83,7 @@ for a detailed list of contributing projects.
 
 <a id="id-b21a245fb1bac510210f7712bce0dbd9e2a468b5"></a>
 
-## TDU: INF701: Künstliche Intelligenz (Winter 2025/26)
+## TDU: INF701: Künstliche Intelligenz (Winter 2026/27)
 
 ### Syllabus TDU
 
@@ -147,7 +147,7 @@ autonomen Fahrzeugen, ...
 
 #### Kursformat (TDU)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan.png" width="80%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan.png" width="80%" /></picture></p>
 
 | Vorlesung (2 SWS)          | Übung (2 SWS)              |
 |:---------------------------|:---------------------------|
@@ -162,7 +162,7 @@ Classroom](https://classroom.google.com/c/NzE4Mzk0NDE5ODEz?cjc=fhzfku3))
 #### Fahrplan (TDU)
 
 | Woche | Thema | Vorlesung: Selbststudium (Vorbereitung) | Vorlesung: Gemeinsame Sitzung | Übung | [AI Connect](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/discussions/16) |
-|:--|:---|:------------------------|:--------------|:--------|:-----------------|
+|:-------|:-------|:-----------------|:-------------|:---------|:---------------|
 | 15.09. | Orga | [Einführung KI](#id-ca2e904964509a28710797d2f876c625f54f64ea) | [Orga](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/blob/master/readme_tdu.md) (*Zoom*) |  |  |
 | 22.09. | CSP | [Einführung Constraints](#id-84f051404cae6b3a63ddc230ad80cb495047845f) \| [Lösen von diskreten CSP](#id-3b6247c92b0af037c1f0c4837facaaa1b25420c3) \| [CSP und Heuristiken](#id-aef0213ac4bbd41501955f0ec950c44d1756a5cf) | [Kantenkonsistenz und AC-3](#id-a9b47eac39d203917d2689bbfad8003315b2990c) \| [Min-Conflicts Heuristik](#id-9d0480f68cb0e1adb81cdc4b9b357168511b77d5) |  |  |
 | 29.09. | NB | [Wahrscheinlichkeitstheorie](#id-cd12d8faa8a855e40fd112b32dc98078382d90aa) \| [Naive Bayes](#id-cd72f1bd942f6b05157da80ba479a7a493d898c1) | [Textklassifikation mit NB](#id-6e322bc628d8ff7a4faa38fa42a09770217ab4fb) | [Blatt: CSP](#id-97b1dd75d6bb5e4678ebee3df7fe5a521e52d6e2) |  |
@@ -214,7 +214,7 @@ TDU](#id-a9a587e6c5156b582e9029de040daaab2e66903b)**.
 
 <a id="id-f4b85a8855bfcf6dc9299224bc5aa73488d6ab79"></a>
 
-## HSBI: IFM 3.2: Grundlagen der KI (Winter 2025/26)
+## HSBI: IFM 3.2: Grundlagen der KI (Winter 2026/27)
 
 ### Syllabus HSBI
 
@@ -258,7 +258,7 @@ autonomen Fahrzeugen, ...
         -   Steuerung des Trainings: Kreuzvalidierung, Regularisierung
         -   Ausblick: Support-Vektor-Maschinen
     -   Naive Bayes Klassifikator
-3.  ~~Inferenz, Logik~~ (**entfällt im W25**)
+3.  ~~Inferenz, Logik~~ (**entfällt im W26**)
     -   ~~Prädikatenlogik: Modellierung, semantische und formale
         Beweise, Unifikation, Resolution~~
     -   ~~Ausblick: Anwendung in Prolog~~
@@ -273,48 +273,42 @@ autonomen Fahrzeugen, ...
 
 #### Kursformat (HSBI)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan.png" width="80%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan.png" width="80%" /></picture></p>
 
-| Vorlesung (2 SWS): bis 26.10. | Vorlesung (2 SWS): ab 26.10. | Praktikum (2 SWS) |
-|:-----------------------|:----------------------|:------------------------|
-| Mo, 09:00 - 10:30 Uhr (DE) | Mo, 08:00 - 09:30 Uhr (DE) | G1: Mo, 10:00 - 11:30 Uhr (DE) |
-| (online, Zoom) | (online, Zoom) | G2: Mo, 13:30 - 15:00 Uhr (DE) |
-|  |  | G3: Mo, 15:00 - 16:30 Uhr (DE) |
-|  |  | G4: Mo, 16:30 - 18:00 Uhr (DE) |
-|  |  | (online, Zoom) |
+| Vorlesung (2 SWS)          | Praktikum (2 SWS)              |
+|:---------------------------|:-------------------------------|
+| Mo, 09:00 - 10:30 Uhr (DE) | G1: Mo, 10:45 - 12:15 Uhr (DE) |
+| (*Flipped Classroom*)      | G2: Mi, 15:45 - 17:15 Uhr (DE) |
+|                            | G3: Mo, 14:00 - 15:30 Uhr (DE) |
+|                            | G4: Do, 14:00 - 15:30 Uhr (DE) |
 
-Durchführung der Vorlesung als *Flipped Classroom*. Alle
-Online-Sitzungen per Zoom. Zugangsdaten siehe
-[ILIAS](https://www.hsbi.de/elearning/goto.php/crs/1555856).
+Alle Sitzungen online per Zoom (**Zugangsdaten siehe
+[ILIAS](https://www.hsbi.de/elearning/goto.php/crs/1634793)**).
 
 #### Fahrplan (HSBI)
 
-Hier finden Sie einen abonnierbaren [Google
-Kalender](https://calendar.google.com/calendar/ical/552fdc6c19e64eda7b36b2d16a88bf4b7e593af2c520afbe1aeeb0bb4f43107d%40group.calendar.google.com/public/basic.ics)
-mit allen Terminen der Veranstaltung zum Einbinden in Ihre Kalender-App.
-
-Abgabe der Übungsblätter jeweils **Montag bis 10:00 Uhr** im
+Abgabe der Übungsblätter jeweils **Montag bis 09:00 Uhr** im
 [ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1582797). Vorstellung
 der Lösung im jeweiligen Praktikum in der Abgabewoche.
 
-| Woche | Thema | Vorlesung: Selbststudium (Vorbereitung) | Vorlesung: Gemeinsame Sitzung | Praktikum | [AI Connect](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/discussions/16) |
-|:---|:---|:---------------------|:-------------------|:-------|:---------------|
-| 06.10. | Orga, Intro | [Einführung KI](#id-ca2e904964509a28710797d2f876c625f54f64ea) \| [Problemlösen](#id-7a896d9c036ef29a6574730757ae03cd7c0d3e26) | [Orga](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/blob/master/readme_hsbi.md) (*Zoom*) \|\| [Einführung Jupyter-Notebooks](#id-37999e3f5ed2a133fbaf6ee91fdb94138df2391d) |  |  |
-| 13.10. | Search | [Tiefensuche](#id-3263461a899091090f8d87ea7f7f3f25bf8255eb) \| [Breitensuche](#id-d08f602e3cf0c02bc97cd5125053645dfe917271) \| [Branch-and-Bound](#id-0712fba7e7ca1e4684ed9b6de19345ba86fba471) \| [Best First](#id-0a43351a075c7504b755675510f9395b5dd8c092) | [A-Stern](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5) |  |  |
-| 20.10. | EA | [Gradientensuche](#id-3e0f73b743e74f106aacc68840406273348f8341) \| [Simulated Annealing](#id-bafda494229223827755dbbffb5862eeb7e31262) \|\| [Intro EA/GA](#id-aa3481a03ed2e17666ced54325637e0551022587) | [Genetische Algorithmen](#id-c99ae5cae334ccb182fc61d94707f8e7cdf363c9) | [Blatt: Search](#id-ab3ff3658bdafaf1ee5c17c11ffae098b587c048) |  |
-| 27.10. | Games | [Optimale Spiele](#id-f669cc4761526fb137b102a84bf0b7a3c8e1b51a) \| [Games mit Minimax](#id-5438da7280b20127b14a6fc6336d798d64ef51d6) \| [Minimax und Heuristiken](#id-a9ac054922401b7eb9285dc81c4d01960ce147ec) | [Alpha-Beta-Pruning](#id-c8c274bfbd36e9fdbf8c47df5f99c064b06d9ff3) | [Blatt: EA/GA](#id-cb2cf09f6031a168fc7c9094c3ee2d9df377e9f0) |  |
-| 03.11. | DTL | [Machine Learning 101](#id-82f362361464406c7ba09ef4a0893a4e32983b94) \| [CAL2](#id-4807e4a11529854b6d77f86cd3ca37caabc11cc9) \| [Pruning](#id-19ffac22140785b62f48ef3e44c1bde3a43d2054) \| [CAL3](#id-1867142959094a5c852b79c1c6f3caed8e931b63) | [Entropie](#id-f085a6c9977296f3811e103376badb06ee228d84) \| [ID3 und C4.5](#id-0d69ce52eac18a7d932147cc42b20bcd98d267f3) | [Blatt: Games](#id-999c549c4e5cc5a8e810d1e55e7b21a1e3c85906) |  |
-| 10.11. | CSP | [Einführung Constraints](#id-84f051404cae6b3a63ddc230ad80cb495047845f) \| [Lösen von diskreten CSP](#id-3b6247c92b0af037c1f0c4837facaaa1b25420c3) \| [CSP und Heuristiken](#id-aef0213ac4bbd41501955f0ec950c44d1756a5cf) | [Kantenkonsistenz und AC-3](#id-a9b47eac39d203917d2689bbfad8003315b2990c) \| [Min-Conflicts Heuristik](#id-9d0480f68cb0e1adb81cdc4b9b357168511b77d5) | [Blatt: DTL](#id-4a134eae1417a20b6726b2fdc2b1dfd28a683e29) |  |
-| 17.11. | Perzeptron | [Perzeptron](#id-e3a8542d0a1d7b0c7eb04d713c7976160d0eaf84) | Perzeptron Lernalgorithmus Beispiel | [Blatt: CSP](#id-97b1dd75d6bb5e4678ebee3df7fe5a521e52d6e2) |  |
-| 24.11. | Lin. Regr. | [Lineare Regression und Gradientenabstieg](#id-52f9015d59d2dde3e4f18acb1be26aa3c10759ab) | Gradientenabstieg Beispiel | [Blatt: Perzeptron](#id-509c9bafc24171e16bb93dfcd473d2b9bae04d15) |  |
-| 01.12. | Log. Regr. | [Logistische Regression](#id-c320456aa6e007de53f56d63d12b19d7351a2f77) | **ab 09:00**: Logistische Regression Beispiel |  | **Mo, 01.12., 08:00 Uhr: Kick-Off und Team-Building** [Warm-up Task](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/discussions/20) |
-| 08.12. | MLP | [Overfitting und Regularisierung](#id-ff282a3dce4dd000d38f923a472a928c94b93436) \|\| [Multilayer Perceptron (MLP)](#id-94eb0e9e9c19bba8118b63b08886a14024a2acf3) | **ab 09:00**: MLP Beispiel |  | **Mo, 08.12., 08:00 Uhr: Project Launch** |
-| 15.12. | Backprop | [Backpropagation](#id-f08c9adef34314d8e7af05e5874f87e61cfd93a9) | Backpropagation Beispiel |  | **Fr, 19.12., 10:30 Uhr: Team-Präsentationen** |
-| *22.12.* |  |  | *Weihnachtspause* |  |  |
-| *29.12.* |  |  | *Weihnachtspause* |  |  |
-| 05.01. | Train&Test | [Training & Testing](#id-59d01c7aa50822d6f5b2f5f0413bf60ad710fcdf) | [Performanzanalyse](#id-754af026d5303aa4a872ce1693668530aefee309) | [Blatt: MLP](#id-cba17b43f628a8fbf19e217d186183ebcd63bad5) |  |
-| 12.01. | NB | [Wahrscheinlichkeitstheorie](#id-cd12d8faa8a855e40fd112b32dc98078382d90aa) \| [Naive Bayes](#id-cd72f1bd942f6b05157da80ba479a7a493d898c1) | [Textklassifikation mit NB](#id-6e322bc628d8ff7a4faa38fa42a09770217ab4fb) | [Blatt: Backprop](#id-670c545ed4052dcfd1d123a2ba8b68b3154acccc) |  |
-| 19.01. | PV | [Prüfungsvorbereitung HSBI](#id-b84558cce3a2e0f317eaa3c5c23c6f26a9cc2232) | Rückblick (*Zoom*) | [Blatt: Naive Bayes](#id-8b661cb2908035ca0da1b1837f2b800c4381ebad) |  |
+| Monat | Woche vom | Vorlesung (Mo) | Praktikum (Mo/Mi/Do) |
+|------|:----------|:-----------------------------|:-------------------------|
+| Oktober | 12\. ... | [Orga](#id-f4b85a8855bfcf6dc9299224bc5aa73488d6ab79) \|\| [Einführung KI & Problemlösen](#id-fbece8c23eb18f195eef37dafe8cc4dd0402df83) |  |
+|  | 19\. ... | [Suche (Search)](#id-4044be34dad294400c30b65b7aa9562a295a9706) |  |
+|  | 26\. ... | [Gradientensuche](#id-3e0f73b743e74f106aacc68840406273348f8341) & [Simulated Annealing](#id-bafda494229223827755dbbffb5862eeb7e31262) \|\| [Evolutionäre Algorithmen (EA)](#id-c633734e214fe0c502ce13ed3f7e3bbb407a6c04) |  |
+| November | 02\. ... | [Optimale Spiele (Games)](#id-8f8b06dd42bba87fdbb232132c43d31fe1f102e7) |  |
+|  | 09\. ... | [Entscheidungsbäume (DTL)](#id-e73b2ad67e99dedd6f64964fd6a8c6786c315283) |  |
+|  | 16\. ... | [Constraints (CSP)](#id-febf03ee88f1ee559549a97eb9973ff5644d0a0a) |  |
+|  | 23\. ... | [Perzeptron](#id-e3a8542d0a1d7b0c7eb04d713c7976160d0eaf84) |  |
+| Dezember | 30\. ... | [Lineare Regression und Gradientenabstieg](#id-52f9015d59d2dde3e4f18acb1be26aa3c10759ab) |  |
+|  | 07\. ... | [Logistische Regression](#id-c320456aa6e007de53f56d63d12b19d7351a2f77) |  |
+|  | 14\. ... | [Overfitting und Regularisierung](#id-ff282a3dce4dd000d38f923a472a928c94b93436) \|\| [Multilayer Perceptron (MLP)](#id-94eb0e9e9c19bba8118b63b08886a14024a2acf3) |  |
+|  | *21. ...* | ***Weihnachtspause*** |  |
+|  | *28. ...* | ***Weihnachtspause*** |  |
+| Januar | 04\. ... | [Backpropagation](#id-f08c9adef34314d8e7af05e5874f87e61cfd93a9) |  |
+|  | 11\. ... | [Training & Testing](#id-59d01c7aa50822d6f5b2f5f0413bf60ad710fcdf) \| [Performanzanalyse](#id-754af026d5303aa4a872ce1693668530aefee309) |  |
+|  | 18\. ... | [Naive Bayes (NB)](#id-85336e6e9ec1a7afa051200d673a68c48f6f9535) |  |
+|  | 25\. ... | [Prüfungsvorbereitung HSBI](#id-b84558cce3a2e0f317eaa3c5c23c6f26a9cc2232) \| Rückblick |  |
 
 #### Prüfungsform, Note und Credits (HSBI)
 
@@ -665,7 +659,7 @@ Intention oder Bewusstsein vorhanden ist.
 
 ##### Typische Ansätze in der KI
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/dimensionen-ki.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/dimensionen-ki_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/dimensionen-ki.png" width="40%" /></picture></p>
 
 Untersuchung von
 
@@ -1039,7 +1033,7 @@ CS221](https://youtu.be/J8Eh7RqggsU) an. (Vorsicht: Das ist recht lang.)
 
 ##### Motivation: Roboter in einer Bibliothek
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/problem.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/problem_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/problem.png" width="40%" /></picture></p>
 
 **Aktionen:**
 
@@ -1072,7 +1066,7 @@ Bemerkungen zur Umwelt:
 
 ##### Zustände der Bibliotheks-Welt
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/states.png" width="55%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/states_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/states.png" width="55%" /></picture></p>
 
 **Problem:** Gegeben einen Startzustand, wie komme ich zum Ziel?
 
@@ -1089,7 +1083,7 @@ Ergebnis:
 
 ##### Suche im Problemgraphen
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/state-space.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/state-space_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/state-space.png" width="60%" /></picture></p>
 
 -   Durch die Suche im Problemgraphen wird ein Suchbaum aufgespannt
 -   Varianten: Zustände können in einem Pfad wiederholt vorkommen
@@ -1421,7 +1415,7 @@ Einschränkungen bzw. Relationen zwischen den Variablen gelten.
 
 ##### Motivation: Einfärben von Landkarten
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map.png" width="50%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map.png" width="50%" /></picture></p>
 
 Die Skizze soll eine Landkarte mit verschiedenen Ländern darstellen. Die
 Aufgabe lautet: Färbe jedes Land mit einer Farbe ein, um die
@@ -1468,7 +1462,7 @@ unterschiedliche Farben bekommen (=\> *Constraint*).
 
 ##### Constraint-Graph
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_graph.png" width="80%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_graph.png" width="80%" /></picture></p>
 
 Ein CSP kann man auch als Constraint-Graph darstellen. Die Variablen
 werden zu Knoten im Graph, die Constraints zu Kanten zwischen den
@@ -1628,7 +1622,7 @@ hat ein Constraint?)
 
 ##### Einfärben von Landkarten als CSP
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_graph.png" width="80%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_graph.png" width="80%" /></picture></p>
 
 ##### Endliche Domänen: Formulierung als Suchproblem
 
@@ -1660,7 +1654,7 @@ mache notfalls Backtracking.
 
 ##### BT-Suche für CSP am Beispiel Landkartenfärbeproblem
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_progress.png" width="80%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_progress_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_progress.png" width="80%" /></picture></p>
 
 ##### Wrap-Up
 
@@ -1751,7 +1745,7 @@ mache notfalls Backtracking.
 
 ##### VARIABLES: Variablen-Sortierung, Welche Variable soll betrachtet werden?
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_mrv.png" width="65%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_mrv_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_mrv.png" width="65%" /></picture></p>
 
 **VARIABLES**: Welche Variable zuerst ausprobieren?
 
@@ -1772,7 +1766,7 @@ Beispiel:
 
 ##### VARIABLES: Gleichstand bei MRV
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_mrv.png" width="65%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_mrv_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_mrv.png" width="65%" /></picture></p>
 
 **VARIABLES**: Welche Variable zuerst ausprobieren?
 
@@ -1798,7 +1792,7 @@ Beispiel:
 
 ##### VALUES: Werte-Sortierung, Welchen Wert soll ich ausprobieren?
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_lcv.png" width="65%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_lcv_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_lcv.png" width="65%" /></picture></p>
 
 **VALUES**: Welchen Wert zuerst ausprobieren?
 
@@ -1969,7 +1963,7 @@ prüfen
 
 ##### INFERENCE: Vorab-Prüfung (Forward Checking)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_inference.png" width="65%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_inference_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_inference.png" width="65%" /></picture></p>
 
 **Inference**: Frühzeitiges Erkennen von Fehlschlägen! (vgl. ([Russell
 und Norvig 2021, 178](#ref-Russell2021)))
@@ -1990,7 +1984,7 @@ Problem: Für B und C bleibt nur noch blau; sind aber benachbart!
 
 ##### Forward Checking findet nicht alle Inkonsistenzen!
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/forward_checking.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/forward_checking_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/forward_checking.png" width="40%" /></picture></p>
 
 -   Nach $\lbrace A=red, D=green \rbrace$ bleibt für B und C nur noch
     blue
@@ -2139,11 +2133,11 @@ Schritt bei der Herstellung von Kantenkonsistenz interpretieren.
 >
 > 1.  Ist die Kante zwischen a und b konsistent?
 >
->     <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_a.png" width="20%" /></p>
+>     <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_a_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_a.png" width="20%" /></picture></p>
 >
 > 2.  Wann ist der Graph lokal konsistent?
 >
->     <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_b.png" width="15%" /></p>
+>     <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_b_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_b.png" width="15%" /></picture></p>
 >
 >     -   a {1,2}; b {2,3}; c {1,2,3}; d {1,2,3}
 >     -   a {1,2}; b {2,3}; c {3}; d {1,2}
@@ -2152,7 +2146,7 @@ Schritt bei der Herstellung von Kantenkonsistenz interpretieren.
 >
 > 3.  Wie sieht die Queue im nächsten Schritt mit AC3 aus?
 >
->     <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_c.png" width="25%" /></p>
+>     <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_c_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/csp_challenge_c.png" width="25%" /></picture></p>
 >
 >     Aktuelle Queue: \[ab, ac, ba, bc, ca, cb\]
 >
@@ -2204,7 +2198,7 @@ Schritt bei der Herstellung von Kantenkonsistenz interpretieren.
 
 ##### Problem bei BT-Suche
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_progress.png" width="80%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_progress_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_progress.png" width="80%" /></picture></p>
 
 Die [BT-Search](#id-3b6247c92b0af037c1f0c4837facaaa1b25420c3) würde den
 Graphen ablaufen und schrittweise dem jeweils ausgewählten Knoten eine
@@ -2237,11 +2231,11 @@ Heuristiken einsetzt.
 
 Ausgangszustand:
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_graph.png" width="75%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_graph.png" width="75%" /></picture></p>
 
 Schritt 1: "Würfeln" (zufällige vollständige Belegung)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/min_conflicts1.png" width="50%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/min_conflicts1_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/min_conflicts1.png" width="50%" /></picture></p>
 
 **Problem**: Konflikt in Knoten B und C.
 
@@ -2251,7 +2245,7 @@ Schritt 2: "Schütteln"
 -   Auswahl einer anderen Farbe (grün - Anzahl der verbleibenden
     Konflikte = 0)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/min_conflicts2.png" width="50%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/min_conflicts2_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/min_conflicts2.png" width="50%" /></picture></p>
 
 **Lösung erreicht.**
 
@@ -3648,7 +3642,7 @@ das Training damit durch.
 Likelihoods müssen entsprechend angepasst werden!
 
 | Klasse | sieben | zwerg | fressen | ziege | treten | wolf | bock | UNK | Anzahl Wörter | Anzahl Dokumente |
-|:-----|:-----|:-----|:------|:-----|:-----|:----|:----|:----|:---------|:-----------|
+|:-----|:-----|:-----|:------|:-----|:-----|:-----|:-----|:-----|:-------|:---------|
 | OK | 6 | 2 | 2 | 1 | 1 | 1 | 2 | 0 | 15 | 3 |
 | SPAM | 2 | 0 | 0 | 1 | 1 | 1 | 0 | 0 | 5 | 1 |
 
@@ -3925,7 +3919,7 @@ und nach betrachteten Kosten unterschiedliche Suchalgorithmen.
 
 <div data-align="center">
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/scene.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/scene_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/scene.png" width="60%" /></picture></p>
 
 </div>
 
@@ -3950,7 +3944,7 @@ Dabei sind die Durchgänge teilweise nur in einer Richtung zu benutzen
 
 <div data-align="center">
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></picture></p>
 
 </div>
 
@@ -4001,7 +3995,7 @@ Reihenfolge der Knoten (Orte).
 
 <div data-align="center">
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel.png" width="60%" /></picture></p>
 
 </div>
 
@@ -4161,7 +4155,7 @@ Siehe [Breitensuche](#id-d08f602e3cf0c02bc97cd5125053645dfe917271)
 
 <div data-align="center">
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></picture></p>
 
 </div>
 
@@ -4195,7 +4189,7 @@ Varianten:
 
 <div data-align="center">
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel.png" width="60%" /></picture></p>
 
 </div>
 
@@ -4363,7 +4357,7 @@ anwendbaren Operationen bestimmt.)
 
 <div data-align="center">
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></picture></p>
 
 </div>
 
@@ -4414,7 +4408,7 @@ den kürzesten Pfad vom Start zum Ziel beschränken.)
 
 ##### BnB: Finde einen Weg von A nach H
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel.png" width="60%" /></picture></p>
 
 ##### Bemerkungen zu BnB mit Graph-Search
 
@@ -4543,7 +4537,7 @@ Siehe [A\*](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5)
 
 <div data-align="center">
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></picture></p>
 
 </div>
 
@@ -4660,7 +4654,7 @@ Siehe [A\*](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5)
 > Commons ([Public
 > Domain](https://en.wikipedia.org/wiki/en:public_domain))
 >
-> <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenge.png"  /></p>
+> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenge_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenge.png"  /></picture></p>
 >
 > Finden Sie mit der **Best-First-Suche** jeweils einen Weg von Würzburg
 > nach München. Vergleichen Sie das Ergebnis mit der Gradienten-Suche.
@@ -4706,7 +4700,7 @@ Siehe [A\*](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5)
 
 <div data-align="center">
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></picture></p>
 
 </div>
 
@@ -4744,7 +4738,7 @@ Varianten:
 
 <div data-align="center">
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel.png" width="60%" /></picture></p>
 
 </div>
 
@@ -4834,7 +4828,7 @@ Außerdem muss gelten:
 ##### Eigenschaften Branch-and-Bound, Best-First, A\*
 
 |  | **Branch-and-Bound** | **Best-First** | **A\*** |
-|:-----------|:-------------------|:--------------------|:--------------------|
+|:-------------|:------------------|:-------------------|:-------------------|
 | Kosten | $f(n) = g(n)$ | $f(n) = h(n)$ | $f(n) = g(n) + h(n)$ |
 | Vollständigkeit | ja[^4] | nein[^5] | ja |
 | Optimalität | ja | nein | ja |
@@ -4906,7 +4900,7 @@ Außerdem muss gelten:
 >
 > Betrachten Sie folgendes Problem:
 >
-> <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenges_robby.png" width="60%" /></p>
+> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenges_robby_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenges_robby.png" width="60%" /></picture></p>
 >
 > Dargestellt ist eine typische Büroumgebung mit verschiedenen Räumen
 > und einem Flur. Die Pfeile in den Durchgängen geben an, in welche
@@ -4962,9 +4956,9 @@ Außerdem muss gelten:
 
 ##### Unterschiede in den Suchproblemen?
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></picture></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/screenshot_stundenplan.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/screenshot_stundenplan_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/screenshot_stundenplan.png" width="60%" /></picture></p>
 
 Bisher betrachtete Suchverfahren:
 
@@ -4978,7 +4972,7 @@ Beispiel: Stundenplan
 
 ##### Analogie: Bergsteigen ohne Karte und Pfade
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing.png" width="50%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing.png" width="50%" /></picture></p>
 
 **Gradienten-Suche**: "Gehe in Richtung des steilsten Anstiegs der
 Zielfunktion."
@@ -5008,7 +5002,7 @@ Gedächtnisverlust*"
 
 <div data-align="center">
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel.png" width="60%" /></picture></p>
 
 </div>
 
@@ -5046,7 +5040,7 @@ Quelle: nach ([Russell und Norvig 2021](#ref-Russell2021), p. 131)
 
 **Zielfunktion (Bewertung) nötig!**
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing.png" width="60%" /></picture></p>
 
 **Problem**: lokale Maxima und Plateaus
 
@@ -5107,7 +5101,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 > Commons ([Public
 > Domain](https://en.wikipedia.org/wiki/en:public_domain))
 >
-> <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenge.png"  /></p>
+> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenge_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenge.png"  /></picture></p>
 >
 > Finden Sie mit der **Gradienten-Suche** jeweils einen Weg von Würzburg
 > nach München. Vergleichen Sie das Ergebnis mit der Best-First-Suche.
@@ -5154,7 +5148,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 ##### Motivation
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing.png" width="60%" /></picture></p>
 
 **Problem**: lokale Maxima und Plateaus
 
@@ -5432,11 +5426,11 @@ Quelle: [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
 
 ##### EA -- Allgemeiner Ablauf
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz.png" width="60%" /></picture></p>
 
 ##### EA -- Beispiel
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example.png" width="25%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example.png" width="25%" /></picture></p>
 
 Jedes Individuum kodiert ein Spielfeld mit einer konkreten Anordnung
 **aller** Königinnen =\> **Vollständige Zustandsbeschreibung**.
@@ -5569,7 +5563,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 ##### EA -- Allgemeiner Ablauf
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz.png" width="60%" /></picture></p>
 
 ##### Kodierung Individuen
 
@@ -5726,9 +5720,9 @@ Die SR liegt im Intervall $[0, 1]$.
 
 ##### Typische Läufe
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_fail.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_fail_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_fail.png" width="60%" /></picture></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_success.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_success_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_success.png" width="60%" /></picture></p>
 
 -   Populationsgröße $\mu=15$
 -   Anzahl Nachfahren $\lambda=100$
@@ -5874,7 +5868,7 @@ beste Zug?!**
 
 ##### Motivation: Unterschied zu Suche?!
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/tttEnd.png" width="10%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/tttEnd_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/tttEnd.png" width="10%" /></picture></p>
 
 =\> Mehrere **konkurrierende** Agenten an Suche beteiligt!
 
@@ -6039,7 +6033,7 @@ Minimax-Algorithmus nicht unbedingt eine optimale Strategie.
 
 ###### Spielbaum TTT
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/tttSpielbaum.png" width="50%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/tttSpielbaum_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/tttSpielbaum.png" width="50%" /></picture></p>
 
 ###### Minimax (Idee)
 
@@ -6114,7 +6108,7 @@ def Minimax(state):
 
 ##### Minimax Beispiel
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimaxBeispiel.png" width="35%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimaxBeispiel_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimaxBeispiel.png" width="35%" /></picture></p>
 
 ###### Aufwand Minimax
 
@@ -6252,16 +6246,14 @@ Gedankenexperiment:
 ##### Wenn die Zeit nicht reicht: Suchtiefe begrenzen
 
 -   Einführung neuer Funktionen:
+
     1.  `Cutoff-Test` statt `Terminal-Test`
 
         Beispielsweise bei erreichter Tiefe oder Zeitüberschreitung
 
-    <!-- -->
+    2\. `Eval` statt `Utility`
 
-    2.  `Eval` statt `Utility`
-
-        Bewertung der erreichten Position (statt nur Bewertung des
-        Endzustandes)
+        Bewertung der erreichten Position (statt nur Bewertung des Endzustandes)
 
 <!-- -->
 
@@ -6337,7 +6329,7 @@ Für diese Funktion kann man unterschiedliche Strategien anwenden:
 
 ##### Minimax mit mehreren Spielern
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimax3.png" width="35%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimax3_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimax3.png" width="35%" /></picture></p>
 
 Hier maximiert jeder Spieler sein eigenes Ergebnis. Im Grunde müsste
 diese Variante dann besser "Maximax" heissen ...
@@ -6360,7 +6352,7 @@ Backgammon: Was ist in dieser Situation der optimale Zug?
 
 ##### Minimax mit Zufallsspielen: ZUFALLS-Knoten
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/expectimax.png" width="35%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/expectimax_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/expectimax.png" width="35%" /></picture></p>
 
 Zusätzlich zu den MIN- und MAX-Knoten führt man noch Zufalls-Knoten ein,
 um das Würfelergebnis repräsentieren zu können. Je möglichem
@@ -6488,7 +6480,7 @@ der Nachfolger arbeiten.
 
 ##### Verbesserung Minimax-Algorithmus
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimax.png" width="35%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimax_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimax.png" width="35%" /></picture></p>
 
 =\> **Minimax-Baum**: Verbesserungen möglich?
 
@@ -6802,7 +6794,7 @@ Objekt, d.h. üblicherweise die Klasse.
 
 ##### Learning Agent
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/learning.png" width="70%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/learning_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/learning.png" width="70%" /></picture></p>
 
 ##### Feedback während des Lernens
 
@@ -6891,7 +6883,7 @@ von Beispielen
 
 ##### Konstruieren einer konsistenten Hypothese
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams1.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams1_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams1.png" width="40%" /></picture></p>
 
 Welcher Zusammenhang ist hier dargestellt? Offenbar eine Art
 Funktionsverlauf ... Wir haben für einige x-Werte die zugehörigen
@@ -6899,7 +6891,7 @@ y-Werte vorgegeben.
 
 ##### Konstruieren einer konsistenten Hypothese (cnt.)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams2.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams2_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams2.png" width="40%" /></picture></p>
 
 Die einfachste Approximation wäre eine lineare Funktion. Allerdings
 werden hierbei einige Werte mehr oder weniger stark nicht korrekt
@@ -6907,7 +6899,7 @@ widergegeben, d.h. man hat einen relativ hohen (Trainings-) Fehler.
 
 ##### Konstruieren einer konsistenten Hypothese (cnt.)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams3.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams3_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams3.png" width="40%" /></picture></p>
 
 Die Hyperbel erklärt die Trainingsdaten bis auf den einen Punkt sehr
 gut. Die Frage ist, ob dieser eine Punkt zum zu lernenden Zusammenhang
@@ -6915,7 +6907,7 @@ gehört oder ein Ausreißer ist, den man gefahrlos ignorieren kann?
 
 ##### Konstruieren einer konsistenten Hypothese (cnt.)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams4.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams4_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams4.png" width="40%" /></picture></p>
 
 Die grüne Hypothese ist von allen bisher gezeigten die komplexeste,
 erklärt aber alle Datenpunkte. D.h. hier wäre der Trainingsfehler Null.
@@ -6928,7 +6920,7 @@ Ausreißer o.ä. gibt.)
 
 ##### Konstruieren einer konsistenten Hypothese (cnt.)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams5.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams5_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams5.png" width="40%" /></picture></p>
 
 Diese Hypothese erklärt ebenfalls sämtliche Trainingsdaten. Allerdings
 schwingt die Funktion zwischen den Daten stark hin und her. Vermutlich
@@ -7149,7 +7141,7 @@ Anzahl erlaubter Werte ("Ausprägungen") ...
 
 ##### Entscheidungsbäume: Klassifikation
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/xor-decision-tree.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/xor-decision-tree_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/xor-decision-tree.png" width="60%" /></picture></p>
 
 -   Attribute als Knoten im Baum
 -   Ausprägungen als Test (Ausgang, Verzweigung)
@@ -7706,7 +7698,7 @@ $$H(V) = -\sum_k p_k \log_2 p_k$$
 Hinweis:
 $\log_2 x = \frac{\log_{10} x}{\log_{10} 2} = \frac{\log x}{\log 2}$
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range.png"  /></picture></p>
 
 -   Nur eine Klasse: $\log_2 1 = 0$ =\> $H(V) = 0$ Bit
 -   Zwei Klassen, gleichwahrscheinlich: $\log_2 0.5 = -1$ =\> $H(V) = 1$
@@ -8303,7 +8295,7 @@ h(\mathbf{x})
 -   $w_0, w_1, w_2, \ldots, w_n$ sind die Parameter des Modells, die es
     zu optimieren gilt.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-network.png" width="70%" /></p><p align="center">Perzeptron Aufbau und Berechnung</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-network_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-network.png" width="70%" /></picture></p><p align="center">Perzeptron Aufbau und Berechnung</p>
 
 ####### Lineare Entscheidungsgrenze
 
@@ -8323,7 +8315,7 @@ $$\mathbf{w}^T\mathbf{x} = w_0 + w_1x_1 + w_2x_2 + \ldots + w_nx_n = 0$$
     $w_0 = 0, w_1 = 2$ und $w_3 = -1$, entsprechend dem Modell
     $h(\mathbf{x}) = \text{sgn}(2x_1 - x_2)$.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-boundary.png" width="50%" /></p><p align="center">Perzeptron Entscheidungsgrenze</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-boundary_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-boundary.png" width="50%" /></picture></p><p align="center">Perzeptron Entscheidungsgrenze</p>
 
 ###### Der Perzeptron Lernalgorithmus
 
@@ -8480,11 +8472,11 @@ $$-4 + x_1^2 + x_2^2 = 0.$$
 
 -   **Lineare Regression**
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/lin_reg_nn.png" width="65%" /></p>
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/lin_reg_nn_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/lin_reg_nn.png" width="65%" /></picture></p>
 
 -   **Perzeptron**
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perzeptron_nn.png" width="65%" /></p>
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perzeptron_nn_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perzeptron_nn.png" width="65%" /></picture></p>
 
 > [!NOTE]
 >
@@ -8524,8 +8516,8 @@ $$-4 + x_1^2 + x_2^2 = 0.$$
 > Lines](https://en.wikipedia.org/wiki/Contour_line)) von zwei
 > Kostenfunktionen.
 >
-> <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/contour_plot_a.png" width="40%" /></p><p align="center">Abbildung 1</p>
-> <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/contour_plot_b.png" width="40%" /></p><p align="center">Abbildung 2</p>
+> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/contour_plot_a_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/contour_plot_a.png" width="40%" /></picture></p><p align="center">Abbildung 1</p>
+> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/contour_plot_b_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/contour_plot_b.png" width="40%" /></picture></p><p align="center">Abbildung 2</p>
 >
 > -   Erklären Sie, welcher der beiden Fälle nachteilhaft für den
 >     Gradientenabstieg Algorithmus ist. Wo liegt der Nachteil? Wie kann
@@ -8600,15 +8592,15 @@ $$-4 + x_1^2 + x_2^2 = 0.$$
 
 -   **Logistische Regression**
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/log_reg_nn.png" width="65%" /></p>
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/log_reg_nn_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/log_reg_nn.png" width="65%" /></picture></p>
 
 -   **Lineare Regression**
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/lin_reg_nn.png" width="65%" /></p>
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/lin_reg_nn_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/lin_reg_nn.png" width="65%" /></picture></p>
 
 -   **Perzeptron**
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perzeptron_nn.png" width="65%" /></p>
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perzeptron_nn_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perzeptron_nn.png" width="65%" /></picture></p>
 
 > [!NOTE]
 >
@@ -8776,7 +8768,7 @@ $$-4 + x_1^2 + x_2^2 = 0.$$
 
 -   Ein Multi-Layer Perzeptron
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/mlp.png" width="65%" /></p>
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/mlp_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/mlp.png" width="65%" /></picture></p>
 
     Ein Vorwärtslauf (forward pass):
     $$a^{[1]} = ReLU \left( W^{[1]} \cdot \mathbb{x} + b^{[1]} \right) \tag{1}$$
@@ -9055,19 +9047,19 @@ $$-4 + x_1^2 + x_2^2 = 0.$$
         Schichten, Anzahl Zellen/Schicht, Aktivierungsfunktion,
         Regularisierungsparameter (siehe Abbildung 1).
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val1.png" width="80%" /></p><p align="center">Abbildung 1 - Einsatz der Validierung für das Hyperparameter-Tuning</p>
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val1_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val1.png" width="80%" /></picture></p><p align="center">Abbildung 1 - Einsatz der Validierung für das Hyperparameter-Tuning</p>
 
     -   Bei der **Auswahl der endgültigen Hypothese** ($\rightarrow$
         Parameterauswahl!): unter allen Hypothesen, die während des
         Trainings durchlafen werden, wähle jene mit kleinstem $E_{val}$
         (siehe Abbildung 2).
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val2.png" width="80%" /></p><p align="center">Abbildung 2 - Einsatz der Validierung bei der Auswahl der entgültigen Hypothese</p>
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val2_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val2.png" width="80%" /></picture></p><p align="center">Abbildung 2 - Einsatz der Validierung bei der Auswahl der entgültigen Hypothese</p>
 
     -   Bei der graphischen **Darstellung von Lernkurven** für die
         Diagnose von Über- und Unteranpassung (siehe Abbildung 3).
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val3.png" width="80%" /></p><p align="center">Abbildung 3 - Lernkurven</p>
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val3_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val3.png" width="80%" /></picture></p><p align="center">Abbildung 3 - Lernkurven</p>
 
 -   Übliche train/val/test Aufteilung der Daten (in Prozent):
 
@@ -9111,7 +9103,7 @@ $$-4 + x_1^2 + x_2^2 = 0.$$
         Validierungsfehler $e_1, e_2, ..., e_k$ (siehe Abbildung 4).
         $$E_{CV}(m) := \frac{1}{k} \sum_{i=1}^{k} e_i = \frac{1}{k} \sum_{i=1}^{k} E_{val}(h_m^{*(i)})$$
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val4.png" width="80%" /></p><p align="center">Abbildung 4 - Kreuzvalidierung</p>
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val4_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val4.png" width="80%" /></picture></p><p align="center">Abbildung 4 - Kreuzvalidierung</p>
 -   Bemerkung: Die Kreuzvalidierung wird nur bei der Modellauswahl
     eingesetzt: es liefert verlässlichere Näherungen für $E_{out}$ und
     führt daher zu besseren Entscheidungen. Das zuletzt ausgewählte
@@ -9187,7 +9179,7 @@ $$-4 + x_1^2 + x_2^2 = 0.$$
     Klasse-$j$-Beispiele enthält, die als Klasse-$i$ vorhergesagt
     wurden.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/nn8-1.png" width="80%" /></p><p align="center">Abbildung 1 - Wahrheitsmatrix bei binärer Klassifizierung</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/nn8-1_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/nn8-1.png" width="80%" /></picture></p><p align="center">Abbildung 1 - Wahrheitsmatrix bei binärer Klassifizierung</p>
 
 ####### Treffergenauigkeit (engl. Accuracy)
 
@@ -9527,7 +9519,7 @@ by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
 Commons ([Public
 Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/MapGermanyGraph-Kosten.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/MapGermanyGraph-Kosten_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/MapGermanyGraph-Kosten.png" width="40%" /></picture></p>
 
 1.  Finden Sie nacheinander mit Tiefensuche (1P) und Breitensuche (1P)
     (jeweils in der Graph-Search-Variante) sowie A\* (2P) (in der
@@ -9675,7 +9667,7 @@ Informatik.
 
 #### Games.01: Handsimulation: Minimax und alpha-beta-Pruning (3P)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/alphabeta.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/alphabeta_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/alphabeta.png"  /></picture></p>
 
 1.  (1P) Geben Sie für den Spielbaum die Minimax-Bewertungen an.
 
@@ -9741,7 +9733,7 @@ Betrachten Sie nun das Problem, den Spielbaum eines Drei-Personen-Spiels
 zu evaluieren, das nicht notwendigerweise die Nullsummenbedingung
 erfüllt.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/minmax-multiplayer.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/minmax-multiplayer_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/minmax-multiplayer.png"  /></picture></p>
 
 Die Spieler heißen 1, 2 und 3. Im Gegensatz zu
 Zwei-Personen-Nullsummenspielen liefert die Bewertungsfunktion nun
@@ -10065,7 +10057,7 @@ Eingabevariablen $x_1$ und $x_2$ die in der folgenden Abbildung
 blau-grau dargestellten Bereiche mit +1 klassifiziert. Benutzen Sie die
 $\mathop{\text{sign}}$-Funktion als Aktivierungsfunktion.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/perzeptron_netz.png" width="50%" /></p><p align="center">Abbildung 1</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/perzeptron_netz_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/perzeptron_netz.png" width="50%" /></picture></p><p align="center">Abbildung 1</p>
 
 #### NN.MLP.02: Vorwärtslauf im MLP (2P)
 
@@ -10151,7 +10143,7 @@ Zellen. Die Gewichte sind an den Kanten angegeben. Das Netz erhält den
 skalaren Input $x$ und berechnet daraus die Ausgabe $y$. Beide Zellen
 verwenden die Aktivierungsfunktion $\sigma(z) = \frac{1}{ 1 + e^{-z} }$.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/mlp.png" width="50%" /></p><p align="center">Abbildung 1</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/mlp_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/mlp.png" width="50%" /></picture></p><p align="center">Abbildung 1</p>
 
 -   (1P) Berechnen Sie die Ausgabe $y$ für die Eingabe
     $(x,y_T)=(0, 0.5)$. Wie groß ist der Fehler?
@@ -10283,53 +10275,35 @@ Aufgaben ankreuzen und Lösungen in Übungsstunde vorstellen.
 > <details open>
 > <summary><strong>🎯 TL;DR</strong></summary>
 >
-> **Durchführung: Präsenz oder Open-Book (je nach Corona-Lage)**
+> **Durchführung: Präsenz**
 >
 > Die Klausur wird dieses Semester elektronisch stattfinden. Dazu werden
-> wir den Prüfungs-ILIAS der HSBI nutzen.
+> wir den E-Assessment-ILIAS der HSBI nutzen.
 >
-> Sofern die Situation dies zulässt, wird die Klausur in den Räumen der
-> HSBI am Campus Minden unter Aufsicht durchgeführt. Hier werden Ihnen
-> Rechner für den Zugang zum Prüfungs-ILIAS zur Verfügung gestellt, Sie
-> benötigen nur Ihre HSBI-Zugangsdaten (User, Passwort), einen
-> Studierendenausweis und Personalausweis sowie Ihren
-> DIN-A4-Spickzettel.
->
-> Wenn die Corona-Lage eine Durchführung in Präsenz nicht erlaubt, wird
-> die Klausur stattdessen als *Open-Book-Ausarbeitung* aus dem
-> Home-Office durchgeführt. Sie benötigen dazu einen normalen Rechner
-> oder Laptop mit einem Standardbrowser. Tablets und Handys können wg.
-> der Mobil-Version der Browser problematisch sein. Sie müssen
-> JavaScript aktivieren und Cookies zulassen, der Privacy-Modus ist
-> bitte ebenfalls zu deaktivieren. Sie erreichen den Prüfungs-ILIAS
-> [eassessment.hsbi.de](https://eassessment.hsbi.de) nur über VPN.
->
-> Die Entscheidung über die konkrete Durchführung wird spätestens zwei
-> Wochen vor der Prüfung getroffen und Ihnen per EMail über das LSF
-> mitgeteilt.
+> Die Klausur wird in den Räumen der HSBI am Campus Minden unter
+> Aufsicht durchgeführt. Hier werden Ihnen Rechner für den Zugang zum
+> Prüfungs-ILIAS zur Verfügung gestellt, Sie benötigen nur Ihre
+> HSBI-Zugangsdaten (Username, Passwort), einen Studierendenausweis und
+> Personalausweis sowie Ihren DIN-A4-Spickzettel.
 >
 > **Ablauf der Klausur**
 >
-> Die Prüfung (das ILIAS-Objekt) selbst schalte ich erst zum Start der
-> Prüfung online. Bei der Durchführung als Open-Book-Ausarbeitung wird
-> parallel zur Prüfung eine Zoom-Sitzung laufen, in der Sie Fragen
-> stellen können.
+> Die Prüfung (das ILIAS-Objekt) selbst schalte ich zum Start der
+> Prüfung online. Sie loggen sich vor Ort in den ILIAS mit Ihren
+> HSBI-Zugangsdaten ein und können die Prüfung nach dem gemeinsamen
+> Start beginnen. Nach Ablauf der Bearbeitungszeit beenden Sie die
+> Prüfung und loggen sich wieder aus. Parallel zur Prüfung werde ich in
+> einer Zoom-Sitzung zur Verfügung stehen, in der Sie Fragen stellen
+> können.
 >
 > **Hilfsmittel und Themen**
 >
-> Bei der Durchführung in Präsenz am Campus Minden ist ein Spickzettel
-> (DIN A4, beidseitig beschrieben) als Hilfsmittel zugelassen.
->
-> Bei der Durchführung als "Open-Book-Ausarbeitung" im Home-Office sind
-> alle Hilfsmittel zugelassen.
->
-> Die Unterstützung durch Dritte bzw. jegliche Kommunikation mit Dritten
-> ist in keinem Fall zugelassen. Sie sollen die Prüfung selbstständig
-> bearbeiten.
+> Als Hilfsmittel ist ein Spickzettel (DIN A4, beidseitig beschrieben)
+> zugelassen.
 >
 > Es wird keines der behandelten Themen ausgeschlossen, allerdings
 > eignen sich manche Themen etwas besser für Klausurfragen als andere
-> ;-)
+> ...
 >
 > </details>
 
@@ -10338,10 +10312,14 @@ Aufgaben ankreuzen und Lösungen in Übungsstunde vorstellen.
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [Hinweise zur Prüfung:
->     Fragetypen-Demo](https://youtu.be/warjJ9ZXvEM)
-> -   [Hinweise zur Prüfung: Technische
->     Vorbereitung](https://youtu.be/_cVhJX-D6zM)
+> 1.  Fragetypen-Demo
+>     -   **Video** zur Fragetypen-Demo:
+>         \[[YT](https://youtu.be/cITcFlYWM40)\],
+>         \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-prfungsvorbereitung-fragendemo/51dbc795071ecf07dabb595a946f519d)\]
+>     -   [**Fragetypen-Demo** im
+>         ILIAS](https://www.hsbi.de/elearning/goto.php/tst/1352273)
+> 2.  Hinweise zur Prüfung: \[[YT](https://youtu.be/Oi3Y_tnIlJg)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-prfungsvorbereitung-hinweise-zur-prfung/7d6462b1b7257c84392184c91743a2e5)\]
 >
 > </details>
 
@@ -10352,133 +10330,48 @@ Aufgaben ankreuzen und Lösungen in Übungsstunde vorstellen.
 Die schriftliche Prüfung erfolgt durch eine Klausur, die als digitale
 Prüfung auf einem Prüfungs-ILIAS durchgeführt wird.
 
-Es wird angestrebt, die Klausur in Präsenz in den Rechnerpools am Campus
-Minden durchzuführen. Falls dies wegen der Corona-Situation oder anderer
-Umstände nicht möglich sein sollte, wird die Klausur als
-"Open-Book-Ausarbeitung" im Home-Office durchgeführt.
+Die Klausur wird in Präsenz in den Rechnerpools am Campus Minden
+durchgeführt.
 
 Es wird in beiden Prüfungszeiträumen ein Termin angeboten. Die Termine
 werden vom Prüfungsamt bekannt gegeben.
 
-Dauer jeweils 90 Minuten.
+Dauer: siehe Aushang bzw. Mail.
 
--   Die konkrete Durchführungsform (in Präsenz am Campus Minden oder im
-    Home-Office) wird Ihnen spätestens zwei Wochen vor der Prüfung über
-    das LSF bekanntgegeben
-
-##### Zugelassene Hilfsmittel
-
-<details>
-<summary><strong>Präsenz (in Minden)</strong></summary>
-
-**Zugelassene Materialien**: **DIN-A4-Spickzettel (beidseitig)**
+##### Zugelassene Hilfsmittel: DIN-A4-Spickzettel (beidseitig)
 
 Sie dürfen **einen** Spickzettel im **DIN-A4**-Format benutzen, der
 beidseitig beschrieben sein kann.
 
 Ich möchte Sie hier noch einmal ermuntern, diesen Zettel tatsächlich
 manuell zu erstellen (also ganz traditionell zu **schreiben**), da
-bereits der Schreibvorgang einen gewissen Lerneffekt bewirkt!
-
-</details>
-<details>
-<summary><strong>Open-Book-Ausarbeitung (Homeoffice)</strong></summary>
-
-Falls die Prüfung als Open-Book-Ausarbeitung im Home-Office durchgeführt
-werden sollte, dürfen Sie alle Unterlagen benutzen.
-
--   Ausnahme: **Keine Hilfe durch Dritte!** (insbesondere keine
-    Zusammenarbeit, keine Kommunikation)
-
-    Sie sollen die Prüfung eigenständig bearbeiten. Hilfe von Dritten
-    sowie jegliche Kommunikation mit Dritten ist in keinem Fall
-    zugelassen und wird als Täuschungsversuch gewertet.
-
-</details>
+bereits der Schreibvorgang einen gewissen Lerneffekt bewirkt! (Wenn Sie
+sich bewusst dafür entscheiden, können Sie den Spickzettel natürlich
+auch ausdrucken.)
 
 ##### Einsicht
 
--   Prüfungseinsicht: Zeitnah; Bekanntgabe per Mail
+Die Prüfungseinsicht findet möglichst zeitnah und online statt. Details
+werden per Mail bekanntgegeben.
 
 #### Technische Vorbereitungen
 
-<details>
-<summary><strong>Präsenz (in Minden)</strong></summary>
+Sie benötigen am Prüfungstag:
 
-Diese Bemerkungen betreffen die Durchführung als Präsenzprüfung in den
-Räumen am Campus Minden.
-
--   **HSBI-Zugangsdaten**: Username, Passwort
+1.  **HSBI-Zugangsdaten**: Username, Passwort
 
     Bei der Durchführung der Prüfung am Campus Minden wird Ihnen ein
     Rechner zur Verfügung gestellt. Dort läuft voraussichtlich ein
     Browser im Kiosk-Mode, wo Sie sich am Prüfungs-ILIAS anmelden. Dazu
-    benötigen Sie ihre HSBI-Zugangsdaten, mit denen Sie sich auch im
+    benötigen Sie Ihre HSBI-Zugangsdaten, mit denen Sie sich auch im
     "normalen" ILIAS anmelden.
 
--   **Studierendenausweis** und Personalausweis
+2.  **Studierendenausweis** und Personalausweis
 
-    An der Prüfung dürfen nur Personen teilnehmen, die dafür im LSF
+    An der Prüfung dürfen nur Personen teilnehmen, die dafür im LSF/CAT
     angemeldet sind. Es findet eine entsprechende Kontrolle statt.
-    Halten Sie Ihren Studierendenausweis und Personalausweis bereit.
-
-</details>
-<details>
-<summary><strong>Open-Book-Ausarbeitung (Homeoffice)</strong></summary>
-
-Diese Bemerkungen betreffen die Durchführung aus dem Home-Office mit
-Ihrer Hardware. Bei der Durchführung in Präsenz in den Räumen am Campus
-Minden werden die technischen Details von uns für Sie vorbereitet sein.
-
--   **Rechner**: Nutzen Sie für die Prüfung einen stationären Rechner
-    oder ein Notebook.
-
-    Vermeiden Sie die Verwendung von Tablets und Smartphones! Bei der
-    Verwendung von Tablets kann es unter Umständen zu
-    Darstellungsproblemen kommen. Smartphones sind aufgrund des kleinen
-    Bildschirms für die Prüfungsdurchführung schlicht ungeeignet.
-
-    Bei fehlendem Zugang zu einem entsprechenden Endgerät kontaktieren
-    Sie bitte frühzeitig die Prüfungsverantwortlichen.
-
--   **Netz**: Stabil genug? Belastbar genug?
-
-    Wenn Sie keinen Zugang zu einer ausreichend stabilen
-    Internetverbindung haben, setzen Sie sich frühzeitig mit Ihren
-    Prüfungsverantwortlichen in Verbindung.
-
--   **VPN**: Der Prüfungs-ILIAS ist nur im HSBI-VPN erreichbar.
-
-    Installieren Sie den VPN-Client (Anleitung:
-    [hsbi.de/dvz/faq/cat/7](https://www.hsbi.de/dvz/faq/cat/7)) und
-    testen Sie im Vorfeld der Prüfung bei aktivierter VPN-Verbindung den
-    Zugang zur Prüfungsplattform
-    [eassessment.hsbi.de](https://eassessment.hsbi.de). Zugangsdaten wie
-    im normalen ILIAS.
-
-    Achtung: Auch wenn Sie sich in den Räumen der HSBI befinden, müssen
-    Sie oft die VPN-Verbindung aktivieren, um Zugang zur
-    Prüfungsplattform zu erhalten.
-
--   **Browser**: Nutzen Sie einen der Standardbrowser (Edge, Firefox,
-    Safari, Chrome/Chromium) in der Standardeinstellung: insbesondere
-    JavaScript und Cookies müssen aktiviert/erlaubt sein.
-
-    Deaktivieren Sie sämtliche Browser-Erweiterungen wie z.B. Ad-Blocker
-    (AdBlockPlus, uBlock, ...) oder JavaScript-Blocker (No-Script,
-    Ghostery, ...) für den Prüfungszeitraum.
-
-    **Nutzen Sie Ihren Browser nicht im Privacy-Modus!**
-
--   **HSBI-Zugangsdaten**: Username, Passwort
-
-    Bei der Durchführung der Prüfung als Open-Book-Ausarbeitung führen
-    Sie die Prüfung auf Ihrer eigenen Hardware im Home-Office durch.
-    Auch hier müssen Sie sich am Prüfungs-ILIAS anmelden. Dazu benötigen
-    Sie ihre HSBI-Zugangsdaten, mit denen Sie sich auch im "normalen"
-    ILIAS anmelden.
-
-</details>
+    Halten Sie dazu Ihren Studierendenausweis und Personalausweis
+    bereit.
 
 #### Bearbeitung des E-Assessment
 
@@ -10489,11 +10382,11 @@ Minden werden die technischen Details von uns für Sie vorbereitet sein.
     **Öffnen Sie die Aufgaben *NICHT* in parallelen Tabs!** Es kann
     sonst zu Fehlfunktionen von ILIAS kommen.
 
-    Bewegen Sie sich nicht per Browser-Navigation ("vor", "zurück" im
-    Browser) durch die Aufgaben, sondern nutzen Sie dafür die Buttons
-    "nächste Frage", "Weiter" oder "Zurück" vom ILIAS!
+    Bewegen Sie sich **nicht per Browser-Navigation** ("vor", "zurück"
+    im Browser) durch die Aufgaben, sondern nutzen Sie dafür die
+    **Buttons "nächste Frage", "Weiter" oder "Zurück" in ILIAS**!
 
-3.  Hinweis zu Anzeige der restlichen Bearbeitungsdauer
+3.  Hinweis zur Anzeige der restlichen Bearbeitungsdauer
 
     Wenn Sie den Browser bzw. das Tab mit der Prüfung im Laufe der
     Prüfung verlassen, wird Ihnen bei der Rückkehr unter Umständen eine
@@ -10507,19 +10400,10 @@ Minden werden die technischen Details von uns für Sie vorbereitet sein.
 4.  Parallel zum E-Assessment läuft eine Zoom-Session, dort können Sie
     Fragen stellen
 
-5.  Verbindungsprobleme (Home-Office):
-
-    -   Bei kurzzeitigen Verbindungsabbrüchen loggen Sie sich einfach
-        wieder ein
-    -   Wenn die Probleme länger dauern, gilt der Versuch als nicht
-        unternommen (außer Sie haben die Probleme aktiv herbeigeführt,
-        dann kann das als Täuschungsversuch gewertet werden, vgl. RPO
-        §22a (4))
-
 #### Fragetypen-Demo
 
 In Ihrem ILIAS-Kurs finden Sie eine
-[**Fragetypen-Demo**](https://www.hsbi.de/elearning/goto.php?target=tst_1352273&client_id=FH-Bielefeld)
+[**Fragetypen-Demo**](https://www.hsbi.de/elearning/goto.php/tst/1352273)
 mit den wichtigsten Fragetypen. Machen Sie sich mit der Mechanik der
 Fragetypen vertraut und schauen Sie sich die Kommentare bei den
 einzelnen Aufgaben an. Sie können die Demo bei Bedarf beliebig oft
@@ -10534,14 +10418,14 @@ wiederholen.
 <!-- -->
 
 -   **Fragen**:
-    -   Schauen Sie sich die Challenges und/oder Quizzes an ...
+    -   Schauen Sie sich die Challenges an ...
     -   Schauen Sie sich die Praktikumsaufgaben an ...
     -   Überlegen Sie sich, was zu einem Themengebiet im Rahmen einer
-        Prüfung möglich ist und (wie) gefragt werden könnte :)
+        Prüfung möglich ist und (wie) gefragt werden könnte ...
 
 <div data-align="center">
 
-**Können vor Kennen :-)**
+**Können vor Kennen**
 
 </div>
 
@@ -10551,7 +10435,7 @@ wiederholen.
 
 Betrachten Sie den folgenden Graphen:
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/graph.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/graph.png" width="60%" /></picture></p>
 
 Mittels Breitensuche (Variante "Tree-Search") soll der kürzeste Weg von
 "K" nach "B" gefunden werden. Die folgende Queue stellt den aktuellen
@@ -10757,51 +10641,51 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   ["künstliche
-    intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/)
-    by [Gerd Altmann
-    (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com
-    ([Pixabay License](https://pixabay.com/de/service/license/))
--   [AvB - RoboCup 2013 -
-    Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605)
-    by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
-    Flickr.com ([CC BY
-    2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
--   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
-    [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
-    ([Unsplash License](https://unsplash.com/license))
--   [Backgammon
-    lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png)
-    by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on
-    Wikimedia Commons ([Public
-    Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by
-    Marcel Marnitz, reworked by
-    [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann)
-    on Wikimedia Commons ([Public
-    Domain](https://en.wikipedia.org/wiki/Public_domain))
--   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by
-    [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
-    [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
-    on Wikipedia ([CC BY-SA
-    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 -   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by
     [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
     [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
     on Wikipedia ([CC BY-SA
     3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg)
-    by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
-    [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on
-    Wikimedia Commons ([Public
-    Domain](https://en.wikipedia.org/wiki/en:public_domain))
 -   [Turing Test version
     3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
     by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on
     Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [Backgammon
+    lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png)
+    by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on
+    Wikimedia Commons ([Public
+    Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
+    [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
+    ([Unsplash License](https://unsplash.com/license))
+-   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg)
+    by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
+    [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on
+    Wikimedia Commons ([Public
+    Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   ["künstliche
+    intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/)
+    by [Gerd Altmann
+    (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com
+    ([Pixabay License](https://pixabay.com/de/service/license/))
+-   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by
+    [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
+    [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
+    on Wikipedia ([CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   [AvB - RoboCup 2013 -
+    Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605)
+    by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
+    Flickr.com ([CC BY
+    2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
+-   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by
+    Marcel Marnitz, reworked by
+    [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann)
+    on Wikimedia Commons ([Public
+    Domain](https://en.wikipedia.org/wiki/Public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> d81220e 2026-06-22 build(deps): bump actions/checkout from 6 to 7 (#517)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> bc5bcf0 2026-09-04 add inverted images<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in
     Graph-Search-Variante bei endlichem Suchraum

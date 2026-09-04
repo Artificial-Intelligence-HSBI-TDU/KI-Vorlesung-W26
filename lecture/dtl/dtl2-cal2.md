@@ -43,7 +43,7 @@
 
 ## Entscheidungsbäume: Klassifikation
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/xor-decision-tree.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/xor-decision-tree_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/xor-decision-tree.png" width="60%" /></picture></p>
 
 -   Attribute als Knoten im Baum
 -   Ausprägungen als Test (Ausgang, Verzweigung)

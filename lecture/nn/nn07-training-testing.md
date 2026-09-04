@@ -119,19 +119,19 @@
         Schichten, Anzahl Zellen/Schicht, Aktivierungsfunktion,
         Regularisierungsparameter (siehe Abbildung 1).
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val1.png" width="80%" /></p><p align="center">Abbildung 1 - Einsatz der Validierung für das Hyperparameter-Tuning</p>
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val1_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val1.png" width="80%" /></picture></p><p align="center">Abbildung 1 - Einsatz der Validierung für das Hyperparameter-Tuning</p>
 
     -   Bei der **Auswahl der endgültigen Hypothese** ($\rightarrow$
         Parameterauswahl!): unter allen Hypothesen, die während des
         Trainings durchlafen werden, wähle jene mit kleinstem $E_{val}$
         (siehe Abbildung 2).
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val2.png" width="80%" /></p><p align="center">Abbildung 2 - Einsatz der Validierung bei der Auswahl der entgültigen Hypothese</p>
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val2_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val2.png" width="80%" /></picture></p><p align="center">Abbildung 2 - Einsatz der Validierung bei der Auswahl der entgültigen Hypothese</p>
 
     -   Bei der graphischen **Darstellung von Lernkurven** für die
         Diagnose von Über- und Unteranpassung (siehe Abbildung 3).
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val3.png" width="80%" /></p><p align="center">Abbildung 3 - Lernkurven</p>
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val3_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val3.png" width="80%" /></picture></p><p align="center">Abbildung 3 - Lernkurven</p>
 
 -   Übliche train/val/test Aufteilung der Daten (in Prozent):
 
@@ -163,7 +163,6 @@
 -   Das Modell $(\mathcal{H_m},\mathcal{A_m})$ wird $k$ mal trainiert
     und validiert, jedes mal mit unterschiedlichen Trainings- und
     Validierungsmengen:
-
     -   Die Trainingsdaten werden in $k$ disjunkte Teilmengen
         $D_1, D_2, ..., D_k$ aufgeteilt.
 
@@ -176,8 +175,7 @@
         Validierungsfehler $e_1, e_2, ..., e_k$ (siehe Abbildung 4).
         $$E_{CV}(m) := \frac{1}{k} \sum_{i=1}^{k} e_i = \frac{1}{k} \sum_{i=1}^{k} E_{val}(h_m^{*(i)})$$
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val4.png" width="80%" /></p><p align="center">Abbildung 4 - Kreuzvalidierung</p>
-
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val4_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/val4.png" width="80%" /></picture></p><p align="center">Abbildung 4 - Kreuzvalidierung</p>
 -   Bemerkung: Die Kreuzvalidierung wird nur bei der Modellauswahl
     eingesetzt: es liefert verlässlichere Näherungen für $E_{out}$ und
     führt daher zu besseren Entscheidungen. Das zuletzt ausgewählte
@@ -235,4 +233,4 @@
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 578b7ff 2025-11-17 lecture: fix links to attachments<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>

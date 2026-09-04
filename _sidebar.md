@@ -1,6 +1,6 @@
 - [**Syllabus**](readme.md)
-- [TDU: INF701: Künstliche Intelligenz (Winter 2025/26)](readme_tdu.md)
-- [HSBI: IFM 3.2: Grundlagen der KI (Winter 2025/26)](readme_hsbi.md)
+- [TDU: INF701: Künstliche Intelligenz (Winter 2026/27)](readme_tdu.md)
+- [HSBI: IFM 3.2: Grundlagen der KI (Winter 2026/27)](readme_hsbi.md)
 - **Vorlesungsunterlagen**
   - **Einführung KI**
     - [Intro: Was ist Künstliche Intelligenz?](lecture/intro/intro1-overview.md)

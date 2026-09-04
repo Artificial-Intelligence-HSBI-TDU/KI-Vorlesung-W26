@@ -354,7 +354,7 @@ das Training damit durch.
 Likelihoods müssen entsprechend angepasst werden!
 
 | Klasse | sieben | zwerg | fressen | ziege | treten | wolf | bock | UNK | Anzahl Wörter | Anzahl Dokumente |
-|:-----|:-----|:-----|:------|:-----|:-----|:----|:----|:----|:----------|:------------|
+|:-----|:-----|:-----|:------|:-----|:-----|:-----|:-----|:-----|:-------|:---------|
 | OK | 6 | 2 | 2 | 1 | 1 | 1 | 2 | 0 | 15 | 3 |
 | SPAM | 2 | 0 | 0 | 1 | 1 | 1 | 0 | 0 | 5 | 1 |
 
@@ -613,4 +613,4 @@ Entscheidung: OK
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 25c5e60 2026-01-12 lecture: add github alert as info box (NB3)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9b46c3e 2026-09-04 hsbi: use current dates<br></sub></sup></p></blockquote>

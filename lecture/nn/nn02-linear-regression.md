@@ -73,11 +73,11 @@
 
 -   **Lineare Regression**
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/lin_reg_nn.png" width="65%" /></p>
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/lin_reg_nn_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/lin_reg_nn.png" width="65%" /></picture></p>
 
 -   **Perzeptron**
 
-    <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perzeptron_nn.png" width="65%" /></p>
+    <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perzeptron_nn_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perzeptron_nn.png" width="65%" /></picture></p>
 
 > [!NOTE]
 >
@@ -117,8 +117,8 @@
 > Lines](https://en.wikipedia.org/wiki/Contour_line)) von zwei
 > Kostenfunktionen.
 >
-> <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/contour_plot_a.png" width="40%" /></p><p align="center">Abbildung 1</p>
-> <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/contour_plot_b.png" width="40%" /></p><p align="center">Abbildung 2</p>
+> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/contour_plot_a_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/contour_plot_a.png" width="40%" /></picture></p><p align="center">Abbildung 1</p>
+> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/contour_plot_b_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/contour_plot_b.png" width="40%" /></picture></p><p align="center">Abbildung 2</p>
 >
 > -   Erklären Sie, welcher der beiden Fälle nachteilhaft für den
 >     Gradientenabstieg Algorithmus ist. Wo liegt der Nachteil? Wie kann
@@ -140,4 +140,4 @@
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> ff43c3c 2025-12-09 lecture: add jupyter notebook (Linear Regression) (#502)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>

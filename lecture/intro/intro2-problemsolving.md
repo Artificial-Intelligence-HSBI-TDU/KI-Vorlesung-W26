@@ -74,7 +74,7 @@
 
 ## Motivation: Roboter in einer Bibliothek
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/problem.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/problem_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/problem.png" width="40%" /></picture></p>
 
 **Aktionen:**
 
@@ -107,7 +107,7 @@ Bemerkungen zur Umwelt:
 
 ## Zustände der Bibliotheks-Welt
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/states.png" width="55%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/states_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/states.png" width="55%" /></picture></p>
 
 **Problem:** Gegeben einen Startzustand, wie komme ich zum Ziel?
 
@@ -124,7 +124,7 @@ Ergebnis:
 
 ## Suche im Problemgraphen
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/state-space.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/state-space_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/state-space.png" width="60%" /></picture></p>
 
 -   Durch die Suche im Problemgraphen wird ein Suchbaum aufgespannt
 -   Varianten: Zustände können in einem Pfad wiederholt vorkommen

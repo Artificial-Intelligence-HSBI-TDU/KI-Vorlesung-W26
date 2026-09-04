@@ -40,7 +40,7 @@
     Klasse-$j$-Beispiele enthält, die als Klasse-$i$ vorhergesagt
     wurden.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/nn8-1.png" width="80%" /></p><p align="center">Abbildung 1 - Wahrheitsmatrix bei binärer Klassifizierung</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/nn8-1_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/nn8-1.png" width="80%" /></picture></p><p align="center">Abbildung 1 - Wahrheitsmatrix bei binärer Klassifizierung</p>
 
 #### Treffergenauigkeit (engl. Accuracy)
 
@@ -128,4 +128,4 @@
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 578b7ff 2025-11-17 lecture: fix links to attachments<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>

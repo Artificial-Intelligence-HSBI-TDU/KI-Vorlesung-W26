@@ -64,7 +64,7 @@ $$H(V) = -\sum_k p_k \log_2 p_k$$
 Hinweis:
 $\log_2 x = \frac{\log_{10} x}{\log_{10} 2} = \frac{\log x}{\log 2}$
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range.png"  /></picture></p>
 
 -   Nur eine Klasse: $\log_2 1 = 0$ =\> $H(V) = 0$ Bit
 -   Zwei Klassen, gleichwahrscheinlich: $\log_2 0.5 = -1$ =\> $H(V) = 1$

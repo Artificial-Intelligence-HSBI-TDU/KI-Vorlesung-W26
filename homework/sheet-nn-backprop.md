@@ -19,7 +19,7 @@ Zellen. Die Gewichte sind an den Kanten angegeben. Das Netz erhält den
 skalaren Input $x$ und berechnet daraus die Ausgabe $y$. Beide Zellen
 verwenden die Aktivierungsfunktion $\sigma(z) = \frac{1}{ 1 + e^{-z} }$.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/mlp.png" width="50%" /></p><p align="center">Abbildung 1</p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/mlp_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/mlp.png" width="50%" /></picture></p><p align="center">Abbildung 1</p>
 
 -   (1P) Berechnen Sie die Ausgabe $y$ für die Eingabe
     $(x,y_T)=(0, 0.5)$. Wie groß ist der Fehler?

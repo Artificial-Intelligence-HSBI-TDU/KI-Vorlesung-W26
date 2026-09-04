@@ -1,4 +1,4 @@
-# IFM 3.2 / INF701: Künstliche Intelligenz (Winter 2025/26)
+# IFM 3.2 / INF701: Künstliche Intelligenz (Winter 2026/27)
 
 <p align="center"><img src="https://cdn.pixabay.com/photo/2018/09/27/09/22/artificial-intelligence-3706562_1280.jpg" width="60%" /></p>
 
@@ -77,4 +77,4 @@ See the
 [credits](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/CREDITS.md)
 for a detailed list of contributing projects.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 7ea03e0 2026-03-24 tooling: switch to new pandoc-lecture-zen (crawl)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>

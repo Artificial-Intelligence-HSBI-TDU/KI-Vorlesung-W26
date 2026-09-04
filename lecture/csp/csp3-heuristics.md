@@ -36,7 +36,7 @@
 
 ## VARIABLES: Variablen-Sortierung, Welche Variable soll betrachtet werden?
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_mrv.png" width="65%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_mrv_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_mrv.png" width="65%" /></picture></p>
 
 **VARIABLES**: Welche Variable zuerst ausprobieren?
 
@@ -57,7 +57,7 @@ Beispiel:
 
 ## VARIABLES: Gleichstand bei MRV
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_mrv.png" width="65%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_mrv_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_mrv.png" width="65%" /></picture></p>
 
 **VARIABLES**: Welche Variable zuerst ausprobieren?
 
@@ -83,7 +83,7 @@ Beispiel:
 
 ## VALUES: Werte-Sortierung, Welchen Wert soll ich ausprobieren?
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_lcv.png" width="65%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_lcv_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/bt_search_lcv.png" width="65%" /></picture></p>
 
 **VALUES**: Welchen Wert zuerst ausprobieren?
 
@@ -223,4 +223,4 @@ wenig zusätzlicher Aufwand entsteht.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 2025-09-27 lecture: fix publishing year of AIMA<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>

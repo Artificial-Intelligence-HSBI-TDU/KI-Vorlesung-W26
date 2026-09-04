@@ -16,7 +16,7 @@ Informatik.
 
 ## Games.01: Handsimulation: Minimax und alpha-beta-Pruning (3P)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/alphabeta.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/alphabeta_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/alphabeta.png"  /></picture></p>
 
 1.  (1P) Geben Sie für den Spielbaum die Minimax-Bewertungen an.
 
@@ -82,7 +82,7 @@ Betrachten Sie nun das Problem, den Spielbaum eines Drei-Personen-Spiels
 zu evaluieren, das nicht notwendigerweise die Nullsummenbedingung
 erfüllt.
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/minmax-multiplayer.png"  /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/minmax-multiplayer_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/minmax-multiplayer.png"  /></picture></p>
 
 Die Spieler heißen 1, 2 und 3. Im Gegensatz zu
 Zwei-Personen-Nullsummenspielen liefert die Bewertungsfunktion nun

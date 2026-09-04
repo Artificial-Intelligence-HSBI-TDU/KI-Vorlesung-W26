@@ -250,7 +250,7 @@ Intention oder Bewusstsein vorhanden ist.
 
 ## Typische Ansätze in der KI
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/dimensionen-ki.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/dimensionen-ki_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/intro/images/dimensionen-ki.png" width="40%" /></picture></p>
 
 Untersuchung von
 
@@ -583,9 +583,9 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
     Flickr.com ([CC BY
     2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
--   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by
-    [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
-    [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
+-   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by
+    [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
+    [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
     on Wikipedia ([CC BY-SA
     3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 -   [Turing Test version
@@ -593,10 +593,10 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on
     Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by
-    [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
-    [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
+-   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by
+    [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
+    [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
     on Wikipedia ([CC BY-SA
     3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 10f17df 2025-09-27 lecture: update to 2025 edition of Ertel<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>

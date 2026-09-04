@@ -59,7 +59,7 @@ by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
 Commons ([Public
 Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/MapGermanyGraph-Kosten.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/MapGermanyGraph-Kosten_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/homework/images/MapGermanyGraph-Kosten.png" width="40%" /></picture></p>
 
 1.  Finden Sie nacheinander mit Tiefensuche (1P) und Breitensuche (1P)
     (jeweils in der Graph-Search-Variante) sowie A\* (2P) (in der

@@ -62,7 +62,7 @@
 
 ## Learning Agent
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/learning.png" width="70%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/learning_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/learning.png" width="70%" /></picture></p>
 
 ## Feedback während des Lernens
 
@@ -151,7 +151,7 @@ von Beispielen
 
 ## Konstruieren einer konsistenten Hypothese
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams1.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams1_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams1.png" width="40%" /></picture></p>
 
 Welcher Zusammenhang ist hier dargestellt? Offenbar eine Art
 Funktionsverlauf ... Wir haben für einige x-Werte die zugehörigen
@@ -159,7 +159,7 @@ y-Werte vorgegeben.
 
 ## Konstruieren einer konsistenten Hypothese (cnt.)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams2.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams2_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams2.png" width="40%" /></picture></p>
 
 Die einfachste Approximation wäre eine lineare Funktion. Allerdings
 werden hierbei einige Werte mehr oder weniger stark nicht korrekt
@@ -167,7 +167,7 @@ widergegeben, d.h. man hat einen relativ hohen (Trainings-) Fehler.
 
 ## Konstruieren einer konsistenten Hypothese (cnt.)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams3.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams3_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams3.png" width="40%" /></picture></p>
 
 Die Hyperbel erklärt die Trainingsdaten bis auf den einen Punkt sehr
 gut. Die Frage ist, ob dieser eine Punkt zum zu lernenden Zusammenhang
@@ -175,7 +175,7 @@ gehört oder ein Ausreißer ist, den man gefahrlos ignorieren kann?
 
 ## Konstruieren einer konsistenten Hypothese (cnt.)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams4.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams4_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams4.png" width="40%" /></picture></p>
 
 Die grüne Hypothese ist von allen bisher gezeigten die komplexeste,
 erklärt aber alle Datenpunkte. D.h. hier wäre der Trainingsfehler Null.
@@ -188,7 +188,7 @@ Ausreißer o.ä. gibt.)
 
 ## Konstruieren einer konsistenten Hypothese (cnt.)
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams5.png" width="40%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams5_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams5.png" width="40%" /></picture></p>
 
 Diese Hypothese erklärt ebenfalls sämtliche Trainingsdaten. Allerdings
 schwingt die Funktion zwischen den Daten stark hin und her. Vermutlich

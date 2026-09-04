@@ -35,7 +35,7 @@
 
 <div data-align="center">
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></picture></p>
 
 </div>
 
@@ -73,7 +73,7 @@ Varianten:
 
 <div data-align="center">
 
-<p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel.png" width="60%" /></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel.png" width="60%" /></picture></p>
 
 </div>
 
@@ -163,7 +163,7 @@ Außerdem muss gelten:
 ## Eigenschaften Branch-and-Bound, Best-First, A\*
 
 |  | **Branch-and-Bound** | **Best-First** | **A\*** |
-|:-----------|:-------------------|:--------------------|:--------------------|
+|:------------|:------------------|:-------------------|:-------------------|
 | Kosten | $f(n) = g(n)$ | $f(n) = h(n)$ | $f(n) = g(n) + h(n)$ |
 | Vollständigkeit | ja[^1] | nein[^2] | ja |
 | Optimalität | ja | nein | ja |
@@ -235,7 +235,7 @@ Außerdem muss gelten:
 >
 > Betrachten Sie folgendes Problem:
 >
-> <p align="center"><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenges_robby.png" width="60%" /></p>
+> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenges_robby_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenges_robby.png" width="60%" /></picture></p>
 >
 > Dargestellt ist eine typische Büroumgebung mit verschiedenen Räumen
 > und einem Flur. Die Pfeile in den Durchgängen geben an, in welche
@@ -286,7 +286,7 @@ Außerdem muss gelten:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> a6551fa 2025-10-15 lecture: use local images for challenges (Search5)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 9b46c3e 2026-09-04 hsbi: use current dates<br></sub></sup></p></blockquote>
 
 [^1]: BnB vollständig: Kosten größer Epsilon (positiv)
 

@@ -96,4 +96,4 @@ Hsuan-Tien Lin. 2012. Learning From Data. AMLBook.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 83ed985 2025-11-19 homework: fix remaining links to attachments<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
