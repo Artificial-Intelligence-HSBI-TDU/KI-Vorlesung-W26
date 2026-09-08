@@ -34,7 +34,7 @@ autonomen Fahrzeugen, ...
     -   Constraints: Backtracking, Heuristiken, Propagation, AC-3
 2.  Maschinelles Lernen
     -   Merkmalsvektor, Trainingsmenge, Trainingsfehler, Generalisierung
-    -   Entscheidungsbäume: CAL2, CAL3, ID3, C4.5
+    -   Entscheidungsbäume: CAL2, ID3/C4.5, Random Forest
     -   Neuronale Netze
         -   Perzeptron, Lernregel
         -   Feedforward Multilayer Perzeptron (MLP), Backpropagation,
@@ -189,4 +189,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com
     ([Pixabay License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 609421f 2026-09-08 orga: add gerone to semester readings<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> bd6ae4d 2026-09-08 orga: update modul overview: remove cal3, add random forest<br></sub></sup></p></blockquote>

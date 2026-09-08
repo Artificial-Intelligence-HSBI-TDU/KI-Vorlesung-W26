@@ -119,7 +119,7 @@ autonomen Fahrzeugen, ...
     -   Constraints: Backtracking, Heuristiken, Propagation, AC-3
 2.  Maschinelles Lernen
     -   Merkmalsvektor, Trainingsmenge, Trainingsfehler, Generalisierung
-    -   Entscheidungsbäume: CAL2, CAL3, ID3, C4.5
+    -   Entscheidungsbäume: CAL2, ID3/C4.5, Random Forest
     -   Neuronale Netze
         -   Perzeptron, Lernregel
         -   Feedforward Multilayer Perzeptron (MLP), Backpropagation,
@@ -145,14 +145,13 @@ autonomen Fahrzeugen, ...
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan.png" width="80%" /></picture></p>
 
 | Vorlesung (2 SWS) bis 25.10. | Vorlesung (2 SWS) ab 26.10. | Übung (2 SWS) |
-|:------------------------|:-----------------------|:----------------------|
-| Mo, 10:00 - 11:30 Uhr (TR) | Mo, 11:00 - 12:30 Uhr (TR) | G1: Di, 15:30 - 17:30 (TR) |
-| (Zoom) | (Zoom) | G2: Do, 08:00 - 10:00 (TR) |
-|  |  | (Google Meet) |
+|:-------------------------|:------------------------|:--------------------|
+| Mo, 10:00 - 11:30 Uhr (TR) | Mo, 11:00 - 12:30 Uhr (TR) | Mo, 13:30 - 15:30 (TR) |
+| (Zoom) | (Zoom) | (Google Meet) |
 
 Durchführung der Vorlesung als *Flipped Classroom*: Sitzungen per Zoom,
 Übungen per Google Meet. (Zugangsdaten siehe [Google
-Classroom](https://classroom.google.com/c/NzE4Mzk0NDE5ODEz?cjc=fhzfku3))
+Classroom](https://classroom.google.com/c/ODc4MjIwMTIyMzY1))
 
 #### Fahrplan (TDU)
 
@@ -237,7 +236,7 @@ autonomen Fahrzeugen, ...
     -   Constraints: Backtracking, Heuristiken, Propagation, AC-3
 2.  Maschinelles Lernen
     -   Merkmalsvektor, Trainingsmenge, Trainingsfehler, Generalisierung
-    -   Entscheidungsbäume: CAL2, CAL3, ID3, C4.5
+    -   Entscheidungsbäume: CAL2, ID3/C4.5, Random Forest
     -   Neuronale Netze
         -   Perzeptron, Lernregel
         -   Feedforward Multilayer Perzeptron (MLP), Backpropagation,
@@ -4513,7 +4512,7 @@ Referenzen vom Typ `Baum` sein).
 
 ##### Wie Attribute wählen?
 
-###### Erinnerung: CAL2/CAL3
+###### Erinnerung: CAL2
 
 -   Zyklische Iteration durch die Trainingsmenge
 -   Ausschließlich aktuelles Objekt betrachtet
@@ -4781,7 +4780,7 @@ Hierzu drei lesenswerte Blog-Einträge:
 
 ##### Wie Attribute wählen?
 
-Erinnerung: CAL2/CAL3
+Erinnerung: CAL2
 
 -   Zyklische Iteration durch die Trainingsmenge
 -   Ausschließlich aktuelles Objekt betrachtet
@@ -9530,7 +9529,7 @@ für die Klasse `spam` bzw. `ham`? Bewerten Sie das Testergebnis.
 
 ### Übungsblatt: Entscheidungsbäume (Decision Tree Learner DTL)
 
-#### Bonus: Starke vs. Schwache KI (2P)
+#### Starke vs. Schwache KI (1P)
 
 Recherchieren Sie und diskutieren Sie folgende Punkte:
 
@@ -9548,7 +9547,7 @@ Recherchieren Sie und diskutieren Sie folgende Punkte:
 
 *Thema*: Schwache vs. starke KI, Auswirkungen und Nutzen
 
-#### DTL.01: Entscheidungsbäume mit CAL3 und ID3 (6P)
+#### DTL.01: Entscheidungsbäume mit ID3 (6P)
 
 Es ist wieder Wahlkampf: Zwei Kandidaten O und M bewerben sich um die
 Kanzlerschaft. Die folgende Tabelle zeigt die Präferenzen von sieben
@@ -9564,29 +9563,9 @@ Wählern.
 | 6   | $< 35$   | hoch      | Bachelor | O        |
 | 7   | $< 35$   | niedrig   | Abitur   | M        |
 
-Trainieren Sie nacheinander mit den Verfahren CAL3 (3P) und ID3 (3P) auf
-der obigen Trainingsmenge je einen Entscheidungsbaum. Nutzen Sie für
-CAL3 dabei die Schwellen $S_1=4$ und $S_2=0.7$.
-
-Sie können dafür eine Handsimulation anwenden oder die Algorithmen
-implementieren. Sie können gern auch die Java-Klassen im Paket
-[`aima.core.learning`](https://github.com/aimacode/aima-java/blob/AIMA3e/aima-core/src/main/java/aima/core/learning/learners/DecisionTreeLearner.java)
-bzw. die Python-Klassen in
-[`learning.py`](https://github.com/aimacode/aima-python/blob/master/learning.py)
-als Ausgangspunkt nutzen.[^7]
-
-#### DTL.02: Pruning (1P)
-
-Vereinfachen Sie schrittweise den Baum
-
-$$x_3(x_2(x_1(C,A), x_1(B,A)), x_1(x_2(C,B), A))$$
-
-so weit wie möglich.
-
-Nutzen Sie die linearisierte Schreibweise. Geben Sie die jeweils
-verwendete Regel an.
-
-*Thema*: Anwendung der Transformations- und Pruning-Regeln
+Trainieren Sie nacheinander mit dem Verfahren ID3 auf der obigen
+Trainingsmenge je einen Entscheidungsbaum. Nutzen Sie dafür eine
+Handsimulation.
 
 #### DTL.03: Machine Learning mit Weka (3P)
 
@@ -9600,7 +9579,7 @@ beiliegenden Dokumentation vertraut.
 Laden Sie sich die Beispieldatensätze "Zoo" (`zoo.csv`) und "Restaurant"
 (`restaurant.csv`) aus dem AIMA-Repository
 ([github.com/aimacode/aima-data](https://github.com/aimacode/aima-data))
-herunter.[^8] Zum Laden der Beispieldatensätze in Weka müssen die
+herunter.[^7] Zum Laden der Beispieldatensätze in Weka müssen die
 `.csv`-Dateien eine Kopfzeile mit den Namen der Attribute haben. Passen
 Sie die Dateien entsprechend an und laden Sie diese im Reiter
 "Pre-Process" mit "Open file ...".
@@ -9693,7 +9672,7 @@ die Java-Klassen im Paket
 [`aima.core.search.local`](https://github.com/aimacode/aima-java/tree/AIMA3e/aima-core/src/main/java/aima/core/search/local)
 bzw. die Python-Klassen in
 [`search.py`](https://github.com/aimacode/aima-python/blob/master/search.py)
-als Ausgangspunkt nutzen.[^9]
+als Ausgangspunkt nutzen.[^8]
 
 Untersuchen Sie **systematisch** unterschiedliche
 Varianten/Einstellungen der in der VL vorgestellten Operatoren. Führen
@@ -9805,7 +9784,7 @@ Domain](https://en.wikipedia.org/wiki/en:public_domain))
     [`aima.core.search`](https://github.com/aimacode/aima-java/tree/AIMA3e/aima-core/src/main/java/aima/core/search)
     bzw. die Python-Klassen in
     [`search.py`](https://github.com/aimacode/aima-python/blob/master/search.py)
-    als Ausgangspunkt nutzen.[^10]
+    als Ausgangspunkt nutzen.[^9]
 
 2.  Dürfen die oben gegebenen Restkostenabschätzungen in A\* verwendet
     werden? (1P)
@@ -10265,59 +10244,14 @@ des Netzes
 
 #### Notenzusammensetzung
 
-| Prüfung         | Gewicht                   |
-|:----------------|---------------------------|
-| Zwischenprüfung | **40 %**                  |
-| Endprüfung      | **60 %**                  |
-| Übung           | 10 % Bonus für Endprüfung |
+| Prüfung         | Gewicht  |
+|:----------------|----------|
+| Zwischenprüfung | **40 %** |
+| Endprüfung      | **60 %** |
 
-Wenn in der Endprüfung die 40 Punkte Mindestgrenze erreicht wird
-(**Endprüfungsnote $\ge$ 40**), werden **10 % der Übungspunkte als
-Bonus** zu der Endprüfungsnote hinzugefügt.
+#### Übungsablauf
 
-#### Übungspunkte
-
-Für die Vergabe von Übungspunkten ist eine **erfolgreiche Teilnahme an
-der Übung** erforderlich. Dies bedeutet: Aufgaben lösen, gelöste
-Aufgaben ankreuzen und Lösungen in Übungsstunde vorstellen.
-
-##### Aufgaben lösen
-
--   Lösen Sie die Aufgaben auf dem jeweiligen Übungsblatt und laden Sie
-    Ihre Lösungen im Google Classroom hoch.
--   Bei Textaufgaben laden Sie Ihre Lösungen als **eine PDF-Datei** im
-    Google Classroom hoch.
--   Lösen Sie Programmieraufgaben in einem Jupyter Notebook auf Google
-    Colaboratory und laden Sie dieses als **eine .ipnyb Datei** hoch.
--   Benennen Sie Ihre Dateien wie folgt, benutzen Sie dabei Ihren vollen
-    Namen:
-    -   **Vorname_Nachname_UE1.pdf**
-    -   **Vorname_Nachname_UE1.ipnyb**
--   Die Bearbeitung der Aufgaben erfolgt individuell.
-    -   Das Diskutieren der Themen untereinander ist vorteilhaft, das
-        Teilen von Lösungen nicht!
-
-##### Gelöste Aufgaben ankreuzen
-
--   Geben Sie im Google Classroom über das bereitgestellte Google
-    Formular an, welche Aufgaben Sie gelöst haben.
--   Sie müssen in der Lage sein, Ihre Lösungen zu den angekreuzten
-    Aufgaben in der Übungsstunde vorzustellen.
--   Die Lösung muss nicht unbedingt 100% korrekt sein, muss aber eine
-    intensive Beschäftigung mit der jeweiligen Aufgabe erkennen lassen
-    (ca. 60%).
-
-##### Lösungen vorstellen
-
--   Seien Sie pünktlich anwesend in der Übungsstunde und (wenn
-    aufgefordert) stellen Sie Ihre eigene Lösung vor.
--   Die Vorstellung kann mit einem Medium Ihrer Wahl stattfinden. Sie
-    können zum Beispiel Ihren Bildschirm teilen und Ihre Lösung
-    erklären.
--   **Achtung:** Wenn man angibt, eine Aufgabe gelöst zu haben, dann
-    aber in der Übungsstunde nicht (oder zu spät) erscheint oder die
-    Lösung nicht vorstellen kann, bekommt man für das gesamte
-    Übungsblatt 0 Punkte!
+Die Übungsaufgaben werden wir in der Übungsstunde gemeinsam lösen.
 
 #### Schriftliche Prüfungen
 
@@ -10711,51 +10645,51 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   ["künstliche
-    intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/)
-    by [Gerd Altmann
-    (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com
-    ([Pixabay License](https://pixabay.com/de/service/license/))
--   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by
-    [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
-    [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
-    on Wikipedia ([CC BY-SA
-    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by
-    Marcel Marnitz, reworked by
-    [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann)
-    on Wikimedia Commons ([Public
-    Domain](https://en.wikipedia.org/wiki/Public_domain))
--   [AvB - RoboCup 2013 -
-    Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605)
-    by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
-    Flickr.com ([CC BY
-    2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
 -   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by
     [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
     [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
     on Wikipedia ([CC BY-SA
     3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   ["künstliche
+    intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/)
+    by [Gerd Altmann
+    (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com
+    ([Pixabay License](https://pixabay.com/de/service/license/))
+-   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by
+    Marcel Marnitz, reworked by
+    [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann)
+    on Wikimedia Commons ([Public
+    Domain](https://en.wikipedia.org/wiki/Public_domain))
 -   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg)
     by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
     [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on
     Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [AvB - RoboCup 2013 -
+    Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605)
+    by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
+    Flickr.com ([CC BY
+    2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
+-   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by
+    [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
+    [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
+    on Wikipedia ([CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 -   [Backgammon
     lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png)
     by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on
     Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
-    [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
-    ([Unsplash License](https://unsplash.com/license))
 -   [Turing Test version
     3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
     by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on
     Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
+    [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
+    ([Unsplash License](https://unsplash.com/license))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> cdcc1e2 2026-09-08 navbar: point to fahrplan (not to kursformat)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 22210fa 2026-09-08 Update exams-tdu.md (#523)<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in
     Graph-Search-Variante bei endlichem Suchraum
@@ -10773,14 +10707,11 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 [^6]: Im Python-Code tauchen immer wieder "TODO"-Marker auf - bitte mit
     Vorsicht genießen!
 
-[^7]: Im Python-Code tauchen immer wieder "TODO"-Marker auf - bitte mit
-    Vorsicht genießen!
-
-[^8]: Zum Zoo-Datensatz gibt es die Erklärung direkt im Repo, für den
+[^7]: Zum Zoo-Datensatz gibt es die Erklärung direkt im Repo, für den
     Restaurant-Datensatz finden Sie die Erklärung im AIMA (Buch).
 
-[^9]: Im Python-Code tauchen immer wieder "TODO"-Marker auf - bitte mit
+[^8]: Im Python-Code tauchen immer wieder "TODO"-Marker auf - bitte mit
     Vorsicht genießen!
 
-[^10]: Im Python-Code tauchen immer wieder "TODO"-Marker auf - bitte mit
+[^9]: Im Python-Code tauchen immer wieder "TODO"-Marker auf - bitte mit
     Vorsicht genießen!

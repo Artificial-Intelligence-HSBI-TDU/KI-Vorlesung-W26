@@ -35,7 +35,7 @@
 
 ## Wie Attribute wählen?
 
-Erinnerung: CAL2/CAL3
+Erinnerung: CAL2
 
 -   Zyklische Iteration durch die Trainingsmenge
 -   Ausschließlich aktuelles Objekt betrachtet
@@ -345,4 +345,4 @@ durch die Normierung in C4.5 aufgehoben wird.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 135402a 2025-11-02 lecture: improve wording in challenge (DTL)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> bc84ce6 2026-09-08 lecture: remove remaining cal3 occurences<br></sub></sup></p></blockquote>

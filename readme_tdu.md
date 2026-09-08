@@ -34,7 +34,7 @@ autonomen Fahrzeugen, ...
     -   Constraints: Backtracking, Heuristiken, Propagation, AC-3
 2.  Maschinelles Lernen
     -   Merkmalsvektor, Trainingsmenge, Trainingsfehler, Generalisierung
-    -   Entscheidungsbäume: CAL2, CAL3, ID3, C4.5
+    -   Entscheidungsbäume: CAL2, ID3/C4.5, Random Forest
     -   Neuronale Netze
         -   Perzeptron, Lernregel
         -   Feedforward Multilayer Perzeptron (MLP), Backpropagation,
@@ -60,14 +60,13 @@ autonomen Fahrzeugen, ...
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan.png" width="80%" /></picture></p>
 
 | Vorlesung (2 SWS) bis 25.10. | Vorlesung (2 SWS) ab 26.10. | Übung (2 SWS) |
-|:------------------------|:-----------------------|:----------------------|
-| Mo, 10:00 - 11:30 Uhr (TR) | Mo, 11:00 - 12:30 Uhr (TR) | G1: Di, 15:30 - 17:30 (TR) |
-| (Zoom) | (Zoom) | G2: Do, 08:00 - 10:00 (TR) |
-|  |  | (Google Meet) |
+|:-------------------------|:------------------------|:--------------------|
+| Mo, 10:00 - 11:30 Uhr (TR) | Mo, 11:00 - 12:30 Uhr (TR) | Mo, 13:30 - 15:30 (TR) |
+| (Zoom) | (Zoom) | (Google Meet) |
 
 Durchführung der Vorlesung als *Flipped Classroom*: Sitzungen per Zoom,
 Übungen per Google Meet. (Zugangsdaten siehe [Google
-Classroom](https://classroom.google.com/c/NzE4Mzk0NDE5ODEz?cjc=fhzfku3))
+Classroom](https://classroom.google.com/c/ODc4MjIwMTIyMzY1))
 
 ### Fahrplan (TDU)
 
@@ -127,4 +126,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com
     ([Pixabay License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 609421f 2026-09-08 orga: add gerone to semester readings<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6ddd640 2026-09-08 orga: improve internal formatting<br></sub></sup></p></blockquote>

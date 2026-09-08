@@ -2,59 +2,14 @@
 
 ## Notenzusammensetzung
 
-| Prüfung         | Gewicht                   |
-|:----------------|---------------------------|
-| Zwischenprüfung | **40 %**                  |
-| Endprüfung      | **60 %**                  |
-| Übung           | 10 % Bonus für Endprüfung |
+| Prüfung         | Gewicht  |
+|:----------------|----------|
+| Zwischenprüfung | **40 %** |
+| Endprüfung      | **60 %** |
 
-Wenn in der Endprüfung die 40 Punkte Mindestgrenze erreicht wird
-(**Endprüfungsnote $\ge$ 40**), werden **10 % der Übungspunkte als
-Bonus** zu der Endprüfungsnote hinzugefügt.
+## Übungsablauf
 
-## Übungspunkte
-
-Für die Vergabe von Übungspunkten ist eine **erfolgreiche Teilnahme an
-der Übung** erforderlich. Dies bedeutet: Aufgaben lösen, gelöste
-Aufgaben ankreuzen und Lösungen in Übungsstunde vorstellen.
-
-### Aufgaben lösen
-
--   Lösen Sie die Aufgaben auf dem jeweiligen Übungsblatt und laden Sie
-    Ihre Lösungen im Google Classroom hoch.
--   Bei Textaufgaben laden Sie Ihre Lösungen als **eine PDF-Datei** im
-    Google Classroom hoch.
--   Lösen Sie Programmieraufgaben in einem Jupyter Notebook auf Google
-    Colaboratory und laden Sie dieses als **eine .ipnyb Datei** hoch.
--   Benennen Sie Ihre Dateien wie folgt, benutzen Sie dabei Ihren vollen
-    Namen:
-    -   **Vorname_Nachname_UE1.pdf**
-    -   **Vorname_Nachname_UE1.ipnyb**
--   Die Bearbeitung der Aufgaben erfolgt individuell.
-    -   Das Diskutieren der Themen untereinander ist vorteilhaft, das
-        Teilen von Lösungen nicht!
-
-### Gelöste Aufgaben ankreuzen
-
--   Geben Sie im Google Classroom über das bereitgestellte Google
-    Formular an, welche Aufgaben Sie gelöst haben.
--   Sie müssen in der Lage sein, Ihre Lösungen zu den angekreuzten
-    Aufgaben in der Übungsstunde vorzustellen.
--   Die Lösung muss nicht unbedingt 100% korrekt sein, muss aber eine
-    intensive Beschäftigung mit der jeweiligen Aufgabe erkennen lassen
-    (ca. 60%).
-
-### Lösungen vorstellen
-
--   Seien Sie pünktlich anwesend in der Übungsstunde und (wenn
-    aufgefordert) stellen Sie Ihre eigene Lösung vor.
--   Die Vorstellung kann mit einem Medium Ihrer Wahl stattfinden. Sie
-    können zum Beispiel Ihren Bildschirm teilen und Ihre Lösung
-    erklären.
--   **Achtung:** Wenn man angibt, eine Aufgabe gelöst zu haben, dann
-    aber in der Übungsstunde nicht (oder zu spät) erscheint oder die
-    Lösung nicht vorstellen kann, bekommt man für das gesamte
-    Übungsblatt 0 Punkte!
+Die Übungsaufgaben werden wir in der Übungsstunde gemeinsam lösen.
 
 ## Schriftliche Prüfungen
 
@@ -79,4 +34,4 @@ Aufgaben ankreuzen und Lösungen in Übungsstunde vorstellen.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 6672880 2025-08-09 markdown: switch to leaner yaml header (#438)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 22210fa 2026-09-08 Update exams-tdu.md (#523)<br></sub></sup></p></blockquote>

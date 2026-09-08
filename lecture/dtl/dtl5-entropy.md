@@ -30,7 +30,7 @@
 
 ## Wie Attribute wählen?
 
-### Erinnerung: CAL2/CAL3
+### Erinnerung: CAL2
 
 -   Zyklische Iteration durch die Trainingsmenge
 -   Ausschließlich aktuelles Objekt betrachtet
@@ -299,4 +299,4 @@ Hierzu drei lesenswerte Blog-Einträge:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 10f17df 2025-09-27 lecture: update to 2025 edition of Ertel<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> bc84ce6 2026-09-08 lecture: remove remaining cal3 occurences<br></sub></sup></p></blockquote>
