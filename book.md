@@ -161,24 +161,24 @@ Classroom](https://classroom.google.com/c/NzE4Mzk0NDE5ODEz?cjc=fhzfku3))
 
 #### Fahrplan (TDU)
 
-| Woche | Thema | Vorlesung: Selbststudium (Vorbereitung) | Vorlesung: Gemeinsame Sitzung | Übung | [AI Connect](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/discussions/16) |
-|:-------|:-------|:-----------------|:-------------|:---------|:---------------|
-| 15.09. | Orga | [Einführung KI](#id-ca2e904964509a28710797d2f876c625f54f64ea) | [Orga](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/blob/master/readme_tdu.md) (*Zoom*) |  |  |
-| 22.09. | CSP | [Einführung Constraints](#id-84f051404cae6b3a63ddc230ad80cb495047845f) \| [Lösen von diskreten CSP](#id-3b6247c92b0af037c1f0c4837facaaa1b25420c3) \| [CSP und Heuristiken](#id-aef0213ac4bbd41501955f0ec950c44d1756a5cf) | [Kantenkonsistenz und AC-3](#id-a9b47eac39d203917d2689bbfad8003315b2990c) \| [Min-Conflicts Heuristik](#id-9d0480f68cb0e1adb81cdc4b9b357168511b77d5) |  |  |
-| 29.09. | NB | [Wahrscheinlichkeitstheorie](#id-cd12d8faa8a855e40fd112b32dc98078382d90aa) \| [Naive Bayes](#id-cd72f1bd942f6b05157da80ba479a7a493d898c1) | [Textklassifikation mit NB](#id-6e322bc628d8ff7a4faa38fa42a09770217ab4fb) | [Blatt: CSP](#id-97b1dd75d6bb5e4678ebee3df7fe5a521e52d6e2) |  |
-| 06.10. | Intro | [Problemlösen](#id-7a896d9c036ef29a6574730757ae03cd7c0d3e26) | **ab 10:45**: [Einführung Jupyter-Notebooks](#id-37999e3f5ed2a133fbaf6ee91fdb94138df2391d) | [Blatt: Naive Bayes](#id-8b661cb2908035ca0da1b1837f2b800c4381ebad) |  |
-| 13.10. | Search | [Tiefensuche](#id-3263461a899091090f8d87ea7f7f3f25bf8255eb) \| [Breitensuche](#id-d08f602e3cf0c02bc97cd5125053645dfe917271) \| [Branch-and-Bound](#id-0712fba7e7ca1e4684ed9b6de19345ba86fba471) \| [Best First](#id-0a43351a075c7504b755675510f9395b5dd8c092) | [A-Stern](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5) |  |  |
-| 20.10. | EA | [Gradientensuche](#id-3e0f73b743e74f106aacc68840406273348f8341) \| [Simulated Annealing](#id-bafda494229223827755dbbffb5862eeb7e31262) \|\| [Intro EA/GA](#id-aa3481a03ed2e17666ced54325637e0551022587) | [Genetische Algorithmen](#id-c99ae5cae334ccb182fc61d94707f8e7cdf363c9) | [Blatt: Suche](#id-ab3ff3658bdafaf1ee5c17c11ffae098b587c048) |  |
-| 27.10. | Games | [Optimale Spiele](#id-f669cc4761526fb137b102a84bf0b7a3c8e1b51a) \| [Games mit Minimax](#id-5438da7280b20127b14a6fc6336d798d64ef51d6) \| [Minimax und Heuristiken](#id-a9ac054922401b7eb9285dc81c4d01960ce147ec) | [Alpha-Beta-Pruning](#id-c8c274bfbd36e9fdbf8c47df5f99c064b06d9ff3) | [Blatt: EA/GA](#id-cb2cf09f6031a168fc7c9094c3ee2d9df377e9f0) |  |
-| 03.11. | DTL | [Machine Learning 101](#id-82f362361464406c7ba09ef4a0893a4e32983b94) \| [CAL2](#id-4807e4a11529854b6d77f86cd3ca37caabc11cc9) \| [Pruning](#id-19ffac22140785b62f48ef3e44c1bde3a43d2054) \| [CAL3](#id-1867142959094a5c852b79c1c6f3caed8e931b63) | [Entropie](#id-f085a6c9977296f3811e103376badb06ee228d84) \| [ID3 und C4.5](#id-0d69ce52eac18a7d932147cc42b20bcd98d267f3) | [Blatt: Games](#id-999c549c4e5cc5a8e810d1e55e7b21a1e3c85906) |  |
-| 10.11. | ZP |  | **Zwischenprüfung** |  |  |
-| 17.11. | Perzeptron | [Perzeptron](#id-e3a8542d0a1d7b0c7eb04d713c7976160d0eaf84) | Perzeptron Lernalgorithmus Beispiel | [Blatt: DTL](#id-4a134eae1417a20b6726b2fdc2b1dfd28a683e29) |  |
-| 24.11. | Lin. Regr. | [Lineare Regression und Gradientenabstieg](#id-52f9015d59d2dde3e4f18acb1be26aa3c10759ab) | Gradientenabstieg Beispiel | [Blatt: Perzeptron](#id-509c9bafc24171e16bb93dfcd473d2b9bae04d15) |  |
-| 01.12. | Log. Regr. | [Logistische Regression](#id-c320456aa6e007de53f56d63d12b19d7351a2f77) | **ab 11:00**: Logistische Regression Beispiel |  | **Mo, 01.12., 10:00 Uhr: Kick-Off und Team-Building** [Warm-up Task](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/discussions/20) |
-| 08.12. | MLP | [Overfitting und Regularisierung](#id-ff282a3dce4dd000d38f923a472a928c94b93436) \|\| [Multilayer Perceptron (MLP)](#id-94eb0e9e9c19bba8118b63b08886a14024a2acf3) | **ab 11:00**: MLP Beispiel | [Blatt: Regression](#id-715e7fb7bfa3ef282899962cfa93c2f3da8c95bc) | **Mo, 08.12., 10:00 Uhr: Project Launch** |
-| 15.12. | Backprop | [Backpropagation](#id-f08c9adef34314d8e7af05e5874f87e61cfd93a9) | Backpropagation Beispiel | [Blatt: MLP](#id-cba17b43f628a8fbf19e217d186183ebcd63bad5) | **Fr, 19.12., 12:30 Uhr: Team-Präsentationen** |
-| 22.12. | Train&Test | [Training & Testing](#id-59d01c7aa50822d6f5b2f5f0413bf60ad710fcdf) | [Performanzanalyse](#id-754af026d5303aa4a872ce1693668530aefee309) | [Blatt: Backpropagation](#id-670c545ed4052dcfd1d123a2ba8b68b3154acccc) |  |
-| 29.12. | PV |  | Rückblick (*Zoom*) \| [Prüfungsvorbereitung TDU](#id-a9a587e6c5156b582e9029de040daaab2e66903b) |  |  |
+| Woche | Thema | Vorlesung | Übung |
+|:---|:----|:---------------------------------------------------|:----------|
+| 14.09. | Orga | [Orga](#id-b21a245fb1bac510210f7712bce0dbd9e2a468b5) \| [Einführung KI](#id-ca2e904964509a28710797d2f876c625f54f64ea) |  |
+| 21.09. | CSP | [Einführung Constraints](#id-84f051404cae6b3a63ddc230ad80cb495047845f) \| [Lösen von diskreten CSP](#id-3b6247c92b0af037c1f0c4837facaaa1b25420c3) \| [CSP und Heuristiken](#id-aef0213ac4bbd41501955f0ec950c44d1756a5cf) \| [Kantenkonsistenz und AC-3](#id-a9b47eac39d203917d2689bbfad8003315b2990c) \| [Min-Conflicts Heuristik](#id-9d0480f68cb0e1adb81cdc4b9b357168511b77d5) |  |
+| 28.09. | NB | [Wahrscheinlichkeitstheorie](#id-cd12d8faa8a855e40fd112b32dc98078382d90aa) \| [Naive Bayes](#id-cd72f1bd942f6b05157da80ba479a7a493d898c1) \| [Textklassifikation mit NB](#id-6e322bc628d8ff7a4faa38fa42a09770217ab4fb) | [Blatt: CSP](#id-97b1dd75d6bb5e4678ebee3df7fe5a521e52d6e2) |
+| 05.10. | DTL | [Machine Learning 101](#id-82f362361464406c7ba09ef4a0893a4e32983b94) \| [CAL2](#id-4807e4a11529854b6d77f86cd3ca37caabc11cc9) \| [Pruning](#id-19ffac22140785b62f48ef3e44c1bde3a43d2054) \| [CAL3](#id-1867142959094a5c852b79c1c6f3caed8e931b63) \| [Entropie](#id-f085a6c9977296f3811e103376badb06ee228d84) \| [ID3 und C4.5](#id-0d69ce52eac18a7d932147cc42b20bcd98d267f3) \| [Random Forest](#id-67ad22f050d34df38bd659728538d50c3f90f70e) | [Blatt: Naive Bayes](#id-8b661cb2908035ca0da1b1837f2b800c4381ebad) |
+| 12.10. | EA | **ab 11:15**: [Intro EA/GA](#id-aa3481a03ed2e17666ced54325637e0551022587) \| [Genetische Algorithmen](#id-c99ae5cae334ccb182fc61d94707f8e7cdf363c9) | [Blatt: DTL](#id-4a134eae1417a20b6726b2fdc2b1dfd28a683e29) |
+| 19.10. | Search | [Problemlösen](#id-7a896d9c036ef29a6574730757ae03cd7c0d3e26) \| [Tiefensuche](#id-3263461a899091090f8d87ea7f7f3f25bf8255eb) \| [Breitensuche](#id-d08f602e3cf0c02bc97cd5125053645dfe917271) \| [Branch-and-Bound](#id-0712fba7e7ca1e4684ed9b6de19345ba86fba471) \| [Best First](#id-0a43351a075c7504b755675510f9395b5dd8c092) \| [A-Stern](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5) | [Blatt: EA/GA](#id-cb2cf09f6031a168fc7c9094c3ee2d9df377e9f0) |
+| 26.10. | Games | [Optimale Spiele](#id-f669cc4761526fb137b102a84bf0b7a3c8e1b51a) \| [Games mit Minimax](#id-5438da7280b20127b14a6fc6336d798d64ef51d6) \| [Minimax und Heuristiken](#id-a9ac054922401b7eb9285dc81c4d01960ce147ec) \| [Alpha-Beta-Pruning](#id-c8c274bfbd36e9fdbf8c47df5f99c064b06d9ff3) | [Blatt: Suche](#id-ab3ff3658bdafaf1ee5c17c11ffae098b587c048) |
+| 02.11. | ZP | **Zwischenprüfung** |  |
+| 09.11. | Perzeptron | [Perzeptron](#id-e3a8542d0a1d7b0c7eb04d713c7976160d0eaf84) | [Blatt: Games](#id-999c549c4e5cc5a8e810d1e55e7b21a1e3c85906) |
+| 16.11. | Regression | [Lineare Regression und Gradientenabstieg](#id-52f9015d59d2dde3e4f18acb1be26aa3c10759ab) \| [Logistische Regression](#id-c320456aa6e007de53f56d63d12b19d7351a2f77) | [Blatt: Perzeptron](#id-509c9bafc24171e16bb93dfcd473d2b9bae04d15) |
+| 23.11. | MLP | [Multilayer Perceptron (MLP)](#id-94eb0e9e9c19bba8118b63b08886a14024a2acf3) \| [Backpropagation](#id-f08c9adef34314d8e7af05e5874f87e61cfd93a9) | [Blatt: Regression](#id-715e7fb7bfa3ef282899962cfa93c2f3da8c95bc) |
+| 30.11. | Train&Test | [Overfitting und Regularisierung](#id-ff282a3dce4dd000d38f923a472a928c94b93436) \| [Training & Testing](#id-59d01c7aa50822d6f5b2f5f0413bf60ad710fcdf) \| [Performanzanalyse](#id-754af026d5303aa4a872ce1693668530aefee309) | [Blatt: MLP](#id-cba17b43f628a8fbf19e217d186183ebcd63bad5) |
+| 07.12. | RNN | [RNN](#id-b7c0eaa966d621b48f4aad030987c3ad044a068e) | [Blatt: Backpropagation](#id-670c545ed4052dcfd1d123a2ba8b68b3154acccc) |
+| 14.12. | Transformer | [Transformer](#id-b6039456bfad164cdf98bf9de67b222fea5701d1) | [Blatt: TODO](.) |
+| 21.12. | \- | \- | \- |
+| 28.12. | PV | Rückblick \| [Prüfungsvorbereitung TDU](#id-a9a587e6c5156b582e9029de040daaab2e66903b) |  |
 
 #### Prüfungsform, Note und Credits (TDU)
 
@@ -291,24 +291,24 @@ Abgabe der Übungsblätter jeweils **Montag bis 09:00 Uhr** im
 [ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1582797). Vorstellung
 der Lösung im jeweiligen Praktikum in der Abgabewoche.
 
-| Monat | Woche vom | Vorlesung (Mo) | Praktikum (Mo/Mi/Do) |
-|------|:----------|:-----------------------------|:-------------------------|
-| Oktober | 12\. ... | [Orga](#id-f4b85a8855bfcf6dc9299224bc5aa73488d6ab79) \|\| [Einführung KI & Problemlösen](#id-fbece8c23eb18f195eef37dafe8cc4dd0402df83) |  |
-|  | 19\. ... | [Suche (Search)](#id-4044be34dad294400c30b65b7aa9562a295a9706) |  |
-|  | 26\. ... | [Gradientensuche](#id-3e0f73b743e74f106aacc68840406273348f8341) & [Simulated Annealing](#id-bafda494229223827755dbbffb5862eeb7e31262) \|\| [Evolutionäre Algorithmen (EA)](#id-c633734e214fe0c502ce13ed3f7e3bbb407a6c04) |  |
-| November | 02\. ... | [Optimale Spiele (Games)](#id-8f8b06dd42bba87fdbb232132c43d31fe1f102e7) |  |
-|  | 09\. ... | [Entscheidungsbäume (DTL)](#id-e73b2ad67e99dedd6f64964fd6a8c6786c315283) |  |
-|  | 16\. ... | [Constraints (CSP)](#id-febf03ee88f1ee559549a97eb9973ff5644d0a0a) |  |
-|  | 23\. ... | [Perzeptron](#id-e3a8542d0a1d7b0c7eb04d713c7976160d0eaf84) |  |
-| Dezember | 30\. ... | [Lineare Regression und Gradientenabstieg](#id-52f9015d59d2dde3e4f18acb1be26aa3c10759ab) |  |
-|  | 07\. ... | [Logistische Regression](#id-c320456aa6e007de53f56d63d12b19d7351a2f77) |  |
-|  | 14\. ... | [Overfitting und Regularisierung](#id-ff282a3dce4dd000d38f923a472a928c94b93436) \|\| [Multilayer Perceptron (MLP)](#id-94eb0e9e9c19bba8118b63b08886a14024a2acf3) |  |
-|  | *21. ...* | ***Weihnachtspause*** |  |
-|  | *28. ...* | ***Weihnachtspause*** |  |
-| Januar | 04\. ... | [Backpropagation](#id-f08c9adef34314d8e7af05e5874f87e61cfd93a9) |  |
-|  | 11\. ... | [Training & Testing](#id-59d01c7aa50822d6f5b2f5f0413bf60ad710fcdf) \| [Performanzanalyse](#id-754af026d5303aa4a872ce1693668530aefee309) |  |
-|  | 18\. ... | [Naive Bayes (NB)](#id-85336e6e9ec1a7afa051200d673a68c48f6f9535) |  |
-|  | 25\. ... | [Prüfungsvorbereitung HSBI](#id-b84558cce3a2e0f317eaa3c5c23c6f26a9cc2232) \| Rückblick |  |
+| Monat | Woche vom | Thema | Vorlesung (Mo) | Praktikum (Mo/Mi/Do) |
+|----|:---|:----|:------------------------------------------------|:----------|
+| Oktober | 12.10. | Orga | [Orga](#id-f4b85a8855bfcf6dc9299224bc5aa73488d6ab79) \| [Einführung KI](#id-ca2e904964509a28710797d2f876c625f54f64ea) |  |
+|  | 19.10. | Search | [Problemlösen](#id-7a896d9c036ef29a6574730757ae03cd7c0d3e26) \| [Tiefensuche](#id-3263461a899091090f8d87ea7f7f3f25bf8255eb) \| [Breitensuche](#id-d08f602e3cf0c02bc97cd5125053645dfe917271) \| [Branch-and-Bound](#id-0712fba7e7ca1e4684ed9b6de19345ba86fba471) \| [Best First](#id-0a43351a075c7504b755675510f9395b5dd8c092) \| [A-Stern](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5) | [Blatt: Suche](#id-ab3ff3658bdafaf1ee5c17c11ffae098b587c048) |
+|  | 26.10. | Games | [Optimale Spiele](#id-f669cc4761526fb137b102a84bf0b7a3c8e1b51a) \| [Games mit Minimax](#id-5438da7280b20127b14a6fc6336d798d64ef51d6) \| [Minimax und Heuristiken](#id-a9ac054922401b7eb9285dc81c4d01960ce147ec) \| [Alpha-Beta-Pruning](#id-c8c274bfbd36e9fdbf8c47df5f99c064b06d9ff3) | [Blatt: Games](#id-999c549c4e5cc5a8e810d1e55e7b21a1e3c85906) |
+| November | 02.11. | DTL | [Machine Learning 101](#id-82f362361464406c7ba09ef4a0893a4e32983b94) \| [CAL2](#id-4807e4a11529854b6d77f86cd3ca37caabc11cc9) \| [Pruning](#id-19ffac22140785b62f48ef3e44c1bde3a43d2054) \| [CAL3](#id-1867142959094a5c852b79c1c6f3caed8e931b63) \| [Entropie](#id-f085a6c9977296f3811e103376badb06ee228d84) \| [ID3 und C4.5](#id-0d69ce52eac18a7d932147cc42b20bcd98d267f3) \| [Random Forest](#id-67ad22f050d34df38bd659728538d50c3f90f70e) | [Blatt: DTL](#id-4a134eae1417a20b6726b2fdc2b1dfd28a683e29) |
+|  | 09.11. | Perzeptron | [Perzeptron](#id-e3a8542d0a1d7b0c7eb04d713c7976160d0eaf84) | [Blatt: Perzeptron](#id-509c9bafc24171e16bb93dfcd473d2b9bae04d15) |
+|  | 16.11. | Regression | [Lineare Regression und Gradientenabstieg](#id-52f9015d59d2dde3e4f18acb1be26aa3c10759ab) \| [Logistische Regression](#id-c320456aa6e007de53f56d63d12b19d7351a2f77) | [Blatt: Regression](#id-715e7fb7bfa3ef282899962cfa93c2f3da8c95bc) |
+|  | 23.11. | MLP | [Multilayer Perceptron (MLP)](#id-94eb0e9e9c19bba8118b63b08886a14024a2acf3) \| [Backpropagation](#id-f08c9adef34314d8e7af05e5874f87e61cfd93a9) | [Blatt: MLP](#id-cba17b43f628a8fbf19e217d186183ebcd63bad5) |
+| Dezember | 30.11. | Train&Test | [Overfitting und Regularisierung](#id-ff282a3dce4dd000d38f923a472a928c94b93436) \| [Training & Testing](#id-59d01c7aa50822d6f5b2f5f0413bf60ad710fcdf) \| [Performanzanalyse](#id-754af026d5303aa4a872ce1693668530aefee309) | [Blatt: Backpropagation](#id-670c545ed4052dcfd1d123a2ba8b68b3154acccc) |
+|  | 07.12. | RNN | [RNN](#id-b7c0eaa966d621b48f4aad030987c3ad044a068e) | [Blatt: TODO](.) |
+|  | 14.12. | Transformer | [Transformer](#id-b6039456bfad164cdf98bf9de67b222fea5701d1) |  |
+|  | *21.12.* |  | ***Weihnachtspause*** |  |
+|  | *28.12.* |  | ***Weihnachtspause*** |  |
+| Januar | 04.01. | CSP | [Einführung Constraints](#id-84f051404cae6b3a63ddc230ad80cb495047845f) \| [Lösen von diskreten CSP](#id-3b6247c92b0af037c1f0c4837facaaa1b25420c3) \| [CSP und Heuristiken](#id-aef0213ac4bbd41501955f0ec950c44d1756a5cf) \| [Kantenkonsistenz und AC-3](#id-a9b47eac39d203917d2689bbfad8003315b2990c) \| [Min-Conflicts Heuristik](#id-9d0480f68cb0e1adb81cdc4b9b357168511b77d5) | [Blatt: CSP](#id-97b1dd75d6bb5e4678ebee3df7fe5a521e52d6e2) |
+|  | 11.01. | NB | [Wahrscheinlichkeitstheorie](#id-cd12d8faa8a855e40fd112b32dc98078382d90aa) \| [Naive Bayes](#id-cd72f1bd942f6b05157da80ba479a7a493d898c1) \| [Textklassifikation mit NB](#id-6e322bc628d8ff7a4faa38fa42a09770217ab4fb) | [Blatt: Naive Bayes](#id-8b661cb2908035ca0da1b1837f2b800c4381ebad) |
+|  | 18.01. | EA | [Gradientensuche](#id-3e0f73b743e74f106aacc68840406273348f8341) \| [Simulated Annealing](#id-bafda494229223827755dbbffb5862eeb7e31262) \|\| [Intro EA/GA](#id-aa3481a03ed2e17666ced54325637e0551022587) \| [Genetische Algorithmen](#id-c99ae5cae334ccb182fc61d94707f8e7cdf363c9) | [Blatt: EA/GA](#id-cb2cf09f6031a168fc7c9094c3ee2d9df377e9f0) |
+|  | 25.12. | PV | Rückblick \| [Prüfungsvorbereitung HSBI](#id-b84558cce3a2e0f317eaa3c5c23c6f26a9cc2232) |  |
 
 #### Prüfungsform, Note und Credits (HSBI)
 
@@ -1335,29 +1335,6 @@ Variante der Suche in dieser Lehrveranstaltung kurz als
 > 1.  Formalisieren Sie das Problem (Zustände, Aktionen, Start- und
 >     Endzustand).
 > 2.  Skizzieren Sie den Problemgraph.
->
-> </details>
-
-<a id="id-37999e3f5ed2a133fbaf6ee91fdb94138df2391d"></a>
-
-#### Intro: Einführung in Jupyter-Notebooks
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> [Video-Mitschnitt "Einführung in
-> Jupyter-Notebooks](https://youtu.be/m9y9m-HQTys)
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
->
-> [starter.ipynb](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/intro/files/jupyter_starter.ipynb)
 >
 > </details>
 
@@ -3867,6 +3844,2245 @@ Entscheidung: OK
 >
 > </details>
 
+<a id="id-01bf667ff8abdbb608ee25a2d6f7a5f3ed39d939"></a>
+
+### Entscheidungsbäume (Decision Tree Learner - DTL)
+
+Beim überwachten Lernen soll eine Hypothese aufgebaut werden, die der
+echten (zu lernenden) Funktion möglichst nahe kommt. Eine Hypothese kann
+im einfachsten Fall als Entscheidungsbaum dargestellt werden. Die
+Merkmale bilden dabei die Knoten im Baum, und je Ausprägung gibt es eine
+Kante zu einem Nachfolgerknoten. Ein Merkmal bildet die Wurzel des
+Baums, an den Blättern sind die Klassen zugeordnet.
+
+Einen Entscheidungsbaum kann man zur Klassifikation eines Objekts
+schrittweise durchlaufen: Für jeden Knoten fragt man die Ausprägung des
+Merkmals im Objekt ab und wählt den passenden Ausgang aus dem Knoten.
+Wenn man am Blatt angekommen ist, hat man die Antwort des Baumes auf das
+Objekt, d.h. üblicherweise die Klasse.
+
+<a id="id-82f362361464406c7ba09ef4a0893a4e32983b94"></a>
+
+#### DTL: Machine Learning 101
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🎯 TL;DR</strong></summary>
+>
+> Lernen wird in der KI oft als Verhaltensänderung (eines Systems)
+> aufgefasst. Dabei soll eine Gütefunktion optimiert werden.
+>
+> Je nach verfügbarem Feedback eines "Lehrers" werden typischerweise
+> drei Arten von Lernen unterschieden: Überwachtes Lernen, Unüberwachtes
+> Lernen, Reinforcement Lernen. Dabei stellt der Lehrer beim überwachten
+> Lernen Trainingsbeispiele plus eine Vorgabe (Klasse, Funktionswert)
+> zur Verfügung, während beim unüberwachten Lernen nur die
+> Trainingsbeispiele bereitgestellt werden und der Algorithmus selbst
+> Zusammenhänge in den Daten erkennen soll. Beim Reinforcement Learning
+> erfolgt das Feedback am Ende einer Kette von Aktionen, d.h. der
+> Algorithmus muss diese Bewertung auf die einzelnen Aktionen
+> zurückrechnen.
+>
+> Beim überwachten Lernen soll eine Hypothese aufgebaut werden, die der
+> echten (zu lernenden) Funktion möglichst nahe kommt. Eine konsistente
+> Hypothese erklärt die Trainingsdaten, eine generalisierende Hypothese
+> kann auch unbekannte Daten (die aus der selben Quelle stammen, also
+> zum selben Problem gehören) korrekt bewerten. Es wird unterschieden
+> zwischen Klassifikation (einige wenige diskrete Label/Klassen, die den
+> Trainingsbeispielen zugeordnet sind) und Regression (Lernen eines
+> Funktionsverlaufs).
+>
+> Merkmalsvektoren gruppieren Eigenschaften des Problems bzw. der
+> Objekte, d.h. jedes Objekt kann über einen Merkmalsvektor beschrieben
+> werden. Trainingsdaten sind ausgewählte Beispielobjekte (durch
+> Merkmalsvektoren beschrieben) plus die Vorgabe (Klasse oder
+> Funktionswert) vom Lehrer.
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> -   [VL Machine Learning 101](https://youtu.be/FliWEXQZhsw)
+>
+> </details>
+
+##### Was ist Lernen?
+
+> Verhaltensänderung eines Agenten in Richtung der Optimierung eines
+> Gütefunktionals (Bewertungsfunktion) durch Erfahrung.
+
+##### Warum Lernen?
+
+-   Nicht alle Situationen vorhersehbar
+-   Nicht alle Details modellierbar
+-   Lösung oder Lösungsweg unbekannt, nicht explizit programmierbar
+-   Data Mining: Entdeckung neuen Wissens durch Analyse der Daten
+-   Selbstanpassende Programme
+
+=\> Lernen wichtige Eigenschaft lebender Wesen :-)
+
+##### Learning Agent
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/learning_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/learning.png" width="70%" /></picture></p>
+
+##### Feedback während des Lernens
+
+-   **Überwachtes Lernen**
+    -   Lernen durch Beobachtung
+    -   Vorgabe von Beispielen: Ein- und Ausgabewerte
+
+    =\> Regression, Klassifikation
+
+<!-- -->
+
+-   **Unüberwachtes Lernen**
+    -   Erkennen von Mustern in den Inputdaten, Clustering
+    -   Kein Feedback (!)
+
+<!-- -->
+
+-   **Reinforcement Lernen**
+    -   Bewertung der Aktionen des Agenten am Ende einer Aktionsfolge
+
+**Beispiel Kleinkind**: Lernen von Klassen/Konzepten durch Beispiele
+
+-   Zuerst ist alles "Katze" (Übergeneralisierung)
+-   Differenzierung durch Feedback der Umwelt; Erkennung
+    unterschiedlicher Ausprägungen
+
+##### Beispiel: Kreditrisiko
+
+-   Bankkunde beantragt Kredit
+-   Soll er aus Sicht der Bank den Kredit bekommen?
+
+<!-- -->
+
+-   Bankangestellter betrachtet (relevante) Merkmale des Kunden:
+    -   Alter, Einkommen, sozialer Status
+    -   Kundenhistorie bei der Bank
+    -   Höhe des Kredits
+
+<!-- -->
+
+-   Bewertung des Kreditrisikos:
+    -   **Klassifikation**: Guter oder schlechter Kunde (Binäre
+        Entscheidung: 2 Klassen)
+    -   **Regression**: Vorhersage Gewinn/Verlust für die Bank (Höhe des
+        Gewinns/Verlusts interessant)
+
+##### Beispiel: Autoreparatur
+
+-   **Gegeben**: Eigenschaften eines Autos
+
+    =\> Eigenschaften: Ausprägungen der Merkmale
+
+<!-- -->
+
+-   **Gesucht**: Diagnose und Reparaturanleitung
+
+    =\> Hypothese über den Merkmalen (Funktion $\mathop{\text{h}}$)
+
+##### Lernen durch Beobachten: Lernen einer Funktion $\mathop{\text{f}}$
+
+Funktionsapproximation: Lernen einer Funktion $\mathop{\text{f}}$ anhand
+von Beispielen
+
+-   Ein Beispiel ist ein Tupel
+    $(\mathbf{x}, \mathop{\text{f}}(\mathbf{x}))$, etwa
+    $$(\mathbf{x}, \mathop{\text{f}}(\mathbf{x})) = \left(\begin{array}{ccc}
+    O & O & X \\
+    . & X & . \\
+    X & . & .
+    \end{array}, +1\right)$$
+
+<!-- -->
+
+-   Aufgabe: Baue Hypothese $\mathop{\text{h}}$ auf, so dass
+    $\mathop{\text{h}} \approx \mathop{\text{f}}$.
+    -   Benutze dazu Menge von Beispielen =\> **Trainingsdaten**.
+
+<!-- -->
+
+-   Ziele:
+    1.  **Konsistente Hypothese**: Übereinstimmung bei Trainingsdaten
+    2.  **Generalisierende Hypothese**: Korrekte Vorhersage bei
+        unbekannten Daten
+
+*Anmerkung*: Stark vereinfachtes Modell realen Lernens!
+
+##### Konstruieren einer konsistenten Hypothese
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams1_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams1.png" width="40%" /></picture></p>
+
+Welcher Zusammenhang ist hier dargestellt? Offenbar eine Art
+Funktionsverlauf ... Wir haben für einige x-Werte die zugehörigen
+y-Werte vorgegeben.
+
+##### Konstruieren einer konsistenten Hypothese (cnt.)
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams2_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams2.png" width="40%" /></picture></p>
+
+Die einfachste Approximation wäre eine lineare Funktion. Allerdings
+werden hierbei einige Werte mehr oder weniger stark nicht korrekt
+widergegeben, d.h. man hat einen relativ hohen (Trainings-) Fehler.
+
+##### Konstruieren einer konsistenten Hypothese (cnt.)
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams3_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams3.png" width="40%" /></picture></p>
+
+Die Hyperbel erklärt die Trainingsdaten bis auf den einen Punkt sehr
+gut. Die Frage ist, ob dieser eine Punkt zum zu lernenden Zusammenhang
+gehört oder ein Ausreißer ist, den man gefahrlos ignorieren kann?
+
+##### Konstruieren einer konsistenten Hypothese (cnt.)
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams4_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams4.png" width="40%" /></picture></p>
+
+Die grüne Hypothese ist von allen bisher gezeigten die komplexeste,
+erklärt aber alle Datenpunkte. D.h. hier wäre der Trainingsfehler Null.
+Zwischen den Trainingsdaten zeigt das Modell eine "glatte"
+Approximation, d.h. es wird auch neue Daten, die es beim Training nicht
+gesehen hat, relativ gut erklären. (Dabei liegt freilich die Annahme
+zugrunde, dass alle relevanten Daten in der Trainingsmenge vorhanden
+sind, d.h. dass es insbesondere zwischen den Datenpunkten keine
+Ausreißer o.ä. gibt.)
+
+##### Konstruieren einer konsistenten Hypothese (cnt.)
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams5_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams5.png" width="40%" /></picture></p>
+
+Diese Hypothese erklärt ebenfalls sämtliche Trainingsdaten. Allerdings
+schwingt die Funktion zwischen den Daten stark hin und her. Vermutlich
+entspricht dies nicht dem zu lernenden Funktionsverlauf. Der
+Trainingsfehler wäre wie bei der deutlich einfacheren Hypthese aus dem
+letzten Schritt Null. Der Generalisierungsfehler (sprich die Abweichung,
+wenn man das Modell nach Daten zwischen den Trainingspunkten fragt)
+dürfte erheblich höher liegen.
+
+D.h. hier hat das Modell einfach die Trainingsdaten auswendig gelernt,
+aber nicht den Zusammenhang zwischen den Daten! Dies ist in der Regel
+unerwünscht!
+
+##### Occam's Razor
+
+**Bevorzuge die einfachste konsistente Hypothese!**
+
+1.  Wenn es mehrere mögliche Erklärungen für einen Sachverhalt gibt, ist
+    die einfachste Erklärung allen anderen vorzuziehen.
+2.  Eine Erklärung ist "einfach", wenn sie möglichst wenige Variablen
+    und Annahmen enthält und wenn diese in klaren logischen Beziehungen
+    zueinander stehen, aus denen der zu erklärende Sachverhalt logisch
+    folgt.
+
+##### Trainingsdaten und Merkmalsvektoren
+
+Lehrer gibt Beispiele vor: Eingabe $\mathbf{x}$ und passende Ausgabe
+$\mathop{\text{f}}(\mathbf{x})$
+
+-   Ausgabe: typischerweise Skalar (Funktionswert oder Klasse) =\>
+    Beispiel: Bewertung eines Spielstandes bei TicTacToe
+
+<!-- -->
+
+-   Eingabe: (Beschreibung des) Objekt(s) oder Situation, die zur
+    Ausgabe gehört =\> Beispiel: Spielstand bei TicTacToe
+
+**Merkmalsvektoren**:
+
+-   Zusammenfassen der relevanten Merkmale zu Vektoren
+
+##### Beispiel: Schwimmen im See
+
+Beschreibung der Faktoren, wann ich im See schwimmen möchte:
+
+1.  Scheint die Sonne?
+2.  Wie warm ist das Wasser?
+3.  Wie warm ist die Luft?
+
+-   Trainingsbeispiel:
+    -   Eingabe: Merkmalsvektor `(sonnig, warm, warm)`
+    -   Ausgabe: Klasse `ja`
+
+Dabei wird davon ausgegangen, dass jeder Faktor (jedes Merkmal) an einer
+bestimmten Stelle im Merkmalsvektor aufgeführt ist. Beispielsweise
+gehört das `sonnig` zur Frage "Scheint die Sonne", `warm` jeweils zur
+Wasser- und zur Lufttemperatur.
+
+Damit hat man in einem Vektor eine Situation komplett beschrieben, d.h.
+einen Zustand der Welt mit den relevanten Dingen beschrieben. Diesem
+Zustand kann man beispielsweise ein Label (Klasse) verpassen, hier in
+diesem Fall "ja, in dieser Welt möchte ich schwimmen".
+
+Die Trainingsmenge baut sich dann beim überwachten Lernen aus vielen
+solcher Paare (Merkmalsvektor, Klasse) auf, und die Algorithmen sollen
+diese Zuordnung lernen, d.h. ein Modell für diese Daten erzeugen,
+welches die Daten gut erklärt und darüber hinaus für neue Daten aus der
+selben Datenquelle gute Vorhersagen macht.
+
+##### Trainingsdaten -- Merkmalsvektoren
+
+**Generell**: Merkmalsvektor für Objekt $v$:
+$$    \mathbf{x}(v) = (x_1, x_2, \ldots, x_n)$$
+
+-   $n$ Merkmale (Attribute)
+-   Attribut $x_t$ hat $m_t$ mögliche Ausprägungen
+-   Ausprägung von $v$ bzgl. $x_t$: $\quad x_t(v) = i \quad$ (mit
+    $i = 1 \ldots m_t$)
+
+*Anmerkung*: Stellen Sie sich den Merkmalsvektor $\mathbf{x}$ vielleicht
+wie einen Konstruktor einer Klasse `x` vor: Die einzelnen Attribute
+$x_t$ sind die Parameter, aus denen der Merkmalsvektor aufgebaut
+ist/wird. Jedes der Attribute hat einen Typ und damit eine bestimmte
+Anzahl erlaubter Werte ("Ausprägungen") ...
+
+**Trainingsbeispiel**:
+
+-   Tupel aus Merkmalsvektor und zugehöriger Klasse:
+    $\left(\mathbf{x}(v), k\right)$
+
+##### Wrap-Up
+
+-   Lernen ist Verhaltensänderung, Ziel: Optimierung einer Gütefunktion
+    -   Aufbau einer Hypothese, die beobachtete Daten erklären soll
+    -   Arten: Überwachtes Lernen, Unüberwachtes Lernen, Reinforcement
+        Lernen
+
+<!-- -->
+
+-   Merkmalsvektoren gruppieren Eigenschaften des Problems bzw. der
+    Objekte
+-   Trainingsdaten: Beispielobjekte (durch Merkmalsvektoren beschrieben)
+    plus Vorgabe vom Lehrer
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>📖 Zum Nachlesen</strong></summary>
+>
+> -   Russell und Norvig ([2021](#ref-Russell2021)): Lernen: Abschnitte
+>     19.1 und 19.2
+>
+> </details>
+
+> [!NOTE]
+>
+> <details >
+> <summary><strong>✅ Lernziele</strong></summary>
+>
+> -   k1: Ich kann den Begriff "(maschinelles) Lernen" definieren und
+>     verschiedene Arten unterscheiden
+> -   k2: Ich kann "Überwachtes Lernen" erklären: Lernen durch
+>     Beobachten (mit Lehrer)
+> -   k2: Ich kann wichtige Elemente des (maschinellen) Lernens
+>     erklären: Merkmalsvektoren, Eigenschaften, Ausprägung, Objekte,
+>     Trainingsmenge
+>
+> </details>
+
+> [!TIP]
+>
+> <details >
+> <summary><strong>🧩 Quizzes</strong></summary>
+>
+> -   [Selbsttest Intro ML
+>     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106589&client_id=FH-Bielefeld)
+>
+> </details>
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🏅 Challenges</strong></summary>
+>
+> **Modellierung**
+>
+> Sie stehen vor der Entscheidung, ob Sie sich zur Vorbereitung auf die
+> Flipped-Classroom-Sitzung noch das Skript anschauen. Welche Attribute
+> benötigen Sie, um die Situation zu beschreiben?
+>
+> **Metriken für Klassifikatoren**
+>
+> Es ist wieder Wahlkampf: Zwei Kandidaten O und M bewerben sich um die
+> Kanzlerschaft. Die folgende Tabelle zeigt die Präferenzen von sieben
+> Wählern.
+>
+> | Nr. | Alter    | Einkommen | Bildung  | Kandidat | Vorhersage |
+> |:----|:---------|:----------|:---------|:---------|:-----------|
+> | 1   | $\ge 35$ | hoch      | Abitur   | O        | O          |
+> | 2   | $< 35$   | niedrig   | Master   | O        | O          |
+> | 3   | $\ge 35$ | hoch      | Bachelor | M        | M          |
+> | 4   | $\ge 35$ | niedrig   | Abitur   | M        | M          |
+> | 5   | $\ge 35$ | hoch      | Master   | O        | O          |
+> | 6   | $< 35$   | hoch      | Bachelor | O        | M          |
+> | 7   | $< 35$   | niedrig   | Abitur   | M        | O          |
+>
+> Auf diesem Datensatz wurde ein Klassifikator trainiert, die
+> Trainingsergebnisse sind in der Tabelle unter "Vorhersage" angegeben.
+>
+> Bewerten Sie den Klassifikator.
+>
+> </details>
+
+<a id="id-4807e4a11529854b6d77f86cd3ca37caabc11cc9"></a>
+
+#### DTL: CAL2
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🎯 TL;DR</strong></summary>
+>
+> Eine Hypothese kann im einfachsten Fall als Entscheidungsbaum
+> dargestellt werden. Die Merkmale bilden dabei die Knoten im Baum, und
+> je Ausprägung gibt es eine Kante zu einem Nachfolgerknoten. Ein
+> Merkmal bildet die Wurzel des Baums, an den Blättern sind die Klassen
+> zugeordnet.
+>
+> Einen Entscheidungsbaum kann man zur Klassifikation eines Objekts
+> schrittweise durchlaufen: Für jeden Knoten fragt man die Ausprägung
+> des Merkmals im Objekt ab und wählt den passenden Ausgang aus dem
+> Knoten. Wenn man am Blatt angekommen ist, hat man die Antwort des
+> Baumes auf das Objekt, d.h. üblicherweise die Klasse.
+>
+> Den Baum kann man mit dem Algorithmus CAL2 schrittweise aufbauen. Man
+> startet mit "Nichtwissen" (symbolisiert mit einem "\*") und iteriert
+> durch alle Trainingsbeispiele, bis der Baum sich nicht mehr verändert.
+> Wenn der Baum auf ein Beispiel einen "\*" ausgibt, dann ersetzt man
+> diesen "\*" mit der Klasse des eben betrachteten Beispiels. Wenn der
+> Baum bei einem Beispiel die passende Klasse ausgibt, macht man mit dem
+> nächsten Beispiel weiter. Wenn der Baum bei einem Beispiel eine andere
+> Klasse ausgibt, muss das Klassensymbol im Baum (an der Stelle, wo das
+> Objekt gelandet ist) durch den nächsten Test ersetzt werden: Hierzu
+> nimmt man das nächste, auf diesem konkreten Pfad noch nicht verwendete
+> Merkmal. CAL2 kann nur mit diskreten Attributen und disjunkten Klassen
+> einen fehlerfreien Baum erzeugen.
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> -   [VL CAL2](https://youtu.be/bR_QVYtPRx8)
+>
+> </details>
+
+##### Entscheidungsbäume: Klassifikation
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/xor-decision-tree_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/xor-decision-tree.png" width="60%" /></picture></p>
+
+-   Attribute als Knoten im Baum
+-   Ausprägungen als Test (Ausgang, Verzweigung)
+-   Klasse (Funktionswert) als Blatt
+
+Erinnern Sie sich an das Beispiel mit der Auto-Reparatur aus der letzten
+Sitzung.
+
+Die relevanten Eigenschaften (Merkmale) eines Autos würden als Knoten im
+Baum repräsentiert. Beispiel: "Motor startet" oder "Farbe".
+
+Jedes Merkmal hat eine Anzahl von möglichen Ausprägungen, diese
+entsprechen den Verzweigungen am Knoten. Beispiel: "startet", "startet
+nicht" oder "rot", "weiß", "silber", ... .
+
+Entsprechend kann man durch Abarbeiten des Entscheidungsbaumes am Ende
+zu einer Diagnose gelangen (Klasse).
+
+Eine andere Sichtweise ist die Nutzung als Checkliste für eine Reparatur
+...
+
+##### Definition Entscheidungsbaum
+
+-   Erinnerung: **Merkmalsvektor** für Objekt $v$:
+    $$    \mathbf{x}(v) = (x_1, x_2, \ldots, x_n)$$
+
+    -   $n$ Merkmale (Attribute)
+    -   Attribut $x_t$ hat $m_t$ mögliche Ausprägungen
+    -   Ausprägung von $v$ bzgl. $x_t$: $\quad x_t(v) = i \quad$ (mit
+        $i = 1 \ldots m_t$)
+
+<!-- -->
+
+-   **Alphabet** für Baum:
+    $$\lbrace x_t | t=1,\ldots,n \rbrace \cup \lbrace \kappa | \kappa = \ast,A,B,C,\ldots \rbrace \cup \lbrace (,) \rbrace$$
+
+<!-- -->
+
+-   **Entscheidungsbaum** $\alpha$:
+    $$\alpha = \left\lbrace  \begin{array}{ll}
+            \kappa  & \text{Terminalsymbole: } \kappa = \ast,A,B, \ldots\\
+            x_t(\alpha_1, \alpha_2, \ldots, \alpha_{m_t}) & x_t \text{ Testattribut mit } m_t \text{ Ausprägungen}
+        \end{array}\right.$$
+
+*Anmerkung*: Stellen Sie sich die linearisierte Schreibweise wieder wie
+den (verschachtelten) Aufruf von Konstruktoren vor. Es gibt die
+Oberklasse `Baum`, von der für jedes Attribut eine Klasse abgeleitet
+wird. D.h. der Konstruktor für eine Attributklasse erzeugt letztlich ein
+Objekt vom Obertyp `Baum`. Außerdem sind die Terminalsymbole `A`, `B`,
+... Objekte vom Typ `Blatt`, welches eine Unterklasse von `Baum` ist ...
+
+Dabei wird die Anzahl der möglichen Ausprägungen für ein Attribut
+berücksichtigt: Jede Ausprägung hat einen Parameter im Konstruktor.
+Damit werden die Unterbäume beim Erzeugen des Knotens übergeben.
+
+##### Induktion von Entscheidungsbäumen: CAL2
+
+1)  Anfangsschritt: $\alpha^{(0)} = \ast$ (totales Unwissen)
+
+2)  $n$-ter Lernschritt: Objekt $v$ mit Klasse $k$, Baum
+    $\alpha^{(n-1)}$ gibt $\kappa$ aus
+
+    -   $\kappa = \ast$: ersetze $\ast$ durch $k$
+    -   $\kappa = k$: keine Aktion nötig
+    -   $\kappa \neq k$: Fehler
+        -   Ersetze $\kappa$ mit neuem Test:
+            $\kappa \gets x_{t+1}(\ast, \ldots, \ast, k, \ast, \ldots, \ast)$
+        -   $x_{t+1}$: nächstes Attribut, auf dem aktuellen Pfad noch
+            nicht verwendet
+        -   Symbol $k$ an Position $i$ wenn $x_{t+1}(v) = i$
+
+$\alpha^{(n)}$ bezeichnet den Baum im $n$-ten Lernschritt.
+
+CAL2 ist ein **Meta-Algorithmus**: Es ist ein Algorithmus, um einen
+Algorithmus zu lernen :-)
+
+##### Beispiel mit CAL2
+
+| $x_1$ | $x_2$ | $x_3$ | $k$ |
+|:------|:------|:------|:----|
+| 0     | 0     | 1     | A   |
+| 1     | 0     | 0     | A   |
+| 0     | 1     | 4     | B   |
+| 1     | 1     | 2     | B   |
+| 0     | 0     | 3     | A   |
+
+**Ergebnis**: $x_1(x_2(A, B), x_2(A, B))$
+
+*Anmerkung*: Denken Sie an die Analogie von oben. $x_1$ kann als
+Konstruktor einer Klasse `x1` betrachtet werden, die eine Unterklasse
+von `Baum` ist. Durch den Aufruf des Konstruktors wird als ein `Baum`
+erzeugt.
+
+Es gibt in $x_1$ zwei mögliche Ausprägungen, d.h. der Baum hat in diesem
+Knoten zwei alternative Ausgänge. Diese Unterbäume werden dem
+Konstruktor von `x1` direkt beim Aufruf übergeben (müssen also
+Referenzen vom Typ `Baum` sein).
+
+##### CAL2: Bemerkungen
+
+-   Nur für diskrete Merkmale und disjunkte Klassen
+
+<!-- -->
+
+-   Zyklischer Durchlauf durch Trainingsmenge
+-   Abbruch:
+    -   Alle Trainingsobjekte richtig klassifiziert =\> Kein Fehler in
+        einem kompletten Durchlauf
+    -   (Differenzierung nötig, aber alle Merkmale verbraucht)
+    -   (Lernschrittzahl überschritten)
+
+##### Wrap-Up
+
+-   Darstellung der Hypothese als Entscheidungsbaum
+-   CAL2: diskrete Attribute, disjunkte Klassen
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>📖 Zum Nachlesen</strong></summary>
+>
+> -   Unger und Wysotzki ([1981](#ref-Unger1981)): Der Vollständigkeit
+>     halber aufgeführt (Werk ist leider vergriffen und wird nicht mehr
+>     verlegt)
+>
+> </details>
+
+> [!NOTE]
+>
+> <details >
+> <summary><strong>✅ Lernziele</strong></summary>
+>
+> -   k3: Ich kann den Entscheidungsbaumlerner CAL2 auf ein Beispiel
+>     anwenden
+>
+> </details>
+
+> [!TIP]
+>
+> <details >
+> <summary><strong>🧩 Quizzes</strong></summary>
+>
+> -   [Selbsttest CAL2
+>     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106575&client_id=FH-Bielefeld)
+>
+> </details>
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🏅 Challenges</strong></summary>
+>
+> **Modellierung**
+>
+> Sie stehen vor der Entscheidung, ob Sie sich zur Vorbereitung auf die
+> Flipped-Classroom-Sitzung noch das Skript anschauen.
+>
+> Zeichnen Sie einen Entscheidungsbaum, der Ihnen bei der Entscheidung
+> hilft.
+>
+> **Textklassifikation**
+>
+> Betrachten Sie die folgenden Aussagen:
+>
+> > -   Patient A hat weder Husten noch Fieber und ist gesund.
+> > -   Patient B hat Husten, aber kein Fieber und ist gesund.
+> > -   Patient C hat keinen Husten, aber Fieber. Er ist krank.
+> > -   Patient D hat Husten und kein Fieber und ist krank.
+> > -   Patient E hat Husten und Fieber. Er ist krank.
+>
+> Aufgaben:
+>
+> 1.  Trainieren Sie auf diesem Datensatz einen Klassifikator mit CAL2.
+> 2.  Ist Patient F krank? Er hat Husten, aber kein Fieber.
+>
+> **Handsimulation CAL2**
+>
+> Zeigen Sie mit einer Handsimulation, wie CAL2 mit dem folgenden
+> Trainingsdatensatz schrittweise einen Entscheidungsbaum generiert.
+> Nutzen Sie die linearisierte Schreibweise.
+>
+> | Beispiel | $x_1$ | $x_2$ | $x_3$ | Klasse |
+> |:--------:|:-----:|:-----:|:-----:|:------:|
+> |    1     |   a   |   a   |   a   |   1    |
+> |    2     |   a   |   b   |   a   |   2    |
+> |    3     |   a   |   a   |   b   |   1    |
+> |    4     |   b   |   a   |   b   |   1    |
+> |    5     |   a   |   a   |   c   |   1    |
+> |    6     |   b   |   b   |   b   |   2    |
+>
+> Welchen Entscheidungsbaum würde CAL2 lernen, wenn dem
+> Trainingsdatensatz der Vektor $((a,a,b), 2)$ als Beispiel Nr. 7
+> hinzugefügt werden würde?
+>
+> </details>
+
+<a id="id-19ffac22140785b62f48ef3e44c1bde3a43d2054"></a>
+
+#### DTL: Pruning
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🎯 TL;DR</strong></summary>
+>
+> Pruning ist das Entfernen redundanter und irrelevanter Tests
+> (Merkmale).
+>
+> Irrelevante Merkmale spielen keine Rolle bei der Klassifikation, an
+> jedem Ausgang eines irrelevanten Merkmals findet sich exakt der selbe
+> Baum. Diese Tests kann man einfach entfernen und durch einen ihrer
+> Teilbäume ersetzen; dadurch ändert sich nicht die Klassifikation des
+> Baumes.
+>
+> Bei redundanten Tests sind alle Ausgänge bis auf einen noch mit
+> "Nichtwissen" ("\*") markiert. Hier kann man den Test durch den einen
+> bekannten Ausgang ersetzen, wodurch sich die Klassifikation ändert.
+> Allerdings wird der Klassifikationsfehler nicht größer, da man ja
+> vorher nur für eine Ausprägung des redundanten Merkmals einen Baum
+> hatte und für die anderen jeweils mit "\*" antworten musste (d.h. hier
+> stets einen Fehler gemacht hatte).
+>
+> Über die Transformationsregel kann man einfach die Reihenfolge von
+> Tests im Baum ändern.
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> -   [VL Pruning](https://youtu.be/LKt9F2kGYdk)
+>
+> </details>
+
+##### Pruning: Bedingt irrelevante Attribute
+
+**Baum**: $\alpha = x_1(x_2(A, B),  x_2(A, B),  x_2(A, B))$
+
+$x_1$ ist bedingt irrelevant =\> Vereinfachung: $\alpha = x_2(A, B)$
+
+**Allgemein**:
+
+-   Sei $\tilde{x}$ Weg zu Nichtendknoten $x_t$
+-   Baum dort $\alpha/\tilde{x} = x_t(\alpha_1, \ldots, \alpha_{m_t})$
+-   $x_t$ ist **bedingt irrelevant** unter der Bedingung $\tilde{x}$,
+    wenn $\alpha_1 = \alpha_2 = \ldots = \alpha_{m_t}$
+-   **Vereinfachung**: Ersetze in $\alpha/\tilde{x}$ den Test $x_t$
+    durch $\alpha_1$
+
+*Anmerkung*: Der durch das Entfernen von bedingt irrelevanten Attributen
+entstandene Baum hat **exakt** die selbe Aussage (Klassifikation) wie
+der Baum vor dem Pruning.
+
+**Anmerkung**: $x_1$ im obigen Beispiel ist sogar **global** irrelevant,
+da es sich hier um die Wurzel des Baumes handelt. Der Weg $\tilde{x}$
+ist in diesem Fall der leere Weg ...
+
+##### Pruning: Bedingt redundante Attribute
+
+**Baum**: $\alpha = x_1(\ast,  \ast,  x_2(A, B))$
+
+$x_1$ ist bedingt redundant =\> Vereinfachung: $\alpha = x_2(A, B)$
+
+**Allgemein**:
+
+-   Sei $\tilde{x}$ Weg zu Nichtendknoten $x_t$
+-   Baum dort
+    $\alpha/\tilde{x} = x_t(\ast, \ldots, \ast, \alpha_i, \ast, \ldots, \ast)$
+    (mit $\alpha_i \neq \ast$)
+-   $x_t$ ist **bedingt redundant** unter der Bedingung $\tilde{x}$
+-   **Vereinfachung**: Ersetze in $\alpha/\tilde{x}$ den Test $x_t$
+    durch $\alpha_i$
+
+*Anmerkung*: Der durch das Entfernen von bedingt redundanten Attributen
+entstandene Baum hat eine etwas andere Klassifikation als der Baum vor
+dem Pruning. Wo vorher ein `*` ausgegeben wurde, wird nach dem Pruning
+u.U. ein Klassensymbol ausgegeben. Der Klassifikationsfehler erhöht sich
+aber **nicht**, da hier ein `*` wie ein falsches Klassensymbol zu werten
+ist.
+
+**Anmerkung**: $x_1$ im obigen Beispiel ist sogar **global** redundant,
+da es sich hier um die Wurzel des Baumes handelt. Der Weg $\tilde{x}$
+ist in diesem Fall der leere Weg ...
+
+##### Allgemeine Transformationsregel
+
+$$x_1(x_2(a, b),  x_2(c, d))  \Leftrightarrow  x_2(x_1(a, c),  x_1(b, d))$$
+
+##### Wrap-Up
+
+-   Pruning: Entfernen bedingt redundanter und irrelevanter Tests
+-   Transformationsregel zum Umbauen von Entscheidungsbäumen
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>📖 Zum Nachlesen</strong></summary>
+>
+> -   Ertel ([2025](#ref-Ertel2025)): Entscheidungsbäume: Abschnitt 8.4
+> -   Russell und Norvig ([2021](#ref-Russell2021)): Entscheidungsbäume:
+>     Abschnitt 19.3
+>
+> </details>
+
+> [!NOTE]
+>
+> <details >
+> <summary><strong>✅ Lernziele</strong></summary>
+>
+> -   k3: Ich kann Pruning anwenden und bedingt irrelevante Tests
+>     entfernen
+> -   k3: Ich kann Pruning anwenden und bedingt redundante Tests
+>     entfernen
+> -   k3: Ich kann Entscheidungsbäume mit Hilfe der Transformationsregel
+>     umformen
+>
+> </details>
+
+> [!TIP]
+>
+> <details >
+> <summary><strong>🧩 Quizzes</strong></summary>
+>
+> -   [Selbsttest Pruning
+>     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106577&client_id=FH-Bielefeld)
+>
+> </details>
+
+<a id="id-1867142959094a5c852b79c1c6f3caed8e931b63"></a>
+
+#### DTL: CAL3
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🎯 TL;DR</strong></summary>
+>
+> CAL3 ist eine einfache Erweiterung von CAL2 für nicht-disjunkte
+> (überlappende) Klassen. Statt beim Baumaufbau bei einer
+> Fehlklassifikation sofort zu verzweigen, werden hier zunächst die im
+> entsprechenden Pfad aufgelaufenen Klassensymbole gezählt. Wenn
+> ausreichend viele davon gesehen wurden (Schwelle $S_1$), wird eine
+> Entscheidung getroffen: Wenn eine Klasse in diesem temporären Blatt
+> dominiert (ihre Häufigkeit über einer Schwelle $S_2$ liegt), dann
+> entscheidet man sich in diesem Blatt fest für diese Klasse. Ansonsten
+> (die Häufigkeit aller Klassen in dem Blatt liegt unter $S_2$) nimmt
+> man analog zu CAL2 den nächsten, auf diesem Pfad noch nicht
+> verwendeten Test hinzu.
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> -   [VL CAL3](https://youtu.be/9Wj51XvuntM)
+>
+> </details>
+
+##### CAL3: Erweiterung von CAL2 für nicht-disjunkte Klassen
+
+1)  Anfangsschritt: $\alpha^{(0)} = \ast$ (totales Unwissen)
+
+2)  $n$-ter Lernschritt: Objekt $v$ mit Klasse $k$
+
+    -   Rückweisung (Endknoten mit $\ast$): Ersetze $\ast$ durch
+        Vereinigungsklasse $/k1/$
+
+    -   Endknoten mit Vereinigungsklasse:
+
+        -   Zähler für $k$ erhöhen, bzw.
+        -   $k$ mit Anzahl $1$ in Vereinigungsklasse einfügen
+
+    Falls nun die Summe aller Klassen am Endknoten größer/gleich $S_1$
+    (Statistikschwelle):
+
+    -   Für **genau eine** Klasse gilt: $P(k | \tilde{x}) \ge S_2$: =\>
+        Abschluss: Ersetze Vereinigungsklasse durch $k$ (für immer!)
+
+    -   Für **alle** Klassen gilt: $P(k | \tilde{x}) < S_2$: =\>
+        Differenzierung: Ersetze Vereinigungsklasse durch neuen Test:
+        $\kappa \gets x_{t+1}(\ast, \ldots, \ast, /k1/, \ast, \ldots, \ast)$
+
+        $x_{t+1}$: nächstes Attribut, auf dem aktuellen Pfad $\tilde{x}$
+        noch nicht verwendet Symbol $k$ mit Anzahl 1 an Position $i$
+        wenn $x_{t+1}(v) = i$
+
+##### Beispiel mit CAL3
+
+| $x_1$ | $x_2$ | $k$ |
+|:------|:------|:----|
+| 0     | 0     | A   |
+| 0     | 1     | B   |
+| 0     | 1     | A   |
+| 1     | 0     | B   |
+| 1     | 1     | A   |
+
+-   $S_1 = 4, S_2 = 0.7$
+
+**Ergebnis**: $x_1(A,  x_2(B, A))$
+
+Trainingsfehler: $1/5 = 0.2 < 1-S_2 = 1-0.7 = 0.3$
+
+**Hinweis**: Bei nicht überlappenden Klassen erzeugt CAL3 u.U. andere
+Bäume als CAL2 ...
+
+##### CAL3: Abbruchbedingungen und Parameter
+
+-   **Parameter**:
+    -   $S_1$: Statistikschwelle, problemabhängig wählen
+    -   $S_2$: $0.5 < S_2 \le 1.0$
+    -   Klassifikationsfehler kleiner als $1-S_2$
+        -   kleiner Fehler =\> großer Baum
+        -   großer Fehler =\> kleiner Baum
+
+<!-- -->
+
+-   **Abbruch**:
+    -   Alle Trainingsobjekte richtig klassifiziert =\> Kein Fehler in
+        einem kompletten Durchlauf
+    -   Alle Endknoten mit eindeutigen Klassensymbolen belegt
+    -   Differenzierung nötig, aber alle Merkmale verbraucht
+    -   Lernschrittzahl überschritten
+
+##### Wrap-Up
+
+-   CAL3: Erweiterung von CAL2 für überlappende Klassen
+    -   Parameter $S_1$ (Anzahl Objekte bis Entscheidung), $S_2$
+        (Dominanz?)
+    -   Trainingsfehler wg. überlappender Klassen!
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>📖 Zum Nachlesen</strong></summary>
+>
+> -   Unger und Wysotzki ([1981](#ref-Unger1981)): Der Vollständigkeit
+>     halber aufgeführt (Werk ist leider vergriffen und wird nicht mehr
+>     verlegt)
+>
+> </details>
+
+> [!NOTE]
+>
+> <details >
+> <summary><strong>✅ Lernziele</strong></summary>
+>
+> -   k3: Ich kann den Meta-Algorithmus CAL3 für überlappende Klassen
+>     anwenden
+>
+> </details>
+
+> [!TIP]
+>
+> <details >
+> <summary><strong>🧩 Quizzes</strong></summary>
+>
+> -   [Selbsttest CAL3
+>     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106576&client_id=FH-Bielefeld)
+>
+> </details>
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🏅 Challenges</strong></summary>
+>
+> **Textklassifikation**
+>
+> Betrachten Sie die folgenden Aussagen:
+>
+> > -   Patient A hat weder Husten noch Fieber und ist gesund.
+> > -   Patient B hat Husten, aber kein Fieber und ist gesund.
+> > -   Patient C hat keinen Husten, aber Fieber. Er ist krank.
+> > -   Patient D hat Husten und kein Fieber und ist krank.
+> > -   Patient E hat Husten und Fieber. Er ist krank.
+>
+> Aufgaben:
+>
+> 1.  Trainieren Sie auf diesem Datensatz einen Klassifikator mit CAL3
+>     ($S_1=4, S_2=0.6$).
+> 2.  Ist Patient F krank? Er hat Husten, aber kein Fieber.
+>
+> </details>
+
+<a id="id-f085a6c9977296f3811e103376badb06ee228d84"></a>
+
+#### DTL: Entropie
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🎯 TL;DR</strong></summary>
+>
+> Die Entropie kann als Maß für den Informationsgehalt einer
+> Trainingsmenge betrachtet werden: Wieviele Ja/Nein-Entscheidungen sind
+> nötig, um die Daten fehlerfrei zu repräsentieren?
+>
+> Nach der Wahl eines Attributs kann die verbleibende mittlere Entropie
+> berechnet werden. Damit hat man ein Kriterium für die Auswahl von
+> Attributen beim Aufbau von Entscheidungsbäumen: Nimm das Attribut,
+> welches einen möglichst hohen Informationsgehalt hat. Oder
+> andersherum: Wähle das Attribut, bei dem die verbleibende mittlere
+> Entropie der Trainingsmenge nach der Wahl des Attributs am kleinsten
+> ist.
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> -   [VL Entropie](https://youtu.be/4IZYA5EWO1k)
+>
+> </details>
+
+##### Wie Attribute wählen?
+
+###### Erinnerung: CAL2/CAL3
+
+-   Zyklische Iteration durch die Trainingsmenge
+-   Ausschließlich aktuelles Objekt betrachtet
+-   Reihenfolge der "richtigen" Attributwahl bei Verzweigung unklar
+
+=\> Betrachte stattdessen die komplette Trainingsmenge!
+
+###### Relevanz =\> Informationsgehalt
+
+-   Shannon/Weaver (1949): **Entropie**
+    -   Maß für die Unsicherheit einer Zufallsvariablen
+    -   Anzahl der Bits zur Darstellung der Ergebnisse eines
+        Zufallsexperiments
+
+###### Beispiele
+
+-   Münze, die immer auf dem Rand landet: keine Unsicherheit, 0 Bit
+-   Faire Münze: Kopf oder Zahl: Entropie 1 Bit
+-   Fairer 4-seitiger Würfel: 4 mögliche Ausgänge: Entropie 2 Bit
+-   Münze, die zu 99% auf einer Seite landet: Entropie nahe Null
+
+=\> Anzahl der Ja/Nein-Fragen, um zur gleichen Information zu kommen
+
+##### Definition der Entropie $H(V)$ für Zufallsvariable $V$
+
+-   Zufallsvariable $V$ =\> mögliche Werte $v_k$
+-   Wahrscheinlichkeit für $v_k$ sei $p_k = P(v_k)$
+
+$$H(V) = -\sum_k p_k \log_2 p_k$$
+
+Hinweis:
+$\log_2 x = \frac{\log_{10} x}{\log_{10} 2} = \frac{\log x}{\log 2}$
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range.png"  /></picture></p>
+
+-   Nur eine Klasse: $\log_2 1 = 0$ =\> $H(V) = 0$ Bit
+-   Zwei Klassen, gleichwahrscheinlich: $\log_2 0.5 = -1$ =\> $H(V) = 1$
+    Bit
+
+##### Beispiele Entropie: faire Münze
+
+Entropie: $$H(V) = -\sum_k p_k \log_2 p_k$$
+
+-   $v_1 = \mathop{\text{Kopf}},  v_2 = \mathop{\text{Zahl}}$
+-   $p_1 = 0.5,  p_2 = 0.5$
+-   $H(\mathop{\text{Fair}}) = -(0.5 \log_2 0.5 + 0.5 \log_2 0.5) = 1$
+    Bit
+
+$\log_2 0.5 = -1$
+
+##### Beispiele Entropie: unfaire Münze
+
+Entropie: $$H(V) = -\sum_k p_k \log_2 p_k$$
+
+-   $v_1 = \mathop{\text{Kopf}},  v_2 = \mathop{\text{Zahl}}$
+
+-   $p_1 = 0.99,  p_2 = 0.01$
+
+-   $H(\mathop{\text{UnFair}}) = -(0.99 \log_2 0.99 + 0.01 \log_2 0.01)$
+
+    $H(\mathop{\text{UnFair}}) \approx 0.08$ Bit
+
+$\log_2 0.01 \approx -6.64$
+
+$\log_2 0.99 \approx -0,014$
+
+##### Beispiele Entropie: 4-seitiger Würfel
+
+Entropie: $$H(V) = -\sum_k p_k \log_2 p_k$$
+
+-   $v_1 = 1,  v_2 = 2,   v_3 = 3,   v_4 = 4$
+-   $p_1 = p_2 = p_3 = p_4 = 0.25$
+-   $H(\mathop{\text{Wuerfel}}) = -4\cdot(0.25 \log_2 0.25) = 2$ Bit
+
+$\log_2 0.25 = -2$
+
+##### Entropie der Trainingsmenge: Häufigkeit der Klassen zählen
+
+| Nr. | $x_1$ | $x_2$ | $x_3$ | $k$ |
+|:----|:------|:------|:------|:----|
+| 1   | 0     | 0     | 0     | A   |
+| 2   | 1     | 0     | 2     | A   |
+| 3   | 0     | 1     | 1     | A   |
+| 4   | 1     | 1     | 0     | B   |
+| 5   | 0     | 1     | 1     | B   |
+| 6   | 0     | 1     | 0     | A   |
+
+-   Anzahl Klasse $A$: 4
+-   Anzahl Klasse $B$: 2
+-   Gesamtzahl Beispiele: 6
+
+Wahrscheinlichkeit für $A$: $p_A = 4/6 = 0.667$
+
+Wahrscheinlichkeit für $B$: $p_B = 2/6 = 0.333$
+
+$$\begin{eqnarray}
+    H(S) &=& -\sum_k p_k \log_2 p_k\\
+         &=& -(4/6 \cdot \log_2 4/6 + 2/6 \cdot \log_2 2/6)\\
+         &=& -(-0.39 -0.53) = 0.92 \mathop{\text{Bit}}
+\end{eqnarray}$$
+
+##### Mittlere Entropie nach Betrachtung von Attribut $A$
+
+$$    R(S, A) = \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)$$
+
+-   Auswahl von Attribut $A$ partitioniert die Trainingsmenge: Je
+    Ausprägung $v$ von $A$ erhält man eine Submenge $S_v$
+
+-   $R(S, A)$ berechnet die mittlere Entropie der Trainingsmenge,
+    nachdem Attribut $A$ ausgewählt wurde: Unsicherheit/nötige Bits nach
+    Auswahl von Attribut $A$
+
+##### Entropie der Trainingsmenge nach Attributwahl
+
+| Nr. | $x_1$ | $x_2$ | $x_3$ | $k$ |
+|:----|:------|:------|:------|:----|
+| 1   | 0     | 0     | 0     | A   |
+| 2   | 1     | 0     | 2     | A   |
+| 3   | 0     | 1     | 1     | A   |
+| 4   | 1     | 1     | 0     | B   |
+| 5   | 0     | 1     | 1     | B   |
+| 6   | 0     | 1     | 0     | A   |
+
+-   Sei Attribut $x_1$ ausgewählt
+-   $x_1$ partitioniert die Trainingsmenge
+    -   $x_1=0$ liefert $S_0 = \lbrace 1,3,5,6 \rbrace$
+    -   $x_1=1$ liefert $S_1 = \lbrace 2,4 \rbrace$
+    -   Häufigkeit für $x_1=0$: $4/6$
+    -   Häufigkeit für $x_1=1$: $2/6$
+    -   Gesamtzahl Beispiele: 6
+
+$$\begin{eqnarray}
+    R(S, A) &=& \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)\\
+         &=& 4/6 \cdot H(\lbrace 1,3,5,6 \rbrace) + 2/6 \cdot H(\lbrace 2,4 \rbrace)\\
+         &=& 4/6\cdot(-3/4 \cdot \log_2 3/4 - 1/4 \cdot \log_2 1/4) +\\
+         && 2/6\cdot(-1/2 \cdot \log_2 1/2 - 1/2 \cdot \log_2 1/2)\\
+         &=& 0.54 + 0.33 = 0.87 \mathop{\text{Bit}}
+\end{eqnarray}$$
+
+##### Ausblick: Gini Impurity
+
+Wir haben hier die
+[Entropie](https://en.wikipedia.org/wiki/Decision_tree_learning#Information_gain)
+als Maß für den Informationsgehalt einer Trainingsmenge genutzt.
+$R(S,A)$ als die mittlere Entropie nach Betrachtung von Attribut $A$
+wird von typischen Entscheidungsbaumverfahren wie ID3 und C4.5 genutzt,
+um bei einer Verzweigung das nächste möglichst aussagekräftige Merkmal
+auszuwählen.
+
+In anderen Entscheidungsbaumlernern wird stattdessen die [Gini
+Impurity](https://en.wikipedia.org/wiki/Decision_tree_learning#Gini_impurity)
+zur Bestimmung des Informationsgehalts eingesetzt (u.a. CART). Dieses
+Maß sagt aus, wie oft man ein zufällig gezogenes Element des Datensatzes
+falsch klassifizieren würde, wenn man es mit einer zufälligen Klasse
+basierend auf der Verteilung der Klassen im Datensatz labeln würde.
+
+Hierzu drei lesenswerte Blog-Einträge:
+
+-   [Deep dive into the basics of Gini Impurity in Decision Trees with
+    math
+    Intuition](https://medium.com/poli-data/deep-dive-into-the-basics-of-gini-impurity-in-decision-trees-with-math-intuition-46c721d4aaec)
+-   [Decision Trees,
+    Explained](https://towardsdatascience.com/decision-trees-explained-d7678c43a59e)
+-   [Decision Tree Algorithm With Hands-On
+    Example](https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38)
+
+##### Wrap-Up
+
+-   Begriff und Berechnung der Entropie: Maß für die Unsicherheit
+-   Begriff und Berechnung des Informationsgewinns
+    -   Entropie für eine Trainingsmenge
+    -   Mittlere Entropie nach Wahl eines Attributs
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>📖 Zum Nachlesen</strong></summary>
+>
+> -   Ertel ([2025](#ref-Ertel2025)): Entscheidungsbäume: Abschnitt 8.4
+> -   Russell und Norvig ([2021](#ref-Russell2021)): Entscheidungsbäume:
+>     Abschnitt 19.3
+> -   Mitchell ([2010](#ref-Mitchell2010)): ID3: Kapitel 3
+>
+> </details>
+
+> [!NOTE]
+>
+> <details >
+> <summary><strong>✅ Lernziele</strong></summary>
+>
+> -   k3: Ich kann für konkrete Beispiele die Entropie und den
+>     Information Gain ausrechnen
+>
+> </details>
+
+> [!TIP]
+>
+> <details >
+> <summary><strong>🧩 Quizzes</strong></summary>
+>
+> -   [Selbsttest Entropie
+>     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106578&client_id=FH-Bielefeld)
+>
+> </details>
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🏅 Challenges</strong></summary>
+>
+> **Entropie einer Trainingsmenge**
+>
+> Betrachten Sie die folgenden Aussagen:
+>
+> > -   Patient A hat weder Husten noch Fieber und ist gesund.
+> > -   Patient B hat Husten, aber kein Fieber und ist gesund.
+> > -   Patient C hat keinen Husten, aber Fieber. Er ist krank.
+> > -   Patient D hat Husten und kein Fieber und ist krank.
+> > -   Patient E hat Husten und Fieber. Er ist krank.
+>
+> Aufgaben:
+>
+> 1.  Geben Sie die Entropie $H(S)$ der Trainingsmenge an.
+> 2.  Berechnen Sie $R(H,A)$ (die mittlere Entropie der Trainingsmenge,
+>     nachdem Attribut $A$ gesehen wurde) für die einzelnen Attribute.
+>
+> </details>
+
+<a id="id-0d69ce52eac18a7d932147cc42b20bcd98d267f3"></a>
+
+#### DTL: ID3 und C4.5
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🎯 TL;DR</strong></summary>
+>
+> Der Entscheidungsbaum-Lernalgorithmus **ID3** nutzt den
+> Informationsgehalt für die Entscheidung bei der Attributwahl: Nimm das
+> Attribut, welches einen möglichst hohen Informationsgehalt hat. Oder
+> andersherum: Wähle das Attribut, bei dem die verbleibende mittlere
+> Entropie der Trainingsmenge nach der Wahl des Attributs am kleinsten
+> ist. Oder noch anders formuliert: Nimm das Attribut, bei dem die
+> Differenz zwischen der Entropie der Trainingsmenge (vor der Wahl des
+> Attributs) und der verbleibenden mittleren Entropie (nach der Wahl des
+> Attributs) am größten ist (die Differenz nennt man auch "*Information
+> Gain*"). Die Trainingsmenge wird entsprechend der Ausprägung in Bezug
+> auf das eben gewählte Merkmal aufgeteilt und an die Kinder des Knotens
+> weiter gereicht; dort wird der Baum rekursiv weiter aufgebaut.
+>
+> Durch eine Normierung des *Information Gain* kann eine Verbesserung in
+> Bezug auf mehrwertige Attribute erreicht werden, dies führt zum
+> Algorithmus **C4.5**.
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> -   [VL ID3 und C4.5](https://youtu.be/Yo1cmeS6BK8)
+>
+> </details>
+
+##### Wie Attribute wählen?
+
+Erinnerung: CAL2/CAL3
+
+-   Zyklische Iteration durch die Trainingsmenge
+-   Ausschließlich aktuelles Objekt betrachtet
+-   Reihenfolge der "richtigen" Attributwahl bei Verzweigung unklar
+
+=\> Betrachte stattdessen die **komplette** Trainingsmenge!
+
+##### Erinnerung Entropie: Maß für die Unsicherheit
+
+-   Entropie $H(S)$ der Trainingsmenge $S$: relative Häufigkeit der
+    Klassen zählen
+
+-   Mittlere Entropie nach Betrachtung von Attribut $A$
+
+    $$    R(S, A) = \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)$$
+
+<!-- -->
+
+-   Informationsgewinn durch Betrachtung von Attribut $A$
+
+    $$\begin{eqnarray}
+        \mathop{\text{Gain}}(S, A) &=& H(S) - R(S, A)\\[5pt]
+                                &=& H(S) - \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)
+    \end{eqnarray}$$
+
+$R(S,A)$ ist die Unsicherheit/nötige Bits nach Auswahl von Attribut A.
+Je kleiner $R(S,A)$, um so kleiner die **verbleibende Unsicherheit**
+bzw. um so kleiner die Anzahl der nötigen Bits zur Darstellung der
+partitionierten Trainingsmenge **nach** Betrachtung von Attribut $A$ ...
+
+=\> Je kleiner $R(S,A)$, um so größer der Informationsgewinn
+
+##### Informationsgewinn: Kriterium zur Auswahl von Attributen
+
+1)  Informationsgewinn für alle Attribute berechnen
+2)  Nehme Attribut mit größtem Informationsgewinn als nächsten Test
+
+| Nr. | $x_1$ | $x_2$ | $x_3$ | $k$ |
+|-----|-------|-------|-------|-----|
+| 1   | 0     | 0     | 0     | A   |
+| 2   | 1     | 0     | 2     | A   |
+| 3   | 0     | 1     | 1     | A   |
+| 4   | 1     | 1     | 0     | B   |
+| 5   | 0     | 1     | 1     | B   |
+| 6   | 0     | 1     | 0     | A   |
+
+$H(S) = 0.92 \mathop{\text{Bit}}$
+
+$$\begin{eqnarray}
+\mathop{\text{Gain}}(S, x_1) &=& 0.92 - 0.87 = 0.05 \mathop{\text{Bit}}\\
+\mathop{\text{Gain}}(S, x_2) &=& 0.92 - 2/6  \cdot 0 - 4/6 \cdot 1\\
+                             &=& 0.25 \mathop{\text{Bit}}\\
+\mathop{\text{Gain}}(S, x_3) &=& 0.92 - 3/6 \cdot 0.92 - 2/6 \cdot 1 - 1/6 \cdot 0\\
+                             &=& 0.13 \mathop{\text{Bit}}
+\end{eqnarray}$$
+
+Informationsgewinn für $x_2$ am höchsten =\> wähle $x_2$ als nächsten
+Test
+
+##### Entscheidungsbaumlerner ID3 (Quinlan, 1986)
+
+``` python
+def ID3(examples, attr, default):
+    # Abbruchbedingungen
+    if examples.isEmpty():  return default
+    if examples.each(class == A):  return A  # all examples have same class
+    if attr.isEmpty():  return examples.MajorityValue()
+
+    # Baum mit neuem Test erweitern
+    test = MaxInformationGain(examples, attr)
+    tree = new DecisionTree(test)
+    m = examples.MajorityValue()
+    for v_i in test:
+        ex_i = examples.select(test == v_i)
+        st = ID3(ex_i, attr - test, m)
+        tree.addBranch(label=v_i, subtree=st)
+    return tree
+```
+
+Russell und Norvig ([2021](#ref-Russell2021)): Man erhält aus dem
+"Learn-Decision-Tree"-Algorithmus ([Russell und Norvig 2021,
+678](#ref-Russell2021), Fig. 19.5) den hier vorgestellten
+ID3-Algorithmus, wenn man die Funktion
+$\mathop{\text{Importance}}(a, examples)$ als
+$\mathop{\text{InformationGain}}(examples, attr)$ implementiert/nutzt.
+
+**Hinweis**: Mit der Zeile `if examples.each(class == A):  return A`
+soll ausgedrückt werden, dass alle ankommenden Trainingsbeispiele die
+selbe Klasse haben und dass diese dann als Ergebnis zurückgeliefert
+wird. Das "`A`" steht im obigen Algorithmus nur symbolisch für die selbe
+Klasse! Es kann also auch ein anderes Klassensymbol als "`A`" sein ...
+
+###### Beispiel ID3
+
+| Nr. | $x_1$ | $x_2$ | $x_3$ | $k$ |
+|-----|-------|-------|-------|-----|
+| 1   | 0     | 0     | 0     | A   |
+| 2   | 1     | 0     | 2     | A   |
+| 3   | 0     | 1     | 1     | A   |
+| 4   | 1     | 1     | 0     | B   |
+| 5   | 0     | 1     | 1     | B   |
+| 6   | 0     | 1     | 0     | A   |
+
+-   $x2$ höchsten Information Gain
+-   $x2=0$ =\> Beispiele 1,2 =\> A
+-   $x2=1$ =\> Beispiele 3,4,5,6 =\> Information Gain berechnen, weiter
+    teilen und verzweigen
+
+##### Beobachtung: $\mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
+
+-   Faire Münze:
+    -   Entropie =
+        $H(\mathop{\text{Fair}}) = -(0.5 \log_2 0.5 + 0.5 \log_2 0.5) = 1 \mathop{\text{Bit}}$
+
+<!-- -->
+
+-   4-seitiger Würfel:
+    -   Entropie =
+        $H(\mathop{\text{Dice}}) = -4\cdot(0.25 \log_2 0.25) = 2 \mathop{\text{Bit}}$
+
+=\> $\mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
+
+Damit würden Attribute bei der Wahl bevorzugt, nur weil sie mehr
+Ausprägungen haben als andere.
+
+*Anmerkung*: Im obigen Beispiel wurde einfach die Entropie für zwei
+"Attribute" mit unterschiedlich vielen Ausprägungen betrachtet, das ist
+natürlich kein $\mathop{\text{Gain}}(S, A)$. Aber es sollte deutlich
+machen, dass Merkmale mit mehr Ausprägungen bei der Berechnung des Gain
+für eine Trainingsmenge einfach wegen der größeren Anzahl an
+Ausprägungen rechnerisch bevorzugt würden.
+
+##### C4.5 als Verbesserung zu ID3
+
+Normierter Informationsgewinn:
+$\mathop{\text{Gain}}(S, A) \cdot \mathop{\text{Normalisation}}(A)$
+
+$$    \mathop{\text{Normalisation}}(A) = \frac{1}{
+        \sum_{v \in \mathop{\text{Values}}(A)} p_v \log_2 \frac{1}{p_v}
+    }$$
+
+C4.5 kann zusätzlich u.a. auch noch mit kontinuierlichen Attributen
+umgehen, vgl.
+[en.wikipedia.org/wiki/C4.5_algorithm](https://en.wikipedia.org/wiki/C4.5_algorithm).
+
+In einem [Paper](http://www.cs.umd.edu/~samir/498/10Algorithms-08.pdf)
+([DOI
+10.1007/s10115-007-0114-2](https://doi.org/10.1007/s10115-007-0114-2))
+wurde der Algorithmus zu den "Top 10 algorithms in data mining"
+ausgewählt.
+
+Im Wikipedia-Artikel [Information
+Gain](https://en.wikipedia.org/wiki/Decision_tree_learning#Information_gain)
+finden Sie weitere Informationen zum "Informationsgewinn" (*Information
+Gain*).
+
+Ein anderer, relativ ähnlich arbeitender Entscheidungsbaumlerner ist der
+[CART (Classification And Regression
+Tree)](https://en.wikipedia.org/wiki/Decision_tree_learning)-Algorithmus,
+wobei der Begriff "CART" allerdings oft auch einfach allgemein für
+"Entscheidungsbaumlerner" genutzt wird.
+
+Hierzu drei lesenswerte Blog-Einträge:
+
+-   [Deep dive into the basics of Gini Impurity in Decision Trees with
+    math
+    Intuition](https://medium.com/poli-data/deep-dive-into-the-basics-of-gini-impurity-in-decision-trees-with-math-intuition-46c721d4aaec)
+-   [Decision Trees,
+    Explained](https://towardsdatascience.com/decision-trees-explained-d7678c43a59e)
+-   [Decision Tree Algorithm With Hands-On
+    Example](https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38)
+
+##### Beispiele zur Normierung bei C4.5
+
+-   Faire Münze:
+    -   Entropie =
+        $H(\mathop{\text{Fair}}) = -(0.5 \log_2 0.5 + 0.5 \log_2 0.5) = 1 \mathop{\text{Bit}}$
+    -   Normierung:
+        $1/(0.5 \log_2 (1/0.5) + 0.5 \log_2 (1/0.5)) = 1/(0.5 \cdot 1 + 0.5 \cdot 1) = 1$
+    -   Normierter Informationsgewinn:
+        $\mathop{\text{Gain}}(S, A) \cdot \mathop{\text{Normalisation}}(A) = 1 \mathop{\text{Bit}} \cdot 1 = 1 \mathop{\text{Bit}}$
+
+<!-- -->
+
+-   4-seitiger Würfel:
+    -   Entropie =
+        $H(\mathop{\text{Dice}}) = -4\cdot(0.25 \log_2 0.25) = 2 \mathop{\text{Bit}}$
+    -   Normierung:
+        $1/(4\cdot 0.25 \log_2 (1/0.25)) = 1/(4\cdot 0.25 \cdot 2) = 0.5$
+    -   Normierter Informationsgewinn:
+        $\mathop{\text{Gain}}(S, A) \cdot \mathop{\text{Normalisation}}(A) = 2 \mathop{\text{Bit}} \cdot 0.5 = 1 \mathop{\text{Bit}}$
+
+=\> Normierung sorgt für fairen Vergleich der Attribute
+
+*Anmerkung*: Auch hier ist die Entropie natürlich kein
+$\mathop{\text{Gain}}(S, A)$. Das Beispiel soll nur übersichtlich
+deutlich machen, dass der "Vorteil" von Attributen mit mehr Ausprägungen
+durch die Normierung in C4.5 aufgehoben wird.
+
+##### Wrap-Up
+
+-   Entscheidungsbaumlerner **ID3**
+    -   Nutze *Information Gain* zur Auswahl des nächsten Attributs
+    -   Teile die Trainingsmenge entsprechend auf ("nach unten hin")
+-   Verbesserung durch Normierung des *Information Gain*: **C4.5**
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>📖 Zum Nachlesen</strong></summary>
+>
+> -   Ertel ([2025](#ref-Ertel2025)): Entscheidungsbäume: Abschnitt 8.4
+> -   Russell und Norvig ([2021](#ref-Russell2021)): Entscheidungsbäume:
+>     Abschnitt 19.3
+> -   Mitchell ([2010](#ref-Mitchell2010)): ID3: Kapitel 3
+>
+> </details>
+
+> [!NOTE]
+>
+> <details >
+> <summary><strong>✅ Lernziele</strong></summary>
+>
+> -   k3: Ich kann die Entscheidungsbaumalgorithmen ID3 und C4.5 auf
+>     konkrete Daten anwenden.
+>
+> </details>
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🏅 Challenges</strong></summary>
+>
+> **Games: Behaviour Trees**
+>
+> In einem Dungeon-Crawler wurden über mehrere Spiele Daten für die
+> Aktionen eines Monsters aufgezeichnet:
+>
+> | Nr. | Distanz | HP      | Mana   | Aktion    |
+> |:----|:--------|:--------|:-------|:----------|
+> | 01  | nah     | niedrig | genug  | heilen    |
+> | 02  | fern    | niedrig | gering | fliehen   |
+> | 03  | nah     | hoch    | gering | angreifen |
+> | 04  | nah     | hoch    | genug  | angreifen |
+> | 05  | mittel  | mittel  | genug  | angreifen |
+> | 06  | fern    | mittel  | gering | fliehen   |
+>
+> Trainieren Sie mit diesen Daten einen Entscheidungsbaum als *Behaviour
+> Tree* für das Monster, so dass es in einer konkreten Spielsituation
+> von nun an die optimale Entscheidung treffen kann. Nutzen Sie dafür
+> ID3.
+>
+> **Textklassifikation**
+>
+> Betrachten Sie die folgenden Aussagen:
+>
+> > -   Patient A hat weder Husten noch Fieber und ist gesund.
+> > -   Patient B hat Husten, aber kein Fieber und ist gesund.
+> > -   Patient C hat keinen Husten, aber Fieber. Er ist krank.
+> > -   Patient D hat Husten und kein Fieber und ist krank.
+> > -   Patient E hat Husten und Fieber. Er ist krank.
+>
+> Aufgaben:
+>
+> 1.  Trainieren Sie auf diesem Datensatz einen Klassifikator mit ID3.
+> 2.  Ist Patient F krank? Er hat Husten, aber kein Fieber.
+>
+> </details>
+
+<a id="id-67ad22f050d34df38bd659728538d50c3f90f70e"></a>
+
+#### DTL: Random Forest
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🎯 TL;DR</strong></summary>
+>
+> TODO
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> -   [VL Random Forest](https://youtu.be/TODO)
+>
+> </details>
+
+##### Motivation: Vom einzelnen Baum zum Wald
+
+-   Entscheidungsbaum:
+    -   verständlich, interpretierbar
+    -   kann aber "sehr speziell" auf den Trainingsdatensatz passen
+    -   kleine Änderungen in den Daten -\> oft ganz anderer Baum
+-   Idee:
+    -   Statt **einem** Baum viele **verschiedene** Bäume trainieren
+    -   Jeder Baum trifft eine eigene Vorhersage
+    -   Am Ende: **Mehrheitsentscheidung** (Klassifikation) bzw.
+        **Mittelwert** (Regression)
+-   Intuition:
+    -   "Viele verschiedene Meinungen" kombinieren -\> robustere
+        Entscheidung
+    -   Fehler einzelner Bäume können sich gegenseitig ausgleichen
+
+Ein einzelner Entscheidungsbaum ist sehr anfällig dafür, die
+Trainingsdaten zu "überlernen" und reagiert empfindlich auf kleine
+Datenänderungen.
+
+Der Random-Forest-Ansatz sagt: Wir verlassen uns nicht auf einen
+einzelnen Baum, sondern lassen ein "Gremium" aus Bäumen abstimmen. Jeder
+Baum sieht die Daten ein wenig anders und trifft eigene Entscheidungen;
+am Ende zählt die Mehrheit.
+
+##### Wie funktioniert ein Random Forest?
+
+1.  **Datenbasis**
+    -   gegebener Trainingsdatensatz $D$
+2.  **Viele Trainingsdatensätze durch Zufall (Bootstrapping)**
+    -   Für jeden Baum $B_1, B_2, \dots, B_K$:
+        -   Ziehen Sie zufällig (mit Zurücklegen) Trainingsbeispiele aus
+            $D$ -\> jeder Baum erhält eine leicht andere Stichprobe
+            $D_k$
+3.  **Zufällige Merkmalsauswahl pro Split**
+    -   Beim Training eines Baums:
+        -   an jedem Knoten nur eine zufällige Teilmenge der Attribute
+            für den Split betrachten
+        -   daraus das "beste" Attribut wählen (z. B. per Entropie /
+            Information Gain)
+4.  **Vorhersage**
+    -   Klassifikation: Jeder Baum liefert eine Klassenentscheidung, die
+        Klasse mit den meisten Stimmen gewinnt
+    -   Regression: Mittelwert der Vorhersagen der Bäume
+
+Zwei Arten von Zufall:
+
+1.  Jeder Baum sieht eine andere Zufallsstichprobe der Daten.
+2.  Jeder Baum betrachtet an jedem Split nur eine zufällige Auswahl von
+    Merkmalen.
+
+Dadurch entstehen bewusst unterschiedliche Bäume. Wenn wir dann über
+viele solcher Bäume abstimmen lassen, ist die Gesamtsicht deutlich
+stabiler als die eines einzelnen Baums.
+
+##### Beispiel: Random Forest in Aktion (Klassifikation)
+
+Wir betrachten eine einfache binäre Klassifikation mit zwei Merkmalen:
+
+-   Merkmal 1: "Größe" (klein / groß)
+-   Merkmal 2: "Farbe" (hell / dunkel)
+-   Klassen: "Klasse A" oder "Klasse B"
+
+**Testobjekt:**
+
+-   Größe = groß
+-   Farbe = hell
+
+Frage: Welche Klasse sagt der Random Forest voraus?
+
+------------------------------------------------------------------------
+
+**Baum 1**
+
+-   Wurzel: prüfe "Größe"
+    -   wenn groß -\> Klasse A
+    -   wenn klein -\> Klasse B
+-   Für unser Objekt (groß, hell): **Vorhersage = A**
+
+------------------------------------------------------------------------
+
+**Baum 2**
+
+-   Wurzel: prüfe "Farbe"
+    -   wenn hell -\> Klasse B
+    -   wenn dunkel -\> Klasse A
+-   Für unser Objekt (groß, hell): **Vorhersage = B**
+
+------------------------------------------------------------------------
+
+**Baum 3**
+
+-   Wurzel: prüfe "Größe"
+    -   wenn groß -\> gehe zu Knoten 2
+    -   wenn klein -\> Klasse B
+-   Knoten 2: prüfe "Farbe"
+    -   wenn hell -\> Klasse A
+    -   wenn dunkel -\> Klasse B
+-   Für unser Objekt (groß, hell): **Vorhersage = A**
+
+------------------------------------------------------------------------
+
+**Mehrheitsentscheidung**
+
+-   Baum 1 -\> A
+-   Baum 2 -\> B
+-   Baum 3 -\> A
+
+$$
+\text{Stimmen: } A = 2,\; B = 1 \Rightarrow \text{Random Forest sagt: Klasse A}
+$$
+
+Jeder einzelne Baum kann "falsch liegen" oder stark vereinfacht sein.
+
+Im Beispiel sehen wir, dass Baum 2 sich anders entscheidet als die
+beiden anderen.
+
+Der Random Forest kombiniert diese unterschiedlichen Sichtweisen sehr
+einfach: per Mehrheitsvotum. In der Praxis nutzt man oft Dutzende oder
+Hunderte Bäume. Die Stärke kommt also aus der Kombination vieler relativ
+einfacher Modelle, nicht aus einem extrem komplexen Einzelbaum.
+
+##### Pseudocode: Random Forest
+
+**Training:**
+
+    Input: Trainingsdaten D, Anzahl Bäume K,
+           Anzahl Zufallsattribute pro Split m
+
+    For k = 1 .. K:
+        Ziehe Zufallsstichprobe D_k aus D (mit Zurücklegen)   // Bootstrap
+        Trainiere Entscheidungsbaum T_k auf D_k:
+            An jedem Knoten:
+                Wähle zufällig m Attribute aus allen Attributen
+                Finde unter diesen m Attributen den besten Split (z.B. via Entropie)
+    Output: Ensemble {T_1, T_2, ..., T_K}
+
+**Vorhersage für ein neues Objekt $x$:**
+
+-   Klassifikation:
+
+$$
+\hat{y}_{\text{class}}(x) = \text{Mehrheit} \big( T_1(x), T_2(x), \dots, T_K(x) \big)
+$$
+
+-   Regression:
+
+$$
+\hat{y}_{\text{reg}}(x) = \frac{1}{K} \sum_{k=1}^{K} T_k(x)
+$$
+
+Wichtig ist: Keine Änderungen am Baum-Algorithmus selbst (z.B.
+C4.5/ID3). Die "Magie" kommt aus den zwei Zufallsquellen: zufällige
+Datenstichproben und zufällige Attributauswahl.
+
+##### Mini-Beispiel: 3 Bäume, Klassifikation & Regression
+
+Wir betrachten einen sehr kleinen Datensatz mit einem Merkmal $x$ und
+zwei Aufgaben:
+
+-   Klassifikation: Klasse $C \in \{A, B\}$
+-   Regression: numerischer Zielwert $y$
+
+**Trainingsdaten:**
+
+| Beispiel | $x$ | Klasse $C$ | Zielwert $y$ |
+|----------|----:|------------|--------------|
+| 1        | 1.0 | A          | 1.0          |
+| 2        | 2.0 | A          | 1.5          |
+| 3        | 3.0 | B          | 3.0          |
+| 4        | 4.0 | B          | 4.0          |
+
+Wir trainieren 3 Entscheidungsbäume (sehr einfache Stubs: ein Split pro
+Baum). Jeder Baum bekommt eine Bootstrap-Stichprobe aus diesen 4
+Beispielen.
+
+###### Bootstrap-Stichproben und resultierende Bäume
+
+**Baum 1 -- Trainingsstichprobe $D_1$:**
+
+-   Beispiele: 1, 2, 3
+-   sinnvoller Split bei $x < 2.5$:
+    -   Links: $x = 1.0, 2.0$ -\> Klasse A, mittlerer $y \approx 1.25$
+    -   Rechts: $x = 3.0$ -\> Klasse B, mittlerer $y = 3.0$
+
+Baum 1:
+
+-   Wenn $x < 2.5$:
+    -   Klasse = A
+    -   Regressionswert $y \approx 1.25$
+-   Sonst:
+    -   Klasse = B
+    -   Regressionswert $y = 3.0$
+
+------------------------------------------------------------------------
+
+**Baum 2 -- Trainingsstichprobe $D_2$:**
+
+-   Beispiele: 2, 3, 4
+-   sinnvoller Split bei $x < 3.5$:
+    -   Links: $x = 2.0, 3.0$ -\> Klassen A & B gemischt, z. B. Mehrheit
+        = B, mittlerer $y = (1.5 + 3.0)/2 = 2.25$
+    -   Rechts: $x = 4.0$ -\> Klasse B, $y = 4.0$
+
+Baum 2:
+
+-   Wenn $x < 3.5$:
+    -   Klasse = B (Mehrheit in $D_2$)
+    -   Regressionswert $y \approx 2.25$
+-   Sonst:
+    -   Klasse = B
+    -   Regressionswert $y = 4.0$
+
+------------------------------------------------------------------------
+
+**Baum 3 -- Trainingsstichprobe $D_3$:**
+
+-   Beispiele: 1, 1, 4 (z. B. zweimal Beispiel 1 und einmal Beispiel 4
+    gezogen)
+-   sinnvoller Split bei $x < 2.5$:
+    -   Links: $x = 1.0, 1.0$ -\> Klasse A, mittlerer $y = 1.0$
+    -   Rechts: $x = 4.0$ -\> Klasse B, $y = 4.0$
+
+Baum 3:
+
+-   Wenn $x < 2.5$:
+    -   Klasse = A
+    -   Regressionswert $y = 1.0$
+-   Sonst:
+    -   Klasse = B
+    -   Regressionswert $y = 4.0$
+
+###### Vorhersage für neues Objekt $x = 3.0$
+
+**Einzelne Bäume:**
+
+-   Baum 1:
+    -   $x = 3.0 \geq 2.5$ -\> Rechts
+    -   Klasse = B, $y = 3.0$
+-   Baum 2:
+    -   $x = 3.0 < 3.5$ -\> Links
+    -   Klasse = B, $y \approx 2.25$
+-   Baum 3:
+    -   $x = 3.0 \geq 2.5$ -\> Rechts
+    -   Klasse = B, $y = 4.0$
+
+###### Random-Forest-Entscheidung
+
+**Klassifikation (Mehrheitsvotum):**
+
+-   Baum 1: B
+-   Baum 2: B
+-   Baum 3: B
+
+$$
+\Rightarrow \hat{C}(x = 3.0) = B
+$$
+
+**Regression (Mittelwert):**
+
+$$
+\hat{y}(x = 3.0) = \frac{3.0 + 2.25 + 4.0}{3}
+= \frac{9.25}{3} \approx 3.08
+$$
+
+Die Bäume sind sich bei der Klasse einig (alle B).
+
+Beim Regressionswert machen die Bäume unterschiedliche Vorschläge. Der
+Random Forest mittelt diese Vorschläge und kommt auf einen Wert in der
+Nähe der Trainingsbeispiele mit $x = 3.0$ und $x = 4.0$. In der Praxis
+nutzt man viel mehr Bäume -- damit werden diese Effekte noch stabiler
+und genauer.
+
+<a id="id-3de4780f1d4689bbb4576d4300753af31a872e21"></a>
+
+### Genetische Algorithmen
+
+Lokale Suche mit Methoden, die der biologischen Evolution abgeschaut
+bzw. nachempfunden sind.
+
+<a id="id-aa3481a03ed2e17666ced54325637e0551022587"></a>
+
+#### EA: Einführung Evolutionäre Algorithmen
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🎯 TL;DR</strong></summary>
+>
+> Lokale Suchverfahren: Nur das Ergebnis zählt!
+>
+> Evolutionäre Algorithmen sind lokale Suchverfahren, wobei gleichzeitig
+> an mehreren Stellen im Problemraum gesucht wird. Sie bedienen sich
+> Mechanismen aus der Evolution: Es gibt eine Population von Individuen,
+> die jedes das Problem kodieren ("vollständige Zustandsbeschreibung")
+> und damit im Laufe der Suche zu einer möglichen Lösung werden können.
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> -   [VL Einführung Evolutionäre
+>     Algorithmen](https://youtu.be/pKdKcPLI7V4)
+>
+> </details>
+
+##### Evolution sehr erfolgreich bei Anpassung
+
+<p align="center"><img src="https://images.unsplash.com/flagged/photo-1552863473-6e5ffe5e052f" width="60%" /></p>
+
+Quelle: [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
+[Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
+([Unsplash License](https://unsplash.com/license))
+
+<div data-align="center">
+
+**Wie funktioniert's?**
+
+</div>
+
+##### EA -- Zutaten und Mechanismen
+
+-   Zutaten:
+    -   **Individuen**: Kodierung möglicher Lösungen
+    -   **Population** von Individuen
+    -   **Fitnessfunktion**: Bewertung der Angepasstheit
+
+<!-- -->
+
+-   Mechanismen ("Operatoren"):
+    -   Selektion
+    -   Rekombination (Crossover)
+    -   Mutation
+
+##### EA -- Allgemeiner Ablauf
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz.png" width="60%" /></picture></p>
+
+##### EA -- Beispiel
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example.png" width="25%" /></picture></p>
+
+Jedes Individuum kodiert ein Spielfeld mit einer konkreten Anordnung
+**aller** Königinnen =\> **Vollständige Zustandsbeschreibung**.
+
+Dabei korrespondiert der Index in das Array des Individuums mit der
+jeweiligen Spalte des Spielfelds. Die Zahl an einer Arrayposition gibt
+dann an, in welcher Zeile in dieser Spalte eine Königin ist.
+
+Crossover: Die ausgewählten Individuen werden an der selben Stelle
+aufgetrennt und die Hälften verkreuzt zu zwei neuen Individuen
+zusammengesetzt. Es entstehen zwei neue Anordnungen der Königinnen (zwei
+neue Spielfelder).
+
+##### EA -- Strömungen
+
+1.  **Genetische Algorithmen** (GA)
+    -   Holland ([1975](#ref-holland1975)) (Holland
+        ([1992](#ref-holland1992))) und Goldberg
+        ([1986](#ref-goldberg1986))
+    -   Binäre Lösungsrepräsentation (Bitstring):
+        $\mathbf{g} = (g_1, \dots, g_m)\in \{ 0,1\}^m$
+    -   Fitnessbasierte stochastische Selektion
+    -   $\mu$ Eltern erzeugen $\mu$ Kinder
+
+<!-- -->
+
+2.  **Evolutionsstrategien** (ES)
+    -   Rechenberg ([1978](#ref-rechenberg1978)) und Schwefel
+        ([1975](#ref-schwefel1975)) (Schwefel
+        ([1995](#ref-Schwefel1995)))
+    -   Kodierung reellwertiger Parameter:
+        $\mathbf{g} = (\mathbf{x}, \mathbf{\sigma})$ mit
+        $\mathbf{x} = (x_1, \dots, x_n) \in \mathbb{R}^n$
+    -   $\mu$ Eltern erzeugen $\lambda$ Kinder mit $\mu \le \lambda$
+
+<!-- -->
+
+3.  **Evolutionäre Programmierung** (EP)
+
+*Hinweis*: Häufig finden sich Mischformen, beispielsweise GA mit
+reellwertigen Parametern
+
+*Hinweis*: Im Folgenden werden **Genetische Algorithmen** (GA)
+betrachtet. Sie finden jeweils Hinweise auf die Gestaltung der
+Operatoren bei ES.
+
+##### Anwendungsbeispiele für Evolutionäre Algorithmen
+
+-   Berechnung und Konstruktion komplexer Bauteile: beispielsweise
+    Tragflächenprofile (Flugzeuge), Brücken oder Fahrzeugteile unter
+    Berücksichtigung bestimmter Nebenbedingungen
+-   Scheduling-Probleme: Erstellung von Stunden- und Raumplänen oder
+    Fahrplänen
+-   Berechnung verteilter Netzwerktopologien: Wasserversorgung,
+    Stromversorgung, Mobilfunk
+-   Layout elektronischer Schaltkreise
+
+##### Wrap-Up
+
+Lokale Suchverfahren: Nur das Ergebnis zählt!
+
+-   Evolutionäre Algorithmen: Unterschied GA und ES (grober Überblick)
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>📖 Zum Nachlesen</strong></summary>
+>
+> -   Russell und Norvig ([2021](#ref-Russell2021)): GA: Abschnitt 4.1.4
+> -   Weicker ([2015](#ref-Weicker2015))
+>
+> </details>
+
+> [!NOTE]
+>
+> <details >
+> <summary><strong>✅ Lernziele</strong></summary>
+>
+> -   k2: Ich kann die Problematik der lokalen Minima bei
+>     Gradientenverfahren erklären
+> -   k2: Ich kann einen Überblick über die verschiedenen Strömungen bei
+>     EA/GA darstellen
+> -   k2: Ich kann den prinzipiellen Ablauf von Genetischen Algorithmen
+>     an einem Beispiel erklären
+>
+> </details>
+
+<a id="id-c99ae5cae334ccb182fc61d94707f8e7cdf363c9"></a>
+
+#### EA: Modellierung mit Genetischen Algorithmen
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🎯 TL;DR</strong></summary>
+>
+> Lokale Suchverfahren: Nur das Ergebnis zählt!
+>
+> Evolutionäre Algorithmen sind lokale Suchverfahren, wobei gleichzeitig
+> an mehreren Stellen im Problemraum gesucht wird. Sie bedienen sich
+> Mechanismen aus der Evolution: Es gibt eine Population von Individuen,
+> die jedes das Problem kodieren ("vollständige Zustandsbeschreibung")
+> und damit im Laufe der Suche zu einer möglichen Lösung werden können.
+>
+> Die Individuen werden mit Hilfe einer Fitnessfunktion bewertet, wie
+> gut sie bereits an das Problem angepasst sind (bzw. wie sehr sie
+> bereits der gesuchten Lösung entsprechen). Über eine
+> fitnessproportionale Selektion werden Individuen ausgewählt, aus denen
+> mittels Rekombination (auch "Crossover" genannt) neue Individuen mit
+> Eigenschaften der Eltern erzeugt werden. Über eine Mutation werden
+> dann noch Elemente der neuen Individuen leicht verändert, bevor diese
+> zur neuen Population werden ...
+>
+> Durch das Anwenden von Rekombination und Mutation springt man im
+> Problemraum umher. Auch wenn als Basis die fitteren (angepassteren)
+> Individuen dienen, kann es wie bei allen lokalen Suchverfahren
+> vorkommen, dass sich der Algorithmus in lokalen Minima (bzw. lokalen
+> Maxima, je nach Richtung der Optimierung) festfrisst.
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> -   [VL Modellierung mit EA/GA](https://youtu.be/Sd5AA6LIEOc)
+>
+> </details>
+
+##### EA -- Allgemeiner Ablauf
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz.png" width="60%" /></picture></p>
+
+##### Kodierung Individuen
+
+-   Binäre Lösungsrepräsentation (Bitstring):
+    $\mathbf{g} = (g_1, \dots, g_m)\in \{ 0,1\}^m$
+    -   String gliedert sich in $n$ Elemente (mit $n \le m$) =\> jedes
+        Segment entspricht einer Problemvariablen
+    -   Dekodierungsfunktion $\Gamma : \{0,1\}^m \to \mathbb{R}^n$
+
+    Alle relevanten Aspekte des Problems müssen in die Codierung
+    einfließen!
+
+    Bei ES hat man einen Vektor mit reellen Zahlen, wobei jeder Eintrag
+    einen Parameter des Problems darstellt. Eine Dekodierungsfunktion
+    benötigt man entsprechend nicht.
+
+    Bei der Erzeugung der Startpopulation werden die Individuen
+    **zufällig** (mit zufälligen Werten) initialisiert.
+
+<!-- -->
+
+-   Fitnessfunktion $\Phi$ ordnet jedem Individuum $\mathbf{g}_i$ eine
+    reelle Zahl zu:
+    $$\Phi(\mathbf{g}_i) = F(\Gamma(\mathbf{g}_i)) - w\cdot\sum_j(Z_j(\Gamma(\mathbf{g}_i)))^2$$
+    -   Zielfunktion $F$: wie sehr genügt ein Individuum bereits dem
+        Optimierungproblem
+    -   Strafterme $Z_j$: Anreicherung der Optimierung mit weiteren
+        Informationen
+    -   Gewichte $w$: statisch oder dynamisch (Abkühlen)
+
+    Die Wahl einer guten Fitnessfunktion ist oft eine Herausforderung,
+    aber dennoch wichtig, da damit die Suche gesteuert wird!
+
+##### Selektion: Erstelle Matingpool mit $\mu$ Individuen
+
+-   Fitnessproportionale Selektion (*Roulette Wheel Selection*):
+    Auswahlwahrscheinlichkeit für Individuum $\mathbf{g}_k$:
+    $$p_{sel}(\mathbf{g}_k) = \frac{\Phi(\mathbf{g}_k)}{\sum_j \Phi(\mathbf{g}_j)}$$
+    =\> Voraussetzung: positive Fitnesswerte
+
+<!-- -->
+
+-   Turnier-Selektion (*Tournament Selection*):
+    -   Turniergröße $\xi$
+    -   Turnier: ziehe $\xi$ Individuen gleichverteilt (mit
+        Zurücklegen!) und kopiere fittestes Individuum in den Matingpool
+    -   Führe $\mu$ Turniere durch
+
+*Hinweis*: Es gibt noch viele weitere Selektionsmechanismen. Die
+vorgestellten sind in der Praxis am gebräuchlichsten.
+
+Über die Selektion wird der sogenannte "Selektionsdruck" aufgebaut: Wie
+gut muss ein Individuum sein (im Vergleich zu den restlichen Individuen
+in der Population), damit es eine Chance zur Reproduktion erhält? Dürfen
+sich nur die "Guten" fortpflanzen, oder erhalten auch die "Schlechten"
+eine gewisse Chance?
+
+Da jedes Individuum einen Punkt im Suchraum darstellt, beeinflusst die
+Wahl der Selektion die Geschwindigkeit der Suche, begünstigt u.U. aber
+auch ein eventuelles Festfahren in lokalen Minima. Dies kann
+beispielsweise geschehen, wenn immer nur die "Guten" selektiert werden,
+aber die "Guten" der Population sich in der Nähe eines lokalen Minimums
+befinden. Dann werden auch die Nachfolger sich wieder dort aufhalten.
+
+##### Crossover: Erzeuge zwei Nachkommen aus zwei Eltern
+
+Festlegung der Crossover-Wahrscheinlichkeit $p_{cross}$ (typisch:
+$p_{cross} \ge 0.6$)
+
+1.  Selektiere Eltern $\mathbf{g}_a$ und $\mathbf{g}_b$
+    **gleichverteilt** aus Matingpool
+
+<!-- -->
+
+2.  Zufallsexperiment:
+    -   mit $1-p_{cross}$: Kinder identisch zu Eltern (kein Crossover)
+    -   mit $p_{cross}$: Crossover mit $\mathbf{g}_a$ und $\mathbf{g}_b$
+        -   Ziehe $i$ gleichverteilt mit $1 < i < m$
+        -   Kinder aus $\mathbf{g}_a$ und $\mathbf{g}_b$ zusammenbauen:
+            $$\mathbf{g}_c = (g_{a,1}, \dots, g_{a,i}, \; g_{b,{i+1}}, \dots, g_{b,m})$$
+            und
+            $$\mathbf{g}_d = (g_{b,1}, \dots, g_{b,i}, \; g_{a,{i+1}}, \dots, g_{a,m})$$
+
+        =\> Trenne Eltern an gleicher Stelle auf, vertausche
+        Bestandteile
+
+<!-- -->
+
+3.  Gehe zu Schritt 1, bis insg. $\mu$ Nachkommen
+
+*Anmerkung*: Die Eltern werden jeweils in die Ausgangsmenge
+zurückgelegt.
+
+Mit einer kleinen Wahrscheinlichkeit sind die Kinder also identisch zu
+den Eltern. Dies ist im Sinne der lokalen Suche wichtig, um bereits
+erreichte gute Positionen im Suchraum nicht zu verlieren: Es könnte
+sein, dass die Nachfolger alle schlechter sind ...
+
+Varianten: $N$-Punkt-Crossover, Shuffle-Crossover
+
+Bei ES wird parameterweise gekreuzt. Dabei gibt es verschiedene
+Möglichkeiten: Übernahme eines Parameters von einem Elternteil,
+Verrechnen (beispielsweise Mitteln) der Werte beider Eltern, ... Bei ES
+heißt "Crossover" deshalb oft "Rekombination".
+
+##### Mutation
+
+-   Mutationswahrscheinlichkeit $p_{mut}$ (typische Werte:
+    $p_{mut} = 0.01$ oder $p_{mut} = 0.001$)
+
+<!-- -->
+
+-   Für alle Individuen:
+    -   Mutiere jedes Gen eines Individuums mit $p_{mut}$:
+
+        $$g_i^{(t+1)} = \left\{
+        \begin{array}{rll}
+            \neg & g_i^{(t)} & \text{ falls } \chi_i \le p_{mut}\\[5pt]
+            & g_i^{(t)} & \text{ sonst }
+        \end{array}
+        \right.$$
+
+        =\>$\chi_i$ gleichverteilte Zufallsvariable (Intervall $[0,1]$),
+        für jedes Bit $g_i$ neu bestimmen
+
+*Anmerkung*: Die optimale Mutationsrate $p_{mut}^*$ ist von Länge $m$
+des Bitstrings abhängig; annäherbar durch $p_{mut}^* \approx 1/m$.
+
+Die beim Crossover erstellten Nachfolger liegen im Suchraum in der Nähe
+der Eltern. Durch die Mutationsrate bestimmt man, ob und wie weit sich
+ein Kind entfernen kann. Dies entspricht dem Bild des "Schüttelns" der
+Zustandslandschaft.
+
+Bei ES unterscheidet man Mutationswahrscheinlichkeit und Mutationsrate.
+Es wird parameterweise mutiert.
+
+##### Bewertungskriterien
+
+Vorsicht: Es handelt sich um Zufallsexperimente. Wenn man nicht nur
+direkt nach einer Lösung sucht, sondern beispielsweise
+Parametereinstellungen oder die Wahl der Fitnessfunktion für ein Problem
+vergleichen will, muss man jeweils mehrere Experimente mit der selben
+Einstellung machen und Kenngrößen berechnen.
+
+**Geschwindigkeit: AES** *Average Evaluations to a Solution*
+$$\text{AES } = \frac{\sum\limits_{i \in \text{erfolgreiche Läufe}} \text{Generationen von Lauf } i}{\text{Anzahl der erfolgreichen Läufe}}$$
+
+Die AES liegt im Intervall $[0, maxGen]$.
+
+**Lösungswahrscheinlichkeit: SR** *Success Rate*
+$$\text{SR } = \frac{\text{Anzahl der erfolgreichen Läufe}}{\text{Anzahl aller Läufe}}$$
+
+Die SR liegt im Intervall $[0, 1]$.
+
+##### Typische Läufe
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_fail_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_fail.png" width="60%" /></picture></p>
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_success_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_success.png" width="60%" /></picture></p>
+
+-   Populationsgröße $\mu=15$
+-   Anzahl Nachfahren $\lambda=100$
+-   Abbruch nach $maxGen=200$ Generationen
+
+Stochastischer Algorithmus! Ausreichend Wiederholungen durchführen und
+mitteln!
+
+*Hinweis*: Die Parameter müssen problemabhängig gewählt werden. Zu hohe
+Werte für $\mu$ und $\lambda$ führen dazu, dass man bei kleinen
+Problemen mit hoher Wahrscheinlichkeit bereits am Anfang eine Lösung
+"würfelt", also gar kein GA nutzt. Wenn dies allerdings nicht passiert,
+sorgt eine hohe Populationsgröße dafür, dass jeder Schritt sehr lange
+dauert. Die Abbruchgrenze ist ebenfalls mit Augenmaß zu wählen: Ein zu
+kleiner Wert sorgt für zu frühen Abbruch (keine Lösung!), ein zu hoher
+Wert sorgt beim Festfressen des Algorithmus für eine unnötige weitere
+"Suche" ...
+
+##### Wrap-Up
+
+Lokale Suchverfahren: Nur das Ergebnis zählt!
+
+-   Evolutionäre Algorithmen:
+    -   Begriffe: Individuum, Population, Kodierung
+    -   Operationen: Selektion, Rekombination, Mutation
+    -   Bewertung mit Fitnessfunktion
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>📖 Zum Nachlesen</strong></summary>
+>
+> -   Russell und Norvig ([2021](#ref-Russell2021)): GA: Abschnitt 4.1.4
+> -   Weicker ([2015](#ref-Weicker2015))
+>
+> </details>
+
+> [!NOTE]
+>
+> <details >
+> <summary><strong>✅ Lernziele</strong></summary>
+>
+> -   k3: Ich kann GA anwenden, insbesondere für ein Beispiel passende
+>     Kodierung, Fitnessfunktion, Operatoren und Auswertung formulieren
+>     und den Ablauf erklären
+>
+> </details>
+
+> [!TIP]
+>
+> <details >
+> <summary><strong>🧩 Quizzes</strong></summary>
+>
+> -   [Selbsttest EA/GA
+>     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106580&client_id=FH-Bielefeld)
+>
+> </details>
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🏅 Challenges</strong></summary>
+>
+> **Sudoku**
+>
+> Ein $9 \times 9$-*Sudoku*-Rätsel soll mit einem GA gelöst werden.
+>
+> Geben Sie für dieses Problem jeweils eine geeignete **Kodierung** der
+> Individuen, passende Operatoren (**Crossover**, **Mutation**) und eine
+> geeignete **Fitnessfunktion** an, damit das Problem mit einem GA
+> gelöst werden kann. Begründen Sie Ihre Wahl!
+>
+> Was würden Sie noch benötigen, um das Probleme mit Simulated Annealing
+> lösen zu können?
+>
+> **Travelling Salesman Problem**
+>
+> Das *Travelling Salesman Problem* für 10 Städte, d.h. das Finden der
+> kürzesten Route zwischen 10 Städten, soll mit einem GA gelöst werden.
+>
+> Geben Sie für dieses Problem jeweils eine geeignete **Kodierung** der
+> Individuen, passende Operatoren (**Crossover**, **Mutation**) und eine
+> geeignete **Fitnessfunktion** an, damit das Problem mit einem GA
+> gelöst werden kann. Begründen Sie Ihre Wahl!
+>
+> Was würden Sie noch benötigen, um das Probleme mit Simulated Annealing
+> lösen zu können?
+>
+> </details>
+
 <a id="id-dcc57af0ea49405f4c9a9322e52060bd1129c5ca"></a>
 
 ### Suche
@@ -5360,459 +7576,6 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
 > </details>
 
-<a id="id-3de4780f1d4689bbb4576d4300753af31a872e21"></a>
-
-### Genetische Algorithmen
-
-Lokale Suche mit Methoden, die der biologischen Evolution abgeschaut
-bzw. nachempfunden sind.
-
-<a id="id-aa3481a03ed2e17666ced54325637e0551022587"></a>
-
-#### EA: Einführung Evolutionäre Algorithmen
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> Lokale Suchverfahren: Nur das Ergebnis zählt!
->
-> Evolutionäre Algorithmen sind lokale Suchverfahren, wobei gleichzeitig
-> an mehreren Stellen im Problemraum gesucht wird. Sie bedienen sich
-> Mechanismen aus der Evolution: Es gibt eine Population von Individuen,
-> die jedes das Problem kodieren ("vollständige Zustandsbeschreibung")
-> und damit im Laufe der Suche zu einer möglichen Lösung werden können.
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> -   [VL Einführung Evolutionäre
->     Algorithmen](https://youtu.be/pKdKcPLI7V4)
->
-> </details>
-
-##### Evolution sehr erfolgreich bei Anpassung
-
-<p align="center"><img src="https://images.unsplash.com/flagged/photo-1552863473-6e5ffe5e052f" width="60%" /></p>
-
-Quelle: [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
-[Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
-([Unsplash License](https://unsplash.com/license))
-
-<div data-align="center">
-
-**Wie funktioniert's?**
-
-</div>
-
-##### EA -- Zutaten und Mechanismen
-
--   Zutaten:
-    -   **Individuen**: Kodierung möglicher Lösungen
-    -   **Population** von Individuen
-    -   **Fitnessfunktion**: Bewertung der Angepasstheit
-
-<!-- -->
-
--   Mechanismen ("Operatoren"):
-    -   Selektion
-    -   Rekombination (Crossover)
-    -   Mutation
-
-##### EA -- Allgemeiner Ablauf
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz.png" width="60%" /></picture></p>
-
-##### EA -- Beispiel
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example.png" width="25%" /></picture></p>
-
-Jedes Individuum kodiert ein Spielfeld mit einer konkreten Anordnung
-**aller** Königinnen =\> **Vollständige Zustandsbeschreibung**.
-
-Dabei korrespondiert der Index in das Array des Individuums mit der
-jeweiligen Spalte des Spielfelds. Die Zahl an einer Arrayposition gibt
-dann an, in welcher Zeile in dieser Spalte eine Königin ist.
-
-Crossover: Die ausgewählten Individuen werden an der selben Stelle
-aufgetrennt und die Hälften verkreuzt zu zwei neuen Individuen
-zusammengesetzt. Es entstehen zwei neue Anordnungen der Königinnen (zwei
-neue Spielfelder).
-
-##### EA -- Strömungen
-
-1.  **Genetische Algorithmen** (GA)
-    -   Holland ([1975](#ref-holland1975)) (Holland
-        ([1992](#ref-holland1992))) und Goldberg
-        ([1986](#ref-goldberg1986))
-    -   Binäre Lösungsrepräsentation (Bitstring):
-        $\mathbf{g} = (g_1, \dots, g_m)\in \{ 0,1\}^m$
-    -   Fitnessbasierte stochastische Selektion
-    -   $\mu$ Eltern erzeugen $\mu$ Kinder
-
-<!-- -->
-
-2.  **Evolutionsstrategien** (ES)
-    -   Rechenberg ([1978](#ref-rechenberg1978)) und Schwefel
-        ([1975](#ref-schwefel1975)) (Schwefel
-        ([1995](#ref-Schwefel1995)))
-    -   Kodierung reellwertiger Parameter:
-        $\mathbf{g} = (\mathbf{x}, \mathbf{\sigma})$ mit
-        $\mathbf{x} = (x_1, \dots, x_n) \in \mathbb{R}^n$
-    -   $\mu$ Eltern erzeugen $\lambda$ Kinder mit $\mu \le \lambda$
-
-<!-- -->
-
-3.  **Evolutionäre Programmierung** (EP)
-
-*Hinweis*: Häufig finden sich Mischformen, beispielsweise GA mit
-reellwertigen Parametern
-
-*Hinweis*: Im Folgenden werden **Genetische Algorithmen** (GA)
-betrachtet. Sie finden jeweils Hinweise auf die Gestaltung der
-Operatoren bei ES.
-
-##### Anwendungsbeispiele für Evolutionäre Algorithmen
-
--   Berechnung und Konstruktion komplexer Bauteile: beispielsweise
-    Tragflächenprofile (Flugzeuge), Brücken oder Fahrzeugteile unter
-    Berücksichtigung bestimmter Nebenbedingungen
--   Scheduling-Probleme: Erstellung von Stunden- und Raumplänen oder
-    Fahrplänen
--   Berechnung verteilter Netzwerktopologien: Wasserversorgung,
-    Stromversorgung, Mobilfunk
--   Layout elektronischer Schaltkreise
-
-##### Wrap-Up
-
-Lokale Suchverfahren: Nur das Ergebnis zählt!
-
--   Evolutionäre Algorithmen: Unterschied GA und ES (grober Überblick)
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>📖 Zum Nachlesen</strong></summary>
->
-> -   Russell und Norvig ([2021](#ref-Russell2021)): GA: Abschnitt 4.1.4
-> -   Weicker ([2015](#ref-Weicker2015))
->
-> </details>
-
-> [!NOTE]
->
-> <details >
-> <summary><strong>✅ Lernziele</strong></summary>
->
-> -   k2: Ich kann die Problematik der lokalen Minima bei
->     Gradientenverfahren erklären
-> -   k2: Ich kann einen Überblick über die verschiedenen Strömungen bei
->     EA/GA darstellen
-> -   k2: Ich kann den prinzipiellen Ablauf von Genetischen Algorithmen
->     an einem Beispiel erklären
->
-> </details>
-
-<a id="id-c99ae5cae334ccb182fc61d94707f8e7cdf363c9"></a>
-
-#### EA: Modellierung mit Genetischen Algorithmen
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> Lokale Suchverfahren: Nur das Ergebnis zählt!
->
-> Evolutionäre Algorithmen sind lokale Suchverfahren, wobei gleichzeitig
-> an mehreren Stellen im Problemraum gesucht wird. Sie bedienen sich
-> Mechanismen aus der Evolution: Es gibt eine Population von Individuen,
-> die jedes das Problem kodieren ("vollständige Zustandsbeschreibung")
-> und damit im Laufe der Suche zu einer möglichen Lösung werden können.
->
-> Die Individuen werden mit Hilfe einer Fitnessfunktion bewertet, wie
-> gut sie bereits an das Problem angepasst sind (bzw. wie sehr sie
-> bereits der gesuchten Lösung entsprechen). Über eine
-> fitnessproportionale Selektion werden Individuen ausgewählt, aus denen
-> mittels Rekombination (auch "Crossover" genannt) neue Individuen mit
-> Eigenschaften der Eltern erzeugt werden. Über eine Mutation werden
-> dann noch Elemente der neuen Individuen leicht verändert, bevor diese
-> zur neuen Population werden ...
->
-> Durch das Anwenden von Rekombination und Mutation springt man im
-> Problemraum umher. Auch wenn als Basis die fitteren (angepassteren)
-> Individuen dienen, kann es wie bei allen lokalen Suchverfahren
-> vorkommen, dass sich der Algorithmus in lokalen Minima (bzw. lokalen
-> Maxima, je nach Richtung der Optimierung) festfrisst.
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> -   [VL Modellierung mit EA/GA](https://youtu.be/Sd5AA6LIEOc)
->
-> </details>
-
-##### EA -- Allgemeiner Ablauf
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz.png" width="60%" /></picture></p>
-
-##### Kodierung Individuen
-
--   Binäre Lösungsrepräsentation (Bitstring):
-    $\mathbf{g} = (g_1, \dots, g_m)\in \{ 0,1\}^m$
-    -   String gliedert sich in $n$ Elemente (mit $n \le m$) =\> jedes
-        Segment entspricht einer Problemvariablen
-    -   Dekodierungsfunktion $\Gamma : \{0,1\}^m \to \mathbb{R}^n$
-
-    Alle relevanten Aspekte des Problems müssen in die Codierung
-    einfließen!
-
-    Bei ES hat man einen Vektor mit reellen Zahlen, wobei jeder Eintrag
-    einen Parameter des Problems darstellt. Eine Dekodierungsfunktion
-    benötigt man entsprechend nicht.
-
-    Bei der Erzeugung der Startpopulation werden die Individuen
-    **zufällig** (mit zufälligen Werten) initialisiert.
-
-<!-- -->
-
--   Fitnessfunktion $\Phi$ ordnet jedem Individuum $\mathbf{g}_i$ eine
-    reelle Zahl zu:
-    $$\Phi(\mathbf{g}_i) = F(\Gamma(\mathbf{g}_i)) - w\cdot\sum_j(Z_j(\Gamma(\mathbf{g}_i)))^2$$
-    -   Zielfunktion $F$: wie sehr genügt ein Individuum bereits dem
-        Optimierungproblem
-    -   Strafterme $Z_j$: Anreicherung der Optimierung mit weiteren
-        Informationen
-    -   Gewichte $w$: statisch oder dynamisch (Abkühlen)
-
-    Die Wahl einer guten Fitnessfunktion ist oft eine Herausforderung,
-    aber dennoch wichtig, da damit die Suche gesteuert wird!
-
-##### Selektion: Erstelle Matingpool mit $\mu$ Individuen
-
--   Fitnessproportionale Selektion (*Roulette Wheel Selection*):
-    Auswahlwahrscheinlichkeit für Individuum $\mathbf{g}_k$:
-    $$p_{sel}(\mathbf{g}_k) = \frac{\Phi(\mathbf{g}_k)}{\sum_j \Phi(\mathbf{g}_j)}$$
-    =\> Voraussetzung: positive Fitnesswerte
-
-<!-- -->
-
--   Turnier-Selektion (*Tournament Selection*):
-    -   Turniergröße $\xi$
-    -   Turnier: ziehe $\xi$ Individuen gleichverteilt (mit
-        Zurücklegen!) und kopiere fittestes Individuum in den Matingpool
-    -   Führe $\mu$ Turniere durch
-
-*Hinweis*: Es gibt noch viele weitere Selektionsmechanismen. Die
-vorgestellten sind in der Praxis am gebräuchlichsten.
-
-Über die Selektion wird der sogenannte "Selektionsdruck" aufgebaut: Wie
-gut muss ein Individuum sein (im Vergleich zu den restlichen Individuen
-in der Population), damit es eine Chance zur Reproduktion erhält? Dürfen
-sich nur die "Guten" fortpflanzen, oder erhalten auch die "Schlechten"
-eine gewisse Chance?
-
-Da jedes Individuum einen Punkt im Suchraum darstellt, beeinflusst die
-Wahl der Selektion die Geschwindigkeit der Suche, begünstigt u.U. aber
-auch ein eventuelles Festfahren in lokalen Minima. Dies kann
-beispielsweise geschehen, wenn immer nur die "Guten" selektiert werden,
-aber die "Guten" der Population sich in der Nähe eines lokalen Minimums
-befinden. Dann werden auch die Nachfolger sich wieder dort aufhalten.
-
-##### Crossover: Erzeuge zwei Nachkommen aus zwei Eltern
-
-Festlegung der Crossover-Wahrscheinlichkeit $p_{cross}$ (typisch:
-$p_{cross} \ge 0.6$)
-
-1.  Selektiere Eltern $\mathbf{g}_a$ und $\mathbf{g}_b$
-    **gleichverteilt** aus Matingpool
-
-<!-- -->
-
-2.  Zufallsexperiment:
-    -   mit $1-p_{cross}$: Kinder identisch zu Eltern (kein Crossover)
-    -   mit $p_{cross}$: Crossover mit $\mathbf{g}_a$ und $\mathbf{g}_b$
-        -   Ziehe $i$ gleichverteilt mit $1 < i < m$
-        -   Kinder aus $\mathbf{g}_a$ und $\mathbf{g}_b$ zusammenbauen:
-            $$\mathbf{g}_c = (g_{a,1}, \dots, g_{a,i}, \; g_{b,{i+1}}, \dots, g_{b,m})$$
-            und
-            $$\mathbf{g}_d = (g_{b,1}, \dots, g_{b,i}, \; g_{a,{i+1}}, \dots, g_{a,m})$$
-
-        =\> Trenne Eltern an gleicher Stelle auf, vertausche
-        Bestandteile
-
-<!-- -->
-
-3.  Gehe zu Schritt 1, bis insg. $\mu$ Nachkommen
-
-*Anmerkung*: Die Eltern werden jeweils in die Ausgangsmenge
-zurückgelegt.
-
-Mit einer kleinen Wahrscheinlichkeit sind die Kinder also identisch zu
-den Eltern. Dies ist im Sinne der lokalen Suche wichtig, um bereits
-erreichte gute Positionen im Suchraum nicht zu verlieren: Es könnte
-sein, dass die Nachfolger alle schlechter sind ...
-
-Varianten: $N$-Punkt-Crossover, Shuffle-Crossover
-
-Bei ES wird parameterweise gekreuzt. Dabei gibt es verschiedene
-Möglichkeiten: Übernahme eines Parameters von einem Elternteil,
-Verrechnen (beispielsweise Mitteln) der Werte beider Eltern, ... Bei ES
-heißt "Crossover" deshalb oft "Rekombination".
-
-##### Mutation
-
--   Mutationswahrscheinlichkeit $p_{mut}$ (typische Werte:
-    $p_{mut} = 0.01$ oder $p_{mut} = 0.001$)
-
-<!-- -->
-
--   Für alle Individuen:
-    -   Mutiere jedes Gen eines Individuums mit $p_{mut}$:
-
-        $$g_i^{(t+1)} = \left\{
-        \begin{array}{rll}
-            \neg & g_i^{(t)} & \text{ falls } \chi_i \le p_{mut}\\[5pt]
-            & g_i^{(t)} & \text{ sonst }
-        \end{array}
-        \right.$$
-
-        =\>$\chi_i$ gleichverteilte Zufallsvariable (Intervall $[0,1]$),
-        für jedes Bit $g_i$ neu bestimmen
-
-*Anmerkung*: Die optimale Mutationsrate $p_{mut}^*$ ist von Länge $m$
-des Bitstrings abhängig; annäherbar durch $p_{mut}^* \approx 1/m$.
-
-Die beim Crossover erstellten Nachfolger liegen im Suchraum in der Nähe
-der Eltern. Durch die Mutationsrate bestimmt man, ob und wie weit sich
-ein Kind entfernen kann. Dies entspricht dem Bild des "Schüttelns" der
-Zustandslandschaft.
-
-Bei ES unterscheidet man Mutationswahrscheinlichkeit und Mutationsrate.
-Es wird parameterweise mutiert.
-
-##### Bewertungskriterien
-
-Vorsicht: Es handelt sich um Zufallsexperimente. Wenn man nicht nur
-direkt nach einer Lösung sucht, sondern beispielsweise
-Parametereinstellungen oder die Wahl der Fitnessfunktion für ein Problem
-vergleichen will, muss man jeweils mehrere Experimente mit der selben
-Einstellung machen und Kenngrößen berechnen.
-
-**Geschwindigkeit: AES** *Average Evaluations to a Solution*
-$$\text{AES } = \frac{\sum\limits_{i \in \text{erfolgreiche Läufe}} \text{Generationen von Lauf } i}{\text{Anzahl der erfolgreichen Läufe}}$$
-
-Die AES liegt im Intervall $[0, maxGen]$.
-
-**Lösungswahrscheinlichkeit: SR** *Success Rate*
-$$\text{SR } = \frac{\text{Anzahl der erfolgreichen Läufe}}{\text{Anzahl aller Läufe}}$$
-
-Die SR liegt im Intervall $[0, 1]$.
-
-##### Typische Läufe
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_fail_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_fail.png" width="60%" /></picture></p>
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_success_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_success.png" width="60%" /></picture></p>
-
--   Populationsgröße $\mu=15$
--   Anzahl Nachfahren $\lambda=100$
--   Abbruch nach $maxGen=200$ Generationen
-
-Stochastischer Algorithmus! Ausreichend Wiederholungen durchführen und
-mitteln!
-
-*Hinweis*: Die Parameter müssen problemabhängig gewählt werden. Zu hohe
-Werte für $\mu$ und $\lambda$ führen dazu, dass man bei kleinen
-Problemen mit hoher Wahrscheinlichkeit bereits am Anfang eine Lösung
-"würfelt", also gar kein GA nutzt. Wenn dies allerdings nicht passiert,
-sorgt eine hohe Populationsgröße dafür, dass jeder Schritt sehr lange
-dauert. Die Abbruchgrenze ist ebenfalls mit Augenmaß zu wählen: Ein zu
-kleiner Wert sorgt für zu frühen Abbruch (keine Lösung!), ein zu hoher
-Wert sorgt beim Festfressen des Algorithmus für eine unnötige weitere
-"Suche" ...
-
-##### Wrap-Up
-
-Lokale Suchverfahren: Nur das Ergebnis zählt!
-
--   Evolutionäre Algorithmen:
-    -   Begriffe: Individuum, Population, Kodierung
-    -   Operationen: Selektion, Rekombination, Mutation
-    -   Bewertung mit Fitnessfunktion
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>📖 Zum Nachlesen</strong></summary>
->
-> -   Russell und Norvig ([2021](#ref-Russell2021)): GA: Abschnitt 4.1.4
-> -   Weicker ([2015](#ref-Weicker2015))
->
-> </details>
-
-> [!NOTE]
->
-> <details >
-> <summary><strong>✅ Lernziele</strong></summary>
->
-> -   k3: Ich kann GA anwenden, insbesondere für ein Beispiel passende
->     Kodierung, Fitnessfunktion, Operatoren und Auswertung formulieren
->     und den Ablauf erklären
->
-> </details>
-
-> [!TIP]
->
-> <details >
-> <summary><strong>🧩 Quizzes</strong></summary>
->
-> -   [Selbsttest EA/GA
->     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106580&client_id=FH-Bielefeld)
->
-> </details>
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🏅 Challenges</strong></summary>
->
-> **Sudoku**
->
-> Ein $9 \times 9$-*Sudoku*-Rätsel soll mit einem GA gelöst werden.
->
-> Geben Sie für dieses Problem jeweils eine geeignete **Kodierung** der
-> Individuen, passende Operatoren (**Crossover**, **Mutation**) und eine
-> geeignete **Fitnessfunktion** an, damit das Problem mit einem GA
-> gelöst werden kann. Begründen Sie Ihre Wahl!
->
-> Was würden Sie noch benötigen, um das Probleme mit Simulated Annealing
-> lösen zu können?
->
-> **Travelling Salesman Problem**
->
-> Das *Travelling Salesman Problem* für 10 Städte, d.h. das Finden der
-> kürzesten Route zwischen 10 Städten, soll mit einem GA gelöst werden.
->
-> Geben Sie für dieses Problem jeweils eine geeignete **Kodierung** der
-> Individuen, passende Operatoren (**Crossover**, **Mutation**) und eine
-> geeignete **Fitnessfunktion** an, damit das Problem mit einem GA
-> gelöst werden kann. Begründen Sie Ihre Wahl!
->
-> Was würden Sie noch benötigen, um das Probleme mit Simulated Annealing
-> lösen zu können?
->
-> </details>
-
 <a id="id-31840d23d47a206d5a0d3a76655f79f643855895"></a>
 
 ### Spiele
@@ -6711,1497 +8474,6 @@ Quelle: ([<span class="nocase">Silver u. a.</span>
 >
 > </details>
 
-<a id="id-01bf667ff8abdbb608ee25a2d6f7a5f3ed39d939"></a>
-
-### Entscheidungsbäume (Decision Tree Learner - DTL)
-
-Beim überwachten Lernen soll eine Hypothese aufgebaut werden, die der
-echten (zu lernenden) Funktion möglichst nahe kommt. Eine Hypothese kann
-im einfachsten Fall als Entscheidungsbaum dargestellt werden. Die
-Merkmale bilden dabei die Knoten im Baum, und je Ausprägung gibt es eine
-Kante zu einem Nachfolgerknoten. Ein Merkmal bildet die Wurzel des
-Baums, an den Blättern sind die Klassen zugeordnet.
-
-Einen Entscheidungsbaum kann man zur Klassifikation eines Objekts
-schrittweise durchlaufen: Für jeden Knoten fragt man die Ausprägung des
-Merkmals im Objekt ab und wählt den passenden Ausgang aus dem Knoten.
-Wenn man am Blatt angekommen ist, hat man die Antwort des Baumes auf das
-Objekt, d.h. üblicherweise die Klasse.
-
-<a id="id-82f362361464406c7ba09ef4a0893a4e32983b94"></a>
-
-#### DTL: Machine Learning 101
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> Lernen wird in der KI oft als Verhaltensänderung (eines Systems)
-> aufgefasst. Dabei soll eine Gütefunktion optimiert werden.
->
-> Je nach verfügbarem Feedback eines "Lehrers" werden typischerweise
-> drei Arten von Lernen unterschieden: Überwachtes Lernen, Unüberwachtes
-> Lernen, Reinforcement Lernen. Dabei stellt der Lehrer beim überwachten
-> Lernen Trainingsbeispiele plus eine Vorgabe (Klasse, Funktionswert)
-> zur Verfügung, während beim unüberwachten Lernen nur die
-> Trainingsbeispiele bereitgestellt werden und der Algorithmus selbst
-> Zusammenhänge in den Daten erkennen soll. Beim Reinforcement Learning
-> erfolgt das Feedback am Ende einer Kette von Aktionen, d.h. der
-> Algorithmus muss diese Bewertung auf die einzelnen Aktionen
-> zurückrechnen.
->
-> Beim überwachten Lernen soll eine Hypothese aufgebaut werden, die der
-> echten (zu lernenden) Funktion möglichst nahe kommt. Eine konsistente
-> Hypothese erklärt die Trainingsdaten, eine generalisierende Hypothese
-> kann auch unbekannte Daten (die aus der selben Quelle stammen, also
-> zum selben Problem gehören) korrekt bewerten. Es wird unterschieden
-> zwischen Klassifikation (einige wenige diskrete Label/Klassen, die den
-> Trainingsbeispielen zugeordnet sind) und Regression (Lernen eines
-> Funktionsverlaufs).
->
-> Merkmalsvektoren gruppieren Eigenschaften des Problems bzw. der
-> Objekte, d.h. jedes Objekt kann über einen Merkmalsvektor beschrieben
-> werden. Trainingsdaten sind ausgewählte Beispielobjekte (durch
-> Merkmalsvektoren beschrieben) plus die Vorgabe (Klasse oder
-> Funktionswert) vom Lehrer.
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> -   [VL Machine Learning 101](https://youtu.be/FliWEXQZhsw)
->
-> </details>
-
-##### Was ist Lernen?
-
-> Verhaltensänderung eines Agenten in Richtung der Optimierung eines
-> Gütefunktionals (Bewertungsfunktion) durch Erfahrung.
-
-##### Warum Lernen?
-
--   Nicht alle Situationen vorhersehbar
--   Nicht alle Details modellierbar
--   Lösung oder Lösungsweg unbekannt, nicht explizit programmierbar
--   Data Mining: Entdeckung neuen Wissens durch Analyse der Daten
--   Selbstanpassende Programme
-
-=\> Lernen wichtige Eigenschaft lebender Wesen :-)
-
-##### Learning Agent
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/learning_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/learning.png" width="70%" /></picture></p>
-
-##### Feedback während des Lernens
-
--   **Überwachtes Lernen**
-    -   Lernen durch Beobachtung
-    -   Vorgabe von Beispielen: Ein- und Ausgabewerte
-
-    =\> Regression, Klassifikation
-
-<!-- -->
-
--   **Unüberwachtes Lernen**
-    -   Erkennen von Mustern in den Inputdaten, Clustering
-    -   Kein Feedback (!)
-
-<!-- -->
-
--   **Reinforcement Lernen**
-    -   Bewertung der Aktionen des Agenten am Ende einer Aktionsfolge
-
-**Beispiel Kleinkind**: Lernen von Klassen/Konzepten durch Beispiele
-
--   Zuerst ist alles "Katze" (Übergeneralisierung)
--   Differenzierung durch Feedback der Umwelt; Erkennung
-    unterschiedlicher Ausprägungen
-
-##### Beispiel: Kreditrisiko
-
--   Bankkunde beantragt Kredit
--   Soll er aus Sicht der Bank den Kredit bekommen?
-
-<!-- -->
-
--   Bankangestellter betrachtet (relevante) Merkmale des Kunden:
-    -   Alter, Einkommen, sozialer Status
-    -   Kundenhistorie bei der Bank
-    -   Höhe des Kredits
-
-<!-- -->
-
--   Bewertung des Kreditrisikos:
-    -   **Klassifikation**: Guter oder schlechter Kunde (Binäre
-        Entscheidung: 2 Klassen)
-    -   **Regression**: Vorhersage Gewinn/Verlust für die Bank (Höhe des
-        Gewinns/Verlusts interessant)
-
-##### Beispiel: Autoreparatur
-
--   **Gegeben**: Eigenschaften eines Autos
-
-    =\> Eigenschaften: Ausprägungen der Merkmale
-
-<!-- -->
-
--   **Gesucht**: Diagnose und Reparaturanleitung
-
-    =\> Hypothese über den Merkmalen (Funktion $\mathop{\text{h}}$)
-
-##### Lernen durch Beobachten: Lernen einer Funktion $\mathop{\text{f}}$
-
-Funktionsapproximation: Lernen einer Funktion $\mathop{\text{f}}$ anhand
-von Beispielen
-
--   Ein Beispiel ist ein Tupel
-    $(\mathbf{x}, \mathop{\text{f}}(\mathbf{x}))$, etwa
-    $$(\mathbf{x}, \mathop{\text{f}}(\mathbf{x})) = \left(\begin{array}{ccc}
-    O & O & X \\
-    . & X & . \\
-    X & . & .
-    \end{array}, +1\right)$$
-
-<!-- -->
-
--   Aufgabe: Baue Hypothese $\mathop{\text{h}}$ auf, so dass
-    $\mathop{\text{h}} \approx \mathop{\text{f}}$.
-    -   Benutze dazu Menge von Beispielen =\> **Trainingsdaten**.
-
-<!-- -->
-
--   Ziele:
-    1.  **Konsistente Hypothese**: Übereinstimmung bei Trainingsdaten
-    2.  **Generalisierende Hypothese**: Korrekte Vorhersage bei
-        unbekannten Daten
-
-*Anmerkung*: Stark vereinfachtes Modell realen Lernens!
-
-##### Konstruieren einer konsistenten Hypothese
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams1_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams1.png" width="40%" /></picture></p>
-
-Welcher Zusammenhang ist hier dargestellt? Offenbar eine Art
-Funktionsverlauf ... Wir haben für einige x-Werte die zugehörigen
-y-Werte vorgegeben.
-
-##### Konstruieren einer konsistenten Hypothese (cnt.)
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams2_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams2.png" width="40%" /></picture></p>
-
-Die einfachste Approximation wäre eine lineare Funktion. Allerdings
-werden hierbei einige Werte mehr oder weniger stark nicht korrekt
-widergegeben, d.h. man hat einen relativ hohen (Trainings-) Fehler.
-
-##### Konstruieren einer konsistenten Hypothese (cnt.)
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams3_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams3.png" width="40%" /></picture></p>
-
-Die Hyperbel erklärt die Trainingsdaten bis auf den einen Punkt sehr
-gut. Die Frage ist, ob dieser eine Punkt zum zu lernenden Zusammenhang
-gehört oder ein Ausreißer ist, den man gefahrlos ignorieren kann?
-
-##### Konstruieren einer konsistenten Hypothese (cnt.)
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams4_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams4.png" width="40%" /></picture></p>
-
-Die grüne Hypothese ist von allen bisher gezeigten die komplexeste,
-erklärt aber alle Datenpunkte. D.h. hier wäre der Trainingsfehler Null.
-Zwischen den Trainingsdaten zeigt das Modell eine "glatte"
-Approximation, d.h. es wird auch neue Daten, die es beim Training nicht
-gesehen hat, relativ gut erklären. (Dabei liegt freilich die Annahme
-zugrunde, dass alle relevanten Daten in der Trainingsmenge vorhanden
-sind, d.h. dass es insbesondere zwischen den Datenpunkten keine
-Ausreißer o.ä. gibt.)
-
-##### Konstruieren einer konsistenten Hypothese (cnt.)
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams5_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams5.png" width="40%" /></picture></p>
-
-Diese Hypothese erklärt ebenfalls sämtliche Trainingsdaten. Allerdings
-schwingt die Funktion zwischen den Daten stark hin und her. Vermutlich
-entspricht dies nicht dem zu lernenden Funktionsverlauf. Der
-Trainingsfehler wäre wie bei der deutlich einfacheren Hypthese aus dem
-letzten Schritt Null. Der Generalisierungsfehler (sprich die Abweichung,
-wenn man das Modell nach Daten zwischen den Trainingspunkten fragt)
-dürfte erheblich höher liegen.
-
-D.h. hier hat das Modell einfach die Trainingsdaten auswendig gelernt,
-aber nicht den Zusammenhang zwischen den Daten! Dies ist in der Regel
-unerwünscht!
-
-##### Occam's Razor
-
-**Bevorzuge die einfachste konsistente Hypothese!**
-
-1.  Wenn es mehrere mögliche Erklärungen für einen Sachverhalt gibt, ist
-    die einfachste Erklärung allen anderen vorzuziehen.
-2.  Eine Erklärung ist "einfach", wenn sie möglichst wenige Variablen
-    und Annahmen enthält und wenn diese in klaren logischen Beziehungen
-    zueinander stehen, aus denen der zu erklärende Sachverhalt logisch
-    folgt.
-
-##### Trainingsdaten und Merkmalsvektoren
-
-Lehrer gibt Beispiele vor: Eingabe $\mathbf{x}$ und passende Ausgabe
-$\mathop{\text{f}}(\mathbf{x})$
-
--   Ausgabe: typischerweise Skalar (Funktionswert oder Klasse) =\>
-    Beispiel: Bewertung eines Spielstandes bei TicTacToe
-
-<!-- -->
-
--   Eingabe: (Beschreibung des) Objekt(s) oder Situation, die zur
-    Ausgabe gehört =\> Beispiel: Spielstand bei TicTacToe
-
-**Merkmalsvektoren**:
-
--   Zusammenfassen der relevanten Merkmale zu Vektoren
-
-##### Beispiel: Schwimmen im See
-
-Beschreibung der Faktoren, wann ich im See schwimmen möchte:
-
-1.  Scheint die Sonne?
-2.  Wie warm ist das Wasser?
-3.  Wie warm ist die Luft?
-
--   Trainingsbeispiel:
-    -   Eingabe: Merkmalsvektor `(sonnig, warm, warm)`
-    -   Ausgabe: Klasse `ja`
-
-Dabei wird davon ausgegangen, dass jeder Faktor (jedes Merkmal) an einer
-bestimmten Stelle im Merkmalsvektor aufgeführt ist. Beispielsweise
-gehört das `sonnig` zur Frage "Scheint die Sonne", `warm` jeweils zur
-Wasser- und zur Lufttemperatur.
-
-Damit hat man in einem Vektor eine Situation komplett beschrieben, d.h.
-einen Zustand der Welt mit den relevanten Dingen beschrieben. Diesem
-Zustand kann man beispielsweise ein Label (Klasse) verpassen, hier in
-diesem Fall "ja, in dieser Welt möchte ich schwimmen".
-
-Die Trainingsmenge baut sich dann beim überwachten Lernen aus vielen
-solcher Paare (Merkmalsvektor, Klasse) auf, und die Algorithmen sollen
-diese Zuordnung lernen, d.h. ein Modell für diese Daten erzeugen,
-welches die Daten gut erklärt und darüber hinaus für neue Daten aus der
-selben Datenquelle gute Vorhersagen macht.
-
-##### Trainingsdaten -- Merkmalsvektoren
-
-**Generell**: Merkmalsvektor für Objekt $v$:
-$$    \mathbf{x}(v) = (x_1, x_2, \ldots, x_n)$$
-
--   $n$ Merkmale (Attribute)
--   Attribut $x_t$ hat $m_t$ mögliche Ausprägungen
--   Ausprägung von $v$ bzgl. $x_t$: $\quad x_t(v) = i \quad$ (mit
-    $i = 1 \ldots m_t$)
-
-*Anmerkung*: Stellen Sie sich den Merkmalsvektor $\mathbf{x}$ vielleicht
-wie einen Konstruktor einer Klasse `x` vor: Die einzelnen Attribute
-$x_t$ sind die Parameter, aus denen der Merkmalsvektor aufgebaut
-ist/wird. Jedes der Attribute hat einen Typ und damit eine bestimmte
-Anzahl erlaubter Werte ("Ausprägungen") ...
-
-**Trainingsbeispiel**:
-
--   Tupel aus Merkmalsvektor und zugehöriger Klasse:
-    $\left(\mathbf{x}(v), k\right)$
-
-##### Wrap-Up
-
--   Lernen ist Verhaltensänderung, Ziel: Optimierung einer Gütefunktion
-    -   Aufbau einer Hypothese, die beobachtete Daten erklären soll
-    -   Arten: Überwachtes Lernen, Unüberwachtes Lernen, Reinforcement
-        Lernen
-
-<!-- -->
-
--   Merkmalsvektoren gruppieren Eigenschaften des Problems bzw. der
-    Objekte
--   Trainingsdaten: Beispielobjekte (durch Merkmalsvektoren beschrieben)
-    plus Vorgabe vom Lehrer
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>📖 Zum Nachlesen</strong></summary>
->
-> -   Russell und Norvig ([2021](#ref-Russell2021)): Lernen: Abschnitte
->     19.1 und 19.2
->
-> </details>
-
-> [!NOTE]
->
-> <details >
-> <summary><strong>✅ Lernziele</strong></summary>
->
-> -   k1: Ich kann den Begriff "(maschinelles) Lernen" definieren und
->     verschiedene Arten unterscheiden
-> -   k2: Ich kann "Überwachtes Lernen" erklären: Lernen durch
->     Beobachten (mit Lehrer)
-> -   k2: Ich kann wichtige Elemente des (maschinellen) Lernens
->     erklären: Merkmalsvektoren, Eigenschaften, Ausprägung, Objekte,
->     Trainingsmenge
->
-> </details>
-
-> [!TIP]
->
-> <details >
-> <summary><strong>🧩 Quizzes</strong></summary>
->
-> -   [Selbsttest Intro ML
->     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106589&client_id=FH-Bielefeld)
->
-> </details>
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🏅 Challenges</strong></summary>
->
-> **Modellierung**
->
-> Sie stehen vor der Entscheidung, ob Sie sich zur Vorbereitung auf die
-> Flipped-Classroom-Sitzung noch das Skript anschauen. Welche Attribute
-> benötigen Sie, um die Situation zu beschreiben?
->
-> **Metriken für Klassifikatoren**
->
-> Es ist wieder Wahlkampf: Zwei Kandidaten O und M bewerben sich um die
-> Kanzlerschaft. Die folgende Tabelle zeigt die Präferenzen von sieben
-> Wählern.
->
-> | Nr. | Alter    | Einkommen | Bildung  | Kandidat | Vorhersage |
-> |:----|:---------|:----------|:---------|:---------|:-----------|
-> | 1   | $\ge 35$ | hoch      | Abitur   | O        | O          |
-> | 2   | $< 35$   | niedrig   | Master   | O        | O          |
-> | 3   | $\ge 35$ | hoch      | Bachelor | M        | M          |
-> | 4   | $\ge 35$ | niedrig   | Abitur   | M        | M          |
-> | 5   | $\ge 35$ | hoch      | Master   | O        | O          |
-> | 6   | $< 35$   | hoch      | Bachelor | O        | M          |
-> | 7   | $< 35$   | niedrig   | Abitur   | M        | O          |
->
-> Auf diesem Datensatz wurde ein Klassifikator trainiert, die
-> Trainingsergebnisse sind in der Tabelle unter "Vorhersage" angegeben.
->
-> Bewerten Sie den Klassifikator.
->
-> </details>
-
-<a id="id-4807e4a11529854b6d77f86cd3ca37caabc11cc9"></a>
-
-#### DTL: CAL2
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> Eine Hypothese kann im einfachsten Fall als Entscheidungsbaum
-> dargestellt werden. Die Merkmale bilden dabei die Knoten im Baum, und
-> je Ausprägung gibt es eine Kante zu einem Nachfolgerknoten. Ein
-> Merkmal bildet die Wurzel des Baums, an den Blättern sind die Klassen
-> zugeordnet.
->
-> Einen Entscheidungsbaum kann man zur Klassifikation eines Objekts
-> schrittweise durchlaufen: Für jeden Knoten fragt man die Ausprägung
-> des Merkmals im Objekt ab und wählt den passenden Ausgang aus dem
-> Knoten. Wenn man am Blatt angekommen ist, hat man die Antwort des
-> Baumes auf das Objekt, d.h. üblicherweise die Klasse.
->
-> Den Baum kann man mit dem Algorithmus CAL2 schrittweise aufbauen. Man
-> startet mit "Nichtwissen" (symbolisiert mit einem "\*") und iteriert
-> durch alle Trainingsbeispiele, bis der Baum sich nicht mehr verändert.
-> Wenn der Baum auf ein Beispiel einen "\*" ausgibt, dann ersetzt man
-> diesen "\*" mit der Klasse des eben betrachteten Beispiels. Wenn der
-> Baum bei einem Beispiel die passende Klasse ausgibt, macht man mit dem
-> nächsten Beispiel weiter. Wenn der Baum bei einem Beispiel eine andere
-> Klasse ausgibt, muss das Klassensymbol im Baum (an der Stelle, wo das
-> Objekt gelandet ist) durch den nächsten Test ersetzt werden: Hierzu
-> nimmt man das nächste, auf diesem konkreten Pfad noch nicht verwendete
-> Merkmal. CAL2 kann nur mit diskreten Attributen und disjunkten Klassen
-> einen fehlerfreien Baum erzeugen.
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> -   [VL CAL2](https://youtu.be/bR_QVYtPRx8)
->
-> </details>
-
-##### Entscheidungsbäume: Klassifikation
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/xor-decision-tree_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/xor-decision-tree.png" width="60%" /></picture></p>
-
--   Attribute als Knoten im Baum
--   Ausprägungen als Test (Ausgang, Verzweigung)
--   Klasse (Funktionswert) als Blatt
-
-Erinnern Sie sich an das Beispiel mit der Auto-Reparatur aus der letzten
-Sitzung.
-
-Die relevanten Eigenschaften (Merkmale) eines Autos würden als Knoten im
-Baum repräsentiert. Beispiel: "Motor startet" oder "Farbe".
-
-Jedes Merkmal hat eine Anzahl von möglichen Ausprägungen, diese
-entsprechen den Verzweigungen am Knoten. Beispiel: "startet", "startet
-nicht" oder "rot", "weiß", "silber", ... .
-
-Entsprechend kann man durch Abarbeiten des Entscheidungsbaumes am Ende
-zu einer Diagnose gelangen (Klasse).
-
-Eine andere Sichtweise ist die Nutzung als Checkliste für eine Reparatur
-...
-
-##### Definition Entscheidungsbaum
-
--   Erinnerung: **Merkmalsvektor** für Objekt $v$:
-    $$    \mathbf{x}(v) = (x_1, x_2, \ldots, x_n)$$
-
-    -   $n$ Merkmale (Attribute)
-    -   Attribut $x_t$ hat $m_t$ mögliche Ausprägungen
-    -   Ausprägung von $v$ bzgl. $x_t$: $\quad x_t(v) = i \quad$ (mit
-        $i = 1 \ldots m_t$)
-
-<!-- -->
-
--   **Alphabet** für Baum:
-    $$\lbrace x_t | t=1,\ldots,n \rbrace \cup \lbrace \kappa | \kappa = \ast,A,B,C,\ldots \rbrace \cup \lbrace (,) \rbrace$$
-
-<!-- -->
-
--   **Entscheidungsbaum** $\alpha$:
-    $$\alpha = \left\lbrace  \begin{array}{ll}
-            \kappa  & \text{Terminalsymbole: } \kappa = \ast,A,B, \ldots\\
-            x_t(\alpha_1, \alpha_2, \ldots, \alpha_{m_t}) & x_t \text{ Testattribut mit } m_t \text{ Ausprägungen}
-        \end{array}\right.$$
-
-*Anmerkung*: Stellen Sie sich die linearisierte Schreibweise wieder wie
-den (verschachtelten) Aufruf von Konstruktoren vor. Es gibt die
-Oberklasse `Baum`, von der für jedes Attribut eine Klasse abgeleitet
-wird. D.h. der Konstruktor für eine Attributklasse erzeugt letztlich ein
-Objekt vom Obertyp `Baum`. Außerdem sind die Terminalsymbole `A`, `B`,
-... Objekte vom Typ `Blatt`, welches eine Unterklasse von `Baum` ist ...
-
-Dabei wird die Anzahl der möglichen Ausprägungen für ein Attribut
-berücksichtigt: Jede Ausprägung hat einen Parameter im Konstruktor.
-Damit werden die Unterbäume beim Erzeugen des Knotens übergeben.
-
-##### Induktion von Entscheidungsbäumen: CAL2
-
-1)  Anfangsschritt: $\alpha^{(0)} = \ast$ (totales Unwissen)
-
-2)  $n$-ter Lernschritt: Objekt $v$ mit Klasse $k$, Baum
-    $\alpha^{(n-1)}$ gibt $\kappa$ aus
-
-    -   $\kappa = \ast$: ersetze $\ast$ durch $k$
-    -   $\kappa = k$: keine Aktion nötig
-    -   $\kappa \neq k$: Fehler
-        -   Ersetze $\kappa$ mit neuem Test:
-            $\kappa \gets x_{t+1}(\ast, \ldots, \ast, k, \ast, \ldots, \ast)$
-        -   $x_{t+1}$: nächstes Attribut, auf dem aktuellen Pfad noch
-            nicht verwendet
-        -   Symbol $k$ an Position $i$ wenn $x_{t+1}(v) = i$
-
-$\alpha^{(n)}$ bezeichnet den Baum im $n$-ten Lernschritt.
-
-CAL2 ist ein **Meta-Algorithmus**: Es ist ein Algorithmus, um einen
-Algorithmus zu lernen :-)
-
-##### Beispiel mit CAL2
-
-| $x_1$ | $x_2$ | $x_3$ | $k$ |
-|:------|:------|:------|:----|
-| 0     | 0     | 1     | A   |
-| 1     | 0     | 0     | A   |
-| 0     | 1     | 4     | B   |
-| 1     | 1     | 2     | B   |
-| 0     | 0     | 3     | A   |
-
-**Ergebnis**: $x_1(x_2(A, B), x_2(A, B))$
-
-*Anmerkung*: Denken Sie an die Analogie von oben. $x_1$ kann als
-Konstruktor einer Klasse `x1` betrachtet werden, die eine Unterklasse
-von `Baum` ist. Durch den Aufruf des Konstruktors wird als ein `Baum`
-erzeugt.
-
-Es gibt in $x_1$ zwei mögliche Ausprägungen, d.h. der Baum hat in diesem
-Knoten zwei alternative Ausgänge. Diese Unterbäume werden dem
-Konstruktor von `x1` direkt beim Aufruf übergeben (müssen also
-Referenzen vom Typ `Baum` sein).
-
-##### CAL2: Bemerkungen
-
--   Nur für diskrete Merkmale und disjunkte Klassen
-
-<!-- -->
-
--   Zyklischer Durchlauf durch Trainingsmenge
--   Abbruch:
-    -   Alle Trainingsobjekte richtig klassifiziert =\> Kein Fehler in
-        einem kompletten Durchlauf
-    -   (Differenzierung nötig, aber alle Merkmale verbraucht)
-    -   (Lernschrittzahl überschritten)
-
-##### Wrap-Up
-
--   Darstellung der Hypothese als Entscheidungsbaum
--   CAL2: diskrete Attribute, disjunkte Klassen
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>📖 Zum Nachlesen</strong></summary>
->
-> -   Unger und Wysotzki ([1981](#ref-Unger1981)): Der Vollständigkeit
->     halber aufgeführt (Werk ist leider vergriffen und wird nicht mehr
->     verlegt)
->
-> </details>
-
-> [!NOTE]
->
-> <details >
-> <summary><strong>✅ Lernziele</strong></summary>
->
-> -   k3: Ich kann den Entscheidungsbaumlerner CAL2 auf ein Beispiel
->     anwenden
->
-> </details>
-
-> [!TIP]
->
-> <details >
-> <summary><strong>🧩 Quizzes</strong></summary>
->
-> -   [Selbsttest CAL2
->     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106575&client_id=FH-Bielefeld)
->
-> </details>
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🏅 Challenges</strong></summary>
->
-> **Modellierung**
->
-> Sie stehen vor der Entscheidung, ob Sie sich zur Vorbereitung auf die
-> Flipped-Classroom-Sitzung noch das Skript anschauen.
->
-> Zeichnen Sie einen Entscheidungsbaum, der Ihnen bei der Entscheidung
-> hilft.
->
-> **Textklassifikation**
->
-> Betrachten Sie die folgenden Aussagen:
->
-> > -   Patient A hat weder Husten noch Fieber und ist gesund.
-> > -   Patient B hat Husten, aber kein Fieber und ist gesund.
-> > -   Patient C hat keinen Husten, aber Fieber. Er ist krank.
-> > -   Patient D hat Husten und kein Fieber und ist krank.
-> > -   Patient E hat Husten und Fieber. Er ist krank.
->
-> Aufgaben:
->
-> 1.  Trainieren Sie auf diesem Datensatz einen Klassifikator mit CAL2.
-> 2.  Ist Patient F krank? Er hat Husten, aber kein Fieber.
->
-> **Handsimulation CAL2**
->
-> Zeigen Sie mit einer Handsimulation, wie CAL2 mit dem folgenden
-> Trainingsdatensatz schrittweise einen Entscheidungsbaum generiert.
-> Nutzen Sie die linearisierte Schreibweise.
->
-> | Beispiel | $x_1$ | $x_2$ | $x_3$ | Klasse |
-> |:--------:|:-----:|:-----:|:-----:|:------:|
-> |    1     |   a   |   a   |   a   |   1    |
-> |    2     |   a   |   b   |   a   |   2    |
-> |    3     |   a   |   a   |   b   |   1    |
-> |    4     |   b   |   a   |   b   |   1    |
-> |    5     |   a   |   a   |   c   |   1    |
-> |    6     |   b   |   b   |   b   |   2    |
->
-> Welchen Entscheidungsbaum würde CAL2 lernen, wenn dem
-> Trainingsdatensatz der Vektor $((a,a,b), 2)$ als Beispiel Nr. 7
-> hinzugefügt werden würde?
->
-> </details>
-
-<a id="id-19ffac22140785b62f48ef3e44c1bde3a43d2054"></a>
-
-#### DTL: Pruning
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> Pruning ist das Entfernen redundanter und irrelevanter Tests
-> (Merkmale).
->
-> Irrelevante Merkmale spielen keine Rolle bei der Klassifikation, an
-> jedem Ausgang eines irrelevanten Merkmals findet sich exakt der selbe
-> Baum. Diese Tests kann man einfach entfernen und durch einen ihrer
-> Teilbäume ersetzen; dadurch ändert sich nicht die Klassifikation des
-> Baumes.
->
-> Bei redundanten Tests sind alle Ausgänge bis auf einen noch mit
-> "Nichtwissen" ("\*") markiert. Hier kann man den Test durch den einen
-> bekannten Ausgang ersetzen, wodurch sich die Klassifikation ändert.
-> Allerdings wird der Klassifikationsfehler nicht größer, da man ja
-> vorher nur für eine Ausprägung des redundanten Merkmals einen Baum
-> hatte und für die anderen jeweils mit "\*" antworten musste (d.h. hier
-> stets einen Fehler gemacht hatte).
->
-> Über die Transformationsregel kann man einfach die Reihenfolge von
-> Tests im Baum ändern.
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> -   [VL Pruning](https://youtu.be/LKt9F2kGYdk)
->
-> </details>
-
-##### Pruning: Bedingt irrelevante Attribute
-
-**Baum**: $\alpha = x_1(x_2(A, B),  x_2(A, B),  x_2(A, B))$
-
-$x_1$ ist bedingt irrelevant =\> Vereinfachung: $\alpha = x_2(A, B)$
-
-**Allgemein**:
-
--   Sei $\tilde{x}$ Weg zu Nichtendknoten $x_t$
--   Baum dort $\alpha/\tilde{x} = x_t(\alpha_1, \ldots, \alpha_{m_t})$
--   $x_t$ ist **bedingt irrelevant** unter der Bedingung $\tilde{x}$,
-    wenn $\alpha_1 = \alpha_2 = \ldots = \alpha_{m_t}$
--   **Vereinfachung**: Ersetze in $\alpha/\tilde{x}$ den Test $x_t$
-    durch $\alpha_1$
-
-*Anmerkung*: Der durch das Entfernen von bedingt irrelevanten Attributen
-entstandene Baum hat **exakt** die selbe Aussage (Klassifikation) wie
-der Baum vor dem Pruning.
-
-**Anmerkung**: $x_1$ im obigen Beispiel ist sogar **global** irrelevant,
-da es sich hier um die Wurzel des Baumes handelt. Der Weg $\tilde{x}$
-ist in diesem Fall der leere Weg ...
-
-##### Pruning: Bedingt redundante Attribute
-
-**Baum**: $\alpha = x_1(\ast,  \ast,  x_2(A, B))$
-
-$x_1$ ist bedingt redundant =\> Vereinfachung: $\alpha = x_2(A, B)$
-
-**Allgemein**:
-
--   Sei $\tilde{x}$ Weg zu Nichtendknoten $x_t$
--   Baum dort
-    $\alpha/\tilde{x} = x_t(\ast, \ldots, \ast, \alpha_i, \ast, \ldots, \ast)$
-    (mit $\alpha_i \neq \ast$)
--   $x_t$ ist **bedingt redundant** unter der Bedingung $\tilde{x}$
--   **Vereinfachung**: Ersetze in $\alpha/\tilde{x}$ den Test $x_t$
-    durch $\alpha_i$
-
-*Anmerkung*: Der durch das Entfernen von bedingt redundanten Attributen
-entstandene Baum hat eine etwas andere Klassifikation als der Baum vor
-dem Pruning. Wo vorher ein `*` ausgegeben wurde, wird nach dem Pruning
-u.U. ein Klassensymbol ausgegeben. Der Klassifikationsfehler erhöht sich
-aber **nicht**, da hier ein `*` wie ein falsches Klassensymbol zu werten
-ist.
-
-**Anmerkung**: $x_1$ im obigen Beispiel ist sogar **global** redundant,
-da es sich hier um die Wurzel des Baumes handelt. Der Weg $\tilde{x}$
-ist in diesem Fall der leere Weg ...
-
-##### Allgemeine Transformationsregel
-
-$$x_1(x_2(a, b),  x_2(c, d))  \Leftrightarrow  x_2(x_1(a, c),  x_1(b, d))$$
-
-##### Wrap-Up
-
--   Pruning: Entfernen bedingt redundanter und irrelevanter Tests
--   Transformationsregel zum Umbauen von Entscheidungsbäumen
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>📖 Zum Nachlesen</strong></summary>
->
-> -   Ertel ([2025](#ref-Ertel2025)): Entscheidungsbäume: Abschnitt 8.4
-> -   Russell und Norvig ([2021](#ref-Russell2021)): Entscheidungsbäume:
->     Abschnitt 19.3
->
-> </details>
-
-> [!NOTE]
->
-> <details >
-> <summary><strong>✅ Lernziele</strong></summary>
->
-> -   k3: Ich kann Pruning anwenden und bedingt irrelevante Tests
->     entfernen
-> -   k3: Ich kann Pruning anwenden und bedingt redundante Tests
->     entfernen
-> -   k3: Ich kann Entscheidungsbäume mit Hilfe der Transformationsregel
->     umformen
->
-> </details>
-
-> [!TIP]
->
-> <details >
-> <summary><strong>🧩 Quizzes</strong></summary>
->
-> -   [Selbsttest Pruning
->     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106577&client_id=FH-Bielefeld)
->
-> </details>
-
-<a id="id-1867142959094a5c852b79c1c6f3caed8e931b63"></a>
-
-#### DTL: CAL3
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> CAL3 ist eine einfache Erweiterung von CAL2 für nicht-disjunkte
-> (überlappende) Klassen. Statt beim Baumaufbau bei einer
-> Fehlklassifikation sofort zu verzweigen, werden hier zunächst die im
-> entsprechenden Pfad aufgelaufenen Klassensymbole gezählt. Wenn
-> ausreichend viele davon gesehen wurden (Schwelle $S_1$), wird eine
-> Entscheidung getroffen: Wenn eine Klasse in diesem temporären Blatt
-> dominiert (ihre Häufigkeit über einer Schwelle $S_2$ liegt), dann
-> entscheidet man sich in diesem Blatt fest für diese Klasse. Ansonsten
-> (die Häufigkeit aller Klassen in dem Blatt liegt unter $S_2$) nimmt
-> man analog zu CAL2 den nächsten, auf diesem Pfad noch nicht
-> verwendeten Test hinzu.
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> -   [VL CAL3](https://youtu.be/9Wj51XvuntM)
->
-> </details>
-
-##### CAL3: Erweiterung von CAL2 für nicht-disjunkte Klassen
-
-1)  Anfangsschritt: $\alpha^{(0)} = \ast$ (totales Unwissen)
-
-2)  $n$-ter Lernschritt: Objekt $v$ mit Klasse $k$
-
-    -   Rückweisung (Endknoten mit $\ast$): Ersetze $\ast$ durch
-        Vereinigungsklasse $/k1/$
-
-    -   Endknoten mit Vereinigungsklasse:
-
-        -   Zähler für $k$ erhöhen, bzw.
-        -   $k$ mit Anzahl $1$ in Vereinigungsklasse einfügen
-
-    Falls nun die Summe aller Klassen am Endknoten größer/gleich $S_1$
-    (Statistikschwelle):
-
-    -   Für **genau eine** Klasse gilt: $P(k | \tilde{x}) \ge S_2$: =\>
-        Abschluss: Ersetze Vereinigungsklasse durch $k$ (für immer!)
-
-    -   Für **alle** Klassen gilt: $P(k | \tilde{x}) < S_2$: =\>
-        Differenzierung: Ersetze Vereinigungsklasse durch neuen Test:
-        $\kappa \gets x_{t+1}(\ast, \ldots, \ast, /k1/, \ast, \ldots, \ast)$
-
-        $x_{t+1}$: nächstes Attribut, auf dem aktuellen Pfad $\tilde{x}$
-        noch nicht verwendet Symbol $k$ mit Anzahl 1 an Position $i$
-        wenn $x_{t+1}(v) = i$
-
-##### Beispiel mit CAL3
-
-| $x_1$ | $x_2$ | $k$ |
-|:------|:------|:----|
-| 0     | 0     | A   |
-| 0     | 1     | B   |
-| 0     | 1     | A   |
-| 1     | 0     | B   |
-| 1     | 1     | A   |
-
--   $S_1 = 4, S_2 = 0.7$
-
-**Ergebnis**: $x_1(A,  x_2(B, A))$
-
-Trainingsfehler: $1/5 = 0.2 < 1-S_2 = 1-0.7 = 0.3$
-
-**Hinweis**: Bei nicht überlappenden Klassen erzeugt CAL3 u.U. andere
-Bäume als CAL2 ...
-
-##### CAL3: Abbruchbedingungen und Parameter
-
--   **Parameter**:
-    -   $S_1$: Statistikschwelle, problemabhängig wählen
-    -   $S_2$: $0.5 < S_2 \le 1.0$
-    -   Klassifikationsfehler kleiner als $1-S_2$
-        -   kleiner Fehler =\> großer Baum
-        -   großer Fehler =\> kleiner Baum
-
-<!-- -->
-
--   **Abbruch**:
-    -   Alle Trainingsobjekte richtig klassifiziert =\> Kein Fehler in
-        einem kompletten Durchlauf
-    -   Alle Endknoten mit eindeutigen Klassensymbolen belegt
-    -   Differenzierung nötig, aber alle Merkmale verbraucht
-    -   Lernschrittzahl überschritten
-
-##### Wrap-Up
-
--   CAL3: Erweiterung von CAL2 für überlappende Klassen
-    -   Parameter $S_1$ (Anzahl Objekte bis Entscheidung), $S_2$
-        (Dominanz?)
-    -   Trainingsfehler wg. überlappender Klassen!
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>📖 Zum Nachlesen</strong></summary>
->
-> -   Unger und Wysotzki ([1981](#ref-Unger1981)): Der Vollständigkeit
->     halber aufgeführt (Werk ist leider vergriffen und wird nicht mehr
->     verlegt)
->
-> </details>
-
-> [!NOTE]
->
-> <details >
-> <summary><strong>✅ Lernziele</strong></summary>
->
-> -   k3: Ich kann den Meta-Algorithmus CAL3 für überlappende Klassen
->     anwenden
->
-> </details>
-
-> [!TIP]
->
-> <details >
-> <summary><strong>🧩 Quizzes</strong></summary>
->
-> -   [Selbsttest CAL3
->     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106576&client_id=FH-Bielefeld)
->
-> </details>
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🏅 Challenges</strong></summary>
->
-> **Textklassifikation**
->
-> Betrachten Sie die folgenden Aussagen:
->
-> > -   Patient A hat weder Husten noch Fieber und ist gesund.
-> > -   Patient B hat Husten, aber kein Fieber und ist gesund.
-> > -   Patient C hat keinen Husten, aber Fieber. Er ist krank.
-> > -   Patient D hat Husten und kein Fieber und ist krank.
-> > -   Patient E hat Husten und Fieber. Er ist krank.
->
-> Aufgaben:
->
-> 1.  Trainieren Sie auf diesem Datensatz einen Klassifikator mit CAL3
->     ($S_1=4, S_2=0.6$).
-> 2.  Ist Patient F krank? Er hat Husten, aber kein Fieber.
->
-> </details>
-
-<a id="id-f085a6c9977296f3811e103376badb06ee228d84"></a>
-
-#### DTL: Entropie
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> Die Entropie kann als Maß für den Informationsgehalt einer
-> Trainingsmenge betrachtet werden: Wieviele Ja/Nein-Entscheidungen sind
-> nötig, um die Daten fehlerfrei zu repräsentieren?
->
-> Nach der Wahl eines Attributs kann die verbleibende mittlere Entropie
-> berechnet werden. Damit hat man ein Kriterium für die Auswahl von
-> Attributen beim Aufbau von Entscheidungsbäumen: Nimm das Attribut,
-> welches einen möglichst hohen Informationsgehalt hat. Oder
-> andersherum: Wähle das Attribut, bei dem die verbleibende mittlere
-> Entropie der Trainingsmenge nach der Wahl des Attributs am kleinsten
-> ist.
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> -   [VL Entropie](https://youtu.be/4IZYA5EWO1k)
->
-> </details>
-
-##### Wie Attribute wählen?
-
-###### Erinnerung: CAL2/CAL3
-
--   Zyklische Iteration durch die Trainingsmenge
--   Ausschließlich aktuelles Objekt betrachtet
--   Reihenfolge der "richtigen" Attributwahl bei Verzweigung unklar
-
-=\> Betrachte stattdessen die komplette Trainingsmenge!
-
-###### Relevanz =\> Informationsgehalt
-
--   Shannon/Weaver (1949): **Entropie**
-    -   Maß für die Unsicherheit einer Zufallsvariablen
-    -   Anzahl der Bits zur Darstellung der Ergebnisse eines
-        Zufallsexperiments
-
-###### Beispiele
-
--   Münze, die immer auf dem Rand landet: keine Unsicherheit, 0 Bit
--   Faire Münze: Kopf oder Zahl: Entropie 1 Bit
--   Fairer 4-seitiger Würfel: 4 mögliche Ausgänge: Entropie 2 Bit
--   Münze, die zu 99% auf einer Seite landet: Entropie nahe Null
-
-=\> Anzahl der Ja/Nein-Fragen, um zur gleichen Information zu kommen
-
-##### Definition der Entropie $H(V)$ für Zufallsvariable $V$
-
--   Zufallsvariable $V$ =\> mögliche Werte $v_k$
--   Wahrscheinlichkeit für $v_k$ sei $p_k = P(v_k)$
-
-$$H(V) = -\sum_k p_k \log_2 p_k$$
-
-Hinweis:
-$\log_2 x = \frac{\log_{10} x}{\log_{10} 2} = \frac{\log x}{\log 2}$
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range.png"  /></picture></p>
-
--   Nur eine Klasse: $\log_2 1 = 0$ =\> $H(V) = 0$ Bit
--   Zwei Klassen, gleichwahrscheinlich: $\log_2 0.5 = -1$ =\> $H(V) = 1$
-    Bit
-
-##### Beispiele Entropie: faire Münze
-
-Entropie: $$H(V) = -\sum_k p_k \log_2 p_k$$
-
--   $v_1 = \mathop{\text{Kopf}},  v_2 = \mathop{\text{Zahl}}$
--   $p_1 = 0.5,  p_2 = 0.5$
--   $H(\mathop{\text{Fair}}) = -(0.5 \log_2 0.5 + 0.5 \log_2 0.5) = 1$
-    Bit
-
-$\log_2 0.5 = -1$
-
-##### Beispiele Entropie: unfaire Münze
-
-Entropie: $$H(V) = -\sum_k p_k \log_2 p_k$$
-
--   $v_1 = \mathop{\text{Kopf}},  v_2 = \mathop{\text{Zahl}}$
-
--   $p_1 = 0.99,  p_2 = 0.01$
-
--   $H(\mathop{\text{UnFair}}) = -(0.99 \log_2 0.99 + 0.01 \log_2 0.01)$
-
-    $H(\mathop{\text{UnFair}}) \approx 0.08$ Bit
-
-$\log_2 0.01 \approx -6.64$
-
-$\log_2 0.99 \approx -0,014$
-
-##### Beispiele Entropie: 4-seitiger Würfel
-
-Entropie: $$H(V) = -\sum_k p_k \log_2 p_k$$
-
--   $v_1 = 1,  v_2 = 2,   v_3 = 3,   v_4 = 4$
--   $p_1 = p_2 = p_3 = p_4 = 0.25$
--   $H(\mathop{\text{Wuerfel}}) = -4\cdot(0.25 \log_2 0.25) = 2$ Bit
-
-$\log_2 0.25 = -2$
-
-##### Entropie der Trainingsmenge: Häufigkeit der Klassen zählen
-
-| Nr. | $x_1$ | $x_2$ | $x_3$ | $k$ |
-|:----|:------|:------|:------|:----|
-| 1   | 0     | 0     | 0     | A   |
-| 2   | 1     | 0     | 2     | A   |
-| 3   | 0     | 1     | 1     | A   |
-| 4   | 1     | 1     | 0     | B   |
-| 5   | 0     | 1     | 1     | B   |
-| 6   | 0     | 1     | 0     | A   |
-
--   Anzahl Klasse $A$: 4
--   Anzahl Klasse $B$: 2
--   Gesamtzahl Beispiele: 6
-
-Wahrscheinlichkeit für $A$: $p_A = 4/6 = 0.667$
-
-Wahrscheinlichkeit für $B$: $p_B = 2/6 = 0.333$
-
-$$\begin{eqnarray}
-    H(S) &=& -\sum_k p_k \log_2 p_k\\
-         &=& -(4/6 \cdot \log_2 4/6 + 2/6 \cdot \log_2 2/6)\\
-         &=& -(-0.39 -0.53) = 0.92 \mathop{\text{Bit}}
-\end{eqnarray}$$
-
-##### Mittlere Entropie nach Betrachtung von Attribut $A$
-
-$$    R(S, A) = \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)$$
-
--   Auswahl von Attribut $A$ partitioniert die Trainingsmenge: Je
-    Ausprägung $v$ von $A$ erhält man eine Submenge $S_v$
-
--   $R(S, A)$ berechnet die mittlere Entropie der Trainingsmenge,
-    nachdem Attribut $A$ ausgewählt wurde: Unsicherheit/nötige Bits nach
-    Auswahl von Attribut $A$
-
-##### Entropie der Trainingsmenge nach Attributwahl
-
-| Nr. | $x_1$ | $x_2$ | $x_3$ | $k$ |
-|:----|:------|:------|:------|:----|
-| 1   | 0     | 0     | 0     | A   |
-| 2   | 1     | 0     | 2     | A   |
-| 3   | 0     | 1     | 1     | A   |
-| 4   | 1     | 1     | 0     | B   |
-| 5   | 0     | 1     | 1     | B   |
-| 6   | 0     | 1     | 0     | A   |
-
--   Sei Attribut $x_1$ ausgewählt
--   $x_1$ partitioniert die Trainingsmenge
-    -   $x_1=0$ liefert $S_0 = \lbrace 1,3,5,6 \rbrace$
-    -   $x_1=1$ liefert $S_1 = \lbrace 2,4 \rbrace$
-    -   Häufigkeit für $x_1=0$: $4/6$
-    -   Häufigkeit für $x_1=1$: $2/6$
-    -   Gesamtzahl Beispiele: 6
-
-$$\begin{eqnarray}
-    R(S, A) &=& \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)\\
-         &=& 4/6 \cdot H(\lbrace 1,3,5,6 \rbrace) + 2/6 \cdot H(\lbrace 2,4 \rbrace)\\
-         &=& 4/6\cdot(-3/4 \cdot \log_2 3/4 - 1/4 \cdot \log_2 1/4) +\\
-         && 2/6\cdot(-1/2 \cdot \log_2 1/2 - 1/2 \cdot \log_2 1/2)\\
-         &=& 0.54 + 0.33 = 0.87 \mathop{\text{Bit}}
-\end{eqnarray}$$
-
-##### Ausblick: Gini Impurity
-
-Wir haben hier die
-[Entropie](https://en.wikipedia.org/wiki/Decision_tree_learning#Information_gain)
-als Maß für den Informationsgehalt einer Trainingsmenge genutzt.
-$R(S,A)$ als die mittlere Entropie nach Betrachtung von Attribut $A$
-wird von typischen Entscheidungsbaumverfahren wie ID3 und C4.5 genutzt,
-um bei einer Verzweigung das nächste möglichst aussagekräftige Merkmal
-auszuwählen.
-
-In anderen Entscheidungsbaumlernern wird stattdessen die [Gini
-Impurity](https://en.wikipedia.org/wiki/Decision_tree_learning#Gini_impurity)
-zur Bestimmung des Informationsgehalts eingesetzt (u.a. CART). Dieses
-Maß sagt aus, wie oft man ein zufällig gezogenes Element des Datensatzes
-falsch klassifizieren würde, wenn man es mit einer zufälligen Klasse
-basierend auf der Verteilung der Klassen im Datensatz labeln würde.
-
-Hierzu drei lesenswerte Blog-Einträge:
-
--   [Deep dive into the basics of Gini Impurity in Decision Trees with
-    math
-    Intuition](https://medium.com/poli-data/deep-dive-into-the-basics-of-gini-impurity-in-decision-trees-with-math-intuition-46c721d4aaec)
--   [Decision Trees,
-    Explained](https://towardsdatascience.com/decision-trees-explained-d7678c43a59e)
--   [Decision Tree Algorithm With Hands-On
-    Example](https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38)
-
-##### Wrap-Up
-
--   Begriff und Berechnung der Entropie: Maß für die Unsicherheit
--   Begriff und Berechnung des Informationsgewinns
-    -   Entropie für eine Trainingsmenge
-    -   Mittlere Entropie nach Wahl eines Attributs
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>📖 Zum Nachlesen</strong></summary>
->
-> -   Ertel ([2025](#ref-Ertel2025)): Entscheidungsbäume: Abschnitt 8.4
-> -   Russell und Norvig ([2021](#ref-Russell2021)): Entscheidungsbäume:
->     Abschnitt 19.3
-> -   Mitchell ([2010](#ref-Mitchell2010)): ID3: Kapitel 3
->
-> </details>
-
-> [!NOTE]
->
-> <details >
-> <summary><strong>✅ Lernziele</strong></summary>
->
-> -   k3: Ich kann für konkrete Beispiele die Entropie und den
->     Information Gain ausrechnen
->
-> </details>
-
-> [!TIP]
->
-> <details >
-> <summary><strong>🧩 Quizzes</strong></summary>
->
-> -   [Selbsttest Entropie
->     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106578&client_id=FH-Bielefeld)
->
-> </details>
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🏅 Challenges</strong></summary>
->
-> **Entropie einer Trainingsmenge**
->
-> Betrachten Sie die folgenden Aussagen:
->
-> > -   Patient A hat weder Husten noch Fieber und ist gesund.
-> > -   Patient B hat Husten, aber kein Fieber und ist gesund.
-> > -   Patient C hat keinen Husten, aber Fieber. Er ist krank.
-> > -   Patient D hat Husten und kein Fieber und ist krank.
-> > -   Patient E hat Husten und Fieber. Er ist krank.
->
-> Aufgaben:
->
-> 1.  Geben Sie die Entropie $H(S)$ der Trainingsmenge an.
-> 2.  Berechnen Sie $R(H,A)$ (die mittlere Entropie der Trainingsmenge,
->     nachdem Attribut $A$ gesehen wurde) für die einzelnen Attribute.
->
-> </details>
-
-<a id="id-0d69ce52eac18a7d932147cc42b20bcd98d267f3"></a>
-
-#### DTL: ID3 und C4.5
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> Der Entscheidungsbaum-Lernalgorithmus **ID3** nutzt den
-> Informationsgehalt für die Entscheidung bei der Attributwahl: Nimm das
-> Attribut, welches einen möglichst hohen Informationsgehalt hat. Oder
-> andersherum: Wähle das Attribut, bei dem die verbleibende mittlere
-> Entropie der Trainingsmenge nach der Wahl des Attributs am kleinsten
-> ist. Oder noch anders formuliert: Nimm das Attribut, bei dem die
-> Differenz zwischen der Entropie der Trainingsmenge (vor der Wahl des
-> Attributs) und der verbleibenden mittleren Entropie (nach der Wahl des
-> Attributs) am größten ist (die Differenz nennt man auch "*Information
-> Gain*"). Die Trainingsmenge wird entsprechend der Ausprägung in Bezug
-> auf das eben gewählte Merkmal aufgeteilt und an die Kinder des Knotens
-> weiter gereicht; dort wird der Baum rekursiv weiter aufgebaut.
->
-> Durch eine Normierung des *Information Gain* kann eine Verbesserung in
-> Bezug auf mehrwertige Attribute erreicht werden, dies führt zum
-> Algorithmus **C4.5**.
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> -   [VL ID3 und C4.5](https://youtu.be/Yo1cmeS6BK8)
->
-> </details>
-
-##### Wie Attribute wählen?
-
-Erinnerung: CAL2/CAL3
-
--   Zyklische Iteration durch die Trainingsmenge
--   Ausschließlich aktuelles Objekt betrachtet
--   Reihenfolge der "richtigen" Attributwahl bei Verzweigung unklar
-
-=\> Betrachte stattdessen die **komplette** Trainingsmenge!
-
-##### Erinnerung Entropie: Maß für die Unsicherheit
-
--   Entropie $H(S)$ der Trainingsmenge $S$: relative Häufigkeit der
-    Klassen zählen
-
--   Mittlere Entropie nach Betrachtung von Attribut $A$
-
-    $$    R(S, A) = \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)$$
-
-<!-- -->
-
--   Informationsgewinn durch Betrachtung von Attribut $A$
-
-    $$\begin{eqnarray}
-        \mathop{\text{Gain}}(S, A) &=& H(S) - R(S, A)\\[5pt]
-                                &=& H(S) - \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)
-    \end{eqnarray}$$
-
-$R(S,A)$ ist die Unsicherheit/nötige Bits nach Auswahl von Attribut A.
-Je kleiner $R(S,A)$, um so kleiner die **verbleibende Unsicherheit**
-bzw. um so kleiner die Anzahl der nötigen Bits zur Darstellung der
-partitionierten Trainingsmenge **nach** Betrachtung von Attribut $A$ ...
-
-=\> Je kleiner $R(S,A)$, um so größer der Informationsgewinn
-
-##### Informationsgewinn: Kriterium zur Auswahl von Attributen
-
-1)  Informationsgewinn für alle Attribute berechnen
-2)  Nehme Attribut mit größtem Informationsgewinn als nächsten Test
-
-| Nr. | $x_1$ | $x_2$ | $x_3$ | $k$ |
-|-----|-------|-------|-------|-----|
-| 1   | 0     | 0     | 0     | A   |
-| 2   | 1     | 0     | 2     | A   |
-| 3   | 0     | 1     | 1     | A   |
-| 4   | 1     | 1     | 0     | B   |
-| 5   | 0     | 1     | 1     | B   |
-| 6   | 0     | 1     | 0     | A   |
-
-$H(S) = 0.92 \mathop{\text{Bit}}$
-
-$$\begin{eqnarray}
-\mathop{\text{Gain}}(S, x_1) &=& 0.92 - 0.87 = 0.05 \mathop{\text{Bit}}\\
-\mathop{\text{Gain}}(S, x_2) &=& 0.92 - 2/6  \cdot 0 - 4/6 \cdot 1\\
-                             &=& 0.25 \mathop{\text{Bit}}\\
-\mathop{\text{Gain}}(S, x_3) &=& 0.92 - 3/6 \cdot 0.92 - 2/6 \cdot 1 - 1/6 \cdot 0\\
-                             &=& 0.13 \mathop{\text{Bit}}
-\end{eqnarray}$$
-
-Informationsgewinn für $x_2$ am höchsten =\> wähle $x_2$ als nächsten
-Test
-
-##### Entscheidungsbaumlerner ID3 (Quinlan, 1986)
-
-``` python
-def ID3(examples, attr, default):
-    # Abbruchbedingungen
-    if examples.isEmpty():  return default
-    if examples.each(class == A):  return A  # all examples have same class
-    if attr.isEmpty():  return examples.MajorityValue()
-
-    # Baum mit neuem Test erweitern
-    test = MaxInformationGain(examples, attr)
-    tree = new DecisionTree(test)
-    m = examples.MajorityValue()
-    for v_i in test:
-        ex_i = examples.select(test == v_i)
-        st = ID3(ex_i, attr - test, m)
-        tree.addBranch(label=v_i, subtree=st)
-    return tree
-```
-
-Russell und Norvig ([2021](#ref-Russell2021)): Man erhält aus dem
-"Learn-Decision-Tree"-Algorithmus ([Russell und Norvig 2021,
-678](#ref-Russell2021), Fig. 19.5) den hier vorgestellten
-ID3-Algorithmus, wenn man die Funktion
-$\mathop{\text{Importance}}(a, examples)$ als
-$\mathop{\text{InformationGain}}(examples, attr)$ implementiert/nutzt.
-
-**Hinweis**: Mit der Zeile `if examples.each(class == A):  return A`
-soll ausgedrückt werden, dass alle ankommenden Trainingsbeispiele die
-selbe Klasse haben und dass diese dann als Ergebnis zurückgeliefert
-wird. Das "`A`" steht im obigen Algorithmus nur symbolisch für die selbe
-Klasse! Es kann also auch ein anderes Klassensymbol als "`A`" sein ...
-
-###### Beispiel ID3
-
-| Nr. | $x_1$ | $x_2$ | $x_3$ | $k$ |
-|-----|-------|-------|-------|-----|
-| 1   | 0     | 0     | 0     | A   |
-| 2   | 1     | 0     | 2     | A   |
-| 3   | 0     | 1     | 1     | A   |
-| 4   | 1     | 1     | 0     | B   |
-| 5   | 0     | 1     | 1     | B   |
-| 6   | 0     | 1     | 0     | A   |
-
--   $x2$ höchsten Information Gain
--   $x2=0$ =\> Beispiele 1,2 =\> A
--   $x2=1$ =\> Beispiele 3,4,5,6 =\> Information Gain berechnen, weiter
-    teilen und verzweigen
-
-##### Beobachtung: $\mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
-
--   Faire Münze:
-    -   Entropie =
-        $H(\mathop{\text{Fair}}) = -(0.5 \log_2 0.5 + 0.5 \log_2 0.5) = 1 \mathop{\text{Bit}}$
-
-<!-- -->
-
--   4-seitiger Würfel:
-    -   Entropie =
-        $H(\mathop{\text{Dice}}) = -4\cdot(0.25 \log_2 0.25) = 2 \mathop{\text{Bit}}$
-
-=\> $\mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
-
-Damit würden Attribute bei der Wahl bevorzugt, nur weil sie mehr
-Ausprägungen haben als andere.
-
-*Anmerkung*: Im obigen Beispiel wurde einfach die Entropie für zwei
-"Attribute" mit unterschiedlich vielen Ausprägungen betrachtet, das ist
-natürlich kein $\mathop{\text{Gain}}(S, A)$. Aber es sollte deutlich
-machen, dass Merkmale mit mehr Ausprägungen bei der Berechnung des Gain
-für eine Trainingsmenge einfach wegen der größeren Anzahl an
-Ausprägungen rechnerisch bevorzugt würden.
-
-##### C4.5 als Verbesserung zu ID3
-
-Normierter Informationsgewinn:
-$\mathop{\text{Gain}}(S, A) \cdot \mathop{\text{Normalisation}}(A)$
-
-$$    \mathop{\text{Normalisation}}(A) = \frac{1}{
-        \sum_{v \in \mathop{\text{Values}}(A)} p_v \log_2 \frac{1}{p_v}
-    }$$
-
-C4.5 kann zusätzlich u.a. auch noch mit kontinuierlichen Attributen
-umgehen, vgl.
-[en.wikipedia.org/wiki/C4.5_algorithm](https://en.wikipedia.org/wiki/C4.5_algorithm).
-
-In einem [Paper](http://www.cs.umd.edu/~samir/498/10Algorithms-08.pdf)
-([DOI
-10.1007/s10115-007-0114-2](https://doi.org/10.1007/s10115-007-0114-2))
-wurde der Algorithmus zu den "Top 10 algorithms in data mining"
-ausgewählt.
-
-Im Wikipedia-Artikel [Information
-Gain](https://en.wikipedia.org/wiki/Decision_tree_learning#Information_gain)
-finden Sie weitere Informationen zum "Informationsgewinn" (*Information
-Gain*).
-
-Ein anderer, relativ ähnlich arbeitender Entscheidungsbaumlerner ist der
-[CART (Classification And Regression
-Tree)](https://en.wikipedia.org/wiki/Decision_tree_learning)-Algorithmus,
-wobei der Begriff "CART" allerdings oft auch einfach allgemein für
-"Entscheidungsbaumlerner" genutzt wird.
-
-Hierzu drei lesenswerte Blog-Einträge:
-
--   [Deep dive into the basics of Gini Impurity in Decision Trees with
-    math
-    Intuition](https://medium.com/poli-data/deep-dive-into-the-basics-of-gini-impurity-in-decision-trees-with-math-intuition-46c721d4aaec)
--   [Decision Trees,
-    Explained](https://towardsdatascience.com/decision-trees-explained-d7678c43a59e)
--   [Decision Tree Algorithm With Hands-On
-    Example](https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38)
-
-##### Beispiele zur Normierung bei C4.5
-
--   Faire Münze:
-    -   Entropie =
-        $H(\mathop{\text{Fair}}) = -(0.5 \log_2 0.5 + 0.5 \log_2 0.5) = 1 \mathop{\text{Bit}}$
-    -   Normierung:
-        $1/(0.5 \log_2 (1/0.5) + 0.5 \log_2 (1/0.5)) = 1/(0.5 \cdot 1 + 0.5 \cdot 1) = 1$
-    -   Normierter Informationsgewinn:
-        $\mathop{\text{Gain}}(S, A) \cdot \mathop{\text{Normalisation}}(A) = 1 \mathop{\text{Bit}} \cdot 1 = 1 \mathop{\text{Bit}}$
-
-<!-- -->
-
--   4-seitiger Würfel:
-    -   Entropie =
-        $H(\mathop{\text{Dice}}) = -4\cdot(0.25 \log_2 0.25) = 2 \mathop{\text{Bit}}$
-    -   Normierung:
-        $1/(4\cdot 0.25 \log_2 (1/0.25)) = 1/(4\cdot 0.25 \cdot 2) = 0.5$
-    -   Normierter Informationsgewinn:
-        $\mathop{\text{Gain}}(S, A) \cdot \mathop{\text{Normalisation}}(A) = 2 \mathop{\text{Bit}} \cdot 0.5 = 1 \mathop{\text{Bit}}$
-
-=\> Normierung sorgt für fairen Vergleich der Attribute
-
-*Anmerkung*: Auch hier ist die Entropie natürlich kein
-$\mathop{\text{Gain}}(S, A)$. Das Beispiel soll nur übersichtlich
-deutlich machen, dass der "Vorteil" von Attributen mit mehr Ausprägungen
-durch die Normierung in C4.5 aufgehoben wird.
-
-##### Wrap-Up
-
--   Entscheidungsbaumlerner **ID3**
-    -   Nutze *Information Gain* zur Auswahl des nächsten Attributs
-    -   Teile die Trainingsmenge entsprechend auf ("nach unten hin")
--   Verbesserung durch Normierung des *Information Gain*: **C4.5**
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>📖 Zum Nachlesen</strong></summary>
->
-> -   Ertel ([2025](#ref-Ertel2025)): Entscheidungsbäume: Abschnitt 8.4
-> -   Russell und Norvig ([2021](#ref-Russell2021)): Entscheidungsbäume:
->     Abschnitt 19.3
-> -   Mitchell ([2010](#ref-Mitchell2010)): ID3: Kapitel 3
->
-> </details>
-
-> [!NOTE]
->
-> <details >
-> <summary><strong>✅ Lernziele</strong></summary>
->
-> -   k3: Ich kann die Entscheidungsbaumalgorithmen ID3 und C4.5 auf
->     konkrete Daten anwenden.
->
-> </details>
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🏅 Challenges</strong></summary>
->
-> **Games: Behaviour Trees**
->
-> In einem Dungeon-Crawler wurden über mehrere Spiele Daten für die
-> Aktionen eines Monsters aufgezeichnet:
->
-> | Nr. | Distanz | HP      | Mana   | Aktion    |
-> |:----|:--------|:--------|:-------|:----------|
-> | 01  | nah     | niedrig | genug  | heilen    |
-> | 02  | fern    | niedrig | gering | fliehen   |
-> | 03  | nah     | hoch    | gering | angreifen |
-> | 04  | nah     | hoch    | genug  | angreifen |
-> | 05  | mittel  | mittel  | genug  | angreifen |
-> | 06  | fern    | mittel  | gering | fliehen   |
->
-> Trainieren Sie mit diesen Daten einen Entscheidungsbaum als *Behaviour
-> Tree* für das Monster, so dass es in einer konkreten Spielsituation
-> von nun an die optimale Entscheidung treffen kann. Nutzen Sie dafür
-> ID3.
->
-> **Textklassifikation**
->
-> Betrachten Sie die folgenden Aussagen:
->
-> > -   Patient A hat weder Husten noch Fieber und ist gesund.
-> > -   Patient B hat Husten, aber kein Fieber und ist gesund.
-> > -   Patient C hat keinen Husten, aber Fieber. Er ist krank.
-> > -   Patient D hat Husten und kein Fieber und ist krank.
-> > -   Patient E hat Husten und Fieber. Er ist krank.
->
-> Aufgaben:
->
-> 1.  Trainieren Sie auf diesem Datensatz einen Klassifikator mit ID3.
-> 2.  Ist Patient F krank? Er hat Husten, aber kein Fieber.
->
-> </details>
-
 <a id="id-be10acd16e60062cc9d59ad47fc4866f9624b198"></a>
 
 ### NN: Einführung in Neuronale Netze
@@ -8630,103 +8902,6 @@ $$-4 + x_1^2 + x_2^2 = 0.$$
 >
 > </details>
 
-<a id="id-ff282a3dce4dd000d38f923a472a928c94b93436"></a>
-
-#### NN04: Overfitting und Regularisierung
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> -   [NN4.1 - Nichtlineare Modelle](https://youtu.be/KJLT-h_ChRo)
-> -   [NN4.2 - Overfitting und
->     Regularisierung](https://youtu.be/BW91MYPUH_k)
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
->
-> -   [NN04-Nichtlineare_Modelle_und_Overfitting.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN04-Nichtlineare_Modelle_und_Overfitting.pdf)
->
-> </details>
-
-##### Kurze Übersicht
-
-###### Nichtlineare Modelle
-
--   Einführung von neuen Merkmalen in Form von nichtlienaren
-    Kombinationen der ursprünglichen Merkmale
--   Erhöhung der Komplexität des Modells ermöglicht das Erfassen von
-    nichtlinearen Beziehungen
--   **Bemerkung**: Die Hypothesenfunktion bleibt linear in den
-    Gewichten, es wird weiterhin logistische Regression in einem
-    **erweiterten** Merkmalraum durchgeführt.
-
-###### Überanpassung und Regularisierung
-
--   Die **Überanpassung** (engl. Overfitting) ist eines der häufigsten
-    und wichtigsten Probleme in ML und DL
-
-    > "Was im Bereich des maschinellen Lernens Professionelle von
-    > Amateuren unterscheidet, ist ihre Fähigkeit mit Überanpassung
-    > umzugehen."
-    >
-    > -- Quelle: ([Abu-Mostafa u. a. 2012, 119](#ref-AbuMostafa2012))
-
--   Anzeichen von Überanpassung sind geringe Trainingskosten und hohe
-    **Testkosten** (Kosten auf nicht-gesehenen Daten).
-
--   Regularisierung ist eine Maßnahme gegen Überanpassung. Man kann es
-    sich als eine Reduktion in der Komplexität des Modells vorstellen.
-
--   Der Regularisierungsparameter $\lambda$ ist ein Hyperparameter. Je
-    größer der $\lambda$-Wert, desto größer der Regularisierungseffekt.
-
--   Die **Kostenfunktion** bei regulariserter logistischer Regression:
-    $$J = \frac{1}{m} \left\lbrack \sum_{i=1}^m \left( -y^{[i]}log(a^{[i]})-(1-y^{[i]})log(1-a^{[i]}) \right) + \frac{\lambda}{2} \sum_{j=1}^n (w^2_j)  \right\rbrack \tag{1}$$
-
--   Die **Gewichtsaktualisierung** mit Regularisierungsterm:
-    $$w_j := w_j - \frac{\alpha}{m} \left\lbrack \sum_{i=1}^m \left( ( a^{[i]} - y^{[i]} )x_j^{[i]} \right) + \lambda w_j  \right\rbrack \tag{2}$$
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>📖 Zum Nachlesen</strong></summary>
->
-> -   Abu-Mostafa u. a. ([2012](#ref-AbuMostafa2012)): Kapitel 4
->
-> </details>
-
-> [!NOTE]
->
-> <details >
-> <summary><strong>✅ Lernziele</strong></summary>
->
-> -   k2: Ich kann die Erhöhung der Modell-Komplexität durch Einführung
->     von Merkmalen höherer Ordnung erklären
-> -   k2: Ich kann die Begriffe Unter- und Überanpassung an einem
->     Beispiel erklären
-> -   k2: Ich kann den Begriff Regularisierung erklären und die
->     Auswirkung auf die Gewichte und das Modell erläutern
-> -   k3: Ich kann den Gradientenabstieg für regularisierte logistische
->     Regression an einem Beispiel anwenden
->
-> </details>
-
-> [!TIP]
->
-> <details >
-> <summary><strong>🧩 Quizzes</strong></summary>
->
-> -   [Selbsttest Overfitting
->     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106595&client_id=FH-Bielefeld)
->
-> </details>
-
 <a id="id-94eb0e9e9c19bba8118b63b08886a14024a2acf3"></a>
 
 #### NN05: Multilayer Perzeptron
@@ -8921,6 +9096,103 @@ $$-4 + x_1^2 + x_2^2 = 0.$$
 >
 > -   [Selbsttest Backpropagation
 >     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106593&client_id=FH-Bielefeld)
+>
+> </details>
+
+<a id="id-ff282a3dce4dd000d38f923a472a928c94b93436"></a>
+
+#### NN04: Overfitting und Regularisierung
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> -   [NN4.1 - Nichtlineare Modelle](https://youtu.be/KJLT-h_ChRo)
+> -   [NN4.2 - Overfitting und
+>     Regularisierung](https://youtu.be/BW91MYPUH_k)
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
+>
+> -   [NN04-Nichtlineare_Modelle_und_Overfitting.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN04-Nichtlineare_Modelle_und_Overfitting.pdf)
+>
+> </details>
+
+##### Kurze Übersicht
+
+###### Nichtlineare Modelle
+
+-   Einführung von neuen Merkmalen in Form von nichtlienaren
+    Kombinationen der ursprünglichen Merkmale
+-   Erhöhung der Komplexität des Modells ermöglicht das Erfassen von
+    nichtlinearen Beziehungen
+-   **Bemerkung**: Die Hypothesenfunktion bleibt linear in den
+    Gewichten, es wird weiterhin logistische Regression in einem
+    **erweiterten** Merkmalraum durchgeführt.
+
+###### Überanpassung und Regularisierung
+
+-   Die **Überanpassung** (engl. Overfitting) ist eines der häufigsten
+    und wichtigsten Probleme in ML und DL
+
+    > "Was im Bereich des maschinellen Lernens Professionelle von
+    > Amateuren unterscheidet, ist ihre Fähigkeit mit Überanpassung
+    > umzugehen."
+    >
+    > -- Quelle: ([Abu-Mostafa u. a. 2012, 119](#ref-AbuMostafa2012))
+
+-   Anzeichen von Überanpassung sind geringe Trainingskosten und hohe
+    **Testkosten** (Kosten auf nicht-gesehenen Daten).
+
+-   Regularisierung ist eine Maßnahme gegen Überanpassung. Man kann es
+    sich als eine Reduktion in der Komplexität des Modells vorstellen.
+
+-   Der Regularisierungsparameter $\lambda$ ist ein Hyperparameter. Je
+    größer der $\lambda$-Wert, desto größer der Regularisierungseffekt.
+
+-   Die **Kostenfunktion** bei regulariserter logistischer Regression:
+    $$J = \frac{1}{m} \left\lbrack \sum_{i=1}^m \left( -y^{[i]}log(a^{[i]})-(1-y^{[i]})log(1-a^{[i]}) \right) + \frac{\lambda}{2} \sum_{j=1}^n (w^2_j)  \right\rbrack \tag{1}$$
+
+-   Die **Gewichtsaktualisierung** mit Regularisierungsterm:
+    $$w_j := w_j - \frac{\alpha}{m} \left\lbrack \sum_{i=1}^m \left( ( a^{[i]} - y^{[i]} )x_j^{[i]} \right) + \lambda w_j  \right\rbrack \tag{2}$$
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>📖 Zum Nachlesen</strong></summary>
+>
+> -   Abu-Mostafa u. a. ([2012](#ref-AbuMostafa2012)): Kapitel 4
+>
+> </details>
+
+> [!NOTE]
+>
+> <details >
+> <summary><strong>✅ Lernziele</strong></summary>
+>
+> -   k2: Ich kann die Erhöhung der Modell-Komplexität durch Einführung
+>     von Merkmalen höherer Ordnung erklären
+> -   k2: Ich kann die Begriffe Unter- und Überanpassung an einem
+>     Beispiel erklären
+> -   k2: Ich kann den Begriff Regularisierung erklären und die
+>     Auswirkung auf die Gewichte und das Modell erläutern
+> -   k3: Ich kann den Gradientenabstieg für regularisierte logistische
+>     Regression an einem Beispiel anwenden
+>
+> </details>
+
+> [!TIP]
+>
+> <details >
+> <summary><strong>🧩 Quizzes</strong></summary>
+>
+> -   [Selbsttest Overfitting
+>     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106595&client_id=FH-Bielefeld)
 >
 > </details>
 
@@ -9261,6 +9533,88 @@ $$-4 + x_1^2 + x_2^2 = 0.$$
 >
 > </details>
 
+<a id="id-b7c0eaa966d621b48f4aad030987c3ad044a068e"></a>
+
+#### NN11: RNN
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> -   [NN11.1 - TODO](https://youtu.be/TODO)
+> -   [NN11.2 - TODO](https://youtu.be/TODO)
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
+>
+> -   [NN11-CNN.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN11-RNN.pdf)
+>
+> </details>
+
+##### Kurze Übersicht
+
+###### TODO
+
+TODO
+
+> [!NOTE]
+>
+> <details >
+> <summary><strong>✅ Lernziele</strong></summary>
+>
+> -   k2: TODO
+> -   k2: TODO
+> -   k3: TODO
+> -   k3: TODO
+>
+> </details>
+
+<a id="id-b6039456bfad164cdf98bf9de67b222fea5701d1"></a>
+
+#### NN12: Transformer
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> -   [NN12.1 - TODO](https://youtu.be/TODO)
+> -   [NN12.2 - TODO](https://youtu.be/TODO)
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
+>
+> -   [NN12-CNN.pdf](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/nn/files/NN12-Transformer.pdf)
+>
+> </details>
+
+##### Kurze Übersicht
+
+###### TODO
+
+TODO
+
+> [!NOTE]
+>
+> <details >
+> <summary><strong>✅ Lernziele</strong></summary>
+>
+> -   k2: TODO
+> -   k2: TODO
+> -   k3: TODO
+> -   k3: TODO
+>
+> </details>
+
 <a id="id-a264d337dcfeece8936f208b6f89bb1efe99ea0f"></a>
 
 ## Praktikum/Übung
@@ -9456,6 +9810,205 @@ eine Testmenge auf und trainieren Sie den Naive Bayes Klassifikator. Wie
 sieht ihr Klassifikator aus, was sind die wichtigsten Begriffe jeweils
 für die Klasse `spam` bzw. `ham`? Bewerten Sie das Testergebnis.
 
+<a id="id-4a134eae1417a20b6726b2fdc2b1dfd28a683e29"></a>
+
+### Übungsblatt: Entscheidungsbäume (Decision Tree Learner DTL)
+
+#### Bonus: Starke vs. Schwache KI (2P)
+
+Recherchieren Sie und diskutieren Sie folgende Punkte:
+
+-   Ist ein System wie ChatGPT "intelligent"? Was ist der Kern des
+    Systems?
+-   Gibt es Systeme, die intelligent sind? Was tun diese, wie arbeiten
+    sie?
+-   Brauchen wir wirklich Intelligenz in Systemen? Reicht auch schwache
+    KI, d.h. reichen intelligent *wirkende* Systeme?
+-   Absicht vs. Auswirkung: vorteilhafte Anwendungen vs. Unfälle
+    (Robustheit und falsche Korrelationen, Fairness, Sicherheit)
+    vs. Missbrauch (Spam, Betrug, Spear-Phishing, Desinformation)
+    vs. doppelte Verwendung ("*dual use*": Raketen, Kernkraft,
+    Genbearbeitung, ...) vs. *Bias* (Voreingenommenheit)
+
+*Thema*: Schwache vs. starke KI, Auswirkungen und Nutzen
+
+#### DTL.01: Entscheidungsbäume mit CAL3 und ID3 (6P)
+
+Es ist wieder Wahlkampf: Zwei Kandidaten O und M bewerben sich um die
+Kanzlerschaft. Die folgende Tabelle zeigt die Präferenzen von sieben
+Wählern.
+
+| Nr. | Alter    | Einkommen | Bildung  | Kandidat |
+|:----|:---------|:----------|:---------|:---------|
+| 1   | $\ge 35$ | hoch      | Abitur   | O        |
+| 2   | $< 35$   | niedrig   | Master   | O        |
+| 3   | $\ge 35$ | hoch      | Bachelor | M        |
+| 4   | $\ge 35$ | niedrig   | Abitur   | M        |
+| 5   | $\ge 35$ | hoch      | Master   | O        |
+| 6   | $< 35$   | hoch      | Bachelor | O        |
+| 7   | $< 35$   | niedrig   | Abitur   | M        |
+
+Trainieren Sie nacheinander mit den Verfahren CAL3 (3P) und ID3 (3P) auf
+der obigen Trainingsmenge je einen Entscheidungsbaum. Nutzen Sie für
+CAL3 dabei die Schwellen $S_1=4$ und $S_2=0.7$.
+
+Sie können dafür eine Handsimulation anwenden oder die Algorithmen
+implementieren. Sie können gern auch die Java-Klassen im Paket
+[`aima.core.learning`](https://github.com/aimacode/aima-java/blob/AIMA3e/aima-core/src/main/java/aima/core/learning/learners/DecisionTreeLearner.java)
+bzw. die Python-Klassen in
+[`learning.py`](https://github.com/aimacode/aima-python/blob/master/learning.py)
+als Ausgangspunkt nutzen.[^7]
+
+#### DTL.02: Pruning (1P)
+
+Vereinfachen Sie schrittweise den Baum
+
+$$x_3(x_2(x_1(C,A), x_1(B,A)), x_1(x_2(C,B), A))$$
+
+so weit wie möglich.
+
+Nutzen Sie die linearisierte Schreibweise. Geben Sie die jeweils
+verwendete Regel an.
+
+*Thema*: Anwendung der Transformations- und Pruning-Regeln
+
+#### DTL.03: Machine Learning mit Weka (3P)
+
+Weka
+([waikato.github.io/weka-wiki/](https://waikato.github.io/weka-wiki/))
+ist eine beliebte Sammlung von (in Java implementierten) Algorithmen aus
+dem Bereich des Maschinellen Lernens. Laden Sie sich das Tool in der
+aktuellen stabilen Version herunter und machen Sie sich mit der
+beiliegenden Dokumentation vertraut.
+
+Laden Sie sich die Beispieldatensätze "Zoo" (`zoo.csv`) und "Restaurant"
+(`restaurant.csv`) aus dem AIMA-Repository
+([github.com/aimacode/aima-data](https://github.com/aimacode/aima-data))
+herunter.[^8] Zum Laden der Beispieldatensätze in Weka müssen die
+`.csv`-Dateien eine Kopfzeile mit den Namen der Attribute haben. Passen
+Sie die Dateien entsprechend an und laden Sie diese im Reiter
+"Pre-Process" mit "Open file ...".
+
+*Hinweis*: Wenn Sie *Weka 3.6* einsetzen, sind alle für dieses Blatt
+erforderlichen Algorithmen bereits vorhanden. In neueren Versionen
+müssen Sie in der Weka-Haupt-GUI den Paketmanager unter "Tools" starten
+und dort nach einem Paket suchen, welches ID3 enthält, und dieses Paket
+nachinstallieren.
+
+1.  Training mit J48 (1P)
+
+    Wechseln Sie auf den Reiter "Classify" und wählen Sie mit dem Button
+    "Choose" den Entscheidungsbaum-Lerner J48 aus. (Dies ist eine
+    Java-Implementierung von C4.5. Die ID3-Implementierung funktioniert
+    für den `zoo.csv`-Datensatz leider nicht ...)
+
+    Lernen Sie für die beiden Datensätze je einen Entscheidungsbaum. Wie
+    sehen die Bäume aus? Wie hoch ist jeweils die Fehlerrate für den
+    Trainingssatz? (Stellen Sie unter "Test options" den Haken auf "Use
+    training set".) Interpretieren Sie die **Confusion Matrix**.
+
+2.  ARFF-Format (1P)
+
+    Lesen Sie in der beiliegenden Doku zum Thema "ARFF" nach. Dabei
+    handelt es sich um ein spezielles Datenformat, womit man Weka
+    mitteilen kann, welche Attribute es gibt und welchen Typ diese haben
+    und welche Werte auftreten dürfen.
+    ([Link](https://waikato.github.io/weka-wiki/formats_and_processing/arff/))
+
+    Erklären Sie die Unterschiede zwischen "nominal", "ordinal" (bzw.
+    "numeric") und "string".
+
+    Konvertieren Sie den Zoo- und Restaurantdatensatz in das
+    ARFF-Format. Beachten Sie, dass die ID3-Implementierung von Weka
+    nicht mit bestimmten Attributtypen umgehen kann.
+
+3.  Training mit ID3 und J48 (1P)
+
+    Trainieren Sie für die im letzten Schritt erstellten Datensätze (Zoo
+    und Restaurant) im ARFF-Format erneut Entscheidungsbäume. Nutzen Sie
+    diesmal sowohl ID3 als auch J48.
+
+    Vergleichen Sie wieder die Ergebnisse (Entscheidungsbäume,
+    Fehlerraten, Confusion Matrix) untereinander und mit den Ergebnissen
+    aus dem J48-Lauf mit den `.csv`-Dateien.
+
+*Thema*: Kennenlernen von Weka
+
+<a id="id-cb2cf09f6031a168fc7c9094c3ee2d9df377e9f0"></a>
+
+### Übungsblatt: Lokale Suche, GA
+
+#### Bonus: ChatGPT Taboo (2P)
+
+Spielen Sie [Tabu](https://en.wikipedia.org/wiki/Taboo_(game)) mit Ihrem
+Lieblings-Chatbot und bringen Sie den Bot dazu, ein bestimmtes Wort oder
+einen Satz zu sagen. Sie haben dabei eine Liste mit Wörtern, die Sie
+nicht verwenden dürfen.
+
+Geben Sie einen Bericht darüber ab, was Sie versucht haben, wie
+leicht/schwer es war und eine vollständige Historie des "Gesprächs".
+(Grenze: nicht länger als 30 Minuten, nicht mehr als 5 Seiten)
+
+*Thema*: Interaktion mit Chatbots
+
+#### EA.01: Modellierung von GA (2P)
+
+Betrachten Sie das 8-Queens-Problem sowie das Landkarten-Färbeproblem
+(aus Vorlesung [CSP:
+Intro](#id-84f051404cae6b3a63ddc230ad80cb495047845f)). Starten Sie beim
+Färbeproblem mit fünf verschiedenen Farben, Ziel sollte eine
+konfliktfreie Einfärbung mit einer minimalen Anzahl an Farben sein.
+
+Geben Sie für beide Probleme je eine geeignete **Kodierung** der
+Individuen, passende Operatoren (**Crossover**, **Mutation**) und eine
+geeignete **Fitnessfunktion** an, damit die Probleme mit einem GA gelöst
+werden können. Begründen Sie Ihre Wahl!
+
+Was würden Sie noch benötigen, um die obigen Probleme jeweils mit
+Simulated Annealing lösen zu können?
+
+*Thema*: Modellierung für GA und Gradientensuche
+
+#### EA.02: Implementierung (5P)
+
+Implementieren Sie den in der Vorlesung besprochenen GA und wenden Sie
+den Algorithmus nacheinander auf beide Probleme an. Sie können gern auch
+die Java-Klassen im Paket
+[`aima.core.search.local`](https://github.com/aimacode/aima-java/tree/AIMA3e/aima-core/src/main/java/aima/core/search/local)
+bzw. die Python-Klassen in
+[`search.py`](https://github.com/aimacode/aima-python/blob/master/search.py)
+als Ausgangspunkt nutzen.[^9]
+
+Untersuchen Sie **systematisch** unterschiedliche
+Varianten/Einstellungen der in der VL vorgestellten Operatoren. Führen
+Sie pro Einstellung jeweils mind. 100 Läufe durch und messen Sie die
+besprochenen Kennzahlen.
+
+Erstellen Sie eine geeignete (systematische!) Auswertung Ihrer
+Experimente.
+
+#### EA.03: Anwendungen (3P)
+
+1.  Analysieren Sie die Implementierung von [Randal Olson "Here's Waldo:
+    Computing the optimal search strategy for finding
+    Waldo"](http://www.randalolson.com/2015/02/03/heres-waldo-computing-the-optimal-search-strategy-for-finding-waldo/)
+    ([Direktlink](https://github.com/rhiever/Data-Analysis-and-Machine-Learning-Projects)).
+2.  Schauen Sie sich nun den ["Evolution
+    Simulator"](https://www.openprocessing.org/sketch/205807) an. Wie
+    ist dort die Modellierung erfolgt (Kodierung, Operatoren,
+    Fitnessfunktion)?
+3.  Wie werden EA/GA konkret im ["american fuzzy
+    lop"](https://lcamtuf.coredump.cx/afl/) eingesetzt?
+
+Welche Fitnessfunktion wurden in den drei Beispielen jeweils genutzt,
+wie die Individuen und die Operatoren codiert?
+
+Recherchieren Sie, in welchen *anderen* Anwendungen Evolutionäre
+Algorithmen eingesetzt werden. Erklären Sie kurz, wie und wofür die
+EA/GA jeweils genutzt werden.
+
+*Thema*: Analyse von GA-Implementierungen
+
 <a id="id-ab3ff3658bdafaf1ee5c17c11ffae098b587c048"></a>
 
 ### Übungsblatt: Problemlösen, Suche
@@ -9536,7 +10089,7 @@ Domain](https://en.wikipedia.org/wiki/en:public_domain))
     [`aima.core.search`](https://github.com/aimacode/aima-java/tree/AIMA3e/aima-core/src/main/java/aima/core/search)
     bzw. die Python-Klassen in
     [`search.py`](https://github.com/aimacode/aima-python/blob/master/search.py)
-    als Ausgangspunkt nutzen.[^7]
+    als Ausgangspunkt nutzen.[^10]
 
 2.  Dürfen die oben gegebenen Restkostenabschätzungen in A\* verwendet
     werden? (1P)
@@ -9571,81 +10124,6 @@ Beweisen Sie, dass A\* in der Tree-Search-Variante bei Nutzung einer
 zulässigen Heuristik optimal ist.
 
 *Thema*: Bedeutung einer zulässigen Heuristik (Selbststudium)
-
-<a id="id-cb2cf09f6031a168fc7c9094c3ee2d9df377e9f0"></a>
-
-### Übungsblatt: Lokale Suche, GA
-
-#### Bonus: ChatGPT Taboo (2P)
-
-Spielen Sie [Tabu](https://en.wikipedia.org/wiki/Taboo_(game)) mit Ihrem
-Lieblings-Chatbot und bringen Sie den Bot dazu, ein bestimmtes Wort oder
-einen Satz zu sagen. Sie haben dabei eine Liste mit Wörtern, die Sie
-nicht verwenden dürfen.
-
-Geben Sie einen Bericht darüber ab, was Sie versucht haben, wie
-leicht/schwer es war und eine vollständige Historie des "Gesprächs".
-(Grenze: nicht länger als 30 Minuten, nicht mehr als 5 Seiten)
-
-*Thema*: Interaktion mit Chatbots
-
-#### EA.01: Modellierung von GA (2P)
-
-Betrachten Sie das 8-Queens-Problem sowie das Landkarten-Färbeproblem
-(aus Vorlesung [CSP:
-Intro](#id-84f051404cae6b3a63ddc230ad80cb495047845f)). Starten Sie beim
-Färbeproblem mit fünf verschiedenen Farben, Ziel sollte eine
-konfliktfreie Einfärbung mit einer minimalen Anzahl an Farben sein.
-
-Geben Sie für beide Probleme je eine geeignete **Kodierung** der
-Individuen, passende Operatoren (**Crossover**, **Mutation**) und eine
-geeignete **Fitnessfunktion** an, damit die Probleme mit einem GA gelöst
-werden können. Begründen Sie Ihre Wahl!
-
-Was würden Sie noch benötigen, um die obigen Probleme jeweils mit
-Simulated Annealing lösen zu können?
-
-*Thema*: Modellierung für GA und Gradientensuche
-
-#### EA.02: Implementierung (5P)
-
-Implementieren Sie den in der Vorlesung besprochenen GA und wenden Sie
-den Algorithmus nacheinander auf beide Probleme an. Sie können gern auch
-die Java-Klassen im Paket
-[`aima.core.search.local`](https://github.com/aimacode/aima-java/tree/AIMA3e/aima-core/src/main/java/aima/core/search/local)
-bzw. die Python-Klassen in
-[`search.py`](https://github.com/aimacode/aima-python/blob/master/search.py)
-als Ausgangspunkt nutzen.[^8]
-
-Untersuchen Sie **systematisch** unterschiedliche
-Varianten/Einstellungen der in der VL vorgestellten Operatoren. Führen
-Sie pro Einstellung jeweils mind. 100 Läufe durch und messen Sie die
-besprochenen Kennzahlen.
-
-Erstellen Sie eine geeignete (systematische!) Auswertung Ihrer
-Experimente.
-
-#### EA.03: Anwendungen (3P)
-
-1.  Analysieren Sie die Implementierung von [Randal Olson "Here's Waldo:
-    Computing the optimal search strategy for finding
-    Waldo"](http://www.randalolson.com/2015/02/03/heres-waldo-computing-the-optimal-search-strategy-for-finding-waldo/)
-    ([Direktlink](https://github.com/rhiever/Data-Analysis-and-Machine-Learning-Projects)).
-2.  Schauen Sie sich nun den ["Evolution
-    Simulator"](https://www.openprocessing.org/sketch/205807) an. Wie
-    ist dort die Modellierung erfolgt (Kodierung, Operatoren,
-    Fitnessfunktion)?
-3.  Wie werden EA/GA konkret im ["american fuzzy
-    lop"](https://lcamtuf.coredump.cx/afl/) eingesetzt?
-
-Welche Fitnessfunktion wurden in den drei Beispielen jeweils genutzt,
-wie die Individuen und die Operatoren codiert?
-
-Recherchieren Sie, in welchen *anderen* Anwendungen Evolutionäre
-Algorithmen eingesetzt werden. Erklären Sie kurz, wie und wofür die
-EA/GA jeweils genutzt werden.
-
-*Thema*: Analyse von GA-Implementierungen
 
 <a id="id-999c549c4e5cc5a8e810d1e55e7b21a1e3c85906"></a>
 
@@ -9744,130 +10222,6 @@ Vervollständigen Sie den Spielbaum, indem Sie alle inneren Knoten und
 den Wurzelknoten mit den entsprechenden Wert-Tripeln annotieren.
 
 *Thema*: Minimax generalisiert für mehrere Spieler
-
-<a id="id-4a134eae1417a20b6726b2fdc2b1dfd28a683e29"></a>
-
-### Übungsblatt: Entscheidungsbäume (Decision Tree Learner DTL)
-
-#### Bonus: Starke vs. Schwache KI (2P)
-
-Recherchieren Sie und diskutieren Sie folgende Punkte:
-
--   Ist ein System wie ChatGPT "intelligent"? Was ist der Kern des
-    Systems?
--   Gibt es Systeme, die intelligent sind? Was tun diese, wie arbeiten
-    sie?
--   Brauchen wir wirklich Intelligenz in Systemen? Reicht auch schwache
-    KI, d.h. reichen intelligent *wirkende* Systeme?
--   Absicht vs. Auswirkung: vorteilhafte Anwendungen vs. Unfälle
-    (Robustheit und falsche Korrelationen, Fairness, Sicherheit)
-    vs. Missbrauch (Spam, Betrug, Spear-Phishing, Desinformation)
-    vs. doppelte Verwendung ("*dual use*": Raketen, Kernkraft,
-    Genbearbeitung, ...) vs. *Bias* (Voreingenommenheit)
-
-*Thema*: Schwache vs. starke KI, Auswirkungen und Nutzen
-
-#### DTL.01: Entscheidungsbäume mit CAL3 und ID3 (6P)
-
-Es ist wieder Wahlkampf: Zwei Kandidaten O und M bewerben sich um die
-Kanzlerschaft. Die folgende Tabelle zeigt die Präferenzen von sieben
-Wählern.
-
-| Nr. | Alter    | Einkommen | Bildung  | Kandidat |
-|:----|:---------|:----------|:---------|:---------|
-| 1   | $\ge 35$ | hoch      | Abitur   | O        |
-| 2   | $< 35$   | niedrig   | Master   | O        |
-| 3   | $\ge 35$ | hoch      | Bachelor | M        |
-| 4   | $\ge 35$ | niedrig   | Abitur   | M        |
-| 5   | $\ge 35$ | hoch      | Master   | O        |
-| 6   | $< 35$   | hoch      | Bachelor | O        |
-| 7   | $< 35$   | niedrig   | Abitur   | M        |
-
-Trainieren Sie nacheinander mit den Verfahren CAL3 (3P) und ID3 (3P) auf
-der obigen Trainingsmenge je einen Entscheidungsbaum. Nutzen Sie für
-CAL3 dabei die Schwellen $S_1=4$ und $S_2=0.7$.
-
-Sie können dafür eine Handsimulation anwenden oder die Algorithmen
-implementieren. Sie können gern auch die Java-Klassen im Paket
-[`aima.core.learning`](https://github.com/aimacode/aima-java/blob/AIMA3e/aima-core/src/main/java/aima/core/learning/learners/DecisionTreeLearner.java)
-bzw. die Python-Klassen in
-[`learning.py`](https://github.com/aimacode/aima-python/blob/master/learning.py)
-als Ausgangspunkt nutzen.[^9]
-
-#### DTL.02: Pruning (1P)
-
-Vereinfachen Sie schrittweise den Baum
-
-$$x_3(x_2(x_1(C,A), x_1(B,A)), x_1(x_2(C,B), A))$$
-
-so weit wie möglich.
-
-Nutzen Sie die linearisierte Schreibweise. Geben Sie die jeweils
-verwendete Regel an.
-
-*Thema*: Anwendung der Transformations- und Pruning-Regeln
-
-#### DTL.03: Machine Learning mit Weka (3P)
-
-Weka
-([waikato.github.io/weka-wiki/](https://waikato.github.io/weka-wiki/))
-ist eine beliebte Sammlung von (in Java implementierten) Algorithmen aus
-dem Bereich des Maschinellen Lernens. Laden Sie sich das Tool in der
-aktuellen stabilen Version herunter und machen Sie sich mit der
-beiliegenden Dokumentation vertraut.
-
-Laden Sie sich die Beispieldatensätze "Zoo" (`zoo.csv`) und "Restaurant"
-(`restaurant.csv`) aus dem AIMA-Repository
-([github.com/aimacode/aima-data](https://github.com/aimacode/aima-data))
-herunter.[^10] Zum Laden der Beispieldatensätze in Weka müssen die
-`.csv`-Dateien eine Kopfzeile mit den Namen der Attribute haben. Passen
-Sie die Dateien entsprechend an und laden Sie diese im Reiter
-"Pre-Process" mit "Open file ...".
-
-*Hinweis*: Wenn Sie *Weka 3.6* einsetzen, sind alle für dieses Blatt
-erforderlichen Algorithmen bereits vorhanden. In neueren Versionen
-müssen Sie in der Weka-Haupt-GUI den Paketmanager unter "Tools" starten
-und dort nach einem Paket suchen, welches ID3 enthält, und dieses Paket
-nachinstallieren.
-
-1.  Training mit J48 (1P)
-
-    Wechseln Sie auf den Reiter "Classify" und wählen Sie mit dem Button
-    "Choose" den Entscheidungsbaum-Lerner J48 aus. (Dies ist eine
-    Java-Implementierung von C4.5. Die ID3-Implementierung funktioniert
-    für den `zoo.csv`-Datensatz leider nicht ...)
-
-    Lernen Sie für die beiden Datensätze je einen Entscheidungsbaum. Wie
-    sehen die Bäume aus? Wie hoch ist jeweils die Fehlerrate für den
-    Trainingssatz? (Stellen Sie unter "Test options" den Haken auf "Use
-    training set".) Interpretieren Sie die **Confusion Matrix**.
-
-2.  ARFF-Format (1P)
-
-    Lesen Sie in der beiliegenden Doku zum Thema "ARFF" nach. Dabei
-    handelt es sich um ein spezielles Datenformat, womit man Weka
-    mitteilen kann, welche Attribute es gibt und welchen Typ diese haben
-    und welche Werte auftreten dürfen.
-    ([Link](https://waikato.github.io/weka-wiki/formats_and_processing/arff/))
-
-    Erklären Sie die Unterschiede zwischen "nominal", "ordinal" (bzw.
-    "numeric") und "string".
-
-    Konvertieren Sie den Zoo- und Restaurantdatensatz in das
-    ARFF-Format. Beachten Sie, dass die ID3-Implementierung von Weka
-    nicht mit bestimmten Attributtypen umgehen kann.
-
-3.  Training mit ID3 und J48 (1P)
-
-    Trainieren Sie für die im letzten Schritt erstellten Datensätze (Zoo
-    und Restaurant) im ARFF-Format erneut Entscheidungsbäume. Nutzen Sie
-    diesmal sowohl ID3 als auch J48.
-
-    Vergleichen Sie wieder die Ergebnisse (Entscheidungsbäume,
-    Fehlerraten, Confusion Matrix) untereinander und mit den Ergebnissen
-    aus dem J48-Lauf mit den `.csv`-Dateien.
-
-*Thema*: Kennenlernen von Weka
 
 <a id="id-509c9bafc24171e16bb93dfcd473d2b9bae04d15"></a>
 
@@ -10641,6 +10995,34 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
+-   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by
+    [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
+    [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
+    on Wikipedia ([CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg)
+    by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
+    [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on
+    Wikimedia Commons ([Public
+    Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
+    [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
+    ([Unsplash License](https://unsplash.com/license))
+-   [Backgammon
+    lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png)
+    by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on
+    Wikimedia Commons ([Public
+    Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [AvB - RoboCup 2013 -
+    Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605)
+    by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
+    Flickr.com ([CC BY
+    2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
+-   ["künstliche
+    intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/)
+    by [Gerd Altmann
+    (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com
+    ([Pixabay License](https://pixabay.com/de/service/license/))
 -   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by
     [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
     [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
@@ -10651,41 +11033,13 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on
     Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [Backgammon
-    lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png)
-    by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on
-    Wikimedia Commons ([Public
-    Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
-    [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
-    ([Unsplash License](https://unsplash.com/license))
--   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg)
-    by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
-    [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on
-    Wikimedia Commons ([Public
-    Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   ["künstliche
-    intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/)
-    by [Gerd Altmann
-    (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com
-    ([Pixabay License](https://pixabay.com/de/service/license/))
--   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by
-    [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
-    [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
-    on Wikipedia ([CC BY-SA
-    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   [AvB - RoboCup 2013 -
-    Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605)
-    by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
-    Flickr.com ([CC BY
-    2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
 -   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by
     Marcel Marnitz, reworked by
     [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann)
     on Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/Public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> bc5bcf0 2026-09-04 add inverted images<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 1f5f20a 2026-09-08 orga: update fahrplan (hsbi)<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in
     Graph-Search-Variante bei endlichem Suchraum
@@ -10706,11 +11060,11 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 [^7]: Im Python-Code tauchen immer wieder "TODO"-Marker auf - bitte mit
     Vorsicht genießen!
 
-[^8]: Im Python-Code tauchen immer wieder "TODO"-Marker auf - bitte mit
-    Vorsicht genießen!
+[^8]: Zum Zoo-Datensatz gibt es die Erklärung direkt im Repo, für den
+    Restaurant-Datensatz finden Sie die Erklärung im AIMA (Buch).
 
 [^9]: Im Python-Code tauchen immer wieder "TODO"-Marker auf - bitte mit
     Vorsicht genießen!
 
-[^10]: Zum Zoo-Datensatz gibt es die Erklärung direkt im Repo, für den
-    Restaurant-Datensatz finden Sie die Erklärung im AIMA (Buch).
+[^10]: Im Python-Code tauchen immer wieder "TODO"-Marker auf - bitte mit
+    Vorsicht genießen!

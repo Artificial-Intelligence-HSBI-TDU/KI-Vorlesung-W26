@@ -588,15 +588,15 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
     on Wikipedia ([CC BY-SA
     3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   [Turing Test version
-    3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
-    by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on
-    Wikimedia Commons ([Public
-    Domain](https://en.wikipedia.org/wiki/en:public_domain))
 -   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by
     [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
     [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
     on Wikipedia ([CC BY-SA
     3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   [Turing Test version
+    3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
+    by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on
+    Wikimedia Commons ([Public
+    Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
 <blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
