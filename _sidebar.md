@@ -4,6 +4,7 @@
 - **Vorlesungsunterlagen**
   - **Einführung KI**
     - [Intro: Was ist Künstliche Intelligenz?](lecture/intro/intro1-overview.md)
+    - [Intro: Einführung in Jupyter-Notebooks](lecture/intro/intro3-jupyternotebooks.md)
     - [Intro: Problemlösen](lecture/intro/intro2-problemsolving.md)
   - **Constraintsolving**
     - [CSP: Einführung Constraints](lecture/csp/csp1-intro.md)
@@ -18,8 +19,6 @@
   - **Entscheidungsbäume (Decision Tree Learner - DTL)**
     - [DTL: Machine Learning 101](lecture/dtl/dtl1-mlbasics.md)
     - [DTL: CAL2](lecture/dtl/dtl2-cal2.md)
-    - [DTL: Pruning](lecture/dtl/dtl3-pruning.md)
-    - [DTL: CAL3](lecture/dtl/dtl4-cal3.md)
     - [DTL: Entropie](lecture/dtl/dtl5-entropy.md)
     - [DTL: ID3 und C4.5](lecture/dtl/dtl6-id3.md)
     - [DTL: Random Forest](lecture/dtl/dtl7-randomforest.md)

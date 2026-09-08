@@ -127,7 +127,7 @@ autonomen Fahrzeugen, ...
         -   Steuerung des Trainings: Kreuzvalidierung, Regularisierung
         -   Ausblick: Support-Vektor-Maschinen
     -   Naive Bayes Klassifikator
-3.  ~~Inferenz, Logik~~ (**entfällt im W25**)
+3.  ~~Inferenz, Logik~~ (**entfällt im W26**)
     -   ~~Prädikatenlogik: Modellierung, semantische und formale
         Beweise, Unifikation, Resolution~~
     -   ~~Ausblick: Anwendung in Prolog~~
@@ -139,21 +139,16 @@ autonomen Fahrzeugen, ...
 -   [Carsten
     Gips](https://www.hsbi.de/minden/ueber-uns/personenverzeichnis/carsten-gips)
     (HSBI, Sprechstunde nach Vereinbarung)
--   [Halit Canap
-    Demir](https://people.tau.edu.tr/people.show/halit.demir/de) (TDU)
--   [Seza Nihan
-    Bekarlar](https://people.tau.edu.tr/people.show/nihan.bekarlar/de)
-    (TDU)
 
 #### Kursformat (TDU)
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/admin/images/fahrplan.png" width="80%" /></picture></p>
 
-| Vorlesung (2 SWS)          | Übung (2 SWS)              |
-|:---------------------------|:---------------------------|
-| Mo, 10:00 - 11:30 Uhr (TR) | G1: Di, 15:30 - 17:30 (TR) |
-| (online, Zoom)             | G2: Do, 08:00 - 10:00 (TR) |
-|                            | (online, Google Meet)      |
+| Vorlesung (2 SWS) bis 25.10. | Vorlesung (2 SWS) ab 26.10. | Übung (2 SWS) |
+|:------------------------|:-----------------------|:----------------------|
+| Mo, 10:00 - 11:30 Uhr (TR) | Mo, 11:00 - 12:30 Uhr (TR) | G1: Di, 15:30 - 17:30 (TR) |
+| (Zoom) | (Zoom) | G2: Do, 08:00 - 10:00 (TR) |
+|  |  | (Google Meet) |
 
 Durchführung der Vorlesung als *Flipped Classroom*: Sitzungen per Zoom,
 Übungen per Google Meet. (Zugangsdaten siehe [Google
@@ -162,38 +157,32 @@ Classroom](https://classroom.google.com/c/NzE4Mzk0NDE5ODEz?cjc=fhzfku3))
 #### Fahrplan (TDU)
 
 | Woche | Thema | Vorlesung | Übung |
-|:---|:----|:---------------------------------------------------|:----------|
-| 14.09. | Orga | [Orga](#id-b21a245fb1bac510210f7712bce0dbd9e2a468b5) \| [Einführung KI](#id-ca2e904964509a28710797d2f876c625f54f64ea) |  |
-| 21.09. | CSP | [Einführung Constraints](#id-84f051404cae6b3a63ddc230ad80cb495047845f) \| [Lösen von diskreten CSP](#id-3b6247c92b0af037c1f0c4837facaaa1b25420c3) \| [CSP und Heuristiken](#id-aef0213ac4bbd41501955f0ec950c44d1756a5cf) \| [Kantenkonsistenz und AC-3](#id-a9b47eac39d203917d2689bbfad8003315b2990c) \| [Min-Conflicts Heuristik](#id-9d0480f68cb0e1adb81cdc4b9b357168511b77d5) |  |
-| 28.09. | NB | [Wahrscheinlichkeitstheorie](#id-cd12d8faa8a855e40fd112b32dc98078382d90aa) \| [Naive Bayes](#id-cd72f1bd942f6b05157da80ba479a7a493d898c1) \| [Textklassifikation mit NB](#id-6e322bc628d8ff7a4faa38fa42a09770217ab4fb) | [Blatt: CSP](#id-97b1dd75d6bb5e4678ebee3df7fe5a521e52d6e2) |
-| 05.10. | DTL | [Machine Learning 101](#id-82f362361464406c7ba09ef4a0893a4e32983b94) \| [CAL2](#id-4807e4a11529854b6d77f86cd3ca37caabc11cc9) \| [Pruning](#id-19ffac22140785b62f48ef3e44c1bde3a43d2054) \| [CAL3](#id-1867142959094a5c852b79c1c6f3caed8e931b63) \| [Entropie](#id-f085a6c9977296f3811e103376badb06ee228d84) \| [ID3 und C4.5](#id-0d69ce52eac18a7d932147cc42b20bcd98d267f3) \| [Random Forest](#id-67ad22f050d34df38bd659728538d50c3f90f70e) | [Blatt: Naive Bayes](#id-8b661cb2908035ca0da1b1837f2b800c4381ebad) |
-| 12.10. | EA | **ab 11:15**: [Intro EA/GA](#id-aa3481a03ed2e17666ced54325637e0551022587) \| [Genetische Algorithmen](#id-c99ae5cae334ccb182fc61d94707f8e7cdf363c9) | [Blatt: DTL](#id-4a134eae1417a20b6726b2fdc2b1dfd28a683e29) |
-| 19.10. | Search | [Problemlösen](#id-7a896d9c036ef29a6574730757ae03cd7c0d3e26) \| [Tiefensuche](#id-3263461a899091090f8d87ea7f7f3f25bf8255eb) \| [Breitensuche](#id-d08f602e3cf0c02bc97cd5125053645dfe917271) \| [Branch-and-Bound](#id-0712fba7e7ca1e4684ed9b6de19345ba86fba471) \| [Best First](#id-0a43351a075c7504b755675510f9395b5dd8c092) \| [A-Stern](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5) | [Blatt: EA/GA](#id-cb2cf09f6031a168fc7c9094c3ee2d9df377e9f0) |
-| 26.10. | Games | [Optimale Spiele](#id-f669cc4761526fb137b102a84bf0b7a3c8e1b51a) \| [Games mit Minimax](#id-5438da7280b20127b14a6fc6336d798d64ef51d6) \| [Minimax und Heuristiken](#id-a9ac054922401b7eb9285dc81c4d01960ce147ec) \| [Alpha-Beta-Pruning](#id-c8c274bfbd36e9fdbf8c47df5f99c064b06d9ff3) | [Blatt: Suche](#id-ab3ff3658bdafaf1ee5c17c11ffae098b587c048) |
-| 02.11. | ZP | **Zwischenprüfung** |  |
-| 09.11. | Perzeptron | [Perzeptron](#id-e3a8542d0a1d7b0c7eb04d713c7976160d0eaf84) | [Blatt: Games](#id-999c549c4e5cc5a8e810d1e55e7b21a1e3c85906) |
-| 16.11. | Regression | [Lineare Regression und Gradientenabstieg](#id-52f9015d59d2dde3e4f18acb1be26aa3c10759ab) \| [Logistische Regression](#id-c320456aa6e007de53f56d63d12b19d7351a2f77) | [Blatt: Perzeptron](#id-509c9bafc24171e16bb93dfcd473d2b9bae04d15) |
-| 23.11. | MLP | [Multilayer Perceptron (MLP)](#id-94eb0e9e9c19bba8118b63b08886a14024a2acf3) \| [Backpropagation](#id-f08c9adef34314d8e7af05e5874f87e61cfd93a9) | [Blatt: Regression](#id-715e7fb7bfa3ef282899962cfa93c2f3da8c95bc) |
-| 30.11. | Train&Test | [Overfitting und Regularisierung](#id-ff282a3dce4dd000d38f923a472a928c94b93436) \| [Training & Testing](#id-59d01c7aa50822d6f5b2f5f0413bf60ad710fcdf) \| [Performanzanalyse](#id-754af026d5303aa4a872ce1693668530aefee309) | [Blatt: MLP](#id-cba17b43f628a8fbf19e217d186183ebcd63bad5) |
-| 07.12. | RNN | [RNN](#id-b7c0eaa966d621b48f4aad030987c3ad044a068e) | [Blatt: Backpropagation](#id-670c545ed4052dcfd1d123a2ba8b68b3154acccc) |
-| 14.12. | Transformer | [Transformer](#id-b6039456bfad164cdf98bf9de67b222fea5701d1) | [Blatt: TODO](.) |
-| 21.12. | \- | \- | \- |
-| 28.12. | PV | Rückblick \| [Prüfungsvorbereitung TDU](#id-a9a587e6c5156b582e9029de040daaab2e66903b) |  |
+|:---|:----|:---------------------------------------------------|:-----------|
+| 14.09. | Orga | [Orga TDU](#id-b21a245fb1bac510210f7712bce0dbd9e2a468b5) \| [Einführung KI](#id-ca2e904964509a28710797d2f876c625f54f64ea) \| [Einführung Jupyter Notebook](#id-37999e3f5ed2a133fbaf6ee91fdb94138df2391d) | \- |
+| 21.09. | CSP | [Einführung Constraints](#id-84f051404cae6b3a63ddc230ad80cb495047845f) \| [Lösen von diskreten CSP](#id-3b6247c92b0af037c1f0c4837facaaa1b25420c3) \| [CSP und Heuristiken](#id-aef0213ac4bbd41501955f0ec950c44d1756a5cf) \| [Kantenkonsistenz und AC-3](#id-a9b47eac39d203917d2689bbfad8003315b2990c) \| [Min-Conflicts Heuristik](#id-9d0480f68cb0e1adb81cdc4b9b357168511b77d5) | [Blatt: CSP](#id-97b1dd75d6bb5e4678ebee3df7fe5a521e52d6e2) |
+| 28.09. | NB | [Wahrscheinlichkeitstheorie](#id-cd12d8faa8a855e40fd112b32dc98078382d90aa) \| [Naive Bayes](#id-cd72f1bd942f6b05157da80ba479a7a493d898c1) \| [Textklassifikation mit NB](#id-6e322bc628d8ff7a4faa38fa42a09770217ab4fb) | [Blatt: Naive Bayes](#id-8b661cb2908035ca0da1b1837f2b800c4381ebad) |
+| 05.10. | DTL | [Machine Learning 101](#id-82f362361464406c7ba09ef4a0893a4e32983b94) \| [CAL2](#id-4807e4a11529854b6d77f86cd3ca37caabc11cc9) \| [Entropie](#id-f085a6c9977296f3811e103376badb06ee228d84) \| [ID3 und C4.5](#id-0d69ce52eac18a7d932147cc42b20bcd98d267f3) \| [Random Forest](#id-67ad22f050d34df38bd659728538d50c3f90f70e) | [Blatt: DTL](#id-4a134eae1417a20b6726b2fdc2b1dfd28a683e29) |
+| 12.10. | EA | **ab 11:15**: [Intro EA/GA](#id-aa3481a03ed2e17666ced54325637e0551022587) \| [Genetische Algorithmen](#id-c99ae5cae334ccb182fc61d94707f8e7cdf363c9) | [Blatt: EA/GA](#id-cb2cf09f6031a168fc7c9094c3ee2d9df377e9f0) |
+| 19.10. | Search | [Problemlösen](#id-7a896d9c036ef29a6574730757ae03cd7c0d3e26) \| [Tiefensuche](#id-3263461a899091090f8d87ea7f7f3f25bf8255eb) \| [Breitensuche](#id-d08f602e3cf0c02bc97cd5125053645dfe917271) \| [Branch-and-Bound](#id-0712fba7e7ca1e4684ed9b6de19345ba86fba471) \| [Best First](#id-0a43351a075c7504b755675510f9395b5dd8c092) \| [A-Stern](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5) | [Blatt: Suche](#id-ab3ff3658bdafaf1ee5c17c11ffae098b587c048) |
+| 26.10. | Games | [Optimale Spiele](#id-f669cc4761526fb137b102a84bf0b7a3c8e1b51a) \| [Games mit Minimax](#id-5438da7280b20127b14a6fc6336d798d64ef51d6) \| [Minimax und Heuristiken](#id-a9ac054922401b7eb9285dc81c4d01960ce147ec) \| [Alpha-Beta-Pruning](#id-c8c274bfbd36e9fdbf8c47df5f99c064b06d9ff3) | [Blatt: Games](#id-999c549c4e5cc5a8e810d1e55e7b21a1e3c85906) |
+| 02.11. | ZP | **Zwischenprüfung** | \- |
+| 09.11. | Perzeptron | [Perzeptron](#id-e3a8542d0a1d7b0c7eb04d713c7976160d0eaf84) | [Blatt: Perzeptron](#id-509c9bafc24171e16bb93dfcd473d2b9bae04d15) |
+| 16.11. | Regression | [Lineare Regression und Gradientenabstieg](#id-52f9015d59d2dde3e4f18acb1be26aa3c10759ab) \| [Logistische Regression](#id-c320456aa6e007de53f56d63d12b19d7351a2f77) | [Blatt: Regression](#id-715e7fb7bfa3ef282899962cfa93c2f3da8c95bc) |
+| 23.11. | MLP | [Multilayer Perceptron (MLP)](#id-94eb0e9e9c19bba8118b63b08886a14024a2acf3) \| [Backpropagation](#id-f08c9adef34314d8e7af05e5874f87e61cfd93a9) | [Blatt: MLP](#id-cba17b43f628a8fbf19e217d186183ebcd63bad5) |
+| 30.11. | Train&Test | [Overfitting und Regularisierung](#id-ff282a3dce4dd000d38f923a472a928c94b93436) \| [Training & Testing](#id-59d01c7aa50822d6f5b2f5f0413bf60ad710fcdf) \| [Performanzanalyse](#id-754af026d5303aa4a872ce1693668530aefee309) | [Blatt: Backpropagation](#id-670c545ed4052dcfd1d123a2ba8b68b3154acccc) |
+| 07.12. | RNN | [RNN](#id-b7c0eaa966d621b48f4aad030987c3ad044a068e) | [Blatt: TODO](.) |
+| 14.12. | Transformer | [Transformer](#id-b6039456bfad164cdf98bf9de67b222fea5701d1) | \- |
+| 21.12. | Zusammenfassung | **Google Meet:** Rückblick | \- |
+| 28.12. | PV | **Google Meet:** [Prüfungsvorbereitung TDU](#id-a9a587e6c5156b582e9029de040daaab2e66903b) |  |
 
 #### Prüfungsform, Note und Credits (TDU)
 
-| Prüfung         | Gewicht                       |
-|:----------------|-------------------------------|
-| Zwischenprüfung | **40 %**                      |
-| Endprüfung      | **60 %**                      |
-| Übung           | **10 % Bonus für Endprüfung** |
+| Prüfung         | Gewicht  |
+|:----------------|:---------|
+| Zwischenprüfung | **40 %** |
+| Endprüfung      | **60 %** |
 
-Wenn in der Endprüfung die 40 Punkte Mindestgrenze erreicht wird
-(**Prüfungsnote $\ge$ 40**), werden **10 % der Übungspunkte als Bonus**
-zu der Prüfungsnote hinzugefügt.
-
-Für die Vergabe von Übungspunkten ist eine **erfolgreiche Teilnahme an
-der Übung** erforderlich. **Für Details siehe [Prüfung & Noten @
+**Für Details siehe [Prüfung & Noten @
 TDU](#id-a9a587e6c5156b582e9029de040daaab2e66903b)**.
 
 #### Materialien
@@ -202,15 +191,13 @@ TDU](#id-a9a587e6c5156b582e9029de040daaab2e66903b)**.
     Approach**"](http://aima.cs.berkeley.edu/) (*AIMA*). Russell, S. und
     Norvig, P., Pearson, 2021. ISBN
     [978-0134610993](https://fhb-bielefeld.digibib.net/openurl?isbn=978-0134610993).
-2.  "Grundkurs Künstliche Intelligenz". Ertel, W., Springer, 2025. ISBN
-    [978-3-658-44955-1](https://fhb-bielefeld.digibib.net/openurl?isbn=978-3-658-44955-1).
-    DOI
-    [10.1007/978-3-658-44955-1](https://doi.org/10.1007/978-3-658-44955-1).
-3.  "An Introduction to Machine Learning". Kubat, M., Springer, 2017.
-    ISBN
-    [978-3-319-63913-0](https://fhb-bielefeld.digibib.net/openurl?isbn=978-3-319-63913-0).
-    DOI
-    [10.1007/978-3-319-63913-0](https://doi.org/10.1007/978-3-319-63913-0).
+2.  ["Hands-On Machine Learning with Scikit-Learn, Keras, and
+    TensorFlow"](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/).
+    Géron, A., O'Reilly, 2023. ISBN
+    [978-1-098-12597-4](https://fhb-bielefeld.digibib.net/openurl?isbn=978-1-098-12597-4).
+    [Online](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)
+    über die
+    [O'Reilly-Lernplattform](https://www.oreilly.com/library-access/).
 
 <a id="id-f4b85a8855bfcf6dc9299224bc5aa73488d6ab79"></a>
 
@@ -293,22 +280,22 @@ der Lösung im jeweiligen Praktikum in der Abgabewoche.
 
 | Monat | Woche vom | Thema | Vorlesung (Mo) | Praktikum (Mo/Mi/Do) |
 |----|:---|:----|:------------------------------------------------|:----------|
-| Oktober | 12.10. | Orga | [Orga](#id-f4b85a8855bfcf6dc9299224bc5aa73488d6ab79) \| [Einführung KI](#id-ca2e904964509a28710797d2f876c625f54f64ea) |  |
+| Oktober | 12.10. | Orga | [Orga HSBI](#id-f4b85a8855bfcf6dc9299224bc5aa73488d6ab79) \| [Einführung KI](#id-ca2e904964509a28710797d2f876c625f54f64ea) \| [Einführung Jupyter Notebook](#id-37999e3f5ed2a133fbaf6ee91fdb94138df2391d) | \- |
 |  | 19.10. | Search | [Problemlösen](#id-7a896d9c036ef29a6574730757ae03cd7c0d3e26) \| [Tiefensuche](#id-3263461a899091090f8d87ea7f7f3f25bf8255eb) \| [Breitensuche](#id-d08f602e3cf0c02bc97cd5125053645dfe917271) \| [Branch-and-Bound](#id-0712fba7e7ca1e4684ed9b6de19345ba86fba471) \| [Best First](#id-0a43351a075c7504b755675510f9395b5dd8c092) \| [A-Stern](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5) | [Blatt: Suche](#id-ab3ff3658bdafaf1ee5c17c11ffae098b587c048) |
 |  | 26.10. | Games | [Optimale Spiele](#id-f669cc4761526fb137b102a84bf0b7a3c8e1b51a) \| [Games mit Minimax](#id-5438da7280b20127b14a6fc6336d798d64ef51d6) \| [Minimax und Heuristiken](#id-a9ac054922401b7eb9285dc81c4d01960ce147ec) \| [Alpha-Beta-Pruning](#id-c8c274bfbd36e9fdbf8c47df5f99c064b06d9ff3) | [Blatt: Games](#id-999c549c4e5cc5a8e810d1e55e7b21a1e3c85906) |
-| November | 02.11. | DTL | [Machine Learning 101](#id-82f362361464406c7ba09ef4a0893a4e32983b94) \| [CAL2](#id-4807e4a11529854b6d77f86cd3ca37caabc11cc9) \| [Pruning](#id-19ffac22140785b62f48ef3e44c1bde3a43d2054) \| [CAL3](#id-1867142959094a5c852b79c1c6f3caed8e931b63) \| [Entropie](#id-f085a6c9977296f3811e103376badb06ee228d84) \| [ID3 und C4.5](#id-0d69ce52eac18a7d932147cc42b20bcd98d267f3) \| [Random Forest](#id-67ad22f050d34df38bd659728538d50c3f90f70e) | [Blatt: DTL](#id-4a134eae1417a20b6726b2fdc2b1dfd28a683e29) |
+| November | 02.11. | DTL | [Machine Learning 101](#id-82f362361464406c7ba09ef4a0893a4e32983b94) \| [CAL2](#id-4807e4a11529854b6d77f86cd3ca37caabc11cc9) \| [Entropie](#id-f085a6c9977296f3811e103376badb06ee228d84) \| [ID3 und C4.5](#id-0d69ce52eac18a7d932147cc42b20bcd98d267f3) \| [Random Forest](#id-67ad22f050d34df38bd659728538d50c3f90f70e) | [Blatt: DTL](#id-4a134eae1417a20b6726b2fdc2b1dfd28a683e29) |
 |  | 09.11. | Perzeptron | [Perzeptron](#id-e3a8542d0a1d7b0c7eb04d713c7976160d0eaf84) | [Blatt: Perzeptron](#id-509c9bafc24171e16bb93dfcd473d2b9bae04d15) |
 |  | 16.11. | Regression | [Lineare Regression und Gradientenabstieg](#id-52f9015d59d2dde3e4f18acb1be26aa3c10759ab) \| [Logistische Regression](#id-c320456aa6e007de53f56d63d12b19d7351a2f77) | [Blatt: Regression](#id-715e7fb7bfa3ef282899962cfa93c2f3da8c95bc) |
 |  | 23.11. | MLP | [Multilayer Perceptron (MLP)](#id-94eb0e9e9c19bba8118b63b08886a14024a2acf3) \| [Backpropagation](#id-f08c9adef34314d8e7af05e5874f87e61cfd93a9) | [Blatt: MLP](#id-cba17b43f628a8fbf19e217d186183ebcd63bad5) |
 | Dezember | 30.11. | Train&Test | [Overfitting und Regularisierung](#id-ff282a3dce4dd000d38f923a472a928c94b93436) \| [Training & Testing](#id-59d01c7aa50822d6f5b2f5f0413bf60ad710fcdf) \| [Performanzanalyse](#id-754af026d5303aa4a872ce1693668530aefee309) | [Blatt: Backpropagation](#id-670c545ed4052dcfd1d123a2ba8b68b3154acccc) |
 |  | 07.12. | RNN | [RNN](#id-b7c0eaa966d621b48f4aad030987c3ad044a068e) | [Blatt: TODO](.) |
-|  | 14.12. | Transformer | [Transformer](#id-b6039456bfad164cdf98bf9de67b222fea5701d1) |  |
-|  | *21.12.* |  | ***Weihnachtspause*** |  |
-|  | *28.12.* |  | ***Weihnachtspause*** |  |
+|  | 14.12. | Transformer | [Transformer](#id-b6039456bfad164cdf98bf9de67b222fea5701d1) | \- |
+|  | *21.12.* | \- | ***Weihnachtspause*** | \- |
+|  | *28.12.* | \- | ***Weihnachtspause*** | \- |
 | Januar | 04.01. | CSP | [Einführung Constraints](#id-84f051404cae6b3a63ddc230ad80cb495047845f) \| [Lösen von diskreten CSP](#id-3b6247c92b0af037c1f0c4837facaaa1b25420c3) \| [CSP und Heuristiken](#id-aef0213ac4bbd41501955f0ec950c44d1756a5cf) \| [Kantenkonsistenz und AC-3](#id-a9b47eac39d203917d2689bbfad8003315b2990c) \| [Min-Conflicts Heuristik](#id-9d0480f68cb0e1adb81cdc4b9b357168511b77d5) | [Blatt: CSP](#id-97b1dd75d6bb5e4678ebee3df7fe5a521e52d6e2) |
 |  | 11.01. | NB | [Wahrscheinlichkeitstheorie](#id-cd12d8faa8a855e40fd112b32dc98078382d90aa) \| [Naive Bayes](#id-cd72f1bd942f6b05157da80ba479a7a493d898c1) \| [Textklassifikation mit NB](#id-6e322bc628d8ff7a4faa38fa42a09770217ab4fb) | [Blatt: Naive Bayes](#id-8b661cb2908035ca0da1b1837f2b800c4381ebad) |
 |  | 18.01. | EA | [Gradientensuche](#id-3e0f73b743e74f106aacc68840406273348f8341) \| [Simulated Annealing](#id-bafda494229223827755dbbffb5862eeb7e31262) \|\| [Intro EA/GA](#id-aa3481a03ed2e17666ced54325637e0551022587) \| [Genetische Algorithmen](#id-c99ae5cae334ccb182fc61d94707f8e7cdf363c9) | [Blatt: EA/GA](#id-cb2cf09f6031a168fc7c9094c3ee2d9df377e9f0) |
-|  | 25.12. | PV | Rückblick \| [Prüfungsvorbereitung HSBI](#id-b84558cce3a2e0f317eaa3c5c23c6f26a9cc2232) |  |
+|  | 25.01. | PV | Rückblick \| [Prüfungsvorbereitung HSBI](#id-b84558cce3a2e0f317eaa3c5c23c6f26a9cc2232) | \- |
 
 #### Prüfungsform, Note und Credits (HSBI)
 
@@ -383,15 +370,13 @@ der Lösung im jeweiligen Praktikum in der Abgabewoche.
     Approach**"](http://aima.cs.berkeley.edu/) (*AIMA*). Russell, S. und
     Norvig, P., Pearson, 2021. ISBN
     [978-0134610993](https://fhb-bielefeld.digibib.net/openurl?isbn=978-0134610993).
-2.  "Grundkurs Künstliche Intelligenz". Ertel, W., Springer, 2025. ISBN
-    [978-3-658-44955-1](https://fhb-bielefeld.digibib.net/openurl?isbn=978-3-658-44955-1).
-    DOI
-    [10.1007/978-3-658-44955-1](https://doi.org/10.1007/978-3-658-44955-1).
-3.  "An Introduction to Machine Learning". Kubat, M., Springer, 2017.
-    ISBN
-    [978-3-319-63913-0](https://fhb-bielefeld.digibib.net/openurl?isbn=978-3-319-63913-0).
-    DOI
-    [10.1007/978-3-319-63913-0](https://doi.org/10.1007/978-3-319-63913-0).
+2.  ["Hands-On Machine Learning with Scikit-Learn, Keras, and
+    TensorFlow"](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/).
+    Géron, A., O'Reilly, 2023. ISBN
+    [978-1-098-12597-4](https://fhb-bielefeld.digibib.net/openurl?isbn=978-1-098-12597-4).
+    [Online](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)
+    über die
+    [O'Reilly-Lernplattform](https://www.oreilly.com/library-access/).
 
 <a id="id-af09e2fcaf4589921086150d991647b7b52abd03"></a>
 
@@ -952,6 +937,29 @@ CS221](https://youtu.be/J8Eh7RqggsU) an. (Vorsicht: Das ist recht lang.)
 >
 > -   [Selbsttest KI Einführung
 >     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106585&client_id=FH-Bielefeld)
+>
+> </details>
+
+<a id="id-37999e3f5ed2a133fbaf6ee91fdb94138df2391d"></a>
+
+#### Intro: Einführung in Jupyter-Notebooks
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> [Video-Mitschnitt "Einführung in
+> Jupyter-Notebooks](https://youtu.be/m9y9m-HQTys)
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🖇 Weitere Unterlagen</strong></summary>
+>
+> [starter.ipynb](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/lecture/intro/files/jupyter_starter.ipynb)
 >
 > </details>
 
@@ -4468,298 +4476,6 @@ Referenzen vom Typ `Baum` sein).
 > Welchen Entscheidungsbaum würde CAL2 lernen, wenn dem
 > Trainingsdatensatz der Vektor $((a,a,b), 2)$ als Beispiel Nr. 7
 > hinzugefügt werden würde?
->
-> </details>
-
-<a id="id-19ffac22140785b62f48ef3e44c1bde3a43d2054"></a>
-
-#### DTL: Pruning
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> Pruning ist das Entfernen redundanter und irrelevanter Tests
-> (Merkmale).
->
-> Irrelevante Merkmale spielen keine Rolle bei der Klassifikation, an
-> jedem Ausgang eines irrelevanten Merkmals findet sich exakt der selbe
-> Baum. Diese Tests kann man einfach entfernen und durch einen ihrer
-> Teilbäume ersetzen; dadurch ändert sich nicht die Klassifikation des
-> Baumes.
->
-> Bei redundanten Tests sind alle Ausgänge bis auf einen noch mit
-> "Nichtwissen" ("\*") markiert. Hier kann man den Test durch den einen
-> bekannten Ausgang ersetzen, wodurch sich die Klassifikation ändert.
-> Allerdings wird der Klassifikationsfehler nicht größer, da man ja
-> vorher nur für eine Ausprägung des redundanten Merkmals einen Baum
-> hatte und für die anderen jeweils mit "\*" antworten musste (d.h. hier
-> stets einen Fehler gemacht hatte).
->
-> Über die Transformationsregel kann man einfach die Reihenfolge von
-> Tests im Baum ändern.
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> -   [VL Pruning](https://youtu.be/LKt9F2kGYdk)
->
-> </details>
-
-##### Pruning: Bedingt irrelevante Attribute
-
-**Baum**: $\alpha = x_1(x_2(A, B),  x_2(A, B),  x_2(A, B))$
-
-$x_1$ ist bedingt irrelevant =\> Vereinfachung: $\alpha = x_2(A, B)$
-
-**Allgemein**:
-
--   Sei $\tilde{x}$ Weg zu Nichtendknoten $x_t$
--   Baum dort $\alpha/\tilde{x} = x_t(\alpha_1, \ldots, \alpha_{m_t})$
--   $x_t$ ist **bedingt irrelevant** unter der Bedingung $\tilde{x}$,
-    wenn $\alpha_1 = \alpha_2 = \ldots = \alpha_{m_t}$
--   **Vereinfachung**: Ersetze in $\alpha/\tilde{x}$ den Test $x_t$
-    durch $\alpha_1$
-
-*Anmerkung*: Der durch das Entfernen von bedingt irrelevanten Attributen
-entstandene Baum hat **exakt** die selbe Aussage (Klassifikation) wie
-der Baum vor dem Pruning.
-
-**Anmerkung**: $x_1$ im obigen Beispiel ist sogar **global** irrelevant,
-da es sich hier um die Wurzel des Baumes handelt. Der Weg $\tilde{x}$
-ist in diesem Fall der leere Weg ...
-
-##### Pruning: Bedingt redundante Attribute
-
-**Baum**: $\alpha = x_1(\ast,  \ast,  x_2(A, B))$
-
-$x_1$ ist bedingt redundant =\> Vereinfachung: $\alpha = x_2(A, B)$
-
-**Allgemein**:
-
--   Sei $\tilde{x}$ Weg zu Nichtendknoten $x_t$
--   Baum dort
-    $\alpha/\tilde{x} = x_t(\ast, \ldots, \ast, \alpha_i, \ast, \ldots, \ast)$
-    (mit $\alpha_i \neq \ast$)
--   $x_t$ ist **bedingt redundant** unter der Bedingung $\tilde{x}$
--   **Vereinfachung**: Ersetze in $\alpha/\tilde{x}$ den Test $x_t$
-    durch $\alpha_i$
-
-*Anmerkung*: Der durch das Entfernen von bedingt redundanten Attributen
-entstandene Baum hat eine etwas andere Klassifikation als der Baum vor
-dem Pruning. Wo vorher ein `*` ausgegeben wurde, wird nach dem Pruning
-u.U. ein Klassensymbol ausgegeben. Der Klassifikationsfehler erhöht sich
-aber **nicht**, da hier ein `*` wie ein falsches Klassensymbol zu werten
-ist.
-
-**Anmerkung**: $x_1$ im obigen Beispiel ist sogar **global** redundant,
-da es sich hier um die Wurzel des Baumes handelt. Der Weg $\tilde{x}$
-ist in diesem Fall der leere Weg ...
-
-##### Allgemeine Transformationsregel
-
-$$x_1(x_2(a, b),  x_2(c, d))  \Leftrightarrow  x_2(x_1(a, c),  x_1(b, d))$$
-
-##### Wrap-Up
-
--   Pruning: Entfernen bedingt redundanter und irrelevanter Tests
--   Transformationsregel zum Umbauen von Entscheidungsbäumen
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>📖 Zum Nachlesen</strong></summary>
->
-> -   Ertel ([2025](#ref-Ertel2025)): Entscheidungsbäume: Abschnitt 8.4
-> -   Russell und Norvig ([2021](#ref-Russell2021)): Entscheidungsbäume:
->     Abschnitt 19.3
->
-> </details>
-
-> [!NOTE]
->
-> <details >
-> <summary><strong>✅ Lernziele</strong></summary>
->
-> -   k3: Ich kann Pruning anwenden und bedingt irrelevante Tests
->     entfernen
-> -   k3: Ich kann Pruning anwenden und bedingt redundante Tests
->     entfernen
-> -   k3: Ich kann Entscheidungsbäume mit Hilfe der Transformationsregel
->     umformen
->
-> </details>
-
-> [!TIP]
->
-> <details >
-> <summary><strong>🧩 Quizzes</strong></summary>
->
-> -   [Selbsttest Pruning
->     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106577&client_id=FH-Bielefeld)
->
-> </details>
-
-<a id="id-1867142959094a5c852b79c1c6f3caed8e931b63"></a>
-
-#### DTL: CAL3
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> CAL3 ist eine einfache Erweiterung von CAL2 für nicht-disjunkte
-> (überlappende) Klassen. Statt beim Baumaufbau bei einer
-> Fehlklassifikation sofort zu verzweigen, werden hier zunächst die im
-> entsprechenden Pfad aufgelaufenen Klassensymbole gezählt. Wenn
-> ausreichend viele davon gesehen wurden (Schwelle $S_1$), wird eine
-> Entscheidung getroffen: Wenn eine Klasse in diesem temporären Blatt
-> dominiert (ihre Häufigkeit über einer Schwelle $S_2$ liegt), dann
-> entscheidet man sich in diesem Blatt fest für diese Klasse. Ansonsten
-> (die Häufigkeit aller Klassen in dem Blatt liegt unter $S_2$) nimmt
-> man analog zu CAL2 den nächsten, auf diesem Pfad noch nicht
-> verwendeten Test hinzu.
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> -   [VL CAL3](https://youtu.be/9Wj51XvuntM)
->
-> </details>
-
-##### CAL3: Erweiterung von CAL2 für nicht-disjunkte Klassen
-
-1)  Anfangsschritt: $\alpha^{(0)} = \ast$ (totales Unwissen)
-
-2)  $n$-ter Lernschritt: Objekt $v$ mit Klasse $k$
-
-    -   Rückweisung (Endknoten mit $\ast$): Ersetze $\ast$ durch
-        Vereinigungsklasse $/k1/$
-
-    -   Endknoten mit Vereinigungsklasse:
-
-        -   Zähler für $k$ erhöhen, bzw.
-        -   $k$ mit Anzahl $1$ in Vereinigungsklasse einfügen
-
-    Falls nun die Summe aller Klassen am Endknoten größer/gleich $S_1$
-    (Statistikschwelle):
-
-    -   Für **genau eine** Klasse gilt: $P(k | \tilde{x}) \ge S_2$: =\>
-        Abschluss: Ersetze Vereinigungsklasse durch $k$ (für immer!)
-
-    -   Für **alle** Klassen gilt: $P(k | \tilde{x}) < S_2$: =\>
-        Differenzierung: Ersetze Vereinigungsklasse durch neuen Test:
-        $\kappa \gets x_{t+1}(\ast, \ldots, \ast, /k1/, \ast, \ldots, \ast)$
-
-        $x_{t+1}$: nächstes Attribut, auf dem aktuellen Pfad $\tilde{x}$
-        noch nicht verwendet Symbol $k$ mit Anzahl 1 an Position $i$
-        wenn $x_{t+1}(v) = i$
-
-##### Beispiel mit CAL3
-
-| $x_1$ | $x_2$ | $k$ |
-|:------|:------|:----|
-| 0     | 0     | A   |
-| 0     | 1     | B   |
-| 0     | 1     | A   |
-| 1     | 0     | B   |
-| 1     | 1     | A   |
-
--   $S_1 = 4, S_2 = 0.7$
-
-**Ergebnis**: $x_1(A,  x_2(B, A))$
-
-Trainingsfehler: $1/5 = 0.2 < 1-S_2 = 1-0.7 = 0.3$
-
-**Hinweis**: Bei nicht überlappenden Klassen erzeugt CAL3 u.U. andere
-Bäume als CAL2 ...
-
-##### CAL3: Abbruchbedingungen und Parameter
-
--   **Parameter**:
-    -   $S_1$: Statistikschwelle, problemabhängig wählen
-    -   $S_2$: $0.5 < S_2 \le 1.0$
-    -   Klassifikationsfehler kleiner als $1-S_2$
-        -   kleiner Fehler =\> großer Baum
-        -   großer Fehler =\> kleiner Baum
-
-<!-- -->
-
--   **Abbruch**:
-    -   Alle Trainingsobjekte richtig klassifiziert =\> Kein Fehler in
-        einem kompletten Durchlauf
-    -   Alle Endknoten mit eindeutigen Klassensymbolen belegt
-    -   Differenzierung nötig, aber alle Merkmale verbraucht
-    -   Lernschrittzahl überschritten
-
-##### Wrap-Up
-
--   CAL3: Erweiterung von CAL2 für überlappende Klassen
-    -   Parameter $S_1$ (Anzahl Objekte bis Entscheidung), $S_2$
-        (Dominanz?)
-    -   Trainingsfehler wg. überlappender Klassen!
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>📖 Zum Nachlesen</strong></summary>
->
-> -   Unger und Wysotzki ([1981](#ref-Unger1981)): Der Vollständigkeit
->     halber aufgeführt (Werk ist leider vergriffen und wird nicht mehr
->     verlegt)
->
-> </details>
-
-> [!NOTE]
->
-> <details >
-> <summary><strong>✅ Lernziele</strong></summary>
->
-> -   k3: Ich kann den Meta-Algorithmus CAL3 für überlappende Klassen
->     anwenden
->
-> </details>
-
-> [!TIP]
->
-> <details >
-> <summary><strong>🧩 Quizzes</strong></summary>
->
-> -   [Selbsttest CAL3
->     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106576&client_id=FH-Bielefeld)
->
-> </details>
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🏅 Challenges</strong></summary>
->
-> **Textklassifikation**
->
-> Betrachten Sie die folgenden Aussagen:
->
-> > -   Patient A hat weder Husten noch Fieber und ist gesund.
-> > -   Patient B hat Husten, aber kein Fieber und ist gesund.
-> > -   Patient C hat keinen Husten, aber Fieber. Er ist krank.
-> > -   Patient D hat Husten und kein Fieber und ist krank.
-> > -   Patient E hat Husten und Fieber. Er ist krank.
->
-> Aufgaben:
->
-> 1.  Trainieren Sie auf diesem Datensatz einen Klassifikator mit CAL3
->     ($S_1=4, S_2=0.6$).
-> 2.  Ist Patient F krank? Er hat Husten, aber kein Fieber.
 >
 > </details>
 
@@ -10995,9 +10711,29 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
+-   ["künstliche
+    intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/)
+    by [Gerd Altmann
+    (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com
+    ([Pixabay License](https://pixabay.com/de/service/license/))
 -   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by
     [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
     [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
+    on Wikipedia ([CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by
+    Marcel Marnitz, reworked by
+    [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann)
+    on Wikimedia Commons ([Public
+    Domain](https://en.wikipedia.org/wiki/Public_domain))
+-   [AvB - RoboCup 2013 -
+    Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605)
+    by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
+    Flickr.com ([CC BY
+    2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
+-   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by
+    [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
+    [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
     on Wikipedia ([CC BY-SA
     3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 -   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg)
@@ -11005,41 +10741,21 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on
     Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
-    [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
-    ([Unsplash License](https://unsplash.com/license))
 -   [Backgammon
     lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png)
     by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on
     Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [AvB - RoboCup 2013 -
-    Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605)
-    by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
-    Flickr.com ([CC BY
-    2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
--   ["künstliche
-    intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/)
-    by [Gerd Altmann
-    (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com
-    ([Pixabay License](https://pixabay.com/de/service/license/))
--   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by
-    [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
-    [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
-    on Wikipedia ([CC BY-SA
-    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
+    [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
+    ([Unsplash License](https://unsplash.com/license))
 -   [Turing Test version
     3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
     by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on
     Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by
-    Marcel Marnitz, reworked by
-    [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann)
-    on Wikimedia Commons ([Public
-    Domain](https://en.wikipedia.org/wiki/Public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 1f5f20a 2026-09-08 orga: update fahrplan (hsbi)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> cdcc1e2 2026-09-08 navbar: point to fahrplan (not to kursformat)<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in
     Graph-Search-Variante bei endlichem Suchraum
