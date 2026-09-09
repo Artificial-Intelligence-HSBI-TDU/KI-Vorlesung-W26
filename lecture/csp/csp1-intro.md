@@ -33,13 +33,13 @@
 
 ## Motivation: Einfärben von Landkarten
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map.png" width="50%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map.png" width="35%" /></picture></p>
 
 Die Skizze soll eine Landkarte mit verschiedenen Ländern darstellen. Die
 Aufgabe lautet: Färbe jedes Land mit einer Farbe ein, um die
 Übersichtlichkeit zu erhöhen. Verwende dabei so wenig wie möglich
 unterschiedliche Farben. Aneinander grenzende Länder müssen
-unterschiedliche Farben bekommen (=\> *Constraint*).
+unterschiedliche Farben bekommen ($\to$ *Constraint*).
 
 ## Einfärben von Landkarten: Formalisierung
 
@@ -110,17 +110,17 @@ hat ein Constraint?)
 -   **Präferenzen**: "soft constraints" Beispiel: "rot ist besser als
     grün"
 
-    Abbildung über Gewichtung =\> Constraint-Optimierungsproblem (COP)
+    Abbildung über Gewichtung $\to$ Constraint-Optimierungsproblem (COP)
 
 ## Constraints -- Wertebereiche
 
--   **Endliche Domänen**: $d$ Werte =\> $O(d^n)$ mögliche Zuweisungen
+-   **Endliche Domänen**: $d$ Werte $\to$ $O(d^n)$ mögliche Zuweisungen
     (exponentiell in der Zahl der Variablen)
 
 <!-- -->
 
--   **Unendliche Domänen**: reelle Zahlen, natürliche Zahlen =\> Keine
-    Auflistung der erlaubten Wertekombinationen mehr möglich =\>
+-   **Unendliche Domänen**: reelle Zahlen, natürliche Zahlen $\to$ Keine
+    Auflistung der erlaubten Wertekombinationen mehr möglich $\to$
     Übergang zu Gleichungen/Ungleichungen: $job_1+5<job_2$
     -   lineare Constraints
     -   nichtlineare Constraints
@@ -236,4 +236,4 @@ hat ein Constraint?)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

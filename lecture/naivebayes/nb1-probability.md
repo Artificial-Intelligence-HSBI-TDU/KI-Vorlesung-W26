@@ -30,12 +30,12 @@
 >
 > Dabei nennt man
 >
-> -   $P(A)$ **"Prior"** oder **"A-priori-Wahrscheinlichkeit"** (die
+> -   $P(A)$ **Prior** oder **A-priori-Wahrscheinlichkeit** (die
 >     Wahrscheinlichkeit für $A$ ohne weiteres Wissen),
-> -   $P(B \mid A)$ **"Likelihood"** (Wie wahrscheinlich ist das
->     Auftreten von $B$, gegeben $A$?),
-> -   $P(A \mid B)$ **"Posterior"** oder
->     **"A-posteriori-Wahrscheinlichkeit"** (Wie wahrscheinlich ist $A$,
+> -   $P(B \mid A)$ **Likelihood** (Wie wahrscheinlich ist das Auftreten
+>     von $B$, gegeben $A$?),
+> -   $P(A \mid B)$ **Posterior** oder
+>     **A-posteriori-Wahrscheinlichkeit** (Wie wahrscheinlich ist $A$,
 >     wenn $B$ eingetreten ist?), und
 > -   $P(B)$ ist ein Normierungsfaktor (Wie wahrscheinlich ist $B$ an
 >     sich?).
@@ -237,12 +237,12 @@ $P(A,B) = P(A \mid B)P(B) = P(B \mid A)P(A)$
 
 $$P(A \mid B) = \frac{P(B \mid A)P(A)}{P(B)}$$
 
--   $P(A)$ nennt man **"Prior"** oder **"A-priori-Wahrscheinlichkeit"**
-    (Das ist die Wahrscheinlichkeit für $A$ ohne weiteres Wissen)
--   $P(B \mid A)$ nennt man **"Likelihood"** (Wie wahrscheinlich ist das
+-   $P(A)$ nennt man **Prior** oder **A-priori-Wahrscheinlichkeit** (Das
+    ist die Wahrscheinlichkeit für $A$ ohne weiteres Wissen)
+-   $P(B \mid A)$ nennt man **Likelihood** (Wie wahrscheinlich ist das
     Auftreten von $B$, gegeben $A$?)
--   $P(A \mid B)$ nennt man **"Posterior"** oder
-    **"A-posteriori-Wahrscheinlichkeit"** (Wie wahrscheinlich ist $A$,
+-   $P(A \mid B)$ nennt man **Posterior** oder
+    **A-posteriori-Wahrscheinlichkeit** (Wie wahrscheinlich ist $A$,
     wenn $B$ eingetreten ist?)
 -   $P(B)$ ist ein Normierungsfaktor
 
@@ -272,7 +272,7 @@ Erkrankung gegeben bestimmte Symptome berechnen.
 -   Eine von 10.000 Personen hat Arthrose
 -   Eine von 10 Personen hat ein steifes Gelenk
 
-=\> Ich habe ein steifes Gelenk. Habe ich Arthrose?
+$\to$ Ich habe ein steifes Gelenk. Habe ich Arthrose?
 
 -   Gegeben: $P(A) = 0.0001,   P(S) = 0.1,   P(S \mid A) = 0.8$
 -   Gesucht: $P(A \mid S)$
@@ -283,7 +283,7 @@ Wenn ein steifes Gelenk vorliegt, ist die Wahrscheinlichkeit, dann an
 Arthrose erkrankt zu sein, bei nur 0.08%. Kein Grund zur Sorge in diesem
 Fall :-)
 
-=\> Wie wahrscheinlich ist ein steifes Gelenk ohne Arthrose, also
+$\to$ Wie wahrscheinlich ist ein steifes Gelenk ohne Arthrose, also
 $P(S \mid \neg A$)?
 
 Mit Marginalisierung:
@@ -311,7 +311,7 @@ Ex. 7.9, S. 135) an!
 -   Zwei Ereignisse $A$ und $B$ sind **unabhängig**, wenn
     $$P(A \mid B) = P(A)$$
 
-    =\> $P(A,B) = P(A \mid B)P(B) = P(A)P(B)$
+    $\to$ $P(A,B) = P(A \mid B)P(B) = P(A)P(B)$
 
 Dies kann man verallgemeinern (**bedingte Unabhängigkeit**):
 
@@ -405,4 +405,4 @@ $$P(X,Y \mid Z) = P(X \mid Y,Z)P(Y \mid Z) = P(X \mid Z)P(Y \mid Z)$$
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e5c1685 2026-01-12 lecture: reformat NB<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

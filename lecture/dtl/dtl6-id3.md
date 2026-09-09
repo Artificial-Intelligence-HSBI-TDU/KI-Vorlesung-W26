@@ -41,7 +41,7 @@ Erinnerung: CAL2
 -   Ausschließlich aktuelles Objekt betrachtet
 -   Reihenfolge der "richtigen" Attributwahl bei Verzweigung unklar
 
-=\> Betrachte stattdessen die **komplette** Trainingsmenge!
+$\to$ Betrachte stattdessen die **komplette** Trainingsmenge!
 
 ## Erinnerung Entropie: Maß für die Unsicherheit
 
@@ -66,7 +66,7 @@ Je kleiner $R(S,A)$, um so kleiner die **verbleibende Unsicherheit**
 bzw. um so kleiner die Anzahl der nötigen Bits zur Darstellung der
 partitionierten Trainingsmenge **nach** Betrachtung von Attribut $A$ ...
 
-=\> Je kleiner $R(S,A)$, um so größer der Informationsgewinn
+$\to$ Je kleiner $R(S,A)$, um so größer der Informationsgewinn
 
 ## Informationsgewinn: Kriterium zur Auswahl von Attributen
 
@@ -92,7 +92,7 @@ $$\begin{eqnarray}
                              &=& 0.13 \mathop{\text{Bit}}
 \end{eqnarray}$$
 
-Informationsgewinn für $x_2$ am höchsten =\> wähle $x_2$ als nächsten
+Informationsgewinn für $x_2$ am höchsten $\to$ wähle $x_2$ als nächsten
 Test
 
 ## Entscheidungsbaumlerner ID3 (Quinlan, 1986)
@@ -140,9 +140,9 @@ Klasse! Es kann also auch ein anderes Klassensymbol als "`A`" sein ...
 | 6   | 0     | 1     | 0     | A   |
 
 -   $x2$ höchsten Information Gain
--   $x2=0$ =\> Beispiele 1,2 =\> A
--   $x2=1$ =\> Beispiele 3,4,5,6 =\> Information Gain berechnen, weiter
-    teilen und verzweigen
+-   $x2=0$ $\to$ Beispiele 1,2 $\to$ A
+-   $x2=1$ $\to$ Beispiele 3,4,5,6 $\to$ Information Gain berechnen,
+    weiter teilen und verzweigen
 
 ## Beobachtung: $\mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
 
@@ -156,7 +156,7 @@ Klasse! Es kann also auch ein anderes Klassensymbol als "`A`" sein ...
     -   Entropie =
         $H(\mathop{\text{Dice}}) = -4\cdot(0.25 \log_2 0.25) = 2 \mathop{\text{Bit}}$
 
-=\> $\mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
+$\to$ $\mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
 
 Damit würden Attribute bei der Wahl bevorzugt, nur weil sie mehr
 Ausprägungen haben als andere.
@@ -228,7 +228,7 @@ Hierzu drei lesenswerte Blog-Einträge:
     -   Normierter Informationsgewinn:
         $\mathop{\text{Gain}}(S, A) \cdot \mathop{\text{Normalisation}}(A) = 2 \mathop{\text{Bit}} \cdot 0.5 = 1 \mathop{\text{Bit}}$
 
-=\> Normierung sorgt für fairen Vergleich der Attribute
+$\to$ Normierung sorgt für fairen Vergleich der Attribute
 
 *Anmerkung*: Auch hier ist die Entropie natürlich kein
 $\mathop{\text{Gain}}(S, A)$. Das Beispiel soll nur übersichtlich
@@ -345,4 +345,4 @@ durch die Normierung in C4.5 aufgehoben wird.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> bc84ce6 2026-09-08 lecture: remove remaining cal3 occurences<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

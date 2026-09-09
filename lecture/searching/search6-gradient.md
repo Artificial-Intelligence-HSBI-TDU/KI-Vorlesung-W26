@@ -36,7 +36,7 @@ Bisher betrachtete Suchverfahren:
 -   Systematische Erkundung des Suchraums
 -   **Weg** zur Lösung wichtig
 
-=\> Oft aber nur das **Ziel an sich** interessant! (Und nicht, wie man
+$\to$ Oft aber nur das **Ziel an sich** interessant! (Und nicht, wie man
 dort hin gelangt.)
 
 Beispiel: Stundenplan
@@ -48,7 +48,7 @@ Beispiel: Stundenplan
 **Gradienten-Suche**: "Gehe in Richtung des steilsten Anstiegs der
 Zielfunktion."
 
-=\> Schrittweise Verbesserung des aktuellen Zustands (Lokale Suche)
+$\to$ Schrittweise Verbesserung des aktuellen Zustands (Lokale Suche)
 
 -   Verschiedene Namen: "Hill-climbing", "Greedy local search"
 -   Kann auch als Minimierung angewendet werden
@@ -90,7 +90,7 @@ Schauen Sie sich auch Abb. 4.3 auf Seite 130 im Russell und Norvig
 ([2021](#ref-Russell2021)) an!
 
 **Hinweis**: Alle Damen stehen von Anfang an auf dem Brett und werden
-nur verschoben =\> "vollständige Zustandsformulierung"
+nur verschoben $\to$ "vollständige Zustandsformulierung"
 
 ### Eigenschaften 8-Damen-Problem ($n=8$)
 
@@ -213,4 +213,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

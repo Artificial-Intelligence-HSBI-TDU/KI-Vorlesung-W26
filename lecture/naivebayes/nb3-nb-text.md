@@ -77,7 +77,8 @@ und wenden Sie diesen auf die Test-Dokumente an.
 
     Dabei am besten auch Zeichensetzung mit entfernen.
 
--   **Lemmatisierung**: "fraßen" -\> "fressen", "Wölfe" -\> "Wolf", ...
+-   **Lemmatisierung**: "fraßen" $\to$ "fressen", "Wölfe" $\to$ "Wolf",
+    ...
 
     Die Wörter werden auf ihre "Grundform" gebracht: gebeugte Verben
     durch den Infinitiv ersetzt oder Plurale durch den Singular ersetzt
@@ -232,11 +233,11 @@ Entscheidung: OK
 
 **Beobachtungen**:
 
-1.  Viele kleine Faktoren ergeben ein immer kleineres Produkt =\>
+1.  Viele kleine Faktoren ergeben ein immer kleineres Produkt $\to$
     Logarithmus nutzen und Übergang zu Summe statt Produkt!
 2.  Im Trainingsdatensatz nicht vorhandene Terme bei einer Klasse führen
     zu einem Faktor 0 (Zero-Frequency-Problem), wodurch der gesamte
-    Score 0 wird. =\> Laplace-Glättung einsetzen!
+    Score 0 wird. $\to$ Laplace-Glättung einsetzen!
 3.  Im Testdatensatz nicht vorhandene Terme des Vokabulars werden
     automatisch ignoriert, da der *count* 0 ist und als Exponent
     verwendet den neutralen Faktor 1 ergibt.
@@ -388,9 +389,9 @@ T1: (sieben, zwerg, fressen, sieben, wolf, **lecker**)
 
 **Mapping**:
 
--   $P(\text{lecker} \mid \text{OK})$ =\>
+-   $P(\text{lecker} \mid \text{OK})$ $\to$
     $P(\text{UNK} \mid \text{OK}) = 0.043$
--   $P(\text{lecker} \mid \text{SPAM})$ =\>
+-   $P(\text{lecker} \mid \text{SPAM})$ $\to$
     $P(\text{UNK} \mid \text{SPAM}) = 0.077$
 
 Mit dem UNK-Term kann man das Problem des Out-of-Vocabulary elegant
@@ -505,11 +506,11 @@ Entscheidung: OK
 
 **Beobachtungen**:
 
-1.  Viele kleine Faktoren ergeben ein immer kleineres Produkt =\>
+1.  Viele kleine Faktoren ergeben ein immer kleineres Produkt $\to$
     Logarithmus nutzen und Übergang zu Summe statt Produkt!
 2.  Im Trainingsdatensatz nicht vorhandene Terme bei einer Klasse führen
     zu einem Faktor 0 (Zero-Frequency-Problem), wodurch der gesamte
-    Score 0 wird. =\> Laplace-Glättung einsetzen!
+    Score 0 wird. $\to$ Laplace-Glättung einsetzen!
 3.  Im Testdatensatz nicht vorhandene Terme des Vokabulars werden
     automatisch korrekt mit $P(lw=0 \mid h)$ bzw. $(1 - P(lw=1 \mid h))$
     berücksichtigt. (Multinomial NB würde diese Terme mit dem Faktor 1
@@ -613,4 +614,4 @@ Entscheidung: OK
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 9b46c3e 2026-09-04 hsbi: use current dates<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

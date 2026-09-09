@@ -30,7 +30,7 @@
 > können, d.h. unter Umständen nicht auf alle Zustände angewendet werden
 > können. Die entstehende Struktur (Zustandsraum) kann man formal als
 > Graph repräsentieren: Die Zustände werden durch die Knoten und die
-> Aktionen als (gerichtete) Kanten im Graph dargestellt (=\>
+> Aktionen als (gerichtete) Kanten im Graph dargestellt ($\to$
 > Problemgraph).
 >
 > Das Problemlösen entspricht nun einer Suche im Problemgraphen: Man
@@ -405,4 +405,4 @@ Variante der Suche in dieser Lehrveranstaltung kurz als
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 2025-09-27 lecture: fix publishing year of AIMA<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

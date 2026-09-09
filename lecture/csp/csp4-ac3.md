@@ -45,7 +45,7 @@
 Zuweisung eines Wertes an Variable $X$:
 
 -   Passt zu aktueller Belegung
--   Berücksichtigt aber nicht **restliche** Constraints =\> macht
+-   Berücksichtigt aber nicht **restliche** Constraints $\to$ macht
     weitere Suche u.U. unmöglich/schwerer
 
 **Lösung**: Nach Zuweisung alle *nicht zugewiesenen Nachbarvariablen*
@@ -67,8 +67,8 @@ Nach Zuweisung eines Wertes an Variable $X$:
 
 Beispiel:
 
-1.  Sei A auf rot gesetzt =\> entferne rot in B und C
-2.  Sei D auf grün gesetzt =\> entferne grün in B und C und E
+1.  Sei A auf rot gesetzt $\to$ entferne rot in B und C
+2.  Sei D auf grün gesetzt $\to$ entferne grün in B und C und E
 
 Problem: Für B und C bleibt nur noch blau; sind aber benachbart!
 
@@ -87,7 +87,8 @@ Problem: Für B und C bleibt nur noch blau; sind aber benachbart!
 
 <!-- -->
 
--   Idee: Ausdehnen auf alle Kanten ... =\> Einschränken der Wertemengen
+-   Idee: Ausdehnen auf alle Kanten ... $\to$ Einschränken der
+    Wertemengen
 
 ## Definition Kantenkonsistenz (Arc Consistency)
 
@@ -116,7 +117,7 @@ $D_e=\lbrace 2,3 \rbrace$
 
 <div data-align="center">
 
-=\> Kantenkonsistenz ist nur **lokale** Konsistenz!
+$\to$ Kantenkonsistenz ist nur **lokale** Konsistenz!
 
 </div>
 
@@ -273,4 +274,4 @@ Schritt bei der Herstellung von Kantenkonsistenz interpretieren.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

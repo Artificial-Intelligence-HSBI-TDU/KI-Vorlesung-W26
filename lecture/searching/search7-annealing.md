@@ -54,11 +54,11 @@ Mögliche Lösungen:
 -   Ball wird in Zustandsraum-Landschaft gesetzt.
 -   Folge:
     -   rollt steilsten Abstieg hinunter
-    -   rollt evtl. in Tal auf halber Höhe (lokales Minimum) =\> bleibt
-        dort gefangen
+    -   rollt evtl. in Tal auf halber Höhe (lokales Minimum) $\to$
+        bleibt dort gefangen
 
-=\> "**Schütteln** der Landschaft" -- Ball springt aus dem Tal und rollt
-in anderes Tal
+$\to$ "**Schütteln** der Landschaft" -- Ball springt aus dem Tal und
+rollt in anderes Tal
 
 Nicht zu stark schütteln -- sonst wird u.U. globales Minimum verlassen!
 
@@ -67,15 +67,15 @@ Nicht zu stark schütteln -- sonst wird u.U. globales Minimum verlassen!
 -   Metall erhitzen bis Atome frei beweglich
 -   Langsam abkühlen
 
-=\> stabiles Atomgitter mit minimalem Energiezustand
+$\to$ stabiles Atomgitter mit minimalem Energiezustand
 
 ## Übertragen der Idee
 
 -   Starkes "Schütteln" (hohe "Temperatur") am Anfang
--   Schrittweises "Abkühlen" =\> "Schütteln" im Laufe der Zeit
+-   Schrittweises "Abkühlen" $\to$ "Schütteln" im Laufe der Zeit
     verringern
 
-=\> **Simulated Annealing**
+$\to$ **Simulated Annealing**
 
 ## Pseudocode Simulated Annealing (Minimierungsproblem)
 
@@ -187,8 +187,9 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 -   Gradientenverfahren
     -   Analogie Bergsteigen: Gehe in Richtung des stärksten Anstiegs
-        der Kostenfunktion =\> **Hill-Climbing**
-    -   Achtung: Probleme mit lokalen Minima =\> **Simulated Annealing**
+        der Kostenfunktion $\to$ **Hill-Climbing**
+    -   Achtung: Probleme mit lokalen Minima $\to$ **Simulated
+        Annealing**
 
 > [!TIP]
 >
@@ -282,4 +283,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     on Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/Public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

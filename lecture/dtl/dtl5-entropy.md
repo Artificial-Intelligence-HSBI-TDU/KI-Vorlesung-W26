@@ -36,9 +36,9 @@
 -   Ausschließlich aktuelles Objekt betrachtet
 -   Reihenfolge der "richtigen" Attributwahl bei Verzweigung unklar
 
-=\> Betrachte stattdessen die komplette Trainingsmenge!
+$\to$ Betrachte stattdessen die komplette Trainingsmenge!
 
-### Relevanz =\> Informationsgehalt
+### Relevanz $\to$ Informationsgehalt
 
 -   Shannon/Weaver (1949): **Entropie**
     -   Maß für die Unsicherheit einer Zufallsvariablen
@@ -52,11 +52,11 @@
 -   Fairer 4-seitiger Würfel: 4 mögliche Ausgänge: Entropie 2 Bit
 -   Münze, die zu 99% auf einer Seite landet: Entropie nahe Null
 
-=\> Anzahl der Ja/Nein-Fragen, um zur gleichen Information zu kommen
+$\to$ Anzahl der Ja/Nein-Fragen, um zur gleichen Information zu kommen
 
 ## Definition der Entropie $H(V)$ für Zufallsvariable $V$
 
--   Zufallsvariable $V$ =\> mögliche Werte $v_k$
+-   Zufallsvariable $V$ $\to$ mögliche Werte $v_k$
 -   Wahrscheinlichkeit für $v_k$ sei $p_k = P(v_k)$
 
 $$H(V) = -\sum_k p_k \log_2 p_k$$
@@ -66,9 +66,9 @@ $\log_2 x = \frac{\log_{10} x}{\log_{10} 2} = \frac{\log x}{\log 2}$
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range.png"  /></picture></p>
 
--   Nur eine Klasse: $\log_2 1 = 0$ =\> $H(V) = 0$ Bit
--   Zwei Klassen, gleichwahrscheinlich: $\log_2 0.5 = -1$ =\> $H(V) = 1$
-    Bit
+-   Nur eine Klasse: $\log_2 1 = 0$ $\to$ $H(V) = 0$ Bit
+-   Zwei Klassen, gleichwahrscheinlich: $\log_2 0.5 = -1$ $\to$
+    $H(V) = 1$ Bit
 
 ## Beispiele Entropie: faire Münze
 
@@ -299,4 +299,4 @@ Hierzu drei lesenswerte Blog-Einträge:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> bc84ce6 2026-09-08 lecture: remove remaining cal3 occurences<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

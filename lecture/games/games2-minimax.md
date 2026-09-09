@@ -51,7 +51,7 @@
 
 -   Zieltest: Ist das Spiel vorbei?
 
-    =\> Startzustand und anwendbare Aktionen definieren den
+    $\to$ Startzustand und anwendbare Aktionen definieren den
     Zustandsraum.
 
 -   Nutzenfunktion: $\mathop{\text{UTILITY}}(s,p)$: Wert des Spiels für
@@ -59,7 +59,7 @@
 
 -   Strategie: Spieler benötigen **Strategie**, um zu gewünschtem
     Endzustand zu kommen *(unabhängig von den Entscheidungen des
-    Gegenspielers)* =\> einfacher Pfad von Start zu Ziel reicht nicht
+    Gegenspielers)* $\to$ einfacher Pfad von Start zu Ziel reicht nicht
 
 *Hinweis*: Nullsummenspiel! (Der Gewinn des einen Spielers ist der
 Verlust des anderen Spielers.)
@@ -82,7 +82,7 @@ Minimax-Algorithmus nicht unbedingt eine optimale Strategie.
 
 1)  Erzeuge kompletten Suchbaum mit Tiefensuche
 2)  Wende Nutzenfunktion (*Utility*) auf jeden Endzustand an
-3)  Ausgehend von Endzuständen =\> Bewerte Vorgängerknoten:
+3)  Ausgehend von Endzuständen $\to$ Bewerte Vorgängerknoten:
     -   Knoten ist `Min`-Knoten: Nutzen ist das **Minimum** der
         Kindknoten
     -   Knoten ist `Max`-Knoten: Nutzen ist das **Maximum** der
@@ -157,7 +157,7 @@ def Minimax(state):
 
 -   maximale Tiefe des Spielbaums: $m$
 -   in jedem Zustand $b$ gültige Züge
--   =\> Zeitkomplexität $O(b^m)$
+-   $\to$ Zeitkomplexität $O(b^m)$
 
 Gedankenexperiment:
 
@@ -280,4 +280,4 @@ Gedankenexperiment:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

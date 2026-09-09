@@ -34,7 +34,7 @@
 
 </div>
 
-=\> **Problemlösen == Suche im Graphen**
+$\to$ **Problemlösen == Suche im Graphen**
 
 **Uninformierte ("blinde") Suche**:
 
@@ -60,7 +60,7 @@ Varianten:
 3.  Falls die Datenstruktur leer ist: Abbruch, melde "*nicht gefunden*"
 4.  Gehe zu Schritt 2
 
-=\> Was passiert, wenn wir eine **Queue** einsetzen?
+$\to$ Was passiert, wenn wir eine **Queue** einsetzen?
 
 <div data-align="center">
 
@@ -73,7 +73,8 @@ Varianten:
 -   Nachfolger eines Knotens: Alle von diesem Zustand durch Aktionen
     erreichbare Zustände
 
--   Suchalgorithmus mit **Queue** als Datenstruktur =\> **Breitensuche**
+-   Suchalgorithmus mit **Queue** als Datenstruktur $\to$
+    **Breitensuche**
 
     -   Zu betrachtender Knoten in Schritt 2 wird *vorn* aus der Queue
         genommen
@@ -85,7 +86,7 @@ Varianten:
     "Breitensuche")
 
 -   Graph-Search: Markierte Knoten müssen geeignet gespeichert werden:
-    separate Datenstruktur =\> Aufwand!
+    separate Datenstruktur $\to$ Aufwand!
 
 ## Konventionen für diese Lehrveranstaltung
 
@@ -151,7 +152,7 @@ anwendbaren Operationen bestimmt.)
 
 **Tiefensuche**: Annahme: längster Pfad (Tiefe) $m=1000$
 
-=\> Speicherbedarf **ca. 10 MB**
+$\to$ Speicherbedarf **ca. 10 MB**
 
 ## Wrap-Up
 
@@ -222,7 +223,7 @@ anwendbaren Operationen bestimmt.)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in
     Graph-Search-Variante bei endlichem Suchraum

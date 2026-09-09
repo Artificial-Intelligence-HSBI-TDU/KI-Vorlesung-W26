@@ -39,7 +39,7 @@
 
 </div>
 
-=\> **Problemlösen == Suche im Graphen**
+$\to$ **Problemlösen == Suche im Graphen**
 
 **Informierte Suche: Nutzung der Kostenfunktion**:
 
@@ -47,7 +47,7 @@
 
 -   $n \in S$ auf aktuellem Weg erreichter Knoten
 -   $g(n)$ tatsächliche Kosten für Weg vom Start bis Knoten $n$
--   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel =\>
+-   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to$
     $h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
 
 Varianten:
@@ -115,7 +115,7 @@ Weg aus der Queue entfernt wird, weil ein günstigerer Weg zum selben
     -   $h(n) \ge 0$ für jeden Knoten $n$
     -   $h(n) = 0$ für jeden Zielknoten $n$
 
-=\> Beispiel: Luftlinie als Abschätzung
+$\to$ Beispiel: Luftlinie als Abschätzung
 
 **Hinweis**: Im der englischen Ausgabe des ([Russell und Norvig
 2021](#ref-Russell2021)) wird die **zulässige Heuristik** auch
@@ -139,7 +139,8 @@ Beweis siehe Übung :-)
 
 -   Übergang zur Graph-Search-Variante und Markierung von Knoten
 
-    =\> Achtung: Dann schärfere Anforderungen an Heuristik (Konsistenz)
+    $\to$ Achtung: Dann schärfere Anforderungen an Heuristik
+    (Konsistenz)
 
 ## A\*-Suche -- Anforderungen an Heuristik (Graph-Search)
 
@@ -154,7 +155,7 @@ Außerdem muss gelten:
 -   $h(n) \ge 0$ für jeden Knoten $n$
 -   $h(n) = 0$ für jeden Zielknoten $n$
 
-=\> Eine konsistente Heuristik ist gleichzeitig zulässig.
+$\to$ Eine konsistente Heuristik ist gleichzeitig zulässig.
 
 **Hinweis**: Im der englischen Ausgabe des ([Russell und Norvig
 2021](#ref-Russell2021)) wird die **konsistente Heuristik** auch
@@ -174,7 +175,7 @@ Außerdem muss gelten:
 
 -   Informierte Suchverfahren
     -   Nutzen reale Pfadkosten und/oder Schätzungen der Restkosten
-    -   A\*: komplette Kostenfunktion $f(n) = g(n)+h(n)$ =\> besondere
+    -   A\*: komplette Kostenfunktion $f(n) = g(n)+h(n)$ $\to$ besondere
         Anforderungen an die Heuristik! (Tree-Search: *zulässige*
         Heuristik; Graph-Search: *konsistente* Heuristik)
 
@@ -286,7 +287,7 @@ Außerdem muss gelten:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 9b46c3e 2026-09-04 hsbi: use current dates<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
 
 [^1]: BnB vollständig: Kosten größer Epsilon (positiv)
 

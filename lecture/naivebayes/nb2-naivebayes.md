@@ -11,8 +11,7 @@
 > (Klassifikation) erfolgt dann durch die Nutzung der beim "Training"
 > berechneten bedingten Wahrscheinlichkeiten:
 >
-> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1,  \ldots, D_n) =
-> \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$
+> $$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$$
 >
 > Für jede Hypothese $h$, d.h. für jede Klasse, wird der Posterior
 > $P(h \mid D_1, \ldots, D_n)$ ausgerechnet. Die Klasse, deren Wert
@@ -47,8 +46,8 @@
 >
 > Oft nimmt man zusätzlich an, dass für alle Hypothesen (Klassen) $h$
 > der Prior $P(h)$ gleich ist. Dann kann man diesen Faktor ebenfalls aus
-> der Berechnung entfernen. Dieses Verfahren nennt man auch "**Maximum
-> Likelihood**".
+> der Berechnung entfernen. Dieses Verfahren nennt man auch **Maximum
+> Likelihood**.
 >
 > Der NB-Klassifikator wird gern für die Textklassifikation eingesetzt.
 > Hier muss man einem Text ein Label zuordnen. In einer Vorverarbeitung
@@ -79,7 +78,7 @@
 -   Eine von 10.000 Personen hat Arthrose: $P(A) = 0.0001$
 -   Eine von 10 Personen hat ein steifes Gelenk: $P(S) = 0.1$
 
-=\> Ich habe ein steifes Gelenk. Habe ich Arthrose?
+$\to$ Ich habe ein steifes Gelenk. Habe ich Arthrose?
 
 ## Textklassifikation mit NB
 
@@ -119,6 +118,8 @@ und wenden Sie diesen auf die beiden Test-Dokumente an.
     unterstützt wird.
 
 ## Bayes'sches Lernen
+
+**Naive Bayes Klassifikator**/**MAP**:
 
 $$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n)
 = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$$
@@ -180,7 +181,7 @@ berechnet werden!)
     h = gesund: P(gesund) * P(Nase=0 | gesund) * P(Husten=1 | gesund) * P(Haut=0 | gesund) * P(Fieber=1 | gesund) = 0.4*0.5*0*1*0              = 0
     h = krank:  P(krank)  * P(Nase=0 | krank)  * P(Husten=1 | krank)  * P(Haut=0 | krank)  * P(Fieber=1 | krank)  = 0.6*0.333*0.667*0.33*0.333 = 0.015
 
-=\> Klasse "krank" gewinnt (Wert für $P(\text{krank})$ ist der höchste
+$\to$ Klasse "krank" gewinnt (Wert für $P(\text{krank})$ ist der höchste
 der beiden Hypothesen) ...
 
 ## Textklassifikation mit NB
@@ -217,7 +218,7 @@ der beiden Hypothesen) ...
 
 -   Unabhängigkeit der Attribute oft nicht gegeben
 
-    =\> $P(D_1, \ldots, D_n \mid H) \ne \prod_i P(D_i \mid H)$
+    $\to$ $P(D_1, \ldots, D_n \mid H) \ne \prod_i P(D_i \mid H)$
 
 -   A-posteriori-Wahrscheinlichkeiten oft unrealistisch nah an 1 oder 0
 
@@ -298,11 +299,9 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 >
 > Anwendung der Naive Bayes Klassifikation (mit Annahme bedingt
 > unabhängige Merkmale): Wir nutzen
-> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n)
-> = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$ und
-> setzen unsere beiden Merkmale ein:
-> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid x_1, x_2)
-> = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1 \mid h) P(x_2 \mid h)$.
+> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$
+> und setzen unsere beiden Merkmale ein:
+> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1 \mid h) P(x_2 \mid h)$.
 >
 > Damit bekommen wir folgende Entscheidung:
 >
@@ -313,8 +312,7 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 > Da die Merkmale nicht unabhängig sind, darf die Produktannahme nicht
 > verwendet werden, sondern wir müssten eigentlich den Term
 > $P(x_1, x_2 \mid h)$ nutzen:
-> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid x_1, x_2)
-> = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 \mid h)$.
+> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 \mid h)$.
 >
 > Aus den gegebenen Daten haben wir (einfach oben ablesen):
 >
@@ -322,8 +320,7 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 > -   $P(x_1=1, x_2=1 \mid 1) = 0.05$
 >
 > Eingesetzt in die Formel
-> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid x_1, x_2)
-> = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 \mid h)$:
+> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 \mid h)$:
 >
 > -   $H=0: 0.5 * 0.20 = 0.10$
 > -   $H=1: 0.5 * 0.05 = 0.025$
@@ -347,8 +344,8 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 
 -   Problem: Attribut-Ausprägung für bestimmte Klasse nicht in
     Trainingsmenge:
-    -   =\> Bedingte Wahrscheinlichkeit ist 0
-    -   =\> Produkt gleich 0
+    -   $\to$ Bedingte Wahrscheinlichkeit ist 0
+    -   $\to$ Produkt gleich 0
 
 <!-- -->
 
@@ -369,8 +366,8 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
         für eine Attributausprägung ist 1/(Anzahl der Ausprägungen des
         Attributs))
 
-    =\> "virtuelle" Trainingsbeispiele ($m$ ist die Zahl der virtuellen
-    Trainingsbeispiele)
+    $\to$ "virtuelle" Trainingsbeispiele ($m$ ist die Zahl der
+    virtuellen Trainingsbeispiele)
 
 ## Probleme mit Floating Point Underflow
 
@@ -399,12 +396,12 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 
 <!-- -->
 
--   Annahme: Klassen uniform verteilt =\> $P(h_i) = P(h_j)$
+-   Annahme: Klassen uniform verteilt $\to$ $P(h_i) = P(h_j)$
 
     **Maximum Likelihood**
     $$h_{ML} = \mathop{\text{argmax}}_{h \in H} \: \prod_i P(D_i \mid h)$$
 
-    =\> Maximiere die Likelihood der Daten
+    $\to$ Maximiere die Likelihood der Daten
 
 ## Ausblick: Kontinuierliche Attribute
 
@@ -435,7 +432,7 @@ In Abhängigkeit von der Verteilung der $P(D_i \mid h)$ spricht man von
 ## Wrap-Up
 
 -   Klassifikation mit Naive Bayes
-    -   Annahme von Unabhängigkeit =\> "Naive" Bayes Klassifikation
+    -   Annahme von Unabhängigkeit $\to$ "Naive" Bayes Klassifikation
     -   Schätzen der bedingten Wahrscheinlichkeiten aus den
         Trainingsdaten
     -   Klassifikation durch Nutzung der geschätzten
@@ -550,4 +547,4 @@ In Abhängigkeit von der Verteilung der $P(D_i \mid h)$ spricht man von
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e5c1685 2026-01-12 lecture: reformat NB<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> ad401eb 2026-09-09 nb: improve example<br></sub></sup></p></blockquote>

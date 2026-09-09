@@ -36,7 +36,7 @@
 
 </div>
 
-=\> **Problemlösen == Suche im Graphen**
+$\to$ **Problemlösen == Suche im Graphen**
 
 **Informierte Suche: Nutzung der Kostenfunktion**:
 
@@ -44,7 +44,7 @@
 
 -   $n \in S$ auf aktuellem Weg erreichter Knoten
 -   $g(n)$ tatsächliche Kosten für Weg vom Start bis Knoten $n$
--   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel =\>
+-   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to$
     $h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
 
 Varianten:
@@ -206,4 +206,4 @@ Siehe [A\*](./search5-astar.md)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

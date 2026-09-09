@@ -205,14 +205,14 @@ Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
 Zum Bestehen des Turing-Tests ist (u.a.) erforderlich:
 
--   *Wissensrepräsentation*: Speichern des gesammelten Wissens **=\>**
+-   *Wissensrepräsentation*: Speichern des gesammelten Wissens **$\to$**
     **Wissensbasierte Systeme**
 -   *Logisches Schließen*: Beantworten von Fragen mit Hilfe des
-    vorhandenen Wissens **=\>** **Logik, Resolution**
--   *Maschinelles Lernen*: Anpassung an veränderliches Umfeld **=\>**
+    vorhandenen Wissens **$\to$** **Logik, Resolution**
+-   *Maschinelles Lernen*: Anpassung an veränderliches Umfeld **$\to$**
     **Musteranalyse und Mustererkennung und Mustervorhersage**
 -   *Verarbeitung natürlicher Sprache*: Erfolgreiche Kommunikation,
-    beispielsweise in Englisch **=\>** **NLP**
+    beispielsweise in Englisch **$\to$** **NLP**
 
 "Totaler Turing-Test": zusätzlich **Computer Vision** (Erkennen von
 Objekten) und **Robotik** (Manipulation von Objekten)
@@ -294,7 +294,7 @@ Damit erhält man vier Kombinationen:
 > Modellen (Deep Learning) kann diese Tradition aktuell große Erfolge
 > vorzeigen.
 
-### Rationales Denken: Aristoteles: Was sind korrekte Argumente und Denkprozesse? =\> Wie sollen wir denken?
+### Rationales Denken: Aristoteles: Was sind korrekte Argumente und Denkprozesse? $\to$ Wie sollen wir denken?
 
 Beispiel:
 
@@ -583,11 +583,6 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
     Flickr.com ([CC BY
     2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
--   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by
-    [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
-    [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
-    on Wikipedia ([CC BY-SA
-    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 -   [Turing Test version
     3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
     by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on
@@ -598,5 +593,10 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
     on Wikipedia ([CC BY-SA
     3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by
+    [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
+    [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
+    on Wikipedia ([CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

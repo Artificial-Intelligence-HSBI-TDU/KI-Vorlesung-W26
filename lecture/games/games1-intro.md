@@ -46,9 +46,9 @@ beste Zug?!**
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/tttEnd_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/tttEnd.png" width="10%" /></picture></p>
 
-=\> Mehrere **konkurrierende** Agenten an Suche beteiligt!
+$\to$ Mehrere **konkurrierende** Agenten an Suche beteiligt!
 
-=\> (Re-) Aktion des Gegners unbekannt/nicht vorhersehbar.
+$\to$ (Re-) Aktion des Gegners unbekannt/nicht vorhersehbar.
 
 ## Spiele und Umgebungen
 
@@ -57,7 +57,7 @@ beste Zug?!**
 | Voll beobachtbar     | Schach, Go, ...   | Backgammon, Monopoly     |
 | Partiell beobachtbar | Schiffe-versenken | Bridge, Poker, Skat, ... |
 
-=\> Bis auf Roboterfußball in KI traditionell keine physischen Spiele!
+$\to$ Bis auf Roboterfußball in KI traditionell keine physischen Spiele!
 
 ## Brettspiele sind interessant für KI
 
@@ -73,7 +73,7 @@ beste Zug?!**
     Beispiel **Schach**:
 
     -   Im Mittel 35 Aktionen (*branching factor*) von jeder Position
-    -   Oft mehr als 40 Züge pro Spieler =\> Suchbäume mit mehr als 80
+    -   Oft mehr als 40 Züge pro Spieler $\to$ Suchbäume mit mehr als 80
         Ebenen
     -   $35^{80} \approx 10^{123}$ mögliche Knoten!
     -   (Aber "nur" rund $10^{40}$ *verschiedene* Zustände)
@@ -83,7 +83,7 @@ beste Zug?!**
 ## Eigenschaften guter Spielalgorithmen
 
 -   Zeit begrenzt
-    -   Irgendeine gute Entscheidung treffen! =\> Bewertungsfunktion
+    -   Irgendeine gute Entscheidung treffen! $\to$ Bewertungsfunktion
         (auch für Zwischenzustände)
 
 <!-- -->
@@ -171,4 +171,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

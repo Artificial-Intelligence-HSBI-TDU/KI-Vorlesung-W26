@@ -34,4 +34,4 @@ Die Übungsaufgaben werden wir in der Übungsstunde gemeinsam lösen.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 22210fa 2026-09-08 Update exams-tdu.md (#523)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 7695eb8 2026-09-09 exams: reformat markdown<br></sub></sup></p></blockquote>

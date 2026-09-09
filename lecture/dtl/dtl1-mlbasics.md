@@ -58,7 +58,7 @@
 -   Data Mining: Entdeckung neuen Wissens durch Analyse der Daten
 -   Selbstanpassende Programme
 
-=\> Lernen wichtige Eigenschaft lebender Wesen :-)
+$\to$ Lernen wichtige Eigenschaft lebender Wesen :-)
 
 ## Learning Agent
 
@@ -70,7 +70,7 @@
     -   Lernen durch Beobachtung
     -   Vorgabe von Beispielen: Ein- und Ausgabewerte
 
-    =\> Regression, Klassifikation
+    $\to$ Regression, Klassifikation
 
 <!-- -->
 
@@ -113,13 +113,13 @@
 
 -   **Gegeben**: Eigenschaften eines Autos
 
-    =\> Eigenschaften: Ausprägungen der Merkmale
+    $\to$ Eigenschaften: Ausprägungen der Merkmale
 
 <!-- -->
 
 -   **Gesucht**: Diagnose und Reparaturanleitung
 
-    =\> Hypothese über den Merkmalen (Funktion $\mathop{\text{h}}$)
+    $\to$ Hypothese über den Merkmalen (Funktion $\mathop{\text{h}}$)
 
 ## Lernen durch Beobachten: Lernen einer Funktion $\mathop{\text{f}}$
 
@@ -138,7 +138,7 @@ von Beispielen
 
 -   Aufgabe: Baue Hypothese $\mathop{\text{h}}$ auf, so dass
     $\mathop{\text{h}} \approx \mathop{\text{f}}$.
-    -   Benutze dazu Menge von Beispielen =\> **Trainingsdaten**.
+    -   Benutze dazu Menge von Beispielen $\to$ **Trainingsdaten**.
 
 <!-- -->
 
@@ -218,13 +218,13 @@ unerwünscht!
 Lehrer gibt Beispiele vor: Eingabe $\mathbf{x}$ und passende Ausgabe
 $\mathop{\text{f}}(\mathbf{x})$
 
--   Ausgabe: typischerweise Skalar (Funktionswert oder Klasse) =\>
+-   Ausgabe: typischerweise Skalar (Funktionswert oder Klasse) $\to$
     Beispiel: Bewertung eines Spielstandes bei TicTacToe
 
 <!-- -->
 
 -   Eingabe: (Beschreibung des) Objekt(s) oder Situation, die zur
-    Ausgabe gehört =\> Beispiel: Spielstand bei TicTacToe
+    Ausgabe gehört $\to$ Beispiel: Spielstand bei TicTacToe
 
 **Merkmalsvektoren**:
 
@@ -388,4 +388,4 @@ Anzahl erlaubter Werte ("Ausprägungen") ...
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> f393f68 2025-09-27 lecture: fix publishing year of AIMA<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

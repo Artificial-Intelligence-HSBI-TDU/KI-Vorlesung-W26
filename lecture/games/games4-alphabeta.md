@@ -48,7 +48,7 @@
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimax_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimax.png" width="35%" /></picture></p>
 
-=\> **Minimax-Baum**: Verbesserungen möglich?
+$\to$ **Minimax-Baum**: Verbesserungen möglich?
 
 ## Alpha-beta-Pruning
 
@@ -57,7 +57,7 @@ Minimax-Algorithmus mit zusätzlichen Informationen:
 -   $\alpha$: bisher bester Wert für MAX (höchster Wert)
 -   $\beta$: bisher bester Wert für MIN (kleinster Wert)
 
-=\> Beobachtungen:
+$\to$ Beobachtungen:
 
 1.  $\alpha$ für MAX-Knoten wird nie kleiner
 2.  $\beta$ für MIN-Knoten wird nie größer
@@ -130,7 +130,7 @@ Werten.
 
 2.  Sortierung der Nachfolger spielt große Rolle
 
-3.  Perfekte Sortierung: $O(b^{d/2})$ =\> Verdopplung der Suchtiefe
+3.  Perfekte Sortierung: $O(b^{d/2})$ $\to$ Verdopplung der Suchtiefe
     möglich
 
 Für Schach immer noch zu aufwändig ...
@@ -138,7 +138,7 @@ Für Schach immer noch zu aufwändig ...
 ## Verbesserungen für Alpha-beta-Pruning
 
 -   "Killer-Move": Maximale Effizienz nur wenn **optimaler Zug immer
-    zuerst** untersucht =\> Zu untersuchende Züge
+    zuerst** untersucht $\to$ Zu untersuchende Züge
     **sortieren/priorisieren**, zb. Schach:
     a)  Figuren schlagen
     b)  Drohen
@@ -328,4 +328,4 @@ Quelle: ([<span class="nocase">Silver u. a.</span>
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

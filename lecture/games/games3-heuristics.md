@@ -23,7 +23,7 @@
 > erreichbaren `Max`- oder `Min`-Wert gewichten. Die Summe dieser
 > gewichteten Bewertungen ist die Bewertung des entsprechenden
 > "Chance"-Knotens, der dann in der darüberliegenden Ebene nach dem
-> Minimax-Prinzip ausgewertet wird (=\> *Expectimax*).
+> Minimax-Prinzip ausgewertet wird ($\to$ *Expectimax*).
 >
 > </details>
 
@@ -59,7 +59,7 @@
 -   Mögliche Evaluierungskriterien:
     -   Materialwert: Bauer 1, Läufer/Springer 3, Turm 5, Dame 9
     -   Stellungsbewertung: Sicherheit des Königs, Stellung der Bauern
-    -   Daumenregeln: 3 Punkte Vorteil =\> sicherer Sieg
+    -   Daumenregeln: 3 Punkte Vorteil $\to$ sicherer Sieg
 
 <!-- -->
 
@@ -72,11 +72,11 @@
 <!-- -->
 
 -   **Alternativ**:
-    -   Speicherung von Positionen plus Bewertung in **Datenbanken** =\>
-        Lookup mit $\mathop{\text{Eval}}(s)$ (statt Berechnung zur
+    -   Speicherung von Positionen plus Bewertung in **Datenbanken**
+        $\to$ Lookup mit $\mathop{\text{Eval}}(s)$ (statt Berechnung zur
         Laufzeit)
     -   Training von **ML-Modellen** (Eingabe: Position, Ausgabe:
-        Bewertung) =\> Lookup mit $\mathop{\text{Eval}}(s)$ (statt
+        Bewertung) $\to$ Lookup mit $\mathop{\text{Eval}}(s)$ (statt
         Berechnung zur Laufzeit also eine Art Klassifikation der
         aktuellen Position durch das MLP, welches die gelernte Bewertung
         ausgibt)
@@ -152,7 +152,8 @@ um das Würfelergebnis repräsentieren zu können. Je möglichem
 Würfelergebnis $i$ gibt es einen Ausgang, an dem die Wahrscheinlichkeit
 $P(i)$ dieses Ausgangs annotiert wird.
 
-=\> Für Zufallsknoten **erwarteten** Minimax-Wert (*Expectimax*) nutzen
+$\to$ Für Zufallsknoten **erwarteten** Minimax-Wert (*Expectimax*)
+nutzen
 
 ## Minimax mit Zufall: Expectimax
 
@@ -265,4 +266,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

@@ -64,7 +64,7 @@ Dabei sind die Durchgänge teilweise nur in einer Richtung zu benutzen
 
 </div>
 
-=\> **Problemlösen == Suche im Graphen**
+$\to$ **Problemlösen == Suche im Graphen**
 
 **Uninformierte ("blinde") Suche**:
 
@@ -107,7 +107,7 @@ Reihenfolge der Knoten (Orte).
 3.  Falls die Datenstruktur leer ist: Abbruch, melde "*nicht gefunden*"
 4.  Gehe zu Schritt 2
 
-=\> Was passiert, wenn wir einen **Stack** einsetzen?
+$\to$ Was passiert, wenn wir einen **Stack** einsetzen?
 
 <div data-align="center">
 
@@ -120,7 +120,8 @@ Reihenfolge der Knoten (Orte).
 -   Nachfolger eines Knotens: Alle von diesem Zustand durch Aktionen
     erreichbare Zustände
 
--   Suchalgorithmus mit **Stack** als Datenstruktur =\> **Tiefensuche**
+-   Suchalgorithmus mit **Stack** als Datenstruktur $\to$
+    **Tiefensuche**
 
     -   Zu betrachtender Knoten in Schritt 2 wird *oben* vom Stack
         genommen
@@ -263,4 +264,4 @@ Siehe [Breitensuche](./search2-bfs.md)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

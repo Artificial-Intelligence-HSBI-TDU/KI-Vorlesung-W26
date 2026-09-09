@@ -62,7 +62,7 @@ Quelle: [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example.png" width="25%" /></picture></p>
 
 Jedes Individuum kodiert ein Spielfeld mit einer konkreten Anordnung
-**aller** Königinnen =\> **Vollständige Zustandsbeschreibung**.
+**aller** Königinnen $\to$ **Vollständige Zustandsbeschreibung**.
 
 Dabei korrespondiert der Index in das Array des Individuums mit der
 jeweiligen Spalte des Spielfelds. Die Zahl an einer Arrayposition gibt
@@ -233,4 +233,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
     ([Unsplash License](https://unsplash.com/license))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 765d342 2025-10-24 lecture: fix image url (EA1)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

@@ -598,14 +598,14 @@ Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
 Zum Bestehen des Turing-Tests ist (u.a.) erforderlich:
 
--   *Wissensrepräsentation*: Speichern des gesammelten Wissens **=\>**
+-   *Wissensrepräsentation*: Speichern des gesammelten Wissens **$\to$**
     **Wissensbasierte Systeme**
 -   *Logisches Schließen*: Beantworten von Fragen mit Hilfe des
-    vorhandenen Wissens **=\>** **Logik, Resolution**
--   *Maschinelles Lernen*: Anpassung an veränderliches Umfeld **=\>**
+    vorhandenen Wissens **$\to$** **Logik, Resolution**
+-   *Maschinelles Lernen*: Anpassung an veränderliches Umfeld **$\to$**
     **Musteranalyse und Mustererkennung und Mustervorhersage**
 -   *Verarbeitung natürlicher Sprache*: Erfolgreiche Kommunikation,
-    beispielsweise in Englisch **=\>** **NLP**
+    beispielsweise in Englisch **$\to$** **NLP**
 
 "Totaler Turing-Test": zusätzlich **Computer Vision** (Erkennen von
 Objekten) und **Robotik** (Manipulation von Objekten)
@@ -687,7 +687,7 @@ Damit erhält man vier Kombinationen:
 > Modellen (Deep Learning) kann diese Tradition aktuell große Erfolge
 > vorzeigen.
 
-###### Rationales Denken: Aristoteles: Was sind korrekte Argumente und Denkprozesse? =\> Wie sollen wir denken?
+###### Rationales Denken: Aristoteles: Was sind korrekte Argumente und Denkprozesse? $\to$ Wie sollen wir denken?
 
 Beispiel:
 
@@ -996,7 +996,7 @@ CS221](https://youtu.be/J8Eh7RqggsU) an. (Vorsicht: Das ist recht lang.)
 > können, d.h. unter Umständen nicht auf alle Zustände angewendet werden
 > können. Die entstehende Struktur (Zustandsraum) kann man formal als
 > Graph repräsentieren: Die Zustände werden durch die Knoten und die
-> Aktionen als (gerichtete) Kanten im Graph dargestellt (=\>
+> Aktionen als (gerichtete) Kanten im Graph dargestellt ($\to$
 > Problemgraph).
 >
 > Das Problemlösen entspricht nun einer Suche im Problemgraphen: Man
@@ -1399,13 +1399,13 @@ Einschränkungen bzw. Relationen zwischen den Variablen gelten.
 
 ##### Motivation: Einfärben von Landkarten
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map.png" width="50%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map.png" width="35%" /></picture></p>
 
 Die Skizze soll eine Landkarte mit verschiedenen Ländern darstellen. Die
 Aufgabe lautet: Färbe jedes Land mit einer Farbe ein, um die
 Übersichtlichkeit zu erhöhen. Verwende dabei so wenig wie möglich
 unterschiedliche Farben. Aneinander grenzende Länder müssen
-unterschiedliche Farben bekommen (=\> *Constraint*).
+unterschiedliche Farben bekommen ($\to$ *Constraint*).
 
 ##### Einfärben von Landkarten: Formalisierung
 
@@ -1476,17 +1476,17 @@ hat ein Constraint?)
 -   **Präferenzen**: "soft constraints" Beispiel: "rot ist besser als
     grün"
 
-    Abbildung über Gewichtung =\> Constraint-Optimierungsproblem (COP)
+    Abbildung über Gewichtung $\to$ Constraint-Optimierungsproblem (COP)
 
 ##### Constraints -- Wertebereiche
 
--   **Endliche Domänen**: $d$ Werte =\> $O(d^n)$ mögliche Zuweisungen
+-   **Endliche Domänen**: $d$ Werte $\to$ $O(d^n)$ mögliche Zuweisungen
     (exponentiell in der Zahl der Variablen)
 
 <!-- -->
 
--   **Unendliche Domänen**: reelle Zahlen, natürliche Zahlen =\> Keine
-    Auflistung der erlaubten Wertekombinationen mehr möglich =\>
+-   **Unendliche Domänen**: reelle Zahlen, natürliche Zahlen $\to$ Keine
+    Auflistung der erlaubten Wertekombinationen mehr möglich $\to$
     Übergang zu Gleichungen/Ungleichungen: $job_1+5<job_2$
     -   lineare Constraints
     -   nichtlineare Constraints
@@ -1739,14 +1739,14 @@ mache notfalls Backtracking.
 -   Wähle Variable mit wenigsten freien Werten (die am meisten
     eingeschränkte Variable)
 
-    =\> reduziert den Verzweigungsgrad
+    $\to$ reduziert den Verzweigungsgrad
 
 Beispiel:
 
-1.  Freie Auswahl, alle haben gleich viele freie Werte (jeweils 3) =\>
+1.  Freie Auswahl, alle haben gleich viele freie Werte (jeweils 3) $\to$
     wähle A
-2.  B und C haben nur noch zwei freie Werte =\> wähle B (oder C)
-3.  C hat nur noch einen Wert, D noch zwei, der Rest drei =\> wähle C
+2.  B und C haben nur noch zwei freie Werte $\to$ wähle B (oder C)
+3.  C hat nur noch einen Wert, D noch zwei, der Rest drei $\to$ wähle C
 
 ##### VARIABLES: Gleichstand bei MRV
 
@@ -1760,19 +1760,19 @@ Beispiel:
 -   Wähle Variable mit meisten Constraints auf offene (noch nicht
     zugewiesene) Variablen
 
-    =\> reduziert den Verzweigungsgrad in späteren Schritten
+    $\to$ reduziert den Verzweigungsgrad in späteren Schritten
 
 Beispiel:
 
-1.  MRV: Alle haben gleich viele freie Werte (jeweils 3) =\>
+1.  MRV: Alle haben gleich viele freie Werte (jeweils 3) $\to$
     Gradheuristik: B, C und D haben die meisten Verbindungen
-    (Constraints) auf offene Variablen =\> wähle B (oder C oder D)
-2.  MRV: A, C und D haben nur noch zwei freie Werte =\> Gradheuristik: C
-    und D haben je zwei Constraints auf noch offene Variablen =\> wähle
-    C (oder D)
-3.  MRV: A und D haben beide nur noch einen Wert =\> Gradheuristik: D
-    hat die meisten Verbindungen (Constraints) auf offene Variablen =\>
-    wähle D
+    (Constraints) auf offene Variablen $\to$ wähle B (oder C oder D)
+2.  MRV: A, C und D haben nur noch zwei freie Werte $\to$ Gradheuristik:
+    C und D haben je zwei Constraints auf noch offene Variablen $\to$
+    wähle C (oder D)
+3.  MRV: A und D haben beide nur noch einen Wert $\to$ Gradheuristik: D
+    hat die meisten Verbindungen (Constraints) auf offene Variablen
+    $\to$ wähle D
 
 ##### VALUES: Werte-Sortierung, Welchen Wert soll ich ausprobieren?
 
@@ -1786,18 +1786,18 @@ Beispiel:
 -   Wähle Wert, der für verbleibende Variablen die wenigsten Werte
     ungültig macht
 
-    =\> verringert die Wahrscheinlichkeit für Backtracking
+    $\to$ verringert die Wahrscheinlichkeit für Backtracking
 
 Beispiel:
 
 1.  Sei A gewählt: Alle Werte machen in den anderen Variablen einen Wert
-    ungültig =\> freie Wahl des Wertes =\> wähle beispielsweise rot
+    ungültig $\to$ freie Wahl des Wertes $\to$ wähle beispielsweise rot
 2.  Sei B gewählt: Alle Werte machen in den anderen Variablen einen Wert
-    ungültig =\> freie Wahl des Wertes =\> wähle beispielsweise grün
+    ungültig $\to$ freie Wahl des Wertes $\to$ wähle beispielsweise grün
 3.  Sei D gewählt: Verbleibende Werte rot und blau
     -   Wahl von rot würde für C einen Wert übrig lassen (blau)
-    -   Wahl von blau würde für C **keinen** Wert übrig lassen =\> LCV:
-        Wahl von rot!
+    -   Wahl von blau würde für C **keinen** Wert übrig lassen $\to$
+        LCV: Wahl von rot!
 
 **Hinweis**: Diese Heuristik ist in der Praxis sehr aufwändig zu
 berechnen! Man müsste für jeden Wert die noch offenen Constraints
@@ -1939,7 +1939,7 @@ wenig zusätzlicher Aufwand entsteht.
 Zuweisung eines Wertes an Variable $X$:
 
 -   Passt zu aktueller Belegung
--   Berücksichtigt aber nicht **restliche** Constraints =\> macht
+-   Berücksichtigt aber nicht **restliche** Constraints $\to$ macht
     weitere Suche u.U. unmöglich/schwerer
 
 **Lösung**: Nach Zuweisung alle *nicht zugewiesenen Nachbarvariablen*
@@ -1961,8 +1961,8 @@ Nach Zuweisung eines Wertes an Variable $X$:
 
 Beispiel:
 
-1.  Sei A auf rot gesetzt =\> entferne rot in B und C
-2.  Sei D auf grün gesetzt =\> entferne grün in B und C und E
+1.  Sei A auf rot gesetzt $\to$ entferne rot in B und C
+2.  Sei D auf grün gesetzt $\to$ entferne grün in B und C und E
 
 Problem: Für B und C bleibt nur noch blau; sind aber benachbart!
 
@@ -1981,7 +1981,8 @@ Problem: Für B und C bleibt nur noch blau; sind aber benachbart!
 
 <!-- -->
 
--   Idee: Ausdehnen auf alle Kanten ... =\> Einschränken der Wertemengen
+-   Idee: Ausdehnen auf alle Kanten ... $\to$ Einschränken der
+    Wertemengen
 
 ##### Definition Kantenkonsistenz (Arc Consistency)
 
@@ -2010,7 +2011,7 @@ $D_e=\lbrace 2,3 \rbrace$
 
 <div data-align="center">
 
-=\> Kantenkonsistenz ist nur **lokale** Konsistenz!
+$\to$ Kantenkonsistenz ist nur **lokale** Konsistenz!
 
 </div>
 
@@ -2215,11 +2216,11 @@ Heuristiken einsetzt.
 
 Ausgangszustand:
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_graph.png" width="75%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/map_graph.png" width="65%" /></picture></p>
 
 Schritt 1: "Würfeln" (zufällige vollständige Belegung)
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/min_conflicts1_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/min_conflicts1.png" width="50%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/min_conflicts1_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/min_conflicts1.png" width="40%" /></picture></p>
 
 **Problem**: Konflikt in Knoten B und C.
 
@@ -2229,7 +2230,7 @@ Schritt 2: "Schütteln"
 -   Auswahl einer anderen Farbe (grün - Anzahl der verbleibenden
     Konflikte = 0)
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/min_conflicts2_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/min_conflicts2.png" width="50%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/min_conflicts2_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/csp/images/min_conflicts2.png" width="40%" /></picture></p>
 
 **Lösung erreicht.**
 
@@ -2407,12 +2408,12 @@ Kann ich aus diesen Daten einen Klassifikator lernen?
 >
 > Dabei nennt man
 >
-> -   $P(A)$ **"Prior"** oder **"A-priori-Wahrscheinlichkeit"** (die
+> -   $P(A)$ **Prior** oder **A-priori-Wahrscheinlichkeit** (die
 >     Wahrscheinlichkeit für $A$ ohne weiteres Wissen),
-> -   $P(B \mid A)$ **"Likelihood"** (Wie wahrscheinlich ist das
->     Auftreten von $B$, gegeben $A$?),
-> -   $P(A \mid B)$ **"Posterior"** oder
->     **"A-posteriori-Wahrscheinlichkeit"** (Wie wahrscheinlich ist $A$,
+> -   $P(B \mid A)$ **Likelihood** (Wie wahrscheinlich ist das Auftreten
+>     von $B$, gegeben $A$?),
+> -   $P(A \mid B)$ **Posterior** oder
+>     **A-posteriori-Wahrscheinlichkeit** (Wie wahrscheinlich ist $A$,
 >     wenn $B$ eingetreten ist?), und
 > -   $P(B)$ ist ein Normierungsfaktor (Wie wahrscheinlich ist $B$ an
 >     sich?).
@@ -2614,12 +2615,12 @@ $P(A,B) = P(A \mid B)P(B) = P(B \mid A)P(A)$
 
 $$P(A \mid B) = \frac{P(B \mid A)P(A)}{P(B)}$$
 
--   $P(A)$ nennt man **"Prior"** oder **"A-priori-Wahrscheinlichkeit"**
-    (Das ist die Wahrscheinlichkeit für $A$ ohne weiteres Wissen)
--   $P(B \mid A)$ nennt man **"Likelihood"** (Wie wahrscheinlich ist das
+-   $P(A)$ nennt man **Prior** oder **A-priori-Wahrscheinlichkeit** (Das
+    ist die Wahrscheinlichkeit für $A$ ohne weiteres Wissen)
+-   $P(B \mid A)$ nennt man **Likelihood** (Wie wahrscheinlich ist das
     Auftreten von $B$, gegeben $A$?)
--   $P(A \mid B)$ nennt man **"Posterior"** oder
-    **"A-posteriori-Wahrscheinlichkeit"** (Wie wahrscheinlich ist $A$,
+-   $P(A \mid B)$ nennt man **Posterior** oder
+    **A-posteriori-Wahrscheinlichkeit** (Wie wahrscheinlich ist $A$,
     wenn $B$ eingetreten ist?)
 -   $P(B)$ ist ein Normierungsfaktor
 
@@ -2649,7 +2650,7 @@ Erkrankung gegeben bestimmte Symptome berechnen.
 -   Eine von 10.000 Personen hat Arthrose
 -   Eine von 10 Personen hat ein steifes Gelenk
 
-=\> Ich habe ein steifes Gelenk. Habe ich Arthrose?
+$\to$ Ich habe ein steifes Gelenk. Habe ich Arthrose?
 
 -   Gegeben: $P(A) = 0.0001,   P(S) = 0.1,   P(S \mid A) = 0.8$
 -   Gesucht: $P(A \mid S)$
@@ -2660,7 +2661,7 @@ Wenn ein steifes Gelenk vorliegt, ist die Wahrscheinlichkeit, dann an
 Arthrose erkrankt zu sein, bei nur 0.08%. Kein Grund zur Sorge in diesem
 Fall :-)
 
-=\> Wie wahrscheinlich ist ein steifes Gelenk ohne Arthrose, also
+$\to$ Wie wahrscheinlich ist ein steifes Gelenk ohne Arthrose, also
 $P(S \mid \neg A$)?
 
 Mit Marginalisierung:
@@ -2688,7 +2689,7 @@ Ex. 7.9, S. 135) an!
 -   Zwei Ereignisse $A$ und $B$ sind **unabhängig**, wenn
     $$P(A \mid B) = P(A)$$
 
-    =\> $P(A,B) = P(A \mid B)P(B) = P(A)P(B)$
+    $\to$ $P(A,B) = P(A \mid B)P(B) = P(A)P(B)$
 
 Dies kann man verallgemeinern (**bedingte Unabhängigkeit**):
 
@@ -2763,8 +2764,7 @@ $$P(X,Y \mid Z) = P(X \mid Y,Z)P(Y \mid Z) = P(X \mid Z)P(Y \mid Z)$$
 > (Klassifikation) erfolgt dann durch die Nutzung der beim "Training"
 > berechneten bedingten Wahrscheinlichkeiten:
 >
-> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1,  \ldots, D_n) =
-> \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$
+> $$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$$
 >
 > Für jede Hypothese $h$, d.h. für jede Klasse, wird der Posterior
 > $P(h \mid D_1, \ldots, D_n)$ ausgerechnet. Die Klasse, deren Wert
@@ -2799,8 +2799,8 @@ $$P(X,Y \mid Z) = P(X \mid Y,Z)P(Y \mid Z) = P(X \mid Z)P(Y \mid Z)$$
 >
 > Oft nimmt man zusätzlich an, dass für alle Hypothesen (Klassen) $h$
 > der Prior $P(h)$ gleich ist. Dann kann man diesen Faktor ebenfalls aus
-> der Berechnung entfernen. Dieses Verfahren nennt man auch "**Maximum
-> Likelihood**".
+> der Berechnung entfernen. Dieses Verfahren nennt man auch **Maximum
+> Likelihood**.
 >
 > Der NB-Klassifikator wird gern für die Textklassifikation eingesetzt.
 > Hier muss man einem Text ein Label zuordnen. In einer Vorverarbeitung
@@ -2831,7 +2831,7 @@ $$P(X,Y \mid Z) = P(X \mid Y,Z)P(Y \mid Z) = P(X \mid Z)P(Y \mid Z)$$
 -   Eine von 10.000 Personen hat Arthrose: $P(A) = 0.0001$
 -   Eine von 10 Personen hat ein steifes Gelenk: $P(S) = 0.1$
 
-=\> Ich habe ein steifes Gelenk. Habe ich Arthrose?
+$\to$ Ich habe ein steifes Gelenk. Habe ich Arthrose?
 
 ##### Textklassifikation mit NB
 
@@ -2871,6 +2871,8 @@ und wenden Sie diesen auf die beiden Test-Dokumente an.
     unterstützt wird.
 
 ##### Bayes'sches Lernen
+
+**Naive Bayes Klassifikator**/**MAP**:
 
 $$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n)
 = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$$
@@ -2932,7 +2934,7 @@ berechnet werden!)
     h = gesund: P(gesund) * P(Nase=0 | gesund) * P(Husten=1 | gesund) * P(Haut=0 | gesund) * P(Fieber=1 | gesund) = 0.4*0.5*0*1*0              = 0
     h = krank:  P(krank)  * P(Nase=0 | krank)  * P(Husten=1 | krank)  * P(Haut=0 | krank)  * P(Fieber=1 | krank)  = 0.6*0.333*0.667*0.33*0.333 = 0.015
 
-=\> Klasse "krank" gewinnt (Wert für $P(\text{krank})$ ist der höchste
+$\to$ Klasse "krank" gewinnt (Wert für $P(\text{krank})$ ist der höchste
 der beiden Hypothesen) ...
 
 ##### Textklassifikation mit NB
@@ -2969,7 +2971,7 @@ der beiden Hypothesen) ...
 
 -   Unabhängigkeit der Attribute oft nicht gegeben
 
-    =\> $P(D_1, \ldots, D_n \mid H) \ne \prod_i P(D_i \mid H)$
+    $\to$ $P(D_1, \ldots, D_n \mid H) \ne \prod_i P(D_i \mid H)$
 
 -   A-posteriori-Wahrscheinlichkeiten oft unrealistisch nah an 1 oder 0
 
@@ -3050,11 +3052,9 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 >
 > Anwendung der Naive Bayes Klassifikation (mit Annahme bedingt
 > unabhängige Merkmale): Wir nutzen
-> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n)
-> = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$ und
-> setzen unsere beiden Merkmale ein:
-> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid x_1, x_2)
-> = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1 \mid h) P(x_2 \mid h)$.
+> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$
+> und setzen unsere beiden Merkmale ein:
+> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1 \mid h) P(x_2 \mid h)$.
 >
 > Damit bekommen wir folgende Entscheidung:
 >
@@ -3065,8 +3065,7 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 > Da die Merkmale nicht unabhängig sind, darf die Produktannahme nicht
 > verwendet werden, sondern wir müssten eigentlich den Term
 > $P(x_1, x_2 \mid h)$ nutzen:
-> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid x_1, x_2)
-> = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 \mid h)$.
+> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 \mid h)$.
 >
 > Aus den gegebenen Daten haben wir (einfach oben ablesen):
 >
@@ -3074,8 +3073,7 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 > -   $P(x_1=1, x_2=1 \mid 1) = 0.05$
 >
 > Eingesetzt in die Formel
-> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid x_1, x_2)
-> = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 \mid h)$:
+> $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 \mid h)$:
 >
 > -   $H=0: 0.5 * 0.20 = 0.10$
 > -   $H=1: 0.5 * 0.05 = 0.025$
@@ -3099,8 +3097,8 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 
 -   Problem: Attribut-Ausprägung für bestimmte Klasse nicht in
     Trainingsmenge:
-    -   =\> Bedingte Wahrscheinlichkeit ist 0
-    -   =\> Produkt gleich 0
+    -   $\to$ Bedingte Wahrscheinlichkeit ist 0
+    -   $\to$ Produkt gleich 0
 
 <!-- -->
 
@@ -3121,8 +3119,8 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
         für eine Attributausprägung ist 1/(Anzahl der Ausprägungen des
         Attributs))
 
-    =\> "virtuelle" Trainingsbeispiele ($m$ ist die Zahl der virtuellen
-    Trainingsbeispiele)
+    $\to$ "virtuelle" Trainingsbeispiele ($m$ ist die Zahl der
+    virtuellen Trainingsbeispiele)
 
 ##### Probleme mit Floating Point Underflow
 
@@ -3151,12 +3149,12 @@ bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
 
 <!-- -->
 
--   Annahme: Klassen uniform verteilt =\> $P(h_i) = P(h_j)$
+-   Annahme: Klassen uniform verteilt $\to$ $P(h_i) = P(h_j)$
 
     **Maximum Likelihood**
     $$h_{ML} = \mathop{\text{argmax}}_{h \in H} \: \prod_i P(D_i \mid h)$$
 
-    =\> Maximiere die Likelihood der Daten
+    $\to$ Maximiere die Likelihood der Daten
 
 ##### Ausblick: Kontinuierliche Attribute
 
@@ -3187,7 +3185,7 @@ In Abhängigkeit von der Verteilung der $P(D_i \mid h)$ spricht man von
 ##### Wrap-Up
 
 -   Klassifikation mit Naive Bayes
-    -   Annahme von Unabhängigkeit =\> "Naive" Bayes Klassifikation
+    -   Annahme von Unabhängigkeit $\to$ "Naive" Bayes Klassifikation
     -   Schätzen der bedingten Wahrscheinlichkeiten aus den
         Trainingsdaten
     -   Klassifikation durch Nutzung der geschätzten
@@ -3349,7 +3347,8 @@ und wenden Sie diesen auf die Test-Dokumente an.
 
     Dabei am besten auch Zeichensetzung mit entfernen.
 
--   **Lemmatisierung**: "fraßen" -\> "fressen", "Wölfe" -\> "Wolf", ...
+-   **Lemmatisierung**: "fraßen" $\to$ "fressen", "Wölfe" $\to$ "Wolf",
+    ...
 
     Die Wörter werden auf ihre "Grundform" gebracht: gebeugte Verben
     durch den Infinitiv ersetzt oder Plurale durch den Singular ersetzt
@@ -3504,11 +3503,11 @@ Entscheidung: OK
 
 **Beobachtungen**:
 
-1.  Viele kleine Faktoren ergeben ein immer kleineres Produkt =\>
+1.  Viele kleine Faktoren ergeben ein immer kleineres Produkt $\to$
     Logarithmus nutzen und Übergang zu Summe statt Produkt!
 2.  Im Trainingsdatensatz nicht vorhandene Terme bei einer Klasse führen
     zu einem Faktor 0 (Zero-Frequency-Problem), wodurch der gesamte
-    Score 0 wird. =\> Laplace-Glättung einsetzen!
+    Score 0 wird. $\to$ Laplace-Glättung einsetzen!
 3.  Im Testdatensatz nicht vorhandene Terme des Vokabulars werden
     automatisch ignoriert, da der *count* 0 ist und als Exponent
     verwendet den neutralen Faktor 1 ergibt.
@@ -3660,9 +3659,9 @@ T1: (sieben, zwerg, fressen, sieben, wolf, **lecker**)
 
 **Mapping**:
 
--   $P(\text{lecker} \mid \text{OK})$ =\>
+-   $P(\text{lecker} \mid \text{OK})$ $\to$
     $P(\text{UNK} \mid \text{OK}) = 0.043$
--   $P(\text{lecker} \mid \text{SPAM})$ =\>
+-   $P(\text{lecker} \mid \text{SPAM})$ $\to$
     $P(\text{UNK} \mid \text{SPAM}) = 0.077$
 
 Mit dem UNK-Term kann man das Problem des Out-of-Vocabulary elegant
@@ -3777,11 +3776,11 @@ Entscheidung: OK
 
 **Beobachtungen**:
 
-1.  Viele kleine Faktoren ergeben ein immer kleineres Produkt =\>
+1.  Viele kleine Faktoren ergeben ein immer kleineres Produkt $\to$
     Logarithmus nutzen und Übergang zu Summe statt Produkt!
 2.  Im Trainingsdatensatz nicht vorhandene Terme bei einer Klasse führen
     zu einem Faktor 0 (Zero-Frequency-Problem), wodurch der gesamte
-    Score 0 wird. =\> Laplace-Glättung einsetzen!
+    Score 0 wird. $\to$ Laplace-Glättung einsetzen!
 3.  Im Testdatensatz nicht vorhandene Terme des Vokabulars werden
     automatisch korrekt mit $P(lw=0 \mid h)$ bzw. $(1 - P(lw=1 \mid h))$
     berücksichtigt. (Multinomial NB würde diese Terme mit dem Faktor 1
@@ -3930,7 +3929,7 @@ Objekt, d.h. üblicherweise die Klasse.
 -   Data Mining: Entdeckung neuen Wissens durch Analyse der Daten
 -   Selbstanpassende Programme
 
-=\> Lernen wichtige Eigenschaft lebender Wesen :-)
+$\to$ Lernen wichtige Eigenschaft lebender Wesen :-)
 
 ##### Learning Agent
 
@@ -3942,7 +3941,7 @@ Objekt, d.h. üblicherweise die Klasse.
     -   Lernen durch Beobachtung
     -   Vorgabe von Beispielen: Ein- und Ausgabewerte
 
-    =\> Regression, Klassifikation
+    $\to$ Regression, Klassifikation
 
 <!-- -->
 
@@ -3985,13 +3984,13 @@ Objekt, d.h. üblicherweise die Klasse.
 
 -   **Gegeben**: Eigenschaften eines Autos
 
-    =\> Eigenschaften: Ausprägungen der Merkmale
+    $\to$ Eigenschaften: Ausprägungen der Merkmale
 
 <!-- -->
 
 -   **Gesucht**: Diagnose und Reparaturanleitung
 
-    =\> Hypothese über den Merkmalen (Funktion $\mathop{\text{h}}$)
+    $\to$ Hypothese über den Merkmalen (Funktion $\mathop{\text{h}}$)
 
 ##### Lernen durch Beobachten: Lernen einer Funktion $\mathop{\text{f}}$
 
@@ -4010,7 +4009,7 @@ von Beispielen
 
 -   Aufgabe: Baue Hypothese $\mathop{\text{h}}$ auf, so dass
     $\mathop{\text{h}} \approx \mathop{\text{f}}$.
-    -   Benutze dazu Menge von Beispielen =\> **Trainingsdaten**.
+    -   Benutze dazu Menge von Beispielen $\to$ **Trainingsdaten**.
 
 <!-- -->
 
@@ -4090,13 +4089,13 @@ unerwünscht!
 Lehrer gibt Beispiele vor: Eingabe $\mathbf{x}$ und passende Ausgabe
 $\mathop{\text{f}}(\mathbf{x})$
 
--   Ausgabe: typischerweise Skalar (Funktionswert oder Klasse) =\>
+-   Ausgabe: typischerweise Skalar (Funktionswert oder Klasse) $\to$
     Beispiel: Bewertung eines Spielstandes bei TicTacToe
 
 <!-- -->
 
 -   Eingabe: (Beschreibung des) Objekt(s) oder Situation, die zur
-    Ausgabe gehört =\> Beispiel: Spielstand bei TicTacToe
+    Ausgabe gehört $\to$ Beispiel: Spielstand bei TicTacToe
 
 **Merkmalsvektoren**:
 
@@ -4388,7 +4387,7 @@ Referenzen vom Typ `Baum` sein).
 
 -   Zyklischer Durchlauf durch Trainingsmenge
 -   Abbruch:
-    -   Alle Trainingsobjekte richtig klassifiziert =\> Kein Fehler in
+    -   Alle Trainingsobjekte richtig klassifiziert $\to$ Kein Fehler in
         einem kompletten Durchlauf
     -   (Differenzierung nötig, aber alle Merkmale verbraucht)
     -   (Lernschrittzahl überschritten)
@@ -4518,9 +4517,9 @@ Referenzen vom Typ `Baum` sein).
 -   Ausschließlich aktuelles Objekt betrachtet
 -   Reihenfolge der "richtigen" Attributwahl bei Verzweigung unklar
 
-=\> Betrachte stattdessen die komplette Trainingsmenge!
+$\to$ Betrachte stattdessen die komplette Trainingsmenge!
 
-###### Relevanz =\> Informationsgehalt
+###### Relevanz $\to$ Informationsgehalt
 
 -   Shannon/Weaver (1949): **Entropie**
     -   Maß für die Unsicherheit einer Zufallsvariablen
@@ -4534,11 +4533,11 @@ Referenzen vom Typ `Baum` sein).
 -   Fairer 4-seitiger Würfel: 4 mögliche Ausgänge: Entropie 2 Bit
 -   Münze, die zu 99% auf einer Seite landet: Entropie nahe Null
 
-=\> Anzahl der Ja/Nein-Fragen, um zur gleichen Information zu kommen
+$\to$ Anzahl der Ja/Nein-Fragen, um zur gleichen Information zu kommen
 
 ##### Definition der Entropie $H(V)$ für Zufallsvariable $V$
 
--   Zufallsvariable $V$ =\> mögliche Werte $v_k$
+-   Zufallsvariable $V$ $\to$ mögliche Werte $v_k$
 -   Wahrscheinlichkeit für $v_k$ sei $p_k = P(v_k)$
 
 $$H(V) = -\sum_k p_k \log_2 p_k$$
@@ -4548,9 +4547,9 @@ $\log_2 x = \frac{\log_{10} x}{\log_{10} 2} = \frac{\log x}{\log 2}$
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range.png"  /></picture></p>
 
--   Nur eine Klasse: $\log_2 1 = 0$ =\> $H(V) = 0$ Bit
--   Zwei Klassen, gleichwahrscheinlich: $\log_2 0.5 = -1$ =\> $H(V) = 1$
-    Bit
+-   Nur eine Klasse: $\log_2 1 = 0$ $\to$ $H(V) = 0$ Bit
+-   Zwei Klassen, gleichwahrscheinlich: $\log_2 0.5 = -1$ $\to$
+    $H(V) = 1$ Bit
 
 ##### Beispiele Entropie: faire Münze
 
@@ -4786,7 +4785,7 @@ Erinnerung: CAL2
 -   Ausschließlich aktuelles Objekt betrachtet
 -   Reihenfolge der "richtigen" Attributwahl bei Verzweigung unklar
 
-=\> Betrachte stattdessen die **komplette** Trainingsmenge!
+$\to$ Betrachte stattdessen die **komplette** Trainingsmenge!
 
 ##### Erinnerung Entropie: Maß für die Unsicherheit
 
@@ -4811,7 +4810,7 @@ Je kleiner $R(S,A)$, um so kleiner die **verbleibende Unsicherheit**
 bzw. um so kleiner die Anzahl der nötigen Bits zur Darstellung der
 partitionierten Trainingsmenge **nach** Betrachtung von Attribut $A$ ...
 
-=\> Je kleiner $R(S,A)$, um so größer der Informationsgewinn
+$\to$ Je kleiner $R(S,A)$, um so größer der Informationsgewinn
 
 ##### Informationsgewinn: Kriterium zur Auswahl von Attributen
 
@@ -4837,7 +4836,7 @@ $$\begin{eqnarray}
                              &=& 0.13 \mathop{\text{Bit}}
 \end{eqnarray}$$
 
-Informationsgewinn für $x_2$ am höchsten =\> wähle $x_2$ als nächsten
+Informationsgewinn für $x_2$ am höchsten $\to$ wähle $x_2$ als nächsten
 Test
 
 ##### Entscheidungsbaumlerner ID3 (Quinlan, 1986)
@@ -4885,9 +4884,9 @@ Klasse! Es kann also auch ein anderes Klassensymbol als "`A`" sein ...
 | 6   | 0     | 1     | 0     | A   |
 
 -   $x2$ höchsten Information Gain
--   $x2=0$ =\> Beispiele 1,2 =\> A
--   $x2=1$ =\> Beispiele 3,4,5,6 =\> Information Gain berechnen, weiter
-    teilen und verzweigen
+-   $x2=0$ $\to$ Beispiele 1,2 $\to$ A
+-   $x2=1$ $\to$ Beispiele 3,4,5,6 $\to$ Information Gain berechnen,
+    weiter teilen und verzweigen
 
 ##### Beobachtung: $\mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
 
@@ -4901,7 +4900,7 @@ Klasse! Es kann also auch ein anderes Klassensymbol als "`A`" sein ...
     -   Entropie =
         $H(\mathop{\text{Dice}}) = -4\cdot(0.25 \log_2 0.25) = 2 \mathop{\text{Bit}}$
 
-=\> $\mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
+$\to$ $\mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
 
 Damit würden Attribute bei der Wahl bevorzugt, nur weil sie mehr
 Ausprägungen haben als andere.
@@ -4973,7 +4972,7 @@ Hierzu drei lesenswerte Blog-Einträge:
     -   Normierter Informationsgewinn:
         $\mathop{\text{Gain}}(S, A) \cdot \mathop{\text{Normalisation}}(A) = 2 \mathop{\text{Bit}} \cdot 0.5 = 1 \mathop{\text{Bit}}$
 
-=\> Normierung sorgt für fairen Vergleich der Attribute
+$\to$ Normierung sorgt für fairen Vergleich der Attribute
 
 *Anmerkung*: Auch hier ist die Entropie natürlich kein
 $\mathop{\text{Gain}}(S, A)$. Das Beispiel soll nur übersichtlich
@@ -5077,14 +5076,14 @@ durch die Normierung in C4.5 aufgehoben wird.
 -   Entscheidungsbaum:
     -   verständlich, interpretierbar
     -   kann aber "sehr speziell" auf den Trainingsdatensatz passen
-    -   kleine Änderungen in den Daten -\> oft ganz anderer Baum
+    -   kleine Änderungen in den Daten $\to$ oft ganz anderer Baum
 -   Idee:
     -   Statt **einem** Baum viele **verschiedene** Bäume trainieren
     -   Jeder Baum trifft eine eigene Vorhersage
     -   Am Ende: **Mehrheitsentscheidung** (Klassifikation) bzw.
         **Mittelwert** (Regression)
 -   Intuition:
-    -   "Viele verschiedene Meinungen" kombinieren -\> robustere
+    -   "Viele verschiedene Meinungen" kombinieren $\to$ robustere
         Entscheidung
     -   Fehler einzelner Bäume können sich gegenseitig ausgleichen
 
@@ -5104,7 +5103,7 @@ am Ende zählt die Mehrheit.
 2.  **Viele Trainingsdatensätze durch Zufall (Bootstrapping)**
     -   Für jeden Baum $B_1, B_2, \dots, B_K$:
         -   Ziehen Sie zufällig (mit Zurücklegen) Trainingsbeispiele aus
-            $D$ -\> jeder Baum erhält eine leicht andere Stichprobe
+            $D$ $\to$ jeder Baum erhält eine leicht andere Stichprobe
             $D_k$
 3.  **Zufällige Merkmalsauswahl pro Split**
     -   Beim Training eines Baums:
@@ -5147,8 +5146,8 @@ Frage: Welche Klasse sagt der Random Forest voraus?
 **Baum 1**
 
 -   Wurzel: prüfe "Größe"
-    -   wenn groß -\> Klasse A
-    -   wenn klein -\> Klasse B
+    -   wenn groß $\to$ Klasse A
+    -   wenn klein $\to$ Klasse B
 -   Für unser Objekt (groß, hell): **Vorhersage = A**
 
 ------------------------------------------------------------------------
@@ -5156,8 +5155,8 @@ Frage: Welche Klasse sagt der Random Forest voraus?
 **Baum 2**
 
 -   Wurzel: prüfe "Farbe"
-    -   wenn hell -\> Klasse B
-    -   wenn dunkel -\> Klasse A
+    -   wenn hell $\to$ Klasse B
+    -   wenn dunkel $\to$ Klasse A
 -   Für unser Objekt (groß, hell): **Vorhersage = B**
 
 ------------------------------------------------------------------------
@@ -5165,20 +5164,20 @@ Frage: Welche Klasse sagt der Random Forest voraus?
 **Baum 3**
 
 -   Wurzel: prüfe "Größe"
-    -   wenn groß -\> gehe zu Knoten 2
-    -   wenn klein -\> Klasse B
+    -   wenn groß $\to$ gehe zu Knoten 2
+    -   wenn klein $\to$ Klasse B
 -   Knoten 2: prüfe "Farbe"
-    -   wenn hell -\> Klasse A
-    -   wenn dunkel -\> Klasse B
+    -   wenn hell $\to$ Klasse A
+    -   wenn dunkel $\to$ Klasse B
 -   Für unser Objekt (groß, hell): **Vorhersage = A**
 
 ------------------------------------------------------------------------
 
 **Mehrheitsentscheidung**
 
--   Baum 1 -\> A
--   Baum 2 -\> B
--   Baum 3 -\> A
+-   Baum 1 $\to$ A
+-   Baum 2 $\to$ B
+-   Baum 3 $\to$ A
 
 $$
 \text{Stimmen: } A = 2,\; B = 1 \Rightarrow \text{Random Forest sagt: Klasse A}
@@ -5254,8 +5253,8 @@ Beispielen.
 
 -   Beispiele: 1, 2, 3
 -   sinnvoller Split bei $x < 2.5$:
-    -   Links: $x = 1.0, 2.0$ -\> Klasse A, mittlerer $y \approx 1.25$
-    -   Rechts: $x = 3.0$ -\> Klasse B, mittlerer $y = 3.0$
+    -   Links: $x = 1.0, 2.0$ $\to$ Klasse A, mittlerer $y \approx 1.25$
+    -   Rechts: $x = 3.0$ $\to$ Klasse B, mittlerer $y = 3.0$
 
 Baum 1:
 
@@ -5272,9 +5271,9 @@ Baum 1:
 
 -   Beispiele: 2, 3, 4
 -   sinnvoller Split bei $x < 3.5$:
-    -   Links: $x = 2.0, 3.0$ -\> Klassen A & B gemischt, z. B. Mehrheit
-        = B, mittlerer $y = (1.5 + 3.0)/2 = 2.25$
-    -   Rechts: $x = 4.0$ -\> Klasse B, $y = 4.0$
+    -   Links: $x = 2.0, 3.0$ $\to$ Klassen A & B gemischt, z. B.
+        Mehrheit = B, mittlerer $y = (1.5 + 3.0)/2 = 2.25$
+    -   Rechts: $x = 4.0$ $\to$ Klasse B, $y = 4.0$
 
 Baum 2:
 
@@ -5292,8 +5291,8 @@ Baum 2:
 -   Beispiele: 1, 1, 4 (z. B. zweimal Beispiel 1 und einmal Beispiel 4
     gezogen)
 -   sinnvoller Split bei $x < 2.5$:
-    -   Links: $x = 1.0, 1.0$ -\> Klasse A, mittlerer $y = 1.0$
-    -   Rechts: $x = 4.0$ -\> Klasse B, $y = 4.0$
+    -   Links: $x = 1.0, 1.0$ $\to$ Klasse A, mittlerer $y = 1.0$
+    -   Rechts: $x = 4.0$ $\to$ Klasse B, $y = 4.0$
 
 Baum 3:
 
@@ -5309,13 +5308,13 @@ Baum 3:
 **Einzelne Bäume:**
 
 -   Baum 1:
-    -   $x = 3.0 \geq 2.5$ -\> Rechts
+    -   $x = 3.0 \geq 2.5$ $\to$ Rechts
     -   Klasse = B, $y = 3.0$
 -   Baum 2:
-    -   $x = 3.0 < 3.5$ -\> Links
+    -   $x = 3.0 < 3.5$ $\to$ Links
     -   Klasse = B, $y \approx 2.25$
 -   Baum 3:
-    -   $x = 3.0 \geq 2.5$ -\> Rechts
+    -   $x = 3.0 \geq 2.5$ $\to$ Rechts
     -   Klasse = B, $y = 4.0$
 
 ###### Random-Forest-Entscheidung
@@ -5418,7 +5417,7 @@ Quelle: [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example.png" width="25%" /></picture></p>
 
 Jedes Individuum kodiert ein Spielfeld mit einer konkreten Anordnung
-**aller** Königinnen =\> **Vollständige Zustandsbeschreibung**.
+**aller** Königinnen $\to$ **Vollständige Zustandsbeschreibung**.
 
 Dabei korrespondiert der Index in das Array des Individuums mit der
 jeweiligen Spalte des Spielfelds. Die Zahl an einer Arrayposition gibt
@@ -5554,7 +5553,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 -   Binäre Lösungsrepräsentation (Bitstring):
     $\mathbf{g} = (g_1, \dots, g_m)\in \{ 0,1\}^m$
-    -   String gliedert sich in $n$ Elemente (mit $n \le m$) =\> jedes
+    -   String gliedert sich in $n$ Elemente (mit $n \le m$) $\to$ jedes
         Segment entspricht einer Problemvariablen
     -   Dekodierungsfunktion $\Gamma : \{0,1\}^m \to \mathbb{R}^n$
 
@@ -5587,7 +5586,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 -   Fitnessproportionale Selektion (*Roulette Wheel Selection*):
     Auswahlwahrscheinlichkeit für Individuum $\mathbf{g}_k$:
     $$p_{sel}(\mathbf{g}_k) = \frac{\Phi(\mathbf{g}_k)}{\sum_j \Phi(\mathbf{g}_j)}$$
-    =\> Voraussetzung: positive Fitnesswerte
+    $\to$ Voraussetzung: positive Fitnesswerte
 
 <!-- -->
 
@@ -5632,7 +5631,7 @@ $p_{cross} \ge 0.6$)
             und
             $$\mathbf{g}_d = (g_{b,1}, \dots, g_{b,i}, \; g_{a,{i+1}}, \dots, g_{a,m})$$
 
-        =\> Trenne Eltern an gleicher Stelle auf, vertausche
+        $\to$ Trenne Eltern an gleicher Stelle auf, vertausche
         Bestandteile
 
 <!-- -->
@@ -5671,8 +5670,8 @@ heißt "Crossover" deshalb oft "Rekombination".
         \end{array}
         \right.$$
 
-        =\>$\chi_i$ gleichverteilte Zufallsvariable (Intervall $[0,1]$),
-        für jedes Bit $g_i$ neu bestimmen
+        $\to$$\chi_i$ gleichverteilte Zufallsvariable (Intervall
+        $[0,1]$), für jedes Bit $g_i$ neu bestimmen
 
 *Anmerkung*: Die optimale Mutationsrate $p_{mut}^*$ ist von Länge $m$
 des Bitstrings abhängig; annäherbar durch $p_{mut}^* \approx 1/m$.
@@ -5879,7 +5878,7 @@ Dabei sind die Durchgänge teilweise nur in einer Richtung zu benutzen
 
 </div>
 
-=\> **Problemlösen == Suche im Graphen**
+$\to$ **Problemlösen == Suche im Graphen**
 
 **Uninformierte ("blinde") Suche**:
 
@@ -5922,7 +5921,7 @@ Reihenfolge der Knoten (Orte).
 3.  Falls die Datenstruktur leer ist: Abbruch, melde "*nicht gefunden*"
 4.  Gehe zu Schritt 2
 
-=\> Was passiert, wenn wir einen **Stack** einsetzen?
+$\to$ Was passiert, wenn wir einen **Stack** einsetzen?
 
 <div data-align="center">
 
@@ -5935,7 +5934,8 @@ Reihenfolge der Knoten (Orte).
 -   Nachfolger eines Knotens: Alle von diesem Zustand durch Aktionen
     erreichbare Zustände
 
--   Suchalgorithmus mit **Stack** als Datenstruktur =\> **Tiefensuche**
+-   Suchalgorithmus mit **Stack** als Datenstruktur $\to$
+    **Tiefensuche**
 
     -   Zu betrachtender Knoten in Schritt 2 wird *oben* vom Stack
         genommen
@@ -6090,7 +6090,7 @@ Siehe [Breitensuche](#id-d08f602e3cf0c02bc97cd5125053645dfe917271)
 
 </div>
 
-=\> **Problemlösen == Suche im Graphen**
+$\to$ **Problemlösen == Suche im Graphen**
 
 **Uninformierte ("blinde") Suche**:
 
@@ -6116,7 +6116,7 @@ Varianten:
 3.  Falls die Datenstruktur leer ist: Abbruch, melde "*nicht gefunden*"
 4.  Gehe zu Schritt 2
 
-=\> Was passiert, wenn wir eine **Queue** einsetzen?
+$\to$ Was passiert, wenn wir eine **Queue** einsetzen?
 
 <div data-align="center">
 
@@ -6129,7 +6129,8 @@ Varianten:
 -   Nachfolger eines Knotens: Alle von diesem Zustand durch Aktionen
     erreichbare Zustände
 
--   Suchalgorithmus mit **Queue** als Datenstruktur =\> **Breitensuche**
+-   Suchalgorithmus mit **Queue** als Datenstruktur $\to$
+    **Breitensuche**
 
     -   Zu betrachtender Knoten in Schritt 2 wird *vorn* aus der Queue
         genommen
@@ -6141,7 +6142,7 @@ Varianten:
     "Breitensuche")
 
 -   Graph-Search: Markierte Knoten müssen geeignet gespeichert werden:
-    separate Datenstruktur =\> Aufwand!
+    separate Datenstruktur $\to$ Aufwand!
 
 ##### Konventionen für diese Lehrveranstaltung
 
@@ -6207,7 +6208,7 @@ anwendbaren Operationen bestimmt.)
 
 **Tiefensuche**: Annahme: längster Pfad (Tiefe) $m=1000$
 
-=\> Speicherbedarf **ca. 10 MB**
+$\to$ Speicherbedarf **ca. 10 MB**
 
 ##### Wrap-Up
 
@@ -6292,7 +6293,7 @@ anwendbaren Operationen bestimmt.)
 
 </div>
 
-=\> **Problemlösen == Suche im Graphen**
+$\to$ **Problemlösen == Suche im Graphen**
 
 **Informierte Suche: Nutzung der Kostenfunktion**:
 
@@ -6300,7 +6301,7 @@ anwendbaren Operationen bestimmt.)
 
 -   $n \in S$ auf aktuellem Weg erreichter Knoten
 -   $g(n)$ tatsächliche Kosten für Weg vom Start bis Knoten $n$
--   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel =\>
+-   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to$
     $h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
 
 Varianten:
@@ -6472,7 +6473,7 @@ Siehe [A\*](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5)
 
 </div>
 
-=\> **Problemlösen == Suche im Graphen**
+$\to$ **Problemlösen == Suche im Graphen**
 
 **Informierte Suche: Nutzung der Kostenfunktion**:
 
@@ -6480,7 +6481,7 @@ Siehe [A\*](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5)
 
 -   $n \in S$ auf aktuellem Weg erreichter Knoten
 -   $g(n)$ tatsächliche Kosten für Weg vom Start bis Knoten $n$
--   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel =\>
+-   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to$
     $h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
 
 Varianten:
@@ -6635,7 +6636,7 @@ Siehe [A\*](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5)
 
 </div>
 
-=\> **Problemlösen == Suche im Graphen**
+$\to$ **Problemlösen == Suche im Graphen**
 
 **Informierte Suche: Nutzung der Kostenfunktion**:
 
@@ -6643,7 +6644,7 @@ Siehe [A\*](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5)
 
 -   $n \in S$ auf aktuellem Weg erreichter Knoten
 -   $g(n)$ tatsächliche Kosten für Weg vom Start bis Knoten $n$
--   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel =\>
+-   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to$
     $h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
 
 Varianten:
@@ -6711,7 +6712,7 @@ Weg aus der Queue entfernt wird, weil ein günstigerer Weg zum selben
     -   $h(n) \ge 0$ für jeden Knoten $n$
     -   $h(n) = 0$ für jeden Zielknoten $n$
 
-=\> Beispiel: Luftlinie als Abschätzung
+$\to$ Beispiel: Luftlinie als Abschätzung
 
 **Hinweis**: Im der englischen Ausgabe des ([Russell und Norvig
 2021](#ref-Russell2021)) wird die **zulässige Heuristik** auch
@@ -6735,7 +6736,8 @@ Beweis siehe Übung :-)
 
 -   Übergang zur Graph-Search-Variante und Markierung von Knoten
 
-    =\> Achtung: Dann schärfere Anforderungen an Heuristik (Konsistenz)
+    $\to$ Achtung: Dann schärfere Anforderungen an Heuristik
+    (Konsistenz)
 
 ##### A\*-Suche -- Anforderungen an Heuristik (Graph-Search)
 
@@ -6750,7 +6752,7 @@ Außerdem muss gelten:
 -   $h(n) \ge 0$ für jeden Knoten $n$
 -   $h(n) = 0$ für jeden Zielknoten $n$
 
-=\> Eine konsistente Heuristik ist gleichzeitig zulässig.
+$\to$ Eine konsistente Heuristik ist gleichzeitig zulässig.
 
 **Hinweis**: Im der englischen Ausgabe des ([Russell und Norvig
 2021](#ref-Russell2021)) wird die **konsistente Heuristik** auch
@@ -6770,7 +6772,7 @@ Außerdem muss gelten:
 
 -   Informierte Suchverfahren
     -   Nutzen reale Pfadkosten und/oder Schätzungen der Restkosten
-    -   A\*: komplette Kostenfunktion $f(n) = g(n)+h(n)$ =\> besondere
+    -   A\*: komplette Kostenfunktion $f(n) = g(n)+h(n)$ $\to$ besondere
         Anforderungen an die Heuristik! (Tree-Search: *zulässige*
         Heuristik; Graph-Search: *konsistente* Heuristik)
 
@@ -6896,7 +6898,7 @@ Bisher betrachtete Suchverfahren:
 -   Systematische Erkundung des Suchraums
 -   **Weg** zur Lösung wichtig
 
-=\> Oft aber nur das **Ziel an sich** interessant! (Und nicht, wie man
+$\to$ Oft aber nur das **Ziel an sich** interessant! (Und nicht, wie man
 dort hin gelangt.)
 
 Beispiel: Stundenplan
@@ -6908,7 +6910,7 @@ Beispiel: Stundenplan
 **Gradienten-Suche**: "Gehe in Richtung des steilsten Anstiegs der
 Zielfunktion."
 
-=\> Schrittweise Verbesserung des aktuellen Zustands (Lokale Suche)
+$\to$ Schrittweise Verbesserung des aktuellen Zustands (Lokale Suche)
 
 -   Verschiedene Namen: "Hill-climbing", "Greedy local search"
 -   Kann auch als Minimierung angewendet werden
@@ -6950,7 +6952,7 @@ Schauen Sie sich auch Abb. 4.3 auf Seite 130 im Russell und Norvig
 ([2021](#ref-Russell2021)) an!
 
 **Hinweis**: Alle Damen stehen von Anfang an auf dem Brett und werden
-nur verschoben =\> "vollständige Zustandsformulierung"
+nur verschoben $\to$ "vollständige Zustandsformulierung"
 
 ###### Eigenschaften 8-Damen-Problem ($n=8$)
 
@@ -7097,11 +7099,11 @@ Mögliche Lösungen:
 -   Ball wird in Zustandsraum-Landschaft gesetzt.
 -   Folge:
     -   rollt steilsten Abstieg hinunter
-    -   rollt evtl. in Tal auf halber Höhe (lokales Minimum) =\> bleibt
-        dort gefangen
+    -   rollt evtl. in Tal auf halber Höhe (lokales Minimum) $\to$
+        bleibt dort gefangen
 
-=\> "**Schütteln** der Landschaft" -- Ball springt aus dem Tal und rollt
-in anderes Tal
+$\to$ "**Schütteln** der Landschaft" -- Ball springt aus dem Tal und
+rollt in anderes Tal
 
 Nicht zu stark schütteln -- sonst wird u.U. globales Minimum verlassen!
 
@@ -7110,15 +7112,15 @@ Nicht zu stark schütteln -- sonst wird u.U. globales Minimum verlassen!
 -   Metall erhitzen bis Atome frei beweglich
 -   Langsam abkühlen
 
-=\> stabiles Atomgitter mit minimalem Energiezustand
+$\to$ stabiles Atomgitter mit minimalem Energiezustand
 
 ##### Übertragen der Idee
 
 -   Starkes "Schütteln" (hohe "Temperatur") am Anfang
--   Schrittweises "Abkühlen" =\> "Schütteln" im Laufe der Zeit
+-   Schrittweises "Abkühlen" $\to$ "Schütteln" im Laufe der Zeit
     verringern
 
-=\> **Simulated Annealing**
+$\to$ **Simulated Annealing**
 
 ##### Pseudocode Simulated Annealing (Minimierungsproblem)
 
@@ -7230,8 +7232,9 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 -   Gradientenverfahren
     -   Analogie Bergsteigen: Gehe in Richtung des stärksten Anstiegs
-        der Kostenfunktion =\> **Hill-Climbing**
-    -   Achtung: Probleme mit lokalen Minima =\> **Simulated Annealing**
+        der Kostenfunktion $\to$ **Hill-Climbing**
+    -   Achtung: Probleme mit lokalen Minima $\to$ **Simulated
+        Annealing**
 
 > [!TIP]
 >
@@ -7348,9 +7351,9 @@ beste Zug?!**
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/tttEnd_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/tttEnd.png" width="10%" /></picture></p>
 
-=\> Mehrere **konkurrierende** Agenten an Suche beteiligt!
+$\to$ Mehrere **konkurrierende** Agenten an Suche beteiligt!
 
-=\> (Re-) Aktion des Gegners unbekannt/nicht vorhersehbar.
+$\to$ (Re-) Aktion des Gegners unbekannt/nicht vorhersehbar.
 
 ##### Spiele und Umgebungen
 
@@ -7359,7 +7362,7 @@ beste Zug?!**
 | Voll beobachtbar     | Schach, Go, ...   | Backgammon, Monopoly     |
 | Partiell beobachtbar | Schiffe-versenken | Bridge, Poker, Skat, ... |
 
-=\> Bis auf Roboterfußball in KI traditionell keine physischen Spiele!
+$\to$ Bis auf Roboterfußball in KI traditionell keine physischen Spiele!
 
 ##### Brettspiele sind interessant für KI
 
@@ -7375,7 +7378,7 @@ beste Zug?!**
     Beispiel **Schach**:
 
     -   Im Mittel 35 Aktionen (*branching factor*) von jeder Position
-    -   Oft mehr als 40 Züge pro Spieler =\> Suchbäume mit mehr als 80
+    -   Oft mehr als 40 Züge pro Spieler $\to$ Suchbäume mit mehr als 80
         Ebenen
     -   $35^{80} \approx 10^{123}$ mögliche Knoten!
     -   (Aber "nur" rund $10^{40}$ *verschiedene* Zustände)
@@ -7385,7 +7388,7 @@ beste Zug?!**
 ##### Eigenschaften guter Spielalgorithmen
 
 -   Zeit begrenzt
-    -   Irgendeine gute Entscheidung treffen! =\> Bewertungsfunktion
+    -   Irgendeine gute Entscheidung treffen! $\to$ Bewertungsfunktion
         (auch für Zwischenzustände)
 
 <!-- -->
@@ -7486,7 +7489,7 @@ beste Zug?!**
 
 -   Zieltest: Ist das Spiel vorbei?
 
-    =\> Startzustand und anwendbare Aktionen definieren den
+    $\to$ Startzustand und anwendbare Aktionen definieren den
     Zustandsraum.
 
 -   Nutzenfunktion: $\mathop{\text{UTILITY}}(s,p)$: Wert des Spiels für
@@ -7494,7 +7497,7 @@ beste Zug?!**
 
 -   Strategie: Spieler benötigen **Strategie**, um zu gewünschtem
     Endzustand zu kommen *(unabhängig von den Entscheidungen des
-    Gegenspielers)* =\> einfacher Pfad von Start zu Ziel reicht nicht
+    Gegenspielers)* $\to$ einfacher Pfad von Start zu Ziel reicht nicht
 
 *Hinweis*: Nullsummenspiel! (Der Gewinn des einen Spielers ist der
 Verlust des anderen Spielers.)
@@ -7517,7 +7520,7 @@ Minimax-Algorithmus nicht unbedingt eine optimale Strategie.
 
 1)  Erzeuge kompletten Suchbaum mit Tiefensuche
 2)  Wende Nutzenfunktion (*Utility*) auf jeden Endzustand an
-3)  Ausgehend von Endzuständen =\> Bewerte Vorgängerknoten:
+3)  Ausgehend von Endzuständen $\to$ Bewerte Vorgängerknoten:
     -   Knoten ist `Min`-Knoten: Nutzen ist das **Minimum** der
         Kindknoten
     -   Knoten ist `Max`-Knoten: Nutzen ist das **Maximum** der
@@ -7592,7 +7595,7 @@ def Minimax(state):
 
 -   maximale Tiefe des Spielbaums: $m$
 -   in jedem Zustand $b$ gültige Züge
--   =\> Zeitkomplexität $O(b^m)$
+-   $\to$ Zeitkomplexität $O(b^m)$
 
 Gedankenexperiment:
 
@@ -7708,7 +7711,7 @@ Gedankenexperiment:
 > erreichbaren `Max`- oder `Min`-Wert gewichten. Die Summe dieser
 > gewichteten Bewertungen ist die Bewertung des entsprechenden
 > "Chance"-Knotens, der dann in der darüberliegenden Ebene nach dem
-> Minimax-Prinzip ausgewertet wird (=\> *Expectimax*).
+> Minimax-Prinzip ausgewertet wird ($\to$ *Expectimax*).
 >
 > </details>
 
@@ -7744,7 +7747,7 @@ Gedankenexperiment:
 -   Mögliche Evaluierungskriterien:
     -   Materialwert: Bauer 1, Läufer/Springer 3, Turm 5, Dame 9
     -   Stellungsbewertung: Sicherheit des Königs, Stellung der Bauern
-    -   Daumenregeln: 3 Punkte Vorteil =\> sicherer Sieg
+    -   Daumenregeln: 3 Punkte Vorteil $\to$ sicherer Sieg
 
 <!-- -->
 
@@ -7757,11 +7760,11 @@ Gedankenexperiment:
 <!-- -->
 
 -   **Alternativ**:
-    -   Speicherung von Positionen plus Bewertung in **Datenbanken** =\>
-        Lookup mit $\mathop{\text{Eval}}(s)$ (statt Berechnung zur
+    -   Speicherung von Positionen plus Bewertung in **Datenbanken**
+        $\to$ Lookup mit $\mathop{\text{Eval}}(s)$ (statt Berechnung zur
         Laufzeit)
     -   Training von **ML-Modellen** (Eingabe: Position, Ausgabe:
-        Bewertung) =\> Lookup mit $\mathop{\text{Eval}}(s)$ (statt
+        Bewertung) $\to$ Lookup mit $\mathop{\text{Eval}}(s)$ (statt
         Berechnung zur Laufzeit also eine Art Klassifikation der
         aktuellen Position durch das MLP, welches die gelernte Bewertung
         ausgibt)
@@ -7837,7 +7840,8 @@ um das Würfelergebnis repräsentieren zu können. Je möglichem
 Würfelergebnis $i$ gibt es einen Ausgang, an dem die Wahrscheinlichkeit
 $P(i)$ dieses Ausgangs annotiert wird.
 
-=\> Für Zufallsknoten **erwarteten** Minimax-Wert (*Expectimax*) nutzen
+$\to$ Für Zufallsknoten **erwarteten** Minimax-Wert (*Expectimax*)
+nutzen
 
 ##### Minimax mit Zufall: Expectimax
 
@@ -7960,7 +7964,7 @@ der Nachfolger arbeiten.
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimax_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/games/images/minimax.png" width="35%" /></picture></p>
 
-=\> **Minimax-Baum**: Verbesserungen möglich?
+$\to$ **Minimax-Baum**: Verbesserungen möglich?
 
 ##### Alpha-beta-Pruning
 
@@ -7969,7 +7973,7 @@ Minimax-Algorithmus mit zusätzlichen Informationen:
 -   $\alpha$: bisher bester Wert für MAX (höchster Wert)
 -   $\beta$: bisher bester Wert für MIN (kleinster Wert)
 
-=\> Beobachtungen:
+$\to$ Beobachtungen:
 
 1.  $\alpha$ für MAX-Knoten wird nie kleiner
 2.  $\beta$ für MIN-Knoten wird nie größer
@@ -8042,7 +8046,7 @@ Werten.
 
 2.  Sortierung der Nachfolger spielt große Rolle
 
-3.  Perfekte Sortierung: $O(b^{d/2})$ =\> Verdopplung der Suchtiefe
+3.  Perfekte Sortierung: $O(b^{d/2})$ $\to$ Verdopplung der Suchtiefe
     möglich
 
 Für Schach immer noch zu aufwändig ...
@@ -8050,7 +8054,7 @@ Für Schach immer noch zu aufwändig ...
 ##### Verbesserungen für Alpha-beta-Pruning
 
 -   "Killer-Move": Maximale Effizienz nur wenn **optimaler Zug immer
-    zuerst** untersucht =\> Zu untersuchende Züge
+    zuerst** untersucht $\to$ Zu untersuchende Züge
     **sortieren/priorisieren**, zb. Schach:
     a)  Figuren schlagen
     b)  Drohen
@@ -10645,24 +10649,42 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
+-   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by
+    [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
+    [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
+    on Wikipedia ([CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg)
+    by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
+    [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on
+    Wikimedia Commons ([Public
+    Domain](https://en.wikipedia.org/wiki/en:public_domain))
 -   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by
     [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and
     [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de)
     on Wikipedia ([CC BY-SA
     3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   ["künstliche
-    intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/)
-    by [Gerd Altmann
-    (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com
-    ([Pixabay License](https://pixabay.com/de/service/license/))
+-   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
+    [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
+    ([Unsplash License](https://unsplash.com/license))
 -   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by
     Marcel Marnitz, reworked by
     [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann)
     on Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/Public_domain))
--   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg)
-    by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
-    [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on
+-   ["künstliche
+    intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/)
+    by [Gerd Altmann
+    (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com
+    ([Pixabay License](https://pixabay.com/de/service/license/))
+-   [Turing Test version
+    3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
+    by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on
+    Wikimedia Commons ([Public
+    Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [Backgammon
+    lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png)
+    by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on
     Wikimedia Commons ([Public
     Domain](https://en.wikipedia.org/wiki/en:public_domain))
 -   [AvB - RoboCup 2013 -
@@ -10670,26 +10692,8 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
     by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on
     Flickr.com ([CC BY
     2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
--   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by
-    [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and
-    [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de)
-    on Wikipedia ([CC BY-SA
-    3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   [Backgammon
-    lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png)
-    by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on
-    Wikimedia Commons ([Public
-    Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [Turing Test version
-    3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png)
-    by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on
-    Wikimedia Commons ([Public
-    Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by
-    [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com
-    ([Unsplash License](https://unsplash.com/license))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 22210fa 2026-09-08 Update exams-tdu.md (#523)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> ad401eb 2026-09-09 nb: improve example<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in
     Graph-Search-Variante bei endlichem Suchraum

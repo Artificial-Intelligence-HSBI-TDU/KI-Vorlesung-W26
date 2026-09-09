@@ -47,7 +47,7 @@
 
 -   Binäre Lösungsrepräsentation (Bitstring):
     $\mathbf{g} = (g_1, \dots, g_m)\in \{ 0,1\}^m$
-    -   String gliedert sich in $n$ Elemente (mit $n \le m$) =\> jedes
+    -   String gliedert sich in $n$ Elemente (mit $n \le m$) $\to$ jedes
         Segment entspricht einer Problemvariablen
     -   Dekodierungsfunktion $\Gamma : \{0,1\}^m \to \mathbb{R}^n$
 
@@ -80,7 +80,7 @@
 -   Fitnessproportionale Selektion (*Roulette Wheel Selection*):
     Auswahlwahrscheinlichkeit für Individuum $\mathbf{g}_k$:
     $$p_{sel}(\mathbf{g}_k) = \frac{\Phi(\mathbf{g}_k)}{\sum_j \Phi(\mathbf{g}_j)}$$
-    =\> Voraussetzung: positive Fitnesswerte
+    $\to$ Voraussetzung: positive Fitnesswerte
 
 <!-- -->
 
@@ -125,7 +125,7 @@ $p_{cross} \ge 0.6$)
             und
             $$\mathbf{g}_d = (g_{b,1}, \dots, g_{b,i}, \; g_{a,{i+1}}, \dots, g_{a,m})$$
 
-        =\> Trenne Eltern an gleicher Stelle auf, vertausche
+        $\to$ Trenne Eltern an gleicher Stelle auf, vertausche
         Bestandteile
 
 <!-- -->
@@ -164,8 +164,8 @@ heißt "Crossover" deshalb oft "Rekombination".
         \end{array}
         \right.$$
 
-        =\>$\chi_i$ gleichverteilte Zufallsvariable (Intervall $[0,1]$),
-        für jedes Bit $g_i$ neu bestimmen
+        $\to$$\chi_i$ gleichverteilte Zufallsvariable (Intervall
+        $[0,1]$), für jedes Bit $g_i$ neu bestimmen
 
 *Anmerkung*: Die optimale Mutationsrate $p_{mut}^*$ ist von Länge $m$
 des Bitstrings abhängig; annäherbar durch $p_{mut}^* \approx 1/m$.
@@ -324,4 +324,4 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

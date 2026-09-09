@@ -150,7 +150,7 @@ Referenzen vom Typ `Baum` sein).
 
 -   Zyklischer Durchlauf durch Trainingsmenge
 -   Abbruch:
-    -   Alle Trainingsobjekte richtig klassifiziert =\> Kein Fehler in
+    -   Alle Trainingsobjekte richtig klassifiziert $\to$ Kein Fehler in
         einem kompletten Durchlauf
     -   (Differenzierung nötig, aber alle Merkmale verbraucht)
     -   (Lernschrittzahl überschritten)
@@ -266,4 +266,4 @@ Referenzen vom Typ `Baum` sein).
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> d12a1c1 2025-08-29 lecture: add DTL to title (DTL)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
