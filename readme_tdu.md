@@ -4,32 +4,18 @@
 
 <p align="center"><img src="https://cdn.pixabay.com/photo/2018/09/27/09/22/artificial-intelligence-3706562_1280.jpg" width="60%" /></p>
 
-Quelle: ["künstliche
-intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/)
-by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on
-Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
+Quelle: ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
 
 ### Kursbeschreibung
 
-Ausgehend von den Fragen "Was ist *Intelligenz*?" und "Was ist
-*künstliche* Intelligenz?" werden wir uns in diesem Modul mit
-**verschiedenen Teilgebieten der KI** beschäftigen und uns anschauen,
-welche **Methoden und Algorithmen** es gibt und wie diese funktionieren.
-Dabei werden wir auch das Gebiet *Machine Learning* berühren, aber auch
-andere wichtige Gebiete betrachten. Sie erarbeiten sich im Laufe der
-Veranstaltung einen **Methoden-Baukasten** zur Lösung
-unterschiedlichster Probleme und erwerben ein grundlegendes Verständnis
-für die Anwendung in Spielen, Navigation, Planung, smarten Assistenten,
-autonomen Fahrzeugen, ...
+Ausgehend von den Fragen "Was ist *Intelligenz*?" und "Was ist *künstliche* Intelligenz?" werden wir uns in diesem Modul mit **verschiedenen Teilgebieten der KI** beschäftigen und uns anschauen, welche **Methoden und Algorithmen** es gibt und wie diese funktionieren. Dabei werden wir auch das Gebiet *Machine Learning* berühren, aber auch andere wichtige Gebiete betrachten. Sie erarbeiten sich im Laufe der Veranstaltung einen **Methoden-Baukasten** zur Lösung unterschiedlichster Probleme und erwerben ein grundlegendes Verständnis für die Anwendung in Spielen, Navigation, Planung, smarten Assistenten, autonomen Fahrzeugen, ...
 
 ### Überblick Modulinhalte
 
 1.  Problemlösen
     -   Zustände, Aktionen, Problemraum
-    -   Suche (blind, informiert): Breiten-, Tiefensuche, Best-First,
-        Branch-and-Bound, A-Stern
-    -   Lokale Suche: Gradientenabstieg, Genetische/Evolutionäre
-        Algorithmen (GA/EA)
+    -   Suche (blind, informiert): Breiten-, Tiefensuche, Best-First, Branch-and-Bound, A-Stern
+    -   Lokale Suche: Gradientenabstieg, Genetische/Evolutionäre Algorithmen (GA/EA)
     -   Spiele: Minimax, Alpha-Beta-Pruning, Heuristiken
     -   Constraints: Backtracking, Heuristiken, Propagation, AC-3
 2.  Maschinelles Lernen
@@ -37,23 +23,18 @@ autonomen Fahrzeugen, ...
     -   Entscheidungsbäume: CAL2, ID3/C4.5, Random Forest
     -   Neuronale Netze
         -   Perzeptron, Lernregel
-        -   Feedforward Multilayer Perzeptron (MLP), Backpropagation,
-            Trainings- vs. Generalisierungsfehler
+        -   Feedforward Multilayer Perzeptron (MLP), Backpropagation, Trainings- vs. Generalisierungsfehler
         -   Steuerung des Trainings: Kreuzvalidierung, Regularisierung
         -   Ausblick: Support-Vektor-Maschinen
     -   Naive Bayes Klassifikator
 3.  ~~Inferenz, Logik~~ (**entfällt im W26**)
-    -   ~~Prädikatenlogik: Modellierung, semantische und formale
-        Beweise, Unifikation, Resolution~~
+    -   ~~Prädikatenlogik: Modellierung, semantische und formale Beweise, Unifikation, Resolution~~
     -   ~~Ausblick: Anwendung in Prolog~~
 
 ### Team
 
--   [Canan Yıldız](http://people.tau.edu.tr/people.show/cananyildiz/de)
-    (TDU)
--   [Carsten
-    Gips](https://www.hsbi.de/minden/ueber-uns/personenverzeichnis/carsten-gips)
-    (HSBI, Sprechstunde nach Vereinbarung)
+-   [Canan Yıldız](http://people.tau.edu.tr/people.show/cananyildiz/de) (TDU)
+-   [Carsten Gips](https://www.hsbi.de/minden/ueber-uns/personenverzeichnis/carsten-gips) (HSBI, Sprechstunde nach Vereinbarung)
 
 ### Kursformat (TDU)
 
@@ -64,9 +45,7 @@ autonomen Fahrzeugen, ...
 | Mo, 10:00 - 11:30 Uhr (TR) | Mo, 11:00 - 12:30 Uhr (TR) | Mo, 13:30 - 15:30 (TR) |
 | (Zoom) | (Zoom) | (Google Meet) |
 
-Durchführung der Vorlesung als *Flipped Classroom*: Sitzungen per Zoom,
-Übungen per Google Meet. (Zugangsdaten siehe [Google
-Classroom](https://classroom.google.com/c/ODc4MjIwMTIyMzY1))
+Durchführung der Vorlesung als *Flipped Classroom*: Sitzungen per Zoom, Übungen per Google Meet. (Zugangsdaten siehe [Google Classroom](https://classroom.google.com/c/ODc4MjIwMTIyMzY1))
 
 ### Fahrplan (TDU)
 
@@ -100,17 +79,8 @@ Classroom](https://classroom.google.com/c/ODc4MjIwMTIyMzY1))
 
 ### Materialien
 
-1.  ["**Artificial Intelligence: A Modern
-    Approach**"](http://aima.cs.berkeley.edu/) (*AIMA*). Russell, S. und
-    Norvig, P., Pearson, 2021. ISBN
-    [978-0134610993](https://fhb-bielefeld.digibib.net/openurl?isbn=978-0134610993).
-2.  ["Hands-On Machine Learning with Scikit-Learn, Keras, and
-    TensorFlow"](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/).
-    Géron, A., O'Reilly, 2023. ISBN
-    [978-1-098-12597-4](https://fhb-bielefeld.digibib.net/openurl?isbn=978-1-098-12597-4).
-    [Online](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)
-    über die
-    [O'Reilly-Lernplattform](https://www.oreilly.com/library-access/).
+1.  ["**Artificial Intelligence: A Modern Approach**"](http://aima.cs.berkeley.edu/) (*AIMA*). Russell, S. und Norvig, P., Pearson, 2021. ISBN [978-0134610993](https://fhb-bielefeld.digibib.net/openurl?isbn=978-0134610993).
+2.  ["Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow"](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/). Géron, A., O'Reilly, 2023. ISBN [978-1-098-12597-4](https://fhb-bielefeld.digibib.net/openurl?isbn=978-1-098-12597-4). [Online](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/) über die [O'Reilly-Lernplattform](https://www.oreilly.com/library-access/).
 
 ------------------------------------------------------------------------
 
@@ -120,10 +90,6 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   ["künstliche
-    intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/)
-    by [Gerd Altmann
-    (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com
-    ([Pixabay License](https://pixabay.com/de/service/license/))
+-   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
 
 <blockquote><p><sup><sub><strong>Last modified:</strong> 6ddd640 2026-09-08 orga: improve internal formatting<br></sub></sup></p></blockquote>

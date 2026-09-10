@@ -22,16 +22,10 @@
 
 ### Multilayer Perzeptron (MLP)
 
--   Das Perzeptron kann nur linear separable Daten korrekt
-    klassifizieren.
--   Durch das Zusammenschließen von mehreren Perzeptronen kann man ein
-    mehrschichtiges Perzeptron (engl. Multilayer Perceptron) aufstellen,
-    das komplexere Funktionen modellieren kann.
--   Ein MLP wird oft auch als **Feed Forward Neural Network** oder als
-    **Fully Connected Neural Network** bezeichnet.
--   Die "inneren" Schichten eines solchen Netzwerkes sind sogenannte
-    **versteckte Schichten** (engl. hidden layer). Das sind alle
-    Schichten ausgenommen die Eingangs- und Ausgangsschicht.
+-   Das Perzeptron kann nur linear separable Daten korrekt klassifizieren.
+-   Durch das Zusammenschließen von mehreren Perzeptronen kann man ein mehrschichtiges Perzeptron (engl. Multilayer Perceptron) aufstellen, das komplexere Funktionen modellieren kann.
+-   Ein MLP wird oft auch als **Feed Forward Neural Network** oder als **Fully Connected Neural Network** bezeichnet.
+-   Die "inneren" Schichten eines solchen Netzwerkes sind sogenannte **versteckte Schichten** (engl. hidden layer). Das sind alle Schichten ausgenommen die Eingangs- und Ausgangsschicht.
 
 ### Graphische Übersicht und Vorwärtslauf
 
@@ -39,24 +33,17 @@
 
     <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/mlp_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/mlp.png" width="65%" /></picture></p>
 
-    Ein Vorwärtslauf (forward pass):
-    $$a^{[1]} = ReLU \left( W^{[1]} \cdot \mathbb{x} + b^{[1]} \right) \tag{1}$$
-    $$\hat{y} := a^{[2]} = \sigma \left( W^{[2]} \cdot a^{[1]} + b^{[2]} \right) \tag{2}$$
+    Ein Vorwärtslauf (forward pass): $$a^{[1]} = ReLU \left( W^{[1]} \cdot \mathbb{x} + b^{[1]} \right) \tag{1}$$ $$\hat{y} := a^{[2]} = \sigma \left( W^{[2]} \cdot a^{[1]} + b^{[2]} \right) \tag{2}$$
 
 > [!NOTE]
 >
 > <details >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> -   k2: Ich kann das Multi-Layer Perzeptron (MLP) erläutern und dabei
->     auf die graphische Darstellung eingehen und den Vorwärtslauf
->     erklären
-> -   k2: Ich kann verschiedene Aktivierungsfunktionen (insbesondere
->     ReLU) erklären
-> -   k3: Ich kann den Vorwärtslauf (forward pass) für ein gegebenes MLP
->     anwenden
-> -   k3: Ich kann die Berechnung der einzelnen Aktivierungen
->     durchführen
+> -   k2: Ich kann das Multi-Layer Perzeptron (MLP) erläutern und dabei auf die graphische Darstellung eingehen und den Vorwärtslauf erklären
+> -   k2: Ich kann verschiedene Aktivierungsfunktionen (insbesondere ReLU) erklären
+> -   k3: Ich kann den Vorwärtslauf (forward pass) für ein gegebenes MLP anwenden
+> -   k3: Ich kann die Berechnung der einzelnen Aktivierungen durchführen
 >
 > </details>
 
@@ -65,8 +52,7 @@
 > <details >
 > <summary><strong>🧩 Quizzes</strong></summary>
 >
-> -   [Selbsttest Multilayer Perzeptron
->     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106592&client_id=FH-Bielefeld)
+> -   [Selbsttest Multilayer Perzeptron (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106592&client_id=FH-Bielefeld)
 >
 > </details>
 
@@ -77,30 +63,19 @@
 >
 > **Lineares MLP**
 >
-> Gegeben sei ein MLP mit linearen Aktivierungsfunktionen, d.h. für
-> jedes Neuron berechnet sich der Output durch die gewichtete Summe der
-> Inputs: $y = g(w^T x)$, wobei $g(z) = z$ gilt, also $y = w^T x$.
-> Zeigen Sie, dass dieses Netz durch eine einzige Schicht mit linearen
-> Neuronen ersetzt werden kann.
+> Gegeben sei ein MLP mit linearen Aktivierungsfunktionen, d.h. für jedes Neuron berechnet sich der Output durch die gewichtete Summe der Inputs: $y = g(w^T x)$, wobei $g(z) = z$ gilt, also $y = w^T x$. Zeigen Sie, dass dieses Netz durch eine einzige Schicht mit linearen Neuronen ersetzt werden kann.
 >
-> Betrachten Sie dazu ein zwei-schichtiges Netz (i.e. bestehend aus
-> Eingabe-Schicht, Ausgabe-Schicht und einer versteckten Schicht) und
-> schreiben Sie die Gleichung auf, die die Ausgabe als Funktion der
-> Eingabe darstellt.
+> Betrachten Sie dazu ein zwei-schichtiges Netz (i.e. bestehend aus Eingabe-Schicht, Ausgabe-Schicht und einer versteckten Schicht) und schreiben Sie die Gleichung auf, die die Ausgabe als Funktion der Eingabe darstellt.
 >
-> Als Beispiel sei das zwei-schichtige MLP mit den folgenden Gewichten
-> und Bias-Werten gegeben:
+> Als Beispiel sei das zwei-schichtige MLP mit den folgenden Gewichten und Bias-Werten gegeben:
 >
 > Schicht 1: $W_1 = [[2, 2],[3, -2]]$, $b_1 = [[1],[-1]]$
 >
 > Schicht 2: $W_2 = [[-2, 2]]$, $b_2 = [[-1]]$
 >
-> -   Stellen Sie dieses Netzwerk graphisch dar. Was ist die Anzahl der
->     Zellen in den einzelnen Schichten?
+> -   Stellen Sie dieses Netzwerk graphisch dar. Was ist die Anzahl der Zellen in den einzelnen Schichten?
 > -   Berechnen Sie die Ausgabe für eine Beispiel-Eingabe Ihrer Wahl.
-> -   Stellen Sie ein ein-schichtiges Netz auf, das für jede Eingabe die
->     gleiche Ausgabe wie das obige Netzwerk berechnet und es somit
->     ersetzen könnte.
+> -   Stellen Sie ein ein-schichtiges Netz auf, das für jede Eingabe die gleiche Ausgabe wie das obige Netzwerk berechnet und es somit ersetzen könnte.
 >
 > </details>
 

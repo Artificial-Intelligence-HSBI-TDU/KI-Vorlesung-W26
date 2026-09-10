@@ -5,15 +5,9 @@
 > <details open>
 > <summary><strong>🎯 TL;DR</strong></summary>
 >
-> Die Breitensuche gehört zu den "Uninformierten Suchverfahren": Es
-> werden keine weiteren Pfadkosten, sondern nur die Anzahl der Schritte
-> berücksichtigt.
+> Die Breitensuche gehört zu den "Uninformierten Suchverfahren": Es werden keine weiteren Pfadkosten, sondern nur die Anzahl der Schritte berücksichtigt.
 >
-> Die Breitensuche entsteht, wenn man bei der Tree-Search oder der
-> Graph-Search für die Datenstruktur eine **Queue** benutzt: Expandierte
-> Nachfolger werden immer **hinten** in die Queue eingefügt, und der
-> nächste zu expandierende Knoten wird **vorn** aus der Queue genommen.
-> Dadurch wird bei der Breitensuche der Suchbaum ebenenweise entwickelt.
+> Die Breitensuche entsteht, wenn man bei der Tree-Search oder der Graph-Search für die Datenstruktur eine **Queue** benutzt: Expandierte Nachfolger werden immer **hinten** in die Queue eingefügt, und der nächste zu expandierende Knoten wird **vorn** aus der Queue genommen. Dadurch wird bei der Breitensuche der Suchbaum ebenenweise entwickelt.
 >
 > </details>
 
@@ -38,8 +32,7 @@ $\to$ **Problemlösen == Suche im Graphen**
 
 **Uninformierte ("blinde") Suche**:
 
-Keine Informationen über die Kosten eines Pfades: Nur die Pfadlänge
-(Anzahl der Schritte) zählt.
+Keine Informationen über die Kosten eines Pfades: Nur die Pfadlänge (Anzahl der Schritte) zählt.
 
 Varianten:
 
@@ -54,9 +47,7 @@ Varianten:
 2.  Entnehme Knoten aus der Datenstruktur:
     -   Knoten ist gesuchtes Element: Abbruch, melde "*gefunden*"
     -   Markiere aktuellen Knoten, und
-    -   Expandiere alle Nachfolger des Knotens und füge alle
-        unmarkierten Nachfolger, die noch nicht in der Datenstruktur
-        sind, in die Datenstruktur ein
+    -   Expandiere alle Nachfolger des Knotens und füge alle unmarkierten Nachfolger, die noch nicht in der Datenstruktur sind, in die Datenstruktur ein
 3.  Falls die Datenstruktur leer ist: Abbruch, melde "*nicht gefunden*"
 4.  Gehe zu Schritt 2
 
@@ -70,56 +61,28 @@ $\to$ Was passiert, wenn wir eine **Queue** einsetzen?
 
 ## Bemerkungen
 
--   Nachfolger eines Knotens: Alle von diesem Zustand durch Aktionen
-    erreichbare Zustände
+-   Nachfolger eines Knotens: Alle von diesem Zustand durch Aktionen erreichbare Zustände
 
--   Suchalgorithmus mit **Queue** als Datenstruktur $\to$
-    **Breitensuche**
+-   Suchalgorithmus mit **Queue** als Datenstruktur $\to$ **Breitensuche**
 
-    -   Zu betrachtender Knoten in Schritt 2 wird *vorn* aus der Queue
-        genommen
-    -   Expandierte Knoten werden in Schritt 2.a *hinten* in die Queue
-        eingefügt Dabei i.A. die vorgegebene Reihenfolge der
-        Nachfolgeknoten beachten!
+    -   Zu betrachtender Knoten in Schritt 2 wird *vorn* aus der Queue genommen
+    -   Expandierte Knoten werden in Schritt 2.a *hinten* in die Queue eingefügt Dabei i.A. die vorgegebene Reihenfolge der Nachfolgeknoten beachten!
 
-    Auswirkung: Suchbaum wird **ebenenweise** aufgebaut (deshalb
-    "Breitensuche")
+    Auswirkung: Suchbaum wird **ebenenweise** aufgebaut (deshalb "Breitensuche")
 
--   Graph-Search: Markierte Knoten müssen geeignet gespeichert werden:
-    separate Datenstruktur $\to$ Aufwand!
+-   Graph-Search: Markierte Knoten müssen geeignet gespeichert werden: separate Datenstruktur $\to$ Aufwand!
 
 ## Konventionen für diese Lehrveranstaltung
 
-In der Beschreibung der Algorithmen werden häufig nur die letzten Knoten
-der partiellen Wege in den Datenstrukturen mitgeführt (das gilt auch für
-die Beschreibung im ([Russell und Norvig 2021](#ref-Russell2021))). Dies
-erschwert die Nachvollziehbarkeit, wenn man die Queue oder den Stack
-schrittweise aufschreibt. Deshalb wird für diese Veranstaltung die
-Konvention eingeführt, immer die **partiellen Wege** aufzuschreiben.
+In der Beschreibung der Algorithmen werden häufig nur die letzten Knoten der partiellen Wege in den Datenstrukturen mitgeführt (das gilt auch für die Beschreibung im ([Russell und Norvig 2021](#ref-Russell2021))). Dies erschwert die Nachvollziehbarkeit, wenn man die Queue oder den Stack schrittweise aufschreibt. Deshalb wird für diese Veranstaltung die Konvention eingeführt, immer die **partiellen Wege** aufzuschreiben.
 
-Nicht Bestandteil der Algorithmen, dient aber der Nachvollziehbarkeit:
-Expandierte Knoten sollen alphabetisch sortiert an der korrekten Stelle
-in der Datenstruktur auftauchen, dabei soll aber natürlich die
-Reihenfolge der ursprünglich in der Datenstruktur enthaltenen Knoten
-nicht modifiziert werden. (Bei "echten" Problemen wird die Reihenfolge
-der expandierten Nachfolger in der Regel durch eine Reihenfolge der
-anwendbaren Operationen bestimmt.)
+Nicht Bestandteil der Algorithmen, dient aber der Nachvollziehbarkeit: Expandierte Knoten sollen alphabetisch sortiert an der korrekten Stelle in der Datenstruktur auftauchen, dabei soll aber natürlich die Reihenfolge der ursprünglich in der Datenstruktur enthaltenen Knoten nicht modifiziert werden. (Bei "echten" Problemen wird die Reihenfolge der expandierten Nachfolger in der Regel durch eine Reihenfolge der anwendbaren Operationen bestimmt.)
 
 ## Weitere Hinweise
 
--   Die Breitensuche wurde zufällig am Beispiel Graph-Search eingeführt.
-    Man kann auch die Tree-Search-Variante einsetzen. Wichtig ist nur,
-    dass als Datenstruktur eine Queue genutzt wird.
+-   Die Breitensuche wurde zufällig am Beispiel Graph-Search eingeführt. Man kann auch die Tree-Search-Variante einsetzen. Wichtig ist nur, dass als Datenstruktur eine Queue genutzt wird.
 
--   Im ([Russell und Norvig 2021](#ref-Russell2021)) wird die
-    Breitensuche ebenfalls auf der Basis des Graph-Search-Algorithmus
-    eingeführt. Allerdings wird die Abbruchbedingung modifiziert: Die
-    Zielbedingung wird nicht erst (wie bei Graph-Search eigentlich
-    definiert) geprüft, wenn ein Knoten aus der Queue entnommen wird,
-    sondern bereits bei der Erzeugung der Nachfolgerknoten (vor dem
-    Einfügen in die Queue). Dadurch spart man sich die Expansion einer
-    zusätzlichen Ebene: Die Komplexität wäre in diesem Fall "nur"
-    $O(b^{d})$.
+-   Im ([Russell und Norvig 2021](#ref-Russell2021)) wird die Breitensuche ebenfalls auf der Basis des Graph-Search-Algorithmus eingeführt. Allerdings wird die Abbruchbedingung modifiziert: Die Zielbedingung wird nicht erst (wie bei Graph-Search eigentlich definiert) geprüft, wenn ein Knoten aus der Queue entnommen wird, sondern bereits bei der Erzeugung der Nachfolgerknoten (vor dem Einfügen in die Queue). Dadurch spart man sich die Expansion einer zusätzlichen Ebene: Die Komplexität wäre in diesem Fall "nur" $O(b^{d})$.
 
 ## Eigenschaften Breitensuche vs. Tiefensuche
 
@@ -135,8 +98,7 @@ anwendbaren Operationen bestimmt.)
     -   TS: in jeder Tiefe weitere $b$ Knoten speichern
     -   BS: alle Knoten einer Ebene im Speicher halten[^3]
 
-**b**: Verzweigungsfaktor, **d**: Ebene d. höchsten Lösungsknotens,
-**m**: Länge d. längsten Pfades
+**b**: Verzweigungsfaktor, **d**: Ebene d. höchsten Lösungsknotens, **m**: Länge d. längsten Pfades
 
 ## Praxisvergleich Breitensuche vs. Tiefensuche
 
@@ -158,16 +120,14 @@ $\to$ Speicherbedarf **ca. 10 MB**
 
 -   Uninformierte Suchverfahren
     -   Keine weiteren Pfadkosten (nur Anzahl der Schritte)
-    -   Breitensuche: Verfolge alle Pfade (baue den Suchbaum ebenenweise
-        auf)
+    -   Breitensuche: Verfolge alle Pfade (baue den Suchbaum ebenenweise auf)
 
 > [!TIP]
 >
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Russell und Norvig ([2021](#ref-Russell2021)): Breitensuche:
->     Abschnitt 3.4.1
+> -   Russell und Norvig ([2021](#ref-Russell2021)): Breitensuche: Abschnitt 3.4.1
 >
 > </details>
 
@@ -176,14 +136,10 @@ $\to$ Speicherbedarf **ca. 10 MB**
 > <details >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> -   k2: Ich kann erklären, welche Datenstrukturen in der Breitensuche
->     verwendet werden und wie diese sich auswirken
-> -   k2: Ich kann die algorithmische Abläufe und die Terminierung der
->     Breitensuche erklären
-> -   k2: Ich kann Optimalität, Vollständigkeit und Komplexität für die
->     Breitensuche erklären
-> -   k3: Ich kann die Breitensuche implementieren und auf ein konkretes
->     Beispiel anwenden
+> -   k2: Ich kann erklären, welche Datenstrukturen in der Breitensuche verwendet werden und wie diese sich auswirken
+> -   k2: Ich kann die algorithmische Abläufe und die Terminierung der Breitensuche erklären
+> -   k2: Ich kann Optimalität, Vollständigkeit und Komplexität für die Breitensuche erklären
+> -   k3: Ich kann die Breitensuche implementieren und auf ein konkretes Beispiel anwenden
 >
 > </details>
 
@@ -192,8 +148,7 @@ $\to$ Speicherbedarf **ca. 10 MB**
 > <details >
 > <summary><strong>🧩 Quizzes</strong></summary>
 >
-> -   [Selbsttest Breitensuche
->     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106597&client_id=FH-Bielefeld)
+> -   [Selbsttest Breitensuche (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106597&client_id=FH-Bielefeld)
 >
 > </details>
 
@@ -208,8 +163,7 @@ $\to$ Speicherbedarf **ca. 10 MB**
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
-> Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
 >
@@ -225,10 +179,8 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 <blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
 
-[^1]: gilt für Tree-Search-Variante; vollständig in
-    Graph-Search-Variante bei endlichem Suchraum
+[^1]: gilt für Tree-Search-Variante; vollständig in Graph-Search-Variante bei endlichem Suchraum
 
 [^2]: falls *b* endlich
 
-[^3]: $O(b^{d})$ mit vorgezogener Zielprüfung (vgl. ([Russell und Norvig
-    2021](#ref-Russell2021)))
+[^3]: $O(b^{d})$ mit vorgezogener Zielprüfung (vgl. ([Russell und Norvig 2021](#ref-Russell2021)))

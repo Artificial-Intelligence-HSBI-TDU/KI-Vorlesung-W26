@@ -5,13 +5,9 @@
 > <details open>
 > <summary><strong>🎯 TL;DR</strong></summary>
 >
-> Best First gehört wie Branch-and-Bound zu den "Informierten
-> Suchverfahren": Es werden Pfadkosten (in diesem Fall Schätzungen)
-> statt der Anzahl der Schritte berücksichtigt.
+> Best First gehört wie Branch-and-Bound zu den "Informierten Suchverfahren": Es werden Pfadkosten (in diesem Fall Schätzungen) statt der Anzahl der Schritte berücksichtigt.
 >
-> Best First arbeitet algorithmisch wie Branch-and-Bound, allerdings
-> werden immer nur die geschätzten Restkosten eines Knotens zum Ziel
-> berücksichtigt.
+> Best First arbeitet algorithmisch wie Branch-and-Bound, allerdings werden immer nur die geschätzten Restkosten eines Knotens zum Ziel berücksichtigt.
 >
 > </details>
 
@@ -40,8 +36,7 @@ $\to$ **Problemlösen == Suche im Graphen**
 
 -   $n \in S$ auf aktuellem Weg erreichter Knoten
 -   $g(n)$ tatsächliche Kosten für Weg vom Start bis Knoten $n$
--   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to$
-    $h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
+-   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to$ $h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
 
 Varianten:
 
@@ -51,8 +46,7 @@ Varianten:
 
 ## Best-First (*BF*, *BFS*)
 
--   Idee: Expandiere den partiellen Weg, der verspricht, dem Ziel am
-    nächsten zu sein (**Heuristik**)
+-   Idee: Expandiere den partiellen Weg, der verspricht, dem Ziel am nächsten zu sein (**Heuristik**)
 
 <!-- -->
 
@@ -65,24 +59,11 @@ Varianten:
 
 ## Konventionen BF
 
-In der Beschreibung der Algorithmen werden häufig nur die letzten Knoten
-der partiellen Wege in den Datenstrukturen mitgeführt (das gilt auch für
-die Beschreibung im ([Russell und Norvig 2021](#ref-Russell2021))). Dies
-erschwert die Nachvollziehbarkeit, wenn man die Queue oder den Stack
-schrittweise aufschreibt. Deshalb wird für diese Veranstaltung die
-Konvention eingeführt, immer die **partiellen Wege** aufzuschreiben.
+In der Beschreibung der Algorithmen werden häufig nur die letzten Knoten der partiellen Wege in den Datenstrukturen mitgeführt (das gilt auch für die Beschreibung im ([Russell und Norvig 2021](#ref-Russell2021))). Dies erschwert die Nachvollziehbarkeit, wenn man die Queue oder den Stack schrittweise aufschreibt. Deshalb wird für diese Veranstaltung die Konvention eingeführt, immer die **partiellen Wege** aufzuschreiben.
 
-Auf dem Papier sortiert sich die Queue schlecht, deshalb können Sie
-darauf verzichten, wenn Sie den im nächsten Schritt zu expandierenden
-Weg unterstreichen. Wer nicht mit Unterstreichen arbeiten will, muss
-eben dann manuell sortieren ...
+Auf dem Papier sortiert sich die Queue schlecht, deshalb können Sie darauf verzichten, wenn Sie den im nächsten Schritt zu expandierenden Weg unterstreichen. Wer nicht mit Unterstreichen arbeiten will, muss eben dann manuell sortieren ...
 
-Wenn bei der Graph-Search-Variante ein Weg nicht in die Queue
-aufgenommen wird, weil bereits ein anderer (günstigerer) Weg zum selben
-(Zwischen-/End-) Knoten bereits in der Queue enthalten ist, schreiben
-Sie dies geeignet auf. Dies gilt auch für den analogen Fall, wenn ein
-Weg aus der Queue entfernt wird, weil ein günstigerer Weg zum selben
-(Zwischen-/End-) Knoten eingefügt werden soll.
+Wenn bei der Graph-Search-Variante ein Weg nicht in die Queue aufgenommen wird, weil bereits ein anderer (günstigerer) Weg zum selben (Zwischen-/End-) Knoten bereits in der Queue enthalten ist, schreiben Sie dies geeignet auf. Dies gilt auch für den analogen Fall, wenn ein Weg aus der Queue entfernt wird, weil ein günstigerer Weg zum selben (Zwischen-/End-) Knoten eingefügt werden soll.
 
 ## Eigenschaften von BF
 
@@ -99,8 +80,7 @@ Siehe [A\*](./search5-astar.md)
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Russell und Norvig ([2021](#ref-Russell2021)): Best First:
->     Abschnitt 3.5.1, Heuristiken: Kapitel 3.6
+> -   Russell und Norvig ([2021](#ref-Russell2021)): Best First: Abschnitt 3.5.1, Heuristiken: Kapitel 3.6
 >
 > </details>
 
@@ -109,14 +89,10 @@ Siehe [A\*](./search5-astar.md)
 > <details >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> -   k2: Ich kann erklären, welche Datenstrukturen in Best First
->     verwendet werden und wie diese sich auswirken
-> -   k2: Ich kann die algorithmische Abläufe und die Terminierung von
->     Best First erklären
-> -   k2: Ich kann Optimalität, Vollständigkeit und Komplexität für Best
->     First erklären
-> -   k3: Ich kann Best First implementieren und auf ein konkretes
->     Beispiel anwenden
+> -   k2: Ich kann erklären, welche Datenstrukturen in Best First verwendet werden und wie diese sich auswirken
+> -   k2: Ich kann die algorithmische Abläufe und die Terminierung von Best First erklären
+> -   k2: Ich kann Optimalität, Vollständigkeit und Komplexität für Best First erklären
+> -   k3: Ich kann Best First implementieren und auf ein konkretes Beispiel anwenden
 >
 > </details>
 
@@ -125,8 +101,7 @@ Siehe [A\*](./search5-astar.md)
 > <details >
 > <summary><strong>🧩 Quizzes</strong></summary>
 >
-> -   [Selbsttest Best First
->     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106599&client_id=FH-Bielefeld)
+> -   [Selbsttest Best First (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106599&client_id=FH-Bielefeld)
 >
 > </details>
 
@@ -139,16 +114,11 @@ Siehe [A\*](./search5-astar.md)
 >
 > <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/MapGermanyGraph.svg/476px-MapGermanyGraph.svg.png"  /></p>
 >
-> Quelle: [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg)
-> by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
-> [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia
-> Commons ([Public
-> Domain](https://en.wikipedia.org/wiki/en:public_domain))
+> Quelle: [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 >
 > <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenge_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenge.png"  /></picture></p>
 >
-> Finden Sie mit der **Best-First-Suche** jeweils einen Weg von Würzburg
-> nach München. Vergleichen Sie das Ergebnis mit der Gradienten-Suche.
+> Finden Sie mit der **Best-First-Suche** jeweils einen Weg von Würzburg nach München. Vergleichen Sie das Ergebnis mit der Gradienten-Suche.
 >
 > </details>
 
@@ -163,8 +133,7 @@ Siehe [A\*](./search5-astar.md)
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
-> Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
 >
@@ -180,10 +149,6 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg)
-    by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and
-    [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on
-    Wikimedia Commons ([Public
-    Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
 <blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>

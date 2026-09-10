@@ -5,34 +5,13 @@
 > <details open>
 > <summary><strong>🎯 TL;DR</strong></summary>
 >
-> Lernen wird in der KI oft als Verhaltensänderung (eines Systems)
-> aufgefasst. Dabei soll eine Gütefunktion optimiert werden.
+> Lernen wird in der KI oft als Verhaltensänderung (eines Systems) aufgefasst. Dabei soll eine Gütefunktion optimiert werden.
 >
-> Je nach verfügbarem Feedback eines "Lehrers" werden typischerweise
-> drei Arten von Lernen unterschieden: Überwachtes Lernen, Unüberwachtes
-> Lernen, Reinforcement Lernen. Dabei stellt der Lehrer beim überwachten
-> Lernen Trainingsbeispiele plus eine Vorgabe (Klasse, Funktionswert)
-> zur Verfügung, während beim unüberwachten Lernen nur die
-> Trainingsbeispiele bereitgestellt werden und der Algorithmus selbst
-> Zusammenhänge in den Daten erkennen soll. Beim Reinforcement Learning
-> erfolgt das Feedback am Ende einer Kette von Aktionen, d.h. der
-> Algorithmus muss diese Bewertung auf die einzelnen Aktionen
-> zurückrechnen.
+> Je nach verfügbarem Feedback eines "Lehrers" werden typischerweise drei Arten von Lernen unterschieden: Überwachtes Lernen, Unüberwachtes Lernen, Reinforcement Lernen. Dabei stellt der Lehrer beim überwachten Lernen Trainingsbeispiele plus eine Vorgabe (Klasse, Funktionswert) zur Verfügung, während beim unüberwachten Lernen nur die Trainingsbeispiele bereitgestellt werden und der Algorithmus selbst Zusammenhänge in den Daten erkennen soll. Beim Reinforcement Learning erfolgt das Feedback am Ende einer Kette von Aktionen, d.h. der Algorithmus muss diese Bewertung auf die einzelnen Aktionen zurückrechnen.
 >
-> Beim überwachten Lernen soll eine Hypothese aufgebaut werden, die der
-> echten (zu lernenden) Funktion möglichst nahe kommt. Eine konsistente
-> Hypothese erklärt die Trainingsdaten, eine generalisierende Hypothese
-> kann auch unbekannte Daten (die aus der selben Quelle stammen, also
-> zum selben Problem gehören) korrekt bewerten. Es wird unterschieden
-> zwischen Klassifikation (einige wenige diskrete Label/Klassen, die den
-> Trainingsbeispielen zugeordnet sind) und Regression (Lernen eines
-> Funktionsverlaufs).
+> Beim überwachten Lernen soll eine Hypothese aufgebaut werden, die der echten (zu lernenden) Funktion möglichst nahe kommt. Eine konsistente Hypothese erklärt die Trainingsdaten, eine generalisierende Hypothese kann auch unbekannte Daten (die aus der selben Quelle stammen, also zum selben Problem gehören) korrekt bewerten. Es wird unterschieden zwischen Klassifikation (einige wenige diskrete Label/Klassen, die den Trainingsbeispielen zugeordnet sind) und Regression (Lernen eines Funktionsverlaufs).
 >
-> Merkmalsvektoren gruppieren Eigenschaften des Problems bzw. der
-> Objekte, d.h. jedes Objekt kann über einen Merkmalsvektor beschrieben
-> werden. Trainingsdaten sind ausgewählte Beispielobjekte (durch
-> Merkmalsvektoren beschrieben) plus die Vorgabe (Klasse oder
-> Funktionswert) vom Lehrer.
+> Merkmalsvektoren gruppieren Eigenschaften des Problems bzw. der Objekte, d.h. jedes Objekt kann über einen Merkmalsvektor beschrieben werden. Trainingsdaten sind ausgewählte Beispielobjekte (durch Merkmalsvektoren beschrieben) plus die Vorgabe (Klasse oder Funktionswert) vom Lehrer.
 >
 > </details>
 
@@ -47,8 +26,7 @@
 
 ## Was ist Lernen?
 
-> Verhaltensänderung eines Agenten in Richtung der Optimierung eines
-> Gütefunktionals (Bewertungsfunktion) durch Erfahrung.
+> Verhaltensänderung eines Agenten in Richtung der Optimierung eines Gütefunktionals (Bewertungsfunktion) durch Erfahrung.
 
 ## Warum Lernen?
 
@@ -86,8 +64,7 @@ $\to$ Lernen wichtige Eigenschaft lebender Wesen :-)
 **Beispiel Kleinkind**: Lernen von Klassen/Konzepten durch Beispiele
 
 -   Zuerst ist alles "Katze" (Übergeneralisierung)
--   Differenzierung durch Feedback der Umwelt; Erkennung
-    unterschiedlicher Ausprägungen
+-   Differenzierung durch Feedback der Umwelt; Erkennung unterschiedlicher Ausprägungen
 
 ## Beispiel: Kreditrisiko
 
@@ -104,10 +81,8 @@ $\to$ Lernen wichtige Eigenschaft lebender Wesen :-)
 <!-- -->
 
 -   Bewertung des Kreditrisikos:
-    -   **Klassifikation**: Guter oder schlechter Kunde (Binäre
-        Entscheidung: 2 Klassen)
-    -   **Regression**: Vorhersage Gewinn/Verlust für die Bank (Höhe des
-        Gewinns/Verlusts interessant)
+    -   **Klassifikation**: Guter oder schlechter Kunde (Binäre Entscheidung: 2 Klassen)
+    -   **Regression**: Vorhersage Gewinn/Verlust für die Bank (Höhe des Gewinns/Verlusts interessant)
 
 ## Beispiel: Autoreparatur
 
@@ -123,12 +98,9 @@ $\to$ Lernen wichtige Eigenschaft lebender Wesen :-)
 
 ## Lernen durch Beobachten: Lernen einer Funktion $\mathop{\text{f}}$
 
-Funktionsapproximation: Lernen einer Funktion $\mathop{\text{f}}$ anhand
-von Beispielen
+Funktionsapproximation: Lernen einer Funktion $\mathop{\text{f}}$ anhand von Beispielen
 
--   Ein Beispiel ist ein Tupel
-    $(\mathbf{x}, \mathop{\text{f}}(\mathbf{x}))$, etwa
-    $$(\mathbf{x}, \mathop{\text{f}}(\mathbf{x})) = \left(\begin{array}{ccc}
+-   Ein Beispiel ist ein Tupel $(\mathbf{x}, \mathop{\text{f}}(\mathbf{x}))$, etwa $$(\mathbf{x}, \mathop{\text{f}}(\mathbf{x})) = \left(\begin{array}{ccc}
     O & O & X \\
     . & X & . \\
     X & . & .
@@ -136,16 +108,14 @@ von Beispielen
 
 <!-- -->
 
--   Aufgabe: Baue Hypothese $\mathop{\text{h}}$ auf, so dass
-    $\mathop{\text{h}} \approx \mathop{\text{f}}$.
+-   Aufgabe: Baue Hypothese $\mathop{\text{h}}$ auf, so dass $\mathop{\text{h}} \approx \mathop{\text{f}}$.
     -   Benutze dazu Menge von Beispielen $\to$ **Trainingsdaten**.
 
 <!-- -->
 
 -   Ziele:
     1.  **Konsistente Hypothese**: Übereinstimmung bei Trainingsdaten
-    2.  **Generalisierende Hypothese**: Korrekte Vorhersage bei
-        unbekannten Daten
+    2.  **Generalisierende Hypothese**: Korrekte Vorhersage bei unbekannten Daten
 
 *Anmerkung*: Stark vereinfachtes Modell realen Lernens!
 
@@ -153,78 +123,50 @@ von Beispielen
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams1_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams1.png" width="40%" /></picture></p>
 
-Welcher Zusammenhang ist hier dargestellt? Offenbar eine Art
-Funktionsverlauf ... Wir haben für einige x-Werte die zugehörigen
-y-Werte vorgegeben.
+Welcher Zusammenhang ist hier dargestellt? Offenbar eine Art Funktionsverlauf ... Wir haben für einige x-Werte die zugehörigen y-Werte vorgegeben.
 
 ## Konstruieren einer konsistenten Hypothese (cnt.)
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams2_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams2.png" width="40%" /></picture></p>
 
-Die einfachste Approximation wäre eine lineare Funktion. Allerdings
-werden hierbei einige Werte mehr oder weniger stark nicht korrekt
-widergegeben, d.h. man hat einen relativ hohen (Trainings-) Fehler.
+Die einfachste Approximation wäre eine lineare Funktion. Allerdings werden hierbei einige Werte mehr oder weniger stark nicht korrekt widergegeben, d.h. man hat einen relativ hohen (Trainings-) Fehler.
 
 ## Konstruieren einer konsistenten Hypothese (cnt.)
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams3_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams3.png" width="40%" /></picture></p>
 
-Die Hyperbel erklärt die Trainingsdaten bis auf den einen Punkt sehr
-gut. Die Frage ist, ob dieser eine Punkt zum zu lernenden Zusammenhang
-gehört oder ein Ausreißer ist, den man gefahrlos ignorieren kann?
+Die Hyperbel erklärt die Trainingsdaten bis auf den einen Punkt sehr gut. Die Frage ist, ob dieser eine Punkt zum zu lernenden Zusammenhang gehört oder ein Ausreißer ist, den man gefahrlos ignorieren kann?
 
 ## Konstruieren einer konsistenten Hypothese (cnt.)
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams4_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams4.png" width="40%" /></picture></p>
 
-Die grüne Hypothese ist von allen bisher gezeigten die komplexeste,
-erklärt aber alle Datenpunkte. D.h. hier wäre der Trainingsfehler Null.
-Zwischen den Trainingsdaten zeigt das Modell eine "glatte"
-Approximation, d.h. es wird auch neue Daten, die es beim Training nicht
-gesehen hat, relativ gut erklären. (Dabei liegt freilich die Annahme
-zugrunde, dass alle relevanten Daten in der Trainingsmenge vorhanden
-sind, d.h. dass es insbesondere zwischen den Datenpunkten keine
-Ausreißer o.ä. gibt.)
+Die grüne Hypothese ist von allen bisher gezeigten die komplexeste, erklärt aber alle Datenpunkte. D.h. hier wäre der Trainingsfehler Null. Zwischen den Trainingsdaten zeigt das Modell eine "glatte" Approximation, d.h. es wird auch neue Daten, die es beim Training nicht gesehen hat, relativ gut erklären. (Dabei liegt freilich die Annahme zugrunde, dass alle relevanten Daten in der Trainingsmenge vorhanden sind, d.h. dass es insbesondere zwischen den Datenpunkten keine Ausreißer o.ä. gibt.)
 
 ## Konstruieren einer konsistenten Hypothese (cnt.)
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams5_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/occams5.png" width="40%" /></picture></p>
 
-Diese Hypothese erklärt ebenfalls sämtliche Trainingsdaten. Allerdings
-schwingt die Funktion zwischen den Daten stark hin und her. Vermutlich
-entspricht dies nicht dem zu lernenden Funktionsverlauf. Der
-Trainingsfehler wäre wie bei der deutlich einfacheren Hypthese aus dem
-letzten Schritt Null. Der Generalisierungsfehler (sprich die Abweichung,
-wenn man das Modell nach Daten zwischen den Trainingspunkten fragt)
-dürfte erheblich höher liegen.
+Diese Hypothese erklärt ebenfalls sämtliche Trainingsdaten. Allerdings schwingt die Funktion zwischen den Daten stark hin und her. Vermutlich entspricht dies nicht dem zu lernenden Funktionsverlauf. Der Trainingsfehler wäre wie bei der deutlich einfacheren Hypthese aus dem letzten Schritt Null. Der Generalisierungsfehler (sprich die Abweichung, wenn man das Modell nach Daten zwischen den Trainingspunkten fragt) dürfte erheblich höher liegen.
 
-D.h. hier hat das Modell einfach die Trainingsdaten auswendig gelernt,
-aber nicht den Zusammenhang zwischen den Daten! Dies ist in der Regel
-unerwünscht!
+D.h. hier hat das Modell einfach die Trainingsdaten auswendig gelernt, aber nicht den Zusammenhang zwischen den Daten! Dies ist in der Regel unerwünscht!
 
 ## Occam's Razor
 
 **Bevorzuge die einfachste konsistente Hypothese!**
 
-1.  Wenn es mehrere mögliche Erklärungen für einen Sachverhalt gibt, ist
-    die einfachste Erklärung allen anderen vorzuziehen.
-2.  Eine Erklärung ist "einfach", wenn sie möglichst wenige Variablen
-    und Annahmen enthält und wenn diese in klaren logischen Beziehungen
-    zueinander stehen, aus denen der zu erklärende Sachverhalt logisch
-    folgt.
+1.  Wenn es mehrere mögliche Erklärungen für einen Sachverhalt gibt, ist die einfachste Erklärung allen anderen vorzuziehen.
+2.  Eine Erklärung ist "einfach", wenn sie möglichst wenige Variablen und Annahmen enthält und wenn diese in klaren logischen Beziehungen zueinander stehen, aus denen der zu erklärende Sachverhalt logisch folgt.
 
 ## Trainingsdaten und Merkmalsvektoren
 
-Lehrer gibt Beispiele vor: Eingabe $\mathbf{x}$ und passende Ausgabe
-$\mathop{\text{f}}(\mathbf{x})$
+Lehrer gibt Beispiele vor: Eingabe $\mathbf{x}$ und passende Ausgabe $\mathop{\text{f}}(\mathbf{x})$
 
--   Ausgabe: typischerweise Skalar (Funktionswert oder Klasse) $\to$
-    Beispiel: Bewertung eines Spielstandes bei TicTacToe
+-   Ausgabe: typischerweise Skalar (Funktionswert oder Klasse) $\to$ Beispiel: Bewertung eines Spielstandes bei TicTacToe
 
 <!-- -->
 
--   Eingabe: (Beschreibung des) Objekt(s) oder Situation, die zur
-    Ausgabe gehört $\to$ Beispiel: Spielstand bei TicTacToe
+-   Eingabe: (Beschreibung des) Objekt(s) oder Situation, die zur Ausgabe gehört $\to$ Beispiel: Spielstand bei TicTacToe
 
 **Merkmalsvektoren**:
 
@@ -242,64 +184,43 @@ Beschreibung der Faktoren, wann ich im See schwimmen möchte:
     -   Eingabe: Merkmalsvektor `(sonnig, warm, warm)`
     -   Ausgabe: Klasse `ja`
 
-Dabei wird davon ausgegangen, dass jeder Faktor (jedes Merkmal) an einer
-bestimmten Stelle im Merkmalsvektor aufgeführt ist. Beispielsweise
-gehört das `sonnig` zur Frage "Scheint die Sonne", `warm` jeweils zur
-Wasser- und zur Lufttemperatur.
+Dabei wird davon ausgegangen, dass jeder Faktor (jedes Merkmal) an einer bestimmten Stelle im Merkmalsvektor aufgeführt ist. Beispielsweise gehört das `sonnig` zur Frage "Scheint die Sonne", `warm` jeweils zur Wasser- und zur Lufttemperatur.
 
-Damit hat man in einem Vektor eine Situation komplett beschrieben, d.h.
-einen Zustand der Welt mit den relevanten Dingen beschrieben. Diesem
-Zustand kann man beispielsweise ein Label (Klasse) verpassen, hier in
-diesem Fall "ja, in dieser Welt möchte ich schwimmen".
+Damit hat man in einem Vektor eine Situation komplett beschrieben, d.h. einen Zustand der Welt mit den relevanten Dingen beschrieben. Diesem Zustand kann man beispielsweise ein Label (Klasse) verpassen, hier in diesem Fall "ja, in dieser Welt möchte ich schwimmen".
 
-Die Trainingsmenge baut sich dann beim überwachten Lernen aus vielen
-solcher Paare (Merkmalsvektor, Klasse) auf, und die Algorithmen sollen
-diese Zuordnung lernen, d.h. ein Modell für diese Daten erzeugen,
-welches die Daten gut erklärt und darüber hinaus für neue Daten aus der
-selben Datenquelle gute Vorhersagen macht.
+Die Trainingsmenge baut sich dann beim überwachten Lernen aus vielen solcher Paare (Merkmalsvektor, Klasse) auf, und die Algorithmen sollen diese Zuordnung lernen, d.h. ein Modell für diese Daten erzeugen, welches die Daten gut erklärt und darüber hinaus für neue Daten aus der selben Datenquelle gute Vorhersagen macht.
 
 ## Trainingsdaten -- Merkmalsvektoren
 
-**Generell**: Merkmalsvektor für Objekt $v$:
-$$    \mathbf{x}(v) = (x_1, x_2, \ldots, x_n)$$
+**Generell**: Merkmalsvektor für Objekt $v$: $$    \mathbf{x}(v) = (x_1, x_2, \ldots, x_n)$$
 
 -   $n$ Merkmale (Attribute)
 -   Attribut $x_t$ hat $m_t$ mögliche Ausprägungen
--   Ausprägung von $v$ bzgl. $x_t$: $\quad x_t(v) = i \quad$ (mit
-    $i = 1 \ldots m_t$)
+-   Ausprägung von $v$ bzgl. $x_t$: $\quad x_t(v) = i \quad$ (mit $i = 1 \ldots m_t$)
 
-*Anmerkung*: Stellen Sie sich den Merkmalsvektor $\mathbf{x}$ vielleicht
-wie einen Konstruktor einer Klasse `x` vor: Die einzelnen Attribute
-$x_t$ sind die Parameter, aus denen der Merkmalsvektor aufgebaut
-ist/wird. Jedes der Attribute hat einen Typ und damit eine bestimmte
-Anzahl erlaubter Werte ("Ausprägungen") ...
+*Anmerkung*: Stellen Sie sich den Merkmalsvektor $\mathbf{x}$ vielleicht wie einen Konstruktor einer Klasse `x` vor: Die einzelnen Attribute $x_t$ sind die Parameter, aus denen der Merkmalsvektor aufgebaut ist/wird. Jedes der Attribute hat einen Typ und damit eine bestimmte Anzahl erlaubter Werte ("Ausprägungen") ...
 
 **Trainingsbeispiel**:
 
--   Tupel aus Merkmalsvektor und zugehöriger Klasse:
-    $\left(\mathbf{x}(v), k\right)$
+-   Tupel aus Merkmalsvektor und zugehöriger Klasse: $\left(\mathbf{x}(v), k\right)$
 
 ## Wrap-Up
 
 -   Lernen ist Verhaltensänderung, Ziel: Optimierung einer Gütefunktion
     -   Aufbau einer Hypothese, die beobachtete Daten erklären soll
-    -   Arten: Überwachtes Lernen, Unüberwachtes Lernen, Reinforcement
-        Lernen
+    -   Arten: Überwachtes Lernen, Unüberwachtes Lernen, Reinforcement Lernen
 
 <!-- -->
 
--   Merkmalsvektoren gruppieren Eigenschaften des Problems bzw. der
-    Objekte
--   Trainingsdaten: Beispielobjekte (durch Merkmalsvektoren beschrieben)
-    plus Vorgabe vom Lehrer
+-   Merkmalsvektoren gruppieren Eigenschaften des Problems bzw. der Objekte
+-   Trainingsdaten: Beispielobjekte (durch Merkmalsvektoren beschrieben) plus Vorgabe vom Lehrer
 
 > [!TIP]
 >
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Russell und Norvig ([2021](#ref-Russell2021)): Lernen: Abschnitte
->     19.1 und 19.2
+> -   Russell und Norvig ([2021](#ref-Russell2021)): Lernen: Abschnitte 19.1 und 19.2
 >
 > </details>
 
@@ -308,13 +229,9 @@ Anzahl erlaubter Werte ("Ausprägungen") ...
 > <details >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> -   k1: Ich kann den Begriff "(maschinelles) Lernen" definieren und
->     verschiedene Arten unterscheiden
-> -   k2: Ich kann "Überwachtes Lernen" erklären: Lernen durch
->     Beobachten (mit Lehrer)
-> -   k2: Ich kann wichtige Elemente des (maschinellen) Lernens
->     erklären: Merkmalsvektoren, Eigenschaften, Ausprägung, Objekte,
->     Trainingsmenge
+> -   k1: Ich kann den Begriff "(maschinelles) Lernen" definieren und verschiedene Arten unterscheiden
+> -   k2: Ich kann "Überwachtes Lernen" erklären: Lernen durch Beobachten (mit Lehrer)
+> -   k2: Ich kann wichtige Elemente des (maschinellen) Lernens erklären: Merkmalsvektoren, Eigenschaften, Ausprägung, Objekte, Trainingsmenge
 >
 > </details>
 
@@ -323,8 +240,7 @@ Anzahl erlaubter Werte ("Ausprägungen") ...
 > <details >
 > <summary><strong>🧩 Quizzes</strong></summary>
 >
-> -   [Selbsttest Intro ML
->     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106589&client_id=FH-Bielefeld)
+> -   [Selbsttest Intro ML (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106589&client_id=FH-Bielefeld)
 >
 > </details>
 
@@ -335,15 +251,11 @@ Anzahl erlaubter Werte ("Ausprägungen") ...
 >
 > **Modellierung**
 >
-> Sie stehen vor der Entscheidung, ob Sie sich zur Vorbereitung auf die
-> Flipped-Classroom-Sitzung noch das Skript anschauen. Welche Attribute
-> benötigen Sie, um die Situation zu beschreiben?
+> Sie stehen vor der Entscheidung, ob Sie sich zur Vorbereitung auf die Flipped-Classroom-Sitzung noch das Skript anschauen. Welche Attribute benötigen Sie, um die Situation zu beschreiben?
 >
 > **Metriken für Klassifikatoren**
 >
-> Es ist wieder Wahlkampf: Zwei Kandidaten O und M bewerben sich um die
-> Kanzlerschaft. Die folgende Tabelle zeigt die Präferenzen von sieben
-> Wählern.
+> Es ist wieder Wahlkampf: Zwei Kandidaten O und M bewerben sich um die Kanzlerschaft. Die folgende Tabelle zeigt die Präferenzen von sieben Wählern.
 >
 > | Nr. | Alter    | Einkommen | Bildung  | Kandidat | Vorhersage |
 > |:----|:---------|:----------|:---------|:---------|:-----------|
@@ -355,8 +267,7 @@ Anzahl erlaubter Werte ("Ausprägungen") ...
 > | 6   | $< 35$   | hoch      | Bachelor | O        | M          |
 > | 7   | $< 35$   | niedrig   | Abitur   | M        | O          |
 >
-> Auf diesem Datensatz wurde ein Klassifikator trainiert, die
-> Trainingsergebnisse sind in der Tabelle unter "Vorhersage" angegeben.
+> Auf diesem Datensatz wurde ein Klassifikator trainiert, die Trainingsergebnisse sind in der Tabelle unter "Vorhersage" angegeben.
 >
 > Bewerten Sie den Klassifikator.
 >
@@ -373,8 +284,7 @@ Anzahl erlaubter Werte ("Ausprägungen") ...
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
-> Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
 >

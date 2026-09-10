@@ -25,16 +25,9 @@
 
 ### Forwärts- und Rückwärtslauf
 
--   Im Forwärtslauf (engl. forward pass oder forward propagation) wird
-    ein einzelner **Forwärtsschritt** von Schicht $[l-1]$ auf Schicht
-    $[l]$ wie folgt berechnet:
-    $$Z^{[l]} = W^{[l]}A^{[l-1]} + b^{[l]} \tag{1}$$
-    $$A^{[l]} = g(Z^{[l]}) \tag{2}$$ Dabei bezeichnet $g$ die
-    Aktivierungsfunktion (z.B. Sigmoid oder ReLU).
+-   Im Forwärtslauf (engl. forward pass oder forward propagation) wird ein einzelner **Forwärtsschritt** von Schicht $[l-1]$ auf Schicht $[l]$ wie folgt berechnet: $$Z^{[l]} = W^{[l]}A^{[l-1]} + b^{[l]} \tag{1}$$ $$A^{[l]} = g(Z^{[l]}) \tag{2}$$ Dabei bezeichnet $g$ die Aktivierungsfunktion (z.B. Sigmoid oder ReLU).
 
--   Im Rückwärtslauf (engl. *backpropagation*) werden in einem einzelnen
-    **Rückwärtsschritt** von Schicht $[l]$ auf Schicht $[l-1]$ die
-    folgenden Gradienten berechnet:
+-   Im Rückwärtslauf (engl. *backpropagation*) werden in einem einzelnen **Rückwärtsschritt** von Schicht $[l]$ auf Schicht $[l-1]$ die folgenden Gradienten berechnet:
 
     $$dZ^{[l]} := \frac{\partial J }{\partial Z^{[l]}} = dA^{[l]} * g'(Z^{[l]}) \tag{3}$$
 
@@ -48,30 +41,22 @@
 
 -   Beachten Sie:
 
-    -   Der Forwärtsschirtt übernimmt $A^{[l-1]}$ von dem vorherigen
-        Schritt und gibt $A^{[l]}$ an den nächsten Schritt weiter.
-    -   Der Rückwärtschritt übernimmt $dA^{[l]}$ von dem vorherigen
-        Schritt und gibt $dA^{[l-1]}$ an den nächsten Rückwärtsschritt
-        weiter.
+    -   Der Forwärtsschirtt übernimmt $A^{[l-1]}$ von dem vorherigen Schritt und gibt $A^{[l]}$ an den nächsten Schritt weiter.
+    -   Der Rückwärtschritt übernimmt $dA^{[l]}$ von dem vorherigen Schritt und gibt $dA^{[l-1]}$ an den nächsten Rückwärtsschritt weiter.
 
 ### Parameteraktualisierung
 
--   Die Aktualisierung der Parameter in Schicht $l$ erfolgt wie gewohnt
-    durch: $$W^{[l]} = W^{[l]} - \alpha \text{ } dW^{[l]} \tag{7}$$
-    $$b^{[l]} = b^{[l]} - \alpha \text{ } db^{[l]} \tag{8}$$ Dabei
-    bezeichnet $\alpha$ die Lernrate.
+-   Die Aktualisierung der Parameter in Schicht $l$ erfolgt wie gewohnt durch: $$W^{[l]} = W^{[l]} - \alpha \text{ } dW^{[l]} \tag{7}$$ $$b^{[l]} = b^{[l]} - \alpha \text{ } db^{[l]} \tag{8}$$ Dabei bezeichnet $\alpha$ die Lernrate.
 
 > [!NOTE]
 >
 > <details >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> -   k2: Ich kann den Forwärts- und Rückwärtslauf in Matrix Notation
->     mit mehreren Datenpunkten als Eingabe erklären
+> -   k2: Ich kann den Forwärts- und Rückwärtslauf in Matrix Notation mit mehreren Datenpunkten als Eingabe erklären
 > -   k3: Ich kann Aktivierungsfunktionen ableiten
 > -   k3: Ich kann die Berechnung der partiellen Ableitungen durchführen
-> -   k3: Ich kann den Rückwärtslauf (backpropagation) für ein gegebenes
->     MLP durchführen
+> -   k3: Ich kann den Rückwärtslauf (backpropagation) für ein gegebenes MLP durchführen
 >
 > </details>
 
@@ -80,8 +65,7 @@
 > <details >
 > <summary><strong>🧩 Quizzes</strong></summary>
 >
-> -   [Selbsttest Backpropagation
->     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106593&client_id=FH-Bielefeld)
+> -   [Selbsttest Backpropagation (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106593&client_id=FH-Bielefeld)
 >
 > </details>
 

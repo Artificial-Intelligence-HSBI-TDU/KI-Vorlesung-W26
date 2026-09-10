@@ -27,21 +27,14 @@
 -   Idee:
     -   Statt **einem** Baum viele **verschiedene** Bäume trainieren
     -   Jeder Baum trifft eine eigene Vorhersage
-    -   Am Ende: **Mehrheitsentscheidung** (Klassifikation) bzw.
-        **Mittelwert** (Regression)
+    -   Am Ende: **Mehrheitsentscheidung** (Klassifikation) bzw. **Mittelwert** (Regression)
 -   Intuition:
-    -   "Viele verschiedene Meinungen" kombinieren $\to$ robustere
-        Entscheidung
+    -   "Viele verschiedene Meinungen" kombinieren $\to$ robustere Entscheidung
     -   Fehler einzelner Bäume können sich gegenseitig ausgleichen
 
-Ein einzelner Entscheidungsbaum ist sehr anfällig dafür, die
-Trainingsdaten zu "überlernen" und reagiert empfindlich auf kleine
-Datenänderungen.
+Ein einzelner Entscheidungsbaum ist sehr anfällig dafür, die Trainingsdaten zu "überlernen" und reagiert empfindlich auf kleine Datenänderungen.
 
-Der Random-Forest-Ansatz sagt: Wir verlassen uns nicht auf einen
-einzelnen Baum, sondern lassen ein "Gremium" aus Bäumen abstimmen. Jeder
-Baum sieht die Daten ein wenig anders und trifft eigene Entscheidungen;
-am Ende zählt die Mehrheit.
+Der Random-Forest-Ansatz sagt: Wir verlassen uns nicht auf einen einzelnen Baum, sondern lassen ein "Gremium" aus Bäumen abstimmen. Jeder Baum sieht die Daten ein wenig anders und trifft eigene Entscheidungen; am Ende zählt die Mehrheit.
 
 ## Wie funktioniert ein Random Forest?
 
@@ -49,29 +42,21 @@ am Ende zählt die Mehrheit.
     -   gegebener Trainingsdatensatz $D$
 2.  **Viele Trainingsdatensätze durch Zufall (Bootstrapping)**
     -   Für jeden Baum $B_1, B_2, \dots, B_K$:
-        -   Ziehen Sie zufällig (mit Zurücklegen) Trainingsbeispiele aus
-            $D$ $\to$ jeder Baum erhält eine leicht andere Stichprobe
-            $D_k$
+        -   Ziehen Sie zufällig (mit Zurücklegen) Trainingsbeispiele aus $D$ $\to$ jeder Baum erhält eine leicht andere Stichprobe $D_k$
 3.  **Zufällige Merkmalsauswahl pro Split**
     -   Beim Training eines Baums:
-        -   an jedem Knoten nur eine zufällige Teilmenge der Attribute
-            für den Split betrachten
-        -   daraus das "beste" Attribut wählen (z. B. per Entropie /
-            Information Gain)
+        -   an jedem Knoten nur eine zufällige Teilmenge der Attribute für den Split betrachten
+        -   daraus das "beste" Attribut wählen (z. B. per Entropie / Information Gain)
 4.  **Vorhersage**
-    -   Klassifikation: Jeder Baum liefert eine Klassenentscheidung, die
-        Klasse mit den meisten Stimmen gewinnt
+    -   Klassifikation: Jeder Baum liefert eine Klassenentscheidung, die Klasse mit den meisten Stimmen gewinnt
     -   Regression: Mittelwert der Vorhersagen der Bäume
 
 Zwei Arten von Zufall:
 
 1.  Jeder Baum sieht eine andere Zufallsstichprobe der Daten.
-2.  Jeder Baum betrachtet an jedem Split nur eine zufällige Auswahl von
-    Merkmalen.
+2.  Jeder Baum betrachtet an jedem Split nur eine zufällige Auswahl von Merkmalen.
 
-Dadurch entstehen bewusst unterschiedliche Bäume. Wenn wir dann über
-viele solcher Bäume abstimmen lassen, ist die Gesamtsicht deutlich
-stabiler als die eines einzelnen Baums.
+Dadurch entstehen bewusst unterschiedliche Bäume. Wenn wir dann über viele solcher Bäume abstimmen lassen, ist die Gesamtsicht deutlich stabiler als die eines einzelnen Baums.
 
 ## Beispiel: Random Forest in Aktion (Klassifikation)
 
@@ -132,13 +117,9 @@ $$
 
 Jeder einzelne Baum kann "falsch liegen" oder stark vereinfacht sein.
 
-Im Beispiel sehen wir, dass Baum 2 sich anders entscheidet als die
-beiden anderen.
+Im Beispiel sehen wir, dass Baum 2 sich anders entscheidet als die beiden anderen.
 
-Der Random Forest kombiniert diese unterschiedlichen Sichtweisen sehr
-einfach: per Mehrheitsvotum. In der Praxis nutzt man oft Dutzende oder
-Hunderte Bäume. Die Stärke kommt also aus der Kombination vieler relativ
-einfacher Modelle, nicht aus einem extrem komplexen Einzelbaum.
+Der Random Forest kombiniert diese unterschiedlichen Sichtweisen sehr einfach: per Mehrheitsvotum. In der Praxis nutzt man oft Dutzende oder Hunderte Bäume. Die Stärke kommt also aus der Kombination vieler relativ einfacher Modelle, nicht aus einem extrem komplexen Einzelbaum.
 
 ## Pseudocode: Random Forest
 
@@ -169,14 +150,11 @@ $$
 \hat{y}_{\text{reg}}(x) = \frac{1}{K} \sum_{k=1}^{K} T_k(x)
 $$
 
-Wichtig ist: Keine Änderungen am Baum-Algorithmus selbst (z.B.
-C4.5/ID3). Die "Magie" kommt aus den zwei Zufallsquellen: zufällige
-Datenstichproben und zufällige Attributauswahl.
+Wichtig ist: Keine Änderungen am Baum-Algorithmus selbst (z.B. C4.5/ID3). Die "Magie" kommt aus den zwei Zufallsquellen: zufällige Datenstichproben und zufällige Attributauswahl.
 
 ## Mini-Beispiel: 3 Bäume, Klassifikation & Regression
 
-Wir betrachten einen sehr kleinen Datensatz mit einem Merkmal $x$ und
-zwei Aufgaben:
+Wir betrachten einen sehr kleinen Datensatz mit einem Merkmal $x$ und zwei Aufgaben:
 
 -   Klassifikation: Klasse $C \in \{A, B\}$
 -   Regression: numerischer Zielwert $y$
@@ -190,9 +168,7 @@ zwei Aufgaben:
 | 3        | 3.0 | B          | 3.0          |
 | 4        | 4.0 | B          | 4.0          |
 
-Wir trainieren 3 Entscheidungsbäume (sehr einfache Stubs: ein Split pro
-Baum). Jeder Baum bekommt eine Bootstrap-Stichprobe aus diesen 4
-Beispielen.
+Wir trainieren 3 Entscheidungsbäume (sehr einfache Stubs: ein Split pro Baum). Jeder Baum bekommt eine Bootstrap-Stichprobe aus diesen 4 Beispielen.
 
 ### Bootstrap-Stichproben und resultierende Bäume
 
@@ -218,8 +194,7 @@ Baum 1:
 
 -   Beispiele: 2, 3, 4
 -   sinnvoller Split bei $x < 3.5$:
-    -   Links: $x = 2.0, 3.0$ $\to$ Klassen A & B gemischt, z. B.
-        Mehrheit = B, mittlerer $y = (1.5 + 3.0)/2 = 2.25$
+    -   Links: $x = 2.0, 3.0$ $\to$ Klassen A & B gemischt, z. B. Mehrheit = B, mittlerer $y = (1.5 + 3.0)/2 = 2.25$
     -   Rechts: $x = 4.0$ $\to$ Klasse B, $y = 4.0$
 
 Baum 2:
@@ -235,8 +210,7 @@ Baum 2:
 
 **Baum 3 -- Trainingsstichprobe $D_3$:**
 
--   Beispiele: 1, 1, 4 (z. B. zweimal Beispiel 1 und einmal Beispiel 4
-    gezogen)
+-   Beispiele: 1, 1, 4 (z. B. zweimal Beispiel 1 und einmal Beispiel 4 gezogen)
 -   sinnvoller Split bei $x < 2.5$:
     -   Links: $x = 1.0, 1.0$ $\to$ Klasse A, mittlerer $y = 1.0$
     -   Rechts: $x = 4.0$ $\to$ Klasse B, $y = 4.0$
@@ -285,11 +259,7 @@ $$
 
 Die Bäume sind sich bei der Klasse einig (alle B).
 
-Beim Regressionswert machen die Bäume unterschiedliche Vorschläge. Der
-Random Forest mittelt diese Vorschläge und kommt auf einen Wert in der
-Nähe der Trainingsbeispiele mit $x = 3.0$ und $x = 4.0$. In der Praxis
-nutzt man viel mehr Bäume -- damit werden diese Effekte noch stabiler
-und genauer.
+Beim Regressionswert machen die Bäume unterschiedliche Vorschläge. Der Random Forest mittelt diese Vorschläge und kommt auf einen Wert in der Nähe der Trainingsbeispiele mit $x = 3.0$ und $x = 4.0$. In der Praxis nutzt man viel mehr Bäume -- damit werden diese Effekte noch stabiler und genauer.
 
 ------------------------------------------------------------------------
 

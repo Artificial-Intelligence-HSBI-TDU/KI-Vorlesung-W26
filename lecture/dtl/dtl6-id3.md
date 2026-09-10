@@ -5,22 +5,9 @@
 > <details open>
 > <summary><strong>🎯 TL;DR</strong></summary>
 >
-> Der Entscheidungsbaum-Lernalgorithmus **ID3** nutzt den
-> Informationsgehalt für die Entscheidung bei der Attributwahl: Nimm das
-> Attribut, welches einen möglichst hohen Informationsgehalt hat. Oder
-> andersherum: Wähle das Attribut, bei dem die verbleibende mittlere
-> Entropie der Trainingsmenge nach der Wahl des Attributs am kleinsten
-> ist. Oder noch anders formuliert: Nimm das Attribut, bei dem die
-> Differenz zwischen der Entropie der Trainingsmenge (vor der Wahl des
-> Attributs) und der verbleibenden mittleren Entropie (nach der Wahl des
-> Attributs) am größten ist (die Differenz nennt man auch "*Information
-> Gain*"). Die Trainingsmenge wird entsprechend der Ausprägung in Bezug
-> auf das eben gewählte Merkmal aufgeteilt und an die Kinder des Knotens
-> weiter gereicht; dort wird der Baum rekursiv weiter aufgebaut.
+> Der Entscheidungsbaum-Lernalgorithmus **ID3** nutzt den Informationsgehalt für die Entscheidung bei der Attributwahl: Nimm das Attribut, welches einen möglichst hohen Informationsgehalt hat. Oder andersherum: Wähle das Attribut, bei dem die verbleibende mittlere Entropie der Trainingsmenge nach der Wahl des Attributs am kleinsten ist. Oder noch anders formuliert: Nimm das Attribut, bei dem die Differenz zwischen der Entropie der Trainingsmenge (vor der Wahl des Attributs) und der verbleibenden mittleren Entropie (nach der Wahl des Attributs) am größten ist (die Differenz nennt man auch "*Information Gain*"). Die Trainingsmenge wird entsprechend der Ausprägung in Bezug auf das eben gewählte Merkmal aufgeteilt und an die Kinder des Knotens weiter gereicht; dort wird der Baum rekursiv weiter aufgebaut.
 >
-> Durch eine Normierung des *Information Gain* kann eine Verbesserung in
-> Bezug auf mehrwertige Attribute erreicht werden, dies führt zum
-> Algorithmus **C4.5**.
+> Durch eine Normierung des *Information Gain* kann eine Verbesserung in Bezug auf mehrwertige Attribute erreicht werden, dies führt zum Algorithmus **C4.5**.
 >
 > </details>
 
@@ -45,8 +32,7 @@ $\to$ Betrachte stattdessen die **komplette** Trainingsmenge!
 
 ## Erinnerung Entropie: Maß für die Unsicherheit
 
--   Entropie $H(S)$ der Trainingsmenge $S$: relative Häufigkeit der
-    Klassen zählen
+-   Entropie $H(S)$ der Trainingsmenge $S$: relative Häufigkeit der Klassen zählen
 
 -   Mittlere Entropie nach Betrachtung von Attribut $A$
 
@@ -61,10 +47,7 @@ $\to$ Betrachte stattdessen die **komplette** Trainingsmenge!
                                 &=& H(S) - \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)
     \end{eqnarray}$$
 
-$R(S,A)$ ist die Unsicherheit/nötige Bits nach Auswahl von Attribut A.
-Je kleiner $R(S,A)$, um so kleiner die **verbleibende Unsicherheit**
-bzw. um so kleiner die Anzahl der nötigen Bits zur Darstellung der
-partitionierten Trainingsmenge **nach** Betrachtung von Attribut $A$ ...
+$R(S,A)$ ist die Unsicherheit/nötige Bits nach Auswahl von Attribut A. Je kleiner $R(S,A)$, um so kleiner die **verbleibende Unsicherheit** bzw. um so kleiner die Anzahl der nötigen Bits zur Darstellung der partitionierten Trainingsmenge **nach** Betrachtung von Attribut $A$ ...
 
 $\to$ Je kleiner $R(S,A)$, um so größer der Informationsgewinn
 
@@ -92,8 +75,7 @@ $$\begin{eqnarray}
                              &=& 0.13 \mathop{\text{Bit}}
 \end{eqnarray}$$
 
-Informationsgewinn für $x_2$ am höchsten $\to$ wähle $x_2$ als nächsten
-Test
+Informationsgewinn für $x_2$ am höchsten $\to$ wähle $x_2$ als nächsten Test
 
 ## Entscheidungsbaumlerner ID3 (Quinlan, 1986)
 
@@ -115,18 +97,9 @@ def ID3(examples, attr, default):
     return tree
 ```
 
-Russell und Norvig ([2021](#ref-Russell2021)): Man erhält aus dem
-"Learn-Decision-Tree"-Algorithmus ([Russell und Norvig 2021,
-678](#ref-Russell2021), Fig. 19.5) den hier vorgestellten
-ID3-Algorithmus, wenn man die Funktion
-$\mathop{\text{Importance}}(a, examples)$ als
-$\mathop{\text{InformationGain}}(examples, attr)$ implementiert/nutzt.
+Russell und Norvig ([2021](#ref-Russell2021)): Man erhält aus dem "Learn-Decision-Tree"-Algorithmus ([Russell und Norvig 2021, 678](#ref-Russell2021), Fig. 19.5) den hier vorgestellten ID3-Algorithmus, wenn man die Funktion $\mathop{\text{Importance}}(a, examples)$ als $\mathop{\text{InformationGain}}(examples, attr)$ implementiert/nutzt.
 
-**Hinweis**: Mit der Zeile `if examples.each(class == A):  return A`
-soll ausgedrückt werden, dass alle ankommenden Trainingsbeispiele die
-selbe Klasse haben und dass diese dann als Ergebnis zurückgeliefert
-wird. Das "`A`" steht im obigen Algorithmus nur symbolisch für die selbe
-Klasse! Es kann also auch ein anderes Klassensymbol als "`A`" sein ...
+**Hinweis**: Mit der Zeile `if examples.each(class == A):  return A` soll ausgedrückt werden, dass alle ankommenden Trainingsbeispiele die selbe Klasse haben und dass diese dann als Ergebnis zurückgeliefert wird. Das "`A`" steht im obigen Algorithmus nur symbolisch für die selbe Klasse! Es kann also auch ein anderes Klassensymbol als "`A`" sein ...
 
 ### Beispiel ID3
 
@@ -141,99 +114,63 @@ Klasse! Es kann also auch ein anderes Klassensymbol als "`A`" sein ...
 
 -   $x2$ höchsten Information Gain
 -   $x2=0$ $\to$ Beispiele 1,2 $\to$ A
--   $x2=1$ $\to$ Beispiele 3,4,5,6 $\to$ Information Gain berechnen,
-    weiter teilen und verzweigen
+-   $x2=1$ $\to$ Beispiele 3,4,5,6 $\to$ Information Gain berechnen, weiter teilen und verzweigen
 
 ## Beobachtung: $\mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
 
 -   Faire Münze:
-    -   Entropie =
-        $H(\mathop{\text{Fair}}) = -(0.5 \log_2 0.5 + 0.5 \log_2 0.5) = 1 \mathop{\text{Bit}}$
+    -   Entropie = $H(\mathop{\text{Fair}}) = -(0.5 \log_2 0.5 + 0.5 \log_2 0.5) = 1 \mathop{\text{Bit}}$
 
 <!-- -->
 
 -   4-seitiger Würfel:
-    -   Entropie =
-        $H(\mathop{\text{Dice}}) = -4\cdot(0.25 \log_2 0.25) = 2 \mathop{\text{Bit}}$
+    -   Entropie = $H(\mathop{\text{Dice}}) = -4\cdot(0.25 \log_2 0.25) = 2 \mathop{\text{Bit}}$
 
 $\to$ $\mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
 
-Damit würden Attribute bei der Wahl bevorzugt, nur weil sie mehr
-Ausprägungen haben als andere.
+Damit würden Attribute bei der Wahl bevorzugt, nur weil sie mehr Ausprägungen haben als andere.
 
-*Anmerkung*: Im obigen Beispiel wurde einfach die Entropie für zwei
-"Attribute" mit unterschiedlich vielen Ausprägungen betrachtet, das ist
-natürlich kein $\mathop{\text{Gain}}(S, A)$. Aber es sollte deutlich
-machen, dass Merkmale mit mehr Ausprägungen bei der Berechnung des Gain
-für eine Trainingsmenge einfach wegen der größeren Anzahl an
-Ausprägungen rechnerisch bevorzugt würden.
+*Anmerkung*: Im obigen Beispiel wurde einfach die Entropie für zwei "Attribute" mit unterschiedlich vielen Ausprägungen betrachtet, das ist natürlich kein $\mathop{\text{Gain}}(S, A)$. Aber es sollte deutlich machen, dass Merkmale mit mehr Ausprägungen bei der Berechnung des Gain für eine Trainingsmenge einfach wegen der größeren Anzahl an Ausprägungen rechnerisch bevorzugt würden.
 
 ## C4.5 als Verbesserung zu ID3
 
-Normierter Informationsgewinn:
-$\mathop{\text{Gain}}(S, A) \cdot \mathop{\text{Normalisation}}(A)$
+Normierter Informationsgewinn: $\mathop{\text{Gain}}(S, A) \cdot \mathop{\text{Normalisation}}(A)$
 
 $$    \mathop{\text{Normalisation}}(A) = \frac{1}{
         \sum_{v \in \mathop{\text{Values}}(A)} p_v \log_2 \frac{1}{p_v}
     }$$
 
-C4.5 kann zusätzlich u.a. auch noch mit kontinuierlichen Attributen
-umgehen, vgl.
-[en.wikipedia.org/wiki/C4.5_algorithm](https://en.wikipedia.org/wiki/C4.5_algorithm).
+C4.5 kann zusätzlich u.a. auch noch mit kontinuierlichen Attributen umgehen, vgl. [en.wikipedia.org/wiki/C4.5_algorithm](https://en.wikipedia.org/wiki/C4.5_algorithm).
 
-In einem [Paper](http://www.cs.umd.edu/~samir/498/10Algorithms-08.pdf)
-([DOI
-10.1007/s10115-007-0114-2](https://doi.org/10.1007/s10115-007-0114-2))
-wurde der Algorithmus zu den "Top 10 algorithms in data mining"
-ausgewählt.
+In einem [Paper](http://www.cs.umd.edu/~samir/498/10Algorithms-08.pdf) ([DOI 10.1007/s10115-007-0114-2](https://doi.org/10.1007/s10115-007-0114-2)) wurde der Algorithmus zu den "Top 10 algorithms in data mining" ausgewählt.
 
-Im Wikipedia-Artikel [Information
-Gain](https://en.wikipedia.org/wiki/Decision_tree_learning#Information_gain)
-finden Sie weitere Informationen zum "Informationsgewinn" (*Information
-Gain*).
+Im Wikipedia-Artikel [Information Gain](https://en.wikipedia.org/wiki/Decision_tree_learning#Information_gain) finden Sie weitere Informationen zum "Informationsgewinn" (*Information Gain*).
 
-Ein anderer, relativ ähnlich arbeitender Entscheidungsbaumlerner ist der
-[CART (Classification And Regression
-Tree)](https://en.wikipedia.org/wiki/Decision_tree_learning)-Algorithmus,
-wobei der Begriff "CART" allerdings oft auch einfach allgemein für
-"Entscheidungsbaumlerner" genutzt wird.
+Ein anderer, relativ ähnlich arbeitender Entscheidungsbaumlerner ist der [CART (Classification And Regression Tree)](https://en.wikipedia.org/wiki/Decision_tree_learning)-Algorithmus, wobei der Begriff "CART" allerdings oft auch einfach allgemein für "Entscheidungsbaumlerner" genutzt wird.
 
 Hierzu drei lesenswerte Blog-Einträge:
 
--   [Deep dive into the basics of Gini Impurity in Decision Trees with
-    math
-    Intuition](https://medium.com/poli-data/deep-dive-into-the-basics-of-gini-impurity-in-decision-trees-with-math-intuition-46c721d4aaec)
--   [Decision Trees,
-    Explained](https://towardsdatascience.com/decision-trees-explained-d7678c43a59e)
--   [Decision Tree Algorithm With Hands-On
-    Example](https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38)
+-   [Deep dive into the basics of Gini Impurity in Decision Trees with math Intuition](https://medium.com/poli-data/deep-dive-into-the-basics-of-gini-impurity-in-decision-trees-with-math-intuition-46c721d4aaec)
+-   [Decision Trees, Explained](https://towardsdatascience.com/decision-trees-explained-d7678c43a59e)
+-   [Decision Tree Algorithm With Hands-On Example](https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38)
 
 ## Beispiele zur Normierung bei C4.5
 
 -   Faire Münze:
-    -   Entropie =
-        $H(\mathop{\text{Fair}}) = -(0.5 \log_2 0.5 + 0.5 \log_2 0.5) = 1 \mathop{\text{Bit}}$
-    -   Normierung:
-        $1/(0.5 \log_2 (1/0.5) + 0.5 \log_2 (1/0.5)) = 1/(0.5 \cdot 1 + 0.5 \cdot 1) = 1$
-    -   Normierter Informationsgewinn:
-        $\mathop{\text{Gain}}(S, A) \cdot \mathop{\text{Normalisation}}(A) = 1 \mathop{\text{Bit}} \cdot 1 = 1 \mathop{\text{Bit}}$
+    -   Entropie = $H(\mathop{\text{Fair}}) = -(0.5 \log_2 0.5 + 0.5 \log_2 0.5) = 1 \mathop{\text{Bit}}$
+    -   Normierung: $1/(0.5 \log_2 (1/0.5) + 0.5 \log_2 (1/0.5)) = 1/(0.5 \cdot 1 + 0.5 \cdot 1) = 1$
+    -   Normierter Informationsgewinn: $\mathop{\text{Gain}}(S, A) \cdot \mathop{\text{Normalisation}}(A) = 1 \mathop{\text{Bit}} \cdot 1 = 1 \mathop{\text{Bit}}$
 
 <!-- -->
 
 -   4-seitiger Würfel:
-    -   Entropie =
-        $H(\mathop{\text{Dice}}) = -4\cdot(0.25 \log_2 0.25) = 2 \mathop{\text{Bit}}$
-    -   Normierung:
-        $1/(4\cdot 0.25 \log_2 (1/0.25)) = 1/(4\cdot 0.25 \cdot 2) = 0.5$
-    -   Normierter Informationsgewinn:
-        $\mathop{\text{Gain}}(S, A) \cdot \mathop{\text{Normalisation}}(A) = 2 \mathop{\text{Bit}} \cdot 0.5 = 1 \mathop{\text{Bit}}$
+    -   Entropie = $H(\mathop{\text{Dice}}) = -4\cdot(0.25 \log_2 0.25) = 2 \mathop{\text{Bit}}$
+    -   Normierung: $1/(4\cdot 0.25 \log_2 (1/0.25)) = 1/(4\cdot 0.25 \cdot 2) = 0.5$
+    -   Normierter Informationsgewinn: $\mathop{\text{Gain}}(S, A) \cdot \mathop{\text{Normalisation}}(A) = 2 \mathop{\text{Bit}} \cdot 0.5 = 1 \mathop{\text{Bit}}$
 
 $\to$ Normierung sorgt für fairen Vergleich der Attribute
 
-*Anmerkung*: Auch hier ist die Entropie natürlich kein
-$\mathop{\text{Gain}}(S, A)$. Das Beispiel soll nur übersichtlich
-deutlich machen, dass der "Vorteil" von Attributen mit mehr Ausprägungen
-durch die Normierung in C4.5 aufgehoben wird.
+*Anmerkung*: Auch hier ist die Entropie natürlich kein $\mathop{\text{Gain}}(S, A)$. Das Beispiel soll nur übersichtlich deutlich machen, dass der "Vorteil" von Attributen mit mehr Ausprägungen durch die Normierung in C4.5 aufgehoben wird.
 
 ## Wrap-Up
 
@@ -248,8 +185,7 @@ durch die Normierung in C4.5 aufgehoben wird.
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
 > -   Ertel ([2025](#ref-Ertel2025)): Entscheidungsbäume: Abschnitt 8.4
-> -   Russell und Norvig ([2021](#ref-Russell2021)): Entscheidungsbäume:
->     Abschnitt 19.3
+> -   Russell und Norvig ([2021](#ref-Russell2021)): Entscheidungsbäume: Abschnitt 19.3
 > -   Mitchell ([2010](#ref-Mitchell2010)): ID3: Kapitel 3
 >
 > </details>
@@ -259,8 +195,7 @@ durch die Normierung in C4.5 aufgehoben wird.
 > <details >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> -   k3: Ich kann die Entscheidungsbaumalgorithmen ID3 und C4.5 auf
->     konkrete Daten anwenden.
+> -   k3: Ich kann die Entscheidungsbaumalgorithmen ID3 und C4.5 auf konkrete Daten anwenden.
 >
 > </details>
 
@@ -271,8 +206,7 @@ durch die Normierung in C4.5 aufgehoben wird.
 >
 > **Games: Behaviour Trees**
 >
-> In einem Dungeon-Crawler wurden über mehrere Spiele Daten für die
-> Aktionen eines Monsters aufgezeichnet:
+> In einem Dungeon-Crawler wurden über mehrere Spiele Daten für die Aktionen eines Monsters aufgezeichnet:
 >
 > | Nr. | Distanz | HP      | Mana   | Aktion    |
 > |:----|:--------|:--------|:-------|:----------|
@@ -283,10 +217,7 @@ durch die Normierung in C4.5 aufgehoben wird.
 > | 05  | mittel  | mittel  | genug  | angreifen |
 > | 06  | fern    | mittel  | gering | fliehen   |
 >
-> Trainieren Sie mit diesen Daten einen Entscheidungsbaum als *Behaviour
-> Tree* für das Monster, so dass es in einer konkreten Spielsituation
-> von nun an die optimale Entscheidung treffen kann. Nutzen Sie dafür
-> ID3.
+> Trainieren Sie mit diesen Daten einen Entscheidungsbaum als *Behaviour Tree* für das Monster, so dass es in einer konkreten Spielsituation von nun an die optimale Entscheidung treffen kann. Nutzen Sie dafür ID3.
 >
 > **Textklassifikation**
 >
@@ -316,9 +247,7 @@ durch die Normierung in C4.5 aufgehoben wird.
 >
 > <div id="ref-Ertel2025" class="csl-entry">
 >
-> Ertel, W. 2025. *Grundkurs Künstliche Intelligenz*. 6th edition.
-> Springer Vieweg Wiesbaden.
-> <https://doi.org/10.1007/978-3-658-44955-1>.
+> Ertel, W. 2025. *Grundkurs Künstliche Intelligenz*. 6th edition. Springer Vieweg Wiesbaden. <https://doi.org/10.1007/978-3-658-44955-1>.
 >
 > </div>
 >
@@ -330,8 +259,7 @@ durch die Normierung in C4.5 aufgehoben wird.
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
-> Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
 >

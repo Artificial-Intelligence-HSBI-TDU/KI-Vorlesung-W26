@@ -5,17 +5,9 @@
 > <details open>
 > <summary><strong>🎯 TL;DR</strong></summary>
 >
-> Die Entropie kann als Maß für den Informationsgehalt einer
-> Trainingsmenge betrachtet werden: Wieviele Ja/Nein-Entscheidungen sind
-> nötig, um die Daten fehlerfrei zu repräsentieren?
+> Die Entropie kann als Maß für den Informationsgehalt einer Trainingsmenge betrachtet werden: Wieviele Ja/Nein-Entscheidungen sind nötig, um die Daten fehlerfrei zu repräsentieren?
 >
-> Nach der Wahl eines Attributs kann die verbleibende mittlere Entropie
-> berechnet werden. Damit hat man ein Kriterium für die Auswahl von
-> Attributen beim Aufbau von Entscheidungsbäumen: Nimm das Attribut,
-> welches einen möglichst hohen Informationsgehalt hat. Oder
-> andersherum: Wähle das Attribut, bei dem die verbleibende mittlere
-> Entropie der Trainingsmenge nach der Wahl des Attributs am kleinsten
-> ist.
+> Nach der Wahl eines Attributs kann die verbleibende mittlere Entropie berechnet werden. Damit hat man ein Kriterium für die Auswahl von Attributen beim Aufbau von Entscheidungsbäumen: Nimm das Attribut, welches einen möglichst hohen Informationsgehalt hat. Oder andersherum: Wähle das Attribut, bei dem die verbleibende mittlere Entropie der Trainingsmenge nach der Wahl des Attributs am kleinsten ist.
 >
 > </details>
 
@@ -42,8 +34,7 @@ $\to$ Betrachte stattdessen die komplette Trainingsmenge!
 
 -   Shannon/Weaver (1949): **Entropie**
     -   Maß für die Unsicherheit einer Zufallsvariablen
-    -   Anzahl der Bits zur Darstellung der Ergebnisse eines
-        Zufallsexperiments
+    -   Anzahl der Bits zur Darstellung der Ergebnisse eines Zufallsexperiments
 
 ### Beispiele
 
@@ -61,14 +52,12 @@ $\to$ Anzahl der Ja/Nein-Fragen, um zur gleichen Information zu kommen
 
 $$H(V) = -\sum_k p_k \log_2 p_k$$
 
-Hinweis:
-$\log_2 x = \frac{\log_{10} x}{\log_{10} 2} = \frac{\log x}{\log 2}$
+Hinweis: $\log_2 x = \frac{\log_{10} x}{\log_{10} 2} = \frac{\log x}{\log 2}$
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range.png"  /></picture></p>
 
 -   Nur eine Klasse: $\log_2 1 = 0$ $\to$ $H(V) = 0$ Bit
--   Zwei Klassen, gleichwahrscheinlich: $\log_2 0.5 = -1$ $\to$
-    $H(V) = 1$ Bit
+-   Zwei Klassen, gleichwahrscheinlich: $\log_2 0.5 = -1$ $\to$ $H(V) = 1$ Bit
 
 ## Beispiele Entropie: faire Münze
 
@@ -76,8 +65,7 @@ Entropie: $$H(V) = -\sum_k p_k \log_2 p_k$$
 
 -   $v_1 = \mathop{\text{Kopf}},  v_2 = \mathop{\text{Zahl}}$
 -   $p_1 = 0.5,  p_2 = 0.5$
--   $H(\mathop{\text{Fair}}) = -(0.5 \log_2 0.5 + 0.5 \log_2 0.5) = 1$
-    Bit
+-   $H(\mathop{\text{Fair}}) = -(0.5 \log_2 0.5 + 0.5 \log_2 0.5) = 1$ Bit
 
 $\log_2 0.5 = -1$
 
@@ -136,12 +124,9 @@ $$\begin{eqnarray}
 
 $$    R(S, A) = \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)$$
 
--   Auswahl von Attribut $A$ partitioniert die Trainingsmenge: Je
-    Ausprägung $v$ von $A$ erhält man eine Submenge $S_v$
+-   Auswahl von Attribut $A$ partitioniert die Trainingsmenge: Je Ausprägung $v$ von $A$ erhält man eine Submenge $S_v$
 
--   $R(S, A)$ berechnet die mittlere Entropie der Trainingsmenge,
-    nachdem Attribut $A$ ausgewählt wurde: Unsicherheit/nötige Bits nach
-    Auswahl von Attribut $A$
+-   $R(S, A)$ berechnet die mittlere Entropie der Trainingsmenge, nachdem Attribut $A$ ausgewählt wurde: Unsicherheit/nötige Bits nach Auswahl von Attribut $A$
 
 ## Entropie der Trainingsmenge nach Attributwahl
 
@@ -172,30 +157,15 @@ $$\begin{eqnarray}
 
 ## Ausblick: Gini Impurity
 
-Wir haben hier die
-[Entropie](https://en.wikipedia.org/wiki/Decision_tree_learning#Information_gain)
-als Maß für den Informationsgehalt einer Trainingsmenge genutzt.
-$R(S,A)$ als die mittlere Entropie nach Betrachtung von Attribut $A$
-wird von typischen Entscheidungsbaumverfahren wie ID3 und C4.5 genutzt,
-um bei einer Verzweigung das nächste möglichst aussagekräftige Merkmal
-auszuwählen.
+Wir haben hier die [Entropie](https://en.wikipedia.org/wiki/Decision_tree_learning#Information_gain) als Maß für den Informationsgehalt einer Trainingsmenge genutzt. $R(S,A)$ als die mittlere Entropie nach Betrachtung von Attribut $A$ wird von typischen Entscheidungsbaumverfahren wie ID3 und C4.5 genutzt, um bei einer Verzweigung das nächste möglichst aussagekräftige Merkmal auszuwählen.
 
-In anderen Entscheidungsbaumlernern wird stattdessen die [Gini
-Impurity](https://en.wikipedia.org/wiki/Decision_tree_learning#Gini_impurity)
-zur Bestimmung des Informationsgehalts eingesetzt (u.a. CART). Dieses
-Maß sagt aus, wie oft man ein zufällig gezogenes Element des Datensatzes
-falsch klassifizieren würde, wenn man es mit einer zufälligen Klasse
-basierend auf der Verteilung der Klassen im Datensatz labeln würde.
+In anderen Entscheidungsbaumlernern wird stattdessen die [Gini Impurity](https://en.wikipedia.org/wiki/Decision_tree_learning#Gini_impurity) zur Bestimmung des Informationsgehalts eingesetzt (u.a. CART). Dieses Maß sagt aus, wie oft man ein zufällig gezogenes Element des Datensatzes falsch klassifizieren würde, wenn man es mit einer zufälligen Klasse basierend auf der Verteilung der Klassen im Datensatz labeln würde.
 
 Hierzu drei lesenswerte Blog-Einträge:
 
--   [Deep dive into the basics of Gini Impurity in Decision Trees with
-    math
-    Intuition](https://medium.com/poli-data/deep-dive-into-the-basics-of-gini-impurity-in-decision-trees-with-math-intuition-46c721d4aaec)
--   [Decision Trees,
-    Explained](https://towardsdatascience.com/decision-trees-explained-d7678c43a59e)
--   [Decision Tree Algorithm With Hands-On
-    Example](https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38)
+-   [Deep dive into the basics of Gini Impurity in Decision Trees with math Intuition](https://medium.com/poli-data/deep-dive-into-the-basics-of-gini-impurity-in-decision-trees-with-math-intuition-46c721d4aaec)
+-   [Decision Trees, Explained](https://towardsdatascience.com/decision-trees-explained-d7678c43a59e)
+-   [Decision Tree Algorithm With Hands-On Example](https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38)
 
 ## Wrap-Up
 
@@ -210,8 +180,7 @@ Hierzu drei lesenswerte Blog-Einträge:
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
 > -   Ertel ([2025](#ref-Ertel2025)): Entscheidungsbäume: Abschnitt 8.4
-> -   Russell und Norvig ([2021](#ref-Russell2021)): Entscheidungsbäume:
->     Abschnitt 19.3
+> -   Russell und Norvig ([2021](#ref-Russell2021)): Entscheidungsbäume: Abschnitt 19.3
 > -   Mitchell ([2010](#ref-Mitchell2010)): ID3: Kapitel 3
 >
 > </details>
@@ -221,8 +190,7 @@ Hierzu drei lesenswerte Blog-Einträge:
 > <details >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> -   k3: Ich kann für konkrete Beispiele die Entropie und den
->     Information Gain ausrechnen
+> -   k3: Ich kann für konkrete Beispiele die Entropie und den Information Gain ausrechnen
 >
 > </details>
 
@@ -231,8 +199,7 @@ Hierzu drei lesenswerte Blog-Einträge:
 > <details >
 > <summary><strong>🧩 Quizzes</strong></summary>
 >
-> -   [Selbsttest Entropie
->     (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106578&client_id=FH-Bielefeld)
+> -   [Selbsttest Entropie (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106578&client_id=FH-Bielefeld)
 >
 > </details>
 
@@ -254,8 +221,7 @@ Hierzu drei lesenswerte Blog-Einträge:
 > Aufgaben:
 >
 > 1.  Geben Sie die Entropie $H(S)$ der Trainingsmenge an.
-> 2.  Berechnen Sie $R(H,A)$ (die mittlere Entropie der Trainingsmenge,
->     nachdem Attribut $A$ gesehen wurde) für die einzelnen Attribute.
+> 2.  Berechnen Sie $R(H,A)$ (die mittlere Entropie der Trainingsmenge, nachdem Attribut $A$ gesehen wurde) für die einzelnen Attribute.
 >
 > </details>
 
@@ -270,9 +236,7 @@ Hierzu drei lesenswerte Blog-Einträge:
 >
 > <div id="ref-Ertel2025" class="csl-entry">
 >
-> Ertel, W. 2025. *Grundkurs Künstliche Intelligenz*. 6th edition.
-> Springer Vieweg Wiesbaden.
-> <https://doi.org/10.1007/978-3-658-44955-1>.
+> Ertel, W. 2025. *Grundkurs Künstliche Intelligenz*. 6th edition. Springer Vieweg Wiesbaden. <https://doi.org/10.1007/978-3-658-44955-1>.
 >
 > </div>
 >
@@ -284,8 +248,7 @@ Hierzu drei lesenswerte Blog-Einträge:
 >
 > <div id="ref-Russell2021" class="csl-entry">
 >
-> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern
-> Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
+> Russell, S., und P. Norvig. 2021. *Artificial Intelligence: A Modern Approach*. 4th Edition. Pearson. <http://aima.cs.berkeley.edu>.
 >
 > </div>
 >

@@ -5,8 +5,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> [Video-Mitschnitt "Einführung in
-> Jupyter-Notebooks](https://youtu.be/m9y9m-HQTys)
+> [Video-Mitschnitt "Einführung in Jupyter-Notebooks](https://youtu.be/m9y9m-HQTys)
 >
 > </details>
 
