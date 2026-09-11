@@ -184,9 +184,9 @@ $\to$ Normierung sorgt für fairen Vergleich der Attribute
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Ertel ([2025](#ref-Ertel2025)): Entscheidungsbäume: Abschnitt 8.4
-> -   Russell und Norvig ([2021](#ref-Russell2021)): Entscheidungsbäume: Abschnitt 19.3
-> -   Mitchell ([2010](#ref-Mitchell2010)): ID3: Kapitel 3
+> Sie können zum Thema Entscheidungsbäume und ID3 in Russell und Norvig ([2021](#ref-Russell2021)) (Abschnitt 19.3) nachlesen.
+>
+> Insbesondere zu ID3 finden Sie gute Darstellungen in Ertel ([2025](#ref-Ertel2025)) (Abschnitt 8.4) und Mitchell ([2010](#ref-Mitchell2010)) (Kapitel 3). Für weiterführende Informationen (Gini Impurity, CART, ...) lesen Sie bitte Kapitel 6 "Decision Trees" im Geron ([2023](#ref-Geron2023)) nach.
 >
 > </details>
 
@@ -251,6 +251,12 @@ $\to$ Normierung sorgt für fairen Vergleich der Attribute
 >
 > </div>
 >
+> <div id="ref-Geron2023" class="csl-entry">
+>
+> Geron, A. 2023. *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow*. 3. Auflage. O'Reilly. <https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/>.
+>
+> </div>
+>
 > <div id="ref-Mitchell2010" class="csl-entry">
 >
 > Mitchell, T. 2010. *Machine Learning*. McGraw-Hill.
@@ -273,4 +279,4 @@ $\to$ Normierung sorgt für fairen Vergleich der Attribute
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> a95560d 2026-09-11 dtl: rewrite readings for id3<br></sub></sup></p></blockquote>
