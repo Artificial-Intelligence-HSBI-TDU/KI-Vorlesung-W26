@@ -1,4 +1,4 @@
-# Intro: Problemlösen
+# Intro2: Problemlösen
 
 > [!IMPORTANT]
 >
@@ -24,7 +24,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Problemlösen](https://youtu.be/IhUmUUzR9lQ)
+> Vorlesung \[[YT](https://youtu.be/pJ1BrFUCDCw)\], \[[HSBI](https://www.hsbi.de/medienportal/video/intro-problemlsen/0db1f3f33cb61cef110141c2cadbb999)\]
 >
 > </details>
 
@@ -287,4 +287,4 @@ Dieser Algorithmus ist eine Erweiterung der einfachen Basisvariante der Suche:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 750a28e 2026-09-13 intro2: fix title<br></sub></sup></p></blockquote>

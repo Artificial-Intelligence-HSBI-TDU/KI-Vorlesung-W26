@@ -1,4 +1,4 @@
-# CSP: Min-Conflicts Heuristik
+# CSP5: Min-Conflicts Heuristik
 
 > [!IMPORTANT]
 >
@@ -18,7 +18,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL CSP, Min-Conflicts Heuristik](https://youtu.be/Z-Xk6oCBZJ0)
+> Vorlesung \[[YT](https://youtu.be/7cDyzGb2vdA)\], \[[HSBI](https://www.hsbi.de/medienportal/video/gki-csp-min-conflicts-heuristik/f1c161f808b3c2134bfdcaf56f850055)\]
 >
 > </details>
 
@@ -188,4 +188,4 @@ Umformung der Constraints in aussagenlogische Formeln und Anwenden von SAT-Solve
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 99733da 2026-09-09 csp: improve image size (web)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f410a70 2026-09-13 csp5: update screencasts<br></sub></sup></p></blockquote>

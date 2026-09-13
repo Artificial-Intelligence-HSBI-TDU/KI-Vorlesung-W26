@@ -1,4 +1,4 @@
-# CSP: Lösen von diskreten CSP
+# CSP2: Lösen von diskreten CSP (Backtracking-Search)
 
 > [!IMPORTANT]
 >
@@ -14,7 +14,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL BT-Suche für CSP](https://youtu.be/DIY7F2ycyqA)
+> Vorlesung \[[YT](https://youtu.be/_ir_ZdBOQZE)\], \[[HSBI](https://www.hsbi.de/medienportal/video/gki-csp-lsen-von-diskreten-csp-backtrackingsearch/1efa1631c1ee389f376128e7313e0d8c)\]
 >
 > </details>
 
@@ -118,4 +118,4 @@ Hierbei handelt es sich um eine etwas angepasste Tiefensuche: Starte mit leerem 
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> bcfc79b 2026-09-13 csp2: fix title<br></sub></sup></p></blockquote>

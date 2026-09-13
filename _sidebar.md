@@ -3,15 +3,15 @@
 - [HSBI: IFM 3.2: Grundlagen der KI (Winter 2026/27)](readme_hsbi.md)
 - **Vorlesungsunterlagen**
   - **Einführung KI**
-    - [Intro: Was ist Künstliche Intelligenz?](lecture/intro/intro1-overview.md)
+    - [Intro1: Was ist Künstliche Intelligenz?](lecture/intro/intro1-overview.md)
     - [Intro: Einführung in Jupyter-Notebooks](lecture/intro/intro3-jupyternotebooks.md)
-    - [Intro: Problemlösen](lecture/intro/intro2-problemsolving.md)
+    - [Intro2: Problemlösen](lecture/intro/intro2-problemsolving.md)
   - **Constraintsolving**
-    - [CSP: Einführung Constraints](lecture/csp/csp1-intro.md)
-    - [CSP: Lösen von diskreten CSP](lecture/csp/csp2-backtrackingsearch.md)
-    - [CSP: Heuristiken](lecture/csp/csp3-heuristics.md)
-    - [CSP: Kantenkonsistenz und AC-3](lecture/csp/csp4-ac3.md)
-    - [CSP: Min-Conflicts Heuristik](lecture/csp/csp5-minconflicts.md)
+    - [CSP1: Einführung Constraints](lecture/csp/csp1-intro.md)
+    - [CSP2: Lösen von diskreten CSP (Backtracking-Search)](lecture/csp/csp2-backtrackingsearch.md)
+    - [CSP3: Heuristiken](lecture/csp/csp3-heuristics.md)
+    - [CSP4: Kantenkonsistenz und AC-3](lecture/csp/csp4-ac3.md)
+    - [CSP5: Min-Conflicts Heuristik](lecture/csp/csp5-minconflicts.md)
   - **Naive Bayes**
     - [NB: Wiederholung Wahrscheinlichkeitstheorie](lecture/naivebayes/nb1-probability.md)
     - [NB: Klassifikation mit Naive Bayes](lecture/naivebayes/nb2-naivebayes.md)

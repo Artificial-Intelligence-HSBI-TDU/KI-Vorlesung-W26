@@ -1,4 +1,4 @@
-# CSP: Einführung Constraints
+# CSP1: Einführung Constraints
 
 > [!IMPORTANT]
 >
@@ -20,7 +20,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Intro CSP](https://youtu.be/eFyo4Xh59ns)
+> Vorlesung \[[YT](https://youtu.be/QN4HIGkZrf4)\], \[[HSBI](https://www.hsbi.de/medienportal/video/gki-csp-einfhrung-constraints/7306e3fdcf536febe6451336c3d9974d)\]
 >
 > </details>
 
@@ -192,4 +192,4 @@ Die *Arität* betrifft hier die "Stelligkeit": Wie viele Variablen stehen in ein
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 323ac5a 2026-09-13 csp1: fix title<br></sub></sup></p></blockquote>

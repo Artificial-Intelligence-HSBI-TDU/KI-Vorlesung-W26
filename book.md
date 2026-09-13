@@ -260,7 +260,7 @@ Was ist Intelligenz? Was ist künstliche Intelligenz? Woran kann man das erkenne
 
 <a id="id-ca2e904964509a28710797d2f876c625f54f64ea"></a>
 
-#### Intro: Was ist Künstliche Intelligenz?
+#### Intro1: Was ist Künstliche Intelligenz?
 
 > [!IMPORTANT]
 >
@@ -273,7 +273,7 @@ Was ist Intelligenz? Was ist künstliche Intelligenz? Woran kann man das erkenne
 >
 > Häufig werden die Gebiete in einem Diagramm eingeordnet, wobei die x-Achse Verhalten vs. Denken und die y-Achse Rational vs. Menschlich aufspannen. So kann man beispielsweise Logik dem rationalen Denken zuordnen oder die Erforschung kognitiver Prozesse dem Quadranten menschliches Denken.
 >
-> Wenn man sich die Geschichte der KI anschaut, beobachtet man bei fast allen Themen, dass sie in der Vergangenheit eine Hype-Phase erlebt haben und dabei die oft stark überzogenen Erwartungen enttäuscht haben und danach meist nur wenig Beachtung erfuhren. Nach einer Weile kamen die Themen wieder "auf die Tagesordnung", diesmal mit vernünftigen Erwartungen.
+> Wenn man sich die Geschichte der KI anschaut, beobachtet man bei fast allen Themen, dass sie in der Vergangenheit eine Hype-Phase erlebt haben und dabei die oft stark überzogenen Erwartungen enttäuscht haben und danach meist nur wenig Beachtung erfuhren. Nach einer Weile kamen die Themen wieder "auf die Tagesordnung", diesmal mit vernünftig(er)en Erwartungen.
 >
 > </details>
 
@@ -282,7 +282,7 @@ Was ist Intelligenz? Was ist künstliche Intelligenz? Woran kann man das erkenne
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Einführung](https://youtu.be/oETxokgYdDk)
+> Vorlesung \[[YT](https://youtu.be/gVSNCh2qYeo)\], \[[HSBI](https://www.hsbi.de/medienportal/video/gki-intro-was-ist-knstliche-intelligenz/1f35c67efaeecc87f4991b3d0c7b0bb0)\]
 >
 > </details>
 
@@ -584,7 +584,7 @@ Schauen Sie sich zur Einführung auch gern das YouTube-Video [Overview Artificia
 
 <a id="id-7a896d9c036ef29a6574730757ae03cd7c0d3e26"></a>
 
-#### Intro: Problemlösen
+#### Intro2: Problemlösen
 
 > [!IMPORTANT]
 >
@@ -610,7 +610,7 @@ Schauen Sie sich zur Einführung auch gern das YouTube-Video [Overview Artificia
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Problemlösen](https://youtu.be/IhUmUUzR9lQ)
+> Vorlesung \[[YT](https://youtu.be/pJ1BrFUCDCw)\], \[[HSBI](https://www.hsbi.de/medienportal/video/intro-problemlsen/0db1f3f33cb61cef110141c2cadbb999)\]
 >
 > </details>
 
@@ -858,7 +858,7 @@ Es handelt sich um eine bestimmte Art von Suchproblemen, wobei den Parametern (V
 
 <a id="id-84f051404cae6b3a63ddc230ad80cb495047845f"></a>
 
-#### CSP: Einführung Constraints
+#### CSP1: Einführung Constraints
 
 > [!IMPORTANT]
 >
@@ -880,7 +880,7 @@ Es handelt sich um eine bestimmte Art von Suchproblemen, wobei den Parametern (V
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Intro CSP](https://youtu.be/eFyo4Xh59ns)
+> Vorlesung \[[YT](https://youtu.be/QN4HIGkZrf4)\], \[[HSBI](https://www.hsbi.de/medienportal/video/gki-csp-einfhrung-constraints/7306e3fdcf536febe6451336c3d9974d)\]
 >
 > </details>
 
@@ -1029,7 +1029,7 @@ Die *Arität* betrifft hier die "Stelligkeit": Wie viele Variablen stehen in ein
 
 <a id="id-3b6247c92b0af037c1f0c4837facaaa1b25420c3"></a>
 
-#### CSP: Lösen von diskreten CSP
+#### CSP2: Lösen von diskreten CSP (Backtracking-Search)
 
 > [!IMPORTANT]
 >
@@ -1045,7 +1045,7 @@ Die *Arität* betrifft hier die "Stelligkeit": Wie viele Variablen stehen in ein
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL BT-Suche für CSP](https://youtu.be/DIY7F2ycyqA)
+> Vorlesung \[[YT](https://youtu.be/_ir_ZdBOQZE)\], \[[HSBI](https://www.hsbi.de/medienportal/video/gki-csp-lsen-von-diskreten-csp-backtrackingsearch/1efa1631c1ee389f376128e7313e0d8c)\]
 >
 > </details>
 
@@ -1126,7 +1126,7 @@ Hierbei handelt es sich um eine etwas angepasste Tiefensuche: Starte mit leerem 
 
 <a id="id-aef0213ac4bbd41501955f0ec950c44d1756a5cf"></a>
 
-#### CSP: Heuristiken
+#### CSP3: Heuristiken
 
 > [!IMPORTANT]
 >
@@ -1148,7 +1148,7 @@ Hierbei handelt es sich um eine etwas angepasste Tiefensuche: Starte mit leerem 
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL CSP, Heuristiken](https://youtu.be/pgXf0oV8lhE)
+> Vorlesung \[[YT](https://youtu.be/GnN_TEZSZAI)\], \[[HSBI](https://www.hsbi.de/medienportal/video/gki-csp-heuristiken/6a55cf5ffae66db41c9243154c877863)\]
 >
 > </details>
 
@@ -1284,7 +1284,7 @@ Beispiel:
 
 <a id="id-a9b47eac39d203917d2689bbfad8003315b2990c"></a>
 
-#### CSP: Kantenkonsistenz und AC-3
+#### CSP4: Kantenkonsistenz und AC-3
 
 > [!IMPORTANT]
 >
@@ -1306,7 +1306,7 @@ Beispiel:
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL CSP, AC-3](https://youtu.be/TvF78iVDwKM)
+> Vorlesung \[[YT](https://youtu.be/Dqy385gD9ng)\], \[[HSBI](https://www.hsbi.de/medienportal/video/-/699f3f73472d29977b095f9b25c1b03e)\]
 >
 > </details>
 
@@ -1487,7 +1487,7 @@ Quelle: AC-3 Algorithmus: Eigener Code basierend auf einer Idee nach ([Russell u
 
 <a id="id-9d0480f68cb0e1adb81cdc4b9b357168511b77d5"></a>
 
-#### CSP: Min-Conflicts Heuristik
+#### CSP5: Min-Conflicts Heuristik
 
 > [!IMPORTANT]
 >
@@ -1507,7 +1507,7 @@ Quelle: AC-3 Algorithmus: Eigener Code basierend auf einer Idee nach ([Russell u
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL CSP, Min-Conflicts Heuristik](https://youtu.be/Z-Xk6oCBZJ0)
+> Vorlesung \[[YT](https://youtu.be/7cDyzGb2vdA)\], \[[HSBI](https://www.hsbi.de/medienportal/video/gki-csp-min-conflicts-heuristik/f1c161f808b3c2134bfdcaf56f850055)\]
 >
 > </details>
 
@@ -7874,17 +7874,17 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
--   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
--   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
 -   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
+-   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
+-   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
+-   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> a5f0715 2026-09-11 dtl: add screencast in random forest<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> bcfc79b 2026-09-13 csp2: fix title<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in Graph-Search-Variante bei endlichem Suchraum
 

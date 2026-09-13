@@ -1,4 +1,4 @@
-# CSP: Heuristiken
+# CSP3: Heuristiken
 
 > [!IMPORTANT]
 >
@@ -20,7 +20,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL CSP, Heuristiken](https://youtu.be/pgXf0oV8lhE)
+> Vorlesung \[[YT](https://youtu.be/GnN_TEZSZAI)\], \[[HSBI](https://www.hsbi.de/medienportal/video/gki-csp-heuristiken/6a55cf5ffae66db41c9243154c877863)\]
 >
 > </details>
 
@@ -179,4 +179,4 @@ Beispiel:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 8a95bca 2026-09-13 csp3: update screencasts<br></sub></sup></p></blockquote>

@@ -1,4 +1,4 @@
-# CSP: Kantenkonsistenz und AC-3
+# CSP4: Kantenkonsistenz und AC-3
 
 > [!IMPORTANT]
 >
@@ -20,7 +20,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL CSP, AC-3](https://youtu.be/TvF78iVDwKM)
+> Vorlesung \[[YT](https://youtu.be/Dqy385gD9ng)\], \[[HSBI](https://www.hsbi.de/medienportal/video/-/699f3f73472d29977b095f9b25c1b03e)\]
 >
 > </details>
 
@@ -224,4 +224,4 @@ Quelle: AC-3 Algorithmus: Eigener Code basierend auf einer Idee nach ([Russell u
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> b2a54b2 2026-09-13 csp4: update screencasts<br></sub></sup></p></blockquote>

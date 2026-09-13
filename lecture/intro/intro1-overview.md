@@ -1,4 +1,4 @@
-# Intro: Was ist Künstliche Intelligenz?
+# Intro1: Was ist Künstliche Intelligenz?
 
 > [!IMPORTANT]
 >
@@ -11,7 +11,7 @@
 >
 > Häufig werden die Gebiete in einem Diagramm eingeordnet, wobei die x-Achse Verhalten vs. Denken und die y-Achse Rational vs. Menschlich aufspannen. So kann man beispielsweise Logik dem rationalen Denken zuordnen oder die Erforschung kognitiver Prozesse dem Quadranten menschliches Denken.
 >
-> Wenn man sich die Geschichte der KI anschaut, beobachtet man bei fast allen Themen, dass sie in der Vergangenheit eine Hype-Phase erlebt haben und dabei die oft stark überzogenen Erwartungen enttäuscht haben und danach meist nur wenig Beachtung erfuhren. Nach einer Weile kamen die Themen wieder "auf die Tagesordnung", diesmal mit vernünftigen Erwartungen.
+> Wenn man sich die Geschichte der KI anschaut, beobachtet man bei fast allen Themen, dass sie in der Vergangenheit eine Hype-Phase erlebt haben und dabei die oft stark überzogenen Erwartungen enttäuscht haben und danach meist nur wenig Beachtung erfuhren. Nach einer Weile kamen die Themen wieder "auf die Tagesordnung", diesmal mit vernünftig(er)en Erwartungen.
 >
 > </details>
 
@@ -20,7 +20,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Einführung](https://youtu.be/oETxokgYdDk)
+> Vorlesung \[[YT](https://youtu.be/gVSNCh2qYeo)\], \[[HSBI](https://www.hsbi.de/medienportal/video/gki-intro-was-ist-knstliche-intelligenz/1f35c67efaeecc87f4991b3d0c7b0bb0)\]
 >
 > </details>
 
@@ -331,9 +331,9 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 -   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 -   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 -   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d9e8643 2026-09-13 intro1: update screencasts<br></sub></sup></p></blockquote>
