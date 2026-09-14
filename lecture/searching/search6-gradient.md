@@ -1,4 +1,4 @@
-# Search: Lokale Suche - Gradientensuche
+# Search6: Lokale Suche - Gradientensuche
 
 > [!IMPORTANT]
 >
@@ -16,7 +16,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Gradientensuche](https://youtu.be/TcTF9xdW3WU)
+> Vorlesung \[[YT](https://youtu.be/Im7DEJysm5g)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search6-lokale-suche-gradientensuche/581592a4f22597d6979ddd3815c6c615/251)\]
 >
 > </details>
 
@@ -183,4 +183,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 -   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg){width="40%"} by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d546d94 2026-09-14 search: rework screencasts<br></sub></sup></p></blockquote>

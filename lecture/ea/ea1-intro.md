@@ -1,4 +1,4 @@
-# EA: Einführung Evolutionäre Algorithmen
+# EA1: Einführung Evolutionäre Algorithmen
 
 > [!IMPORTANT]
 >
@@ -16,7 +16,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Einführung Evolutionäre Algorithmen](https://youtu.be/pKdKcPLI7V4)
+> Vorlesung \[[YT](https://youtu.be/NuU8vgkkq3w)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-ea1-einfhrung-evolutionre-algorithmen/db53883da4791076b61f5ab89ca0d74f/251)\]
 >
 > </details>
 
@@ -188,4 +188,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 -   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5b6c2ec 2026-09-14 ea: rework screencasts<br></sub></sup></p></blockquote>

@@ -1,4 +1,4 @@
-# Search: Suche mit Breitensuche
+# Search2: Suche mit Breitensuche
 
 > [!IMPORTANT]
 >
@@ -16,7 +16,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Breitensuche](https://youtu.be/WLhXt6ZpyD8)
+> Vorlesung \[[YT](https://youtu.be/sbBygyFS95E)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search2-suche-mit-breitensuche/561f60dc2036b09bbd64b78542be40ea/251)\]
 >
 > </details>
 
@@ -177,7 +177,7 @@ $\to$ Speicherbedarf **ca. 10 MB**
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 1be389d 2026-09-14 search: rework screencasts<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in Graph-Search-Variante bei endlichem Suchraum
 

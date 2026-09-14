@@ -1,4 +1,4 @@
-# NB: Wiederholung Wahrscheinlichkeitstheorie
+# NB1: Wiederholung Wahrscheinlichkeitstheorie
 
 > [!IMPORTANT]
 >
@@ -29,7 +29,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Wahrscheinlichkeiten](https://youtu.be/p_Yy5rkl4CA)
+> Vorlesung \[[YT](https://youtu.be/jBByXEKoOeA)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-nb1-wiederholung-wahrscheinlichkeitstheorie/8749cac85bb7021d2ec5c2ce75a32bc8/251)\]
 >
 > </details>
 
@@ -312,4 +312,4 @@ $$P(X,Y \mid Z) = P(X \mid Y,Z)P(Y \mid Z) = P(X \mid Z)P(Y \mid Z)$$
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> cc557a9 2026-09-14 bayes: rework screencasts<br></sub></sup></p></blockquote>

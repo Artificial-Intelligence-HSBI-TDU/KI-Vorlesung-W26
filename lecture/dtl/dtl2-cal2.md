@@ -1,4 +1,4 @@
-# DTL: CAL2
+# DTL2: CAL2
 
 > [!IMPORTANT]
 >
@@ -18,7 +18,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL CAL2](https://youtu.be/bR_QVYtPRx8)
+> Vorlesung \[[YT](https://youtu.be/Gx0IuMYAkj8)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-dtl2-cal2/d5758802018a5a70f24bfd81ef9ac997/251)\]
 >
 > </details>
 
@@ -208,4 +208,4 @@ Es gibt in $x_1$ zwei mögliche Ausprägungen, d.h. der Baum hat in diesem Knote
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d183143 2026-09-14 dtl: rework screencasts<br></sub></sup></p></blockquote>

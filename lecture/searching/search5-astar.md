@@ -1,4 +1,4 @@
-# Search: Suche mit A\*
+# Search5: Suche mit A\*
 
 > [!IMPORTANT]
 >
@@ -18,7 +18,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL A\*](https://youtu.be/eMkEN-HtEs8)
+> Vorlesung \[[YT](https://youtu.be/EMr09c_ACNg)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search5-suche-mit-a/6045dde7f32e31d19747320b988b00f5/251)\]
 >
 > </details>
 
@@ -225,7 +225,7 @@ $\to$ Eine konsistente Heuristik ist gleichzeitig zulässig.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5ac20b8 2026-09-14 search: rework screencasts<br></sub></sup></p></blockquote>
 
 [^1]: BnB vollständig: Kosten größer Epsilon (positiv)
 

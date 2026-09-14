@@ -1,4 +1,4 @@
-# DTL: Machine Learning 101
+# DTL1: Machine Learning 101
 
 > [!IMPORTANT]
 >
@@ -20,7 +20,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Machine Learning 101](https://youtu.be/FliWEXQZhsw)
+> Vorlesung \[[YT](https://youtu.be/pOdjQC01FSg)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-dtl1-machine-learning-101/9f569d13698d8d599721b92c3ee6f896/251)\]
 >
 > </details>
 
@@ -298,4 +298,4 @@ Die Trainingsmenge baut sich dann beim überwachten Lernen aus vielen solcher Pa
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> dd67110 2026-09-14 dtl: rework screencasts<br></sub></sup></p></blockquote>

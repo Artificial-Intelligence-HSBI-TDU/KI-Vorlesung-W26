@@ -1,4 +1,4 @@
-# NB: Text-Klassifikation mit Naive Bayes
+# NB3: Text-Klassifikation mit Naive Bayes
 
 > [!IMPORTANT]
 >
@@ -20,7 +20,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Text-Klassifikation mit Naive Bayes](https://youtu.be/Gkg-SGnl9nY)
+> Vorlesung \[[YT](https://youtu.be/h12_CoLqcNY)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-nb3-text-klassifikation-mit-naive-bayes/5b99952a5479cfea41436399f55b0655/251)\]
 >
 > </details>
 
@@ -435,4 +435,4 @@ Entscheidung: OK
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 578003c 2026-09-14 bayes: rework screencasts<br></sub></sup></p></blockquote>

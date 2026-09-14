@@ -1,4 +1,4 @@
-# EA: Modellierung mit Genetischen Algorithmen
+# EA2: Modellierung mit Genetischen Algorithmen
 
 > [!IMPORTANT]
 >
@@ -20,7 +20,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Modellierung mit EA/GA](https://youtu.be/Sd5AA6LIEOc)
+> Vorlesung \[[YT](https://youtu.be/y5RmTiUg7f0)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-ea2-modellierung-mit-genetischen-algorithmen/8a046e3058e2297b9aba37948b8d7c21/251)\]
 >
 > </details>
 
@@ -235,4 +235,4 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c483618 2026-09-14 ea: rework screencasts<br></sub></sup></p></blockquote>

@@ -1,4 +1,4 @@
-# DTL: Entropie
+# DTL5: Entropie
 
 > [!IMPORTANT]
 >
@@ -16,7 +16,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Entropie](https://youtu.be/4IZYA5EWO1k)
+> Vorlesung \[[YT](https://youtu.be/0h22mnYZkjw)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-dtl5-entropie/6adab53586b8914a7c6ad72a87362fba/251)\]
 >
 > </details>
 
@@ -262,4 +262,4 @@ Hierzu drei lesenswerte Blog-Einträge:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 780b5ec 2026-09-14 dtl: rework screencasts<br></sub></sup></p></blockquote>

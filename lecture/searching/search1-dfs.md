@@ -1,4 +1,4 @@
-# Search: Suche mit Tiefensuche
+# Search1: Suche mit Tiefensuche
 
 > [!IMPORTANT]
 >
@@ -18,7 +18,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Tiefensuche](https://youtu.be/NzTugnuHSZ8)
+> Vorlesung \[[YT](https://youtu.be/gOG-futM4YI)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search1-suche-mit-tiefensuche/72de14413b69d27dad8668a582c89895/251)\]
 >
 > </details>
 
@@ -194,4 +194,4 @@ Siehe [Breitensuche](./search2-bfs.md)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 1df0ec6 2026-09-14 search: rework screencasts<br></sub></sup></p></blockquote>

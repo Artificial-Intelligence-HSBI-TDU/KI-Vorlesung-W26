@@ -1,4 +1,4 @@
-# Search: Lokale Suche - Simulated Annealing
+# Search7: Lokale Suche - Simulated Annealing
 
 > [!IMPORTANT]
 >
@@ -16,7 +16,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Simulated Annealing](https://youtu.be/vPg7PWuY2bM)
+> Vorlesung \[[YT](https://youtu.be/2htZFxUe3AQ)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search7-lokale-suche-simulated-annealing/27673a757a7c49f9b385d7913d8e46c2/251)\]
 >
 > </details>
 
@@ -228,4 +228,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 -   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 7d78a86 2026-09-14 search: rework screencasts<br></sub></sup></p></blockquote>

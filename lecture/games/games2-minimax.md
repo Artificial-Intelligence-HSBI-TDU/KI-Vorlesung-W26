@@ -1,4 +1,4 @@
-# Games: Minimax
+# Games2: Minimax
 
 > [!IMPORTANT]
 >
@@ -16,7 +16,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Minimax](https://youtu.be/aKtF__lMMsw)
+> Vorlesung \[[YT](https://youtu.be/fFYIgsYEFjA)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-games2-minimax/29722a148c3716081a9e38de0d73bc50/251)\]
 >
 > </details>
 
@@ -220,4 +220,4 @@ Gedankenexperiment:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 528e14a 2026-09-14 games: rework screencasts<br></sub></sup></p></blockquote>

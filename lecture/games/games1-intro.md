@@ -1,4 +1,4 @@
-# Games: Einführung Optimale Spiele
+# Games1: Einführung Optimale Spiele
 
 > [!IMPORTANT]
 >
@@ -16,7 +16,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Einführung Optimale Spiele](https://youtu.be/wVYhbgtzxhs)
+> Vorlesung \[[YT](https://youtu.be/OCiKEU2dBwo)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-games1-einfhrung-optimale-spiele/f08047806ea0148a2ddafeb4451da482/251)\]
 >
 > </details>
 
@@ -147,4 +147,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 -   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 030c0f3 2026-09-14 games: rework screencasts<br></sub></sup></p></blockquote>

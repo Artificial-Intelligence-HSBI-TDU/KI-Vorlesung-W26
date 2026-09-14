@@ -1,4 +1,4 @@
-# Games: Alpha-Beta-Pruning
+# Games4: Alpha-Beta-Pruning
 
 > [!IMPORTANT]
 >
@@ -20,7 +20,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Alpha-Beta-Pruning](https://youtu.be/_Hq-GCl__bU)
+> Vorlesung \[[YT](https://youtu.be/lYCudNU6v34)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-games4-alpha-beta-pruning/457023dac3b8a6273befbd92c4b09bba/251)\]
 >
 > </details>
 
@@ -263,4 +263,4 @@ Quelle: ([<span class="nocase">Silver u. a.</span> 2016](#ref-Silver2016)), sie
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d7ec24d 2026-09-14 games: rework screencasts<br></sub></sup></p></blockquote>

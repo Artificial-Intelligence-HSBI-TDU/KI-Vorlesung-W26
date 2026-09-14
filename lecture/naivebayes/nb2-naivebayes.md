@@ -1,4 +1,4 @@
-# NB: Klassifikation mit Naive Bayes
+# NB2: Klassifikation mit Naive Bayes
 
 > [!IMPORTANT]
 >
@@ -29,7 +29,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Naive Bayes Klassifikation](https://youtu.be/qfX4zp1i-Co)
+> Vorlesung \[[YT](https://youtu.be/VxyjFos1a6U)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-nb2-klassifikation-mit-naive-bayes/23ee01f5f394b551150cd571d4fe36ef/251)\]
 >
 > </details>
 
@@ -410,4 +410,4 @@ In Abhängigkeit von der Verteilung der $P(D_i \mid h)$ spricht man von
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> ad401eb 2026-09-09 nb: improve example<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 3044646 2026-09-14 bayes: rework screencasts<br></sub></sup></p></blockquote>

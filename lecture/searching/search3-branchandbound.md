@@ -1,4 +1,4 @@
-# Search: Suche mit Branch-and-Bound
+# Search3: Suche mit Branch-and-Bound
 
 > [!IMPORTANT]
 >
@@ -16,7 +16,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Branch-and-Bound](https://youtu.be/WBL-sihpbaM)
+> Vorlesung \[[YT](https://youtu.be/WrNFX20Jk7Y)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search3-suche-mit-branch-and-bound/cb9eb74022153d7c409ac27f46150a67/251)\]
 >
 > </details>
 
@@ -155,4 +155,4 @@ Siehe [A\*](./search5-astar.md)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 4207623 2026-09-14 search: rework screencasts<br></sub></sup></p></blockquote>

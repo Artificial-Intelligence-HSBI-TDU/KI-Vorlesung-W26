@@ -1665,7 +1665,7 @@ Kann ich aus diesen Daten einen Klassifikator lernen?
 
 <a id="id-cd12d8faa8a855e40fd112b32dc98078382d90aa"></a>
 
-#### NB: Wiederholung Wahrscheinlichkeitstheorie
+#### NB1: Wiederholung Wahrscheinlichkeitstheorie
 
 > [!IMPORTANT]
 >
@@ -1696,7 +1696,7 @@ Kann ich aus diesen Daten einen Klassifikator lernen?
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Wahrscheinlichkeiten](https://youtu.be/p_Yy5rkl4CA)
+> Vorlesung \[[YT](https://youtu.be/jBByXEKoOeA)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-nb1-wiederholung-wahrscheinlichkeitstheorie/8749cac85bb7021d2ec5c2ce75a32bc8/251)\]
 >
 > </details>
 
@@ -1950,7 +1950,7 @@ $$P(X,Y \mid Z) = P(X \mid Y,Z)P(Y \mid Z) = P(X \mid Z)P(Y \mid Z)$$
 
 <a id="id-cd72f1bd942f6b05157da80ba479a7a493d898c1"></a>
 
-#### NB: Klassifikation mit Naive Bayes
+#### NB2: Klassifikation mit Naive Bayes
 
 > [!IMPORTANT]
 >
@@ -1981,7 +1981,7 @@ $$P(X,Y \mid Z) = P(X \mid Y,Z)P(Y \mid Z) = P(X \mid Z)P(Y \mid Z)$$
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Naive Bayes Klassifikation](https://youtu.be/qfX4zp1i-Co)
+> Vorlesung \[[YT](https://youtu.be/VxyjFos1a6U)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-nb2-klassifikation-mit-naive-bayes/23ee01f5f394b551150cd571d4fe36ef/251)\]
 >
 > </details>
 
@@ -2333,7 +2333,7 @@ In Abhängigkeit von der Verteilung der $P(D_i \mid h)$ spricht man von
 
 <a id="id-6e322bc628d8ff7a4faa38fa42a09770217ab4fb"></a>
 
-#### NB: Text-Klassifikation mit Naive Bayes
+#### NB3: Text-Klassifikation mit Naive Bayes
 
 > [!IMPORTANT]
 >
@@ -2355,7 +2355,7 @@ In Abhängigkeit von der Verteilung der $P(D_i \mid h)$ spricht man von
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Text-Klassifikation mit Naive Bayes](https://youtu.be/Gkg-SGnl9nY)
+> Vorlesung \[[YT](https://youtu.be/h12_CoLqcNY)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-nb3-text-klassifikation-mit-naive-bayes/5b99952a5479cfea41436399f55b0655/251)\]
 >
 > </details>
 
@@ -2749,7 +2749,7 @@ Einen Entscheidungsbaum kann man zur Klassifikation eines Objekts schrittweise d
 
 <a id="id-82f362361464406c7ba09ef4a0893a4e32983b94"></a>
 
-#### DTL: Machine Learning 101
+#### DTL1: Machine Learning 101
 
 > [!IMPORTANT]
 >
@@ -2771,7 +2771,7 @@ Einen Entscheidungsbaum kann man zur Klassifikation eines Objekts schrittweise d
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Machine Learning 101](https://youtu.be/FliWEXQZhsw)
+> Vorlesung \[[YT](https://youtu.be/pOdjQC01FSg)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-dtl1-machine-learning-101/9f569d13698d8d599721b92c3ee6f896/251)\]
 >
 > </details>
 
@@ -3026,7 +3026,7 @@ Die Trainingsmenge baut sich dann beim überwachten Lernen aus vielen solcher Pa
 
 <a id="id-4807e4a11529854b6d77f86cd3ca37caabc11cc9"></a>
 
-#### DTL: CAL2
+#### DTL2: CAL2
 
 > [!IMPORTANT]
 >
@@ -3046,7 +3046,7 @@ Die Trainingsmenge baut sich dann beim überwachten Lernen aus vielen solcher Pa
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL CAL2](https://youtu.be/bR_QVYtPRx8)
+> Vorlesung \[[YT](https://youtu.be/Gx0IuMYAkj8)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-dtl2-cal2/d5758802018a5a70f24bfd81ef9ac997/251)\]
 >
 > </details>
 
@@ -3213,7 +3213,7 @@ Es gibt in $x_1$ zwei mögliche Ausprägungen, d.h. der Baum hat in diesem Knote
 
 <a id="id-f085a6c9977296f3811e103376badb06ee228d84"></a>
 
-#### DTL: Entropie
+#### DTL5: Entropie
 
 > [!IMPORTANT]
 >
@@ -3231,7 +3231,7 @@ Es gibt in $x_1$ zwei mögliche Ausprägungen, d.h. der Baum hat in diesem Knote
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Entropie](https://youtu.be/4IZYA5EWO1k)
+> Vorlesung \[[YT](https://youtu.be/0h22mnYZkjw)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-dtl5-entropie/6adab53586b8914a7c6ad72a87362fba/251)\]
 >
 > </details>
 
@@ -3442,7 +3442,7 @@ Hierzu drei lesenswerte Blog-Einträge:
 
 <a id="id-0d69ce52eac18a7d932147cc42b20bcd98d267f3"></a>
 
-#### DTL: ID3 und C4.5
+#### DTL6: ID3 und C4.5
 
 > [!IMPORTANT]
 >
@@ -3460,7 +3460,7 @@ Hierzu drei lesenswerte Blog-Einträge:
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL ID3 und C4.5](https://youtu.be/Yo1cmeS6BK8)
+> Vorlesung \[[YT](https://youtu.be/vgecv7zQxz8)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-dtl6-id3-und-c45/3ceb246a260bf013780433d0cc894bf5/251)\]
 >
 > </details>
 
@@ -3682,7 +3682,7 @@ $\to$ Normierung sorgt für fairen Vergleich der Attribute
 
 <a id="id-67ad22f050d34df38bd659728538d50c3f90f70e"></a>
 
-#### DTL: Random Forest
+#### DTL7: Random Forest
 
 > [!IMPORTANT]
 >
@@ -3958,7 +3958,7 @@ Lokale Suche mit Methoden, die der biologischen Evolution abgeschaut bzw. nachem
 
 <a id="id-aa3481a03ed2e17666ced54325637e0551022587"></a>
 
-#### EA: Einführung Evolutionäre Algorithmen
+#### EA1: Einführung Evolutionäre Algorithmen
 
 > [!IMPORTANT]
 >
@@ -3976,7 +3976,7 @@ Lokale Suche mit Methoden, die der biologischen Evolution abgeschaut bzw. nachem
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Einführung Evolutionäre Algorithmen](https://youtu.be/pKdKcPLI7V4)
+> Vorlesung \[[YT](https://youtu.be/NuU8vgkkq3w)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-ea1-einfhrung-evolutionre-algorithmen/db53883da4791076b61f5ab89ca0d74f/251)\]
 >
 > </details>
 
@@ -4079,7 +4079,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 <a id="id-c99ae5cae334ccb182fc61d94707f8e7cdf363c9"></a>
 
-#### EA: Modellierung mit Genetischen Algorithmen
+#### EA2: Modellierung mit Genetischen Algorithmen
 
 > [!IMPORTANT]
 >
@@ -4101,7 +4101,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Modellierung mit EA/GA](https://youtu.be/Sd5AA6LIEOc)
+> Vorlesung \[[YT](https://youtu.be/y5RmTiUg7f0)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-ea2-modellierung-mit-genetischen-algorithmen/8a046e3058e2297b9aba37948b8d7c21/251)\]
 >
 > </details>
 
@@ -4297,7 +4297,7 @@ Problemlösen durch Suche im Problemgraphen. Aus den Basisalgorithmen Tree-Searc
 
 <a id="id-3263461a899091090f8d87ea7f7f3f25bf8255eb"></a>
 
-#### Search: Suche mit Tiefensuche
+#### Search1: Suche mit Tiefensuche
 
 > [!IMPORTANT]
 >
@@ -4317,7 +4317,7 @@ Problemlösen durch Suche im Problemgraphen. Aus den Basisalgorithmen Tree-Searc
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Tiefensuche](https://youtu.be/NzTugnuHSZ8)
+> Vorlesung \[[YT](https://youtu.be/gOG-futM4YI)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search1-suche-mit-tiefensuche/72de14413b69d27dad8668a582c89895/251)\]
 >
 > </details>
 
@@ -4470,7 +4470,7 @@ Siehe [Breitensuche](#id-d08f602e3cf0c02bc97cd5125053645dfe917271)
 
 <a id="id-d08f602e3cf0c02bc97cd5125053645dfe917271"></a>
 
-#### Search: Suche mit Breitensuche
+#### Search2: Suche mit Breitensuche
 
 > [!IMPORTANT]
 >
@@ -4488,7 +4488,7 @@ Siehe [Breitensuche](#id-d08f602e3cf0c02bc97cd5125053645dfe917271)
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Breitensuche](https://youtu.be/WLhXt6ZpyD8)
+> Vorlesung \[[YT](https://youtu.be/sbBygyFS95E)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search2-suche-mit-breitensuche/561f60dc2036b09bbd64b78542be40ea/251)\]
 >
 > </details>
 
@@ -4626,7 +4626,7 @@ $\to$ Speicherbedarf **ca. 10 MB**
 
 <a id="id-0712fba7e7ca1e4684ed9b6de19345ba86fba471"></a>
 
-#### Search: Suche mit Branch-and-Bound
+#### Search3: Suche mit Branch-and-Bound
 
 > [!IMPORTANT]
 >
@@ -4644,7 +4644,7 @@ $\to$ Speicherbedarf **ca. 10 MB**
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Branch-and-Bound](https://youtu.be/WBL-sihpbaM)
+> Vorlesung \[[YT](https://youtu.be/WrNFX20Jk7Y)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search3-suche-mit-branch-and-bound/cb9eb74022153d7c409ac27f46150a67/251)\]
 >
 > </details>
 
@@ -4760,7 +4760,7 @@ Siehe [A\*](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5)
 
 <a id="id-0a43351a075c7504b755675510f9395b5dd8c092"></a>
 
-#### Search: Suche mit Best First
+#### Search4: Suche mit Best First
 
 > [!IMPORTANT]
 >
@@ -4778,7 +4778,7 @@ Siehe [A\*](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5)
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Best First](https://youtu.be/dNyLOQuD_aI)
+> Vorlesung \[[YT](https://youtu.be/9BW4-pkAoW0)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search4-suche-mit-best-first/74e701865aede980e5c24215832c4ccd/251)\]
 >
 > </details>
 
@@ -4886,7 +4886,7 @@ Siehe [A\*](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5)
 
 <a id="id-53af5b698d302efe7ce547dd76c249d8ebd26df5"></a>
 
-#### Search: Suche mit A\*
+#### Search5: Suche mit A\*
 
 > [!IMPORTANT]
 >
@@ -4906,7 +4906,7 @@ Siehe [A\*](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5)
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL A\*](https://youtu.be/eMkEN-HtEs8)
+> Vorlesung \[[YT](https://youtu.be/EMr09c_ACNg)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search5-suche-mit-a/6045dde7f32e31d19747320b988b00f5/251)\]
 >
 > </details>
 
@@ -5090,7 +5090,7 @@ $\to$ Eine konsistente Heuristik ist gleichzeitig zulässig.
 
 <a id="id-3e0f73b743e74f106aacc68840406273348f8341"></a>
 
-#### Search: Lokale Suche - Gradientensuche
+#### Search6: Lokale Suche - Gradientensuche
 
 > [!IMPORTANT]
 >
@@ -5108,7 +5108,7 @@ $\to$ Eine konsistente Heuristik ist gleichzeitig zulässig.
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Gradientensuche](https://youtu.be/TcTF9xdW3WU)
+> Vorlesung \[[YT](https://youtu.be/Im7DEJysm5g)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search6-lokale-suche-gradientensuche/581592a4f22597d6979ddd3815c6c615/251)\]
 >
 > </details>
 
@@ -5248,7 +5248,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 <a id="id-bafda494229223827755dbbffb5862eeb7e31262"></a>
 
-#### Search: Lokale Suche - Simulated Annealing
+#### Search7: Lokale Suche - Simulated Annealing
 
 > [!IMPORTANT]
 >
@@ -5266,7 +5266,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Simulated Annealing](https://youtu.be/vPg7PWuY2bM)
+> Vorlesung \[[YT](https://youtu.be/2htZFxUe3AQ)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search7-lokale-suche-simulated-annealing/27673a757a7c49f9b385d7913d8e46c2/251)\]
 >
 > </details>
 
@@ -5457,7 +5457,7 @@ Man kann Spiele auch als Suchproblem betrachten und als Ziel die Suche nach dem 
 
 <a id="id-f669cc4761526fb137b102a84bf0b7a3c8e1b51a"></a>
 
-#### Games: Einführung Optimale Spiele
+#### Games1: Einführung Optimale Spiele
 
 > [!IMPORTANT]
 >
@@ -5475,7 +5475,7 @@ Man kann Spiele auch als Suchproblem betrachten und als Ziel die Suche nach dem 
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Einführung Optimale Spiele](https://youtu.be/wVYhbgtzxhs)
+> Vorlesung \[[YT](https://youtu.be/OCiKEU2dBwo)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-games1-einfhrung-optimale-spiele/f08047806ea0148a2ddafeb4451da482/251)\]
 >
 > </details>
 
@@ -5573,7 +5573,7 @@ $\to$ Bis auf Roboterfußball in KI traditionell keine physischen Spiele!
 
 <a id="id-5438da7280b20127b14a6fc6336d798d64ef51d6"></a>
 
-#### Games: Minimax
+#### Games2: Minimax
 
 > [!IMPORTANT]
 >
@@ -5591,7 +5591,7 @@ $\to$ Bis auf Roboterfußball in KI traditionell keine physischen Spiele!
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Minimax](https://youtu.be/aKtF__lMMsw)
+> Vorlesung \[[YT](https://youtu.be/fFYIgsYEFjA)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-games2-minimax/29722a148c3716081a9e38de0d73bc50/251)\]
 >
 > </details>
 
@@ -5766,7 +5766,7 @@ Gedankenexperiment:
 
 <a id="id-a9ac054922401b7eb9285dc81c4d01960ce147ec"></a>
 
-#### Games: Heuristiken
+#### Games3: Heuristiken
 
 > [!IMPORTANT]
 >
@@ -5786,7 +5786,7 @@ Gedankenexperiment:
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Heuristiken](https://youtu.be/rKqNqYBXuK8)
+> Vorlesung \[[YT](https://youtu.be/ZsRCF1InkIQ)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-games3-heuristiken/3a2f20c11ede3a46c9175f731e6423eb/251)\]
 >
 > </details>
 
@@ -5915,7 +5915,7 @@ Eine ähnliche geschlossene Darstellung finden Sie im ([Russell und Norvig 2021,
 
 <a id="id-c8c274bfbd36e9fdbf8c47df5f99c064b06d9ff3"></a>
 
-#### Games: Alpha-Beta-Pruning
+#### Games4: Alpha-Beta-Pruning
 
 > [!IMPORTANT]
 >
@@ -5937,7 +5937,7 @@ Eine ähnliche geschlossene Darstellung finden Sie im ([Russell und Norvig 2021,
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Alpha-Beta-Pruning](https://youtu.be/_Hq-GCl__bU)
+> Vorlesung \[[YT](https://youtu.be/lYCudNU6v34)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-games4-alpha-beta-pruning/457023dac3b8a6273befbd92c4b09bba/251)\]
 >
 > </details>
 
@@ -7874,17 +7874,17 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
--   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
--   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
--   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 -   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 -   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
+-   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
+-   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
+-   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
+-   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> bcfc79b 2026-09-13 csp2: fix title<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 7d78a86 2026-09-14 search: rework screencasts<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in Graph-Search-Variante bei endlichem Suchraum
 

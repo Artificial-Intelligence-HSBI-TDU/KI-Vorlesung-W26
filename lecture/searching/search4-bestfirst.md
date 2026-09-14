@@ -1,4 +1,4 @@
-# Search: Suche mit Best First
+# Search4: Suche mit Best First
 
 > [!IMPORTANT]
 >
@@ -16,7 +16,7 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Best First](https://youtu.be/dNyLOQuD_aI)
+> Vorlesung \[[YT](https://youtu.be/9BW4-pkAoW0)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search4-suche-mit-best-first/74e701865aede980e5c24215832c4ccd/251)\]
 >
 > </details>
 
@@ -151,4 +151,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 -   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5132b5e 2026-09-09 replace => and -> with math-to to render properly in docsify<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c276688 2026-09-14 search: rework screencasts<br></sub></sup></p></blockquote>

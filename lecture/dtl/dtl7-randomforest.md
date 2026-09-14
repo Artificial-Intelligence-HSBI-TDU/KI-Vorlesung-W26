@@ -1,4 +1,4 @@
-# DTL: Random Forest
+# DTL7: Random Forest
 
 > [!IMPORTANT]
 >
@@ -297,4 +297,4 @@ Ein Random Forest hält den (relativ) niedrigen Bias tiefer Bäume, reduziert ab
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> a5f0715 2026-09-11 dtl: add screencast in random forest<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 15419fd 2026-09-14 dtl: fix title<br></sub></sup></p></blockquote>
