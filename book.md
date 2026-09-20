@@ -99,7 +99,7 @@ Durchführung der Vorlesung als *Flipped Classroom*: Sitzungen per Zoom, Übunge
 | 21.09. | CSP | [Einführung Constraints](#id-84f051404cae6b3a63ddc230ad80cb495047845f) \| [Lösen von diskreten CSP](#id-3b6247c92b0af037c1f0c4837facaaa1b25420c3) \| [CSP und Heuristiken](#id-aef0213ac4bbd41501955f0ec950c44d1756a5cf) \| [Kantenkonsistenz und AC-3](#id-a9b47eac39d203917d2689bbfad8003315b2990c) \| [Min-Conflicts Heuristik](#id-9d0480f68cb0e1adb81cdc4b9b357168511b77d5) | [Blatt: CSP](#id-97b1dd75d6bb5e4678ebee3df7fe5a521e52d6e2) |
 | 28.09. | NB | [Wahrscheinlichkeitstheorie](#id-cd12d8faa8a855e40fd112b32dc98078382d90aa) \| [Naive Bayes](#id-cd72f1bd942f6b05157da80ba479a7a493d898c1) \| [Textklassifikation mit NB](#id-6e322bc628d8ff7a4faa38fa42a09770217ab4fb) | [Blatt: Naive Bayes](#id-8b661cb2908035ca0da1b1837f2b800c4381ebad) |
 | 05.10. | DTL | [Machine Learning 101](#id-82f362361464406c7ba09ef4a0893a4e32983b94) \| [CAL2](#id-4807e4a11529854b6d77f86cd3ca37caabc11cc9) \| [Entropie](#id-f085a6c9977296f3811e103376badb06ee228d84) \| [ID3 und C4.5](#id-0d69ce52eac18a7d932147cc42b20bcd98d267f3) \| [Random Forest](#id-67ad22f050d34df38bd659728538d50c3f90f70e) | [Blatt: DTL](#id-4a134eae1417a20b6726b2fdc2b1dfd28a683e29) |
-| 12.10. | EA | **ab 11:15**: [Intro EA/GA](#id-aa3481a03ed2e17666ced54325637e0551022587) \| [Genetische Algorithmen](#id-c99ae5cae334ccb182fc61d94707f8e7cdf363c9) | [Blatt: EA/GA](#id-cb2cf09f6031a168fc7c9094c3ee2d9df377e9f0) |
+| 12.10. | EA | **ab 11:15**: [Gradientensuche](#id-3e0f73b743e74f106aacc68840406273348f8341) \| [Simulated Annealing](#id-bafda494229223827755dbbffb5862eeb7e31262) \|\| [Intro EA/GA](#id-aa3481a03ed2e17666ced54325637e0551022587) \| [Genetische Algorithmen](#id-c99ae5cae334ccb182fc61d94707f8e7cdf363c9) | [Blatt: EA/GA](#id-cb2cf09f6031a168fc7c9094c3ee2d9df377e9f0) |
 | 19.10. | Search | [Problemlösen](#id-7a896d9c036ef29a6574730757ae03cd7c0d3e26) \| [Tiefensuche](#id-3263461a899091090f8d87ea7f7f3f25bf8255eb) \| [Breitensuche](#id-d08f602e3cf0c02bc97cd5125053645dfe917271) \| [Branch-and-Bound](#id-0712fba7e7ca1e4684ed9b6de19345ba86fba471) \| [Best First](#id-0a43351a075c7504b755675510f9395b5dd8c092) \| [A-Stern](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5) | [Blatt: Suche](#id-ab3ff3658bdafaf1ee5c17c11ffae098b587c048) |
 | 26.10. | Games | [Optimale Spiele](#id-f669cc4761526fb137b102a84bf0b7a3c8e1b51a) \| [Games mit Minimax](#id-5438da7280b20127b14a6fc6336d798d64ef51d6) \| [Minimax und Heuristiken](#id-a9ac054922401b7eb9285dc81c4d01960ce147ec) \| [Alpha-Beta-Pruning](#id-c8c274bfbd36e9fdbf8c47df5f99c064b06d9ff3) | [Blatt: Games](#id-999c549c4e5cc5a8e810d1e55e7b21a1e3c85906) |
 | 02.11. | ZP | **Zwischenprüfung** | \- |
@@ -3950,341 +3950,6 @@ Ein Random Forest hält den (relativ) niedrigen Bias tiefer Bäume, reduziert ab
 >
 > </details>
 
-<a id="id-3de4780f1d4689bbb4576d4300753af31a872e21"></a>
-
-### Genetische Algorithmen
-
-Lokale Suche mit Methoden, die der biologischen Evolution abgeschaut bzw. nachempfunden sind.
-
-<a id="id-aa3481a03ed2e17666ced54325637e0551022587"></a>
-
-#### EA1: Einführung Evolutionäre Algorithmen
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> Lokale Suchverfahren: Nur das Ergebnis zählt!
->
-> Evolutionäre Algorithmen sind lokale Suchverfahren, wobei gleichzeitig an mehreren Stellen im Problemraum gesucht wird. Sie bedienen sich Mechanismen aus der Evolution: Es gibt eine Population von Individuen, die jedes das Problem kodieren ("vollständige Zustandsbeschreibung") und damit im Laufe der Suche zu einer möglichen Lösung werden können.
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> Vorlesung \[[YT](https://youtu.be/NuU8vgkkq3w)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-ea1-einfhrung-evolutionre-algorithmen/db53883da4791076b61f5ab89ca0d74f/251)\]
->
-> </details>
-
-##### Evolution sehr erfolgreich bei Anpassung
-
-<p align="center"><img src="https://images.unsplash.com/flagged/photo-1552863473-6e5ffe5e052f" width="60%" /></p>
-
-Quelle: [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
-
-<div data-align="center">
-
-**Wie funktioniert's?**
-
-</div>
-
-##### EA -- Zutaten und Mechanismen
-
--   Zutaten:
-    -   **Individuen**: Kodierung möglicher Lösungen
-    -   **Population** von Individuen
-    -   **Fitnessfunktion**: Bewertung der Angepasstheit
-
-<!-- -->
-
--   Mechanismen ("Operatoren"):
-    -   Selektion
-    -   Rekombination (Crossover)
-    -   Mutation
-
-##### EA -- Allgemeiner Ablauf
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz.png" width="60%" /></picture></p>
-
-##### EA -- Beispiel
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example.png" width="25%" /></picture></p>
-
-Jedes Individuum kodiert ein Spielfeld mit einer konkreten Anordnung **aller** Königinnen $\to$ **Vollständige Zustandsbeschreibung**.
-
-Dabei korrespondiert der Index in das Array des Individuums mit der jeweiligen Spalte des Spielfelds. Die Zahl an einer Arrayposition gibt dann an, in welcher Zeile in dieser Spalte eine Königin ist.
-
-Crossover: Die ausgewählten Individuen werden an der selben Stelle aufgetrennt und die Hälften verkreuzt zu zwei neuen Individuen zusammengesetzt. Es entstehen zwei neue Anordnungen der Königinnen (zwei neue Spielfelder).
-
-##### EA -- Strömungen
-
-1.  **Genetische Algorithmen** (GA)
-    -   Holland ([1975](#ref-holland1975)) (Holland ([1992](#ref-holland1992))) und Goldberg ([1986](#ref-goldberg1986))
-    -   Binäre Lösungsrepräsentation (Bitstring): $\mathbf{g} = (g_1, \dots, g_m)\in \{ 0,1\}^m$
-    -   Fitnessbasierte stochastische Selektion
-    -   $\mu$ Eltern erzeugen $\mu$ Kinder
-
-<!-- -->
-
-2.  **Evolutionsstrategien** (ES)
-    -   Rechenberg ([1978](#ref-rechenberg1978)) und Schwefel ([1975](#ref-schwefel1975)) (Schwefel ([1995](#ref-Schwefel1995)))
-    -   Kodierung reellwertiger Parameter: $\mathbf{g} = (\mathbf{x}, \mathbf{\sigma})$ mit $\mathbf{x} = (x_1, \dots, x_n) \in \mathbb{R}^n$
-    -   $\mu$ Eltern erzeugen $\lambda$ Kinder mit $\mu \le \lambda$
-
-<!-- -->
-
-3.  **Evolutionäre Programmierung** (EP)
-
-*Hinweis*: Häufig finden sich Mischformen, beispielsweise GA mit reellwertigen Parametern
-
-*Hinweis*: Im Folgenden werden **Genetische Algorithmen** (GA) betrachtet. Sie finden jeweils Hinweise auf die Gestaltung der Operatoren bei ES.
-
-##### Anwendungsbeispiele für Evolutionäre Algorithmen
-
--   Berechnung und Konstruktion komplexer Bauteile: beispielsweise Tragflächenprofile (Flugzeuge), Brücken oder Fahrzeugteile unter Berücksichtigung bestimmter Nebenbedingungen
--   Scheduling-Probleme: Erstellung von Stunden- und Raumplänen oder Fahrplänen
--   Berechnung verteilter Netzwerktopologien: Wasserversorgung, Stromversorgung, Mobilfunk
--   Layout elektronischer Schaltkreise
-
-##### Wrap-Up
-
-Lokale Suchverfahren: Nur das Ergebnis zählt!
-
--   Evolutionäre Algorithmen: Unterschied GA und ES (grober Überblick)
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>📖 Zum Nachlesen</strong></summary>
->
-> -   Russell und Norvig ([2021](#ref-Russell2021)): GA: Abschnitt 4.1.4
-> -   Weicker ([2015](#ref-Weicker2015))
->
-> </details>
-
-> [!NOTE]
->
-> <details >
-> <summary><strong>✅ Lernziele</strong></summary>
->
-> -   k2: Ich kann die Problematik der lokalen Minima bei Gradientenverfahren erklären
-> -   k2: Ich kann einen Überblick über die verschiedenen Strömungen bei EA/GA darstellen
-> -   k2: Ich kann den prinzipiellen Ablauf von Genetischen Algorithmen an einem Beispiel erklären
->
-> </details>
-
-<a id="id-c99ae5cae334ccb182fc61d94707f8e7cdf363c9"></a>
-
-#### EA2: Modellierung mit Genetischen Algorithmen
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> Lokale Suchverfahren: Nur das Ergebnis zählt!
->
-> Evolutionäre Algorithmen sind lokale Suchverfahren, wobei gleichzeitig an mehreren Stellen im Problemraum gesucht wird. Sie bedienen sich Mechanismen aus der Evolution: Es gibt eine Population von Individuen, die jedes das Problem kodieren ("vollständige Zustandsbeschreibung") und damit im Laufe der Suche zu einer möglichen Lösung werden können.
->
-> Die Individuen werden mit Hilfe einer Fitnessfunktion bewertet, wie gut sie bereits an das Problem angepasst sind (bzw. wie sehr sie bereits der gesuchten Lösung entsprechen). Über eine fitnessproportionale Selektion werden Individuen ausgewählt, aus denen mittels Rekombination (auch "Crossover" genannt) neue Individuen mit Eigenschaften der Eltern erzeugt werden. Über eine Mutation werden dann noch Elemente der neuen Individuen leicht verändert, bevor diese zur neuen Population werden ...
->
-> Durch das Anwenden von Rekombination und Mutation springt man im Problemraum umher. Auch wenn als Basis die fitteren (angepassteren) Individuen dienen, kann es wie bei allen lokalen Suchverfahren vorkommen, dass sich der Algorithmus in lokalen Minima (bzw. lokalen Maxima, je nach Richtung der Optimierung) festfrisst.
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> Vorlesung \[[YT](https://youtu.be/y5RmTiUg7f0)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-ea2-modellierung-mit-genetischen-algorithmen/8a046e3058e2297b9aba37948b8d7c21/251)\]
->
-> </details>
-
-##### EA -- Allgemeiner Ablauf
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz.png" width="60%" /></picture></p>
-
-##### Kodierung Individuen
-
--   Binäre Lösungsrepräsentation (Bitstring): $\mathbf{g} = (g_1, \dots, g_m)\in \{ 0,1\}^m$
-    -   String gliedert sich in $n$ Elemente (mit $n \le m$) $\to$ jedes Segment entspricht einer Problemvariablen
-    -   Dekodierungsfunktion $\Gamma : \{0,1\}^m \to \mathbb{R}^n$
-
-    Alle relevanten Aspekte des Problems müssen in die Codierung einfließen!
-
-    Bei ES hat man einen Vektor mit reellen Zahlen, wobei jeder Eintrag einen Parameter des Problems darstellt. Eine Dekodierungsfunktion benötigt man entsprechend nicht.
-
-    Bei der Erzeugung der Startpopulation werden die Individuen **zufällig** (mit zufälligen Werten) initialisiert.
-
-<!-- -->
-
--   Fitnessfunktion $\Phi$ ordnet jedem Individuum $\mathbf{g}_i$ eine reelle Zahl zu: $$\Phi(\mathbf{g}_i) = F(\Gamma(\mathbf{g}_i)) - w\cdot\sum_j(Z_j(\Gamma(\mathbf{g}_i)))^2$$
-    -   Zielfunktion $F$: wie sehr genügt ein Individuum bereits dem Optimierungproblem
-    -   Strafterme $Z_j$: Anreicherung der Optimierung mit weiteren Informationen
-    -   Gewichte $w$: statisch oder dynamisch (Abkühlen)
-
-    Die Wahl einer guten Fitnessfunktion ist oft eine Herausforderung, aber dennoch wichtig, da damit die Suche gesteuert wird!
-
-##### Selektion: Erstelle Matingpool mit $\mu$ Individuen
-
--   Fitnessproportionale Selektion (*Roulette Wheel Selection*): Auswahlwahrscheinlichkeit für Individuum $\mathbf{g}_k$: $$p_{sel}(\mathbf{g}_k) = \frac{\Phi(\mathbf{g}_k)}{\sum_j \Phi(\mathbf{g}_j)}$$ $\to$ Voraussetzung: positive Fitnesswerte
-
-<!-- -->
-
--   Turnier-Selektion (*Tournament Selection*):
-    -   Turniergröße $\xi$
-    -   Turnier: ziehe $\xi$ Individuen gleichverteilt (mit Zurücklegen!) und kopiere fittestes Individuum in den Matingpool
-    -   Führe $\mu$ Turniere durch
-
-*Hinweis*: Es gibt noch viele weitere Selektionsmechanismen. Die vorgestellten sind in der Praxis am gebräuchlichsten.
-
-Über die Selektion wird der sogenannte "Selektionsdruck" aufgebaut: Wie gut muss ein Individuum sein (im Vergleich zu den restlichen Individuen in der Population), damit es eine Chance zur Reproduktion erhält? Dürfen sich nur die "Guten" fortpflanzen, oder erhalten auch die "Schlechten" eine gewisse Chance?
-
-Da jedes Individuum einen Punkt im Suchraum darstellt, beeinflusst die Wahl der Selektion die Geschwindigkeit der Suche, begünstigt u.U. aber auch ein eventuelles Festfahren in lokalen Minima. Dies kann beispielsweise geschehen, wenn immer nur die "Guten" selektiert werden, aber die "Guten" der Population sich in der Nähe eines lokalen Minimums befinden. Dann werden auch die Nachfolger sich wieder dort aufhalten.
-
-##### Crossover: Erzeuge zwei Nachkommen aus zwei Eltern
-
-Festlegung der Crossover-Wahrscheinlichkeit $p_{cross}$ (typisch: $p_{cross} \ge 0.6$)
-
-1.  Selektiere Eltern $\mathbf{g}_a$ und $\mathbf{g}_b$ **gleichverteilt** aus Matingpool
-
-<!-- -->
-
-2.  Zufallsexperiment:
-    -   mit $1-p_{cross}$: Kinder identisch zu Eltern (kein Crossover)
-    -   mit $p_{cross}$: Crossover mit $\mathbf{g}_a$ und $\mathbf{g}_b$
-        -   Ziehe $i$ gleichverteilt mit $1 < i < m$
-        -   Kinder aus $\mathbf{g}_a$ und $\mathbf{g}_b$ zusammenbauen: $$\mathbf{g}_c = (g_{a,1}, \dots, g_{a,i}, \; g_{b,{i+1}}, \dots, g_{b,m})$$ und $$\mathbf{g}_d = (g_{b,1}, \dots, g_{b,i}, \; g_{a,{i+1}}, \dots, g_{a,m})$$
-
-        $\to$ Trenne Eltern an gleicher Stelle auf, vertausche Bestandteile
-
-<!-- -->
-
-3.  Gehe zu Schritt 1, bis insg. $\mu$ Nachkommen
-
-*Anmerkung*: Die Eltern werden jeweils in die Ausgangsmenge zurückgelegt.
-
-Mit einer kleinen Wahrscheinlichkeit sind die Kinder also identisch zu den Eltern. Dies ist im Sinne der lokalen Suche wichtig, um bereits erreichte gute Positionen im Suchraum nicht zu verlieren: Es könnte sein, dass die Nachfolger alle schlechter sind ...
-
-Varianten: $N$-Punkt-Crossover, Shuffle-Crossover
-
-Bei ES wird parameterweise gekreuzt. Dabei gibt es verschiedene Möglichkeiten: Übernahme eines Parameters von einem Elternteil, Verrechnen (beispielsweise Mitteln) der Werte beider Eltern, ... Bei ES heißt "Crossover" deshalb oft "Rekombination".
-
-##### Mutation
-
--   Mutationswahrscheinlichkeit $p_{mut}$ (typische Werte: $p_{mut} = 0.01$ oder $p_{mut} = 0.001$)
-
-<!-- -->
-
--   Für alle Individuen:
-    -   Mutiere jedes Gen eines Individuums mit $p_{mut}$:
-
-        $$g_i^{(t+1)} = \left\{
-        \begin{array}{rll}
-            \neg & g_i^{(t)} & \text{ falls } \chi_i \le p_{mut}\\[5pt]
-            & g_i^{(t)} & \text{ sonst }
-        \end{array}
-        \right.$$
-
-        $\to$$\chi_i$ gleichverteilte Zufallsvariable (Intervall $[0,1]$), für jedes Bit $g_i$ neu bestimmen
-
-*Anmerkung*: Die optimale Mutationsrate $p_{mut}^*$ ist von Länge $m$ des Bitstrings abhängig; annäherbar durch $p_{mut}^* \approx 1/m$.
-
-Die beim Crossover erstellten Nachfolger liegen im Suchraum in der Nähe der Eltern. Durch die Mutationsrate bestimmt man, ob und wie weit sich ein Kind entfernen kann. Dies entspricht dem Bild des "Schüttelns" der Zustandslandschaft.
-
-Bei ES unterscheidet man Mutationswahrscheinlichkeit und Mutationsrate. Es wird parameterweise mutiert.
-
-##### Bewertungskriterien
-
-Vorsicht: Es handelt sich um Zufallsexperimente. Wenn man nicht nur direkt nach einer Lösung sucht, sondern beispielsweise Parametereinstellungen oder die Wahl der Fitnessfunktion für ein Problem vergleichen will, muss man jeweils mehrere Experimente mit der selben Einstellung machen und Kenngrößen berechnen.
-
-**Geschwindigkeit: AES** *Average Evaluations to a Solution* $$\text{AES } = \frac{\sum\limits_{i \in \text{erfolgreiche Läufe}} \text{Generationen von Lauf } i}{\text{Anzahl der erfolgreichen Läufe}}$$
-
-Die AES liegt im Intervall $[0, maxGen]$.
-
-**Lösungswahrscheinlichkeit: SR** *Success Rate* $$\text{SR } = \frac{\text{Anzahl der erfolgreichen Läufe}}{\text{Anzahl aller Läufe}}$$
-
-Die SR liegt im Intervall $[0, 1]$.
-
-##### Typische Läufe
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_fail_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_fail.png" width="60%" /></picture></p>
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_success_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_success.png" width="60%" /></picture></p>
-
--   Populationsgröße $\mu=15$
--   Anzahl Nachfahren $\lambda=100$
--   Abbruch nach $maxGen=200$ Generationen
-
-Stochastischer Algorithmus! Ausreichend Wiederholungen durchführen und mitteln!
-
-*Hinweis*: Die Parameter müssen problemabhängig gewählt werden. Zu hohe Werte für $\mu$ und $\lambda$ führen dazu, dass man bei kleinen Problemen mit hoher Wahrscheinlichkeit bereits am Anfang eine Lösung "würfelt", also gar kein GA nutzt. Wenn dies allerdings nicht passiert, sorgt eine hohe Populationsgröße dafür, dass jeder Schritt sehr lange dauert. Die Abbruchgrenze ist ebenfalls mit Augenmaß zu wählen: Ein zu kleiner Wert sorgt für zu frühen Abbruch (keine Lösung!), ein zu hoher Wert sorgt beim Festfressen des Algorithmus für eine unnötige weitere "Suche" ...
-
-##### Wrap-Up
-
-Lokale Suchverfahren: Nur das Ergebnis zählt!
-
--   Evolutionäre Algorithmen:
-    -   Begriffe: Individuum, Population, Kodierung
-    -   Operationen: Selektion, Rekombination, Mutation
-    -   Bewertung mit Fitnessfunktion
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>📖 Zum Nachlesen</strong></summary>
->
-> -   Russell und Norvig ([2021](#ref-Russell2021)): GA: Abschnitt 4.1.4
-> -   Weicker ([2015](#ref-Weicker2015))
->
-> </details>
-
-> [!NOTE]
->
-> <details >
-> <summary><strong>✅ Lernziele</strong></summary>
->
-> -   k3: Ich kann GA anwenden, insbesondere für ein Beispiel passende Kodierung, Fitnessfunktion, Operatoren und Auswertung formulieren und den Ablauf erklären
->
-> </details>
-
-> [!TIP]
->
-> <details >
-> <summary><strong>🧩 Quizzes</strong></summary>
->
-> -   [Selbsttest EA/GA (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106580&client_id=FH-Bielefeld)
->
-> </details>
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🏅 Challenges</strong></summary>
->
-> **Sudoku**
->
-> Ein $9 \times 9$-*Sudoku*-Rätsel soll mit einem GA gelöst werden.
->
-> Geben Sie für dieses Problem jeweils eine geeignete **Kodierung** der Individuen, passende Operatoren (**Crossover**, **Mutation**) und eine geeignete **Fitnessfunktion** an, damit das Problem mit einem GA gelöst werden kann. Begründen Sie Ihre Wahl!
->
-> Was würden Sie noch benötigen, um das Probleme mit Simulated Annealing lösen zu können?
->
-> **Travelling Salesman Problem**
->
-> Das *Travelling Salesman Problem* für 10 Städte, d.h. das Finden der kürzesten Route zwischen 10 Städten, soll mit einem GA gelöst werden.
->
-> Geben Sie für dieses Problem jeweils eine geeignete **Kodierung** der Individuen, passende Operatoren (**Crossover**, **Mutation**) und eine geeignete **Fitnessfunktion** an, damit das Problem mit einem GA gelöst werden kann. Begründen Sie Ihre Wahl!
->
-> Was würden Sie noch benötigen, um das Probleme mit Simulated Annealing lösen zu können?
->
-> </details>
-
 <a id="id-dcc57af0ea49405f4c9a9322e52060bd1129c5ca"></a>
 
 ### Suche
@@ -4294,6 +3959,367 @@ Problemlösen durch Suche im Problemgraphen. Aus den Basisalgorithmen Tree-Searc
 -   Uninformierte Suche: ... jeder Schritt "kostet" gleich viel: nur die Anzahl der Schritte zählt ...
 -   Informierte Suche: ... Einsatz einer Kostenfunktion ...
 -   Lokale Suche: ... das Ziel ist im Weg ...
+
+<a id="id-3e0f73b743e74f106aacc68840406273348f8341"></a>
+
+#### Search6: Lokale Suche - Gradientensuche
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🎯 TL;DR</strong></summary>
+>
+> Lokale Suchverfahren: Nur das Ergebnis zählt! Nicht der Weg ist das Ziel, sondern nur das Erreichen des Ziels.
+>
+> In Analogie zum Bergsteigen: Gehe in Richtung des stärksten Anstiegs kann man die Suche so formulieren, dass man in jedem Suchschritt den Nachfolgeknoten nach dem stärksten Anstieg der Kostenfunktion auswählen. Dieses Verfahren nennt sich auch **Hill-Climbing** (bzw. Gradientensuche).
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> Vorlesung \[[YT](https://youtu.be/Im7DEJysm5g)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search6-lokale-suche-gradientensuche/581592a4f22597d6979ddd3815c6c615/251)\]
+>
+> </details>
+
+##### Unterschiede in den Suchproblemen?
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></picture></p>
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/screenshot_stundenplan_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/screenshot_stundenplan.png" width="60%" /></picture></p>
+
+Bisher betrachtete Suchverfahren:
+
+-   Systematische Erkundung des Suchraums
+-   **Weg** zur Lösung wichtig
+
+$\to$ Oft aber nur das **Ziel an sich** interessant! (Und nicht, wie man dort hin gelangt.)
+
+Beispiel: Stundenplan
+
+##### Analogie: Bergsteigen ohne Karte und Pfade
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing.png" width="50%" /></picture></p>
+
+**Gradienten-Suche**: "Gehe in Richtung des steilsten Anstiegs der Zielfunktion."
+
+$\to$ Schrittweise Verbesserung des aktuellen Zustands (Lokale Suche)
+
+-   Verschiedene Namen: "Hill-climbing", "Greedy local search"
+-   Kann auch als Minimierung angewendet werden
+
+##### Pseudoalgorithmus Gradientensuche
+
+<div data-align="center">
+
+"*Wie Bergsteigen am Mount Everest in dickem Nebel mit Gedächtnisverlust*"
+
+</div>
+
+1.  Setze `currNode` auf den Startknoten
+2.  `currNode` ist gesuchtes Element: Abbruch, melde "*gefunden*"
+    -   Expandiere alle Nachfolger von `currNode`
+    -   Setze `nextNode` auf Nachfolger mit höchster Bewertung
+    -   Falls Bewertung von `nextNode` $\leq$ Bewertung von `currNode`: Abbruch, melde "*nicht gefunden*"
+    -   Setze `currNode` auf `nextNode`
+3.  Gehe zu Schritt 2
+
+<div data-align="center">
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel.png" width="60%" /></picture></p>
+
+</div>
+
+##### Beispiel Gradientensuche: $n$-Damen
+
+-   **Ziel**: Setze $n$ Damen auf ein $n \times n$-Spielfeld ohne Konflikte
+-   **Start**: Setze $n$ Damen auf ein $n \times n$-Spielfeld (mit Konflikten)
+-   **Suche**: Bewege jeweils eine Dame so, daß die Anzahl der Konflikte reduziert wird
+
+Schauen Sie sich auch Abb. 4.3 auf Seite 130 im Russell und Norvig ([2021](#ref-Russell2021)) an!
+
+**Hinweis**: Alle Damen stehen von Anfang an auf dem Brett und werden nur verschoben $\to$ "vollständige Zustandsformulierung"
+
+###### Eigenschaften 8-Damen-Problem ($n=8$)
+
+-   Zustandsraum: $8^8 \approx 17$ Millionen Zustände!
+-   Beginnend mit zufällig erzeugtem Startzustand:
+    -   bleibt in 86% der Fälle stecken, d.h.
+    -   findet Lösung nur in 14% der Fälle.
+-   Beobachtung: Lösung nach durchschnittlich 4 Schritten, oder Verfahren bleibt nach durchschnittlich 3 Schritten stecken.
+
+Quelle: nach ([Russell und Norvig 2021](#ref-Russell2021), p. 131)
+
+##### Eigenschaften Gradientensuche
+
+-   Vollständigkeit: nein
+-   Optimalität: nein
+-   Komplexität: linear in der Anzahl der zu expandierenden Knoten
+
+**Zielfunktion (Bewertung) nötig!**
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing.png" width="60%" /></picture></p>
+
+**Problem**: lokale Maxima und Plateaus
+
+-   Lokale Maxima/Minima: Algorithmus findet nur eine suboptimale Lösung
+-   Plateaus: Hier muss der Algorithmus mit zufälligen Zügen explorieren
+
+##### Wrap-Up
+
+Lokale Suchverfahren: Nur das Ergebnis zählt!
+
+-   Gradientenverfahren: Gehe in Richtung des stärksten Anstiegs der Kostenfunktion
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>📖 Zum Nachlesen</strong></summary>
+>
+> -   Russell und Norvig ([2021](#ref-Russell2021)): Gradientenabstieg: Abschnitt 4.1.1
+>
+> </details>
+
+> [!NOTE]
+>
+> <details >
+> <summary><strong>✅ Lernziele</strong></summary>
+>
+> -   k2: Ich kann die Problematik der lokalen Minima bei Gradientenverfahren erklären
+> -   k3: Ich kann die lokale Suche (Gradientenabstieg) auf ein konkretes Problem anwenden
+>
+> </details>
+
+> [!TIP]
+>
+> <details >
+> <summary><strong>🧩 Quizzes</strong></summary>
+>
+> -   [Selbsttest Gradientensuche (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106601&client_id=FH-Bielefeld)
+>
+> </details>
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🏅 Challenges</strong></summary>
+>
+> Betrachten Sie folgende Landkarte und Restwegschätzungen:
+>
+> <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/MapGermanyGraph.svg/476px-MapGermanyGraph.svg.png"  /></p>
+>
+> Quelle: [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg){width="40%"} by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+>
+> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenge_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenge.png"  /></picture></p>
+>
+> Finden Sie mit der **Gradienten-Suche** jeweils einen Weg von Würzburg nach München. Vergleichen Sie das Ergebnis mit der Best-First-Suche.
+>
+> </details>
+
+<a id="id-bafda494229223827755dbbffb5862eeb7e31262"></a>
+
+#### Search7: Lokale Suche - Simulated Annealing
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🎯 TL;DR</strong></summary>
+>
+> Lokale Suchverfahren: Nur das Ergebnis zählt! Nicht der Weg ist das Ziel, sondern nur das Erreichen des Ziels.
+>
+> Das Problem bei der Gradientensuche ist, dass man eine Kostenfunktion benötigt und diese auch **lokale Minima** enthalten kann. Mit der reinen Gradientensuche würde man bei Erreichen lokaler Minima die Suche abbrechen (müssen), da es keine weitere Verbesserung unter den Nachfolgern mehr geben kann. In Anlehnung an das Abkühlen von Metall kann hier eine Variante der lokalen Suche helfen: **Simulated Annealing**. Man führt einen "Temperatur"-Parameter ein, der im Laufe der Suche immer kleiner wird und schließlich gegen Null geht. In Abhängigkeit von dieser "Temperatur" wird mit einer bestimmten Wahrscheinlichkeit eine Verschlechterung akzeptiert: Bei einer hohen Temperatur ist diese Wahrscheinlichkeit höher, bei einer niedrigen Temperatur niedriger, so dass das Verfahren in ein normales Hill-Climbing übergeht. Damit kann man ein Festfressen in lokalen Minima vermeiden bzw. überwinden.
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> Vorlesung \[[YT](https://youtu.be/2htZFxUe3AQ)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search7-lokale-suche-simulated-annealing/27673a757a7c49f9b385d7913d8e46c2/251)\]
+>
+> </details>
+
+##### Motivation
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing.png" width="60%" /></picture></p>
+
+**Problem**: lokale Maxima und Plateaus
+
+-   Lokale Maxima/Minima: Algorithmus findet nur eine suboptimale Lösung
+-   Plateaus: Hier muss der Algorithmus mit zufälligen Zügen explorieren
+
+Mögliche Lösungen:
+
+-   Neustart des Algorithmus, wenn kein Fortschritt erzielt wird
+-   Rauschen "injizieren"
+
+##### Gedankenexperiment: Ausweg aus lokalen Minima
+
+-   "Drehen der Landschaft": Minimieren statt Maximieren
+-   Ball wird in Zustandsraum-Landschaft gesetzt.
+-   Folge:
+    -   rollt steilsten Abstieg hinunter
+    -   rollt evtl. in Tal auf halber Höhe (lokales Minimum) $\to$ bleibt dort gefangen
+
+$\to$ "**Schütteln** der Landschaft" -- Ball springt aus dem Tal und rollt in anderes Tal
+
+Nicht zu stark schütteln -- sonst wird u.U. globales Minimum verlassen!
+
+##### Analogie Härten von Metall
+
+-   Metall erhitzen bis Atome frei beweglich
+-   Langsam abkühlen
+
+$\to$ stabiles Atomgitter mit minimalem Energiezustand
+
+##### Übertragen der Idee
+
+-   Starkes "Schütteln" (hohe "Temperatur") am Anfang
+-   Schrittweises "Abkühlen" $\to$ "Schütteln" im Laufe der Zeit verringern
+
+$\to$ **Simulated Annealing**
+
+##### Pseudocode Simulated Annealing (Minimierungsproblem)
+
+``` python
+def simulated_annealing(problem):
+    current = problem.startNode
+    t = 0;  temp = schedule(t)
+
+    while temp>0:
+        temp = schedule(++t)
+        neighbors = current.expandSuccessors()
+        if not neighbors: return current
+        working = random.choice(neighbors)
+        dE = problem.value(current) - problem.value(working)
+        if dE > 0 or probability(math.exp(dE/temp)):
+            current = working
+
+    return current
+```
+
+Wenn `dE` positiv ist, dann ist der Nachfolger "besser" (hier: kleiner bewertet) als der aktuelle Knoten und wird immer als nächster Knoten übernommen.
+
+Wenn `dE` negativ ist, dann ist der betrachtete Nachfolger "schlechter" (hier: größer bewertet) als der aktuelle Knoten. Dann wird er mit einer Wahrscheinlichkeit `math.exp(dE/temp)` als nächster Knoten übernommen. Diese Wahrscheinlichkeit ist bei hohen Temperaturen `temp` eher hoch, und sinkt, je niedriger die Temperatur `temp` wird.
+
+Die Temperatur `temp` bewegt sich dabei von hohen positiven Werten auf den Wert Null (wird also nicht negativ).
+
+##### Detail: Akzeptieren von Verschlechterungen
+
+<div data-align="center">
+
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Exp_e.svg/524px-Exp_e.svg.png" width="60%" /></p>
+
+Quelle: ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
+
+</div>
+
+-   Wahrscheinlichkeit zum Akzeptieren einer Verschlechterung: `math.exp(dE/temp)`
+
+-   Wenn $dE$ negativ ist, wird `math.exp(dE/temp)` ausgewertet
+
+-   Wenn $dE$ negativ, dann gilt (Umformung):
+
+    $$\exp\left(\text{dE}/\text{temp}\right) = \exp\left(-\frac{|\text{dE}|}{\text{temp}}\right) = \frac{1}{\exp\left(\frac{|\text{dE}|}{\text{temp}}\right)}$$
+
+-   Betrachtung von $\exp(a)$ bzw. $e^a$:
+
+    -   $a<0$: geht gegen 0
+    -   $a=0$: 1
+    -   $a>0$: steil (exponentiell) gegen Unendlich ...
+
+-   Damit ergibt sich für $dE$ (nur negativer Fall!) und $\text{temp}$:
+
+    -   Temperatur $\text{temp}$ hoch: $a = \frac{|\text{dE}|}{\text{temp}}$ ist positiv und klein (nahe Null), d.h. $\exp(a)$ nahe 1 (oder größer), d.h. die Wahrscheinlichkeit $1/\exp(a)$ ist nahe 1 (oder kleiner)
+    -   Temperatur $\text{temp}$ wird kleiner und geht gegen Null: $a = \frac{|\text{dE}|}{\text{temp}}$ ist positiv und wird größer, d.h. $\exp(a)$ geht schnell gegen Unendlich, d.h. die Wahrscheinlichkeit $1/\exp(a)$ geht gegen 0
+
+##### Abkühlungsplan problemabhängig wählen
+
+-   Initiale Temperatur: So hoch, daß praktisch jede Änderung akzeptiert wird
+
+<!-- -->
+
+-   Abkühlen: $T_k = \alpha T_{k-1}$ mit $0.8 \le \alpha \le 0.99$
+    -   Ausreichend langsam abkühlen!
+    -   Typisch: jede Stufe so lange halten, daß etwa 10 Änderungen akzeptiert wurden
+
+<!-- -->
+
+-   Stop: Keine Verbesserungen in 3 aufeinander folgenden Temperaturen
+
+Der Abkühlungsplan muss problemabhängig gewählt werden. Das Beispiel zeigt typische Elementes eines solchen Abkühlungsplans.
+
+##### Eigenschaften Simulated Annealing
+
+-   Vollständigkeit: ja (mit gewisser Wahrscheinlichkeit)
+-   Optimalität: ja (mit gewisser Wahrscheinlichkeit)
+
+Voraussetzung: geeigneter Abkühlungsplan
+
+##### Anwendungen von Simulated Annealing
+
+-   Flugplan-Scheduling
+-   Layout-Probleme (Chipentwurf, Leiterplatten)
+-   Produktionsplanung
+
+##### Wrap-Up
+
+Lokale Suchverfahren: Nur das Ergebnis zählt!
+
+-   Gradientenverfahren
+    -   Analogie Bergsteigen: Gehe in Richtung des stärksten Anstiegs der Kostenfunktion $\to$ **Hill-Climbing**
+    -   Achtung: Probleme mit lokalen Minima $\to$ **Simulated Annealing**
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>📖 Zum Nachlesen</strong></summary>
+>
+> -   Russell und Norvig ([2021](#ref-Russell2021)): Simulated Annealing: Abschnitt 4.1.2
+>
+> </details>
+
+> [!NOTE]
+>
+> <details >
+> <summary><strong>✅ Lernziele</strong></summary>
+>
+> -   k3: Ich kann die Funktionsweise von Simulated Annealing erklären und den Algorithmus auf ein konkretes Problem anwenden
+>
+> </details>
+
+> [!TIP]
+>
+> <details >
+> <summary><strong>🧩 Quizzes</strong></summary>
+>
+> -   [Selbsttest Simulated Annealing (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106602&client_id=FH-Bielefeld)
+>
+> </details>
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🏅 Challenges</strong></summary>
+>
+> **Team-Planung**
+>
+> Sie haben 12 Personen mit Rollen/Skills und paarweisen Synergiewerten (positiv = gut, negativ = Konflikt). Es gibt die Rollen/Skills "Frontend" (FE), "Backend" (BE), "Fullstack" (FS) sowie "User Experience" (UX). Für die Synergie-Werte überlegen Sie sich einige passende Beispiele, etwa "Person A und B kommen gut miteinander aus" o.ä.
+>
+> Bilden Sie 3 Teams zu je 4 Personen, so dass
+>
+> -   die Summe der Synergien innerhalb der Teams maximiert wird,
+> -   pro Team mindestens je 1x FE, 1x BE, 1x FS vorhanden ist (harte oder weiche Nebenbedingung),
+> -   optional: UX in einem Team bringt Bonus.
+>
+> Es gibt exakt 12 Personen, darunter jeweils 3 FE, 3 BE, 3 FS, 3 UX.
+>
+> Modellieren Sie dieses Problem geeignet, damit Sie es mit Simulated Annealing lösen können.
+>
+> </details>
 
 <a id="id-3263461a899091090f8d87ea7f7f3f25bf8255eb"></a>
 
@@ -5088,18 +5114,24 @@ $\to$ Eine konsistente Heuristik ist gleichzeitig zulässig.
 >
 > </details>
 
-<a id="id-3e0f73b743e74f106aacc68840406273348f8341"></a>
+<a id="id-3de4780f1d4689bbb4576d4300753af31a872e21"></a>
 
-#### Search6: Lokale Suche - Gradientensuche
+### Genetische Algorithmen
+
+Lokale Suche mit Methoden, die der biologischen Evolution abgeschaut bzw. nachempfunden sind.
+
+<a id="id-aa3481a03ed2e17666ced54325637e0551022587"></a>
+
+#### EA1: Einführung Evolutionäre Algorithmen
 
 > [!IMPORTANT]
 >
 > <details open>
 > <summary><strong>🎯 TL;DR</strong></summary>
 >
-> Lokale Suchverfahren: Nur das Ergebnis zählt! Nicht der Weg ist das Ziel, sondern nur das Erreichen des Ziels.
+> Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
-> In Analogie zum Bergsteigen: Gehe in Richtung des stärksten Anstiegs kann man die Suche so formulieren, dass man in jedem Suchschritt den Nachfolgeknoten nach dem stärksten Anstieg der Kostenfunktion auswählen. Dieses Verfahren nennt sich auch **Hill-Climbing** (bzw. Gradientensuche).
+> Evolutionäre Algorithmen sind lokale Suchverfahren, wobei gleichzeitig an mehreren Stellen im Problemraum gesucht wird. Sie bedienen sich Mechanismen aus der Evolution: Es gibt eine Population von Individuen, die jedes das Problem kodieren ("vollständige Zustandsbeschreibung") und damit im Laufe der Suche zu einer möglichen Lösung werden können.
 >
 > </details>
 
@@ -5108,105 +5140,93 @@ $\to$ Eine konsistente Heuristik ist gleichzeitig zulässig.
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> Vorlesung \[[YT](https://youtu.be/Im7DEJysm5g)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search6-lokale-suche-gradientensuche/581592a4f22597d6979ddd3815c6c615/251)\]
+> Vorlesung \[[YT](https://youtu.be/NuU8vgkkq3w)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-ea1-einfhrung-evolutionre-algorithmen/db53883da4791076b61f5ab89ca0d74f/251)\]
 >
 > </details>
 
-##### Unterschiede in den Suchproblemen?
+##### Evolution sehr erfolgreich bei Anpassung
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/graph.png" width="60%" /></picture></p>
+<p align="center"><img src="https://images.unsplash.com/flagged/photo-1552863473-6e5ffe5e052f" width="60%" /></p>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/screenshot_stundenplan_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/screenshot_stundenplan.png" width="60%" /></picture></p>
-
-Bisher betrachtete Suchverfahren:
-
--   Systematische Erkundung des Suchraums
--   **Weg** zur Lösung wichtig
-
-$\to$ Oft aber nur das **Ziel an sich** interessant! (Und nicht, wie man dort hin gelangt.)
-
-Beispiel: Stundenplan
-
-##### Analogie: Bergsteigen ohne Karte und Pfade
-
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing.png" width="50%" /></picture></p>
-
-**Gradienten-Suche**: "Gehe in Richtung des steilsten Anstiegs der Zielfunktion."
-
-$\to$ Schrittweise Verbesserung des aktuellen Zustands (Lokale Suche)
-
--   Verschiedene Namen: "Hill-climbing", "Greedy local search"
--   Kann auch als Minimierung angewendet werden
-
-##### Pseudoalgorithmus Gradientensuche
+Quelle: [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
 
 <div data-align="center">
 
-"*Wie Bergsteigen am Mount Everest in dickem Nebel mit Gedächtnisverlust*"
+**Wie funktioniert's?**
 
 </div>
 
-1.  Setze `currNode` auf den Startknoten
-2.  `currNode` ist gesuchtes Element: Abbruch, melde "*gefunden*"
-    -   Expandiere alle Nachfolger von `currNode`
-    -   Setze `nextNode` auf Nachfolger mit höchster Bewertung
-    -   Falls Bewertung von `nextNode` $\leq$ Bewertung von `currNode`: Abbruch, melde "*nicht gefunden*"
-    -   Setze `currNode` auf `nextNode`
-3.  Gehe zu Schritt 2
+##### EA -- Zutaten und Mechanismen
 
-<div data-align="center">
+-   Zutaten:
+    -   **Individuen**: Kodierung möglicher Lösungen
+    -   **Population** von Individuen
+    -   **Fitnessfunktion**: Bewertung der Angepasstheit
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/tafelbeispiel.png" width="60%" /></picture></p>
+<!-- -->
 
-</div>
+-   Mechanismen ("Operatoren"):
+    -   Selektion
+    -   Rekombination (Crossover)
+    -   Mutation
 
-##### Beispiel Gradientensuche: $n$-Damen
+##### EA -- Allgemeiner Ablauf
 
--   **Ziel**: Setze $n$ Damen auf ein $n \times n$-Spielfeld ohne Konflikte
--   **Start**: Setze $n$ Damen auf ein $n \times n$-Spielfeld (mit Konflikten)
--   **Suche**: Bewege jeweils eine Dame so, daß die Anzahl der Konflikte reduziert wird
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz.png" width="60%" /></picture></p>
 
-Schauen Sie sich auch Abb. 4.3 auf Seite 130 im Russell und Norvig ([2021](#ref-Russell2021)) an!
+##### EA -- Beispiel
 
-**Hinweis**: Alle Damen stehen von Anfang an auf dem Brett und werden nur verschoben $\to$ "vollständige Zustandsformulierung"
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/4-queens-example.png" width="25%" /></picture></p>
 
-###### Eigenschaften 8-Damen-Problem ($n=8$)
+Jedes Individuum kodiert ein Spielfeld mit einer konkreten Anordnung **aller** Königinnen $\to$ **Vollständige Zustandsbeschreibung**.
 
--   Zustandsraum: $8^8 \approx 17$ Millionen Zustände!
--   Beginnend mit zufällig erzeugtem Startzustand:
-    -   bleibt in 86% der Fälle stecken, d.h.
-    -   findet Lösung nur in 14% der Fälle.
--   Beobachtung: Lösung nach durchschnittlich 4 Schritten, oder Verfahren bleibt nach durchschnittlich 3 Schritten stecken.
+Dabei korrespondiert der Index in das Array des Individuums mit der jeweiligen Spalte des Spielfelds. Die Zahl an einer Arrayposition gibt dann an, in welcher Zeile in dieser Spalte eine Königin ist.
 
-Quelle: nach ([Russell und Norvig 2021](#ref-Russell2021), p. 131)
+Crossover: Die ausgewählten Individuen werden an der selben Stelle aufgetrennt und die Hälften verkreuzt zu zwei neuen Individuen zusammengesetzt. Es entstehen zwei neue Anordnungen der Königinnen (zwei neue Spielfelder).
 
-##### Eigenschaften Gradientensuche
+##### EA -- Strömungen
 
--   Vollständigkeit: nein
--   Optimalität: nein
--   Komplexität: linear in der Anzahl der zu expandierenden Knoten
+1.  **Genetische Algorithmen** (GA)
+    -   Holland ([1975](#ref-holland1975)) (Holland ([1992](#ref-holland1992))) und Goldberg ([1986](#ref-goldberg1986))
+    -   Binäre Lösungsrepräsentation (Bitstring): $\mathbf{g} = (g_1, \dots, g_m)\in \{ 0,1\}^m$
+    -   Fitnessbasierte stochastische Selektion
+    -   $\mu$ Eltern erzeugen $\mu$ Kinder
 
-**Zielfunktion (Bewertung) nötig!**
+<!-- -->
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing.png" width="60%" /></picture></p>
+2.  **Evolutionsstrategien** (ES)
+    -   Rechenberg ([1978](#ref-rechenberg1978)) und Schwefel ([1975](#ref-schwefel1975)) (Schwefel ([1995](#ref-Schwefel1995)))
+    -   Kodierung reellwertiger Parameter: $\mathbf{g} = (\mathbf{x}, \mathbf{\sigma})$ mit $\mathbf{x} = (x_1, \dots, x_n) \in \mathbb{R}^n$
+    -   $\mu$ Eltern erzeugen $\lambda$ Kinder mit $\mu \le \lambda$
 
-**Problem**: lokale Maxima und Plateaus
+<!-- -->
 
--   Lokale Maxima/Minima: Algorithmus findet nur eine suboptimale Lösung
--   Plateaus: Hier muss der Algorithmus mit zufälligen Zügen explorieren
+3.  **Evolutionäre Programmierung** (EP)
+
+*Hinweis*: Häufig finden sich Mischformen, beispielsweise GA mit reellwertigen Parametern
+
+*Hinweis*: Im Folgenden werden **Genetische Algorithmen** (GA) betrachtet. Sie finden jeweils Hinweise auf die Gestaltung der Operatoren bei ES.
+
+##### Anwendungsbeispiele für Evolutionäre Algorithmen
+
+-   Berechnung und Konstruktion komplexer Bauteile: beispielsweise Tragflächenprofile (Flugzeuge), Brücken oder Fahrzeugteile unter Berücksichtigung bestimmter Nebenbedingungen
+-   Scheduling-Probleme: Erstellung von Stunden- und Raumplänen oder Fahrplänen
+-   Berechnung verteilter Netzwerktopologien: Wasserversorgung, Stromversorgung, Mobilfunk
+-   Layout elektronischer Schaltkreise
 
 ##### Wrap-Up
 
 Lokale Suchverfahren: Nur das Ergebnis zählt!
 
--   Gradientenverfahren: Gehe in Richtung des stärksten Anstiegs der Kostenfunktion
+-   Evolutionäre Algorithmen: Unterschied GA und ES (grober Überblick)
 
 > [!TIP]
 >
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Russell und Norvig ([2021](#ref-Russell2021)): Gradientenabstieg: Abschnitt 4.1.1
+> -   Russell und Norvig ([2021](#ref-Russell2021)): GA: Abschnitt 4.1.4
+> -   Weicker ([2015](#ref-Weicker2015))
 >
 > </details>
 
@@ -5216,48 +5236,27 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 > <summary><strong>✅ Lernziele</strong></summary>
 >
 > -   k2: Ich kann die Problematik der lokalen Minima bei Gradientenverfahren erklären
-> -   k3: Ich kann die lokale Suche (Gradientenabstieg) auf ein konkretes Problem anwenden
+> -   k2: Ich kann einen Überblick über die verschiedenen Strömungen bei EA/GA darstellen
+> -   k2: Ich kann den prinzipiellen Ablauf von Genetischen Algorithmen an einem Beispiel erklären
 >
 > </details>
 
-> [!TIP]
->
-> <details >
-> <summary><strong>🧩 Quizzes</strong></summary>
->
-> -   [Selbsttest Gradientensuche (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106601&client_id=FH-Bielefeld)
->
-> </details>
+<a id="id-c99ae5cae334ccb182fc61d94707f8e7cdf363c9"></a>
 
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🏅 Challenges</strong></summary>
->
-> Betrachten Sie folgende Landkarte und Restwegschätzungen:
->
-> <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/MapGermanyGraph.svg/476px-MapGermanyGraph.svg.png"  /></p>
->
-> Quelle: [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg){width="40%"} by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
->
-> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenge_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenge.png"  /></picture></p>
->
-> Finden Sie mit der **Gradienten-Suche** jeweils einen Weg von Würzburg nach München. Vergleichen Sie das Ergebnis mit der Best-First-Suche.
->
-> </details>
-
-<a id="id-bafda494229223827755dbbffb5862eeb7e31262"></a>
-
-#### Search7: Lokale Suche - Simulated Annealing
+#### EA2: Modellierung mit Genetischen Algorithmen
 
 > [!IMPORTANT]
 >
 > <details open>
 > <summary><strong>🎯 TL;DR</strong></summary>
 >
-> Lokale Suchverfahren: Nur das Ergebnis zählt! Nicht der Weg ist das Ziel, sondern nur das Erreichen des Ziels.
+> Lokale Suchverfahren: Nur das Ergebnis zählt!
 >
-> Das Problem bei der Gradientensuche ist, dass man eine Kostenfunktion benötigt und diese auch **lokale Minima** enthalten kann. Mit der reinen Gradientensuche würde man bei Erreichen lokaler Minima die Suche abbrechen (müssen), da es keine weitere Verbesserung unter den Nachfolgern mehr geben kann. In Anlehnung an das Abkühlen von Metall kann hier eine Variante der lokalen Suche helfen: **Simulated Annealing**. Man führt einen "Temperatur"-Parameter ein, der im Laufe der Suche immer kleiner wird und schließlich gegen Null geht. In Abhängigkeit von dieser "Temperatur" wird mit einer bestimmten Wahrscheinlichkeit eine Verschlechterung akzeptiert: Bei einer hohen Temperatur ist diese Wahrscheinlichkeit höher, bei einer niedrigen Temperatur niedriger, so dass das Verfahren in ein normales Hill-Climbing übergeht. Damit kann man ein Festfressen in lokalen Minima vermeiden bzw. überwinden.
+> Evolutionäre Algorithmen sind lokale Suchverfahren, wobei gleichzeitig an mehreren Stellen im Problemraum gesucht wird. Sie bedienen sich Mechanismen aus der Evolution: Es gibt eine Population von Individuen, die jedes das Problem kodieren ("vollständige Zustandsbeschreibung") und damit im Laufe der Suche zu einer möglichen Lösung werden können.
+>
+> Die Individuen werden mit Hilfe einer Fitnessfunktion bewertet, wie gut sie bereits an das Problem angepasst sind (bzw. wie sehr sie bereits der gesuchten Lösung entsprechen). Über eine fitnessproportionale Selektion werden Individuen ausgewählt, aus denen mittels Rekombination (auch "Crossover" genannt) neue Individuen mit Eigenschaften der Eltern erzeugt werden. Über eine Mutation werden dann noch Elemente der neuen Individuen leicht verändert, bevor diese zur neuen Population werden ...
+>
+> Durch das Anwenden von Rekombination und Mutation springt man im Problemraum umher. Auch wenn als Basis die fitteren (angepassteren) Individuen dienen, kann es wie bei allen lokalen Suchverfahren vorkommen, dass sich der Algorithmus in lokalen Minima (bzw. lokalen Maxima, je nach Richtung der Optimierung) festfrisst.
 >
 > </details>
 
@@ -5266,147 +5265,146 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> Vorlesung \[[YT](https://youtu.be/2htZFxUe3AQ)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-search7-lokale-suche-simulated-annealing/27673a757a7c49f9b385d7913d8e46c2/251)\]
+> Vorlesung \[[YT](https://youtu.be/y5RmTiUg7f0)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-ea2-modellierung-mit-genetischen-algorithmen/8a046e3058e2297b9aba37948b8d7c21/251)\]
 >
 > </details>
 
-##### Motivation
+##### EA -- Allgemeiner Ablauf
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/hill-climbing.png" width="60%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/ea_prinz.png" width="60%" /></picture></p>
 
-**Problem**: lokale Maxima und Plateaus
+##### Kodierung Individuen
 
--   Lokale Maxima/Minima: Algorithmus findet nur eine suboptimale Lösung
--   Plateaus: Hier muss der Algorithmus mit zufälligen Zügen explorieren
+-   Binäre Lösungsrepräsentation (Bitstring): $\mathbf{g} = (g_1, \dots, g_m)\in \{ 0,1\}^m$
+    -   String gliedert sich in $n$ Elemente (mit $n \le m$) $\to$ jedes Segment entspricht einer Problemvariablen
+    -   Dekodierungsfunktion $\Gamma : \{0,1\}^m \to \mathbb{R}^n$
 
-Mögliche Lösungen:
+    Alle relevanten Aspekte des Problems müssen in die Codierung einfließen!
 
--   Neustart des Algorithmus, wenn kein Fortschritt erzielt wird
--   Rauschen "injizieren"
+    Bei ES hat man einen Vektor mit reellen Zahlen, wobei jeder Eintrag einen Parameter des Problems darstellt. Eine Dekodierungsfunktion benötigt man entsprechend nicht.
 
-##### Gedankenexperiment: Ausweg aus lokalen Minima
-
--   "Drehen der Landschaft": Minimieren statt Maximieren
--   Ball wird in Zustandsraum-Landschaft gesetzt.
--   Folge:
-    -   rollt steilsten Abstieg hinunter
-    -   rollt evtl. in Tal auf halber Höhe (lokales Minimum) $\to$ bleibt dort gefangen
-
-$\to$ "**Schütteln** der Landschaft" -- Ball springt aus dem Tal und rollt in anderes Tal
-
-Nicht zu stark schütteln -- sonst wird u.U. globales Minimum verlassen!
-
-##### Analogie Härten von Metall
-
--   Metall erhitzen bis Atome frei beweglich
--   Langsam abkühlen
-
-$\to$ stabiles Atomgitter mit minimalem Energiezustand
-
-##### Übertragen der Idee
-
--   Starkes "Schütteln" (hohe "Temperatur") am Anfang
--   Schrittweises "Abkühlen" $\to$ "Schütteln" im Laufe der Zeit verringern
-
-$\to$ **Simulated Annealing**
-
-##### Pseudocode Simulated Annealing (Minimierungsproblem)
-
-``` python
-def simulated_annealing(problem):
-    current = problem.startNode
-    t = 0;  temp = schedule(t)
-
-    while temp>0:
-        temp = schedule(++t)
-        neighbors = current.expandSuccessors()
-        if not neighbors: return current
-        working = random.choice(neighbors)
-        dE = problem.value(current) - problem.value(working)
-        if dE > 0 or probability(math.exp(dE/temp)):
-            current = working
-
-    return current
-```
-
-Wenn `dE` positiv ist, dann ist der Nachfolger "besser" (hier: kleiner bewertet) als der aktuelle Knoten und wird immer als nächster Knoten übernommen.
-
-Wenn `dE` negativ ist, dann ist der betrachtete Nachfolger "schlechter" (hier: größer bewertet) als der aktuelle Knoten. Dann wird er mit einer Wahrscheinlichkeit `math.exp(dE/temp)` als nächster Knoten übernommen. Diese Wahrscheinlichkeit ist bei hohen Temperaturen `temp` eher hoch, und sinkt, je niedriger die Temperatur `temp` wird.
-
-Die Temperatur `temp` bewegt sich dabei von hohen positiven Werten auf den Wert Null (wird also nicht negativ).
-
-##### Detail: Akzeptieren von Verschlechterungen
-
-<div data-align="center">
-
-<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Exp_e.svg/524px-Exp_e.svg.png" width="60%" /></p>
-
-Quelle: ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
-
-</div>
-
--   Wahrscheinlichkeit zum Akzeptieren einer Verschlechterung: `math.exp(dE/temp)`
-
--   Wenn $dE$ negativ ist, wird `math.exp(dE/temp)` ausgewertet
-
--   Wenn $dE$ negativ, dann gilt (Umformung):
-
-    $$\exp\left(\text{dE}/\text{temp}\right) = \exp\left(-\frac{|\text{dE}|}{\text{temp}}\right) = \frac{1}{\exp\left(\frac{|\text{dE}|}{\text{temp}}\right)}$$
-
--   Betrachtung von $\exp(a)$ bzw. $e^a$:
-
-    -   $a<0$: geht gegen 0
-    -   $a=0$: 1
-    -   $a>0$: steil (exponentiell) gegen Unendlich ...
-
--   Damit ergibt sich für $dE$ (nur negativer Fall!) und $\text{temp}$:
-
-    -   Temperatur $\text{temp}$ hoch: $a = \frac{|\text{dE}|}{\text{temp}}$ ist positiv und klein (nahe Null), d.h. $\exp(a)$ nahe 1 (oder größer), d.h. die Wahrscheinlichkeit $1/\exp(a)$ ist nahe 1 (oder kleiner)
-    -   Temperatur $\text{temp}$ wird kleiner und geht gegen Null: $a = \frac{|\text{dE}|}{\text{temp}}$ ist positiv und wird größer, d.h. $\exp(a)$ geht schnell gegen Unendlich, d.h. die Wahrscheinlichkeit $1/\exp(a)$ geht gegen 0
-
-##### Abkühlungsplan problemabhängig wählen
-
--   Initiale Temperatur: So hoch, daß praktisch jede Änderung akzeptiert wird
+    Bei der Erzeugung der Startpopulation werden die Individuen **zufällig** (mit zufälligen Werten) initialisiert.
 
 <!-- -->
 
--   Abkühlen: $T_k = \alpha T_{k-1}$ mit $0.8 \le \alpha \le 0.99$
-    -   Ausreichend langsam abkühlen!
-    -   Typisch: jede Stufe so lange halten, daß etwa 10 Änderungen akzeptiert wurden
+-   Fitnessfunktion $\Phi$ ordnet jedem Individuum $\mathbf{g}_i$ eine reelle Zahl zu: $$\Phi(\mathbf{g}_i) = F(\Gamma(\mathbf{g}_i)) - w\cdot\sum_j(Z_j(\Gamma(\mathbf{g}_i)))^2$$
+    -   Zielfunktion $F$: wie sehr genügt ein Individuum bereits dem Optimierungproblem
+    -   Strafterme $Z_j$: Anreicherung der Optimierung mit weiteren Informationen
+    -   Gewichte $w$: statisch oder dynamisch (Abkühlen)
+
+    Die Wahl einer guten Fitnessfunktion ist oft eine Herausforderung, aber dennoch wichtig, da damit die Suche gesteuert wird!
+
+##### Selektion: Erstelle Matingpool mit $\mu$ Individuen
+
+-   Fitnessproportionale Selektion (*Roulette Wheel Selection*): Auswahlwahrscheinlichkeit für Individuum $\mathbf{g}_k$: $$p_{sel}(\mathbf{g}_k) = \frac{\Phi(\mathbf{g}_k)}{\sum_j \Phi(\mathbf{g}_j)}$$ $\to$ Voraussetzung: positive Fitnesswerte
 
 <!-- -->
 
--   Stop: Keine Verbesserungen in 3 aufeinander folgenden Temperaturen
+-   Turnier-Selektion (*Tournament Selection*):
+    -   Turniergröße $\xi$
+    -   Turnier: ziehe $\xi$ Individuen gleichverteilt (mit Zurücklegen!) und kopiere fittestes Individuum in den Matingpool
+    -   Führe $\mu$ Turniere durch
 
-Der Abkühlungsplan muss problemabhängig gewählt werden. Das Beispiel zeigt typische Elementes eines solchen Abkühlungsplans.
+*Hinweis*: Es gibt noch viele weitere Selektionsmechanismen. Die vorgestellten sind in der Praxis am gebräuchlichsten.
 
-##### Eigenschaften Simulated Annealing
+Über die Selektion wird der sogenannte "Selektionsdruck" aufgebaut: Wie gut muss ein Individuum sein (im Vergleich zu den restlichen Individuen in der Population), damit es eine Chance zur Reproduktion erhält? Dürfen sich nur die "Guten" fortpflanzen, oder erhalten auch die "Schlechten" eine gewisse Chance?
 
--   Vollständigkeit: ja (mit gewisser Wahrscheinlichkeit)
--   Optimalität: ja (mit gewisser Wahrscheinlichkeit)
+Da jedes Individuum einen Punkt im Suchraum darstellt, beeinflusst die Wahl der Selektion die Geschwindigkeit der Suche, begünstigt u.U. aber auch ein eventuelles Festfahren in lokalen Minima. Dies kann beispielsweise geschehen, wenn immer nur die "Guten" selektiert werden, aber die "Guten" der Population sich in der Nähe eines lokalen Minimums befinden. Dann werden auch die Nachfolger sich wieder dort aufhalten.
 
-Voraussetzung: geeigneter Abkühlungsplan
+##### Crossover: Erzeuge zwei Nachkommen aus zwei Eltern
 
-##### Anwendungen von Simulated Annealing
+Festlegung der Crossover-Wahrscheinlichkeit $p_{cross}$ (typisch: $p_{cross} \ge 0.6$)
 
--   Flugplan-Scheduling
--   Layout-Probleme (Chipentwurf, Leiterplatten)
--   Produktionsplanung
+1.  Selektiere Eltern $\mathbf{g}_a$ und $\mathbf{g}_b$ **gleichverteilt** aus Matingpool
+
+<!-- -->
+
+2.  Zufallsexperiment:
+    -   mit $1-p_{cross}$: Kinder identisch zu Eltern (kein Crossover)
+    -   mit $p_{cross}$: Crossover mit $\mathbf{g}_a$ und $\mathbf{g}_b$
+        -   Ziehe $i$ gleichverteilt mit $1 < i < m$
+        -   Kinder aus $\mathbf{g}_a$ und $\mathbf{g}_b$ zusammenbauen: $$\mathbf{g}_c = (g_{a,1}, \dots, g_{a,i}, \; g_{b,{i+1}}, \dots, g_{b,m})$$ und $$\mathbf{g}_d = (g_{b,1}, \dots, g_{b,i}, \; g_{a,{i+1}}, \dots, g_{a,m})$$
+
+        $\to$ Trenne Eltern an gleicher Stelle auf, vertausche Bestandteile
+
+<!-- -->
+
+3.  Gehe zu Schritt 1, bis insg. $\mu$ Nachkommen
+
+*Anmerkung*: Die Eltern werden jeweils in die Ausgangsmenge zurückgelegt.
+
+Mit einer kleinen Wahrscheinlichkeit sind die Kinder also identisch zu den Eltern. Dies ist im Sinne der lokalen Suche wichtig, um bereits erreichte gute Positionen im Suchraum nicht zu verlieren: Es könnte sein, dass die Nachfolger alle schlechter sind ...
+
+Varianten: $N$-Punkt-Crossover, Shuffle-Crossover
+
+Bei ES wird parameterweise gekreuzt. Dabei gibt es verschiedene Möglichkeiten: Übernahme eines Parameters von einem Elternteil, Verrechnen (beispielsweise Mitteln) der Werte beider Eltern, ... Bei ES heißt "Crossover" deshalb oft "Rekombination".
+
+##### Mutation
+
+-   Mutationswahrscheinlichkeit $p_{mut}$ (typische Werte: $p_{mut} = 0.01$ oder $p_{mut} = 0.001$)
+
+<!-- -->
+
+-   Für alle Individuen:
+    -   Mutiere jedes Gen eines Individuums mit $p_{mut}$:
+
+        $$g_i^{(t+1)} = \left\{
+        \begin{array}{rll}
+            \neg & g_i^{(t)} & \text{ falls } \chi_i \le p_{mut}\\[5pt]
+            & g_i^{(t)} & \text{ sonst }
+        \end{array}
+        \right.$$
+
+        $\to$$\chi_i$ gleichverteilte Zufallsvariable (Intervall $[0,1]$), für jedes Bit $g_i$ neu bestimmen
+
+*Anmerkung*: Die optimale Mutationsrate $p_{mut}^*$ ist von Länge $m$ des Bitstrings abhängig; annäherbar durch $p_{mut}^* \approx 1/m$.
+
+Die beim Crossover erstellten Nachfolger liegen im Suchraum in der Nähe der Eltern. Durch die Mutationsrate bestimmt man, ob und wie weit sich ein Kind entfernen kann. Dies entspricht dem Bild des "Schüttelns" der Zustandslandschaft.
+
+Bei ES unterscheidet man Mutationswahrscheinlichkeit und Mutationsrate. Es wird parameterweise mutiert.
+
+##### Bewertungskriterien
+
+Vorsicht: Es handelt sich um Zufallsexperimente. Wenn man nicht nur direkt nach einer Lösung sucht, sondern beispielsweise Parametereinstellungen oder die Wahl der Fitnessfunktion für ein Problem vergleichen will, muss man jeweils mehrere Experimente mit der selben Einstellung machen und Kenngrößen berechnen.
+
+**Geschwindigkeit: AES** *Average Evaluations to a Solution* $$\text{AES } = \frac{\sum\limits_{i \in \text{erfolgreiche Läufe}} \text{Generationen von Lauf } i}{\text{Anzahl der erfolgreichen Läufe}}$$
+
+Die AES liegt im Intervall $[0, maxGen]$.
+
+**Lösungswahrscheinlichkeit: SR** *Success Rate* $$\text{SR } = \frac{\text{Anzahl der erfolgreichen Läufe}}{\text{Anzahl aller Läufe}}$$
+
+Die SR liegt im Intervall $[0, 1]$.
+
+##### Typische Läufe
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_fail_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_fail.png" width="60%" /></picture></p>
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_success_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/ea/images/typischerLauf_ritterIII_mG500M15L100_success.png" width="60%" /></picture></p>
+
+-   Populationsgröße $\mu=15$
+-   Anzahl Nachfahren $\lambda=100$
+-   Abbruch nach $maxGen=200$ Generationen
+
+Stochastischer Algorithmus! Ausreichend Wiederholungen durchführen und mitteln!
+
+*Hinweis*: Die Parameter müssen problemabhängig gewählt werden. Zu hohe Werte für $\mu$ und $\lambda$ führen dazu, dass man bei kleinen Problemen mit hoher Wahrscheinlichkeit bereits am Anfang eine Lösung "würfelt", also gar kein GA nutzt. Wenn dies allerdings nicht passiert, sorgt eine hohe Populationsgröße dafür, dass jeder Schritt sehr lange dauert. Die Abbruchgrenze ist ebenfalls mit Augenmaß zu wählen: Ein zu kleiner Wert sorgt für zu frühen Abbruch (keine Lösung!), ein zu hoher Wert sorgt beim Festfressen des Algorithmus für eine unnötige weitere "Suche" ...
 
 ##### Wrap-Up
 
 Lokale Suchverfahren: Nur das Ergebnis zählt!
 
--   Gradientenverfahren
-    -   Analogie Bergsteigen: Gehe in Richtung des stärksten Anstiegs der Kostenfunktion $\to$ **Hill-Climbing**
-    -   Achtung: Probleme mit lokalen Minima $\to$ **Simulated Annealing**
+-   Evolutionäre Algorithmen:
+    -   Begriffe: Individuum, Population, Kodierung
+    -   Operationen: Selektion, Rekombination, Mutation
+    -   Bewertung mit Fitnessfunktion
 
 > [!TIP]
 >
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Russell und Norvig ([2021](#ref-Russell2021)): Simulated Annealing: Abschnitt 4.1.2
+> -   Russell und Norvig ([2021](#ref-Russell2021)): GA: Abschnitt 4.1.4
+> -   Weicker ([2015](#ref-Weicker2015))
 >
 > </details>
 
@@ -5415,7 +5413,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 > <details >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> -   k3: Ich kann die Funktionsweise von Simulated Annealing erklären und den Algorithmus auf ein konkretes Problem anwenden
+> -   k3: Ich kann GA anwenden, insbesondere für ein Beispiel passende Kodierung, Fitnessfunktion, Operatoren und Auswertung formulieren und den Ablauf erklären
 >
 > </details>
 
@@ -5424,7 +5422,7 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 > <details >
 > <summary><strong>🧩 Quizzes</strong></summary>
 >
-> -   [Selbsttest Simulated Annealing (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106602&client_id=FH-Bielefeld)
+> -   [Selbsttest EA/GA (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106580&client_id=FH-Bielefeld)
 >
 > </details>
 
@@ -5433,19 +5431,21 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 > <details open>
 > <summary><strong>🏅 Challenges</strong></summary>
 >
-> **Team-Planung**
+> **Sudoku**
 >
-> Sie haben 12 Personen mit Rollen/Skills und paarweisen Synergiewerten (positiv = gut, negativ = Konflikt). Es gibt die Rollen/Skills "Frontend" (FE), "Backend" (BE), "Fullstack" (FS) sowie "User Experience" (UX). Für die Synergie-Werte überlegen Sie sich einige passende Beispiele, etwa "Person A und B kommen gut miteinander aus" o.ä.
+> Ein $9 \times 9$-*Sudoku*-Rätsel soll mit einem GA gelöst werden.
 >
-> Bilden Sie 3 Teams zu je 4 Personen, so dass
+> Geben Sie für dieses Problem jeweils eine geeignete **Kodierung** der Individuen, passende Operatoren (**Crossover**, **Mutation**) und eine geeignete **Fitnessfunktion** an, damit das Problem mit einem GA gelöst werden kann. Begründen Sie Ihre Wahl!
 >
-> -   die Summe der Synergien innerhalb der Teams maximiert wird,
-> -   pro Team mindestens je 1x FE, 1x BE, 1x FS vorhanden ist (harte oder weiche Nebenbedingung),
-> -   optional: UX in einem Team bringt Bonus.
+> Was würden Sie noch benötigen, um das Probleme mit Simulated Annealing lösen zu können?
 >
-> Es gibt exakt 12 Personen, darunter jeweils 3 FE, 3 BE, 3 FS, 3 UX.
+> **Travelling Salesman Problem**
 >
-> Modellieren Sie dieses Problem geeignet, damit Sie es mit Simulated Annealing lösen können.
+> Das *Travelling Salesman Problem* für 10 Städte, d.h. das Finden der kürzesten Route zwischen 10 Städten, soll mit einem GA gelöst werden.
+>
+> Geben Sie für dieses Problem jeweils eine geeignete **Kodierung** der Individuen, passende Operatoren (**Crossover**, **Mutation**) und eine geeignete **Fitnessfunktion** an, damit das Problem mit einem GA gelöst werden kann. Begründen Sie Ihre Wahl!
+>
+> Was würden Sie noch benötigen, um das Probleme mit Simulated Annealing lösen zu können?
 >
 > </details>
 
@@ -7874,17 +7874,17 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
--   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
 -   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 -   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
+-   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
+-   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
 -   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
+-   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 -   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 7d78a86 2026-09-14 search: rework screencasts<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 982eee8 2026-09-20 tdu: add gradient search and sim-annealing (was missing somehow)<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in Graph-Search-Variante bei endlichem Suchraum
 

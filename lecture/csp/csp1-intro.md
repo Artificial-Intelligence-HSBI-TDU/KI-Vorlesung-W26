@@ -192,4 +192,4 @@ Die *Arität* betrifft hier die "Stelligkeit": Wie viele Variablen stehen in ein
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 323ac5a 2026-09-13 csp1: fix title<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> feb8fd1 2026-09-20 csp: add challenge<br></sub></sup></p></blockquote>

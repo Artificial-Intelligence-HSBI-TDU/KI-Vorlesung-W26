@@ -22,17 +22,17 @@
     - [DTL5: Entropie](lecture/dtl/dtl5-entropy.md)
     - [DTL6: ID3 und C4.5](lecture/dtl/dtl6-id3.md)
     - [DTL7: Random Forest](lecture/dtl/dtl7-randomforest.md)
-  - **Genetische Algorithmen**
-    - [EA1: Einführung Evolutionäre Algorithmen](lecture/ea/ea1-intro.md)
-    - [EA2: Modellierung mit Genetischen Algorithmen](lecture/ea/ea2-ga.md)
   - **Suche**
+    - [Search6: Lokale Suche - Gradientensuche](lecture/searching/search6-gradient.md)
+    - [Search7: Lokale Suche - Simulated Annealing](lecture/searching/search7-annealing.md)
     - [Search1: Suche mit Tiefensuche](lecture/searching/search1-dfs.md)
     - [Search2: Suche mit Breitensuche](lecture/searching/search2-bfs.md)
     - [Search3: Suche mit Branch-and-Bound](lecture/searching/search3-branchandbound.md)
     - [Search4: Suche mit Best First](lecture/searching/search4-bestfirst.md)
     - [Search5: Suche mit A*](lecture/searching/search5-astar.md)
-    - [Search6: Lokale Suche - Gradientensuche](lecture/searching/search6-gradient.md)
-    - [Search7: Lokale Suche - Simulated Annealing](lecture/searching/search7-annealing.md)
+  - **Genetische Algorithmen**
+    - [EA1: Einführung Evolutionäre Algorithmen](lecture/ea/ea1-intro.md)
+    - [EA2: Modellierung mit Genetischen Algorithmen](lecture/ea/ea2-ga.md)
   - **Spiele**
     - [Games1: Einführung Optimale Spiele](lecture/games/games1-intro.md)
     - [Games2: Minimax](lecture/games/games2-minimax.md)
