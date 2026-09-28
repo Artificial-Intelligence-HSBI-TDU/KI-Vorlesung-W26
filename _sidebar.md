@@ -12,16 +12,16 @@
     - [CSP3: Heuristiken](lecture/csp/csp3-heuristics.md)
     - [CSP4: Kantenkonsistenz und AC-3](lecture/csp/csp4-ac3.md)
     - [CSP5: Min-Conflicts Heuristik](lecture/csp/csp5-minconflicts.md)
-  - **Naive Bayes**
-    - [NB1: Wiederholung Wahrscheinlichkeitstheorie](lecture/naivebayes/nb1-probability.md)
-    - [NB2: Klassifikation mit Naive Bayes](lecture/naivebayes/nb2-naivebayes.md)
-    - [NB3: Text-Klassifikation mit Naive Bayes](lecture/naivebayes/nb3-nb-text.md)
   - **Entscheidungsbäume (Decision Tree Learner - DTL)**
     - [DTL1: Machine Learning 101](lecture/dtl/dtl1-mlbasics.md)
     - [DTL2: CAL2](lecture/dtl/dtl2-cal2.md)
     - [DTL5: Entropie](lecture/dtl/dtl5-entropy.md)
     - [DTL6: ID3 und C4.5](lecture/dtl/dtl6-id3.md)
     - [DTL7: Random Forest](lecture/dtl/dtl7-randomforest.md)
+  - **Naive Bayes**
+    - [NB1: Wiederholung Wahrscheinlichkeitstheorie](lecture/naivebayes/nb1-probability.md)
+    - [NB2: Klassifikation mit Naive Bayes](lecture/naivebayes/nb2-naivebayes.md)
+    - [NB3: Text-Klassifikation mit Naive Bayes](lecture/naivebayes/nb3-nb-text.md)
   - **Suche**
     - [Search6: Lokale Suche - Gradientensuche](lecture/searching/search6-gradient.md)
     - [Search7: Lokale Suche - Simulated Annealing](lecture/searching/search7-annealing.md)

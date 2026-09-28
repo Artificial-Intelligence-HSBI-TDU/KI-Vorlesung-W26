@@ -97,8 +97,8 @@ Durchführung der Vorlesung als *Flipped Classroom*: Sitzungen per Zoom, Übunge
 |:---|:----|:---------------------------------------------------|:-----------|
 | 14.09. | Orga | [Orga TDU](#id-b21a245fb1bac510210f7712bce0dbd9e2a468b5) \| [Einführung KI](#id-ca2e904964509a28710797d2f876c625f54f64ea) \| [Einführung Jupyter Notebook](#id-37999e3f5ed2a133fbaf6ee91fdb94138df2391d) | \- |
 | 21.09. | CSP | [Einführung Constraints](#id-84f051404cae6b3a63ddc230ad80cb495047845f) \| [Lösen von diskreten CSP](#id-3b6247c92b0af037c1f0c4837facaaa1b25420c3) \| [CSP und Heuristiken](#id-aef0213ac4bbd41501955f0ec950c44d1756a5cf) \| [Kantenkonsistenz und AC-3](#id-a9b47eac39d203917d2689bbfad8003315b2990c) \| [Min-Conflicts Heuristik](#id-9d0480f68cb0e1adb81cdc4b9b357168511b77d5) | [Blatt: CSP](#id-97b1dd75d6bb5e4678ebee3df7fe5a521e52d6e2) |
-| 28.09. | NB | [Wahrscheinlichkeitstheorie](#id-cd12d8faa8a855e40fd112b32dc98078382d90aa) \| [Naive Bayes](#id-cd72f1bd942f6b05157da80ba479a7a493d898c1) \| [Textklassifikation mit NB](#id-6e322bc628d8ff7a4faa38fa42a09770217ab4fb) | [Blatt: Naive Bayes](#id-8b661cb2908035ca0da1b1837f2b800c4381ebad) |
-| 05.10. | DTL | [Machine Learning 101](#id-82f362361464406c7ba09ef4a0893a4e32983b94) \| [CAL2](#id-4807e4a11529854b6d77f86cd3ca37caabc11cc9) \| [Entropie](#id-f085a6c9977296f3811e103376badb06ee228d84) \| [ID3 und C4.5](#id-0d69ce52eac18a7d932147cc42b20bcd98d267f3) \| [Random Forest](#id-67ad22f050d34df38bd659728538d50c3f90f70e) | [Blatt: DTL](#id-4a134eae1417a20b6726b2fdc2b1dfd28a683e29) |
+| 28.09. | NB | [Machine Learning 101](#id-82f362361464406c7ba09ef4a0893a4e32983b94) \|\| [Wahrscheinlichkeitstheorie](#id-cd12d8faa8a855e40fd112b32dc98078382d90aa) \| [Naive Bayes](#id-cd72f1bd942f6b05157da80ba479a7a493d898c1) \| [Textklassifikation mit NB](#id-6e322bc628d8ff7a4faa38fa42a09770217ab4fb) | [Blatt: Naive Bayes](#id-8b661cb2908035ca0da1b1837f2b800c4381ebad) |
+| 05.10. | DTL | [CAL2](#id-4807e4a11529854b6d77f86cd3ca37caabc11cc9) \| [Entropie](#id-f085a6c9977296f3811e103376badb06ee228d84) \| [ID3 und C4.5](#id-0d69ce52eac18a7d932147cc42b20bcd98d267f3) \| [Random Forest](#id-67ad22f050d34df38bd659728538d50c3f90f70e) | [Blatt: DTL](#id-4a134eae1417a20b6726b2fdc2b1dfd28a683e29) |
 | 12.10. | EA | **ab 11:15**: [Gradientensuche](#id-3e0f73b743e74f106aacc68840406273348f8341) \| [Simulated Annealing](#id-bafda494229223827755dbbffb5862eeb7e31262) \|\| [Intro EA/GA](#id-aa3481a03ed2e17666ced54325637e0551022587) \| [Genetische Algorithmen](#id-c99ae5cae334ccb182fc61d94707f8e7cdf363c9) | [Blatt: EA/GA](#id-cb2cf09f6031a168fc7c9094c3ee2d9df377e9f0) |
 | 19.10. | Search | [Problemlösen](#id-7a896d9c036ef29a6574730757ae03cd7c0d3e26) \| [Tiefensuche](#id-3263461a899091090f8d87ea7f7f3f25bf8255eb) \| [Breitensuche](#id-d08f602e3cf0c02bc97cd5125053645dfe917271) \| [Branch-and-Bound](#id-0712fba7e7ca1e4684ed9b6de19345ba86fba471) \| [Best First](#id-0a43351a075c7504b755675510f9395b5dd8c092) \| [A-Stern](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5) | [Blatt: Suche](#id-ab3ff3658bdafaf1ee5c17c11ffae098b587c048) |
 | 26.10. | Games | [Optimale Spiele](#id-f669cc4761526fb137b102a84bf0b7a3c8e1b51a) \| [Games mit Minimax](#id-5438da7280b20127b14a6fc6336d798d64ef51d6) \| [Minimax und Heuristiken](#id-a9ac054922401b7eb9285dc81c4d01960ce147ec) \| [Alpha-Beta-Pruning](#id-c8c274bfbd36e9fdbf8c47df5f99c064b06d9ff3) | [Blatt: Games](#id-999c549c4e5cc5a8e810d1e55e7b21a1e3c85906) |
@@ -1652,1093 +1652,6 @@ Umformung der Constraints in aussagenlogische Formeln und Anwenden von SAT-Solve
 >
 > </details>
 
-<a id="id-42bc36be1058d57772048d3a14a2b2b13020cc0f"></a>
-
-### Naive Bayes
-
-Ich habe Symptome beobachtet. Kann ich die Ursache (also die Krankheit) bestimmen, wenn ich etwas Hintergrundwissen habe:
-
--   Wie häufig treten verschieden Krankheiten auf
--   Welche Krankheit zeigt welche Symptome (und wie oft treten die dann auf)
-
-Kann ich aus diesen Daten einen Klassifikator lernen?
-
-<a id="id-cd12d8faa8a855e40fd112b32dc98078382d90aa"></a>
-
-#### NB1: Wiederholung Wahrscheinlichkeitstheorie
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> Diese Sitzung ist eine (relativ oberflächliche) Einführung/Wiederholung in die/der Grundlagen der Wahrscheinlichkeitstheorie.
->
-> Wir schauen uns die möglichen Ausgänge eines Zufallsexperiments an ("Ereignisse"). Wenn diese Ereignisse sich gegenseitig ausschließen und alle denkbaren Ergebnisse abdecken, dann nennt man diese Ereignisse auch **Elementarereignisse**. Die Wahrscheinlichkeit für ein Ereignis kann man angeben als Anzahl der möglichen Ergebnisse, die für dieses Ereignis günstig sind, geteilt durch die Anzahl aller Ausgänge. Über die Kolmogorov Axiome bekommt man die typischen Rechenregel für die Wahrscheinlichkeit.
->
-> Man kann eine **Verbundwahrscheinlichkeit** $P(A,B) = P(B,A)$ angeben, das ist die Wahrscheinlichkeit, dass $A$ und $B$ gleichzeitig auftreten.
->
-> Die **bedingte** Wahrscheinlichkeit für $A$ gegeben $B$ ist $P(A \mid B)$ und berechnet sich $P(A \mid B) = P(A,B)/P(B)$.
->
-> Daraus kann man die **Bayes-Regel** ableiten: $P(A \mid B) = P(B \mid A)P(A)/P(B)$.
->
-> Dabei nennt man
->
-> -   $P(A)$ **Prior** oder **A-priori-Wahrscheinlichkeit** (die Wahrscheinlichkeit für $A$ ohne weiteres Wissen),
-> -   $P(B \mid A)$ **Likelihood** (Wie wahrscheinlich ist das Auftreten von $B$, gegeben $A$?),
-> -   $P(A \mid B)$ **Posterior** oder **A-posteriori-Wahrscheinlichkeit** (Wie wahrscheinlich ist $A$, wenn $B$ eingetreten ist?), und
-> -   $P(B)$ ist ein Normierungsfaktor (Wie wahrscheinlich ist $B$ an sich?).
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> Vorlesung \[[YT](https://youtu.be/jBByXEKoOeA)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-nb1-wiederholung-wahrscheinlichkeitstheorie/8749cac85bb7021d2ec5c2ce75a32bc8/251)\]
->
-> </details>
-
-##### Ereignisse und Wahrscheinlichkeit
-
-**Hinweis**: Die folgende Darstellung zur Einführung in die Wahrscheinlichkeitstheorie dient dem Verständnis des Naive Bayes Klassifikationsalgorithmus und ist teilweise eher oberflächlich gehalten. Sie kann und soll keine entsprechende mathematische Einführung ersetzen!
-
-###### Ereignisse
-
--   **Ereignisse** $\Omega = \lbrace \omega_1, \omega_2, \ldots, \omega_n \rbrace$: endliche Menge der Ausgänge eines Zufallsexperiments
-
--   **Elementarereignis**: Die $\omega_i \in \Omega$
-
-    -   decken *alle* möglichen Versuchsergebnisse ab, und
-    -   schließen sich gegenseitig aus
-
-###### Regeln
-
--   Wenn $A$ und $B$ Ereignisse sind, dann auch $A \cup B$
--   $\Omega$ wird als **sicheres Ereignis** bezeichnet: Enthält definitionsgemäß **alle** Versuchsausgänge, d.h. *ein* in der Menge enthaltenes Ereignis *muss* auftreten
--   Die leere Menge $\emptyset$ wird als **unmögliches Ereignis** bezeichnet
--   Die Variablen $A$ und $B$ heißen auch **Zufallsvariablen**
-
-Im Rahmen dieser Veranstaltung betrachten wir nur diskrete Zufallsvariablen mit endlichem Wertebereich!
-
-###### Wahrscheinlichkeit
-
--   **Wahrscheinlichkeit**:
-
-    Sei $\Omega = \lbrace \omega_1, \omega_2, \ldots, \omega_n \rbrace$ endlich. Die Wahrscheinlichkeit $P(A)$ für ein Ereignis $A$ ist dann definiert als
-
-    $$P(A) = \frac{\lvert A \rvert}{\lvert \Omega \rvert} =
-    \frac{\text{Anzahl der für A günstigen Fälle}}{\text{Anzahl der möglichen Fälle}}$$
-
-    Man könnte auch schreiben: $P(A) = \sum_{\omega \in A} P(\omega)$
-
-    *Hinweis*: Diese Definition von Wahrscheinlichkeit geht von gleich wahrscheinlichen Elementarereignissen aus! Die allgemeine Definition geht über einen entsprechenden Grenzwert.
-
-###### Verteilung
-
-Den Vektor mit den Wahrscheinlichkeiten aller Elementarereignisse nennt man auch *Verteilung*.
-
-Beispiel: $\mathbf{P}(A) = (P(A=1), P(A=2), \ldots, P(A=6)) = (1/6, 1/6, \ldots, 1/6)$
-
-*Hinweis*: Wir betrachten hier nur diskrete Zufallsvariablen. Für kontinuierliche Variablen wird die Verteilung mit Hilfe einer **Dichtefunktion** dargestellt, beispielsweise der Gauss'schen Funktion.
-
-###### Beispiel
-
--   Einmaliges Würfeln mit einem Spielwürfel: $\Omega = \lbrace 1,2,3,4,5,6 \rbrace$
-
--   Elementarereignisse: $\lbrace 1,2,3,4,5,6 \rbrace$
-
--   Das Würfeln einer geraden Zahl ($A = \lbrace 2,4,6 \rbrace$) ist *kein* Elementarereignis, ebenso wie das Würfeln einer Zahl kleiner 5 ($B = \lbrace 1,2,3,4 \rbrace$), da $A \cap B = \lbrace 2,4 \rbrace \ne \emptyset$
-
--   Wahrscheinlichkeit, eine 1 zu würfeln: $P(A \in \lbrace 1 \rbrace) = P(A=1) = \frac{1}{6}$.
-
-    *Anmerkung*: Man schreibt statt $P(A \in \lbrace 1 \rbrace)$ oft einfach $P(1)$.
-
--   Wahrscheinlichkeit, eine gerade Zahl zu würfeln: $P(A \in \lbrace 2,4,6 \rbrace) = P(A=2 \vee A=4 \vee A=6) = \frac{\lvert \lbrace 2,4,6 \rbrace \rvert}{\lvert \lbrace 1,2,3,4,5,6 \rbrace \rvert} = \frac{3}{6} = 0.5$
-
-##### Rechenregeln: Kolmogorov Axiome
-
-Sei $A$ ein Ereignis, also $A \subseteq \Omega$:
-
--   $0 \le P(A) \le 1$
-
--   $\Omega = \lbrace \omega_1, \omega_2, \ldots, \omega_n \rbrace$: $\sum_{i} P(\omega_i) = 1$ (Normierungsbedingung: Summe über die Wahrscheinlichkeiten aller Elementarereignisse ist immer 1)
-
--   $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
-
-Daraus folgt (u.a.):
-
--   $P(\Omega) = 1$
--   $P(\emptyset) = 0$
--   $P(A) = 1- P(\neg A)$
-
-<!-- -->
-
--   $A$ und $B$ *unabhängig*: $P(A \cup B) = P(A) + P(B)$
--   $P(A \cap B)$ ist leer, wenn $A$ und $B$ sich nicht überlappen
--   $A \subseteq B$: $P(A) \le P(B)$
-
-##### Verbundwahrscheinlichkeiten
-
-$$P(A,B) = P(B,A) = \text{ Wahrscheinlichkeit, dass A und B gleichzeitig auftreten }$$
-
-|                  | Halsschmerzen | $\neg$ Halsschmerzen |
-|------------------|---------------|----------------------|
-| Schnupfen        | 0.04          | 0.06                 |
-| $\neg$ Schnupfen | 0.01          | 0.89                 |
-
--   $P(S,H) = 0.04$
-
-Die Tabelle kann man so lesen: In 4 von 100 Fällen tritt das Ereignis "Schnupfen" gleichzeitig mit dem Ereignis "Halsschmerzen" auf, in 6 von 100 Fällen tritt "Schupfen" ohne Halsschmerzen auf. ... In Summe kommt man wieder auf 100 Fälle (100 Prozent).
-
-Nach diesen Zahlen liegt also die Verbundwahrscheinlichkeit für die Ereignisse "Schnupfen" und "Husten", d.h. $P(S,H)$, bei 4 Prozent.
-
-**Hinweis**: Die gezeigten Zahlen und Zusammenhänge sind **fiktiv** und dienen lediglich zur Verdeutlichung der Wahrscheinlichkeitsbegriffe!
-
-##### Bedingte Wahrscheinlichkeit
-
-**Definition**: Bedingte Wahrscheinlichkeit für $A$ gegeben $B$:
-
-$$P(A \mid B) = \frac{P(A,B)}{P(B)}$$
-
-|                  | Halsschmerzen | $\neg$ Halsschmerzen |
-|------------------|---------------|----------------------|
-| Schnupfen        | 0.04          | 0.06                 |
-| $\neg$ Schnupfen | 0.01          | 0.89                 |
-
--   $P(\text{Schnupfen }  \mid  \text{ Halsschmerzen}) = \frac{P(S,H)}{P(H)} = \frac{0.04}{0.04+0.01} = 0.8$
--   $P(\text{Halsschmerzen }  \mid  \text{ Schnupfen}) = \frac{P(H,S)}{P(S)} = \frac{0.04}{0.04+0.06} = 0.4$
-
-Wegen $P(A \mid B) = \dfrac{P(A,B)}{P(B)}$ ist $P(A,B) = P(A \mid B)P(B) = P(B \mid A)P(A)$ (**Produkt-Regel**)!
-
-##### Marginalisierung
-
-|                  | Halsschmerzen | $\neg$ Halsschmerzen | $\sum$ |
-|------------------|---------------|----------------------|--------|
-| Schnupfen        | 0.04          | 0.06                 | *0.1*  |
-| $\neg$ Schnupfen | 0.01          | 0.89                 | *0.9*  |
-| $\sum$           | *0.05*        | *0.95*               | *1*    |
-
-$P(S) = P(S,H) + P(S, \neg H)$
-
-Allgemein: Seien $B_1, \ldots, B_n$ Elementarereignisse mit $\bigcup_i B_i = \Omega$. Dann ist $$P(A) = \sum_i P(A,B_i) = \sum_i P(A \mid B_i)P(B_i)$$
-
-Diesen Vorgang nennt man **Marginalisierung**. Die resultierende Verteilung $P(A)$ nennt man auch *"Randverteilung"*, da sie mit einer Projektion eines Quaders auf eine Seitenfläche vergleichbar ist.
-
-##### Kettenregel
-
--   **Produktregel**: Wegen $P(A \mid B) = \dfrac{P(A,B)}{P(B)}$ gilt $P(A,B) = P(A \mid B)P(B)$
-
-<!-- -->
-
--   Verallgemeinerung (**Kettenregel**): $$\begin{eqnarray}
-    P(A_1,A_2,\ldots,A_n) &=& P(A_n,\ldots,A_2,A_1)\\
-        & = & P(A_n \mid A_{n-1},\ldots,A_1)P(A_{n-1},\ldots,A_1)\\
-        & = & P(A_n \mid A_{n-1},\ldots,A_1)P(A_{n-1} \mid A_{n-2},\ldots,A_1)P(A_{n-2},\ldots,A_1)\\
-        & = & \ldots\\
-        & = & P(A_n \mid A_{n-1},\ldots,A_1) \ldots P(A_2 \mid A_1)P(A_1)\\
-        & = & \prod_i P(A_i \mid A_1,\ldots,A_{i-1})
-    \end{eqnarray}$$
-
-##### Bayes-Regel
-
-Bedingte Wahrscheinlichkeit: $P(A,B) = P(A \mid B)P(B) = P(B \mid A)P(A)$
-
-$$P(A \mid B) = \frac{P(B \mid A)P(A)}{P(B)}$$
-
--   $P(A)$ nennt man **Prior** oder **A-priori-Wahrscheinlichkeit** (Das ist die Wahrscheinlichkeit für $A$ ohne weiteres Wissen)
--   $P(B \mid A)$ nennt man **Likelihood** (Wie wahrscheinlich ist das Auftreten von $B$, gegeben $A$?)
--   $P(A \mid B)$ nennt man **Posterior** oder **A-posteriori-Wahrscheinlichkeit** (Wie wahrscheinlich ist $A$, wenn $B$ eingetreten ist?)
--   $P(B)$ ist ein Normierungsfaktor
-
-Wenn man (siehe später: Naive Bayes Klassifikator) $A$ als Klasse und $B$ als Daten betrachtet:
-
--   $P(A)$: Wie wahrscheinlich ist eine bestimmte Klasse an sich (A-priori-Wahrscheinlichkeit der Klassen)?
--   $P(B \mid A)$: Wie wahrscheinlich sind bestimmte Daten, gegeben die Klasse $A$? (Likelihood der Daten)
--   $P(A \mid B)$: Gegeben die Daten $B$, wie wahrscheinlich ist die Klasse $A$? (Posterior)
-
-In der Medizin hat sucht man i.d.R. die Ursache für beobachtete Symptome: $$P(\text{Ursache} \mid \text{Symptome}) = \frac{P(\text{Symptome} \mid \text{Ursache})P(\text{Ursache})}{P(\text{Symptome})}$$
-
-Aus der A-priori-Wahrscheinlichkeit für bestimmte Krankheiten und der Likelihood der Symptome (wie wahrscheinlich sind Symptome, gegeben eine Krankheit) kann man die Wahrscheinlichkeit für das Vorliegen einer Erkrankung gegeben bestimmte Symptome berechnen.
-
-##### Beispiel Bayes
-
--   Bei Arthrose wird in 80 Prozent der Fälle ein steifes Gelenk beobachtet
--   Eine von 10.000 Personen hat Arthrose
--   Eine von 10 Personen hat ein steifes Gelenk
-
-$\to$ Ich habe ein steifes Gelenk. Habe ich Arthrose?
-
--   Gegeben: $P(A) = 0.0001,   P(S) = 0.1,   P(S \mid A) = 0.8$
--   Gesucht: $P(A \mid S)$
-
-$$P(A \mid S) = \frac{P(S \mid A)P(A)}{P(S)} = \frac{0.8 \times 0.0001}{0.1} = 0.0008 = 0.08\%$$
-
-Wenn ein steifes Gelenk vorliegt, ist die Wahrscheinlichkeit, dann an Arthrose erkrankt zu sein, bei nur 0.08%. Kein Grund zur Sorge in diesem Fall :-)
-
-$\to$ Wie wahrscheinlich ist ein steifes Gelenk ohne Arthrose, also $P(S \mid \neg A$)?
-
-Mit Marginalisierung: $P(S) = P(S \mid A)P(A) + P(S \mid \neg A)P(\neg A)$, d.h. $0.1 = 0.8 \times 0.0001 + P(S \mid \neg A) \times (1-0.0001)$, d.h. $P(S \mid \neg A) = 0.0999$
-
-In knapp 10 Prozent der Fälle würde man im obigen Beispiel bei der Diagnose "keine Arthrose" ein steifes Gelenk beobachten.
-
-**Hinweis**: Die genannten Zahlen und Zusammenhänge sind rein fiktional und sollen lediglich zur Veranschaulichung der Bayes-Regel dienen!
-
-Schauen Sie sich auch das Beispiel 7.9 in ([Ertel 2025](#ref-Ertel2025), Ex. 7.9, S. 135) an!
-
-##### Unabhängige Ereignisse
-
--   $P(\text{Halsschmerzen},\text{ Regen}) = P(\text{Regen } \mid \text{ Halsschmerzen})P(\text{Halsschmerzen})$
--   $P(\text{Regen } \mid \text{ Halsschmerzen}) = \text{ ?? }$ $= P(\text{Regen})$
-
-<!-- -->
-
--   Zwei Ereignisse $A$ und $B$ sind **unabhängig**, wenn $$P(A \mid B) = P(A)$$
-
-    $\to$ $P(A,B) = P(A \mid B)P(B) = P(A)P(B)$
-
-Dies kann man verallgemeinern (**bedingte Unabhängigkeit**):
-
-> $X$ und $Y$ sind *bedingt unabhängig* (gegeben $Z$), wenn $P(X \mid Y,Z) = P(X \mid Z)$ bzw. $P(Y \mid X,Z) = P(Y \mid Z)$
-
-Daraus folgt:
-
-$$P(X,Y \mid Z) = P(X \mid Y,Z)P(Y \mid Z) = P(X \mid Z)P(Y \mid Z)$$
-
-##### Wrap-Up
-
--   Grundlagen der Wahrscheinlichkeitstheorie
-    -   Elementarereignisse und Wahrscheinlichkeit
-    -   Rechenregeln
-    -   Bedingte Wahrscheinlichkeit und Verbundwahrscheinlichkeit
-    -   Marginalisierung
-    -   (Bedingte) Unabhängigkeit
-    -   Bayes'sche Regel
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>📖 Zum Nachlesen</strong></summary>
->
-> Lesen Sie in ([Russell und Norvig 2021](#ref-Russell2021)) bitte die Abschnitte 12.2 bis (einschließlich) 12.5. Darüber hinaus ist Abschnitt "7.1 Rechnen mit Wahrscheinlichkeiten" ([Ertel 2025](#ref-Ertel2025)) sehr empfehlenswert.
->
-> </details>
-
-> [!NOTE]
->
-> <details >
-> <summary><strong>✅ Lernziele</strong></summary>
->
-> -   k2: Ich kann die Begriffe Elementarereignisse und Wahrscheinlichkeit erklären
-> -   k2: Ich kann bedingte Wahrscheinlichkeit und Verbundwahrscheinlichkeit erklären
-> -   k2: Ich kann (bedingte) Unabhängigkeit erklären
-> -   k3: Ich kann die Rechenregeln für Wahrscheinlichkeit anwenden
-> -   k3: Ich kann Marginalisierung an einem Beispiel anwenden
-> -   k3: Ich verstehe die Bayes'sche Regel und kann sie an einem Beispiel demonstrieren
->
-> </details>
-
-> [!TIP]
->
-> <details >
-> <summary><strong>🧩 Quizzes</strong></summary>
->
-> -   [Selbsttest Wahrscheinlichkeiten (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106587&client_id=FH-Bielefeld)
->
-> </details>
-
-<a id="id-cd72f1bd942f6b05157da80ba479a7a493d898c1"></a>
-
-#### NB2: Klassifikation mit Naive Bayes
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> Mit Hilfe der (verallgemeinerten) Bayes-Regel kann man Klassifikation durchführen. Dazu werden beim "Training" die bedingten Wahrscheinlichkeiten aus den Trainingsdaten geschätzt. Die Anwendung (Klassifikation) erfolgt dann durch die Nutzung der beim "Training" berechneten bedingten Wahrscheinlichkeiten:
->
-> $$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$$
->
-> Für jede Hypothese $h$, d.h. für jede Klasse, wird der Posterior $P(h \mid D_1, \ldots, D_n)$ ausgerechnet. Die Klasse, deren Wert dabei am höchsten ist, "gewinnt", d.h. die Klasse mit dem größten Posterior wird ausgegeben. (Deshalb wird das Verfahren oft auch "MAP" -- *Maximum a Posteriori* -- genannt.)
->
-> Bei der Berechnung wird angenommen, dass die betrachteten Merkmale (bedingt) unabhängig sind (dies geht in die obige Formel ein). Diese Annahme trifft aber oft nicht zu, deshalb auch der Name "*Naive* Bayes Klassifikation". Man berechnet in diesem Fall falsche Werte. Dennoch zeigt der Algorithmus in der Praxis sehr gute Ergebnisse.
->
-> Durch den Einsatz der bedingten Wahrscheinlichkeiten in der Produktformel ergeben sich einige Schwierigkeiten:
->
-> 1.  Wenn beim "Training" Ausprägungen fehlen, ist die bedingte Wahrscheinlichkeit Null. Dadurch wird das gesamte Produkt Null. Zur Abhilfe kann man den **Laplace-Schätzer** nutzen, der (gesteuert über einen Parameter) gewissermaßen virtuelle Trainingsbeispiele beisteuert.
-> 2.  Durch das Produkt vieler kleiner Werte kann es schnell zu *Floating Point*-Underflows kommen. Hier kann man einen Trick nutzen: Man berechnet den Logarithmus der Produktformel. Dadurch ändern sich zwar die absoluten Werte, die Reihenfolge der Hypothesen bleibt aber erhalten. Da wir nur nach der Hypothese suchen, die einen höheren Wert als die anderen hat, und nicht den absoluten Wert an sich benötigen, kann man so vorgehen. Durch den Logarithmus wird aus dem Produkt eine Summe, wo die kleinen Werte der bedingten Wahrscheinlichkeiten nicht so starke Auswirkungen haben wie im Produkt.
->
-> Oft nimmt man zusätzlich an, dass für alle Hypothesen (Klassen) $h$ der Prior $P(h)$ gleich ist. Dann kann man diesen Faktor ebenfalls aus der Berechnung entfernen. Dieses Verfahren nennt man auch **Maximum Likelihood**.
->
-> Der NB-Klassifikator wird gern für die Textklassifikation eingesetzt. Hier muss man einem Text ein Label zuordnen. In einer Vorverarbeitung wird zunächst eine Menge der relevanten Wörter über alle Trainingstexte gebildet (*Bag-of-Words*). Der Bag-of-Words entspricht einem Merkmalsvektor, wobei die Merkmale die einzelnen Wörter sind. Dann kann jeder Text der Trainingsmenge über so einen Merkmalsvektor dargestellt werden: Entweder man gibt pro Merkmal an, ob es da (1) oder nicht da (0) ist oder man zählt die Häufigkeit des Auftretens. Dann kann man mit dem NB-Klassifikator die bedingten Wahrscheinlichkeiten schätzen und einen neuen Text klassifizieren.
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> Vorlesung \[[YT](https://youtu.be/VxyjFos1a6U)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-nb2-klassifikation-mit-naive-bayes/23ee01f5f394b551150cd571d4fe36ef/251)\]
->
-> </details>
-
-##### Medizinische Diagnostik mit NB
-
--   Bei Arthrose wird in 80 Prozent der Fälle ein steifes Gelenk beobachtet: $P(S \mid A) = 0.8$
--   Eine von 10.000 Personen hat Arthrose: $P(A) = 0.0001$
--   Eine von 10 Personen hat ein steifes Gelenk: $P(S) = 0.1$
-
-$\to$ Ich habe ein steifes Gelenk. Habe ich Arthrose?
-
-##### Textklassifikation mit NB
-
--   Mails, manuell markiert:
-    -   D1: ("Sieben Zwerge fraßen sieben Ziegen", OK)
-    -   D2: ("Sieben Ziegen traten sieben Wölfe", SPAM)
-    -   D3: ("Sieben Wölfe fraßen sieben Böcke", OK)
-    -   D4: ("Sieben Böcke traten sieben Zwerge", SPAM)
-
-<!-- -->
-
--   Neue Mails:
-    -   T1: ("Sieben Zwerge fraßen sieben Wölfe")
-    -   T2: ("Sieben Zwerge traten sieben Ziegen")
-
-Lernen Sie mit Hilfe der Trainingsmenge einen Naive-Bayes-Klassifikator und wenden Sie diesen auf die beiden Test-Dokumente an.
-
-##### Naive Bayes
-
--   Verallgemeinerte Bayes Regel $$P(H \mid D_1, \ldots, D_n) = \frac{P(D_1, \ldots, D_n \mid H)P(H)}{P(D_1, \ldots, D_n)}$$
-
--   Annahme: $D_i$ sind bedingt unabhängig $$P(D_1, \ldots, D_n \mid H) = P(D_1 \mid H) \cdot \ldots \cdot P(D_n \mid H) = \prod_i P(D_i \mid H)$$
-
--   Beobachtung: $P(D_1, \ldots, D_n)$ für alle Hypothesen $h \in H$ gleich
-
-<!-- -->
-
--   **Naive Bayes Klassifikator** bzw. **MAP** ("Maximum a Posteriori") $$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n)
-    = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$$
-
-    Naive Bayes: Wähle die plausibelste Hypothese, die von den Daten unterstützt wird.
-
-##### Bayes'sches Lernen
-
-**Naive Bayes Klassifikator**/**MAP**:
-
-$$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n)
-= \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$$
-
-**Training**: Bestimme die Wahrscheinlichkeiten aus Trainingsdaten $\mathbf{S}$
-
--   Für jede Klasse $h$:
-    -   Schätze $P(h) = \dfrac{\lvert S(h) \rvert}{\lvert S \rvert}$
-    -   Für jedes Attribut $D_i$ und jede Ausprägung $x \in D_i$: Schätze $P(D_i=x \mid h) = \dfrac{\lvert S_{D_i}(x) \cap S(h) \rvert}{\lvert S(h) \rvert}$
-
-**Klassifikation**: Wähle wahrscheinlichste Klasse $h_{MAP}$ für Vektor $\mathbf{x}$
-
--   $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{x \in \mathbf{x}} P(x \mid h)$
-
-##### Beispiel Klassifikation mit NB
-
-| Nase läuft | Husten | Gerötete Haut | Fieber | Klasse |
-|------------|--------|---------------|--------|--------|
-| 1          | 1      | 1             | 0      | krank  |
-| 1          | 1      | 0             | 0      | krank  |
-| 0          | 0      | 1             | 1      | krank  |
-| 1          | 0      | 0             | 0      | gesund |
-| 0          | 0      | 0             | 0      | gesund |
-
--   Eingabe: Person mit Husten und Fieber
-
-Gesucht: $P(\text{krank})$, $P(\text{gesund})$, $P(\text{Nase=0} \mid \text{krank})$, $P(\text{Nase=0} \mid \text{gesund})$, ...
-
-Wähle Klasse $$\begin{eqnarray}
-h_{MAP} = \mathop{\text{argmax}}_{h \in \lbrace \text{gesund, krank} \rbrace} & P(h) \cdot P(\text{Nase=0} \mid h) \cdot P(\text{Husten=1} \mid h) \\
-    & \cdot P(\text{Haut=0} \mid h) \cdot P(\text{Fieber=1} \mid h)
-\end{eqnarray}$$
-
-**Ergebnis**: (nur die für den zu klassifizierenden Beispiel-Vektor nötigen Werte, die restlichen müssten aber auch beim "Training" berechnet werden!)
-
-    P(gesund) = 2/5 = 0.4
-    P(krank)  = 3/5 = 0.6
-
-    P(Nase=0 | gesund) = 1/2 = 0.5
-    P(Nase=0 | krank)  = 1/3 = 0.333
-
-    P(Husten=1 | gesund) = 0/2 = 0
-    P(Husten=1 | krank)  = 2/3 = 0.667
-
-    P(Haut=0 | gesund) = 2/2 = 1
-    P(Haut=0 | krank)  = 1/3 = 0.333
-
-    P(Fieber=1 | gesund) = 0/2 = 0
-    P(Fieber=1 | krank)  = 1/3 = 0.333
-
-    h = gesund: P(gesund) * P(Nase=0 | gesund) * P(Husten=1 | gesund) * P(Haut=0 | gesund) * P(Fieber=1 | gesund) = 0.4*0.5*0*1*0              = 0
-    h = krank:  P(krank)  * P(Nase=0 | krank)  * P(Husten=1 | krank)  * P(Haut=0 | krank)  * P(Fieber=1 | krank)  = 0.6*0.333*0.667*0.33*0.333 = 0.015
-
-$\to$ Klasse "krank" gewinnt (Wert für $P(\text{krank})$ ist der höchste der beiden Hypothesen) ...
-
-##### Textklassifikation mit NB
-
--   Texte als Trainingsmenge:
-    -   Text zerlegen in Terme (Wörter, sonstige relevante Token)
-    -   ggf. Entfernen von Stoppwörtern (beispielsweise Artikel u.ä.)
-    -   ggf. Stemming und Lemmatisierung für restliche Terme
-    -   ggf. weitere Vorverarbeitungsschritte (Groß-Klein-Schreibung, ...)
-    -   Terme zusammenfassen als Menge: *"Bag of Words"* (mit Häufigkeit)
-
-<!-- -->
-
--   Naive Bayes "trainieren":
-    -   A-priori-Wahrscheinlichkeit der Klassen: $P(c) = \dfrac{N_c}{N} = \dfrac{\text{Anzahl Dokumente in Klasse c}}{\text{Anzahl Dokumente}}$
-
-    <!-- -->
-
-    -   Likelihood der Daten (Terme):
-        -   $P(t \mid c) = \dfrac{\mathop{\text{count}}(t,c)}{\sum_{v \in V} \mathop{\text{count}}(v,c)}$ mit $\mathop{\text{count}}(t,c)$ Anzahl der Vorkommen von Term $t$ in allen Dokumenten der Klasse $c$ und $V$ die Vereinigung aller Terme aller Dokumente (als Menge)
-
-        <!-- -->
-
-        -   Variante mit Laplace-Glättung (s.u.): $P(t \mid c) = \dfrac{\mathop{\text{count}}(t,c) + 1}{\sum_{v \in V} \mathop{\text{count}}(v,c) + \lvert V \rvert}$
-
-##### Naivität im Naive Bayes
-
--   Unabhängigkeit der Attribute oft nicht gegeben
-
-    $\to$ $P(D_1, \ldots, D_n \mid H) \ne \prod_i P(D_i \mid H)$
-
--   A-posteriori-Wahrscheinlichkeiten oft unrealistisch nah an 1 oder 0
-
-<!-- -->
-
--   Praxis: Dennoch häufig sehr gute Ergebnisse
-
-    Wichtig: Solange die **Maximierung** über alle Hypothesen die selben Ergebnisse liefert, müssen die konkreten Schätzungen/Werte nicht exakt stimmen ...
-
-Wenn Attribute nicht (bedingt) unabhängig sind, kann sich der NB verschätzen, d.h. es kommt dann u.U. zu einer höheren Fehlerrate, da bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
-
-> [!TIP]
->
-> ###### Beispiel
->
-> ####### Gegebene Daten
->
-> Seien die beiden Merkmale $x_1$ und $x_2$ mit den folgenden Verteilungen gegeben:
->
-> -   Klassen: $H \in \lbrace 0, 1 \rbrace$, $P(H = 0) = P(H = 1) = 0.5$
-> -   Bedingte Verteilungen $P(x_1, x_2 \mid H)$:
->     -   Für $H = 0$:
->         -   $P(x_1=0, x_2=0 \mid 0) = 0.30$
->         -   $P(x_1=0, x_2=1 \mid 0) = 0.35$
->         -   $P(x_1=1, x_2=0 \mid 0) = 0.15$
->         -   $P(x_1=1, x_2=1 \mid 0) = 0.20$
->     -   Für $H = 1$:
->         -   $P(x_1=0, x_2=0 \mid 1) = 0.00$
->         -   $P(x_1=0, x_2=1 \mid 1) = 0.30$
->         -   $P(x_1=1, x_2=0 \mid 1) = 0.65$
->         -   $P(x_1=1, x_2=1 \mid 1) = 0.05$
->
-> ####### Analyse der gegebenen Daten
->
-> Die Merkmale $x_1$ und $x_2$ sind *nicht* bedingt abhängig gegeben $H$.
->
-> Erinnerung: Zwei Ereignisse $X$ und $Y$ sind bedingt unabhängig gegeben $Z$, wenn gilt $P(X,Y \mid Z) = P(X \mid Y,Z)P(Y \mid Z) = P(X \mid Z)P(Y \mid Z)$.
->
-> Wir haben aber im Fall von $H=1$:
->
-> -   $P(x_1=0, x_2=0 \mid 1) = 0.00$ vs. $P(x_1=0 \mid 1) P(x_2=0 \mid 1) = (0.00+0.30) * (0.00+0.65) = 0.30 * 0.65 = 0.195$
-> -   $P(x_1=0, x_2=1 \mid 1) = 0.30$ vs. $P(x_1=0 \mid 1) P(x_2=1 \mid 1) = (0.00+0.30) * (0.30+0.05) = 0.30 * 0.35 = 0.105$
-> -   $P(x_1=1, x_2=0 \mid 1) = 0.65$ vs. $P(x_1=1 \mid 1) P(x_2=0 \mid 1) = (0.65+0.05) * (0.00+0.65) = 0.70 * 0.65 = 0.455$
-> -   $P(x_1=1, x_2=1 \mid 1) = 0.05$ vs. $P(x_1=1 \mid 1) P(x_2=1 \mid 1) = (0.65+0.05) * (0.30+0.05) = 0.70 * 0.35 = 0.245$
->
-> (analog für $H=0$)
->
-> Damit bekommen wir im Naive Bayes Klassifikator ein Problem. Dort wird von bedingt unabhängigen Merkmalen ausgegangen und deshalb die Vereinfachung von $P(x_1, x_2 \mid H)$ zu $P(x_1 \mid H) P(x_2 \mid H)$ vorgenommen. Da die Annahme nicht stimmt, werden die Merkmale falsch gewichtet und es kann zu Fehlklassifikationen kommen.
->
-> ####### Klassifikation einer Beobachtung
->
-> Wir machen nun die folgende Beobachtung: $X = (x_1=1, x_2=1)$.
->
-> Die nötigen Marginalisierungen aus den Trainingsdaten für diese Beobachtung sind:
->
-> -   Für $H = 0$: $P(x_1=1 \mid 0) = 0.15 + 0.20 = 0.35$, $P(x_2=1 \mid 0) = 0.35 + 0.20 = 0.55$
-> -   Für $H = 1$: $P(x_1=1 \mid 1) = 0.65 + 0.05 = 0.70$, $P(x_2=1 \mid 1) = 0.30 + 0.05 = 0.35$
->
-> Anwendung der Naive Bayes Klassifikation (mit Annahme bedingt unabhängige Merkmale): Wir nutzen $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$ und setzen unsere beiden Merkmale ein: $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1 \mid h) P(x_2 \mid h)$.
->
-> Damit bekommen wir folgende Entscheidung:
->
-> -   $H=0: 0.5 * 0.35 * 0.55 = 0.09625$
-> -   $H=1: 0.5 * 0.70 * 0.35 = 0.1225$
-> -   Entscheidung für Klasse $H=1$
->
-> Da die Merkmale nicht unabhängig sind, darf die Produktannahme nicht verwendet werden, sondern wir müssten eigentlich den Term $P(x_1, x_2 \mid h)$ nutzen: $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 \mid h)$.
->
-> Aus den gegebenen Daten haben wir (einfach oben ablesen):
->
-> -   $P(x_1=1, x_2=1 \mid 0) = 0.20$
-> -   $P(x_1=1, x_2=1 \mid 1) = 0.05$
->
-> Eingesetzt in die Formel $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 \mid h)$:
->
-> -   $H=0: 0.5 * 0.20 = 0.10$
-> -   $H=1: 0.5 * 0.05 = 0.025$
-> -   Entscheidung für Klasse $H=0$
->
-> D.h. der Naive Bayes Klassifikator würde hier $H=1$ vorschlagen, während der korrekte Posterior für $H=0$ spricht.
->
-> ####### Interpretation
->
-> In diesem konstruierten Beispiel führt die Abhängigkeit der Merkmale zu einer Fehlkalibrierung der Posterior-Wahrscheinlichkeiten durch NB und damit zu einer falschen Klassifikation. In der Realität erweist sich der NB trotzdem relativ robust gegenüber der Abhängigkeit von Merkmalen: Durch die Korrelation kommen häufig A-posteriori-Wahrscheinlichkeiten nahe 0 oder nahe 1 heraus, aber da es nur auf das Maximum und nicht auf den konkreten Wert ankommt, erhält man häufig trotzdem noch eine korrekte Klassifikation.
-
-##### Laplace-Schätzer
-
--   Problem: Attribut-Ausprägung für bestimmte Klasse nicht in Trainingsmenge:
-    -   $\to$ Bedingte Wahrscheinlichkeit ist 0
-    -   $\to$ Produkt gleich 0
-
-<!-- -->
-
--   Lösung: "Laplace-Schätzer" (auch "Laplace-Glättung")
-
-    Statt $P(D_i=x \mid h) = \dfrac{\lvert S_{D_i}(x) \cap S(h) \rvert}{\lvert S(h) \rvert}$
-
-    nutze $P(D_i=x \mid h) = \dfrac{\lvert S_{D_i}(x) \cap S(h) \rvert + m \cdot p_i}{\lvert S(h) \rvert + m}$
-
-    -   mit $m$: frei wählbarer Faktor, und
-
-    -   $p_i$: A-priori-Wahrscheinlichkeit für $P(D_i=x \mid h)$
-
-        Hintergrundwissen oder einfach *uniforme Verteilung der Attributwerte*: $p_i = 1/\lvert D_i \rvert$ (Wahrscheinlichkeit für eine Attributausprägung ist 1/(Anzahl der Ausprägungen des Attributs))
-
-    $\to$ "virtuelle" Trainingsbeispiele ($m$ ist die Zahl der virtuellen Trainingsbeispiele)
-
-##### Probleme mit Floating Point Underflow
-
--   MAP berechnet Produkt mit vielen Termen
--   Problem: Bei kleinen Zahlen kann **Floating Point Underflow** auftreten!
-
-<!-- -->
-
--   Lösung: Logarithmus maximieren (Produkt geht in Summe über)
-
-    Erinnerung: $\log(x \cdot y) = \log(x) + \log(y)$ und Logarithmus streng monoton
-
-    $$\begin{eqnarray}
-    h_{MAP} &=& \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n) \\[5pt]
-            &=& \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h) \\[5pt]
-            &=& \mathop{\text{argmax}}_{h \in H} \: [\log(P(h)) + \sum_i \log(P(D_i \mid h))]
-    \end{eqnarray}$$
-
-##### Maximum Likelihood
-
--   **Maximum a Posteriori** $$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n)
-    = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$$
-
-<!-- -->
-
--   Annahme: Klassen uniform verteilt $\to$ $P(h_i) = P(h_j)$
-
-    **Maximum Likelihood** $$h_{ML} = \mathop{\text{argmax}}_{h \in H} \: \prod_i P(D_i \mid h)$$
-
-    $\to$ Maximiere die Likelihood der Daten
-
-##### Ausblick: Kontinuierliche Attribute
-
-Bisher sind wir von diskreten Attributen ausgegangen. Bei kontinuierlichen Attributen hat man zwei Möglichkeiten:
-
--   Diskretisierung der Attribute: Aufteilung in Intervalle und Bezeichnung der Intervalle mit einem Namen
--   Einsatz einer Verteilungsannahme und deren Dichtefunktion, beispielsweise Annahme von **normalverteilten** Daten mit der Dichtefunktion $$f(x) = \frac{1}{\sqrt{2 \pi \sigma}} e^{- \frac{(x - \mu)^2}{2 \sigma^2}}$$ wobei $\mu$ der Mittelwert und $\sigma^2$ die Varianz der Daten sind.
-
-##### Hinweis zum Sprachgebrauch
-
-In Abhängigkeit von der Verteilung der $P(D_i \mid h)$ spricht man von
-
--   "multinominalem" NB: Attribute umfassen mehrere Kategorien (verschiedene Ausprägungen, wie im "Wahlkampf"-Beispiel: Attribut "Bildung" hat die Ausprägungen "Abitur", "Bachelor" und "Master")
--   Bernoulli NB: Attribute sind binär (Ausprägung 0 oder 1), typischerweise bei der Textklassifikation
--   Gauss'sches NB: Annahme einer Normalverteilung der Attribut-Ausprägungen
-
-##### Wrap-Up
-
--   Klassifikation mit Naive Bayes
-    -   Annahme von Unabhängigkeit $\to$ "Naive" Bayes Klassifikation
-    -   Schätzen der bedingten Wahrscheinlichkeiten aus den Trainingsdaten
-    -   Klassifikation durch Nutzung der geschätzten Wahrscheinlichkeiten
-    -   Hinweis auf Naivität der Annahme, dennoch sehr gute Erfolge in Praxis
-    -   Hinweis auf Probleme mit niedrigen Wahrscheinlichkeiten
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>📖 Zum Nachlesen</strong></summary>
->
-> Lesen Sie in ([Russell und Norvig 2021](#ref-Russell2021)) bitte den Abschnitt 12.6 "Naive Bayes Models". Darüber hinaus ist Abschnitt "8.10 Der Naive Bayes Klassifikator" ([Ertel 2025](#ref-Ertel2025)) sehr empfehlenswert.
->
-> </details>
-
-> [!NOTE]
->
-> <details >
-> <summary><strong>✅ Lernziele</strong></summary>
->
-> -   k2: Ich kann die Unabhängigkeits-Annahme in der 'Naive' Bayes Klassifikation erklären
-> -   k2: Ich kann die Probleme mit niedrigen Wahrscheinlichkeiten erklären
-> -   k3: Ich kann die bedingten Wahrscheinlichkeiten aus konkreten Trainingsdaten schätzen
-> -   k3: Ich kann die Klassifikation mit Naive Bayes durch Nutzung der geschätzten Wahrscheinlichkeiten durchführen
->
-> </details>
-
-> [!TIP]
->
-> <details >
-> <summary><strong>🧩 Quizzes</strong></summary>
->
-> -   [Selbsttest Naive Bayes Klassifikation (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106588&client_id=FH-Bielefeld)
->
-> </details>
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🏅 Challenges</strong></summary>
->
-> **Spam-Mails**
->
-> Stellen Sie sich vor, Sie haben eine Sammlung von 100 E-Mails (60 Spam, 40 Nicht-Spam). Sie wissen, dass das Wort "Gewinn" in 45 Spam-E-Mails und in 5 Nicht-Spam-E-Mails vorkommt.
->
-> 1.  Berechnen Sie die Wahrscheinlichkeit, dass es eine E-Mail Spam ist, wenn das Wort "Gewinn" darin vorkommt.
->
-> 2.  Wie würde die E-Mail mit dem Wort "Gewinn" durch einen Naive Bayes Klassifikator bewertet?
->
-> **Textklassifikation**
->
-> Betrachten Sie die folgenden Aussagen:
->
-> > -   Patient A hat weder Husten noch Fieber und ist gesund.
-> > -   Patient B hat Husten, aber kein Fieber und ist gesund.
-> > -   Patient C hat keinen Husten, aber Fieber. Er ist krank.
-> > -   Patient D hat Husten und kein Fieber und ist krank.
-> > -   Patient E hat Husten und Fieber. Er ist krank.
->
-> Aufgaben:
->
-> 1.  Trainieren Sie auf diesem Datensatz einen Klassifikator mit NB.
-> 2.  Ist Patient F krank? Er hat Husten, aber kein Fieber.
->
-> </details>
-
-<a id="id-6e322bc628d8ff7a4faa38fa42a09770217ab4fb"></a>
-
-#### NB3: Text-Klassifikation mit Naive Bayes
-
-> [!IMPORTANT]
->
-> <details open>
-> <summary><strong>🎯 TL;DR</strong></summary>
->
-> Der NB-Klassifikator wird gern für die Textklassifikation eingesetzt. Hier muss man einem Text ein Label zuordnen.
->
-> In einer Vorverarbeitung wird zunächst eine Menge der relevanten Wörter über alle Trainingstexte gebildet (*Bag-of-Words*). Der Bag-of-Words entspricht einem Merkmalsvektor, wobei die Merkmale die einzelnen Wörter sind. Dann kann jeder Text der Trainingsmenge über so einen Merkmalsvektor dargestellt werden: Entweder man gibt pro Merkmal an, ob es da (1) oder nicht da (0) ist (Variante Bernoulli NB) oder man zählt die Häufigkeit des Auftretens der Merkmale (Variante Multinomial NB). Dann kann man mit dem NB-Klassifikator die bedingten Wahrscheinlichkeiten schätzen und einen neuen Text klassifizieren.
->
-> Bei beiden Varianten hat man das Problem mit Termen, die für eine Klasse im Training nicht vorkommen (Zero-Frequency-Problem). Dabei werden die geschätzten Wahrscheinlichkeiten zu 0, wodurch bei der Verwendung in der Klassifikation entsprechend die Scores ebenfalls zu 0 berechnen und eine sinnvolle Klassifikation nicht möglich ist. Diesem Problem kann man durch die Laplace-Glättung begegnen, welche wie künstliche Trainingsdaten wirkt.
->
-> Wenn im zu klassifizierenden Testdatensatz Wörter vorkommen, die nicht beim Training vorhanden waren, spricht man auch vom "Out-of-Vocabulary"-Problem. Am einfachsten lässt sich dieses Problem lösen, indem man bereits beim Training einen "UNK"-Term trainiert (UNK steht für "unknown"). Bei der Klassifikation werden OOV-Terme einfach auf den UNK-Term abgebildet und die dafür berechneten Wahrscheinlichkeiten genutzt.
->
-> </details>
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>🎦 Videos</strong></summary>
->
-> Vorlesung \[[YT](https://youtu.be/h12_CoLqcNY)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-nb3-text-klassifikation-mit-naive-bayes/5b99952a5479cfea41436399f55b0655/251)\]
->
-> </details>
-
-##### Textklassifikation mit NB
-
--   Trainingsdaten: Mails, manuell markiert:
-    -   D1: ("Die sieben Zwerge fraßen die sieben Ziegen", OK)
-    -   D2: ("Die sieben Ziegen traten die sieben Wölfe", SPAM)
-    -   D3: ("Die sieben Wölfe fraßen die sieben Böcke", OK)
-    -   D4: ("Die sieben Böcke traten die sieben Zwerge", OK)
-
-<!-- -->
-
--   Testdaten (neue Mails):
-    -   T1: ("Die sieben Zwerge fraßen die sieben Wölfe")
-
-Lernen Sie mit Hilfe der Trainingsmenge einen Naive-Bayes-Klassifikator und wenden Sie diesen auf die Test-Dokumente an.
-
-##### Vorverarbeitung
-
--   Vereinheitlichung: Kleinbuchstaben
-
--   **Tokenisierung**: Aufteilung auf einzelne Wörter
-
-    Manchmal gar nicht so einfach: Wie viele Wörter sind "aren't"?
-
--   **Stop Words** entfernen: "der", "die", "das", ...
-
-    Artikel und Füllwörter enthalten oft keine wirkliche Information für die Klassifikationsaufgabe und werden deshalb entfernt.
-
-    Dabei am besten auch Zeichensetzung mit entfernen.
-
--   **Lemmatisierung**: "fraßen" $\to$ "fressen", "Wölfe" $\to$ "Wolf", ...
-
-    Die Wörter werden auf ihre "Grundform" gebracht: gebeugte Verben durch den Infinitiv ersetzt oder Plurale durch den Singular ersetzt etc. Erfolgt häufig mit Hilfe von Wörterbüchern.
-
--   **Synonyme, Homonyme, Akronyme** ersetzen
-
-    Synonyme: Verschiedene Wörter mit selber/ähnlicher Bedeutung: "Fahrstuhl", "Lift"
-
-    Homonyme: Wort mit unterschiedlicher Bedeutung: "Bank" (Sitzgelegenheit, Geldinstitut)
-
-    Akronyme: Abkürzungen: "SPO"
-
--   **Stemming**
-
-    Wörter auf ihre "Grundform" zurückbringen durch Abschneiden: Aus "closed" oder "closing" würde "clos" als gemeinsame Form. Eine etwas krude Variante der Lemmatisierung.
-
--   **Terme**: Die erhaltenen Wörter nennen wir "Terme".
-
-##### Merkmalsvektor: Bag of Words
-
-Nach Vorverarbeitung:
-
--   Trainingsdaten (**Terme**):
-    -   D1: (sieben, zwerg, fressen, sieben, ziege; OK)
-    -   D2: (sieben, ziege, treten, sieben, wolf; SPAM)
-    -   D3: (sieben, wolf, fressen, sieben, bock; OK)
-    -   D4: (sieben, bock, treten, sieben, zwerg; OK)
--   Testdaten (**Terme**):
-    -   T1: (sieben, zwerg, fressen, sieben, wolf)
-
-**Vokabular**: V = {sieben, zwerg, fressen, ziege, treten, wolf, bock}
-
-**Bag of Words**: Merkmalsvektor mit fester Anordnung des Vokabulars
-
-##### Bag of Words für Trainingsdaten
-
-|     | sieben | zwerg | fressen | ziege | treten | wolf | bock | Klasse |
-|:----|:-------|:------|:--------|:------|:-------|:-----|:-----|:-------|
-| D1  | 2      | 1     | 1       | 1     | 0      | 0    | 0    | OK     |
-| D2  | 2      | 0     | 0       | 1     | 1      | 1    | 0    | SPAM   |
-| D3  | 2      | 0     | 1       | 0     | 0      | 1    | 1    | OK     |
-| D4  | 2      | 1     | 0       | 0     | 1      | 0    | 1    | OK     |
-
-Im *Bag of Words* (BoW) bekommt jeder Term des Vokabulars einen festen Platz. Die Trainingsdaten und die Testdaten können nun mit Hilfe dieses Vektors dargestellt werden, indem für jeder Term im BoW die Anzahl der Vorkommen im Trainings- oder Testvektor gezählt wird ("*Multinomial NB*").
-
-Es gibt auch die einfachere Form, die lediglich das Vorkommen vermerkt, also mit 0 und 1 arbeitet und nicht durchzählt ("*Bernoulli NB*", s.u.).
-
-##### Naive Bayes Training (Multinomial NB)
-
-Bei Multinomial NB zählen wir die Häufigkeiten der Vorkommen der einzelnen Terme in den einzelnen Dokumenten der jeweiligen Klasse.
-
-Nachfolgend sind die entsprechenden Häufigkeiten im Trainingsdatensatz zusammengefasst dargestellt.
-
-| Klasse | sieben | zwerg | fressen | ziege | treten | wolf | bock | Anzahl Wörter | Anzahl Dokumente |
-|:------|:------|:-----|:------|:-----|:------|:-----|:-----|:----------|:-----------|
-| OK     | 6      | 2     | 2       | 1     | 1      | 1    | 2    | 15            | 3                |
-| SPAM   | 2      | 0     | 0       | 1     | 1      | 1    | 0    | 5             | 1                |
-
-Für die Terme ist jeweils die Gesamt-Anzahl des Vorkommens des Terms in den Dokumenten der jeweiligen Klasse angegeben.
-
-Naive Bayes "trainieren"
-
--   A-priori-Wahrscheinlichkeit der Klassen: $P(c) = \dfrac{N_c}{N} = \dfrac{\text{Anzahl Dokumente in Klasse c}}{\text{Anzahl Dokumente}}$
-
--   Likelihood der Daten (Terme): $P(t \mid c) = \dfrac{\mathop{\text{count}}(t,c)}{\sum_{v \in V} \mathop{\text{count}}(v,c)}$ mit $\mathop{\text{count}}(t,c)$ Anzahl der Vorkommen von Term $t$ in allen Dokumenten der Klasse $c$ und $V$ die Vereinigung aller Terme aller Dokumente (Vokabular)
-
-<!-- -->
-
--   A-priori-Wahrscheinlichkeit:
-    -   $P(\text{OK}) = 3/4 = 0.75$
-    -   $P(\text{SPAM}) = 1/4 = 0.25$
--   Likelihood:
-    -   $P(\text{sieben} \mid \text{OK})$ $= (2+2+2)/(2+2+2+1+1+1+1+1+1+1+1+1)$ $= 6/15 = 0.40$
-    -   $P(\text{sieben} \mid \text{SPAM})$ $= (2)/(2+1+1+1) = 2/5 = 0.40$
-    -   $P(\text{zwerg} \mid \text{OK}) = 2/15 = 0.133$
-    -   $P(\text{zwerg} \mid \text{SPAM}) = 0/5 = 0.00$
-    -   $P(\text{fressen} \mid \text{OK}) = 2/15 = 0.133$
-    -   $P(\text{fressen} \mid \text{SPAM}) = 0/5 = 0.00$
-    -   $P(\text{ziege} \mid \text{OK}) = 1/15 = 0.067$
-    -   $P(\text{ziege} \mid \text{SPAM}) = 1/5 = 0.20$
-    -   $P(\text{treten} \mid \text{OK}) = 1/15 = 0.067$
-    -   $P(\text{treten} \mid \text{SPAM}) = 1/5 = 0.20$
-    -   $P(\text{wolf} \mid \text{OK}) = 1/15 = 0.067$
-    -   $P(\text{wolf} \mid \text{SPAM}) = 1/5 = 0.20$
-    -   $P(\text{bock} \mid \text{OK}) = 2/15 = 0.133$
-    -   $P(\text{bock} \mid \text{SPAM}) = 0/5 = 0.00$
-
-##### Naive Bayes Klassifikation (Multinomial NB)
-
-$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{x \in \mathbf{x}} P(x \mid h)$
-
-Jedes Vorkommen eines Wortes im Testdatensatz ist ein $x$!
-
-$$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{w \in \mathbf{V}:\,\mathop{\text{count}}(w)>0} P(w \mid h)^{\mathop{\text{count}}(w)}$$
-
-T1: (sieben, zwerg, fressen, sieben, wolf)
-
--   **h = OK**: $P(\text{OK}) \cdot P(\text{sieben} \mid \text{OK})^2 \cdot P(\text{zwerg} \mid \text{OK})^1 \cdot P(\text{fressen} \mid \text{OK})^1 \cdot P(\text{ziege} \mid \text{OK})^0 \cdot P(\text{treten} \mid \text{OK})^0 \cdot P(\text{wolf} \mid \text{OK})^1 \cdot P(\text{bock} \mid \text{OK})^0$ $= 0.75*0.40*0.40*0.133*0.133*1*1*0.067*1 = 0.00014221956$
-
--   **h = SPAM**: $P(\text{SPAM}) \cdot P(\text{sieben} \mid \text{SPAM})^2 \cdot P(\text{zwerg} \mid \text{SPAM})^1 \cdot P(\text{fressen} \mid \text{SPAM})^1 \cdot P(\text{ziege} \mid \text{SPAM})^0 \cdot P(\text{treten} \mid \text{SPAM})^0 \cdot P(\text{wolf} \mid \text{SPAM})^1 \cdot P(\text{bock} \mid \text{SPAM})^0$ $= 0.25*0.40*0.40*0.00*0.00*1*1*0.20*1 = 0.00$
-
-Entscheidung: OK
-
-> [!TIP]
->
-> **Hinweis**: $P(w \mid h)^{\mathop{\text{count}}(w)}$ muss so gelesen werden:
->
-> -   Wenn ein Term $w$ ein- oder mehrfach im Testvektor vorkommt, wird die zugehörige Likelihood entsprechend ein- bzw. mehrfach multipliziert.
-> -   Wenn ein Term $w$ nicht im Testvektor vorhanden ist ($\mathop{\text{count}}(w) = 0$), verschwindet die Likelihood und es wird automatisch ein Faktor 1 aufmultipliziert. Alternativ lässt man alle Terme mit $\mathop{\text{count}}(w) = 0$ einfach in der Formel weg.
->
-> Nur tatsächlich vorhandene Terme im Testvektor ($\mathop{\text{count}}(w) > 0$) zahlen in das Ergebnis ein.
->
-> Wenn die Likelihood eines Terms 0 ist (Zero-Frequency-Problem), dann wird der gesamte Ausdruck zu 0. Durch die beschriebene Lesart von $P(w \mid h)^{\mathop{\text{count}}(w)}$ ergibt sich dann bei $\mathop{\text{count}}(w) = 0$ auch kein $0^0$-Problem, weil die Likelihood gar nicht erst ausgewertet wird bzw. automatisch mit 1 ersetzt wurde. Dies ist eine Art Implementierungsdetail (rein mathematisch lässt sich das so nicht ablesen)!
-
-**Beobachtungen**:
-
-1.  Viele kleine Faktoren ergeben ein immer kleineres Produkt $\to$ Logarithmus nutzen und Übergang zu Summe statt Produkt!
-2.  Im Trainingsdatensatz nicht vorhandene Terme bei einer Klasse führen zu einem Faktor 0 (Zero-Frequency-Problem), wodurch der gesamte Score 0 wird. $\to$ Laplace-Glättung einsetzen!
-3.  Im Testdatensatz nicht vorhandene Terme des Vokabulars werden automatisch ignoriert, da der *count* 0 ist und als Exponent verwendet den neutralen Faktor 1 ergibt.
-
-##### Naive Bayes mit Laplace-Glättung (Multinomial NB)
-
-$$P(t \mid c) = \dfrac{\mathop{\text{count}}(t,c) + \alpha}{\sum_{v \in V} \mathop{\text{count}}(v,c) + \alpha \cdot \lvert V \rvert},
-\quad \text{ bei Laplace: } \alpha = 1$$
-
--   A-priori-Wahrscheinlichkeit:
-    -   $P(\text{OK}) = 3/4 = 0.75$
-    -   $P(\text{SPAM}) = 1/4 = 0.25$
--   Likelihood:
-    -   $P(\text{sieben} \mid \text{OK})$ $= (2+2+2+\mathbf{1})/(2+2+2+1+1+1+1+1+1+1+1+1+\mathbf{7})$ $= 7/22 = 0.318$ (vorher: 0.40)
-    -   $P(\text{sieben} \mid \text{SPAM})$ $= (2+\mathbf{1})/(2+1+1+1+\mathbf{7})$ $= 3/12 = 0.25$ (vorher: 0.40)
-    -   $P(\text{zwerg} \mid \text{OK}) = (2+\mathbf{1})/(15+\mathbf{7}) = 0.136$ (vorher: 0.133)
-    -   $P(\text{zwerg} \mid \text{SPAM}) = (0+\mathbf{1})/(5+\mathbf{7}) = 0.083$ (vorher: **0.00**)
-    -   $P(\text{fressen} \mid \text{OK}) = (2+\mathbf{1})/(15+\mathbf{7}) = 0.136$ (vorher: 0.133)
-    -   $P(\text{fressen} \mid \text{SPAM}) = (0+\mathbf{1})/(5+\mathbf{7}) = 0.083$ (vorher: **0.00**)
-    -   $P(\text{ziege} \mid \text{OK}) = (1+\mathbf{1})/(15+\mathbf{7}) = 0.091$ (vorher: 0.067)
-    -   $P(\text{ziege} \mid \text{SPAM}) = (1+\mathbf{1})/(5+\mathbf{7}) = 0.167$ (vorher: 0.20)
-    -   $P(\text{treten} \mid \text{OK}) = (1+\mathbf{1})/(15+\mathbf{7}) = 0.091$ (vorher: 0.067)
-    -   $P(\text{treten} \mid \text{SPAM}) = (1+\mathbf{1})/(5+\mathbf{7}) = 0.167$ (vorher: 0.20)
-    -   $P(\text{wolf} \mid \text{OK}) = (1+\mathbf{1})/(15+\mathbf{7}) = 0.091$ (vorher: 0.067)
-    -   $P(\text{wolf} \mid \text{SPAM}) = (1+\mathbf{1})/(5+\mathbf{7}) = 0.167$ (vorher: 0.20)
-    -   $P(\text{bock} \mid \text{OK}) = (2+\mathbf{1})/(15+\mathbf{7}) = 0.136$ (vorher: 0.133)
-    -   $P(\text{bock} \mid \text{SPAM}) = (0+\mathbf{1})/(5+\mathbf{7}) = 0.083$ (vorher: **0.00**)
-
-T1: (sieben, zwerg, fressen, sieben, wolf)
-
--   **h = OK**: $P(\text{OK}) \cdot P(\text{sieben} \mid \text{OK})^2 \cdot P(\text{zwerg} \mid \text{OK})^1 \cdot P(\text{fressen} \mid \text{OK})^1 \cdot P(\text{ziege} \mid \text{OK})^0 \cdot P(\text{treten} \mid \text{OK})^0 \cdot P(\text{wolf} \mid \text{OK})^1 \cdot P(\text{bock} \mid \text{OK})^0$ $= 0.75*0.318*0.318*0.136*0.136*1*1*0.091*1 = 0.0001276540836$ (vorher: 0.00014221956)
-
--   **h = SPAM**: $P(\text{SPAM}) \cdot P(\text{sieben} \mid \text{SPAM})^2 \cdot P(\text{zwerg} \mid \text{SPAM})^1 \cdot P(\text{fressen} \mid \text{SPAM})^1 \cdot P(\text{ziege} \mid \text{SPAM})^0 \cdot P(\text{treten} \mid \text{SPAM})^0 \cdot P(\text{wolf} \mid \text{SPAM})^1 \cdot P(\text{bock} \mid \text{SPAM})^0$ $= 0.25*0.25*0.25*0.083*0.083*1*1*0.167*1 = 0.00001797598438$ (vorher: **0.00**)
-
-Entscheidung: OK
-
-**Beobachtungen**:
-
-Laplace-Glättung führt zu leicht veränderten Schätzungen, die Berechnung der Scores erscheint aber plausibler (keine Probleme durch Zero-Frequency-Terme im Training mehr).
-
-##### Naive Bayes mit Out-of-Vocabulary-Termen (OOV, Multinomial NB)
-
-Was passiert, wenn bei der Klassifikation eines Testvektors Wörter vorkommen, die es beim Training nicht gab?
-
-T1: (sieben, zwerg, fressen, sieben, wolf, **lecker**)
-
--   **h = OK**: $P(\text{OK}) \cdot P(\text{sieben} \mid \text{OK})^2 \cdot P(\text{zwerg} \mid \text{OK})^1 \cdot P(\text{fressen} \mid \text{OK})^1 \cdot P(\text{ziege} \mid \text{OK})^0 \cdot P(\text{treten} \mid \text{OK})^0 \cdot P(\text{wolf} \mid \text{OK})^1 \cdot P(\text{bock} \mid \text{OK})^0$ $\cdot \mathbf{P(\text{lecker} \mid \text{OK})^1}$
-
--   **h = SPAM**: $P(\text{SPAM}) \cdot P(\text{sieben} \mid \text{SPAM})^2 \cdot P(\text{zwerg} \mid \text{SPAM})^1 \cdot P(\text{fressen} \mid \text{SPAM})^1 \cdot P(\text{ziege} \mid \text{SPAM})^0 \cdot P(\text{treten} \mid \text{SPAM})^0 \cdot P(\text{wolf} \mid \text{SPAM})^1 \cdot P(\text{bock} \mid \text{SPAM})^0$ $\cdot \mathbf{P(\text{lecker} \mid \text{SPAM})^1}$
-
-$\mathbf{P(\text{lecker} \mid \text{OK})}$ und $\mathbf{P(\text{lecker} \mid \text{SPAM})}$ sind **unbekannt**!
-
-**Möglichkeiten**:
-
-1.  Da im Training nicht vorgekommen: 0 als Wert für $P(\text{lecker} \mid c)$ annehmen
-2.  Term ignorieren
-3.  Ad-hoc Laplace einführen
-4.  Mit UNK-Term arbeiten im Training/Klassifikation
-
-Wenn wir während der Klassifikation mit einem Term konfrontiert werden, der beim Training nicht aufgetaucht ist, bekommen wir ein Problem. Potentiell sind die vier oben dargestellten Möglichkeiten als Lösung denkbar. Diese haben aber unterschiedliche Auswirkungen:
-
--   Problem bei (1): Sämtliche Scores werden zu 0, d.h. wir können uns nicht entscheiden.
--   Problem bei (2): Der Term wurde durch die Vorverarbeitung nicht entfernt, d.h. er trägt höchstwahrscheinliche eine Bedeutung. Ihn einfach zu ignorieren würde bedeuten, dass wir diese Information wegwerfen und möglicherweise eine Fehlklassifikation durchführen.
--   Problem bei (3): In sämtlichen Likelihoods steckt die Größe des Vokabulars drin - wir müssten also während der Klassifikation ad hoc alle Likelihoods neu berechnen!
--   Variante (4) ist dagegen relativ elegant ...
-
-##### Naive Bayes mit UNK-Term (OOV, Multinomial NB)
-
-**Training**
-
-Wir führen einen zusätzlichen Term **UNK** ("unknown") ein und führen das Training damit durch.
-
-**Achtung**: Das Vokabular wird dadurch um einen Eintrag größer - alle Likelihoods müssen entsprechend angepasst werden!
-
-| Klasse | sieben | zwerg | fressen | ziege | treten | wolf | bock | UNK | Anzahl Wörter | Anzahl Dokumente |
-|:-----|:-----|:-----|:------|:-----|:-----|:-----|:-----|:-----|:-------|:---------|
-| OK | 6 | 2 | 2 | 1 | 1 | 1 | 2 | 0 | 15 | 3 |
-| SPAM | 2 | 0 | 0 | 1 | 1 | 1 | 0 | 0 | 5 | 1 |
-
--   A-priori-Wahrscheinlichkeit:
-    -   $P(\text{OK}) = 3/4 = 0.75$
-    -   $P(\text{SPAM}) = 1/4 = 0.25$
--   Likelihood:
-    -   $P(\text{sieben} \mid \text{OK})$ $= (2+2+2+1)/(2+2+2+1+1+1+1+1+1+1+1+1+\mathbf{8})$ $= 7/23 = 0.304$ (vorher: 0.318)
-    -   $P(\text{sieben} \mid \text{SPAM})$ $= (2+1)/(2+1+1+1+\mathbf{8})$ $= 3/13 = 0.231$ (vorher: 0.25)
-    -   ...
-    -   $P(\text{UNK} \mid \text{OK}) = (0+1)/(15+\mathbf{8}) = 0.043$
-    -   $P(\text{UNK} \mid \text{SPAM}) = (0+1)/(5+\mathbf{8}) = 0.077$
-
-**Klassifikation**
-
-Unbekannte Terme werden auf **UNK** gemappt. Dabei für die Exponenten wieder die Anzahl beachten!
-
-T1: (sieben, zwerg, fressen, sieben, wolf, **lecker**)
-
--   **h = OK**: $P(\text{OK}) \cdot P(\text{sieben} \mid \text{OK})^2 \cdot P(\text{zwerg} \mid \text{OK})^1 \cdot P(\text{fressen} \mid \text{OK})^1 \cdot P(\text{ziege} \mid \text{OK})^0 \cdot P(\text{treten} \mid \text{OK})^0 \cdot P(\text{wolf} \mid \text{OK})^1 \cdot P(\text{bock} \mid \text{OK})^0$ $\cdot \mathbf{P(\text{lecker} \mid \text{OK})^1}$
-
--   **h = SPAM**: $P(\text{SPAM}) \cdot P(\text{sieben} \mid \text{SPAM})^2 \cdot P(\text{zwerg} \mid \text{SPAM})^1 \cdot P(\text{fressen} \mid \text{SPAM})^1 \cdot P(\text{ziege} \mid \text{SPAM})^0 \cdot P(\text{treten} \mid \text{SPAM})^0 \cdot P(\text{wolf} \mid \text{SPAM})^1 \cdot P(\text{bock} \mid \text{SPAM})^0$ $\cdot \mathbf{P(\text{lecker} \mid \text{SPAM})^1}$
-
-**Mapping**:
-
--   $P(\text{lecker} \mid \text{OK})$ $\to$ $P(\text{UNK} \mid \text{OK}) = 0.043$
--   $P(\text{lecker} \mid \text{SPAM})$ $\to$ $P(\text{UNK} \mid \text{SPAM}) = 0.077$
-
-Mit dem UNK-Term kann man das Problem des Out-of-Vocabulary elegant lösen. Im Training berechnet man die Likelihood für diesen Term normal mit. In der Klassifikation werden Terme in den Daten, die nicht im Vokabular sind, auf diesen UNK-Term gemappt und dessen Likelihood entsprechend verwendet.
-
-Erweiterung: Der Bag-of-Words-Ansatz führt sehr schnell zu riesigen Vektoren, die nur dünn besetzt sind. Um diesem Problem ein wenig entgegen zu wirken, führt man häufig bereits beim Training eine Schwelle für die Häufigkeit der Terme der Trainingsmenge ein: Terme, die in ihrer Häufigkeit über der Schwelle liegen, werden normal für die Schätzung verwendet. Terme, die in ihrer Häufigkeit unter der Schwelle liegen, werden auf den UNK-Term abgebildet und dort mitgezählt. Hier macht man sich das [Zipf'sche Gesetz](https://en.wikipedia.org/wiki/Zipf%27s_law) zunutze: Wenige Wörter kommen viel häufiger vor als andere, und die anderen Wörter sind sehr selten - wobei man sich durchaus darüber streiten kann, ob die seltenen Wörter eher eine Art Rauschen darstellen oder vielleicht gerade durch ihre Seltenheit mit zur Trennschärfe beitragen können.
-
-##### Naive Bayes Training (Bernoulli NB, mit Laplace)
-
-Bei Bernoulli NB prüfen wir das Vorkommen der einzelnen Terme. Der Merkmalsraum ist also binär - 0 oder 1.
-
-Im Grunde haben wir hier die selben Varianten wie bei Multinomial NB - ich zeige hier nachfolgend nur die Kombination von Bernoulli NB und Laplace-Glättung. Für "ohne" Laplace kann man einfach das $\alpha = 0$ setzen. Analog zu der Multinomial NB Variante kann man auch bei Bernoulli NB mit UNK-Termen arbeiten.
-
-|     | sieben | zwerg | fressen | ziege | treten | wolf | bock | Klasse |
-|:----|:-------|:------|:--------|:------|:-------|:-----|:-----|:-------|
-| D1  | 1      | 1     | 1       | 1     | 0      | 0    | 0    | OK     |
-| D2  | 1      | 0     | 0       | 1     | 1      | 1    | 0    | SPAM   |
-| D3  | 1      | 0     | 1       | 0     | 0      | 1    | 1    | OK     |
-| D4  | 1      | 1     | 0       | 0     | 1      | 0    | 1    | OK     |
-
-Zusammengefasst ergibt sich damit pro Klasse:
-
-| Klasse | sieben | zwerg | fressen | ziege | treten | wolf | bock | Anzahl Dokumente |
-|:-------|:-------|:------|:--------|:------|:-------|:-----|:-----|:-----------------|
-| OK     | 3      | 2     | 2       | 1     | 1      | 1    | 2    | 3                |
-| SPAM   | 1      | 0     | 0       | 1     | 1      | 1    | 0    | 1                |
-
-Für die Terme ist jeweils die Gesamt-Anzahl der Dokumente mit dem Term und der jeweiligen Klasse angegeben.
-
-Naive Bayes "trainieren"
-
--   A-priori-Wahrscheinlichkeit der Klassen: $P(c) = \dfrac{N_c}{N} = \dfrac{\text{Anzahl Dokumente in Klasse c}}{\text{Anzahl Dokumente}}$
-
--   Likelihood der Daten (Terme):
-
-    -   $P(t=1 \mid c) = \dfrac{\text{Anzahl Dokumente in Klasse c mit Term t} + \alpha}{\text{Anzahl Dokumente in Klasse c} + 2 \cdot \alpha}$
-    -   $P(t=0 \mid c) = 1 - P(t=1 \mid c)$
-
-<!-- -->
-
--   A-priori-Wahrscheinlichkeit:
-    -   $P(\text{OK}) = 3/4 = 0.75$
-    -   $P(\text{SPAM}) = 1/4 = 0.25$
--   Likelihood $\alpha = 1$:
-    -   $P(\text{sieben}=1 \mid \text{OK}) = (3+1)/(3+2) = 4/5 = 0.80$
-    -   $P(\text{sieben}=1 \mid \text{SPAM}) = (1+1)/(1+2) = 2/3 = 0.667$
-    -   $P(\text{zwerg}=1 \mid \text{OK}) = 3/5 = 0.60$
-    -   $P(\text{zwerg}=1 \mid \text{SPAM}) = 1/3 = 0.333$
-    -   $P(\text{fressen}=1 \mid \text{OK}) = 3/5 = 0.60$
-    -   $P(\text{fressen}=1 \mid \text{SPAM}) = 1/3 = 0.333$
-    -   $P(\text{ziege}=1 \mid \text{OK}) = 2/5 = 0.40$
-    -   $P(\text{ziege}=1 \mid \text{SPAM}) = 2/3 = 0.667$
-    -   $P(\text{treten}=1 \mid \text{OK}) = 2/5 = 0.40$
-    -   $P(\text{treten}=1 \mid \text{SPAM}) = 2/3 = 0.667$
-    -   $P(\text{wolf}=1 \mid \text{OK}) = 2/5 = 0.40$
-    -   $P(\text{wolf}=1 \mid \text{SPAM}) = 2/3 = 0.667$
-    -   $P(\text{bock}=1 \mid \text{OK}) = 3/5 = 0.60$
-    -   $P(\text{bock}=1 \mid \text{SPAM}) = 1/3 = 0.333$
-
-Bei Bernoulli NB wird auch explizit die Wahrscheinlichkeit für die Abwesenheit eines Terms berechnet, dies ist einfach $P(t=0 \mid c) = 1 - P(t=1 \mid c)$. Der Übersichtlichkeit halber ist dies oben nicht explizit angegeben/ausgerechnet.
-
-##### Naive Bayes Klassifikation (Bernoulli NB)
-
-$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{x \in \mathbf{x}} P(x \mid h)$
-
-Für jedes Wort $w$ im Vokabular $V$ gibt es die Beobachtung (Bernoulli-Variable) $lw \in \lbrace 0, 1 \rbrace$. ($lw = 1$ wenn Wort $w$ im Testdokument vorkommt, $lw=0$ sonst.)
-
-$$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{w \in \mathbf{V}} P(lw=1 \mid h)^{lw} \cdot (1 - P(lw=1 \mid h))^{1-lw}$$
-
-Wenn ein Wort $w$ im Testdatensatz vorkommt, wird es mit $P(lw=1 \mid h)$ berücksichtigt. Sonst mit $P(lw=0 \mid h) = (1 - P(lw=1 \mid h))$.
-
-T1: (sieben, zwerg, fressen, sieben, wolf)
-
--   **h = OK**: $P(\text{OK}) \cdot P(\text{sieben}=1 \mid \text{OK}) \cdot P(\text{zwerg}=1 \mid \text{OK}) \cdot P(\text{fressen}=1 \mid \text{OK}) \cdot P(\text{ziege}=0 \mid \text{OK}) \cdot P(\text{treten}=0 \mid \text{OK}) \cdot P(\text{wolf}=1 \mid \text{OK}) \cdot P(\text{bock}=0 \mid \text{OK})$ $= 0.75*0.80*0.60*0.60*(1-0.40)*(1-0.40)*0.40*(1-0.60) = 0.0124416$
-
--   **h = SPAM**: $P(\text{SPAM}) \cdot P(\text{sieben}=1 \mid \text{SPAM}) \cdot P(\text{zwerg}=1 \mid \text{SPAM}) \cdot P(\text{fressen}=1 \mid \text{SPAM}) \cdot P(\text{ziege}=0 \mid \text{SPAM}) \cdot P(\text{treten}=0 \mid \text{SPAM}) \cdot P(\text{wolf}=1 \mid \text{SPAM}) \cdot P(\text{bock}=0 \mid \text{SPAM})$ $= 0.25*0.667*0.333*0.333*(1-0.667)*(1-0.667)*0.667*(1-0.333) = 0.0009122091926$
-
-Entscheidung: OK
-
-**Beobachtungen**:
-
-1.  Viele kleine Faktoren ergeben ein immer kleineres Produkt $\to$ Logarithmus nutzen und Übergang zu Summe statt Produkt!
-2.  Im Trainingsdatensatz nicht vorhandene Terme bei einer Klasse führen zu einem Faktor 0 (Zero-Frequency-Problem), wodurch der gesamte Score 0 wird. $\to$ Laplace-Glättung einsetzen!
-3.  Im Testdatensatz nicht vorhandene Terme des Vokabulars werden automatisch korrekt mit $P(lw=0 \mid h)$ bzw. $(1 - P(lw=1 \mid h))$ berücksichtigt. (Multinomial NB würde diese Terme mit dem Faktor 1 ignorieren.)
-
-##### Wrap-Up
-
--   **Vorverarbeitung**: Tokenisierung, Vokabular, Bag of Words (BoW)
-
--   **Multinomial NB**:
-
-    -   Zähle die Vorkommen eines Terms: $P(t \mid c) = \dfrac{\mathop{\text{count}}(t,c) + \alpha}{\sum_{v \in V} \mathop{\text{count}}(v,c) + \alpha \cdot \lvert V \rvert}$
-
-    -   Klassifikation mit $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{w \in \mathbf{V}} P(w \mid h)^{\mathop{\text{count}}(w)}$
-
-    -   Im Test nicht vorhandene Terme t aus V werden ignoriert (Faktor 1)
-
--   **Bernoulli NB**:
-
-    -   Prüfe das Vorkommen eines Terms: $P(t=1 \mid c) = \dfrac{\text{Anzahl Dokumente in Klasse c mit Term t} + \alpha}{\text{Anzahl Dokumente in Klasse c} + 2 \cdot \alpha}$
-
-    -   Klassifikation mit $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{w \in \mathbf{V}} P(lw=1 \mid h)^{lw} \cdot (1 - P(lw=1 \mid h))^{1-lw}$
-
-    -   Im Test nicht vorhandene Terme t aus V werden korrekt mit $P(lw=0 \mid h)$ berücksichtigt
-
-<!-- -->
-
--   Problem mit kleinen Faktoren: **Logarithmus**, Übergang zu Summe
--   **Zero-Frequency-Problem**: Laplace-Glättung mit $\alpha=1$
--   Klassifikation von **Out-of-Vocabulary-Termen**: UNK-Term trainieren
-
-> [!TIP]
->
-> <details open>
-> <summary><strong>📖 Zum Nachlesen</strong></summary>
->
-> Lesen Sie in ([Russell und Norvig 2021](#ref-Russell2021)) bitte den Abschnitt 12.6 "Naive Bayes Models". Darüber hinaus ist Abschnitt "8.10 Der Naive Bayes Klassifikator" ([Ertel 2025](#ref-Ertel2025)) sehr empfehlenswert.
->
-> </details>
-
-> [!NOTE]
->
-> <details >
-> <summary><strong>✅ Lernziele</strong></summary>
->
-> -   k2: Ich kann die verschiedenen Schritte der Vorverarbeitung erklären
-> -   k2: Ich kann das Bag-of-Words-Modell erklären
-> -   k3: Ich kann einen Text in das BoW-Modell überführen
-> -   k3: Ich kann die bedingten Wahrscheinlichkeiten aus konkreten Trainingsdaten schätzen: Multinomial NB, Bernoulli NB, mit/ohne Laplace-Glättung
-> -   k3: Ich kann die Klassifikation von Testdaten mit Naive Bayes durch Nutzung der geschätzten Wahrscheinlichkeiten durchführen: Multinomial NB, Bernoulli NB
-> -   k3: Ich kann dem Out-of-Vocabulary-Problem durch das Arbeiten mit UNK-Termen entgegenwirken
->
-> </details>
-
 <a id="id-01bf667ff8abdbb608ee25a2d6f7a5f3ed39d939"></a>
 
 ### Entscheidungsbäume (Decision Tree Learner - DTL)
@@ -3947,6 +2860,1093 @@ Ein Random Forest hält den (relativ) niedrigen Bias tiefer Bäume, reduziert ab
 >
 > -   Wetter = sonnig
 > -   Laune = gut
+>
+> </details>
+
+<a id="id-42bc36be1058d57772048d3a14a2b2b13020cc0f"></a>
+
+### Naive Bayes
+
+Ich habe Symptome beobachtet. Kann ich die Ursache (also die Krankheit) bestimmen, wenn ich etwas Hintergrundwissen habe:
+
+-   Wie häufig treten verschieden Krankheiten auf
+-   Welche Krankheit zeigt welche Symptome (und wie oft treten die dann auf)
+
+Kann ich aus diesen Daten einen Klassifikator lernen?
+
+<a id="id-cd12d8faa8a855e40fd112b32dc98078382d90aa"></a>
+
+#### NB1: Wiederholung Wahrscheinlichkeitstheorie
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🎯 TL;DR</strong></summary>
+>
+> Diese Sitzung ist eine (relativ oberflächliche) Einführung/Wiederholung in die/der Grundlagen der Wahrscheinlichkeitstheorie.
+>
+> Wir schauen uns die möglichen Ausgänge eines Zufallsexperiments an ("Ereignisse"). Wenn diese Ereignisse sich gegenseitig ausschließen und alle denkbaren Ergebnisse abdecken, dann nennt man diese Ereignisse auch **Elementarereignisse**. Die Wahrscheinlichkeit für ein Ereignis kann man angeben als Anzahl der möglichen Ergebnisse, die für dieses Ereignis günstig sind, geteilt durch die Anzahl aller Ausgänge. Über die Kolmogorov Axiome bekommt man die typischen Rechenregel für die Wahrscheinlichkeit.
+>
+> Man kann eine **Verbundwahrscheinlichkeit** $P(A,B) = P(B,A)$ angeben, das ist die Wahrscheinlichkeit, dass $A$ und $B$ gleichzeitig auftreten.
+>
+> Die **bedingte** Wahrscheinlichkeit für $A$ gegeben $B$ ist $P(A \mid B)$ und berechnet sich $P(A \mid B) = P(A,B)/P(B)$.
+>
+> Daraus kann man die **Bayes-Regel** ableiten: $P(A \mid B) = P(B \mid A)P(A)/P(B)$.
+>
+> Dabei nennt man
+>
+> -   $P(A)$ **Prior** oder **A-priori-Wahrscheinlichkeit** (die Wahrscheinlichkeit für $A$ ohne weiteres Wissen),
+> -   $P(B \mid A)$ **Likelihood** (Wie wahrscheinlich ist das Auftreten von $B$, gegeben $A$?),
+> -   $P(A \mid B)$ **Posterior** oder **A-posteriori-Wahrscheinlichkeit** (Wie wahrscheinlich ist $A$, wenn $B$ eingetreten ist?), und
+> -   $P(B)$ ist ein Normierungsfaktor (Wie wahrscheinlich ist $B$ an sich?).
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> Vorlesung \[[YT](https://youtu.be/jBByXEKoOeA)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-nb1-wiederholung-wahrscheinlichkeitstheorie/8749cac85bb7021d2ec5c2ce75a32bc8/251)\]
+>
+> </details>
+
+##### Ereignisse und Wahrscheinlichkeit
+
+**Hinweis**: Die folgende Darstellung zur Einführung in die Wahrscheinlichkeitstheorie dient dem Verständnis des Naive Bayes Klassifikationsalgorithmus und ist teilweise eher oberflächlich gehalten. Sie kann und soll keine entsprechende mathematische Einführung ersetzen!
+
+###### Ereignisse
+
+-   **Ereignisse** $\Omega = \lbrace \omega_1, \omega_2, \ldots, \omega_n \rbrace$: endliche Menge der Ausgänge eines Zufallsexperiments
+
+-   **Elementarereignis**: Die $\omega_i \in \Omega$
+
+    -   decken *alle* möglichen Versuchsergebnisse ab, und
+    -   schließen sich gegenseitig aus
+
+###### Regeln
+
+-   Wenn $A$ und $B$ Ereignisse sind, dann auch $A \cup B$
+-   $\Omega$ wird als **sicheres Ereignis** bezeichnet: Enthält definitionsgemäß **alle** Versuchsausgänge, d.h. *ein* in der Menge enthaltenes Ereignis *muss* auftreten
+-   Die leere Menge $\emptyset$ wird als **unmögliches Ereignis** bezeichnet
+-   Die Variablen $A$ und $B$ heißen auch **Zufallsvariablen**
+
+Im Rahmen dieser Veranstaltung betrachten wir nur diskrete Zufallsvariablen mit endlichem Wertebereich!
+
+###### Wahrscheinlichkeit
+
+-   **Wahrscheinlichkeit**:
+
+    Sei $\Omega = \lbrace \omega_1, \omega_2, \ldots, \omega_n \rbrace$ endlich. Die Wahrscheinlichkeit $P(A)$ für ein Ereignis $A$ ist dann definiert als
+
+    $$P(A) = \frac{\lvert A \rvert}{\lvert \Omega \rvert} =
+    \frac{\text{Anzahl der für A günstigen Fälle}}{\text{Anzahl der möglichen Fälle}}$$
+
+    Man könnte auch schreiben: $P(A) = \sum_{\omega \in A} P(\omega)$
+
+    *Hinweis*: Diese Definition von Wahrscheinlichkeit geht von gleich wahrscheinlichen Elementarereignissen aus! Die allgemeine Definition geht über einen entsprechenden Grenzwert.
+
+###### Verteilung
+
+Den Vektor mit den Wahrscheinlichkeiten aller Elementarereignisse nennt man auch *Verteilung*.
+
+Beispiel: $\mathbf{P}(A) = (P(A=1), P(A=2), \ldots, P(A=6)) = (1/6, 1/6, \ldots, 1/6)$
+
+*Hinweis*: Wir betrachten hier nur diskrete Zufallsvariablen. Für kontinuierliche Variablen wird die Verteilung mit Hilfe einer **Dichtefunktion** dargestellt, beispielsweise der Gauss'schen Funktion.
+
+###### Beispiel
+
+-   Einmaliges Würfeln mit einem Spielwürfel: $\Omega = \lbrace 1,2,3,4,5,6 \rbrace$
+
+-   Elementarereignisse: $\lbrace 1,2,3,4,5,6 \rbrace$
+
+-   Das Würfeln einer geraden Zahl ($A = \lbrace 2,4,6 \rbrace$) ist *kein* Elementarereignis, ebenso wie das Würfeln einer Zahl kleiner 5 ($B = \lbrace 1,2,3,4 \rbrace$), da $A \cap B = \lbrace 2,4 \rbrace \ne \emptyset$
+
+-   Wahrscheinlichkeit, eine 1 zu würfeln: $P(A \in \lbrace 1 \rbrace) = P(A=1) = \frac{1}{6}$.
+
+    *Anmerkung*: Man schreibt statt $P(A \in \lbrace 1 \rbrace)$ oft einfach $P(1)$.
+
+-   Wahrscheinlichkeit, eine gerade Zahl zu würfeln: $P(A \in \lbrace 2,4,6 \rbrace) = P(A=2 \vee A=4 \vee A=6) = \frac{\lvert \lbrace 2,4,6 \rbrace \rvert}{\lvert \lbrace 1,2,3,4,5,6 \rbrace \rvert} = \frac{3}{6} = 0.5$
+
+##### Rechenregeln: Kolmogorov Axiome
+
+Sei $A$ ein Ereignis, also $A \subseteq \Omega$:
+
+-   $0 \le P(A) \le 1$
+
+-   $\Omega = \lbrace \omega_1, \omega_2, \ldots, \omega_n \rbrace$: $\sum_{i} P(\omega_i) = 1$ (Normierungsbedingung: Summe über die Wahrscheinlichkeiten aller Elementarereignisse ist immer 1)
+
+-   $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+
+Daraus folgt (u.a.):
+
+-   $P(\Omega) = 1$
+-   $P(\emptyset) = 0$
+-   $P(A) = 1- P(\neg A)$
+
+<!-- -->
+
+-   $A$ und $B$ *unabhängig*: $P(A \cup B) = P(A) + P(B)$
+-   $P(A \cap B)$ ist leer, wenn $A$ und $B$ sich nicht überlappen
+-   $A \subseteq B$: $P(A) \le P(B)$
+
+##### Verbundwahrscheinlichkeiten
+
+$$P(A,B) = P(B,A) = \text{ Wahrscheinlichkeit, dass A und B gleichzeitig auftreten }$$
+
+|                  | Halsschmerzen | $\neg$ Halsschmerzen |
+|------------------|---------------|----------------------|
+| Schnupfen        | 0.04          | 0.06                 |
+| $\neg$ Schnupfen | 0.01          | 0.89                 |
+
+-   $P(S,H) = 0.04$
+
+Die Tabelle kann man so lesen: In 4 von 100 Fällen tritt das Ereignis "Schnupfen" gleichzeitig mit dem Ereignis "Halsschmerzen" auf, in 6 von 100 Fällen tritt "Schupfen" ohne Halsschmerzen auf. ... In Summe kommt man wieder auf 100 Fälle (100 Prozent).
+
+Nach diesen Zahlen liegt also die Verbundwahrscheinlichkeit für die Ereignisse "Schnupfen" und "Husten", d.h. $P(S,H)$, bei 4 Prozent.
+
+**Hinweis**: Die gezeigten Zahlen und Zusammenhänge sind **fiktiv** und dienen lediglich zur Verdeutlichung der Wahrscheinlichkeitsbegriffe!
+
+##### Bedingte Wahrscheinlichkeit
+
+**Definition**: Bedingte Wahrscheinlichkeit für $A$ gegeben $B$:
+
+$$P(A \mid B) = \frac{P(A,B)}{P(B)}$$
+
+|                  | Halsschmerzen | $\neg$ Halsschmerzen |
+|------------------|---------------|----------------------|
+| Schnupfen        | 0.04          | 0.06                 |
+| $\neg$ Schnupfen | 0.01          | 0.89                 |
+
+-   $P(\text{Schnupfen }  \mid  \text{ Halsschmerzen}) = \frac{P(S,H)}{P(H)} = \frac{0.04}{0.04+0.01} = 0.8$
+-   $P(\text{Halsschmerzen }  \mid  \text{ Schnupfen}) = \frac{P(H,S)}{P(S)} = \frac{0.04}{0.04+0.06} = 0.4$
+
+Wegen $P(A \mid B) = \dfrac{P(A,B)}{P(B)}$ ist $P(A,B) = P(A \mid B)P(B) = P(B \mid A)P(A)$ (**Produkt-Regel**)!
+
+##### Marginalisierung
+
+|                  | Halsschmerzen | $\neg$ Halsschmerzen | $\sum$ |
+|------------------|---------------|----------------------|--------|
+| Schnupfen        | 0.04          | 0.06                 | *0.1*  |
+| $\neg$ Schnupfen | 0.01          | 0.89                 | *0.9*  |
+| $\sum$           | *0.05*        | *0.95*               | *1*    |
+
+$P(S) = P(S,H) + P(S, \neg H)$
+
+Allgemein: Seien $B_1, \ldots, B_n$ Elementarereignisse mit $\bigcup_i B_i = \Omega$. Dann ist $$P(A) = \sum_i P(A,B_i) = \sum_i P(A \mid B_i)P(B_i)$$
+
+Diesen Vorgang nennt man **Marginalisierung**. Die resultierende Verteilung $P(A)$ nennt man auch *"Randverteilung"*, da sie mit einer Projektion eines Quaders auf eine Seitenfläche vergleichbar ist.
+
+##### Kettenregel
+
+-   **Produktregel**: Wegen $P(A \mid B) = \dfrac{P(A,B)}{P(B)}$ gilt $P(A,B) = P(A \mid B)P(B)$
+
+<!-- -->
+
+-   Verallgemeinerung (**Kettenregel**): $$\begin{eqnarray}
+    P(A_1,A_2,\ldots,A_n) &=& P(A_n,\ldots,A_2,A_1)\\
+        & = & P(A_n \mid A_{n-1},\ldots,A_1)P(A_{n-1},\ldots,A_1)\\
+        & = & P(A_n \mid A_{n-1},\ldots,A_1)P(A_{n-1} \mid A_{n-2},\ldots,A_1)P(A_{n-2},\ldots,A_1)\\
+        & = & \ldots\\
+        & = & P(A_n \mid A_{n-1},\ldots,A_1) \ldots P(A_2 \mid A_1)P(A_1)\\
+        & = & \prod_i P(A_i \mid A_1,\ldots,A_{i-1})
+    \end{eqnarray}$$
+
+##### Bayes-Regel
+
+Bedingte Wahrscheinlichkeit: $P(A,B) = P(A \mid B)P(B) = P(B \mid A)P(A)$
+
+$$P(A \mid B) = \frac{P(B \mid A)P(A)}{P(B)}$$
+
+-   $P(A)$ nennt man **Prior** oder **A-priori-Wahrscheinlichkeit** (Das ist die Wahrscheinlichkeit für $A$ ohne weiteres Wissen)
+-   $P(B \mid A)$ nennt man **Likelihood** (Wie wahrscheinlich ist das Auftreten von $B$, gegeben $A$?)
+-   $P(A \mid B)$ nennt man **Posterior** oder **A-posteriori-Wahrscheinlichkeit** (Wie wahrscheinlich ist $A$, wenn $B$ eingetreten ist?)
+-   $P(B)$ ist ein Normierungsfaktor
+
+Wenn man (siehe später: Naive Bayes Klassifikator) $A$ als Klasse und $B$ als Daten betrachtet:
+
+-   $P(A)$: Wie wahrscheinlich ist eine bestimmte Klasse an sich (A-priori-Wahrscheinlichkeit der Klassen)?
+-   $P(B \mid A)$: Wie wahrscheinlich sind bestimmte Daten, gegeben die Klasse $A$? (Likelihood der Daten)
+-   $P(A \mid B)$: Gegeben die Daten $B$, wie wahrscheinlich ist die Klasse $A$? (Posterior)
+
+In der Medizin hat sucht man i.d.R. die Ursache für beobachtete Symptome: $$P(\text{Ursache} \mid \text{Symptome}) = \frac{P(\text{Symptome} \mid \text{Ursache})P(\text{Ursache})}{P(\text{Symptome})}$$
+
+Aus der A-priori-Wahrscheinlichkeit für bestimmte Krankheiten und der Likelihood der Symptome (wie wahrscheinlich sind Symptome, gegeben eine Krankheit) kann man die Wahrscheinlichkeit für das Vorliegen einer Erkrankung gegeben bestimmte Symptome berechnen.
+
+##### Beispiel Bayes
+
+-   Bei Arthrose wird in 80 Prozent der Fälle ein steifes Gelenk beobachtet
+-   Eine von 10.000 Personen hat Arthrose
+-   Eine von 10 Personen hat ein steifes Gelenk
+
+$\to$ Ich habe ein steifes Gelenk. Habe ich Arthrose?
+
+-   Gegeben: $P(A) = 0.0001,   P(S) = 0.1,   P(S \mid A) = 0.8$
+-   Gesucht: $P(A \mid S)$
+
+$$P(A \mid S) = \frac{P(S \mid A)P(A)}{P(S)} = \frac{0.8 \times 0.0001}{0.1} = 0.0008 = 0.08\%$$
+
+Wenn ein steifes Gelenk vorliegt, ist die Wahrscheinlichkeit, dann an Arthrose erkrankt zu sein, bei nur 0.08%. Kein Grund zur Sorge in diesem Fall :-)
+
+$\to$ Wie wahrscheinlich ist ein steifes Gelenk ohne Arthrose, also $P(S \mid \neg A$)?
+
+Mit Marginalisierung: $P(S) = P(S \mid A)P(A) + P(S \mid \neg A)P(\neg A)$, d.h. $0.1 = 0.8 \times 0.0001 + P(S \mid \neg A) \times (1-0.0001)$, d.h. $P(S \mid \neg A) = 0.0999$
+
+In knapp 10 Prozent der Fälle würde man im obigen Beispiel bei der Diagnose "keine Arthrose" ein steifes Gelenk beobachten.
+
+**Hinweis**: Die genannten Zahlen und Zusammenhänge sind rein fiktional und sollen lediglich zur Veranschaulichung der Bayes-Regel dienen!
+
+Schauen Sie sich auch das Beispiel 7.9 in ([Ertel 2025](#ref-Ertel2025), Ex. 7.9, S. 135) an!
+
+##### Unabhängige Ereignisse
+
+-   $P(\text{Halsschmerzen},\text{ Regen}) = P(\text{Regen } \mid \text{ Halsschmerzen})P(\text{Halsschmerzen})$
+-   $P(\text{Regen } \mid \text{ Halsschmerzen}) = \text{ ?? }$ $= P(\text{Regen})$
+
+<!-- -->
+
+-   Zwei Ereignisse $A$ und $B$ sind **unabhängig**, wenn $$P(A \mid B) = P(A)$$
+
+    $\to$ $P(A,B) = P(A \mid B)P(B) = P(A)P(B)$
+
+Dies kann man verallgemeinern (**bedingte Unabhängigkeit**):
+
+> $X$ und $Y$ sind *bedingt unabhängig* (gegeben $Z$), wenn $P(X \mid Y,Z) = P(X \mid Z)$ bzw. $P(Y \mid X,Z) = P(Y \mid Z)$
+
+Daraus folgt:
+
+$$P(X,Y \mid Z) = P(X \mid Y,Z)P(Y \mid Z) = P(X \mid Z)P(Y \mid Z)$$
+
+##### Wrap-Up
+
+-   Grundlagen der Wahrscheinlichkeitstheorie
+    -   Elementarereignisse und Wahrscheinlichkeit
+    -   Rechenregeln
+    -   Bedingte Wahrscheinlichkeit und Verbundwahrscheinlichkeit
+    -   Marginalisierung
+    -   (Bedingte) Unabhängigkeit
+    -   Bayes'sche Regel
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>📖 Zum Nachlesen</strong></summary>
+>
+> Lesen Sie in ([Russell und Norvig 2021](#ref-Russell2021)) bitte die Abschnitte 12.2 bis (einschließlich) 12.5. Darüber hinaus ist Abschnitt "7.1 Rechnen mit Wahrscheinlichkeiten" ([Ertel 2025](#ref-Ertel2025)) sehr empfehlenswert.
+>
+> </details>
+
+> [!NOTE]
+>
+> <details >
+> <summary><strong>✅ Lernziele</strong></summary>
+>
+> -   k2: Ich kann die Begriffe Elementarereignisse und Wahrscheinlichkeit erklären
+> -   k2: Ich kann bedingte Wahrscheinlichkeit und Verbundwahrscheinlichkeit erklären
+> -   k2: Ich kann (bedingte) Unabhängigkeit erklären
+> -   k3: Ich kann die Rechenregeln für Wahrscheinlichkeit anwenden
+> -   k3: Ich kann Marginalisierung an einem Beispiel anwenden
+> -   k3: Ich verstehe die Bayes'sche Regel und kann sie an einem Beispiel demonstrieren
+>
+> </details>
+
+> [!TIP]
+>
+> <details >
+> <summary><strong>🧩 Quizzes</strong></summary>
+>
+> -   [Selbsttest Wahrscheinlichkeiten (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106587&client_id=FH-Bielefeld)
+>
+> </details>
+
+<a id="id-cd72f1bd942f6b05157da80ba479a7a493d898c1"></a>
+
+#### NB2: Klassifikation mit Naive Bayes
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🎯 TL;DR</strong></summary>
+>
+> Mit Hilfe der (verallgemeinerten) Bayes-Regel kann man Klassifikation durchführen. Dazu werden beim "Training" die bedingten Wahrscheinlichkeiten aus den Trainingsdaten geschätzt. Die Anwendung (Klassifikation) erfolgt dann durch die Nutzung der beim "Training" berechneten bedingten Wahrscheinlichkeiten:
+>
+> $$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$$
+>
+> Für jede Hypothese $h$, d.h. für jede Klasse, wird der Posterior $P(h \mid D_1, \ldots, D_n)$ ausgerechnet. Die Klasse, deren Wert dabei am höchsten ist, "gewinnt", d.h. die Klasse mit dem größten Posterior wird ausgegeben. (Deshalb wird das Verfahren oft auch "MAP" -- *Maximum a Posteriori* -- genannt.)
+>
+> Bei der Berechnung wird angenommen, dass die betrachteten Merkmale (bedingt) unabhängig sind (dies geht in die obige Formel ein). Diese Annahme trifft aber oft nicht zu, deshalb auch der Name "*Naive* Bayes Klassifikation". Man berechnet in diesem Fall falsche Werte. Dennoch zeigt der Algorithmus in der Praxis sehr gute Ergebnisse.
+>
+> Durch den Einsatz der bedingten Wahrscheinlichkeiten in der Produktformel ergeben sich einige Schwierigkeiten:
+>
+> 1.  Wenn beim "Training" Ausprägungen fehlen, ist die bedingte Wahrscheinlichkeit Null. Dadurch wird das gesamte Produkt Null. Zur Abhilfe kann man den **Laplace-Schätzer** nutzen, der (gesteuert über einen Parameter) gewissermaßen virtuelle Trainingsbeispiele beisteuert.
+> 2.  Durch das Produkt vieler kleiner Werte kann es schnell zu *Floating Point*-Underflows kommen. Hier kann man einen Trick nutzen: Man berechnet den Logarithmus der Produktformel. Dadurch ändern sich zwar die absoluten Werte, die Reihenfolge der Hypothesen bleibt aber erhalten. Da wir nur nach der Hypothese suchen, die einen höheren Wert als die anderen hat, und nicht den absoluten Wert an sich benötigen, kann man so vorgehen. Durch den Logarithmus wird aus dem Produkt eine Summe, wo die kleinen Werte der bedingten Wahrscheinlichkeiten nicht so starke Auswirkungen haben wie im Produkt.
+>
+> Oft nimmt man zusätzlich an, dass für alle Hypothesen (Klassen) $h$ der Prior $P(h)$ gleich ist. Dann kann man diesen Faktor ebenfalls aus der Berechnung entfernen. Dieses Verfahren nennt man auch **Maximum Likelihood**.
+>
+> Der NB-Klassifikator wird gern für die Textklassifikation eingesetzt. Hier muss man einem Text ein Label zuordnen. In einer Vorverarbeitung wird zunächst eine Menge der relevanten Wörter über alle Trainingstexte gebildet (*Bag-of-Words*). Der Bag-of-Words entspricht einem Merkmalsvektor, wobei die Merkmale die einzelnen Wörter sind. Dann kann jeder Text der Trainingsmenge über so einen Merkmalsvektor dargestellt werden: Entweder man gibt pro Merkmal an, ob es da (1) oder nicht da (0) ist oder man zählt die Häufigkeit des Auftretens. Dann kann man mit dem NB-Klassifikator die bedingten Wahrscheinlichkeiten schätzen und einen neuen Text klassifizieren.
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> Vorlesung \[[YT](https://youtu.be/VxyjFos1a6U)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-nb2-klassifikation-mit-naive-bayes/23ee01f5f394b551150cd571d4fe36ef/251)\]
+>
+> </details>
+
+##### Medizinische Diagnostik mit NB
+
+-   Bei Arthrose wird in 80 Prozent der Fälle ein steifes Gelenk beobachtet: $P(S \mid A) = 0.8$
+-   Eine von 10.000 Personen hat Arthrose: $P(A) = 0.0001$
+-   Eine von 10 Personen hat ein steifes Gelenk: $P(S) = 0.1$
+
+$\to$ Ich habe ein steifes Gelenk. Habe ich Arthrose?
+
+##### Textklassifikation mit NB
+
+-   Mails, manuell markiert:
+    -   D1: ("Sieben Zwerge fraßen sieben Ziegen", OK)
+    -   D2: ("Sieben Ziegen traten sieben Wölfe", SPAM)
+    -   D3: ("Sieben Wölfe fraßen sieben Böcke", OK)
+    -   D4: ("Sieben Böcke traten sieben Zwerge", SPAM)
+
+<!-- -->
+
+-   Neue Mails:
+    -   T1: ("Sieben Zwerge fraßen sieben Wölfe")
+    -   T2: ("Sieben Zwerge traten sieben Ziegen")
+
+Lernen Sie mit Hilfe der Trainingsmenge einen Naive-Bayes-Klassifikator und wenden Sie diesen auf die beiden Test-Dokumente an.
+
+##### Naive Bayes
+
+-   Verallgemeinerte Bayes Regel $$P(H \mid D_1, \ldots, D_n) = \frac{P(D_1, \ldots, D_n \mid H)P(H)}{P(D_1, \ldots, D_n)}$$
+
+-   Annahme: $D_i$ sind bedingt unabhängig $$P(D_1, \ldots, D_n \mid H) = P(D_1 \mid H) \cdot \ldots \cdot P(D_n \mid H) = \prod_i P(D_i \mid H)$$
+
+-   Beobachtung: $P(D_1, \ldots, D_n)$ für alle Hypothesen $h \in H$ gleich
+
+<!-- -->
+
+-   **Naive Bayes Klassifikator** bzw. **MAP** ("Maximum a Posteriori") $$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n)
+    = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$$
+
+    Naive Bayes: Wähle die plausibelste Hypothese, die von den Daten unterstützt wird.
+
+##### Bayes'sches Lernen
+
+**Naive Bayes Klassifikator**/**MAP**:
+
+$$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n)
+= \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$$
+
+**Training**: Bestimme die Wahrscheinlichkeiten aus Trainingsdaten $\mathbf{S}$
+
+-   Für jede Klasse $h$:
+    -   Schätze $P(h) = \dfrac{\lvert S(h) \rvert}{\lvert S \rvert}$
+    -   Für jedes Attribut $D_i$ und jede Ausprägung $x \in D_i$: Schätze $P(D_i=x \mid h) = \dfrac{\lvert S_{D_i}(x) \cap S(h) \rvert}{\lvert S(h) \rvert}$
+
+**Klassifikation**: Wähle wahrscheinlichste Klasse $h_{MAP}$ für Vektor $\mathbf{x}$
+
+-   $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{x \in \mathbf{x}} P(x \mid h)$
+
+##### Beispiel Klassifikation mit NB
+
+| Nase läuft | Husten | Gerötete Haut | Fieber | Klasse |
+|------------|--------|---------------|--------|--------|
+| 1          | 1      | 1             | 0      | krank  |
+| 1          | 1      | 0             | 0      | krank  |
+| 0          | 0      | 1             | 1      | krank  |
+| 1          | 0      | 0             | 0      | gesund |
+| 0          | 0      | 0             | 0      | gesund |
+
+-   Eingabe: Person mit Husten und Fieber
+
+Gesucht: $P(\text{krank})$, $P(\text{gesund})$, $P(\text{Nase=0} \mid \text{krank})$, $P(\text{Nase=0} \mid \text{gesund})$, ...
+
+Wähle Klasse $$\begin{eqnarray}
+h_{MAP} = \mathop{\text{argmax}}_{h \in \lbrace \text{gesund, krank} \rbrace} & P(h) \cdot P(\text{Nase=0} \mid h) \cdot P(\text{Husten=1} \mid h) \\
+    & \cdot P(\text{Haut=0} \mid h) \cdot P(\text{Fieber=1} \mid h)
+\end{eqnarray}$$
+
+**Ergebnis**: (nur die für den zu klassifizierenden Beispiel-Vektor nötigen Werte, die restlichen müssten aber auch beim "Training" berechnet werden!)
+
+    P(gesund) = 2/5 = 0.4
+    P(krank)  = 3/5 = 0.6
+
+    P(Nase=0 | gesund) = 1/2 = 0.5
+    P(Nase=0 | krank)  = 1/3 = 0.333
+
+    P(Husten=1 | gesund) = 0/2 = 0
+    P(Husten=1 | krank)  = 2/3 = 0.667
+
+    P(Haut=0 | gesund) = 2/2 = 1
+    P(Haut=0 | krank)  = 1/3 = 0.333
+
+    P(Fieber=1 | gesund) = 0/2 = 0
+    P(Fieber=1 | krank)  = 1/3 = 0.333
+
+    h = gesund: P(gesund) * P(Nase=0 | gesund) * P(Husten=1 | gesund) * P(Haut=0 | gesund) * P(Fieber=1 | gesund) = 0.4*0.5*0*1*0              = 0
+    h = krank:  P(krank)  * P(Nase=0 | krank)  * P(Husten=1 | krank)  * P(Haut=0 | krank)  * P(Fieber=1 | krank)  = 0.6*0.333*0.667*0.33*0.333 = 0.015
+
+$\to$ Klasse "krank" gewinnt (Wert für $P(\text{krank})$ ist der höchste der beiden Hypothesen) ...
+
+##### Textklassifikation mit NB
+
+-   Texte als Trainingsmenge:
+    -   Text zerlegen in Terme (Wörter, sonstige relevante Token)
+    -   ggf. Entfernen von Stoppwörtern (beispielsweise Artikel u.ä.)
+    -   ggf. Stemming und Lemmatisierung für restliche Terme
+    -   ggf. weitere Vorverarbeitungsschritte (Groß-Klein-Schreibung, ...)
+    -   Terme zusammenfassen als Menge: *"Bag of Words"* (mit Häufigkeit)
+
+<!-- -->
+
+-   Naive Bayes "trainieren":
+    -   A-priori-Wahrscheinlichkeit der Klassen: $P(c) = \dfrac{N_c}{N} = \dfrac{\text{Anzahl Dokumente in Klasse c}}{\text{Anzahl Dokumente}}$
+
+    <!-- -->
+
+    -   Likelihood der Daten (Terme):
+        -   $P(t \mid c) = \dfrac{\mathop{\text{count}}(t,c)}{\sum_{v \in V} \mathop{\text{count}}(v,c)}$ mit $\mathop{\text{count}}(t,c)$ Anzahl der Vorkommen von Term $t$ in allen Dokumenten der Klasse $c$ und $V$ die Vereinigung aller Terme aller Dokumente (als Menge)
+
+        <!-- -->
+
+        -   Variante mit Laplace-Glättung (s.u.): $P(t \mid c) = \dfrac{\mathop{\text{count}}(t,c) + 1}{\sum_{v \in V} \mathop{\text{count}}(v,c) + \lvert V \rvert}$
+
+##### Naivität im Naive Bayes
+
+-   Unabhängigkeit der Attribute oft nicht gegeben
+
+    $\to$ $P(D_1, \ldots, D_n \mid H) \ne \prod_i P(D_i \mid H)$
+
+-   A-posteriori-Wahrscheinlichkeiten oft unrealistisch nah an 1 oder 0
+
+<!-- -->
+
+-   Praxis: Dennoch häufig sehr gute Ergebnisse
+
+    Wichtig: Solange die **Maximierung** über alle Hypothesen die selben Ergebnisse liefert, müssen die konkreten Schätzungen/Werte nicht exakt stimmen ...
+
+Wenn Attribute nicht (bedingt) unabhängig sind, kann sich der NB verschätzen, d.h. es kommt dann u.U. zu einer höheren Fehlerrate, da bestimmte Eigenschaften in der Trainingsmenge zu hoch gewichtet werden.
+
+> [!TIP]
+>
+> ###### Beispiel
+>
+> ####### Gegebene Daten
+>
+> Seien die beiden Merkmale $x_1$ und $x_2$ mit den folgenden Verteilungen gegeben:
+>
+> -   Klassen: $H \in \lbrace 0, 1 \rbrace$, $P(H = 0) = P(H = 1) = 0.5$
+> -   Bedingte Verteilungen $P(x_1, x_2 \mid H)$:
+>     -   Für $H = 0$:
+>         -   $P(x_1=0, x_2=0 \mid 0) = 0.30$
+>         -   $P(x_1=0, x_2=1 \mid 0) = 0.35$
+>         -   $P(x_1=1, x_2=0 \mid 0) = 0.15$
+>         -   $P(x_1=1, x_2=1 \mid 0) = 0.20$
+>     -   Für $H = 1$:
+>         -   $P(x_1=0, x_2=0 \mid 1) = 0.00$
+>         -   $P(x_1=0, x_2=1 \mid 1) = 0.30$
+>         -   $P(x_1=1, x_2=0 \mid 1) = 0.65$
+>         -   $P(x_1=1, x_2=1 \mid 1) = 0.05$
+>
+> ####### Analyse der gegebenen Daten
+>
+> Die Merkmale $x_1$ und $x_2$ sind *nicht* bedingt abhängig gegeben $H$.
+>
+> Erinnerung: Zwei Ereignisse $X$ und $Y$ sind bedingt unabhängig gegeben $Z$, wenn gilt $P(X,Y \mid Z) = P(X \mid Y,Z)P(Y \mid Z) = P(X \mid Z)P(Y \mid Z)$.
+>
+> Wir haben aber im Fall von $H=1$:
+>
+> -   $P(x_1=0, x_2=0 \mid 1) = 0.00$ vs. $P(x_1=0 \mid 1) P(x_2=0 \mid 1) = (0.00+0.30) * (0.00+0.65) = 0.30 * 0.65 = 0.195$
+> -   $P(x_1=0, x_2=1 \mid 1) = 0.30$ vs. $P(x_1=0 \mid 1) P(x_2=1 \mid 1) = (0.00+0.30) * (0.30+0.05) = 0.30 * 0.35 = 0.105$
+> -   $P(x_1=1, x_2=0 \mid 1) = 0.65$ vs. $P(x_1=1 \mid 1) P(x_2=0 \mid 1) = (0.65+0.05) * (0.00+0.65) = 0.70 * 0.65 = 0.455$
+> -   $P(x_1=1, x_2=1 \mid 1) = 0.05$ vs. $P(x_1=1 \mid 1) P(x_2=1 \mid 1) = (0.65+0.05) * (0.30+0.05) = 0.70 * 0.35 = 0.245$
+>
+> (analog für $H=0$)
+>
+> Damit bekommen wir im Naive Bayes Klassifikator ein Problem. Dort wird von bedingt unabhängigen Merkmalen ausgegangen und deshalb die Vereinfachung von $P(x_1, x_2 \mid H)$ zu $P(x_1 \mid H) P(x_2 \mid H)$ vorgenommen. Da die Annahme nicht stimmt, werden die Merkmale falsch gewichtet und es kann zu Fehlklassifikationen kommen.
+>
+> ####### Klassifikation einer Beobachtung
+>
+> Wir machen nun die folgende Beobachtung: $X = (x_1=1, x_2=1)$.
+>
+> Die nötigen Marginalisierungen aus den Trainingsdaten für diese Beobachtung sind:
+>
+> -   Für $H = 0$: $P(x_1=1 \mid 0) = 0.15 + 0.20 = 0.35$, $P(x_2=1 \mid 0) = 0.35 + 0.20 = 0.55$
+> -   Für $H = 1$: $P(x_1=1 \mid 1) = 0.65 + 0.05 = 0.70$, $P(x_2=1 \mid 1) = 0.30 + 0.05 = 0.35$
+>
+> Anwendung der Naive Bayes Klassifikation (mit Annahme bedingt unabhängige Merkmale): Wir nutzen $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$ und setzen unsere beiden Merkmale ein: $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1 \mid h) P(x_2 \mid h)$.
+>
+> Damit bekommen wir folgende Entscheidung:
+>
+> -   $H=0: 0.5 * 0.35 * 0.55 = 0.09625$
+> -   $H=1: 0.5 * 0.70 * 0.35 = 0.1225$
+> -   Entscheidung für Klasse $H=1$
+>
+> Da die Merkmale nicht unabhängig sind, darf die Produktannahme nicht verwendet werden, sondern wir müssten eigentlich den Term $P(x_1, x_2 \mid h)$ nutzen: $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 \mid h)$.
+>
+> Aus den gegebenen Daten haben wir (einfach oben ablesen):
+>
+> -   $P(x_1=1, x_2=1 \mid 0) = 0.20$
+> -   $P(x_1=1, x_2=1 \mid 1) = 0.05$
+>
+> Eingesetzt in die Formel $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) P(x_1, x_2 \mid h)$:
+>
+> -   $H=0: 0.5 * 0.20 = 0.10$
+> -   $H=1: 0.5 * 0.05 = 0.025$
+> -   Entscheidung für Klasse $H=0$
+>
+> D.h. der Naive Bayes Klassifikator würde hier $H=1$ vorschlagen, während der korrekte Posterior für $H=0$ spricht.
+>
+> ####### Interpretation
+>
+> In diesem konstruierten Beispiel führt die Abhängigkeit der Merkmale zu einer Fehlkalibrierung der Posterior-Wahrscheinlichkeiten durch NB und damit zu einer falschen Klassifikation. In der Realität erweist sich der NB trotzdem relativ robust gegenüber der Abhängigkeit von Merkmalen: Durch die Korrelation kommen häufig A-posteriori-Wahrscheinlichkeiten nahe 0 oder nahe 1 heraus, aber da es nur auf das Maximum und nicht auf den konkreten Wert ankommt, erhält man häufig trotzdem noch eine korrekte Klassifikation.
+
+##### Laplace-Schätzer
+
+-   Problem: Attribut-Ausprägung für bestimmte Klasse nicht in Trainingsmenge:
+    -   $\to$ Bedingte Wahrscheinlichkeit ist 0
+    -   $\to$ Produkt gleich 0
+
+<!-- -->
+
+-   Lösung: "Laplace-Schätzer" (auch "Laplace-Glättung")
+
+    Statt $P(D_i=x \mid h) = \dfrac{\lvert S_{D_i}(x) \cap S(h) \rvert}{\lvert S(h) \rvert}$
+
+    nutze $P(D_i=x \mid h) = \dfrac{\lvert S_{D_i}(x) \cap S(h) \rvert + m \cdot p_i}{\lvert S(h) \rvert + m}$
+
+    -   mit $m$: frei wählbarer Faktor, und
+
+    -   $p_i$: A-priori-Wahrscheinlichkeit für $P(D_i=x \mid h)$
+
+        Hintergrundwissen oder einfach *uniforme Verteilung der Attributwerte*: $p_i = 1/\lvert D_i \rvert$ (Wahrscheinlichkeit für eine Attributausprägung ist 1/(Anzahl der Ausprägungen des Attributs))
+
+    $\to$ "virtuelle" Trainingsbeispiele ($m$ ist die Zahl der virtuellen Trainingsbeispiele)
+
+##### Probleme mit Floating Point Underflow
+
+-   MAP berechnet Produkt mit vielen Termen
+-   Problem: Bei kleinen Zahlen kann **Floating Point Underflow** auftreten!
+
+<!-- -->
+
+-   Lösung: Logarithmus maximieren (Produkt geht in Summe über)
+
+    Erinnerung: $\log(x \cdot y) = \log(x) + \log(y)$ und Logarithmus streng monoton
+
+    $$\begin{eqnarray}
+    h_{MAP} &=& \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n) \\[5pt]
+            &=& \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h) \\[5pt]
+            &=& \mathop{\text{argmax}}_{h \in H} \: [\log(P(h)) + \sum_i \log(P(D_i \mid h))]
+    \end{eqnarray}$$
+
+##### Maximum Likelihood
+
+-   **Maximum a Posteriori** $$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h \mid D_1, \ldots, D_n)
+    = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_i P(D_i \mid h)$$
+
+<!-- -->
+
+-   Annahme: Klassen uniform verteilt $\to$ $P(h_i) = P(h_j)$
+
+    **Maximum Likelihood** $$h_{ML} = \mathop{\text{argmax}}_{h \in H} \: \prod_i P(D_i \mid h)$$
+
+    $\to$ Maximiere die Likelihood der Daten
+
+##### Ausblick: Kontinuierliche Attribute
+
+Bisher sind wir von diskreten Attributen ausgegangen. Bei kontinuierlichen Attributen hat man zwei Möglichkeiten:
+
+-   Diskretisierung der Attribute: Aufteilung in Intervalle und Bezeichnung der Intervalle mit einem Namen
+-   Einsatz einer Verteilungsannahme und deren Dichtefunktion, beispielsweise Annahme von **normalverteilten** Daten mit der Dichtefunktion $$f(x) = \frac{1}{\sqrt{2 \pi \sigma}} e^{- \frac{(x - \mu)^2}{2 \sigma^2}}$$ wobei $\mu$ der Mittelwert und $\sigma^2$ die Varianz der Daten sind.
+
+##### Hinweis zum Sprachgebrauch
+
+In Abhängigkeit von der Verteilung der $P(D_i \mid h)$ spricht man von
+
+-   "multinominalem" NB: Attribute umfassen mehrere Kategorien (verschiedene Ausprägungen, wie im "Wahlkampf"-Beispiel: Attribut "Bildung" hat die Ausprägungen "Abitur", "Bachelor" und "Master")
+-   Bernoulli NB: Attribute sind binär (Ausprägung 0 oder 1), typischerweise bei der Textklassifikation
+-   Gauss'sches NB: Annahme einer Normalverteilung der Attribut-Ausprägungen
+
+##### Wrap-Up
+
+-   Klassifikation mit Naive Bayes
+    -   Annahme von Unabhängigkeit $\to$ "Naive" Bayes Klassifikation
+    -   Schätzen der bedingten Wahrscheinlichkeiten aus den Trainingsdaten
+    -   Klassifikation durch Nutzung der geschätzten Wahrscheinlichkeiten
+    -   Hinweis auf Naivität der Annahme, dennoch sehr gute Erfolge in Praxis
+    -   Hinweis auf Probleme mit niedrigen Wahrscheinlichkeiten
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>📖 Zum Nachlesen</strong></summary>
+>
+> Lesen Sie in ([Russell und Norvig 2021](#ref-Russell2021)) bitte den Abschnitt 12.6 "Naive Bayes Models". Darüber hinaus ist Abschnitt "8.10 Der Naive Bayes Klassifikator" ([Ertel 2025](#ref-Ertel2025)) sehr empfehlenswert.
+>
+> </details>
+
+> [!NOTE]
+>
+> <details >
+> <summary><strong>✅ Lernziele</strong></summary>
+>
+> -   k2: Ich kann die Unabhängigkeits-Annahme in der 'Naive' Bayes Klassifikation erklären
+> -   k2: Ich kann die Probleme mit niedrigen Wahrscheinlichkeiten erklären
+> -   k3: Ich kann die bedingten Wahrscheinlichkeiten aus konkreten Trainingsdaten schätzen
+> -   k3: Ich kann die Klassifikation mit Naive Bayes durch Nutzung der geschätzten Wahrscheinlichkeiten durchführen
+>
+> </details>
+
+> [!TIP]
+>
+> <details >
+> <summary><strong>🧩 Quizzes</strong></summary>
+>
+> -   [Selbsttest Naive Bayes Klassifikation (ILIAS)](https://www.hsbi.de/elearning/goto.php?target=tst_1106588&client_id=FH-Bielefeld)
+>
+> </details>
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🏅 Challenges</strong></summary>
+>
+> **Spam-Mails**
+>
+> Stellen Sie sich vor, Sie haben eine Sammlung von 100 E-Mails (60 Spam, 40 Nicht-Spam). Sie wissen, dass das Wort "Gewinn" in 45 Spam-E-Mails und in 5 Nicht-Spam-E-Mails vorkommt.
+>
+> 1.  Berechnen Sie die Wahrscheinlichkeit, dass es eine E-Mail Spam ist, wenn das Wort "Gewinn" darin vorkommt.
+>
+> 2.  Wie würde die E-Mail mit dem Wort "Gewinn" durch einen Naive Bayes Klassifikator bewertet?
+>
+> **Textklassifikation**
+>
+> Betrachten Sie die folgenden Aussagen:
+>
+> > -   Patient A hat weder Husten noch Fieber und ist gesund.
+> > -   Patient B hat Husten, aber kein Fieber und ist gesund.
+> > -   Patient C hat keinen Husten, aber Fieber. Er ist krank.
+> > -   Patient D hat Husten und kein Fieber und ist krank.
+> > -   Patient E hat Husten und Fieber. Er ist krank.
+>
+> Aufgaben:
+>
+> 1.  Trainieren Sie auf diesem Datensatz einen Klassifikator mit NB.
+> 2.  Ist Patient F krank? Er hat Husten, aber kein Fieber.
+>
+> </details>
+
+<a id="id-6e322bc628d8ff7a4faa38fa42a09770217ab4fb"></a>
+
+#### NB3: Text-Klassifikation mit Naive Bayes
+
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🎯 TL;DR</strong></summary>
+>
+> Der NB-Klassifikator wird gern für die Textklassifikation eingesetzt. Hier muss man einem Text ein Label zuordnen.
+>
+> In einer Vorverarbeitung wird zunächst eine Menge der relevanten Wörter über alle Trainingstexte gebildet (*Bag-of-Words*). Der Bag-of-Words entspricht einem Merkmalsvektor, wobei die Merkmale die einzelnen Wörter sind. Dann kann jeder Text der Trainingsmenge über so einen Merkmalsvektor dargestellt werden: Entweder man gibt pro Merkmal an, ob es da (1) oder nicht da (0) ist (Variante Bernoulli NB) oder man zählt die Häufigkeit des Auftretens der Merkmale (Variante Multinomial NB). Dann kann man mit dem NB-Klassifikator die bedingten Wahrscheinlichkeiten schätzen und einen neuen Text klassifizieren.
+>
+> Bei beiden Varianten hat man das Problem mit Termen, die für eine Klasse im Training nicht vorkommen (Zero-Frequency-Problem). Dabei werden die geschätzten Wahrscheinlichkeiten zu 0, wodurch bei der Verwendung in der Klassifikation entsprechend die Scores ebenfalls zu 0 berechnen und eine sinnvolle Klassifikation nicht möglich ist. Diesem Problem kann man durch die Laplace-Glättung begegnen, welche wie künstliche Trainingsdaten wirkt.
+>
+> Wenn im zu klassifizierenden Testdatensatz Wörter vorkommen, die nicht beim Training vorhanden waren, spricht man auch vom "Out-of-Vocabulary"-Problem. Am einfachsten lässt sich dieses Problem lösen, indem man bereits beim Training einen "UNK"-Term trainiert (UNK steht für "unknown"). Bei der Klassifikation werden OOV-Terme einfach auf den UNK-Term abgebildet und die dafür berechneten Wahrscheinlichkeiten genutzt.
+>
+> </details>
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>🎦 Videos</strong></summary>
+>
+> Vorlesung \[[YT](https://youtu.be/h12_CoLqcNY)\], \[[HSBI](https://www.hsbi.de/medienportal/album/video/gki-nb3-text-klassifikation-mit-naive-bayes/5b99952a5479cfea41436399f55b0655/251)\]
+>
+> </details>
+
+##### Textklassifikation mit NB
+
+-   Trainingsdaten: Mails, manuell markiert:
+    -   D1: ("Die sieben Zwerge fraßen die sieben Ziegen", OK)
+    -   D2: ("Die sieben Ziegen traten die sieben Wölfe", SPAM)
+    -   D3: ("Die sieben Wölfe fraßen die sieben Böcke", OK)
+    -   D4: ("Die sieben Böcke traten die sieben Zwerge", OK)
+
+<!-- -->
+
+-   Testdaten (neue Mails):
+    -   T1: ("Die sieben Zwerge fraßen die sieben Wölfe")
+
+Lernen Sie mit Hilfe der Trainingsmenge einen Naive-Bayes-Klassifikator und wenden Sie diesen auf die Test-Dokumente an.
+
+##### Vorverarbeitung
+
+-   Vereinheitlichung: Kleinbuchstaben
+
+-   **Tokenisierung**: Aufteilung auf einzelne Wörter
+
+    Manchmal gar nicht so einfach: Wie viele Wörter sind "aren't"?
+
+-   **Stop Words** entfernen: "der", "die", "das", ...
+
+    Artikel und Füllwörter enthalten oft keine wirkliche Information für die Klassifikationsaufgabe und werden deshalb entfernt.
+
+    Dabei am besten auch Zeichensetzung mit entfernen.
+
+-   **Lemmatisierung**: "fraßen" $\to$ "fressen", "Wölfe" $\to$ "Wolf", ...
+
+    Die Wörter werden auf ihre "Grundform" gebracht: gebeugte Verben durch den Infinitiv ersetzt oder Plurale durch den Singular ersetzt etc. Erfolgt häufig mit Hilfe von Wörterbüchern.
+
+-   **Synonyme, Homonyme, Akronyme** ersetzen
+
+    Synonyme: Verschiedene Wörter mit selber/ähnlicher Bedeutung: "Fahrstuhl", "Lift"
+
+    Homonyme: Wort mit unterschiedlicher Bedeutung: "Bank" (Sitzgelegenheit, Geldinstitut)
+
+    Akronyme: Abkürzungen: "SPO"
+
+-   **Stemming**
+
+    Wörter auf ihre "Grundform" zurückbringen durch Abschneiden: Aus "closed" oder "closing" würde "clos" als gemeinsame Form. Eine etwas krude Variante der Lemmatisierung.
+
+-   **Terme**: Die erhaltenen Wörter nennen wir "Terme".
+
+##### Merkmalsvektor: Bag of Words
+
+Nach Vorverarbeitung:
+
+-   Trainingsdaten (**Terme**):
+    -   D1: (sieben, zwerg, fressen, sieben, ziege; OK)
+    -   D2: (sieben, ziege, treten, sieben, wolf; SPAM)
+    -   D3: (sieben, wolf, fressen, sieben, bock; OK)
+    -   D4: (sieben, bock, treten, sieben, zwerg; OK)
+-   Testdaten (**Terme**):
+    -   T1: (sieben, zwerg, fressen, sieben, wolf)
+
+**Vokabular**: V = {sieben, zwerg, fressen, ziege, treten, wolf, bock}
+
+**Bag of Words**: Merkmalsvektor mit fester Anordnung des Vokabulars
+
+##### Bag of Words für Trainingsdaten
+
+|     | sieben | zwerg | fressen | ziege | treten | wolf | bock | Klasse |
+|:----|:-------|:------|:--------|:------|:-------|:-----|:-----|:-------|
+| D1  | 2      | 1     | 1       | 1     | 0      | 0    | 0    | OK     |
+| D2  | 2      | 0     | 0       | 1     | 1      | 1    | 0    | SPAM   |
+| D3  | 2      | 0     | 1       | 0     | 0      | 1    | 1    | OK     |
+| D4  | 2      | 1     | 0       | 0     | 1      | 0    | 1    | OK     |
+
+Im *Bag of Words* (BoW) bekommt jeder Term des Vokabulars einen festen Platz. Die Trainingsdaten und die Testdaten können nun mit Hilfe dieses Vektors dargestellt werden, indem für jeder Term im BoW die Anzahl der Vorkommen im Trainings- oder Testvektor gezählt wird ("*Multinomial NB*").
+
+Es gibt auch die einfachere Form, die lediglich das Vorkommen vermerkt, also mit 0 und 1 arbeitet und nicht durchzählt ("*Bernoulli NB*", s.u.).
+
+##### Naive Bayes Training (Multinomial NB)
+
+Bei Multinomial NB zählen wir die Häufigkeiten der Vorkommen der einzelnen Terme in den einzelnen Dokumenten der jeweiligen Klasse.
+
+Nachfolgend sind die entsprechenden Häufigkeiten im Trainingsdatensatz zusammengefasst dargestellt.
+
+| Klasse | sieben | zwerg | fressen | ziege | treten | wolf | bock | Anzahl Wörter | Anzahl Dokumente |
+|:------|:------|:-----|:------|:-----|:------|:-----|:-----|:----------|:-----------|
+| OK     | 6      | 2     | 2       | 1     | 1      | 1    | 2    | 15            | 3                |
+| SPAM   | 2      | 0     | 0       | 1     | 1      | 1    | 0    | 5             | 1                |
+
+Für die Terme ist jeweils die Gesamt-Anzahl des Vorkommens des Terms in den Dokumenten der jeweiligen Klasse angegeben.
+
+Naive Bayes "trainieren"
+
+-   A-priori-Wahrscheinlichkeit der Klassen: $P(c) = \dfrac{N_c}{N} = \dfrac{\text{Anzahl Dokumente in Klasse c}}{\text{Anzahl Dokumente}}$
+
+-   Likelihood der Daten (Terme): $P(t \mid c) = \dfrac{\mathop{\text{count}}(t,c)}{\sum_{v \in V} \mathop{\text{count}}(v,c)}$ mit $\mathop{\text{count}}(t,c)$ Anzahl der Vorkommen von Term $t$ in allen Dokumenten der Klasse $c$ und $V$ die Vereinigung aller Terme aller Dokumente (Vokabular)
+
+<!-- -->
+
+-   A-priori-Wahrscheinlichkeit:
+    -   $P(\text{OK}) = 3/4 = 0.75$
+    -   $P(\text{SPAM}) = 1/4 = 0.25$
+-   Likelihood:
+    -   $P(\text{sieben} \mid \text{OK})$ $= (2+2+2)/(2+2+2+1+1+1+1+1+1+1+1+1)$ $= 6/15 = 0.40$
+    -   $P(\text{sieben} \mid \text{SPAM})$ $= (2)/(2+1+1+1) = 2/5 = 0.40$
+    -   $P(\text{zwerg} \mid \text{OK}) = 2/15 = 0.133$
+    -   $P(\text{zwerg} \mid \text{SPAM}) = 0/5 = 0.00$
+    -   $P(\text{fressen} \mid \text{OK}) = 2/15 = 0.133$
+    -   $P(\text{fressen} \mid \text{SPAM}) = 0/5 = 0.00$
+    -   $P(\text{ziege} \mid \text{OK}) = 1/15 = 0.067$
+    -   $P(\text{ziege} \mid \text{SPAM}) = 1/5 = 0.20$
+    -   $P(\text{treten} \mid \text{OK}) = 1/15 = 0.067$
+    -   $P(\text{treten} \mid \text{SPAM}) = 1/5 = 0.20$
+    -   $P(\text{wolf} \mid \text{OK}) = 1/15 = 0.067$
+    -   $P(\text{wolf} \mid \text{SPAM}) = 1/5 = 0.20$
+    -   $P(\text{bock} \mid \text{OK}) = 2/15 = 0.133$
+    -   $P(\text{bock} \mid \text{SPAM}) = 0/5 = 0.00$
+
+##### Naive Bayes Klassifikation (Multinomial NB)
+
+$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{x \in \mathbf{x}} P(x \mid h)$
+
+Jedes Vorkommen eines Wortes im Testdatensatz ist ein $x$!
+
+$$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{w \in \mathbf{V}:\,\mathop{\text{count}}(w)>0} P(w \mid h)^{\mathop{\text{count}}(w)}$$
+
+T1: (sieben, zwerg, fressen, sieben, wolf)
+
+-   **h = OK**: $P(\text{OK}) \cdot P(\text{sieben} \mid \text{OK})^2 \cdot P(\text{zwerg} \mid \text{OK})^1 \cdot P(\text{fressen} \mid \text{OK})^1 \cdot P(\text{ziege} \mid \text{OK})^0 \cdot P(\text{treten} \mid \text{OK})^0 \cdot P(\text{wolf} \mid \text{OK})^1 \cdot P(\text{bock} \mid \text{OK})^0$ $= 0.75*0.40*0.40*0.133*0.133*1*1*0.067*1 = 0.00014221956$
+
+-   **h = SPAM**: $P(\text{SPAM}) \cdot P(\text{sieben} \mid \text{SPAM})^2 \cdot P(\text{zwerg} \mid \text{SPAM})^1 \cdot P(\text{fressen} \mid \text{SPAM})^1 \cdot P(\text{ziege} \mid \text{SPAM})^0 \cdot P(\text{treten} \mid \text{SPAM})^0 \cdot P(\text{wolf} \mid \text{SPAM})^1 \cdot P(\text{bock} \mid \text{SPAM})^0$ $= 0.25*0.40*0.40*0.00*0.00*1*1*0.20*1 = 0.00$
+
+Entscheidung: OK
+
+> [!TIP]
+>
+> **Hinweis**: $P(w \mid h)^{\mathop{\text{count}}(w)}$ muss so gelesen werden:
+>
+> -   Wenn ein Term $w$ ein- oder mehrfach im Testvektor vorkommt, wird die zugehörige Likelihood entsprechend ein- bzw. mehrfach multipliziert.
+> -   Wenn ein Term $w$ nicht im Testvektor vorhanden ist ($\mathop{\text{count}}(w) = 0$), verschwindet die Likelihood und es wird automatisch ein Faktor 1 aufmultipliziert. Alternativ lässt man alle Terme mit $\mathop{\text{count}}(w) = 0$ einfach in der Formel weg.
+>
+> Nur tatsächlich vorhandene Terme im Testvektor ($\mathop{\text{count}}(w) > 0$) zahlen in das Ergebnis ein.
+>
+> Wenn die Likelihood eines Terms 0 ist (Zero-Frequency-Problem), dann wird der gesamte Ausdruck zu 0. Durch die beschriebene Lesart von $P(w \mid h)^{\mathop{\text{count}}(w)}$ ergibt sich dann bei $\mathop{\text{count}}(w) = 0$ auch kein $0^0$-Problem, weil die Likelihood gar nicht erst ausgewertet wird bzw. automatisch mit 1 ersetzt wurde. Dies ist eine Art Implementierungsdetail (rein mathematisch lässt sich das so nicht ablesen)!
+
+**Beobachtungen**:
+
+1.  Viele kleine Faktoren ergeben ein immer kleineres Produkt $\to$ Logarithmus nutzen und Übergang zu Summe statt Produkt!
+2.  Im Trainingsdatensatz nicht vorhandene Terme bei einer Klasse führen zu einem Faktor 0 (Zero-Frequency-Problem), wodurch der gesamte Score 0 wird. $\to$ Laplace-Glättung einsetzen!
+3.  Im Testdatensatz nicht vorhandene Terme des Vokabulars werden automatisch ignoriert, da der *count* 0 ist und als Exponent verwendet den neutralen Faktor 1 ergibt.
+
+##### Naive Bayes mit Laplace-Glättung (Multinomial NB)
+
+$$P(t \mid c) = \dfrac{\mathop{\text{count}}(t,c) + \alpha}{\sum_{v \in V} \mathop{\text{count}}(v,c) + \alpha \cdot \lvert V \rvert},
+\quad \text{ bei Laplace: } \alpha = 1$$
+
+-   A-priori-Wahrscheinlichkeit:
+    -   $P(\text{OK}) = 3/4 = 0.75$
+    -   $P(\text{SPAM}) = 1/4 = 0.25$
+-   Likelihood:
+    -   $P(\text{sieben} \mid \text{OK})$ $= (2+2+2+\mathbf{1})/(2+2+2+1+1+1+1+1+1+1+1+1+\mathbf{7})$ $= 7/22 = 0.318$ (vorher: 0.40)
+    -   $P(\text{sieben} \mid \text{SPAM})$ $= (2+\mathbf{1})/(2+1+1+1+\mathbf{7})$ $= 3/12 = 0.25$ (vorher: 0.40)
+    -   $P(\text{zwerg} \mid \text{OK}) = (2+\mathbf{1})/(15+\mathbf{7}) = 0.136$ (vorher: 0.133)
+    -   $P(\text{zwerg} \mid \text{SPAM}) = (0+\mathbf{1})/(5+\mathbf{7}) = 0.083$ (vorher: **0.00**)
+    -   $P(\text{fressen} \mid \text{OK}) = (2+\mathbf{1})/(15+\mathbf{7}) = 0.136$ (vorher: 0.133)
+    -   $P(\text{fressen} \mid \text{SPAM}) = (0+\mathbf{1})/(5+\mathbf{7}) = 0.083$ (vorher: **0.00**)
+    -   $P(\text{ziege} \mid \text{OK}) = (1+\mathbf{1})/(15+\mathbf{7}) = 0.091$ (vorher: 0.067)
+    -   $P(\text{ziege} \mid \text{SPAM}) = (1+\mathbf{1})/(5+\mathbf{7}) = 0.167$ (vorher: 0.20)
+    -   $P(\text{treten} \mid \text{OK}) = (1+\mathbf{1})/(15+\mathbf{7}) = 0.091$ (vorher: 0.067)
+    -   $P(\text{treten} \mid \text{SPAM}) = (1+\mathbf{1})/(5+\mathbf{7}) = 0.167$ (vorher: 0.20)
+    -   $P(\text{wolf} \mid \text{OK}) = (1+\mathbf{1})/(15+\mathbf{7}) = 0.091$ (vorher: 0.067)
+    -   $P(\text{wolf} \mid \text{SPAM}) = (1+\mathbf{1})/(5+\mathbf{7}) = 0.167$ (vorher: 0.20)
+    -   $P(\text{bock} \mid \text{OK}) = (2+\mathbf{1})/(15+\mathbf{7}) = 0.136$ (vorher: 0.133)
+    -   $P(\text{bock} \mid \text{SPAM}) = (0+\mathbf{1})/(5+\mathbf{7}) = 0.083$ (vorher: **0.00**)
+
+T1: (sieben, zwerg, fressen, sieben, wolf)
+
+-   **h = OK**: $P(\text{OK}) \cdot P(\text{sieben} \mid \text{OK})^2 \cdot P(\text{zwerg} \mid \text{OK})^1 \cdot P(\text{fressen} \mid \text{OK})^1 \cdot P(\text{ziege} \mid \text{OK})^0 \cdot P(\text{treten} \mid \text{OK})^0 \cdot P(\text{wolf} \mid \text{OK})^1 \cdot P(\text{bock} \mid \text{OK})^0$ $= 0.75*0.318*0.318*0.136*0.136*1*1*0.091*1 = 0.0001276540836$ (vorher: 0.00014221956)
+
+-   **h = SPAM**: $P(\text{SPAM}) \cdot P(\text{sieben} \mid \text{SPAM})^2 \cdot P(\text{zwerg} \mid \text{SPAM})^1 \cdot P(\text{fressen} \mid \text{SPAM})^1 \cdot P(\text{ziege} \mid \text{SPAM})^0 \cdot P(\text{treten} \mid \text{SPAM})^0 \cdot P(\text{wolf} \mid \text{SPAM})^1 \cdot P(\text{bock} \mid \text{SPAM})^0$ $= 0.25*0.25*0.25*0.083*0.083*1*1*0.167*1 = 0.00001797598438$ (vorher: **0.00**)
+
+Entscheidung: OK
+
+**Beobachtungen**:
+
+Laplace-Glättung führt zu leicht veränderten Schätzungen, die Berechnung der Scores erscheint aber plausibler (keine Probleme durch Zero-Frequency-Terme im Training mehr).
+
+##### Naive Bayes mit Out-of-Vocabulary-Termen (OOV, Multinomial NB)
+
+Was passiert, wenn bei der Klassifikation eines Testvektors Wörter vorkommen, die es beim Training nicht gab?
+
+T1: (sieben, zwerg, fressen, sieben, wolf, **lecker**)
+
+-   **h = OK**: $P(\text{OK}) \cdot P(\text{sieben} \mid \text{OK})^2 \cdot P(\text{zwerg} \mid \text{OK})^1 \cdot P(\text{fressen} \mid \text{OK})^1 \cdot P(\text{ziege} \mid \text{OK})^0 \cdot P(\text{treten} \mid \text{OK})^0 \cdot P(\text{wolf} \mid \text{OK})^1 \cdot P(\text{bock} \mid \text{OK})^0$ $\cdot \mathbf{P(\text{lecker} \mid \text{OK})^1}$
+
+-   **h = SPAM**: $P(\text{SPAM}) \cdot P(\text{sieben} \mid \text{SPAM})^2 \cdot P(\text{zwerg} \mid \text{SPAM})^1 \cdot P(\text{fressen} \mid \text{SPAM})^1 \cdot P(\text{ziege} \mid \text{SPAM})^0 \cdot P(\text{treten} \mid \text{SPAM})^0 \cdot P(\text{wolf} \mid \text{SPAM})^1 \cdot P(\text{bock} \mid \text{SPAM})^0$ $\cdot \mathbf{P(\text{lecker} \mid \text{SPAM})^1}$
+
+$\mathbf{P(\text{lecker} \mid \text{OK})}$ und $\mathbf{P(\text{lecker} \mid \text{SPAM})}$ sind **unbekannt**!
+
+**Möglichkeiten**:
+
+1.  Da im Training nicht vorgekommen: 0 als Wert für $P(\text{lecker} \mid c)$ annehmen
+2.  Term ignorieren
+3.  Ad-hoc Laplace einführen
+4.  Mit UNK-Term arbeiten im Training/Klassifikation
+
+Wenn wir während der Klassifikation mit einem Term konfrontiert werden, der beim Training nicht aufgetaucht ist, bekommen wir ein Problem. Potentiell sind die vier oben dargestellten Möglichkeiten als Lösung denkbar. Diese haben aber unterschiedliche Auswirkungen:
+
+-   Problem bei (1): Sämtliche Scores werden zu 0, d.h. wir können uns nicht entscheiden.
+-   Problem bei (2): Der Term wurde durch die Vorverarbeitung nicht entfernt, d.h. er trägt höchstwahrscheinliche eine Bedeutung. Ihn einfach zu ignorieren würde bedeuten, dass wir diese Information wegwerfen und möglicherweise eine Fehlklassifikation durchführen.
+-   Problem bei (3): In sämtlichen Likelihoods steckt die Größe des Vokabulars drin - wir müssten also während der Klassifikation ad hoc alle Likelihoods neu berechnen!
+-   Variante (4) ist dagegen relativ elegant ...
+
+##### Naive Bayes mit UNK-Term (OOV, Multinomial NB)
+
+**Training**
+
+Wir führen einen zusätzlichen Term **UNK** ("unknown") ein und führen das Training damit durch.
+
+**Achtung**: Das Vokabular wird dadurch um einen Eintrag größer - alle Likelihoods müssen entsprechend angepasst werden!
+
+| Klasse | sieben | zwerg | fressen | ziege | treten | wolf | bock | UNK | Anzahl Wörter | Anzahl Dokumente |
+|:-----|:-----|:-----|:------|:-----|:-----|:-----|:-----|:-----|:-------|:---------|
+| OK | 6 | 2 | 2 | 1 | 1 | 1 | 2 | 0 | 15 | 3 |
+| SPAM | 2 | 0 | 0 | 1 | 1 | 1 | 0 | 0 | 5 | 1 |
+
+-   A-priori-Wahrscheinlichkeit:
+    -   $P(\text{OK}) = 3/4 = 0.75$
+    -   $P(\text{SPAM}) = 1/4 = 0.25$
+-   Likelihood:
+    -   $P(\text{sieben} \mid \text{OK})$ $= (2+2+2+1)/(2+2+2+1+1+1+1+1+1+1+1+1+\mathbf{8})$ $= 7/23 = 0.304$ (vorher: 0.318)
+    -   $P(\text{sieben} \mid \text{SPAM})$ $= (2+1)/(2+1+1+1+\mathbf{8})$ $= 3/13 = 0.231$ (vorher: 0.25)
+    -   ...
+    -   $P(\text{UNK} \mid \text{OK}) = (0+1)/(15+\mathbf{8}) = 0.043$
+    -   $P(\text{UNK} \mid \text{SPAM}) = (0+1)/(5+\mathbf{8}) = 0.077$
+
+**Klassifikation**
+
+Unbekannte Terme werden auf **UNK** gemappt. Dabei für die Exponenten wieder die Anzahl beachten!
+
+T1: (sieben, zwerg, fressen, sieben, wolf, **lecker**)
+
+-   **h = OK**: $P(\text{OK}) \cdot P(\text{sieben} \mid \text{OK})^2 \cdot P(\text{zwerg} \mid \text{OK})^1 \cdot P(\text{fressen} \mid \text{OK})^1 \cdot P(\text{ziege} \mid \text{OK})^0 \cdot P(\text{treten} \mid \text{OK})^0 \cdot P(\text{wolf} \mid \text{OK})^1 \cdot P(\text{bock} \mid \text{OK})^0$ $\cdot \mathbf{P(\text{lecker} \mid \text{OK})^1}$
+
+-   **h = SPAM**: $P(\text{SPAM}) \cdot P(\text{sieben} \mid \text{SPAM})^2 \cdot P(\text{zwerg} \mid \text{SPAM})^1 \cdot P(\text{fressen} \mid \text{SPAM})^1 \cdot P(\text{ziege} \mid \text{SPAM})^0 \cdot P(\text{treten} \mid \text{SPAM})^0 \cdot P(\text{wolf} \mid \text{SPAM})^1 \cdot P(\text{bock} \mid \text{SPAM})^0$ $\cdot \mathbf{P(\text{lecker} \mid \text{SPAM})^1}$
+
+**Mapping**:
+
+-   $P(\text{lecker} \mid \text{OK})$ $\to$ $P(\text{UNK} \mid \text{OK}) = 0.043$
+-   $P(\text{lecker} \mid \text{SPAM})$ $\to$ $P(\text{UNK} \mid \text{SPAM}) = 0.077$
+
+Mit dem UNK-Term kann man das Problem des Out-of-Vocabulary elegant lösen. Im Training berechnet man die Likelihood für diesen Term normal mit. In der Klassifikation werden Terme in den Daten, die nicht im Vokabular sind, auf diesen UNK-Term gemappt und dessen Likelihood entsprechend verwendet.
+
+Erweiterung: Der Bag-of-Words-Ansatz führt sehr schnell zu riesigen Vektoren, die nur dünn besetzt sind. Um diesem Problem ein wenig entgegen zu wirken, führt man häufig bereits beim Training eine Schwelle für die Häufigkeit der Terme der Trainingsmenge ein: Terme, die in ihrer Häufigkeit über der Schwelle liegen, werden normal für die Schätzung verwendet. Terme, die in ihrer Häufigkeit unter der Schwelle liegen, werden auf den UNK-Term abgebildet und dort mitgezählt. Hier macht man sich das [Zipf'sche Gesetz](https://en.wikipedia.org/wiki/Zipf%27s_law) zunutze: Wenige Wörter kommen viel häufiger vor als andere, und die anderen Wörter sind sehr selten - wobei man sich durchaus darüber streiten kann, ob die seltenen Wörter eher eine Art Rauschen darstellen oder vielleicht gerade durch ihre Seltenheit mit zur Trennschärfe beitragen können.
+
+##### Naive Bayes Training (Bernoulli NB, mit Laplace)
+
+Bei Bernoulli NB prüfen wir das Vorkommen der einzelnen Terme. Der Merkmalsraum ist also binär - 0 oder 1.
+
+Im Grunde haben wir hier die selben Varianten wie bei Multinomial NB - ich zeige hier nachfolgend nur die Kombination von Bernoulli NB und Laplace-Glättung. Für "ohne" Laplace kann man einfach das $\alpha = 0$ setzen. Analog zu der Multinomial NB Variante kann man auch bei Bernoulli NB mit UNK-Termen arbeiten.
+
+|     | sieben | zwerg | fressen | ziege | treten | wolf | bock | Klasse |
+|:----|:-------|:------|:--------|:------|:-------|:-----|:-----|:-------|
+| D1  | 1      | 1     | 1       | 1     | 0      | 0    | 0    | OK     |
+| D2  | 1      | 0     | 0       | 1     | 1      | 1    | 0    | SPAM   |
+| D3  | 1      | 0     | 1       | 0     | 0      | 1    | 1    | OK     |
+| D4  | 1      | 1     | 0       | 0     | 1      | 0    | 1    | OK     |
+
+Zusammengefasst ergibt sich damit pro Klasse:
+
+| Klasse | sieben | zwerg | fressen | ziege | treten | wolf | bock | Anzahl Dokumente |
+|:-------|:-------|:------|:--------|:------|:-------|:-----|:-----|:-----------------|
+| OK     | 3      | 2     | 2       | 1     | 1      | 1    | 2    | 3                |
+| SPAM   | 1      | 0     | 0       | 1     | 1      | 1    | 0    | 1                |
+
+Für die Terme ist jeweils die Gesamt-Anzahl der Dokumente mit dem Term und der jeweiligen Klasse angegeben.
+
+Naive Bayes "trainieren"
+
+-   A-priori-Wahrscheinlichkeit der Klassen: $P(c) = \dfrac{N_c}{N} = \dfrac{\text{Anzahl Dokumente in Klasse c}}{\text{Anzahl Dokumente}}$
+
+-   Likelihood der Daten (Terme):
+
+    -   $P(t=1 \mid c) = \dfrac{\text{Anzahl Dokumente in Klasse c mit Term t} + \alpha}{\text{Anzahl Dokumente in Klasse c} + 2 \cdot \alpha}$
+    -   $P(t=0 \mid c) = 1 - P(t=1 \mid c)$
+
+<!-- -->
+
+-   A-priori-Wahrscheinlichkeit:
+    -   $P(\text{OK}) = 3/4 = 0.75$
+    -   $P(\text{SPAM}) = 1/4 = 0.25$
+-   Likelihood $\alpha = 1$:
+    -   $P(\text{sieben}=1 \mid \text{OK}) = (3+1)/(3+2) = 4/5 = 0.80$
+    -   $P(\text{sieben}=1 \mid \text{SPAM}) = (1+1)/(1+2) = 2/3 = 0.667$
+    -   $P(\text{zwerg}=1 \mid \text{OK}) = 3/5 = 0.60$
+    -   $P(\text{zwerg}=1 \mid \text{SPAM}) = 1/3 = 0.333$
+    -   $P(\text{fressen}=1 \mid \text{OK}) = 3/5 = 0.60$
+    -   $P(\text{fressen}=1 \mid \text{SPAM}) = 1/3 = 0.333$
+    -   $P(\text{ziege}=1 \mid \text{OK}) = 2/5 = 0.40$
+    -   $P(\text{ziege}=1 \mid \text{SPAM}) = 2/3 = 0.667$
+    -   $P(\text{treten}=1 \mid \text{OK}) = 2/5 = 0.40$
+    -   $P(\text{treten}=1 \mid \text{SPAM}) = 2/3 = 0.667$
+    -   $P(\text{wolf}=1 \mid \text{OK}) = 2/5 = 0.40$
+    -   $P(\text{wolf}=1 \mid \text{SPAM}) = 2/3 = 0.667$
+    -   $P(\text{bock}=1 \mid \text{OK}) = 3/5 = 0.60$
+    -   $P(\text{bock}=1 \mid \text{SPAM}) = 1/3 = 0.333$
+
+Bei Bernoulli NB wird auch explizit die Wahrscheinlichkeit für die Abwesenheit eines Terms berechnet, dies ist einfach $P(t=0 \mid c) = 1 - P(t=1 \mid c)$. Der Übersichtlichkeit halber ist dies oben nicht explizit angegeben/ausgerechnet.
+
+##### Naive Bayes Klassifikation (Bernoulli NB)
+
+$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{x \in \mathbf{x}} P(x \mid h)$
+
+Für jedes Wort $w$ im Vokabular $V$ gibt es die Beobachtung (Bernoulli-Variable) $lw \in \lbrace 0, 1 \rbrace$. ($lw = 1$ wenn Wort $w$ im Testdokument vorkommt, $lw=0$ sonst.)
+
+$$h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{w \in \mathbf{V}} P(lw=1 \mid h)^{lw} \cdot (1 - P(lw=1 \mid h))^{1-lw}$$
+
+Wenn ein Wort $w$ im Testdatensatz vorkommt, wird es mit $P(lw=1 \mid h)$ berücksichtigt. Sonst mit $P(lw=0 \mid h) = (1 - P(lw=1 \mid h))$.
+
+T1: (sieben, zwerg, fressen, sieben, wolf)
+
+-   **h = OK**: $P(\text{OK}) \cdot P(\text{sieben}=1 \mid \text{OK}) \cdot P(\text{zwerg}=1 \mid \text{OK}) \cdot P(\text{fressen}=1 \mid \text{OK}) \cdot P(\text{ziege}=0 \mid \text{OK}) \cdot P(\text{treten}=0 \mid \text{OK}) \cdot P(\text{wolf}=1 \mid \text{OK}) \cdot P(\text{bock}=0 \mid \text{OK})$ $= 0.75*0.80*0.60*0.60*(1-0.40)*(1-0.40)*0.40*(1-0.60) = 0.0124416$
+
+-   **h = SPAM**: $P(\text{SPAM}) \cdot P(\text{sieben}=1 \mid \text{SPAM}) \cdot P(\text{zwerg}=1 \mid \text{SPAM}) \cdot P(\text{fressen}=1 \mid \text{SPAM}) \cdot P(\text{ziege}=0 \mid \text{SPAM}) \cdot P(\text{treten}=0 \mid \text{SPAM}) \cdot P(\text{wolf}=1 \mid \text{SPAM}) \cdot P(\text{bock}=0 \mid \text{SPAM})$ $= 0.25*0.667*0.333*0.333*(1-0.667)*(1-0.667)*0.667*(1-0.333) = 0.0009122091926$
+
+Entscheidung: OK
+
+**Beobachtungen**:
+
+1.  Viele kleine Faktoren ergeben ein immer kleineres Produkt $\to$ Logarithmus nutzen und Übergang zu Summe statt Produkt!
+2.  Im Trainingsdatensatz nicht vorhandene Terme bei einer Klasse führen zu einem Faktor 0 (Zero-Frequency-Problem), wodurch der gesamte Score 0 wird. $\to$ Laplace-Glättung einsetzen!
+3.  Im Testdatensatz nicht vorhandene Terme des Vokabulars werden automatisch korrekt mit $P(lw=0 \mid h)$ bzw. $(1 - P(lw=1 \mid h))$ berücksichtigt. (Multinomial NB würde diese Terme mit dem Faktor 1 ignorieren.)
+
+##### Wrap-Up
+
+-   **Vorverarbeitung**: Tokenisierung, Vokabular, Bag of Words (BoW)
+
+-   **Multinomial NB**:
+
+    -   Zähle die Vorkommen eines Terms: $P(t \mid c) = \dfrac{\mathop{\text{count}}(t,c) + \alpha}{\sum_{v \in V} \mathop{\text{count}}(v,c) + \alpha \cdot \lvert V \rvert}$
+
+    -   Klassifikation mit $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{w \in \mathbf{V}} P(w \mid h)^{\mathop{\text{count}}(w)}$
+
+    -   Im Test nicht vorhandene Terme t aus V werden ignoriert (Faktor 1)
+
+-   **Bernoulli NB**:
+
+    -   Prüfe das Vorkommen eines Terms: $P(t=1 \mid c) = \dfrac{\text{Anzahl Dokumente in Klasse c mit Term t} + \alpha}{\text{Anzahl Dokumente in Klasse c} + 2 \cdot \alpha}$
+
+    -   Klassifikation mit $h_{MAP} = \mathop{\text{argmax}}_{h \in H} \: P(h) \prod_{w \in \mathbf{V}} P(lw=1 \mid h)^{lw} \cdot (1 - P(lw=1 \mid h))^{1-lw}$
+
+    -   Im Test nicht vorhandene Terme t aus V werden korrekt mit $P(lw=0 \mid h)$ berücksichtigt
+
+<!-- -->
+
+-   Problem mit kleinen Faktoren: **Logarithmus**, Übergang zu Summe
+-   **Zero-Frequency-Problem**: Laplace-Glättung mit $\alpha=1$
+-   Klassifikation von **Out-of-Vocabulary-Termen**: UNK-Term trainieren
+
+> [!TIP]
+>
+> <details open>
+> <summary><strong>📖 Zum Nachlesen</strong></summary>
+>
+> Lesen Sie in ([Russell und Norvig 2021](#ref-Russell2021)) bitte den Abschnitt 12.6 "Naive Bayes Models". Darüber hinaus ist Abschnitt "8.10 Der Naive Bayes Klassifikator" ([Ertel 2025](#ref-Ertel2025)) sehr empfehlenswert.
+>
+> </details>
+
+> [!NOTE]
+>
+> <details >
+> <summary><strong>✅ Lernziele</strong></summary>
+>
+> -   k2: Ich kann die verschiedenen Schritte der Vorverarbeitung erklären
+> -   k2: Ich kann das Bag-of-Words-Modell erklären
+> -   k3: Ich kann einen Text in das BoW-Modell überführen
+> -   k3: Ich kann die bedingten Wahrscheinlichkeiten aus konkreten Trainingsdaten schätzen: Multinomial NB, Bernoulli NB, mit/ohne Laplace-Glättung
+> -   k3: Ich kann die Klassifikation von Testdaten mit Naive Bayes durch Nutzung der geschätzten Wahrscheinlichkeiten durchführen: Multinomial NB, Bernoulli NB
+> -   k3: Ich kann dem Out-of-Vocabulary-Problem durch das Arbeiten mit UNK-Termen entgegenwirken
 >
 > </details>
 
@@ -7874,17 +7874,17 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
+-   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 -   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
+-   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 -   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
 -   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
--   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 -   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
 -   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 982eee8 2026-09-20 tdu: add gradient search and sim-annealing (was missing somehow)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> ecd99a9 2026-09-28 orga tdu: ml101 should already be in week 2 as intro in naive bayes<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in Graph-Search-Variante bei endlichem Suchraum
 
