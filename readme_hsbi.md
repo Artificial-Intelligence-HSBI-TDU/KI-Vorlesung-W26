@@ -47,71 +47,67 @@ Ausgehend von den Fragen "Was ist *Intelligenz*?" und "Was ist *künstliche* Int
 |                            | G3: Mo, 14:00 - 15:30 Uhr (DE) |
 |                            | G4: Do, 14:00 - 15:30 Uhr (DE) |
 
-Alle Sitzungen online per Zoom (**Zugangsdaten siehe [ILIAS](https://www.hsbi.de/elearning/goto.php/crs/1634793)**).
+Alle Sitzungen online per Zoom (**Zugangsdaten siehe [ILIAS](https://www.hsbi.de/elearning/goto.php/crs/1702067)**).
 
 ### Fahrplan (HSBI)
 
-Abgabe der Übungsblätter jeweils **Montag bis 09:00 Uhr** im [ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1582797). Vorstellung der Lösung im jeweiligen Praktikum in der Abgabewoche.
-
 | Monat | Woche vom | Thema | Vorlesung (Mo) | Praktikum (Mo/Mi/Do) |
-|---|:--|:---|:----------------------------------------------------|:---------|
+|---|:--|:---|:-----------------------------------------------------|:--------|
 | Oktober | 12.10. | Orga | [Orga HSBI](./readme_hsbi.md) \| [Einführung KI](lecture/intro/intro1-overview.md) \| [Einführung Jupyter Notebook](lecture/intro/intro3-jupyternotebooks.md) | \- |
-|  | 19.10. | Search | [Problemlösen](lecture/intro/intro2-problemsolving.md) \| [Tiefensuche](lecture/searching/search1-dfs.md) \| [Breitensuche](lecture/searching/search2-bfs.md) \| [Branch-and-Bound](lecture/searching/search3-branchandbound.md) \| [Best First](lecture/searching/search4-bestfirst.md) \| [A-Stern](lecture/searching/search5-astar.md) | [Blatt: Suche](homework/sheet-search.md) |
-|  | 26.10. | Games | [Optimale Spiele](lecture/games/games1-intro.md) \| [Games mit Minimax](lecture/games/games2-minimax.md) \| [Minimax und Heuristiken](lecture/games/games3-heuristics.md) \| [Alpha-Beta-Pruning](lecture/games/games4-alphabeta.md) | [Blatt: Games](homework/sheet-games.md) |
-| November | 02.11. | DTL | [Machine Learning 101](lecture/dtl/dtl1-mlbasics.md) \| [CAL2](lecture/dtl/dtl2-cal2.md) \| [Entropie](lecture/dtl/dtl5-entropy.md) \| [ID3 und C4.5](lecture/dtl/dtl6-id3.md) \| [Random Forest](lecture/dtl/dtl7-randomforest.md) | [Blatt: DTL](homework/sheet-dtl.md) |
-|  | 09.11. | Perzeptron | [Perzeptron](lecture/nn/nn01-perceptron.md) | [Blatt: Perzeptron](homework/sheet-nn-perceptron.md) |
-|  | 16.11. | Regression | [Lineare Regression und Gradientenabstieg](lecture/nn/nn02-linear-regression.md) \| [Logistische Regression](lecture/nn/nn03-logistic-regression.md) | [Blatt: Regression](homework/sheet-nn-regression.md) |
-|  | 23.11. | MLP | [Multilayer Perceptron (MLP)](lecture/nn/nn05-mlp.md) \| [Backpropagation](lecture/nn/nn06-backprop.md) | [Blatt: MLP](homework/sheet-nn-mlp.md) |
-| Dezember | 30.11. | Train&Test | [Overfitting und Regularisierung](lecture/nn/nn04-overfitting.md) \| [Training & Testing](lecture/nn/nn07-training-testing.md) \| [Performanzanalyse](lecture/nn/nn08-testing.md) | [Blatt: Backpropagation](homework/sheet-nn-backprop.md) |
-|  | 07.12. | RNN | [RNN](lecture/nn/nn11-rnn.md) | [Blatt: TODO](.) |
+|  | 19.10. | Search | [Problemlösen](lecture/intro/intro2-problemsolving.md) \| [Tiefensuche](lecture/searching/search1-dfs.md) \| [Breitensuche](lecture/searching/search2-bfs.md) \| [Branch-and-Bound](lecture/searching/search3-branchandbound.md) \| [Best First](lecture/searching/search4-bestfirst.md) \| [A-Stern](lecture/searching/search5-astar.md) | [Suche](homework/sheet-search.md) |
+|  | 26.10. | Games | [Optimale Spiele](lecture/games/games1-intro.md) \| [Games mit Minimax](lecture/games/games2-minimax.md) \| [Minimax und Heuristiken](lecture/games/games3-heuristics.md) \| [Alpha-Beta-Pruning](lecture/games/games4-alphabeta.md) | [Games](homework/sheet-games.md) |
+| November | 02.11. | DTL | [Machine Learning 101](lecture/dtl/dtl1-mlbasics.md) \| [CAL2](lecture/dtl/dtl2-cal2.md) \| [Entropie](lecture/dtl/dtl5-entropy.md) \| [ID3 und C4.5](lecture/dtl/dtl6-id3.md) \| [Random Forest](lecture/dtl/dtl7-randomforest.md) | [DTL](homework/sheet-dtl.md) |
+|  | 09.11. | Perzeptron | [Perzeptron](lecture/nn/nn01-perceptron.md) | [Perzeptron](homework/sheet-nn-perceptron.md) |
+|  | 16.11. | Regression | [Lineare Regression und Gradientenabstieg](lecture/nn/nn02-linear-regression.md) \| [Logistische Regression](lecture/nn/nn03-logistic-regression.md) | [Regression](homework/sheet-nn-regression.md) |
+|  | 23.11. | MLP | [Multilayer Perceptron (MLP)](lecture/nn/nn05-mlp.md) \| [Backpropagation](lecture/nn/nn06-backprop.md) | [MLP](homework/sheet-nn-mlp.md) |
+| Dezember | 30.11. | Train&Test | [Overfitting und Regularisierung](lecture/nn/nn04-overfitting.md) \| [Training & Testing](lecture/nn/nn07-training-testing.md) \| [Performanzanalyse](lecture/nn/nn08-testing.md) | [Backpropagation](homework/sheet-nn-backprop.md) |
+|  | 07.12. | RNN | [RNN](lecture/nn/nn11-rnn.md) | \- |
 |  | 14.12. | Transformer | [Transformer](lecture/nn/nn12-transformer.md) | \- |
 |  | *21.12.* | \- | ***Weihnachtspause*** | \- |
 |  | *28.12.* | \- | ***Weihnachtspause*** | \- |
-| Januar | 04.01. | CSP | [Einführung Constraints](lecture/csp/csp1-intro.md) \| [Lösen von diskreten CSP](lecture/csp/csp2-backtrackingsearch.md) \| [CSP und Heuristiken](lecture/csp/csp3-heuristics.md) \| [Kantenkonsistenz und AC-3](lecture/csp/csp4-ac3.md) \| [Min-Conflicts Heuristik](lecture/csp/csp5-minconflicts.md) | [Blatt: CSP](homework/sheet-csp.md) |
-|  | 11.01. | NB | [Wahrscheinlichkeitstheorie](lecture/naivebayes/nb1-probability.md) \| [Naive Bayes](lecture/naivebayes/nb2-naivebayes.md) \| [Textklassifikation mit NB](lecture/naivebayes/nb3-nb-text.md) | [Blatt: Naive Bayes](homework/sheet-nb.md) |
-|  | 18.01. | EA | [Gradientensuche](lecture/searching/search6-gradient.md) \| [Simulated Annealing](lecture/searching/search7-annealing.md) \|\| [Intro EA/GA](lecture/ea/ea1-intro.md) \| [Genetische Algorithmen](lecture/ea/ea2-ga.md) | [Blatt: EA/GA](homework/sheet-ea.md) |
+| Januar | 04.01. | CSP | [Einführung Constraints](lecture/csp/csp1-intro.md) \| [Lösen von diskreten CSP](lecture/csp/csp2-backtrackingsearch.md) \| [CSP und Heuristiken](lecture/csp/csp3-heuristics.md) \| [Kantenkonsistenz und AC-3](lecture/csp/csp4-ac3.md) \| [Min-Conflicts Heuristik](lecture/csp/csp5-minconflicts.md) | [CSP](homework/sheet-csp.md) |
+|  | 11.01. | NB | [Wahrscheinlichkeitstheorie](lecture/naivebayes/nb1-probability.md) \| [Naive Bayes](lecture/naivebayes/nb2-naivebayes.md) \| [Textklassifikation mit NB](lecture/naivebayes/nb3-nb-text.md) | [Naive Bayes](homework/sheet-nb.md) |
+|  | 18.01. | EA | [Gradientensuche](lecture/searching/search6-gradient.md) \| [Simulated Annealing](lecture/searching/search7-annealing.md) \|\| [Intro EA/GA](lecture/ea/ea1-intro.md) \| [Genetische Algorithmen](lecture/ea/ea2-ga.md) | [EA/GA](homework/sheet-ea.md) |
 |  | 25.01. | PV | Rückblick \| [Prüfungsvorbereitung HSBI](admin/exams-hsbi.md) | \- |
 
 ### Prüfungsform, Note und Credits (HSBI)
 
 **(Digitale) Klausur plus Studienleistung (Portfolio)**, 5 ECTS
 
--   **Studienleistung**: "Portfolio" - Kriterien je Person:
+#### **Studienleistung**: "Portfolio
 
-    1.  Teilnahme an der Internationalen Projektwoche "AI Connect" mit aktiver Beteiligung (Meeting 1: Team-Building/Kick-Off, Meeting 2: Project Launch, Teamarbeit, Meeting 3: Team-Präsentationen (Vortrag/Video))
-    2.  Mind. fünf Übungsblätter erfolgreich bearbeitet
-    3.  Video-Vortrag zum erfolgreich bearbeiteten Mini-Projekt ("AI Connect") am Fr, 19.12., ab 10:30 Uhr, a 2 Minuten (pro Team)
+Die Studienleistung ist eine unbenotete Leistung und setzt sich aus mehreren Komponenten zusammen:
 
-    Je Kriterium: Abgabe eines Post Mortem im ILIAS (**jede Person individuell**)
+1.  Erfolgreiche Bearbeitung von mind. **sechs Übungsblättern** inkl. fristgerechter Abgabe des zugehörigen **Post Mortems** (s.u.).
 
--   **Gesamtnote**: (Digitale) Klausur im B40 (90 Minuten)
+Abgabe der Post Mortems: Spätestens bis Montag der Folgewoche 09:00 Uhr im [ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1739507).
 
-<details>
-<summary><strong>Hinweise</strong></summary>
+#### **Gesamtnote**: (Digitale) Klausur im B40 (90 Minuten)
 
--   Die Bearbeitung der Leistungen erfolgt individuell (außer "AI Connect" Projektwoche).
--   Für die "AI Connect" Projektwoche werden gemischte Teams aus den beteiligten Hochschulen gebildet.
+Die Modul-Note ergibt sich aus der Leistung in der Klausur.
+
+Sie können die Prüfung in der ersten oder in der zweiten Prüfungsphase ablegen. In beiden Prüfungszeiträumen wird je eine digitale Klausur im B40 mit 90 Minuten Dauer angeboten. Die Note ergibt sich aus der Leistung in der Klausur.
+
+#### Hinweise
+
+-   Die Bearbeitung der Aufgaben erfolgt individuell.
+-   Im Praktikum beginnen wir gemeinsam mit der Bearbeitung der Übungsblätter und diskutieren über Lösungsansätze. Die Lösung soll anschließend individuell fertiggestellt werden und kann auf Wunsch im nächsten Praktikum von Ihnen vorgestellt werden.
+-   "Erfolgreiche Bearbeitung" eines Blattes umfasst die Bearbeitung aller Aufgaben des Blattes und die fristgerechte Abgabe des ausreichenden Post Mortems im ILIAS. Die intensive Beschäftigung mit den Aufgaben muss erkennbar sein.
+-   Die Teilnahme am Praktikum ist freiwillig, wird aber deutlich empfohlen.
+-   Eine Bewertung einzelner Übungsblätter findet nicht statt.
 -   Die Post Mortems sind individuell zu erstellen und abzugeben.
 -   "Aktive Beteiligung" umfasst Anwesenheit und sachbezogene Beiträge; Anwesenheit/Beteiligung werden dokumentiert.
--   "Erfolgreiche Bearbeitung" eines Blattes umfasst Bearbeitung aller Aufgaben des Blattes und fristgerechte Abgabe des ausreichenden Post Mortems im ILIAS. Die intensive Beschäftigung mit den Aufgaben muss erkennbar sein.
 
 <!-- -->
 
--   **Post Mortem**: Jede Person beschreibt individuell(!) die Bearbeitung des jeweiligen Kriteriums bzw. die Teilnahme an den drei Meetings des "AI Connect"-Mini-Projekts zurückblickend mit mind. 150 bis max. 400 Wörtern (Nutzlast; Überschriften und Links zählen nicht mit). Gehen Sie dabei aussagekräftig und nachvollziehbar auf folgende Punkte ein:
+-   **Post Mortem**: Jede Person beschreibt individuell(!) die Bearbeitung des jeweiligen Blattes zurückblickend mit mind. 150 bis max. 400 Wörtern (Nutzlast! Überschriften und Links zählen nicht mit). Gehen Sie dabei aussagekräftig und nachvollziehbar auf folgende Punkte ein:
 
-    1.  Zusammenfassung: Was wurde gemacht bzw. was wurde auf dem Meeting besprochen?
-    2.  Details: Kurze Beschreibung besonders interessanter Aspekte.
-    3.  Reflexion: Was war der schwierigste Teil? Wie haben Sie dieses Problem gelöst?
-    4.  Reflexion: Was haben Sie gelernt oder (besser) verstanden?
-    5.  Link zu Ihrem Repo mit den relevanten Artefakten (Lösung, Slides für den Vortrag, ...).
+    1.  **Zusammenfassung**: Was wurde gemacht?
+    2.  **Details**: Kurze Beschreibung besonders interessanter Aspekte.
+    3.  **Reflexion**: Was war der schwierigste Teil? Wie haben Sie dieses Problem gelöst?
+    4.  **Reflexion**: Was haben Sie gelernt oder (besser) verstanden?
 
-    Für die "AI Connect"-Meetings passen Sie bitte die Punkte (1) bis (4) entsprechend inhaltlich an, (5) entfällt für die ersten beiden Meetings (für das dritte Meeting (Team-Präsentation) geben Sie bitte einen Link zu Ihrem Repo mit den Artefakten (Lösung, Vortrag, Video) an).
-
-    Die Post Mortems geben Sie bitte pro Person bis spätestens zur jeweiligen Deadline im [ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1582797) ab.
-
-    Siehe auch https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung-W25/discussions/3.
-
-</details>
+    Die Post Mortems geben Sie bitte pro Person bis spätestens zur jeweiligen Deadline im [ILIAS](https://www.hsbi.de/elearning/goto.php/exc/1739507) ab.
 
 ### Materialien
 
@@ -128,4 +124,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 -   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> bd6ae4d 2026-09-08 orga: update modul overview: remove cal3, add random forest<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 78513ac 2026-10-02 orga hsbi: update ilias links<br></sub></sup></p></blockquote>
