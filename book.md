@@ -183,7 +183,7 @@ Alle Sitzungen online per Zoom (**Zugangsdaten siehe [ILIAS](https://www.hsbi.de
 
 | Monat | Woche vom | Thema | Vorlesung (Mo) | Praktikum (Mo/Mi/Do) |
 |----|:---|:----|:-------------------------------------------------|:---------|
-| Oktober | 12.10. | Orga | [Orga HSBI](#id-f4b85a8855bfcf6dc9299224bc5aa73488d6ab79) \| [Einführung KI](#id-ca2e904964509a28710797d2f876c625f54f64ea) \| [Einführung Jupyter Notebook](#id-37999e3f5ed2a133fbaf6ee91fdb94138df2391d) | \- |
+| Oktober | 12.10. | Orga | Orga HSBI \|\| [Einführung KI](#id-ca2e904964509a28710797d2f876c625f54f64ea) \| [Einführung Jupyter Notebook](#id-37999e3f5ed2a133fbaf6ee91fdb94138df2391d) | \- |
 |  | 19.10. | Search | [Problemlösen](#id-7a896d9c036ef29a6574730757ae03cd7c0d3e26) \| [Tiefensuche](#id-3263461a899091090f8d87ea7f7f3f25bf8255eb) \| [Breitensuche](#id-d08f602e3cf0c02bc97cd5125053645dfe917271) \| [Branch-and-Bound](#id-0712fba7e7ca1e4684ed9b6de19345ba86fba471) \| [Best First](#id-0a43351a075c7504b755675510f9395b5dd8c092) \| [A-Stern](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5) | [Suche](#id-ab3ff3658bdafaf1ee5c17c11ffae098b587c048) |
 |  | 26.10. | Games | [Optimale Spiele](#id-f669cc4761526fb137b102a84bf0b7a3c8e1b51a) \| [Games mit Minimax](#id-5438da7280b20127b14a6fc6336d798d64ef51d6) \| [Minimax und Heuristiken](#id-a9ac054922401b7eb9285dc81c4d01960ce147ec) \| [Alpha-Beta-Pruning](#id-c8c274bfbd36e9fdbf8c47df5f99c064b06d9ff3) | [Games](#id-999c549c4e5cc5a8e810d1e55e7b21a1e3c85906) |
 | November | 02.11. | DTL | [Machine Learning 101](#id-82f362361464406c7ba09ef4a0893a4e32983b94) \| [CAL2](#id-4807e4a11529854b6d77f86cd3ca37caabc11cc9) \| [Entropie](#id-f085a6c9977296f3811e103376badb06ee228d84) \| [ID3 und C4.5](#id-0d69ce52eac18a7d932147cc42b20bcd98d267f3) \| [Random Forest](#id-67ad22f050d34df38bd659728538d50c3f90f70e) | [DTL](#id-4a134eae1417a20b6726b2fdc2b1dfd28a683e29) |
@@ -7870,17 +7870,17 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
--   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
--   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 -   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
 -   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
--   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 -   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 -   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
+-   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
+-   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 -   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 78513ac 2026-10-02 orga hsbi: update ilias links<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 356d261 2026-10-06 orga: remove link to readme<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in Graph-Search-Variante bei endlichem Suchraum
 

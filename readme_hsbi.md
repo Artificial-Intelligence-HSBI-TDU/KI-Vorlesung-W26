@@ -53,7 +53,7 @@ Alle Sitzungen online per Zoom (**Zugangsdaten siehe [ILIAS](https://www.hsbi.de
 
 | Monat | Woche vom | Thema | Vorlesung (Mo) | Praktikum (Mo/Mi/Do) |
 |---|:--|:---|:-----------------------------------------------------|:--------|
-| Oktober | 12.10. | Orga | [Orga HSBI](./readme_hsbi.md) \| [Einführung KI](lecture/intro/intro1-overview.md) \| [Einführung Jupyter Notebook](lecture/intro/intro3-jupyternotebooks.md) | \- |
+| Oktober | 12.10. | Orga | Orga HSBI \|\| [Einführung KI](lecture/intro/intro1-overview.md) \| [Einführung Jupyter Notebook](lecture/intro/intro3-jupyternotebooks.md) | \- |
 |  | 19.10. | Search | [Problemlösen](lecture/intro/intro2-problemsolving.md) \| [Tiefensuche](lecture/searching/search1-dfs.md) \| [Breitensuche](lecture/searching/search2-bfs.md) \| [Branch-and-Bound](lecture/searching/search3-branchandbound.md) \| [Best First](lecture/searching/search4-bestfirst.md) \| [A-Stern](lecture/searching/search5-astar.md) | [Suche](homework/sheet-search.md) |
 |  | 26.10. | Games | [Optimale Spiele](lecture/games/games1-intro.md) \| [Games mit Minimax](lecture/games/games2-minimax.md) \| [Minimax und Heuristiken](lecture/games/games3-heuristics.md) \| [Alpha-Beta-Pruning](lecture/games/games4-alphabeta.md) | [Games](homework/sheet-games.md) |
 | November | 02.11. | DTL | [Machine Learning 101](lecture/dtl/dtl1-mlbasics.md) \| [CAL2](lecture/dtl/dtl2-cal2.md) \| [Entropie](lecture/dtl/dtl5-entropy.md) \| [ID3 und C4.5](lecture/dtl/dtl6-id3.md) \| [Random Forest](lecture/dtl/dtl7-randomforest.md) | [DTL](homework/sheet-dtl.md) |
@@ -124,4 +124,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 -   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 78513ac 2026-10-02 orga hsbi: update ilias links<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 356d261 2026-10-06 orga: remove link to readme<br></sub></sup></p></blockquote>
