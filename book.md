@@ -659,13 +659,11 @@ Ergebnis:
 
 ##### Definition Zustand und Aktion
 
-**Zustand:**
-:   (Formale) Beschreibung eines Zustandes der Welt
+-   **Zustand**: (Formale) Beschreibung eines Zustandes der Welt
 
-**Aktion:**
+<!-- -->
 
-:   (Formale) Beschreibung einer durch Agenten ausführbaren Aktion
-
+-   **Aktion**: (Formale) Beschreibung einer durch Agenten ausführbaren Aktion
     -   Anwendbar auf bestimmte Zustände
     -   Überführt Welt in neuen Zustand ("Nachfolge-Zustand")
 
@@ -677,28 +675,21 @@ Ergebnis:
 
 Ein Problem besteht aus:
 
-**Startzustände**
-:   Menge $S_A \subset S$
+-   **Startzustände**: Menge $S_A \subset S$
 
-**Aktionen**
-:   Menge von Funktionen $\mathop{\text{op}}: S \to S$
+-   **Aktionen**: Menge von Funktionen $\mathop{\text{op}}: S \to S$
 
-**Zustandsraum**
-:   Menge aller Zustände $S$, die durch (wiederholte) Anwendung von Aktionen von den Startzuständen aus erreichbar sind
+-   **Zustandsraum**: Menge aller Zustände $S$, die durch (wiederholte) Anwendung von Aktionen von den Startzuständen aus erreichbar sind
 
 <!-- -->
 
-**Zieltest**
-:   Funktion $\mathop{\text{goal}}: S \to \{0,1\}$
+-   **Zieltest**: Funktion $\mathop{\text{goal}}: S \to \{0,1\}$
 
-**Zielzustände**
-:   Menge $S_E \subseteq S$ mit $\forall x \in S_E : \mathop{\text{goal}}(x)=1$
+-   **Zielzustände**: Menge $S_E \subseteq S$ mit $\forall x \in S_E : \mathop{\text{goal}}(x)=1$
 
 <!-- -->
 
-**Kosten**
-
-:   **Gesamtkosten**: $f(n) = g(n) + h(n)$
+-   **Kosten**: **Gesamtkosten**: $f(n) = g(n) + h(n)$
 
     -   $n \in S$ auf dem aktuellen Weg erreichter Knoten
     -   $g(n)$ tatsächliche Kosten für den Weg vom Start bis zu Knoten $n$
@@ -719,19 +710,15 @@ Die beiden Begriffe werden normalerweise synonym verwendet, sofern eindeutig ist
 
 ##### Definition Problemlösen
 
-Problemlösen
-
-:   Wegesuche im Graph vom Startknoten zu einem Zielknoten
+-   Problemlösen: Wegesuche im Graph vom Startknoten zu einem Zielknoten
 
     -   Spannt den **Suchbaum** auf
 
 <!-- -->
 
-**Lösung**
+-   **Lösung**: Folge von Aktionen, die Start- in Zielzustand überführen
 
-:   Folge von Aktionen, die Start- in Zielzustand überführen
-
-    Ergebnis des Problemlösens
+    -   Ergebnis des Problemlösens
 
 ##### Suche: Einfache Basisvariante
 
@@ -771,17 +758,13 @@ Dieser Algorithmus ist eine Erweiterung der einfachen Basisvariante der Suche:
 
 ##### Bewertung von Suchalgorithmen
 
-**Vollständigkeit**
-:   Findet der Algorithmus eine Lösung, wenn es eine gibt?
+-   **Vollständigkeit**: Findet der Algorithmus eine Lösung, wenn es eine gibt?
 
-**Optimalität**
-:   Findet der Algorithmus die beste Lösung?
+-   **Optimalität**: Findet der Algorithmus die beste Lösung?
 
-**Zeitkomplexität**
-:   Wie lange dauert es eine Lösung zu finden?
+-   **Zeitkomplexität**: Wie lange dauert es eine Lösung zu finden?
 
-**Speicherkomplexität**
-:   Wieviel Speicher benötigt die Suche?
+-   **Speicherkomplexität**: Wieviel Speicher benötigt die Suche?
 
 **Größen zur Bewertung:**
 
@@ -4896,11 +4879,11 @@ Siehe [A\*](#id-53af5b698d302efe7ce547dd76c249d8ebd26df5)
 >
 > Betrachten Sie folgende Landkarte und Restwegschätzungen:
 >
-> <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/MapGermanyGraph.svg/476px-MapGermanyGraph.svg.png"  /></p>
+> <p align="center"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/MapGermanyGraph.svg/500px-MapGermanyGraph.svg.png" width="50%" /></p>
 >
 > Quelle: [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 >
-> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenge_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenge.png"  /></picture></p>
+> <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenge_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/searching/images/challenge.png" width="50%" /></picture></p>
 >
 > Finden Sie mit der **Best-First-Suche** jeweils einen Weg von Würzburg nach München. Vergleichen Sie das Ergebnis mit der Gradienten-Suche.
 >
@@ -7870,17 +7853,17 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
--   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
 -   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
 -   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
 -   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 -   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
+-   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
+-   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
+-   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 356d261 2026-10-06 orga: remove link to readme<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 94ad6b3 2026-10-11 lecture: fix image scaling in bestfirst challenges<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in Graph-Search-Variante bei endlichem Suchraum
 

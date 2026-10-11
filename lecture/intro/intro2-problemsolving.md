@@ -77,13 +77,11 @@ Ergebnis:
 
 ## Definition Zustand und Aktion
 
-**Zustand:**
-:   (Formale) Beschreibung eines Zustandes der Welt
+-   **Zustand**: (Formale) Beschreibung eines Zustandes der Welt
 
-**Aktion:**
+<!-- -->
 
-:   (Formale) Beschreibung einer durch Agenten ausführbaren Aktion
-
+-   **Aktion**: (Formale) Beschreibung einer durch Agenten ausführbaren Aktion
     -   Anwendbar auf bestimmte Zustände
     -   Überführt Welt in neuen Zustand ("Nachfolge-Zustand")
 
@@ -95,28 +93,21 @@ Ergebnis:
 
 Ein Problem besteht aus:
 
-**Startzustände**
-:   Menge $S_A \subset S$
+-   **Startzustände**: Menge $S_A \subset S$
 
-**Aktionen**
-:   Menge von Funktionen $\mathop{\text{op}}: S \to S$
+-   **Aktionen**: Menge von Funktionen $\mathop{\text{op}}: S \to S$
 
-**Zustandsraum**
-:   Menge aller Zustände $S$, die durch (wiederholte) Anwendung von Aktionen von den Startzuständen aus erreichbar sind
+-   **Zustandsraum**: Menge aller Zustände $S$, die durch (wiederholte) Anwendung von Aktionen von den Startzuständen aus erreichbar sind
 
 <!-- -->
 
-**Zieltest**
-:   Funktion $\mathop{\text{goal}}: S \to \{0,1\}$
+-   **Zieltest**: Funktion $\mathop{\text{goal}}: S \to \{0,1\}$
 
-**Zielzustände**
-:   Menge $S_E \subseteq S$ mit $\forall x \in S_E : \mathop{\text{goal}}(x)=1$
+-   **Zielzustände**: Menge $S_E \subseteq S$ mit $\forall x \in S_E : \mathop{\text{goal}}(x)=1$
 
 <!-- -->
 
-**Kosten**
-
-:   **Gesamtkosten**: $f(n) = g(n) + h(n)$
+-   **Kosten**: **Gesamtkosten**: $f(n) = g(n) + h(n)$
 
     -   $n \in S$ auf dem aktuellen Weg erreichter Knoten
     -   $g(n)$ tatsächliche Kosten für den Weg vom Start bis zu Knoten $n$
@@ -137,19 +128,15 @@ Die beiden Begriffe werden normalerweise synonym verwendet, sofern eindeutig ist
 
 ## Definition Problemlösen
 
-Problemlösen
-
-:   Wegesuche im Graph vom Startknoten zu einem Zielknoten
+-   Problemlösen: Wegesuche im Graph vom Startknoten zu einem Zielknoten
 
     -   Spannt den **Suchbaum** auf
 
 <!-- -->
 
-**Lösung**
+-   **Lösung**: Folge von Aktionen, die Start- in Zielzustand überführen
 
-:   Folge von Aktionen, die Start- in Zielzustand überführen
-
-    Ergebnis des Problemlösens
+    -   Ergebnis des Problemlösens
 
 ## Suche: Einfache Basisvariante
 
@@ -189,17 +176,13 @@ Dieser Algorithmus ist eine Erweiterung der einfachen Basisvariante der Suche:
 
 ## Bewertung von Suchalgorithmen
 
-**Vollständigkeit**
-:   Findet der Algorithmus eine Lösung, wenn es eine gibt?
+-   **Vollständigkeit**: Findet der Algorithmus eine Lösung, wenn es eine gibt?
 
-**Optimalität**
-:   Findet der Algorithmus die beste Lösung?
+-   **Optimalität**: Findet der Algorithmus die beste Lösung?
 
-**Zeitkomplexität**
-:   Wie lange dauert es eine Lösung zu finden?
+-   **Zeitkomplexität**: Wie lange dauert es eine Lösung zu finden?
 
-**Speicherkomplexität**
-:   Wieviel Speicher benötigt die Suche?
+-   **Speicherkomplexität**: Wieviel Speicher benötigt die Suche?
 
 **Größen zur Bewertung:**
 
@@ -287,4 +270,4 @@ Dieser Algorithmus ist eine Erweiterung der einfachen Basisvariante der Suche:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 750a28e 2026-09-13 intro2: fix title<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 7067c83 2026-10-11 lecture: fix docsify issues in problemsolving<br></sub></sup></p></blockquote>
