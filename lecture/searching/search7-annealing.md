@@ -89,7 +89,7 @@ Die Temperatur `temp` bewegt sich dabei von hohen positiven Werten auf den Wert 
 
 <div data-align="center">
 
-<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Exp_e.svg/524px-Exp_e.svg.png" width="60%" /></p>
+<p align="center"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Exp_e.svg/330px-Exp_e.svg.png" width="80%" /></p>
 
 Quelle: ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
 
@@ -228,4 +228,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 -   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 7d78a86 2026-09-14 search: rework screencasts<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> c68d059 2026-10-12 lecture: fix link to image (annealing)<br></sub></sup></p></blockquote>

@@ -22,7 +22,7 @@
 
 ## Backgammon: Zwei Spieler, was ist der beste Zug?
 
-<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Backgammon_lg.png/960px-Backgammon_lg.png" width="60%" /></p>
+<p align="center"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Backgammon_lg.png/960px-Backgammon_lg.png" width="60%" /></p>
 
 Quelle: [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
@@ -147,4 +147,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 -   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 030c0f3 2026-09-14 games: rework screencasts<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> dc4542b 2026-10-12 lecture: fix link to image (games intro)<br></sub></sup></p></blockquote>
