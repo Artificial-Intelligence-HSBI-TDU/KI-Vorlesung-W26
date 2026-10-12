@@ -363,10 +363,10 @@ Quelle: [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turi
 
 Zum Bestehen des Turing-Tests ist (u.a.) erforderlich:
 
--   *Wissensrepräsentation*: Speichern des gesammelten Wissens **$\to$** **Wissensbasierte Systeme**
--   *Logisches Schließen*: Beantworten von Fragen mit Hilfe des vorhandenen Wissens **$\to$** **Logik, Resolution**
--   *Maschinelles Lernen*: Anpassung an veränderliches Umfeld **$\to$** **Musteranalyse und Mustererkennung und Mustervorhersage**
--   *Verarbeitung natürlicher Sprache*: Erfolgreiche Kommunikation, beispielsweise in Englisch **$\to$** **NLP**
+-   *Wissensrepräsentation*: Speichern des gesammelten Wissens $\to$ **Wissensbasierte Systeme**
+-   *Logisches Schließen*: Beantworten von Fragen mit Hilfe des vorhandenen Wissens $\to$ **Logik, Resolution**
+-   *Maschinelles Lernen*: Anpassung an veränderliches Umfeld $\to$ **Musteranalyse und Mustererkennung und Mustervorhersage**
+-   *Verarbeitung natürlicher Sprache*: Erfolgreiche Kommunikation, beispielsweise in Englisch $\to$ **NLP**
 
 "Totaler Turing-Test": zusätzlich **Computer Vision** (Erkennen von Objekten) und **Robotik** (Manipulation von Objekten)
 
@@ -926,7 +926,7 @@ Die *Arität* betrifft hier die "Stelligkeit": Wie viele Variablen stehen in ein
 
 ##### Constraints -- Wertebereiche
 
--   **Endliche Domänen**: $d$ Werte $\to$ $O(d^n)$ mögliche Zuweisungen (exponentiell in der Zahl der Variablen)
+-   **Endliche Domänen**: $d$ Werte $\to O(d^n)$ mögliche Zuweisungen (exponentiell in der Zahl der Variablen)
 
 <!-- -->
 
@@ -1835,7 +1835,7 @@ Die Trainingsmenge baut sich dann beim überwachten Lernen aus vielen solcher Pa
 
 ##### Trainingsdaten -- Merkmalsvektoren
 
-**Generell**: Merkmalsvektor für Objekt $v$: $$    \mathbf{x}(v) = (x_1, x_2, \ldots, x_n)$$
+**Generell**: Merkmalsvektor für Objekt $v$: $$\mathbf{x}(v) = (x_1, x_2, \ldots, x_n)$$
 
 -   $n$ Merkmale (Attribute)
 -   Attribut $x_t$ hat $m_t$ mögliche Ausprägungen
@@ -1962,7 +1962,7 @@ Eine andere Sichtweise ist die Nutzung als Checkliste für eine Reparatur ...
 
 ##### Definition Entscheidungsbaum
 
--   Erinnerung: **Merkmalsvektor** für Objekt $v$: $$    \mathbf{x}(v) = (x_1, x_2, \ldots, x_n)$$
+-   Erinnerung: **Merkmalsvektor** für Objekt $v$: $$\mathbf{x}(v) = (x_1, x_2, \ldots, x_n)$$
 
     -   $n$ Merkmale (Attribute)
     -   Attribut $x_t$ hat $m_t$ mögliche Ausprägungen
@@ -2154,7 +2154,7 @@ $\to$ Anzahl der Ja/Nein-Fragen, um zur gleichen Information zu kommen
 
 ##### Definition der Entropie $H(V)$ für Zufallsvariable $V$
 
--   Zufallsvariable $V$ $\to$ mögliche Werte $v_k$
+-   Zufallsvariable $V \to$ mögliche Werte $v_k$
 -   Wahrscheinlichkeit für $v_k$ sei $p_k = P(v_k)$
 
 $$H(V) = -\sum_k p_k \log_2 p_k$$
@@ -2163,8 +2163,8 @@ Hinweis: $\log_2 x = \frac{\log_{10} x}{\log_{10} 2} = \frac{\log x}{\log 2}$
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range.png"  /></picture></p>
 
--   Nur eine Klasse: $\log_2 1 = 0$ $\to$ $H(V) = 0$ Bit
--   Zwei Klassen, gleichwahrscheinlich: $\log_2 0.5 = -1$ $\to$ $H(V) = 1$ Bit
+-   Nur eine Klasse: $\log_2 1 = 0 \to H(V) = 0$ Bit
+-   Zwei Klassen, gleichwahrscheinlich: $\log_2 0.5 = -1 \to H(V) = 1$ Bit
 
 ##### Beispiele Entropie: faire Münze
 
@@ -2229,7 +2229,7 @@ $$\begin{eqnarray}
 
 ##### Mittlere Entropie nach Betrachtung von Attribut $A$
 
-$$    R(S, A) = \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)$$
+$$R(S, A) = \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)$$
 
 -   Auswahl von Attribut $A$ partitioniert die Trainingsmenge: Je Ausprägung $v$ von $A$ erhält man eine Submenge $S_v$
 
@@ -2372,7 +2372,7 @@ $\to$ Betrachte stattdessen die **komplette** Trainingsmenge!
 
 -   Mittlere Entropie nach Betrachtung von Attribut $A$
 
-    $$    R(S, A) = \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)$$
+    $$R(S, A) = \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)$$
 
 <!-- -->
 
@@ -2449,8 +2449,8 @@ Russell und Norvig ([2021](#ref-Russell2021)): Man erhält aus dem "Learn-Decisi
 | 6   | 0     | 1     | 0     | A   |
 
 -   $x2$ höchsten Information Gain
--   $x2=0$ $\to$ Beispiele 1,2 $\to$ A
--   $x2=1$ $\to$ Beispiele 3,4,5,6 $\to$ Information Gain berechnen, weiter teilen und verzweigen
+-   $x2=0 \to$ Beispiele 1,2 $\to$ A
+-   $x2=1 \to$ Beispiele 3,4,5,6 $\to$ Information Gain berechnen, weiter teilen und verzweigen
 
 ##### Beobachtung: $\mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
 
@@ -2462,7 +2462,7 @@ Russell und Norvig ([2021](#ref-Russell2021)): Man erhält aus dem "Learn-Decisi
 -   4-seitiger Würfel:
     -   Entropie = $H(\mathop{\text{Dice}}) = -4\cdot(0.25 \log_2 0.25) = 2 \mathop{\text{Bit}}$
 
-$\to$ $\mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
+$\to \mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
 
 Damit würden Attribute bei der Wahl bevorzugt, nur weil sie mehr Ausprägungen haben als andere.
 
@@ -2472,7 +2472,7 @@ Damit würden Attribute bei der Wahl bevorzugt, nur weil sie mehr Ausprägungen 
 
 Normierter Informationsgewinn: $\mathop{\text{Gain}}(S, A) \cdot \mathop{\text{Normalisation}}(A)$
 
-$$    \mathop{\text{Normalisation}}(A) = \frac{1}{
+$$\mathop{\text{Normalisation}}(A) = \frac{1}{
         \sum_{v \in \mathop{\text{Values}}(A)} p_v \log_2 \frac{1}{p_v}
     }$$
 
@@ -2720,19 +2720,15 @@ Wichtig ist: Keine Änderungen am Baum-Algorithmus selbst (z.B. C4.5/ID3). Die "
 
 Bei der Klassifikation erhält man die **Klassenwahrscheinlichkeiten**, indem man die Häufigkeiten der Klassen über alle Bäume ermittelt:
 
-$$
-p(C = c \mid x) \approx \frac{1}{K} \sum_{k=1}^{K} \mathbf{1}\big[ T_k(x) = c \big]
-$$
+$$p(C = c \mid x) \approx \frac{1}{K} \sum_{k=1}^{K} \mathbf{1}\big[ T_k(x) = c \big]$$
 
 Dabei ist $\mathbf{1}(A)$ wieder die Indikatorfunktion:
 
-$$
-\mathbf{1}[A] =
+$$\mathbf{1}[A] =
 \begin{cases}
 1, & \text{wenn } A \text{ wahr ist} \\
 0, & \text{sonst}
-\end{cases}
-$$
+\end{cases}$$
 
 > [!TIP]
 >
@@ -3086,7 +3082,7 @@ Schauen Sie sich auch das Beispiel 7.9 in ([Ertel 2025](#ref-Ertel2025), Ex. 7.9
 
 -   Zwei Ereignisse $A$ und $B$ sind **unabhängig**, wenn $$P(A \mid B) = P(A)$$
 
-    $\to$ $P(A,B) = P(A \mid B)P(B) = P(A)P(B)$
+    $\to P(A,B) = P(A \mid B)P(B) = P(A)P(B)$
 
 Dies kann man verallgemeinern (**bedingte Unabhängigkeit**):
 
@@ -3299,7 +3295,7 @@ $\to$ Klasse "krank" gewinnt (Wert für $P(\text{krank})$ ist der höchste der b
 
 -   Unabhängigkeit der Attribute oft nicht gegeben
 
-    $\to$ $P(D_1, \ldots, D_n \mid H) \ne \prod_i P(D_i \mid H)$
+    $\to P(D_1, \ldots, D_n \mid H) \ne \prod_i P(D_i \mid H)$
 
 -   A-posteriori-Wahrscheinlichkeiten oft unrealistisch nah an 1 oder 0
 
@@ -3431,7 +3427,7 @@ Wenn Attribute nicht (bedingt) unabhängig sind, kann sich der NB verschätzen, 
 
 <!-- -->
 
--   Annahme: Klassen uniform verteilt $\to$ $P(h_i) = P(h_j)$
+-   Annahme: Klassen uniform verteilt $\to P(h_i) = P(h_j)$
 
     **Maximum Likelihood** $$h_{ML} = \mathop{\text{argmax}}_{h \in H} \: \prod_i P(D_i \mid h)$$
 
@@ -3650,8 +3646,8 @@ Naive Bayes "trainieren"
     -   $P(\text{OK}) = 3/4 = 0.75$
     -   $P(\text{SPAM}) = 1/4 = 0.25$
 -   Likelihood:
-    -   $P(\text{sieben} \mid \text{OK})$ $= (2+2+2)/(2+2+2+1+1+1+1+1+1+1+1+1)$ $= 6/15 = 0.40$
-    -   $P(\text{sieben} \mid \text{SPAM})$ $= (2)/(2+1+1+1) = 2/5 = 0.40$
+    -   $P(\text{sieben} \mid \text{OK}) = (2+2+2)/(2+2+2+1+1+1+1+1+1+1+1+1) = 6/15 = 0.40$
+    -   $P(\text{sieben} \mid \text{SPAM}) = (2)/(2+1+1+1) = 2/5 = 0.40$
     -   $P(\text{zwerg} \mid \text{OK}) = 2/15 = 0.133$
     -   $P(\text{zwerg} \mid \text{SPAM}) = 0/5 = 0.00$
     -   $P(\text{fressen} \mid \text{OK}) = 2/15 = 0.133$
@@ -3707,8 +3703,8 @@ $$P(t \mid c) = \dfrac{\mathop{\text{count}}(t,c) + \alpha}{\sum_{v \in V} \math
     -   $P(\text{OK}) = 3/4 = 0.75$
     -   $P(\text{SPAM}) = 1/4 = 0.25$
 -   Likelihood:
-    -   $P(\text{sieben} \mid \text{OK})$ $= (2+2+2+\mathbf{1})/(2+2+2+1+1+1+1+1+1+1+1+1+\mathbf{7})$ $= 7/22 = 0.318$ (vorher: 0.40)
-    -   $P(\text{sieben} \mid \text{SPAM})$ $= (2+\mathbf{1})/(2+1+1+1+\mathbf{7})$ $= 3/12 = 0.25$ (vorher: 0.40)
+    -   $P(\text{sieben} \mid \text{OK})$ $= (2+2+2+\mathbf{1})/(2+2+2+1+1+1+1+1+1+1+1+1+\mathbf{7}) = 7/22 = 0.318$ (vorher: 0.40)
+    -   $P(\text{sieben} \mid \text{SPAM}) = (2+\mathbf{1})/(2+1+1+1+\mathbf{7})$ $= 3/12 = 0.25$ (vorher: 0.40)
     -   $P(\text{zwerg} \mid \text{OK}) = (2+\mathbf{1})/(15+\mathbf{7}) = 0.136$ (vorher: 0.133)
     -   $P(\text{zwerg} \mid \text{SPAM}) = (0+\mathbf{1})/(5+\mathbf{7}) = 0.083$ (vorher: **0.00**)
     -   $P(\text{fressen} \mid \text{OK}) = (2+\mathbf{1})/(15+\mathbf{7}) = 0.136$ (vorher: 0.133)
@@ -3777,8 +3773,8 @@ Wir führen einen zusätzlichen Term **UNK** ("unknown") ein und führen das Tra
     -   $P(\text{OK}) = 3/4 = 0.75$
     -   $P(\text{SPAM}) = 1/4 = 0.25$
 -   Likelihood:
-    -   $P(\text{sieben} \mid \text{OK})$ $= (2+2+2+1)/(2+2+2+1+1+1+1+1+1+1+1+1+\mathbf{8})$ $= 7/23 = 0.304$ (vorher: 0.318)
-    -   $P(\text{sieben} \mid \text{SPAM})$ $= (2+1)/(2+1+1+1+\mathbf{8})$ $= 3/13 = 0.231$ (vorher: 0.25)
+    -   $P(\text{sieben} \mid \text{OK})$ $= (2+2+2+1)/(2+2+2+1+1+1+1+1+1+1+1+1+\mathbf{8}) = 7/23 = 0.304$ (vorher: 0.318)
+    -   $P(\text{sieben} \mid \text{SPAM}) = (2+1)/(2+1+1+1+\mathbf{8}) = 3/13 = 0.231$ (vorher: 0.25)
     -   ...
     -   $P(\text{UNK} \mid \text{OK}) = (0+1)/(15+\mathbf{8}) = 0.043$
     -   $P(\text{UNK} \mid \text{SPAM}) = (0+1)/(5+\mathbf{8}) = 0.077$
@@ -3795,8 +3791,8 @@ T1: (sieben, zwerg, fressen, sieben, wolf, **lecker**)
 
 **Mapping**:
 
--   $P(\text{lecker} \mid \text{OK})$ $\to$ $P(\text{UNK} \mid \text{OK}) = 0.043$
--   $P(\text{lecker} \mid \text{SPAM})$ $\to$ $P(\text{UNK} \mid \text{SPAM}) = 0.077$
+-   $P(\text{lecker} \mid \text{OK}) \to P(\text{UNK} \mid \text{OK}) = 0.043$
+-   $P(\text{lecker} \mid \text{SPAM}) \to P(\text{UNK} \mid \text{SPAM}) = 0.077$
 
 Mit dem UNK-Term kann man das Problem des Out-of-Vocabulary elegant lösen. Im Training berechnet man die Likelihood für diesen Term normal mit. In der Klassifikation werden Terme in den Daten, die nicht im Vokabular sind, auf diesen UNK-Term gemappt und dessen Likelihood entsprechend verwendet.
 
@@ -4669,7 +4665,7 @@ $\to$ **Problemlösen == Suche im Graphen**
 
 -   $n \in S$ auf aktuellem Weg erreichter Knoten
 -   $g(n)$ tatsächliche Kosten für Weg vom Start bis Knoten $n$
--   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to$ $h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
+-   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
 
 Varianten:
 
@@ -4803,7 +4799,7 @@ $\to$ **Problemlösen == Suche im Graphen**
 
 -   $n \in S$ auf aktuellem Weg erreichter Knoten
 -   $g(n)$ tatsächliche Kosten für Weg vom Start bis Knoten $n$
--   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to$ $h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
+-   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
 
 Varianten:
 
@@ -4931,7 +4927,7 @@ $\to$ **Problemlösen == Suche im Graphen**
 
 -   $n \in S$ auf aktuellem Weg erreichter Knoten
 -   $g(n)$ tatsächliche Kosten für Weg vom Start bis Knoten $n$
--   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to$ $h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
+-   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
 
 Varianten:
 
@@ -5334,7 +5330,7 @@ Bei ES wird parameterweise gekreuzt. Dabei gibt es verschiedene Möglichkeiten: 
         \end{array}
         \right.$$
 
-        $\to$$\chi_i$ gleichverteilte Zufallsvariable (Intervall $[0,1]$), für jedes Bit $g_i$ neu bestimmen
+        $\to \chi_i$ gleichverteilte Zufallsvariable (Intervall $[0,1]$), für jedes Bit $g_i$ neu bestimmen
 
 *Anmerkung*: Die optimale Mutationsrate $p_{mut}^*$ ist von Länge $m$ des Bitstrings abhängig; annäherbar durch $p_{mut}^* \approx 1/m$.
 
@@ -5677,10 +5673,10 @@ def Minimax(state):
 Gedankenexperiment:
 
 -   erster Zug: $b$ Möglichkeiten,
--   zweiter Zug: jeweils wieder $b$ Möglichkeiten $\rightarrow$ $b \star b = b^2$,
+-   zweiter Zug: jeweils wieder $b$ Möglichkeiten $\rightarrow b \star b = b^2$,
 -   dritter Zug: jeweils wieder $b$ Möglichkeiten $\rightarrow$ $b \star (b \star b) = b^3$,
 -   ...,
--   $m$. Zug: jeweils wieder $b$ Möglichkeiten $\rightarrow$ $b^m$
+-   $m$. Zug: jeweils wieder $b$ Möglichkeiten $\rightarrow b^m$
 
 ##### Wrap-Up
 
@@ -5940,11 +5936,11 @@ $\to$ Beobachtungen:
 
 ##### Pruning-Regeln
 
-1.  Schneide (unter) MIN-Knoten ab, deren $\beta$ $\le$ dem $\alpha$ des MAX-Vorgängers ist.
+1.  Schneide (unter) MIN-Knoten ab, deren $\beta \le$ dem $\alpha$ des MAX-Vorgängers ist.
 
 <!-- -->
 
-2.  Schneide (unter) MAX-Knoten ab, deren $\alpha$ $\ge$ dem $\beta$ des MIN-Vorgängers ist.
+2.  Schneide (unter) MAX-Knoten ab, deren $\alpha \ge$ dem $\beta$ des MIN-Vorgängers ist.
 
 <div data-align="center">
 
@@ -5996,7 +5992,7 @@ Vergleichen Sie die Ergebnisse im Simulator mit den selbst berechneten Werten.
 
 2.  Sortierung der Nachfolger spielt große Rolle
 
-3.  Perfekte Sortierung: $O(b^{d/2})$ $\to$ Verdopplung der Suchtiefe möglich
+3.  Perfekte Sortierung: $O(b^{d/2}) \to$ Verdopplung der Suchtiefe möglich
 
 Für Schach immer noch zu aufwändig ...
 
@@ -7853,17 +7849,17 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
+-   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
 -   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
 -   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
--   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
 -   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
--   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 -   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 30d2248 2026-10-12 lecture: fix link to image (ai intro)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2411636 2026-10-12 markdown: reformat text<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in Graph-Search-Variante bei endlichem Suchraum
 

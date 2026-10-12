@@ -47,7 +47,7 @@ $\to$ Anzahl der Ja/Nein-Fragen, um zur gleichen Information zu kommen
 
 ## Definition der Entropie $H(V)$ für Zufallsvariable $V$
 
--   Zufallsvariable $V$ $\to$ mögliche Werte $v_k$
+-   Zufallsvariable $V \to$ mögliche Werte $v_k$
 -   Wahrscheinlichkeit für $v_k$ sei $p_k = P(v_k)$
 
 $$H(V) = -\sum_k p_k \log_2 p_k$$
@@ -56,8 +56,8 @@ Hinweis: $\log_2 x = \frac{\log_{10} x}{\log_{10} 2} = \frac{\log x}{\log 2}$
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/dtl/images/log_range.png"  /></picture></p>
 
--   Nur eine Klasse: $\log_2 1 = 0$ $\to$ $H(V) = 0$ Bit
--   Zwei Klassen, gleichwahrscheinlich: $\log_2 0.5 = -1$ $\to$ $H(V) = 1$ Bit
+-   Nur eine Klasse: $\log_2 1 = 0 \to H(V) = 0$ Bit
+-   Zwei Klassen, gleichwahrscheinlich: $\log_2 0.5 = -1 \to H(V) = 1$ Bit
 
 ## Beispiele Entropie: faire Münze
 
@@ -122,7 +122,7 @@ $$\begin{eqnarray}
 
 ## Mittlere Entropie nach Betrachtung von Attribut $A$
 
-$$    R(S, A) = \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)$$
+$$R(S, A) = \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)$$
 
 -   Auswahl von Attribut $A$ partitioniert die Trainingsmenge: Je Ausprägung $v$ von $A$ erhält man eine Submenge $S_v$
 
@@ -262,4 +262,4 @@ Hierzu drei lesenswerte Blog-Einträge:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 780b5ec 2026-09-14 dtl: rework screencasts<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2411636 2026-10-12 markdown: reformat text<br></sub></sup></p></blockquote>

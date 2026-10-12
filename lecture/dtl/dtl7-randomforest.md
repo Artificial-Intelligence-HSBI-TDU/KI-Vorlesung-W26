@@ -144,19 +144,15 @@ Wichtig ist: Keine Änderungen am Baum-Algorithmus selbst (z.B. C4.5/ID3). Die "
 
 Bei der Klassifikation erhält man die **Klassenwahrscheinlichkeiten**, indem man die Häufigkeiten der Klassen über alle Bäume ermittelt:
 
-$$
-p(C = c \mid x) \approx \frac{1}{K} \sum_{k=1}^{K} \mathbf{1}\big[ T_k(x) = c \big]
-$$
+$$p(C = c \mid x) \approx \frac{1}{K} \sum_{k=1}^{K} \mathbf{1}\big[ T_k(x) = c \big]$$
 
 Dabei ist $\mathbf{1}(A)$ wieder die Indikatorfunktion:
 
-$$
-\mathbf{1}[A] =
+$$\mathbf{1}[A] =
 \begin{cases}
 1, & \text{wenn } A \text{ wahr ist} \\
 0, & \text{sonst}
-\end{cases}
-$$
+\end{cases}$$
 
 > [!TIP]
 >
@@ -297,4 +293,4 @@ Ein Random Forest hält den (relativ) niedrigen Bias tiefer Bäume, reduziert ab
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 15419fd 2026-09-14 dtl: fix title<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2411636 2026-10-12 markdown: reformat text<br></sub></sup></p></blockquote>

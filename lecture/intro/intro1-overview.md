@@ -105,10 +105,10 @@ Quelle: [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turi
 
 Zum Bestehen des Turing-Tests ist (u.a.) erforderlich:
 
--   *Wissensrepräsentation*: Speichern des gesammelten Wissens **$\to$** **Wissensbasierte Systeme**
--   *Logisches Schließen*: Beantworten von Fragen mit Hilfe des vorhandenen Wissens **$\to$** **Logik, Resolution**
--   *Maschinelles Lernen*: Anpassung an veränderliches Umfeld **$\to$** **Musteranalyse und Mustererkennung und Mustervorhersage**
--   *Verarbeitung natürlicher Sprache*: Erfolgreiche Kommunikation, beispielsweise in Englisch **$\to$** **NLP**
+-   *Wissensrepräsentation*: Speichern des gesammelten Wissens $\to$ **Wissensbasierte Systeme**
+-   *Logisches Schließen*: Beantworten von Fragen mit Hilfe des vorhandenen Wissens $\to$ **Logik, Resolution**
+-   *Maschinelles Lernen*: Anpassung an veränderliches Umfeld $\to$ **Musteranalyse und Mustererkennung und Mustervorhersage**
+-   *Verarbeitung natürlicher Sprache*: Erfolgreiche Kommunikation, beispielsweise in Englisch $\to$ **NLP**
 
 "Totaler Turing-Test": zusätzlich **Computer Vision** (Erkennen von Objekten) und **Robotik** (Manipulation von Objekten)
 
@@ -331,9 +331,9 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
 -   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 -   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 30d2248 2026-10-12 lecture: fix link to image (ai intro)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2411636 2026-10-12 markdown: reformat text<br></sub></sup></p></blockquote>

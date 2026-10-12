@@ -157,7 +157,7 @@ $\to$ Klasse "krank" gewinnt (Wert für $P(\text{krank})$ ist der höchste der b
 
 -   Unabhängigkeit der Attribute oft nicht gegeben
 
-    $\to$ $P(D_1, \ldots, D_n \mid H) \ne \prod_i P(D_i \mid H)$
+    $\to P(D_1, \ldots, D_n \mid H) \ne \prod_i P(D_i \mid H)$
 
 -   A-posteriori-Wahrscheinlichkeiten oft unrealistisch nah an 1 oder 0
 
@@ -289,7 +289,7 @@ Wenn Attribute nicht (bedingt) unabhängig sind, kann sich der NB verschätzen, 
 
 <!-- -->
 
--   Annahme: Klassen uniform verteilt $\to$ $P(h_i) = P(h_j)$
+-   Annahme: Klassen uniform verteilt $\to P(h_i) = P(h_j)$
 
     **Maximum Likelihood** $$h_{ML} = \mathop{\text{argmax}}_{h \in H} \: \prod_i P(D_i \mid h)$$
 
@@ -410,4 +410,4 @@ In Abhängigkeit von der Verteilung der $P(D_i \mid h)$ spricht man von
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 3044646 2026-09-14 bayes: rework screencasts<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d97db31 2026-10-12 lecture: fix math issue (nb2)<br></sub></sup></p></blockquote>

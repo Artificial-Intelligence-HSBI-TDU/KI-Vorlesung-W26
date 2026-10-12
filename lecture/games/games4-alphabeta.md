@@ -44,11 +44,11 @@ $\to$ Beobachtungen:
 
 ## Pruning-Regeln
 
-1.  Schneide (unter) MIN-Knoten ab, deren $\beta$ $\le$ dem $\alpha$ des MAX-Vorgängers ist.
+1.  Schneide (unter) MIN-Knoten ab, deren $\beta \le$ dem $\alpha$ des MAX-Vorgängers ist.
 
 <!-- -->
 
-2.  Schneide (unter) MAX-Knoten ab, deren $\alpha$ $\ge$ dem $\beta$ des MIN-Vorgängers ist.
+2.  Schneide (unter) MAX-Knoten ab, deren $\alpha \ge$ dem $\beta$ des MIN-Vorgängers ist.
 
 <div data-align="center">
 
@@ -100,7 +100,7 @@ Vergleichen Sie die Ergebnisse im Simulator mit den selbst berechneten Werten.
 
 2.  Sortierung der Nachfolger spielt große Rolle
 
-3.  Perfekte Sortierung: $O(b^{d/2})$ $\to$ Verdopplung der Suchtiefe möglich
+3.  Perfekte Sortierung: $O(b^{d/2}) \to$ Verdopplung der Suchtiefe möglich
 
 Für Schach immer noch zu aufwändig ...
 
@@ -263,4 +263,4 @@ Quelle: ([<span class="nocase">Silver u. a.</span> 2016](#ref-Silver2016)), sie
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> d7ec24d 2026-09-14 games: rework screencasts<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> ba9e651 2026-10-12 lecture: fix math issue (games4)<br></sub></sup></p></blockquote>

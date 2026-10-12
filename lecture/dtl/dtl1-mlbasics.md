@@ -192,7 +192,7 @@ Die Trainingsmenge baut sich dann beim überwachten Lernen aus vielen solcher Pa
 
 ## Trainingsdaten -- Merkmalsvektoren
 
-**Generell**: Merkmalsvektor für Objekt $v$: $$    \mathbf{x}(v) = (x_1, x_2, \ldots, x_n)$$
+**Generell**: Merkmalsvektor für Objekt $v$: $$\mathbf{x}(v) = (x_1, x_2, \ldots, x_n)$$
 
 -   $n$ Merkmale (Attribute)
 -   Attribut $x_t$ hat $m_t$ mögliche Ausprägungen
@@ -298,4 +298,4 @@ Die Trainingsmenge baut sich dann beim überwachten Lernen aus vielen solcher Pa
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> dd67110 2026-09-14 dtl: rework screencasts<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2411636 2026-10-12 markdown: reformat text<br></sub></sup></p></blockquote>

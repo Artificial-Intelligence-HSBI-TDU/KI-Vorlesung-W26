@@ -36,7 +36,7 @@ $\to$ **Problemlösen == Suche im Graphen**
 
 -   $n \in S$ auf aktuellem Weg erreichter Knoten
 -   $g(n)$ tatsächliche Kosten für Weg vom Start bis Knoten $n$
--   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to$ $h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
+-   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
 
 Varianten:
 
@@ -155,4 +155,4 @@ Siehe [A\*](./search5-astar.md)
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 4207623 2026-09-14 search: rework screencasts<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 1052cce 2026-10-12 lecture: fix math issue (search3)<br></sub></sup></p></blockquote>

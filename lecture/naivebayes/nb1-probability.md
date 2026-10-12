@@ -229,7 +229,7 @@ Schauen Sie sich auch das Beispiel 7.9 in ([Ertel 2025](#ref-Ertel2025), Ex. 7.9
 
 -   Zwei Ereignisse $A$ und $B$ sind **unabhängig**, wenn $$P(A \mid B) = P(A)$$
 
-    $\to$ $P(A,B) = P(A \mid B)P(B) = P(A)P(B)$
+    $\to P(A,B) = P(A \mid B)P(B) = P(A)P(B)$
 
 Dies kann man verallgemeinern (**bedingte Unabhängigkeit**):
 
@@ -312,4 +312,4 @@ $$P(X,Y \mid Z) = P(X \mid Y,Z)P(Y \mid Z) = P(X \mid Z)P(Y \mid Z)$$
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> cc557a9 2026-09-14 bayes: rework screencasts<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f378ee8 2026-10-12 lecture: fix math issue (nb1)<br></sub></sup></p></blockquote>

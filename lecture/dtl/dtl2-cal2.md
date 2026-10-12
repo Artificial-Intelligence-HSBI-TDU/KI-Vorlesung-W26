@@ -42,7 +42,7 @@ Eine andere Sichtweise ist die Nutzung als Checkliste für eine Reparatur ...
 
 ## Definition Entscheidungsbaum
 
--   Erinnerung: **Merkmalsvektor** für Objekt $v$: $$    \mathbf{x}(v) = (x_1, x_2, \ldots, x_n)$$
+-   Erinnerung: **Merkmalsvektor** für Objekt $v$: $$\mathbf{x}(v) = (x_1, x_2, \ldots, x_n)$$
 
     -   $n$ Merkmale (Attribute)
     -   Attribut $x_t$ hat $m_t$ mögliche Ausprägungen
@@ -208,4 +208,4 @@ Es gibt in $x_1$ zwei mögliche Ausprägungen, d.h. der Baum hat in diesem Knote
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> d183143 2026-09-14 dtl: rework screencasts<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2411636 2026-10-12 markdown: reformat text<br></sub></sup></p></blockquote>

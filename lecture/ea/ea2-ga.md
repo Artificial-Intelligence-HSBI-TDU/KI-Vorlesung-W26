@@ -110,7 +110,7 @@ Bei ES wird parameterweise gekreuzt. Dabei gibt es verschiedene Möglichkeiten: 
         \end{array}
         \right.$$
 
-        $\to$$\chi_i$ gleichverteilte Zufallsvariable (Intervall $[0,1]$), für jedes Bit $g_i$ neu bestimmen
+        $\to \chi_i$ gleichverteilte Zufallsvariable (Intervall $[0,1]$), für jedes Bit $g_i$ neu bestimmen
 
 *Anmerkung*: Die optimale Mutationsrate $p_{mut}^*$ ist von Länge $m$ des Bitstrings abhängig; annäherbar durch $p_{mut}^* \approx 1/m$.
 
@@ -235,4 +235,4 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c483618 2026-09-14 ea: rework screencasts<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> a9ead10 2026-10-12 lecture: fix math issue (ea2)<br></sub></sup></p></blockquote>

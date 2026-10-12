@@ -36,7 +36,7 @@ $\to$ **Problemlösen == Suche im Graphen**
 
 -   $n \in S$ auf aktuellem Weg erreichter Knoten
 -   $g(n)$ tatsächliche Kosten für Weg vom Start bis Knoten $n$
--   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to$ $h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
+-   $h(n)$ geschätzte Restkosten für Weg von Knoten $n$ zum Ziel $\to h(n)$ wird auch "heuristische Funktion" oder "Heuristik" genannt
 
 Varianten:
 
@@ -151,4 +151,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 -   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 94ad6b3 2026-10-11 lecture: fix image scaling in bestfirst challenges<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 99b3247 2026-10-12 lecture: fix math issue (search4)<br></sub></sup></p></blockquote>

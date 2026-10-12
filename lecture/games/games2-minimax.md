@@ -123,10 +123,10 @@ def Minimax(state):
 Gedankenexperiment:
 
 -   erster Zug: $b$ Möglichkeiten,
--   zweiter Zug: jeweils wieder $b$ Möglichkeiten $\rightarrow$ $b \star b = b^2$,
+-   zweiter Zug: jeweils wieder $b$ Möglichkeiten $\rightarrow b \star b = b^2$,
 -   dritter Zug: jeweils wieder $b$ Möglichkeiten $\rightarrow$ $b \star (b \star b) = b^3$,
 -   ...,
--   $m$. Zug: jeweils wieder $b$ Möglichkeiten $\rightarrow$ $b^m$
+-   $m$. Zug: jeweils wieder $b$ Möglichkeiten $\rightarrow b^m$
 
 ## Wrap-Up
 
@@ -220,4 +220,4 @@ Gedankenexperiment:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 528e14a 2026-09-14 games: rework screencasts<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 811ca93 2026-10-12 lecture: fix math issue (games2)<br></sub></sup></p></blockquote>

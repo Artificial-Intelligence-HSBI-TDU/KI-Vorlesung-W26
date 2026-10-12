@@ -36,7 +36,7 @@ $\to$ Betrachte stattdessen die **komplette** Trainingsmenge!
 
 -   Mittlere Entropie nach Betrachtung von Attribut $A$
 
-    $$    R(S, A) = \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)$$
+    $$R(S, A) = \sum_{v \in \mathop{\text{Values}}(A)} \frac{|S_v|}{|S|} H(S_v)$$
 
 <!-- -->
 
@@ -113,8 +113,8 @@ Russell und Norvig ([2021](#ref-Russell2021)): Man erhält aus dem "Learn-Decisi
 | 6   | 0     | 1     | 0     | A   |
 
 -   $x2$ höchsten Information Gain
--   $x2=0$ $\to$ Beispiele 1,2 $\to$ A
--   $x2=1$ $\to$ Beispiele 3,4,5,6 $\to$ Information Gain berechnen, weiter teilen und verzweigen
+-   $x2=0 \to$ Beispiele 1,2 $\to$ A
+-   $x2=1 \to$ Beispiele 3,4,5,6 $\to$ Information Gain berechnen, weiter teilen und verzweigen
 
 ## Beobachtung: $\mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
 
@@ -126,7 +126,7 @@ Russell und Norvig ([2021](#ref-Russell2021)): Man erhält aus dem "Learn-Decisi
 -   4-seitiger Würfel:
     -   Entropie = $H(\mathop{\text{Dice}}) = -4\cdot(0.25 \log_2 0.25) = 2 \mathop{\text{Bit}}$
 
-$\to$ $\mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
+$\to \mathop{\text{Gain}}$ ist bei mehrwertigen Attributen höher
 
 Damit würden Attribute bei der Wahl bevorzugt, nur weil sie mehr Ausprägungen haben als andere.
 
@@ -136,7 +136,7 @@ Damit würden Attribute bei der Wahl bevorzugt, nur weil sie mehr Ausprägungen 
 
 Normierter Informationsgewinn: $\mathop{\text{Gain}}(S, A) \cdot \mathop{\text{Normalisation}}(A)$
 
-$$    \mathop{\text{Normalisation}}(A) = \frac{1}{
+$$\mathop{\text{Normalisation}}(A) = \frac{1}{
         \sum_{v \in \mathop{\text{Values}}(A)} p_v \log_2 \frac{1}{p_v}
     }$$
 
@@ -279,4 +279,4 @@ $\to$ Normierung sorgt für fairen Vergleich der Attribute
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c7acbe6 2026-09-14 dtl: rework screencasts<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2411636 2026-10-12 markdown: reformat text<br></sub></sup></p></blockquote>
