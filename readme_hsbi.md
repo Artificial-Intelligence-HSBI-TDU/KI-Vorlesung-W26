@@ -90,6 +90,7 @@ Sie können die Prüfung in der ersten oder in der zweiten Prüfungsphase ablege
 
 #### Hinweise
 
+-   Die Klausur und die Studienleistung sind zwei unabhängige Prüfungsleistungen und werden separat im CAT angemeldet. Die Studienleistung schaltet die Credits für das Modul frei, die Klausur ergibt die Modulnote. Die Studienleistung ist **keine** Vorleistung für die Klausur.
 -   Die Bearbeitung der Aufgaben erfolgt individuell.
 -   Im Praktikum beginnen wir gemeinsam mit der Bearbeitung der Übungsblätter und diskutieren über Lösungsansätze. Die Lösung soll anschließend individuell fertiggestellt werden und kann auf Wunsch im nächsten Praktikum von Ihnen vorgestellt werden.
 -   "Erfolgreiche Bearbeitung" eines Blattes umfasst die Bearbeitung aller Aufgaben des Blattes und die fristgerechte Abgabe des ausreichenden Post Mortems im ILIAS. Die intensive Beschäftigung mit den Aufgaben muss erkennbar sein.
@@ -124,4 +125,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 -   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 356d261 2026-10-06 orga: remove link to readme<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> e7cff7c 2026-10-16 orga hsbi: clarify klausur vs studienleistung<br></sub></sup></p></blockquote>
