@@ -236,9 +236,7 @@ Dieser Algorithmus ist eine Erweiterung der einfachen Basisvariante der Suche:
 > <details open>
 > <summary><strong>🏅 Challenges</strong></summary>
 >
-> Drei Elben und drei Orks befinden sich an einem Ufer eines Flusses und wollen diesen überqueren. Es steht dazu ein Pferd zur Verfügung, welches maximal zwei Wesen tragen kann. Das Pferd kann den Fluss nicht allein überqueren.
->
-> Gesucht ist eine Möglichkeit, alle Elben und Orks über den Fluss zu bringen. Dabei darf zu keiner Zeit an keinem Ufer die Anzahl der sich dort befindlichen Orks größer sein als die der dort wartenden Elben, da es sonst zu Konflikten zwischen beiden Gruppen kommt.
+> Sie stehen in einem Dungeon, der in `N x M` Felder unterteilt ist. Die Felder können entweder aus festem Boden oder einem Abgrund bestehen, dies ist aber zunächst nicht sichtbar und muss durch schrittweises Erkunden festgestellt werden. Zur Sicherheit wollen Sie alle Felder mit festem Boden mit einer Leuchtfarbe markieren.
 >
 > 1.  Formalisieren Sie das Problem (Zustände, Aktionen, Start- und Endzustand).
 > 2.  Skizzieren Sie den Problemgraph.
@@ -270,4 +268,4 @@ Dieser Algorithmus ist eine Erweiterung der einfachen Basisvariante der Suche:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 7067c83 2026-10-11 lecture: fix docsify issues in problemsolving<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 8007fe4 2026-10-17 problemsolving: replace challenge<br></sub></sup></p></blockquote>

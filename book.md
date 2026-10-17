@@ -819,9 +819,7 @@ Dieser Algorithmus ist eine Erweiterung der einfachen Basisvariante der Suche:
 > <details open>
 > <summary><strong>🏅 Challenges</strong></summary>
 >
-> Drei Elben und drei Orks befinden sich an einem Ufer eines Flusses und wollen diesen überqueren. Es steht dazu ein Pferd zur Verfügung, welches maximal zwei Wesen tragen kann. Das Pferd kann den Fluss nicht allein überqueren.
->
-> Gesucht ist eine Möglichkeit, alle Elben und Orks über den Fluss zu bringen. Dabei darf zu keiner Zeit an keinem Ufer die Anzahl der sich dort befindlichen Orks größer sein als die der dort wartenden Elben, da es sonst zu Konflikten zwischen beiden Gruppen kommt.
+> Sie stehen in einem Dungeon, der in `N x M` Felder unterteilt ist. Die Felder können entweder aus festem Boden oder einem Abgrund bestehen, dies ist aber zunächst nicht sichtbar und muss durch schrittweises Erkunden festgestellt werden. Zur Sicherheit wollen Sie alle Felder mit festem Boden mit einer Leuchtfarbe markieren.
 >
 > 1.  Formalisieren Sie das Problem (Zustände, Aktionen, Start- und Endzustand).
 > 2.  Skizzieren Sie den Problemgraph.
@@ -7850,17 +7848,17 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
--   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
--   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
--   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
 -   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
 -   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
 -   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
+-   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e7cff7c 2026-10-16 orga hsbi: clarify klausur vs studienleistung<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 8007fe4 2026-10-17 problemsolving: replace challenge<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in Graph-Search-Variante bei endlichem Suchraum
 
