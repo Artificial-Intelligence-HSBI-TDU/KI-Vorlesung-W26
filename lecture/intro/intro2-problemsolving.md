@@ -93,6 +93,8 @@ Ergebnis:
 
 Ein Problem besteht aus:
 
+-   **Menge von Zuständen**: $S$
+
 -   **Startzustände**: Menge $S_A \subset S$
 
 -   **Aktionen**: Menge von Funktionen $\mathop{\text{op}}: S \to S$
@@ -101,9 +103,9 @@ Ein Problem besteht aus:
 
 <!-- -->
 
--   **Zieltest**: Funktion $\mathop{\text{goal}}: S \to \{0,1\}$
+-   **Zieltest**: Funktion $\mathop{\text{goal}}: S \to \lbrace 0,1 \rbrace$
 
--   **Zielzustände**: Menge $S_E \subseteq S$ mit $\forall x \in S_E : \mathop{\text{goal}}(x)=1$
+-   **Zielzustände**: Menge $S_E \subseteq S$ mit $\forall x \in S_E : \mathop{\text{goal}}(x) = 1$ (und $\forall x \in S \setminus S_E : \mathop{\text{goal}}(x) = 0$)
 
 <!-- -->
 
@@ -268,4 +270,4 @@ Dieser Algorithmus ist eine Erweiterung der einfachen Basisvariante der Suche:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 8007fe4 2026-10-17 problemsolving: replace challenge<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> cde8ee3 2026-10-19 lecture: fix goal test (problemsolving)<br></sub></sup></p></blockquote>

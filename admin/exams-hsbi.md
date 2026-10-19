@@ -156,13 +156,13 @@ Mit Hilfe von ID3 soll für diesen Datensatz ein Entscheidungsbaum konstruiert w
 
 Betrachten Sie das folgende Constraintproblem:
 
--   $\mathrm{C}_1 = \{(a,b) |   a \ne b\}$
--   $\mathrm{C}_2 = \{(b,c) |   b \ne c\}$
--   $\mathrm{C}_3 = \{(a,c) |   a = c\}$
+-   $\mathrm{C}_1 = \lbrace (a,b) |   a \ne b \rbrace$
+-   $\mathrm{C}_2 = \lbrace (b,c) |   b \ne c \rbrace$
+-   $\mathrm{C}_3 = \lbrace (a,c) |   a = c \rbrace$
 
 <!-- -->
 
--   $D_a=D_b=D_c=\{1,2,3,4,5\}$, $D_d=\{1,2,5\}$, $D_e=\{1,3\}$
+-   $D_a = D_b = D_c = \lbrace 1,2,3,4,5 \rbrace$, $D_d = \lbrace 1,2,5 \rbrace$, $D_e = \lbrace 1,3 \rbrace$
 
 Zeigen Sie per Handsimulation, wie der Algorithmus AC-3 schrittweise Kantenkonsistenz herstellt. Hier ist die Queue in einem bestimmten Schritt: ... Führen Sie einen Schritt durch und geben Sie die resultierende Queue an. Erklären Sie Ihr Ergebnis.
 
@@ -178,4 +178,4 @@ Betrachten Sie den folgenden Datensatz: ... "Trainieren" Sie für diesen Datensa
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2b1eaa8 2026-10-19 lecture: use lbrace/rbrace instead of direct input<br></sub></sup></p></blockquote>

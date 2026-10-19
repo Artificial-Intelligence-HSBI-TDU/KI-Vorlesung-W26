@@ -30,9 +30,9 @@
 
 ## Kodierung Individuen
 
--   Binäre Lösungsrepräsentation (Bitstring): $\mathbf{g} = (g_1, \dots, g_m)\in \{ 0,1\}^m$
+-   Binäre Lösungsrepräsentation (Bitstring): $\mathbf{g} = (g_1, \dots, g_m) \in \lbrace 0,1 \rbrace^m$
     -   String gliedert sich in $n$ Elemente (mit $n \le m$) $\to$ jedes Segment entspricht einer Problemvariablen
-    -   Dekodierungsfunktion $\Gamma : \{0,1\}^m \to \mathbb{R}^n$
+    -   Dekodierungsfunktion $\Gamma : \lbrace 0,1 \rbrace^m \to \mathbb{R}^n$
 
     Alle relevanten Aspekte des Problems müssen in die Codierung einfließen!
 
@@ -103,7 +103,7 @@ Bei ES wird parameterweise gekreuzt. Dabei gibt es verschiedene Möglichkeiten: 
 -   Für alle Individuen:
     -   Mutiere jedes Gen eines Individuums mit $p_{mut}$:
 
-        $$g_i^{(t+1)} = \left\{
+        $$g_i^{(t+1)} = \left\lbrace
         \begin{array}{rll}
             \neg & g_i^{(t)} & \text{ falls } \chi_i \le p_{mut}\\[5pt]
             & g_i^{(t)} & \text{ sonst }
@@ -235,4 +235,4 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> a9ead10 2026-10-12 lecture: fix math issue (ea2)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2b1eaa8 2026-10-19 lecture: use lbrace/rbrace instead of direct input<br></sub></sup></p></blockquote>

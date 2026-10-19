@@ -64,7 +64,7 @@ Crossover: Die ausgewählten Individuen werden an der selben Stelle aufgetrennt 
 
 1.  **Genetische Algorithmen** (GA)
     -   Holland ([1975](#ref-holland1975)) (Holland ([1992](#ref-holland1992))) und Goldberg ([1986](#ref-goldberg1986))
-    -   Binäre Lösungsrepräsentation (Bitstring): $\mathbf{g} = (g_1, \dots, g_m)\in \{ 0,1\}^m$
+    -   Binäre Lösungsrepräsentation (Bitstring): $\mathbf{g} = (g_1, \dots, g_m) \in \lbrace 0,1 \rbrace^m$
     -   Fitnessbasierte stochastische Selektion
     -   $\mu$ Eltern erzeugen $\mu$ Kinder
 
@@ -188,4 +188,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 -   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5b6c2ec 2026-09-14 ea: rework screencasts<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2b1eaa8 2026-10-19 lecture: use lbrace/rbrace instead of direct input<br></sub></sup></p></blockquote>

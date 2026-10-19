@@ -676,6 +676,8 @@ Ergebnis:
 
 Ein Problem besteht aus:
 
+-   **Menge von Zuständen**: $S$
+
 -   **Startzustände**: Menge $S_A \subset S$
 
 -   **Aktionen**: Menge von Funktionen $\mathop{\text{op}}: S \to S$
@@ -684,9 +686,9 @@ Ein Problem besteht aus:
 
 <!-- -->
 
--   **Zieltest**: Funktion $\mathop{\text{goal}}: S \to \{0,1\}$
+-   **Zieltest**: Funktion $\mathop{\text{goal}}: S \to \lbrace 0,1 \rbrace$
 
--   **Zielzustände**: Menge $S_E \subseteq S$ mit $\forall x \in S_E : \mathop{\text{goal}}(x)=1$
+-   **Zielzustände**: Menge $S_E \subseteq S$ mit $\forall x \in S_E : \mathop{\text{goal}}(x) = 1$ (und $\forall x \in S \setminus S_E : \mathop{\text{goal}}(x) = 0$)
 
 <!-- -->
 
@@ -5162,7 +5164,7 @@ Crossover: Die ausgewählten Individuen werden an der selben Stelle aufgetrennt 
 
 1.  **Genetische Algorithmen** (GA)
     -   Holland ([1975](#ref-holland1975)) (Holland ([1992](#ref-holland1992))) und Goldberg ([1986](#ref-goldberg1986))
-    -   Binäre Lösungsrepräsentation (Bitstring): $\mathbf{g} = (g_1, \dots, g_m)\in \{ 0,1\}^m$
+    -   Binäre Lösungsrepräsentation (Bitstring): $\mathbf{g} = (g_1, \dots, g_m) \in \lbrace 0,1 \rbrace^m$
     -   Fitnessbasierte stochastische Selektion
     -   $\mu$ Eltern erzeugen $\mu$ Kinder
 
@@ -5249,9 +5251,9 @@ Lokale Suchverfahren: Nur das Ergebnis zählt!
 
 ##### Kodierung Individuen
 
--   Binäre Lösungsrepräsentation (Bitstring): $\mathbf{g} = (g_1, \dots, g_m)\in \{ 0,1\}^m$
+-   Binäre Lösungsrepräsentation (Bitstring): $\mathbf{g} = (g_1, \dots, g_m) \in \lbrace 0,1 \rbrace^m$
     -   String gliedert sich in $n$ Elemente (mit $n \le m$) $\to$ jedes Segment entspricht einer Problemvariablen
-    -   Dekodierungsfunktion $\Gamma : \{0,1\}^m \to \mathbb{R}^n$
+    -   Dekodierungsfunktion $\Gamma : \lbrace 0,1 \rbrace^m \to \mathbb{R}^n$
 
     Alle relevanten Aspekte des Problems müssen in die Codierung einfließen!
 
@@ -5322,7 +5324,7 @@ Bei ES wird parameterweise gekreuzt. Dabei gibt es verschiedene Möglichkeiten: 
 -   Für alle Individuen:
     -   Mutiere jedes Gen eines Individuums mit $p_{mut}$:
 
-        $$g_i^{(t+1)} = \left\{
+        $$g_i^{(t+1)} = \left\lbrace
         \begin{array}{rll}
             \neg & g_i^{(t)} & \text{ falls } \chi_i \le p_{mut}\\[5pt]
             & g_i^{(t)} & \text{ sonst }
@@ -6188,7 +6190,7 @@ h(\mathbf{x})
 \end{cases}
 \end{aligned}$$
 
--   Die **Ausgabe $\hat{y}$** des Modells ist somit eine Zahl aus der Menge $\{1, -1\}$.
+-   Die **Ausgabe $\hat{y}$** des Modells ist somit eine Zahl aus der Menge $\lbrace 1, -1 \rbrace$.
 -   $w_0, w_1, w_2, \ldots, w_n$ sind die Parameter des Modells, die es zu optimieren gilt.
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-network_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-network.png" width="70%" /></picture></p><p align="center">Perzeptron Aufbau und Berechnung</p>
@@ -7715,13 +7717,13 @@ Mit Hilfe von ID3 soll für diesen Datensatz ein Entscheidungsbaum konstruiert w
 
 Betrachten Sie das folgende Constraintproblem:
 
--   $\mathrm{C}_1 = \{(a,b) |   a \ne b\}$
--   $\mathrm{C}_2 = \{(b,c) |   b \ne c\}$
--   $\mathrm{C}_3 = \{(a,c) |   a = c\}$
+-   $\mathrm{C}_1 = \lbrace (a,b) |   a \ne b \rbrace$
+-   $\mathrm{C}_2 = \lbrace (b,c) |   b \ne c \rbrace$
+-   $\mathrm{C}_3 = \lbrace (a,c) |   a = c \rbrace$
 
 <!-- -->
 
--   $D_a=D_b=D_c=\{1,2,3,4,5\}$, $D_d=\{1,2,5\}$, $D_e=\{1,3\}$
+-   $D_a = D_b = D_c = \lbrace 1,2,3,4,5 \rbrace$, $D_d = \lbrace 1,2,5 \rbrace$, $D_e = \lbrace 1,3 \rbrace$
 
 Zeigen Sie per Handsimulation, wie der Algorithmus AC-3 schrittweise Kantenkonsistenz herstellt. Hier ist die Queue in einem bestimmten Schritt: ... Führen Sie einen Schritt durch und geben Sie die resultierende Queue an. Erklären Sie Ihr Ergebnis.
 
@@ -7848,17 +7850,17 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
--   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 -   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
--   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
 -   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
+-   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
 -   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
+-   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 8007fe4 2026-10-17 problemsolving: replace challenge<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> cde8ee3 2026-10-19 lecture: fix goal test (problemsolving)<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in Graph-Search-Variante bei endlichem Suchraum
 

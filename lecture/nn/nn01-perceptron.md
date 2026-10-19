@@ -67,7 +67,7 @@ h(\mathbf{x})
 \end{cases}
 \end{aligned}$$
 
--   Die **Ausgabe $\hat{y}$** des Modells ist somit eine Zahl aus der Menge $\{1, -1\}$.
+-   Die **Ausgabe $\hat{y}$** des Modells ist somit eine Zahl aus der Menge $\lbrace 1, -1 \rbrace$.
 -   $w_0, w_1, w_2, \ldots, w_n$ sind die Parameter des Modells, die es zu optimieren gilt.
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-network_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-network.png" width="70%" /></picture></p><p align="center">Perzeptron Aufbau und Berechnung</p>
@@ -142,4 +142,4 @@ $$-4 + x_1^2 + x_2^2 = 0.$$
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 204d6e2 2025-12-15 lecture: add link to dtl intro (NN1)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2b1eaa8 2026-10-19 lecture: use lbrace/rbrace instead of direct input<br></sub></sup></p></blockquote>
