@@ -177,8 +177,6 @@ Gedankenexperiment:
 >
 >     Zeichnen Sie den **kompletten** Spielbaum auf. Geben Sie an den Kanten jeweils die Zahl der genommenen und der verbleibenden Hölzer an.
 >
->     *Beispiel*: Wenn in einem Zug ein Holz genommen wird und 3 Hölzer verbleiben, steht an der entsprechenden Kante "1/3". Geben Sie jeweils an, welcher Spieler am Zug ist.
->
 > 2.  Minimax
 >
 >     Geben Sie die Bewertung aller Spielzustände mit Hilfe des Minimax-Algorithmus an. Bewerten Sie die Endzustände mit +1, wenn Spieler Weiß gewonnen hat, mit -1, falls Schwarz gewonnen hat.
@@ -186,6 +184,39 @@ Gedankenexperiment:
 > 3.  Optimaler Zug
 >
 >     Mit welchem Zug muss Weiß beginnen, um das Spiel garantiert zu gewinnen (beide Spieler verhalten sich stets optimal)? Argumentieren Sie mit der Minimax-Bewertung.
+>
+> 4.  Wie ändert sich die gewinnsichere Strategie für Weiß, wenn statt 5 Hölzern nun $n$ Hölzer auf dem Tisch liegen?
+>
+> 5.  Gibt es "verlorene" Startzuständen, also Positionen, wo der Startspieler immer verliert (wenn beide optimal spielen)?
+>
+> **Minimax mit Unentschieden**
+>
+> Betrachten Sie den folgenden Spielbaum:
+>
+>                      Wurzel (MAX)
+>                /          |          \
+>              A(MIN)      B(MIN)      C(MIN)
+>             /    \       /   \       /    \
+>            L1    L2     L3   L4     L5    L6
+>           (+1)  (0)    (0)  (0)    (-1)  (+1)
+>
+> 1.  Führen Sie per Hand Minimax auf diesem Baum aus.
+> 2.  Was bedeutet das für die Interpretation von "optimaler Strategie"? Was bedeutet das für eine Implementierung?
+>
+> **Minimax und Nicht-Nullsummenspiel**
+>
+> Betrachten Sie den folgenden Spielbaum, wo an den Blättern die Gewinner beider Spieler angegeben sind:
+>
+>                         Wurzel (MAX)
+>                     /                 \
+>               X (MIN)                 Y (MIN)
+>               /     \                 /     \
+>             L1       L2             L3       L4
+>          (10, 0)   (5, 5)        (0, 10)   (6, 6)
+>
+> `(10, 0)` bedeutet dabei, dass Spieler MAX 10 Punkte gewinnt und Spier MIN 0 Punkte.
+>
+> Wie verhält sich Minimax in diesem Szenario?
 >
 > </details>
 
@@ -220,4 +251,4 @@ Gedankenexperiment:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 811ca93 2026-10-12 lecture: fix math issue (games2)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 1d12ee1 2026-10-25 lecture: fix challenge (minimax)<br></sub></sup></p></blockquote>

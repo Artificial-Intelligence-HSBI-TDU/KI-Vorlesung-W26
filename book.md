@@ -5728,8 +5728,6 @@ Gedankenexperiment:
 >
 >     Zeichnen Sie den **kompletten** Spielbaum auf. Geben Sie an den Kanten jeweils die Zahl der genommenen und der verbleibenden Hölzer an.
 >
->     *Beispiel*: Wenn in einem Zug ein Holz genommen wird und 3 Hölzer verbleiben, steht an der entsprechenden Kante "1/3". Geben Sie jeweils an, welcher Spieler am Zug ist.
->
 > 2.  Minimax
 >
 >     Geben Sie die Bewertung aller Spielzustände mit Hilfe des Minimax-Algorithmus an. Bewerten Sie die Endzustände mit +1, wenn Spieler Weiß gewonnen hat, mit -1, falls Schwarz gewonnen hat.
@@ -5737,6 +5735,39 @@ Gedankenexperiment:
 > 3.  Optimaler Zug
 >
 >     Mit welchem Zug muss Weiß beginnen, um das Spiel garantiert zu gewinnen (beide Spieler verhalten sich stets optimal)? Argumentieren Sie mit der Minimax-Bewertung.
+>
+> 4.  Wie ändert sich die gewinnsichere Strategie für Weiß, wenn statt 5 Hölzern nun $n$ Hölzer auf dem Tisch liegen?
+>
+> 5.  Gibt es "verlorene" Startzuständen, also Positionen, wo der Startspieler immer verliert (wenn beide optimal spielen)?
+>
+> **Minimax mit Unentschieden**
+>
+> Betrachten Sie den folgenden Spielbaum:
+>
+>                      Wurzel (MAX)
+>                /          |          \
+>              A(MIN)      B(MIN)      C(MIN)
+>             /    \       /   \       /    \
+>            L1    L2     L3   L4     L5    L6
+>           (+1)  (0)    (0)  (0)    (-1)  (+1)
+>
+> 1.  Führen Sie per Hand Minimax auf diesem Baum aus.
+> 2.  Was bedeutet das für die Interpretation von "optimaler Strategie"? Was bedeutet das für eine Implementierung?
+>
+> **Minimax und Nicht-Nullsummenspiel**
+>
+> Betrachten Sie den folgenden Spielbaum, wo an den Blättern die Gewinner beider Spieler angegeben sind:
+>
+>                         Wurzel (MAX)
+>                     /                 \
+>               X (MIN)                 Y (MIN)
+>               /     \                 /     \
+>             L1       L2             L3       L4
+>          (10, 0)   (5, 5)        (0, 10)   (6, 6)
+>
+> `(10, 0)` bedeutet dabei, dass Spieler MAX 10 Punkte gewinnt und Spier MIN 0 Punkte.
+>
+> Wie verhält sich Minimax in diesem Szenario?
 >
 > </details>
 
@@ -5889,6 +5920,29 @@ Eine ähnliche geschlossene Darstellung finden Sie im ([Russell und Norvig 2021,
 >
 > </details>
 
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🏅 Challenges</strong></summary>
+>
+> **Unvollständiger Spielbaum und Tiefenbeschränkung**
+>
+> Betrachten Sie einen Spielbaum bis Tiefe 3, wobei an manchen Stellen in Tiefe 2 bereits abgebrochen und mit einem Eval-Wert bewertet wird:
+>
+>                             Wurzel (MAX)
+>                         /                  \
+>                  N1 (MIN)                  N2 (MIN)
+>                  /      \                  /      \
+>             N3(MAX)   N4(MAX)         N5(MAX)    N6(MAX)
+>             /   \       |              |        /      \
+>           L1    L2     E1             E2      L3        L4
+>         (+1)   (-1)  (Eval=0.2)   (Eval=-0.5) (+1)    (+1)
+>
+> 1.  Wenden Sie "Minimax mit Tiefenlimit" an.
+> 2.  Wie sähe das Ergebnis aus, wenn weiter gesucht werden könnte und sich E1/E2 anders "auflösen" würden? Welche Rolle spielt hier die Qualität der Bewertungsfunktion?
+>
+> </details>
+
 <a id="id-c8c274bfbd36e9fdbf8c47df5f99c064b06d9ff3"></a>
 
 #### Games4: Alpha-Beta-Pruning
@@ -5977,7 +6031,7 @@ def Min-Value(state, alpha, beta):
 
 Initialer Aufruf von `Max-Value()` mit $\alpha = -\infty$ und $\beta = +\infty$
 
-**Achtung**: Es kursieren Varianten von diesem Algorithmus, bei denen auf die Hilfsvariable `v` verzichtet wird und stattdessen `alpha` bzw. `beta` direkt modifiziert werden und als Rückgabewert dienen. Das *kann* zu anderen oder falschen Ergebnissen führen! Sie können das in der Aufgabe auf Blatt 03 gut beobachten.
+**Achtung**: Es kursieren Varianten von diesem Algorithmus, bei denen auf die Hilfsvariable `v` verzichtet wird und stattdessen `alpha` bzw. `beta` direkt modifiziert werden und als Rückgabewert dienen. Das *kann* zu anderen oder falschen Ergebnissen führen! Sie können das in der Übungsaufgabe gut beobachten.
 
 Hier noch zwei Links zu Online-Simulatoren für Minimax und Alpha-Beta-Pruning:
 
@@ -6093,23 +6147,72 @@ Quelle: ([<span class="nocase">Silver u. a.</span> 2016](#ref-Silver2016)), sie
 > <details open>
 > <summary><strong>🏅 Challenges</strong></summary>
 >
-> **Optimale Spiele und MiniMax**
+> **Pruning sichtbar machen - gleicher Baum, andere Reihenfolge**
 >
-> Auf einem Tisch liegen nebeneinander 5 Streichhölzer. Es gibt zwei Spieler - Weiß und Schwarz - die abwechselnd ein oder zwei Streichhölzer wegnehmen dürfen (es muss mind. ein Streichholz genommen werden). Wer das letzte Streichholz nehmen muss, hat verloren. Zu Beginn ist Weiß am Zug.
+> Wir verwenden einen vollständigen Baum der Tiefe 3, Verzweigungsgrad 2:
 >
-> 1.  Spielbaum
+>                                W (MAX)
+>                           /               \
+>                       A (MIN)            B (MIN)
+>                      /      \           /      \
+>                C (MAX)     D(MAX)   E (MAX)   F(MAX)
+>                 / \         / \      / \       / \
+>               L1  L2      L3  L4   L5  L6    L7  L8
+>               3    5      6    9   1    2    0   -1
 >
->     Zeichnen Sie den **kompletten** Spielbaum auf. Geben Sie an den Kanten jeweils die Zahl der genommenen und der verbleibenden Hölzer an.
+> 1.  Geben Sie die Minimax-Bewertung an.
+> 2.  Führen Sie Alpha-Beta-Pruning durch. Wo würde der Algorithmus abschneiden?
+> 3.  Die Reihenfolge des Betrachtens der Kind-Bäume kann für Alpha-Beta-Pruning wichtig sein. Geben Sie je eine Reihenfolge der Kindbäume C, D (unter A) und E, F (unter B) an, wo
+>     -   möglichst viel abgeschnitten werden kann
+>     -   möglichst wenig abgeschnitten werden kann
+> 4.  Was bedeutet das für Implementierungen in echten Spielen?
+> 5.  Was bedeutet das beim frühen Abschneiden und Verwenden von Heuristiken?
 >
->     *Beispiel*: Wenn in einem Zug ein Holz genommen wird und 3 Hölzer verbleiben, steht an der entsprechenden Kante "1/3". Geben Sie jeweils an, welcher Spieler am Zug ist.
+> **Alpha-Beta vs. Minimax**
 >
-> 2.  Minimax
+> Betrachten Sie den folgenden Spielbaum:
 >
->     Geben Sie die Bewertung aller Spielzustände mit Hilfe des Minimax-Algorithmus an. Bewerten Sie die Endzustände mit +1, wenn Spieler Weiß gewonnen hat, mit -1, falls Schwarz gewonnen hat.
+>                          W (MAX)
+>                       /           \
+>                   A (MIN)        B (MIN)
+>                   /    \         /    \
+>                 L1      L2     L3      L4
+>                (1)      (2)   (0)      (3)
 >
-> 3.  Alpha-Beta-Pruning
+> 1.  Führen Sie Minimax durch.
+> 2.  Führen Sie Alpha-Beta-Pruning durch.
+> 3.  Erklären Sie das Ergebnis.
 >
->     Wenden Sie Alpha-Beta-Pruning auf den Spielbaum an. Werden damit mehr oder weniger oder gleich viele Spielzüge wie mit Minimax entwickelt? Begründen Sie Ihre Antwort.
+> **Alpha-Beta und fehlerhafte Implementierung**
+>
+> Im Netz kursieren Varianten des Alpha-Beta-Prunings, wo auf die Hilfsvariable `v` verzichtet wird und stattdessen direkt mit den Werten $\alpha$ und $\beta$ gerechnet wird. Dies sieht dann beispielsweise so aus:
+>
+> ``` python
+> def Max-Value(state, alpha, beta):
+>     if terminal(state): return Utility(state)
+>     for child in children(state):
+>         alpha = max(alpha, Min-Value(child, alpha, beta))
+>         if alpha >= beta: return alpha
+>     return alpha
+>
+> def Min-Value(state, alpha, beta):
+>     if terminal(state): return Utility(state)
+>     for child in children(state):
+>         beta = min(beta, Max-Value(child, alpha, beta))
+>         if beta <= alpha: return beta
+>     return beta
+> ```
+>
+> Betrachten Sie nun den folgenden Spielbaum:
+>
+>                   W (MAX)
+>                /          \
+>            A (MIN)       B (MIN)
+>            /    \        /    \
+>          L1     L2     L3     L4
+>         (5)     (6)   (4)     (7)
+>
+> Vergleichen Sie für diesen Spielbaum die in der Vorlesung besprochene Implementierung von Alpha-Beta-Pruning (siehe Skript/([Russell und Norvig 2021](#ref-Russell2021))) und die fehlerhafte Variante aus dem Netz.
 >
 > </details>
 
@@ -7850,17 +7953,17 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
--   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
 -   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
--   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 -   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
+-   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 -   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
+-   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> cde8ee3 2026-10-19 lecture: fix goal test (problemsolving)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f9717b2 2026-10-25 lecture: fix challenge (ab-pruning)<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in Graph-Search-Variante bei endlichem Suchraum
 

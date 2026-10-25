@@ -145,6 +145,29 @@ Eine ähnliche geschlossene Darstellung finden Sie im ([Russell und Norvig 2021,
 >
 > </details>
 
+> [!IMPORTANT]
+>
+> <details open>
+> <summary><strong>🏅 Challenges</strong></summary>
+>
+> **Unvollständiger Spielbaum und Tiefenbeschränkung**
+>
+> Betrachten Sie einen Spielbaum bis Tiefe 3, wobei an manchen Stellen in Tiefe 2 bereits abgebrochen und mit einem Eval-Wert bewertet wird:
+>
+>                             Wurzel (MAX)
+>                         /                  \
+>                  N1 (MIN)                  N2 (MIN)
+>                  /      \                  /      \
+>             N3(MAX)   N4(MAX)         N5(MAX)    N6(MAX)
+>             /   \       |              |        /      \
+>           L1    L2     E1             E2      L3        L4
+>         (+1)   (-1)  (Eval=0.2)   (Eval=-0.5) (+1)    (+1)
+>
+> 1.  Wenden Sie "Minimax mit Tiefenlimit" an.
+> 2.  Wie sähe das Ergebnis aus, wenn weiter gesucht werden könnte und sich E1/E2 anders "auflösen" würden? Welche Rolle spielt hier die Qualität der Bewertungsfunktion?
+>
+> </details>
+
 ------------------------------------------------------------------------
 
 > [!NOTE]
@@ -180,4 +203,4 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 -   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 658467c 2026-10-12 lecture: fix link to image (games heuristics)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 0abbb93 2026-10-25 lecture: add more challenges (heuristics)<br></sub></sup></p></blockquote>
