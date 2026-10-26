@@ -214,7 +214,7 @@ Gedankenexperiment:
 >             L1       L2             L3       L4
 >          (10, 0)   (5, 5)        (0, 10)   (6, 6)
 >
-> `(10, 0)` bedeutet dabei, dass Spieler MAX 10 Punkte gewinnt und Spier MIN 0 Punkte.
+> `(10, 0)` bedeutet dabei, dass Spieler MAX 10 Punkte gewinnt und Spieler MIN 0 Punkte.
 >
 > Wie verhält sich Minimax in diesem Szenario?
 >
@@ -251,4 +251,4 @@ Gedankenexperiment:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 1d12ee1 2026-10-25 lecture: fix challenge (minimax)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 2fd1024 2026-10-26 lecture: fix typos (games2)<br></sub></sup></p></blockquote>
