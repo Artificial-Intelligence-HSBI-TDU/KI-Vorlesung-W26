@@ -6298,6 +6298,8 @@ h(\mathbf{x})
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-network_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-network.png" width="70%" /></picture></p><p align="center">Perzeptron Aufbau und Berechnung</p>
 
+**Hinweis:** Obwohl mathematisch $\text{sgn}(0) = 0$ gilt, setzen wir im Kontext der binären Klassifikation $\text{sgn}(0) = 1$, um ausschließlich die Ausgaben $-1$ und $+1$ zu erhalten.
+
 ####### Lineare Entscheidungsgrenze
 
 -   Das Perzeptron erzeugt eine **lineare Entscheidungsgrenze** im Merkmalraum, die durch die folgende Gleichung definiert ist:
@@ -6329,15 +6331,34 @@ Die **Gewichtsaktualisierung** ist der Ort, wo das Lernen stattfindet.
 
 ###### Nicht-Lineare Entscheidungsgrenze
 
-Um **nicht-lineare Entscheidungsgrenzen** zu ermöglichen, können die Originalmerkmale auf nicht-lineare Weise kombiniert (z. B. $x_1^2$,$x_2^2$, $x_1x_2$, ...) und diese neuen Werte als zusätzliche Merkmale in den Vektor $\mathbf{x}$ aufgenommen werden. Die Hypothesenfunktion bleibt dabei weiterhin **linear in den Gewichten** $w_i$.
+Um **nicht-lineare Entscheidungsgrenzen** zu ermöglichen, können die Originalmerkmale auf nicht-lineare Weise kombiniert (z.B. $x_1^2$, $x_2^2$, $x_1x_2$, ...) und diese neuen Werte als zusätzliche Merkmale in den Vektor $\mathbf{x}$ aufgenommen werden. Die Hypothesenfunktion bleibt dabei weiterhin **linear in den Gewichten** $w_i$.
 
-Im Fall von zwei Merkmalen kann beispielsweise die folgende Hypothesenfunktion verwendet werden:
+Bei zwei Merkmalen ergibt sich durch die Aufnahme quadratischer Terme beispielsweise die folgende Hypothesenfunktion:
 
 $$h(\mathbf{x}) =\text{sgn}(w_0 + w_1x_1 + w_2x_2 + w_3x_1^2 + w_4x_2^2).$$
 
-Durch die Einbeziehung quadratischer Terme lassen sich nichtlineare Entscheidungsgrenzen modellieren, darunter insbesondere kreisförmige Entscheidungsgrenzen der Form
+Damit lassen sich kreisförmige Entscheidungsgrenzen darstellen, wie etwa $x_1^2 + x_2^2 - 4 = 0$:
 
-$$-4 + x_1^2 + x_2^2 = 0.$$
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-circ-boundary_inv.png" /><img src="https://raw.githubusercontent.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/_w26/lecture/nn/images/perceptron-circ-boundary.png" width="50%" /></picture></p><p align="center">Perzeptron Entscheidungsgrenze</p>
+
+###### Alternative Notation
+
+In der Literatur wird die negative Klasse oft mit $0$ statt mit $-1$ kodiert und die Heaviside-Funktion (Einheitssprungfunktion, engl. **u**nit step function) als Aktivierungsfunktion verwendet:
+
+$$h(x) = u(\mathbf{w}^T \mathbf{x}) = \begin{cases}
+1, & \text{wenn } \mathbf{w}^T \mathbf{x} \ge 0, \\
+0, & \text{wenn } \mathbf{w}^T \mathbf{x} < 0
+\end{cases}$$
+
+In diesem Fall lautet die Lernregel für die Gewichtsaktualisierung:
+
+$$\mathbf{w} \leftarrow \mathbf{w} + \alpha (y - \hat{y}) \mathbf{x}$$
+
+> [!TIP]
+>
+> **Hinweis:**
+>
+> Diese Aktualisierungsformel kann sogar immer eingesetzt werden, unabhängig davon, ob die Klassen mit $\lbrace 0, 1 \rbrace$ oder mit $\lbrace -1, 1 \rbrace$ kodiert sind.
 
 > [!NOTE]
 >
@@ -7549,6 +7570,8 @@ Wiederholen Sie das obige Experiment mit unterschiedlichen Lernraten, z.B. $\alp
 
 Sie können das folgende [**Jupyter Notebook**](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/homework/files/logistische_regression_starter.ipynb) als Startpunkt benutzen. Sie können alternativ auch eine andere Programmiersprache und/oder einen anderen Datensatz (z.B. zufällig generierter Datensatz mittels Numpy and Scikit-Learn) verwenden.
 
+**Bemerkung:** Reale Daten enthalten fast immer Rauschen. Dadurch können Daten, die im Idealfall linear separierbar wären, diese Eigenschaft verlieren. Ein logistisches Regressionsmodell lässt sich trotzdem mit dem Gradientenabstiegsverfahren darauf trainieren. Das Training wird beendet, sobald eine festgelegte Anzahl an Iterationen erreicht ist oder die Kosten über mehrere Iterationen hinweg nicht mehr sinken.
+
 *Thema*: Verständnis und Implementierung Logistische Regression
 
 <a id="id-cba17b43f628a8fbf19e217d186183ebcd63bad5"></a>
@@ -7953,17 +7976,17 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
 -   [AvB - RoboCup 2013 - Eindhoven](https://www.flickr.com/photos/80267257@N05/10151827605) by [RoboCup2013](https://www.flickr.com/photos/80267257@N05) on Flickr.com ([CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=rich))
--   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
--   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
--   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
--   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
 -   [MapGermanyGraph.svg](https://commons.wikimedia.org/wiki/File:MapGermanyGraph.svg) by [Regnaron](https://de.wikipedia.org/wiki/Benutzer:Regnaron) and [Jahobr](https://commons.wikimedia.org/wiki/User:Jahobr) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   ["künstliche intelligenz"](https://pixabay.com/de/illustrations/k%c3%bcnstliche-intelligenz-netzwerk-3706562/) by [Gerd Altmann (geralt)](https://pixabay.com/de/users/geralt-9301/) on Pixabay.com ([Pixabay License](https://pixabay.com/de/service/license/))
+-   [Backgammon lg.png](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png) by [Ptkfgs](https://commons.wikimedia.org/wiki/User:Ptkfgs) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   ["Intelligenz"](https://de.wikipedia.org/wiki/Intelligenz) by [Cumtempore](https://de.wikipedia.org/wiki/Benutzer:Cumtempore) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Intelligenz?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   [Photo Evolution](https://unsplash.com/photos/aWDgqexSxA0) by [Johannes Plenio](https://unsplash.com/@jplenio) on Unsplash.com ([Unsplash License](https://unsplash.com/license))
+-   ["Kognition"](https://de.wikipedia.org/wiki/Kognition) by [Arbraxan](https://de.wikipedia.org/wiki/User:Arbraxan) and [others](https://xtools.wmflabs.org/articleinfo-authorship/de.wikipedia.org/Kognition?uselang=de) on Wikipedia ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode))
+-   [Turing Test version 3.png](https://commons.wikimedia.org/wiki/File:Turing_Test_version_3.png) by [Bilby](https://commons.wikimedia.org/wiki/User:Bilby) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/en:public_domain))
+-   ["Exp e.svg"](https://commons.wikimedia.org/wiki/File:Exp_e.svg) by Marcel Marnitz, reworked by [Georg-Johann](https://commons.wikimedia.org/wiki/User:Georg-Johann) on Wikimedia Commons ([Public Domain](https://en.wikipedia.org/wiki/Public_domain))
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 2fd1024 2026-10-26 lecture: fix typos (games2)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 3af74e1 2026-11-08 nn1: add gh-alert to highlight tips<br></sub></sup></p></blockquote>
 
 [^1]: gilt für Tree-Search-Variante; vollständig in Graph-Search-Variante bei endlichem Suchraum
 

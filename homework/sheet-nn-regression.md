@@ -40,6 +40,8 @@ Wiederholen Sie das obige Experiment mit unterschiedlichen Lernraten, z.B. $\alp
 
 Sie können das folgende [**Jupyter Notebook**](https://github.com/Artificial-Intelligence-HSBI-TDU/KI-Vorlesung/blob/master/homework/files/logistische_regression_starter.ipynb) als Startpunkt benutzen. Sie können alternativ auch eine andere Programmiersprache und/oder einen anderen Datensatz (z.B. zufällig generierter Datensatz mittels Numpy and Scikit-Learn) verwenden.
 
+**Bemerkung:** Reale Daten enthalten fast immer Rauschen. Dadurch können Daten, die im Idealfall linear separierbar wären, diese Eigenschaft verlieren. Ein logistisches Regressionsmodell lässt sich trotzdem mit dem Gradientenabstiegsverfahren darauf trainieren. Das Training wird beendet, sobald eine festgelegte Anzahl an Iterationen erreicht ist oder die Kosten über mehrere Iterationen hinweg nicht mehr sinken.
+
 *Thema*: Verständnis und Implementierung Logistische Regression
 
 ------------------------------------------------------------------------
@@ -48,4 +50,4 @@ Sie können das folgende [**Jupyter Notebook**](https://github.com/Artificial-In
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> c923007 2026-09-04 markdown: reformat<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d486ccc 2026-11-08 homework: reformat markdown<br></sub></sup></p></blockquote>
